@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rezept</title>
+  <script src="js/tialwind_3.4.17.js"></script>
+  <style>
+    @media (max-width: 420px) {
+      html { font-size: 14px; }
+    }
+  </style>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+  <header class="bg-white shadow-sm sticky top-0 z-20">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="index.html" class="text-sm font-medium text-gray-700 hover:text-gray-900">← Zurück</a>
+      <div class="flex items-center gap-2">
+        <a id="editLink"
+           class="px-3 py-1.5 rounded-lg bg-gray-200 hover:bg-gray-300 text-sm"
+           href="#">
+          Bearbeiten
+        </a>
+        <button id="btnToggleMode"
+          class="px-3 py-1.5 rounded-lg bg-gray-900 text-white hover:bg-gray-800 text-sm">
+          Pantry bearbeiten
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-6">
+    <div id="errorBox" class="hidden mb-5 p-4 rounded-2xl bg-red-50 border border-red-200 text-sm text-red-800"></div>
+    <div id="content"></div>
+  </main>
+
+  <!-- Loading Spinner -->
+  <div id="loadingOverlay" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white rounded-2xl p-8 text-center shadow-xl">
+      <div class="inline-block mb-4">
+        <div class="w-12 h-12 border-4 border-gray-300 border-t-blue-600 rounded-full animate-spin"></div>
+      </div>
+      <div id="loadingProgress" class="text-gray-700">Rezept wird geladen...</div>
+    </div>
+  </div>
+
+  <script type="module">
+    import {
+      getRecipeFromCache,
+      getRecipeImageUrl,
+      isAuthenticated,
+      showError,
+      hideError,
+      showLoading,
+      hideLoading,
+      normalizeIngredient,
+      shouldIgnoreIngredient,
+      escapeHtml,
+      getUrlParam
+    } from "./js/core/shared.js";
+    import { loadSelected, saveSelected } from "./js/storage/local.js";
+
+    const STORAGE_KEY = "pantry_selected_v1";
+    let pantryEdit = false;
+
+    function fmtIngredient(i) {
+      const qty = [i.amount, i.unit].filter(v => v !== null && v !== undefined && v !== "").join(" ");
+      const opt = i.optional ? " (optional)" : "";
+      const note = i.note ? ` – ${escapeHtml(i.note)}` : "";
+      return `${qty ? qty + " " : ""}${escapeHtml(i.name)}${opt}${note}`;
+    }
+
+    async function render(recipe) {
+      const selected = loadSelected();
+
+      const groups = new Map();
+      for (const ing of recipe.ingredients || []) {
+        if (!ing || !ing.name) continue;
+        if (shouldIgnoreIngredient(ing.name)) continue;
+
+        const section = ing.section || "Zutaten";
+        if (!groups.has(section)) groups.set(section, []);
+        groups.get(section).push(ing);
+      }
+
+      // Bild von Cache laden
+      const imgSrc = await getRecipeImageUrl(recipe.id);
+
+      document.getElementById("content").innerHTML = `
+        <div class="bg-white rounded-2xl shadow-sm overflow-hidden">
+          <img src="${imgSrc}" class="w-full h-48 object-cover" alt="${escapeHtml(recipe.title)}" />
+
+          <div class="p-6">
+            <h1 class="text-2xl font-semibold">${escapeHtml(recipe.title)}</h1>
+            <p class="text-gray-700 mt-2">${escapeHtml(recipe.description || "")}</p>
+
+            <div class="mt-6 grid gap-6 lg:grid-cols-2">
+              <section class="bg-gray-50 rounded-2xl p-4 border">
+                <h2 class="text-lg font-semibold mb-3">Zutaten</h2>
+                <ul id="ingredientsList" class="space-y-2"></ul>
+              </section>
+
+              <section class="bg-white rounded-2xl p-4 border">
+                <h2 class="text-lg font-semibold mb-3">Zubereitung</h2>
+                <ol class="space-y-3">
+                  ${(recipe.steps || []).map((s,i)=>`
+                    <li class="flex gap-3 items-start">
+                      <div class="w-7 h-7 rounded-full bg-gray-900 text-white flex items-center justify-center text-xs" style="min-width: 30px;">${i+1}</div>
+                      <div>
+                        ${s.title ? `<div class="font-medium">${escapeHtml(s.title)}</div>` : ""}
+                        <div class="text-gray-700">${escapeHtml(s.text || "")}</div>
+                      </div>
+                    </li>`).join("")}
+                </ol>
+              </section>
+            </div>
+          </div>
+        </div>
+      `;
+
+      const ul = document.getElementById("ingredientsList");
+      ul.innerHTML = "";
+
+      for (const [section, items] of groups) {
+        const h = document.createElement("li");
+        h.innerHTML = `<div class="text-xs font-semibold uppercase text-gray-600 pt-2">${escapeHtml(section)}</div>`;
+        ul.appendChild(h);
+
+        for (const ing of items) {
+          const key = normalizeIngredient(ing.name);
+          const have = selected.has(key);
+
+          const li = document.createElement("li");
+          li.className =
+            "flex justify-between items-center p-2 rounded-lg border " +
+            (have ? "bg-green-50 border-green-200" : "bg-red-50 border-red-200");
+
+          li.innerHTML = `
+            <span class="text-sm">${fmtIngredient(ing)}</span>
+            <span class="text-xs">${have ? "✔" : "✖"}</span>
+          `;
+
+          if (pantryEdit) {
+            li.classList.add("cursor-pointer");
+            li.onclick = () => {
+              const sel = loadSelected();
+              if (sel.has(key)) sel.delete(key);
+              else sel.add(key);
+              saveSelected(sel);
+              render(recipe);
+            };
+          }
+
+          ul.appendChild(li);
+        }
+      }
+    }
+
+    document.getElementById("btnToggleMode").onclick = () => {
+      pantryEdit = !pantryEdit;
+      document.getElementById("btnToggleMode").textContent =
+        pantryEdit ? "Pantry fertig" : "Pantry bearbeiten";
+      boot();
+    };
+
+    async function boot() {
+      try {
+        if (!isAuthenticated()) {
+          throw new Error("Nicht authentifiziert. Bitte in index.html anmelden.");
+        }
+
+        showLoading("Rezept wird geladen...");
+        
+        const recipeId = getUrlParam("id");
+        if (!recipeId) throw new Error("Keine Rezept-ID in URL");
+
+        const recipe = await getRecipeFromCache(recipeId);
+        if (!recipe) throw new Error("Rezept nicht gefunden");
+
+        const elEditLink = document.getElementById("editLink");
+        elEditLink.href = `edit.html?id=${encodeURIComponent(recipeId)}`;
+
+        // Normalisieren falls nötig
+        const sel = loadSelected();
+        saveSelected(sel);
+
+        await render(recipe);
+        hideLoading();
+      } catch (e) {
+        hideLoading();
+        showError(`❌ ${e.message}`);
+        console.error(e);
+      }
+    }
+
+    boot();
+  </script>
+</body>
+</html>

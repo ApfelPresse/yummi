@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rezept bearbeiten</title>
+  <script src="js/tialwind_3.4.17.js"></script>
+  <style>
+    @media (max-width: 420px) { html { font-size: 14px; } }
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+  </style>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+  <header class="bg-white shadow-sm sticky top-0 z-20">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between gap-3">
+      <a id="backLink" href="index.html" class="text-sm font-medium text-gray-700 hover:text-gray-900">← Zurück</a>
+      <div class="text-sm text-gray-600" id="headerTitle">Neues Rezept</div>
+      <div class="flex items-center gap-2">
+        <button id="btnSave"
+          class="px-3 py-1.5 rounded-lg bg-blue-600 text-white hover:bg-blue-700 text-sm font-medium">
+          Speichern
+        </button>
+        <button id="btnDelete"
+          class="px-3 py-1.5 rounded-lg bg-red-600 text-white hover:bg-red-700 text-sm">
+          Löschen
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-4 py-6">
+    <div id="errorBox" class="hidden mb-5 p-4 rounded-2xl bg-red-50 border border-red-200 text-sm text-red-800"></div>
+    <div id="okBox" class="hidden mb-5 p-4 rounded-2xl bg-green-50 border border-green-200 text-sm text-green-800"></div>
+
+    <div class="grid gap-6 lg:grid-cols-3">
+      <!-- Editor -->
+      <section class="lg:col-span-2 bg-white rounded-2xl shadow-sm border border-gray-200">
+        <div class="p-5 border-b border-gray-200">
+          <h1 class="text-lg font-semibold">Rezept-Editor</h1>
+        </div>
+
+        <div class="p-5 space-y-4">
+          <!-- Basis-Infos -->
+          <fieldset class="grid gap-3">
+            <legend class="text-sm font-semibold text-gray-700 mb-2">Basis-Informationen</legend>
+            
+            <div>
+              <label for="f_id" class="block text-xs font-medium text-gray-700 mb-1">Rezept-ID *</label>
+              <input id="f_id" type="text" placeholder="z.B. pasta_bolognese"
+                class="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm" />
+              <p class="text-xs text-gray-500 mt-1">Nur Buchstaben, Zahlen, Unterstriche (eindeutig!)</p>
+            </div>
+
+            <div>
+              <label for="f_title" class="block text-xs font-medium text-gray-700 mb-1">Titel *</label>
+              <input id="f_title" type="text" placeholder="z.B. Pasta Bolognese"
+                class="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm" />
+            </div>
+
+            <div>
+              <label for="f_category" class="block text-xs font-medium text-gray-700 mb-1">Kategorie</label>
+              <input id="f_category" type="text" placeholder="z.B. Pasta, Hauptgericht"
+                class="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm" />
+            </div>
+
+            <div>
+              <label for="f_description" class="block text-xs font-medium text-gray-700 mb-1">Beschreibung</label>
+              <textarea id="f_description" rows="2" placeholder="Kurze Beschreibung..."
+                class="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm"></textarea>
+            </div>
+          </fieldset>
+
+          <hr class="my-4" />
+
+          <!-- Zutaten -->
+          <fieldset class="space-y-3">
+            <div class="flex items-center justify-between">
+              <legend class="text-sm font-semibold text-gray-700">Zutaten</legend>
+              <button id="btnAddIngredient" type="button"
+                class="px-2 py-1 rounded text-xs bg-gray-200 hover:bg-gray-300">
+                + Zutat
+              </button>
+            </div>
+            <div id="ingredientsList" class="space-y-2"></div>
+          </fieldset>
+
+          <hr class="my-4" />
+
+          <!-- Schritte -->
+          <fieldset class="space-y-3">
+            <div class="flex items-center justify-between">
+              <legend class="text-sm font-semibold text-gray-700">Zubereitung</legend>
+              <button id="btnAddStep" type="button"
+                class="px-2 py-1 rounded text-xs bg-gray-200 hover:bg-gray-300">
+                + Schritt
+              </button>
+            </div>
+            <div id="stepsList" class="space-y-2"></div>
+          </fieldset>
+        </div>
+      </section>
+
+      <!-- Preview / Vorschau -->
+      <section class="bg-white rounded-2xl shadow-sm border border-gray-200">
+        <div class="p-5 border-b border-gray-200">
+          <h2 class="text-lg font-semibold">Vorschau</h2>
+        </div>
+        <div id="previewContent" class="p-5">
+          <div class="text-sm text-gray-500 text-center py-8">Füllen Sie zuerst Titel aus...</div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script type="module">
+    import {
+      getRecipeFromCache,
+      isAuthenticated,
+      showError,
+      hideError,
+      showLoading,
+      hideLoading,
+      escapeHtml,
+      getUrlParam,
+      getRecipeImageUrl
+    } from "./js/core/shared.js";
+    import { loadCreds, put } from "./js/dav/webdav.js";
+    import { APP } from "./js/core/config.js";
+    import { saveRecipeToCache, saveMetadata, deleteRecipeFromCache, deleteMetadata, deleteImageFromCache } from "./js/storage/db.js";
+
+    // ===== State =====
+    let model = {
+      id: "",
+      title: "",
+      category: "",
+      description: "",
+      ingredients: [],
+      steps: []
+    };
+    let isNewMode = true;
+    let creds = null;
+
+    // ===== DOM =====
+    const f_id = document.getElementById("f_id");
+    const f_title = document.getElementById("f_title");
+    const f_category = document.getElementById("f_category");
+    const f_description = document.getElementById("f_description");
+    const ingredientsList = document.getElementById("ingredientsList");
+    const stepsList = document.getElementById("stepsList");
+    const btnSave = document.getElementById("btnSave");
+    const btnDelete = document.getElementById("btnDelete");
+    const backLink = document.getElementById("backLink");
+    const headerTitle = document.getElementById("headerTitle");
+    const errorBox = document.getElementById("errorBox");
+    const okBox = document.getElementById("okBox");
+
+    // ===== Helpers =====
+    function showMsg(text, isError = true) {
+      if (isError) {
+        errorBox.textContent = text;
+        errorBox.classList.remove("hidden");
+        okBox.classList.add("hidden");
+      } else {
+        okBox.textContent = text;
+        okBox.classList.remove("hidden");
+        errorBox.classList.add("hidden");
+      }
+    }
+
+    function updateCounters() {
+      // updatePreview() aufrufen um die Vorschau zu aktualisieren
+      updatePreview();
+    }
+
+    async function updatePreview() {
+      const previewContent = document.getElementById("previewContent");
+      
+      if (!model.title) {
+        previewContent.innerHTML = '<div class="text-sm text-gray-500 text-center py-8">Füllen Sie zuerst Titel aus...</div>';
+        return;
+      }
+
+      // Zutaten nach Kategorien gruppieren
+      const groups = new Map();
+      for (const ing of model.ingredients || []) {
+        if (!ing || !ing.name) continue;
+        const section = ing.section || "Zutaten";
+        if (!groups.has(section)) groups.set(section, []);
+        groups.get(section).push(ing);
+      }
+
+      // Bild laden (echtes Bild oder Placeholder)
+      let imgSrc = `data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200'%3E%3Crect fill='%23374151' width='400' height='200'/%3E%3Ctext x='200' y='100' font-family='system-ui' font-size='16' fill='%23fff' text-anchor='middle' dy='.3em'%3ERezept-Bild%3C/text%3E%3C/svg%3E`;
+      
+      // Bei Bearbeitung: echtes Bild aus Cache laden
+      if (!isNewMode && model.id) {
+        try {
+          imgSrc = await getRecipeImageUrl(model.id);
+        } catch (err) {
+          console.warn("Bild konnte nicht geladen werden:", err);
+        }
+      }
+
+      let ingredientsHtml = '';
+      for (const [section, items] of groups) {
+        ingredientsHtml += `<div class="text-xs font-semibold uppercase text-gray-600 pt-2">${escapeHtml(section)}</div>`;
+        for (const ing of items) {
+          const qty = [ing.amount, ing.unit].filter(v => v !== null && v !== undefined && v !== "").join(" ");
+          const ingText = `${qty ? qty + " " : ""}${escapeHtml(ing.name || "")}`.trim();
+          ingredientsHtml += `<li class="text-sm text-gray-700 flex justify-between"><span>${ingText}</span></li>`;
+        }
+      }
+
+      const stepsHtml = (model.steps || [])
+        .map((s, i) => `
+          <li class="flex gap-3 items-start">
+            <div class="w-6 h-6 rounded-full bg-gray-900 text-white flex items-center justify-center text-xs flex-shrink-0 font-medium">${i + 1}</div>
+            <div>
+              ${s.title ? `<div class="font-medium text-sm">${escapeHtml(s.title)}</div>` : ""}
+              <div class="text-sm text-gray-700">${escapeHtml(s.text || "")}</div>
+            </div>
+          </li>
+        `)
+        .join("");
+
+      previewContent.innerHTML = `
+        <div class="space-y-4">
+          <div>
+            <img src="${imgSrc}" class="w-full h-40 object-cover rounded-lg" alt="${escapeHtml(model.title)}" />
+          </div>
+          <div>
+            <h3 class="text-xl font-semibold">${escapeHtml(model.title)}</h3>
+            ${model.description ? `<p class="text-sm text-gray-600 mt-1">${escapeHtml(model.description)}</p>` : ""}
+            ${model.category ? `<div class="text-xs text-gray-500 mt-2">📂 ${escapeHtml(model.category)}</div>` : ""}
+          </div>
+
+          ${ingredientsHtml ? `
+            <div>
+              <h4 class="font-semibold text-sm mb-2">Zutaten (${model.ingredients.length})</h4>
+              <ul class="text-sm space-y-1">${ingredientsHtml}</ul>
+            </div>
+          ` : ""}
+
+          ${stepsHtml ? `
+            <div>
+              <h4 class="font-semibold text-sm mb-2">Zubereitung (${model.steps.length})</h4>
+              <ol class="space-y-2">${stepsHtml}</ol>
+            </div>
+          ` : ""}
+        </div>
+      `;
+    }
+
+    function readFormIntoModel() {
+      model.id = (f_id.value || "").trim();
+      model.title = (f_title.value || "").trim();
+      model.category = (f_category.value || "").trim();
+      model.description = (f_description.value || "").trim();
+    }
+
+    function fillFormFromModel() {
+      f_id.value = model.id || "";
+      f_title.value = model.title || "";
+      f_category.value = model.category || "";
+      f_description.value = model.description || "";
+    }
+
+    function validateModel() {
+      if (!model.id) return "Rezept-ID ist erforderlich";
+      if (!model.title) return "Titel ist erforderlich";
+      if (!/^[a-z0-9_]+$/.test(model.id)) return "ID: Nur Kleinbuchstaben, Zahlen, Unterstriche";
+      return null;
+    }
+
+    // ===== Zutaten-Editor =====
+    function renderIngredients() {
+      ingredientsList.innerHTML = "";
+      model.ingredients.forEach((ing, idx) => {
+        const div = document.createElement("div");
+        div.className = "bg-gray-50 border border-gray-200 rounded-lg p-3 space-y-2";
+        div.innerHTML = `
+          <div class="flex items-end gap-2 text-sm">
+            <input class="ing-name flex-1 rounded border border-gray-300 px-2 py-1"
+              placeholder="Zutat" value="${escapeHtml(ing.name || '')}" data-idx="${idx}" />
+            <input class="ing-amount w-20 rounded border border-gray-300 px-2 py-1"
+              type="number" step="any" placeholder="Menge" value="${ing.amount || ''}" data-idx="${idx}" />
+            <input class="ing-unit w-16 rounded border border-gray-300 px-2 py-1"
+              placeholder="g/ml" value="${escapeHtml(ing.unit || '')}" data-idx="${idx}" />
+            <button class="ing-del px-2 py-1 text-red-600 hover:text-red-800 text-xs" data-idx="${idx}">
+              ✕
+            </button>
+          </div>
+        `;
+        ingredientsList.appendChild(div);
+      });
+
+      // Event-Listener
+      ingredientsList.querySelectorAll(".ing-name").forEach(el => {
+        el.addEventListener("input", (e) => {
+          const idx = Number(e.target.dataset.idx);
+          model.ingredients[idx].name = e.target.value.trim();
+        });
+      });
+
+      ingredientsList.querySelectorAll(".ing-amount").forEach(el => {
+        el.addEventListener("input", (e) => {
+          const idx = Number(e.target.dataset.idx);
+          model.ingredients[idx].amount = e.target.value ? Number(e.target.value) : null;
+        });
+      });
+
+      ingredientsList.querySelectorAll(".ing-unit").forEach(el => {
+        el.addEventListener("input", (e) => {
+          const idx = Number(e.target.dataset.idx);
+          model.ingredients[idx].unit = e.target.value.trim() || null;
+        });
+      });
+
+      ingredientsList.querySelectorAll(".ing-del").forEach(el => {
+        el.addEventListener("click", (e) => {
+          const idx = Number(e.target.dataset.idx);
+          model.ingredients.splice(idx, 1);
+          renderIngredients();
+          updateCounters();
+        });
+      });
+
+      updateCounters();
+    }
+
+    function addIngredient() {
+      model.ingredients.push({ name: "", amount: null, unit: null });
+      renderIngredients();
+    }
+
+    // ===== Schritte-Editor =====
+    function renderSteps() {
+      stepsList.innerHTML = "";
+      model.steps.forEach((step, idx) => {
+        const div = document.createElement("div");
+        div.className = "bg-gray-50 border border-gray-200 rounded-lg p-3 space-y-2";
+        div.innerHTML = `
+          <div class="flex items-center justify-between text-xs font-medium text-gray-700">
+            <span>Schritt ${idx + 1}</span>
+            <button class="step-del text-red-600 hover:text-red-800" data-idx="${idx}">Löschen</button>
+          </div>
+          <input class="step-title w-full rounded border border-gray-300 px-2 py-1 text-sm"
+            placeholder="Titel (optional)" value="${escapeHtml(step.title || '')}" data-idx="${idx}" />
+          <textarea class="step-text w-full rounded border border-gray-300 px-2 py-1 text-sm" rows="2"
+            placeholder="Beschreibung..." data-idx="${idx}">${escapeHtml(step.text || '')}</textarea>
+        `;
+        stepsList.appendChild(div);
+      });
+
+      // Event-Listener
+      stepsList.querySelectorAll(".step-title").forEach(el => {
+        el.addEventListener("input", (e) => {
+          const idx = Number(e.target.dataset.idx);
+          model.steps[idx].title = e.target.value.trim() || null;
+        });
+      });
+
+      stepsList.querySelectorAll(".step-text").forEach(el => {
+        el.addEventListener("input", (e) => {
+          const idx = Number(e.target.dataset.idx);
+          model.steps[idx].text = e.target.value;
+        });
+      });
+
+      stepsList.querySelectorAll(".step-del").forEach(el => {
+        el.addEventListener("click", (e) => {
+          const idx = Number(e.target.dataset.idx);
+          model.steps.splice(idx, 1);
+          renderSteps();
+          updateCounters();
+        });
+      });
+
+      updateCounters();
+    }
+
+    function addStep() {
+      model.steps.push({ title: null, text: "" });
+      renderSteps();
+    }
+
+    // ===== Speichern zu Nextcloud =====
+    async function saveToNextcloud() {
+      try {
+        readFormIntoModel();
+
+        const err = validateModel();
+        if (err) {
+          showMsg("❌ " + err, true);
+          return;
+        }
+
+        showLoading("Speichert zu Nextcloud...");
+
+        // PUT Rezept über webdav.js
+        const recipeJson = JSON.stringify(model);
+        const response = await put(
+          `${creds.baseUrl}/remote.php/dav/files/${creds.user}/${creds.folder}recipes/${model.id}.json`,
+          creds,
+          recipeJson,
+          { "Content-Type": "application/json" }
+        );
+
+        // Auch in IndexedDB speichern (offline-first cache)
+        await saveRecipeToCache(model);
+        await saveMetadata(model.id + ".json", {
+          etag: response.headers?.get("ETag") || null,
+          lastModified: new Date().toISOString()
+        });
+
+        hideLoading();
+        showMsg(`✅ Rezept "${model.title}" gespeichert!`, false);
+
+        // Nach 1.5s zurück
+        setTimeout(() => {
+          if (model.id) {
+            window.location.href = `recipe.html?id=${encodeURIComponent(model.id)}`;
+          } else {
+            window.location.href = "index.html";
+          }
+        }, 1500);
+      } catch (err) {
+        hideLoading();
+        showMsg(`❌ Fehler: ${err.message}`, true);
+        console.error(err);
+      }
+    }
+
+    // ===== Löschen =====
+    async function deleteRecipe() {
+      if (!model.id) {
+        showMsg("❌ Keine Rezept-ID", true);
+        return;
+      }
+
+      const ok = confirm(`Rezept "${model.title || model.id}" wirklich löschen?`);
+      if (!ok) return;
+
+      try {
+        showLoading("Löscht Rezept...");
+
+        const baseFolder = `${creds.baseUrl}/remote.php/dav/files/${creds.user}/`;
+        const recipeUrl = `${baseFolder}${creds.folder}recipes/${model.id}.json`;
+
+        const response = await fetch(recipeUrl, {
+          method: "DELETE",
+          headers: {
+            "Authorization": `Basic ${btoa(`${creds.user}:${creds.pass}`)}`
+          }
+        });
+
+        if (!response.ok && response.status !== 404) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+
+        // Auch aus Cache entfernen (Rezept, Metadaten, Bild)
+        await deleteRecipeFromCache(model.id);
+        await deleteMetadata(model.id + ".json");
+        await deleteImageFromCache(model.id);
+
+        hideLoading();
+        showMsg(`✅ Rezept gelöscht!`, false);
+
+        setTimeout(() => {
+          window.location.href = "index.html";
+        }, 1000);
+      } catch (err) {
+        hideLoading();
+        showMsg(`❌ Fehler beim Löschen: ${err.message}`, true);
+      }
+    }
+
+    // ===== Boot =====
+    async function boot() {
+      try {
+        if (!isAuthenticated()) {
+          throw new Error("Nicht authentifiziert. Melde dich in index.html an.");
+        }
+
+        creds = loadCreds();
+        if (!creds) throw new Error("Keine Credentials gefunden");
+
+        const recipeId = getUrlParam("id");
+        const newMode = getUrlParam("new") === "1";
+
+        if (newMode) {
+          // Neues Rezept
+          isNewMode = true;
+          model = {
+            id: "",
+            title: "",
+            category: "",
+            description: "",
+            ingredients: [],
+            steps: []
+          };
+          headerTitle.textContent = "Neues Rezept";
+          btnDelete.classList.add("hidden");
+          backLink.href = "index.html";
+        } else if (recipeId) {
+          // Existierendes Rezept bearbeiten
+          isNewMode = false;
+          const recipe = await getRecipeFromCache(recipeId);
+          if (!recipe) throw new Error(`Rezept #${recipeId} nicht gefunden`);
+
+          model = { ...recipe };
+          headerTitle.textContent = `Bearbeiten: ${model.title}`;
+          backLink.href = `recipe.html?id=${encodeURIComponent(recipeId)}`;
+        } else {
+          throw new Error("Weder ?id= noch ?new=1 in URL");
+        }
+
+        fillFormFromModel();
+        renderIngredients();
+        renderSteps();
+        updateCounters();
+      } catch (err) {
+        showMsg(`❌ ${err.message}`, true);
+        console.error(err);
+      }
+    }
+
+    // ===== Event-Listener =====
+    btnSave.addEventListener("click", saveToNextcloud);
+    btnDelete.addEventListener("click", deleteRecipe);
+    document.getElementById("btnAddIngredient").addEventListener("click", addIngredient);
+    document.getElementById("btnAddStep").addEventListener("click", addStep);
+
+    // Auto-save zu Model während Typing
+    f_id.addEventListener("input", () => { readFormIntoModel(); });
+    f_title.addEventListener("input", () => { readFormIntoModel(); updatePreview(); });
+    f_category.addEventListener("input", () => { readFormIntoModel(); updatePreview(); });
+    f_description.addEventListener("input", () => { readFormIntoModel(); updatePreview(); });
+
+    boot();
+  </script>
+</body>
+</html>

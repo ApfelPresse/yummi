@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rezepte</title>
+  <script src="/js/tialwind_3.4.17.js"></script>
+
+  <style>
+    /* Mobile kompakter (ähnlich wie dein "70% Zoom", aber sauber & stabil) */
+    @media (max-width: 420px) {
+      html { font-size: 14px; }
+    }
+
+    /* Loading Spinner */
+    .spinner {
+      border: 4px solid rgba(59, 130, 246, 0.1);
+      border-top: 4px solid rgb(59, 130, 246);
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- AUTH OVERLAY (wird angezeigt, wenn keine Credentials vorliegen) -->
+  <div id="authOverlay" class="hidden fixed inset-0 z-50">
+    <div class="absolute inset-0 bg-black/40"></div>
+
+    <div class="relative min-h-full flex items-center justify-center p-4">
+      <div class="w-full max-w-lg bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden">
+        <div class="px-5 py-4 border-b border-gray-200">
+          <div class="text-lg font-semibold">Nextcloud verbinden</div>
+          <div class="text-sm text-gray-600 mt-1">
+            Ohne Login werden keine Rezepte geladen.
+          </div>
+        </div>
+
+        <div class="p-5 space-y-3">
+          <label class="block">
+            <div class="text-sm font-medium text-gray-700">Server-URL (Nextcloud oder Proxy)</div>
+            <input id="authBaseUrl" placeholder="https://…"
+                   class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm" />
+          </label>
+
+          <label class="block">
+            <div class="text-sm font-medium text-gray-700">Benutzername</div>
+            <input id="authUser" autocomplete="username"
+                   class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm" />
+          </label>
+
+          <label class="block">
+            <div class="text-sm font-medium text-gray-700">App-Passwort</div>
+            <input id="authPass" type="password" autocomplete="current-password"
+                   class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm" />
+          </label>
+
+          <label class="block">
+            <div class="text-sm font-medium text-gray-700">Ordner (relativ im User-Verzeichnis)</div>
+            <input id="authFolder" placeholder="RezeptApp/"
+                   class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm" />
+            <div class="text-xs text-gray-500 mt-1">
+              Erwartet z.B. <span class="font-mono">RezeptApp/recipes/*.json</span>
+            </div>
+          </label>
+
+          <label class="inline-flex items-center gap-2 text-sm text-gray-700">
+            <input id="authRemember" type="checkbox" class="h-4 w-4" checked />
+            Zugangsdaten im Browser speichern (localStorage)
+          </label>
+
+          <div class="flex flex-wrap gap-2 pt-1">
+            <button id="authSaveGo"
+              class="px-3 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 text-sm">
+              Speichern & Laden
+            </button>
+
+            <button id="authTest"
+              class="px-3 py-2 rounded-lg bg-gray-900 text-white hover:bg-gray-800 text-sm">
+              Test (status.php)
+            </button>
+
+            <button id="authClear"
+              class="px-3 py-2 rounded-lg bg-gray-200 hover:bg-gray-300 text-sm">
+              Zurücksetzen
+            </button>
+          </div>
+
+          <div id="authLog" class="mt-3 text-xs text-gray-700 whitespace-pre-wrap"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky App-Bar: nur Kategorie + Rezeptsuche (bleibt oben) -->
+  <header class="bg-white shadow-sm sticky top-0 z-20">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center gap-2">
+      <select id="categorySelect" class="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm">
+        <option value="alle">Alle Kategorien</option>
+      </select>
+
+      <input id="searchInput" type="search" placeholder="Rezepte suchen…"
+             class="flex-1 rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm" />
+    </div>
+
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center gap-2">
+      <button id="btnNewRecipe"
+        class="px-3 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 text-sm">
+        + Neues Rezept
+      </button>
+
+      <!-- optional: kleiner Login/Logout Button (kann in JS belegt werden) -->
+      <button id="btnAuth"
+        class="ml-auto px-3 py-2 rounded-lg bg-gray-200 hover:bg-gray-300 text-sm">
+        Login
+      </button>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-5">
+    <!-- Zutaten Panel (scrollt mit, nicht sticky) -->
+    <section class="mb-4 bg-white rounded-2xl shadow-sm border border-gray-200">
+      <div class="p-4">
+        <div class="flex flex-wrap items-center gap-2">
+          <div class="text-sm text-gray-700 font-medium">Zutaten</div>
+
+          <button id="btnAll"
+            class="ml-auto px-3 py-1.5 rounded-full text-sm bg-gray-900 text-white hover:bg-gray-800">
+            Alle
+          </button>
+          <button id="btnNone"
+            class="px-3 py-1.5 rounded-full text-sm bg-gray-200 hover:bg-gray-300">
+            Keine
+          </button>
+
+          <div class="text-xs text-gray-600">
+            Ausgewählt: <span id="selectedCount">0</span>/<span id="totalCount">0</span>
+          </div>
+        </div>
+
+        <!-- Zutaten-Suche -->
+        <div class="mt-3">
+          <input id="ingredientSearch" type="search" placeholder="Zutaten suchen…"
+                 class="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm" />
+        </div>
+
+        <!-- Optional: kleiner Toggle, um die Liste klein zu halten -->
+        <div class="mt-3 flex items-center gap-2">
+          <input id="onlySelectedToggle" type="checkbox" class="h-4 w-4" />
+          <label for="onlySelectedToggle" class="text-sm text-gray-700">Nur ausgewählte anzeigen</label>
+        </div>
+
+        <div id="ingredientChips" class="mt-3 flex flex-wrap gap-2"></div>
+      </div>
+    </section>
+
+    <!-- Infozeile -->
+    <div class="flex items-center justify-between mb-4">
+      <div class="text-sm text-gray-700">
+        Sortierung: <span class="font-medium">Beste Übereinstimmung</span>
+      </div>
+      <div id="resultInfo" class="text-sm text-gray-600"></div>
+    </div>
+
+    <!-- Fehlerbox -->
+    <div id="errorBox" class="hidden mb-5 p-4 rounded-2xl bg-red-50 border border-red-200 text-sm text-red-800"></div>
+
+    <!-- Rezepte -->
+    <div id="recipeList" class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"></div>
+  </main>
+
+  <!-- Loading Overlay -->
+  <div id="loadingOverlay" class="hidden fixed inset-0 z-50 bg-black/40 backdrop-blur-sm">
+    <div class="absolute inset-0 flex flex-col items-center justify-center gap-4">
+      <div class="spinner"></div>
+      <div class="text-white text-lg font-medium">Rezepte werden geladen...</div>
+      <div id="loadingProgress" class="text-white/80 text-sm"></div>
+    </div>
+  </div>
+
+  <!-- Deine Logik ist jetzt in mehrere JS-Dateien ausgelagert (App-Shell bleibt gleich) -->
+  <script type="module" src="/js/recipes/app.js"></script>
+</body>
+</html>
+
