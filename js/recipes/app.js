@@ -93,6 +93,9 @@ function makeIgnoreChip(item) {
   btn.textContent = item.label;
   btn.onclick = async () => {
     console.log('[DEBUG] Ignore chip clicked:', item.label, 'key:', item.key);
+    
+    showLoading("Bitte warten...");
+    
     if (ignoredSet.has(item.key)) {
       ignoredSet.delete(item.key);
       console.log('[DEBUG] Removed from ignoredSet:', item.key);
@@ -113,6 +116,8 @@ function makeIgnoreChip(item) {
     console.log('[DEBUG] Calling rebuildIngredientLists()...');
     rebuildIngredientLists();
     console.log('[DEBUG] rebuildIngredientLists() done');
+    
+    hideLoading();
   };
   return btn;
 }

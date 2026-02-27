@@ -87,9 +87,11 @@ export function hideError(containerId = "errorBox") {
  */
 export function showLoading(message = "Laden...", containerId = "loadingOverlay") {
   const overlay = document.getElementById(containerId);
+  const mainMessage = document.getElementById("loadingMessage");
   const progress = document.getElementById("loadingProgress");
   if (overlay) overlay.classList.remove("hidden");
-  if (progress) progress.textContent = message;
+  if (mainMessage) mainMessage.textContent = message;
+  if (progress) progress.textContent = "";
 }
 
 export function hideLoading(containerId = "loadingOverlay") {

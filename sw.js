@@ -1,4 +1,4 @@
-const APP_VERSION = "1.0.14";
+const APP_VERSION = "1.0.15";
 const CACHE = `yummi-${APP_VERSION}`;
 const ASSETS = [
   "./",
@@ -10,6 +10,17 @@ const ASSETS = [
   "./styles.css",
   "./js/tialwind_3.4.17.js",
   "./js/core/sw-register.js",
+  "./js/core/version.js",
+  "./js/core/config.js",
+  "./js/core/shared.js",
+  "./js/auth/auth-ui.js",
+  "./js/dav/webdav.js",
+  "./js/ignore/ignore.js",
+  "./js/recipes/app.js",
+  "./js/recipes/loader.js",
+  "./js/storage/db.js",
+  "./js/storage/local.js",
+  "./js/utils/helpers.js",
   "./manifest.webmanifest"
 ];
 
