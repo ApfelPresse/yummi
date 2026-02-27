@@ -11,6 +11,17 @@ import { getAllRecipesFromCache, getImageFromCache } from "../storage/db.js";
 import { placeholderDataUri, normName, isIgnoredIngredient } from "../utils/helpers.js";
 import { APP } from "./config.js";
 
+let ignoredIngredients = new Set();
+
+export function setIgnoredIngredients(list) {
+  const arr = Array.isArray(list) ? list : [];
+  ignoredIngredients = new Set(arr.map(normName).filter(Boolean));
+}
+
+export function getIgnoredIngredients() {
+  return new Set(ignoredIngredients);
+}
+
 /**
  * Lädt ein einzelnes Rezept aus Cache oder gibt null zurück
  */
@@ -94,6 +105,8 @@ export function normalizeIngredient(name) {
 }
 
 export function shouldIgnoreIngredient(name) {
+  const n = normName(name);
+  if (ignoredIngredients.has(n)) return true;
   return isIgnoredIngredient(name);
 }
 

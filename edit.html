@@ -4,6 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Rezept bearbeiten</title>
+  <link rel="icon" type="image/png" href="./logo.png" />
+  <link rel="apple-touch-icon" href="./logo.png" />
   <script src="./js/tialwind_3.4.17.js"></script>
   <style>
     @media (max-width: 420px) { html { font-size: 14px; } }
@@ -42,6 +44,35 @@
         </div>
 
         <div class="p-5 space-y-4">
+          <!-- Tools: Import / Bild / GPT -->
+          <section class="bg-gray-50 border border-gray-200 rounded-2xl p-4 space-y-3">
+            <div class="flex flex-wrap items-center gap-2">
+              <button id="btnImportJsonOpen" type="button"
+                class="px-3 py-1.5 rounded-lg bg-gray-900 text-white hover:bg-gray-800 text-sm">
+                JSON importieren
+              </button>
+              <button id="btnGptOpen" type="button"
+                class="px-3 py-1.5 rounded-lg bg-gray-200 hover:bg-gray-300 text-sm">
+                GPT
+              </button>
+            </div>
+
+            <div class="flex flex-wrap items-center gap-3">
+              <input id="imageFile" type="file" accept="image/*"
+                class="block w-full sm:w-auto text-sm text-gray-700
+                       file:mr-3 file:py-2 file:px-3
+                       file:rounded-lg file:border-0
+                       file:bg-gray-200 file:text-gray-900
+                       hover:file:bg-gray-300" />
+              <button id="btnUploadImage" type="button"
+                class="px-3 py-1.5 rounded-lg bg-gray-900 text-white hover:bg-gray-800 text-sm">
+                Bild hochladen
+              </button>
+            </div>
+            <p class="text-xs text-gray-600">
+              Bild wird als <code>images/&lt;id&gt;.</code><code>jpg</code> gespeichert.
+            </p>
+          </section>
           <!-- Basis-Infos -->
           <fieldset class="grid gap-3">
             <legend class="text-sm font-semibold text-gray-700 mb-2">Basis-Informationen</legend>
@@ -114,6 +145,61 @@
     </div>
   </main>
 
+  <!-- JSON Import Modal -->
+  <div id="jsonImportModal" class="fixed inset-0 hidden items-center justify-center bg-black/40 z-30">
+    <div class="bg-white rounded-2xl shadow-xl w-full max-w-xl mx-4">
+      <div class="p-4 border-b border-gray-200">
+        <h3 class="text-lg font-semibold">JSON importieren</h3>
+      </div>
+      <div class="p-4 space-y-3">
+        <input id="jsonImportFile" type="file" accept="application/json"
+          class="block w-full text-sm text-gray-700
+                 file:mr-3 file:py-2 file:px-3
+                 file:rounded-lg file:border-0
+                 file:bg-gray-200 file:text-gray-900
+                 hover:file:bg-gray-300" />
+        <textarea id="jsonImportText" rows="8"
+          class="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm"
+          placeholder='JSON hier einfügen…'></textarea>
+      </div>
+      <div class="p-4 border-t border-gray-200 flex items-center justify-end gap-2">
+        <button id="btnImportCancel" type="button"
+          class="px-3 py-1.5 rounded-lg bg-gray-200 hover:bg-gray-300 text-sm">
+          Abbrechen
+        </button>
+        <button id="btnImportConfirm" type="button"
+          class="px-3 py-1.5 rounded-lg bg-gray-900 text-white hover:bg-gray-800 text-sm">
+          Importieren
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- GPT Modal -->
+  <div id="gptModal" class="fixed inset-0 hidden items-center justify-center bg-black/40 z-30">
+    <div class="bg-white rounded-2xl shadow-xl w-full max-w-xl mx-4">
+      <div class="p-4 border-b border-gray-200">
+        <h3 class="text-lg font-semibold">GPT Export</h3>
+      </div>
+      <div class="p-4 space-y-2">
+        <label class="text-sm font-medium text-gray-700">Rezepte oder Rezept URL</label>
+        <textarea id="gptPromptInput" rows="6"
+          class="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm"
+          placeholder="z.B. https://... oder Rezepttext"></textarea>
+      </div>
+      <div class="p-4 border-t border-gray-200 flex items-center justify-end gap-2">
+        <button id="btnGptCancel" type="button"
+          class="px-3 py-1.5 rounded-lg bg-gray-200 hover:bg-gray-300 text-sm">
+          Abbrechen
+        </button>
+        <button id="btnGptGo" type="button"
+          class="px-3 py-1.5 rounded-lg bg-gray-900 text-white hover:bg-gray-800 text-sm">
+          Zu ChatGPT
+        </button>
+      </div>
+    </div>
+  </div>
+
   <script type="module">
     import {
       getRecipeFromCache,
@@ -126,9 +212,9 @@
       getUrlParam,
       getRecipeImageUrl
     } from "./js/core/shared.js";
-    import { loadCreds, put } from "./js/dav/webdav.js";
+    import { loadCreds, put, davBaseFolderUrl } from "./js/dav/webdav.js";
     import { APP } from "./js/core/config.js";
-    import { saveRecipeToCache, saveMetadata, deleteRecipeFromCache, deleteMetadata, deleteImageFromCache } from "./js/storage/db.js";
+    import { saveRecipeToCache, saveMetadata, deleteRecipeFromCache, deleteMetadata, deleteImageFromCache, saveImageToCache } from "./js/storage/db.js";
 
     // ===== State =====
     let model = {
@@ -155,6 +241,22 @@
     const headerTitle = document.getElementById("headerTitle");
     const errorBox = document.getElementById("errorBox");
     const okBox = document.getElementById("okBox");
+
+    const btnImportJsonOpen = document.getElementById("btnImportJsonOpen");
+    const jsonImportModal = document.getElementById("jsonImportModal");
+    const jsonImportFile = document.getElementById("jsonImportFile");
+    const jsonImportText = document.getElementById("jsonImportText");
+    const btnImportCancel = document.getElementById("btnImportCancel");
+    const btnImportConfirm = document.getElementById("btnImportConfirm");
+
+    const btnGptOpen = document.getElementById("btnGptOpen");
+    const gptModal = document.getElementById("gptModal");
+    const gptPromptInput = document.getElementById("gptPromptInput");
+    const btnGptCancel = document.getElementById("btnGptCancel");
+    const btnGptGo = document.getElementById("btnGptGo");
+
+    const imageFile = document.getElementById("imageFile");
+    const btnUploadImage = document.getElementById("btnUploadImage");
 
     // ===== Helpers =====
     function showMsg(text, isError = true) {
@@ -194,8 +296,8 @@
       // Bild laden (echtes Bild oder Placeholder)
       let imgSrc = `data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='200'%3E%3Crect fill='%23374151' width='400' height='200'/%3E%3Ctext x='200' y='100' font-family='system-ui' font-size='16' fill='%23fff' text-anchor='middle' dy='.3em'%3ERezept-Bild%3C/text%3E%3C/svg%3E`;
       
-      // Bei Bearbeitung: echtes Bild aus Cache laden
-      if (!isNewMode && model.id) {
+      // Echtes Bild aus Cache laden (falls vorhanden)
+      if (model.id) {
         try {
           imgSrc = await getRecipeImageUrl(model.id);
         } catch (err) {
@@ -258,6 +360,124 @@
       model.title = (f_title.value || "").trim();
       model.category = (f_category.value || "").trim();
       model.description = (f_description.value || "").trim();
+    }
+
+    function toNumberOrNull(value) {
+      if (value === null || value === undefined || value === "") return null;
+      const num = Number(value);
+      return Number.isFinite(num) ? num : null;
+    }
+
+    function normalizeImportedRecipe(obj) {
+      const safe = obj && typeof obj === "object" ? obj : {};
+      const ingredients = Array.isArray(safe.ingredients) ? safe.ingredients : [];
+      const steps = Array.isArray(safe.steps) ? safe.steps : [];
+
+      return {
+        id: String(safe.id || "").trim(),
+        title: String(safe.title || "").trim(),
+        category: String(safe.category || "").trim(),
+        description: String(safe.description || "").trim(),
+        ingredients: ingredients
+          .map((ing) => {
+            if (!ing) return null;
+            if (typeof ing === "string") {
+              return { name: ing.trim(), amount: null, unit: null };
+            }
+            return {
+              name: String(ing.name || "").trim(),
+              amount: toNumberOrNull(ing.amount),
+              unit: ing.unit ? String(ing.unit).trim() : null
+            };
+          })
+          .filter((ing) => ing && ing.name),
+        steps: steps
+          .map((step) => {
+            if (!step) return null;
+            if (typeof step === "string") {
+              return { title: null, text: step };
+            }
+            return {
+              title: step.title ? String(step.title).trim() : null,
+              text: String(step.text || "").trim()
+            };
+          })
+          .filter((step) => step && step.text)
+      };
+    }
+
+    function showModal(el) {
+      if (!el) return;
+      el.classList.remove("hidden");
+      el.classList.add("flex");
+    }
+
+    function hideModal(el) {
+      if (!el) return;
+      el.classList.add("hidden");
+      el.classList.remove("flex");
+    }
+
+    function joinUrl(base, rel) {
+      const b = String(base || "").replace(/\/+$/, "");
+      const r = String(rel || "").replace(/^\/+/, "");
+      return `${b}/${r}`;
+    }
+
+    async function uploadImageToNextcloud() {
+      if (!model.id) {
+        showMsg("❌ Rezept-ID fehlt", true);
+        return;
+      }
+
+      const file = imageFile?.files?.[0];
+      if (!file) {
+        showMsg("❌ Bitte zuerst eine Bilddatei auswählen", true);
+        return;
+      }
+
+      try {
+        btnUploadImage.disabled = true;
+        btnUploadImage.textContent = "Lade hoch...";
+
+        const baseFolder = davBaseFolderUrl(creds);
+        const imagesFolder = joinUrl(baseFolder, APP.IMAGES_SUBFOLDER);
+        const imageFilename = `${model.id}.${APP.IMG_EXT}`;
+        const imageUrl = joinUrl(imagesFolder, imageFilename);
+
+        const response = await fetch(imageUrl, {
+          method: "PUT",
+          headers: {
+            "Authorization": `Basic ${btoa(`${creds.user}:${creds.pass}`)}`,
+            "Content-Type": file.type || "application/octet-stream"
+          },
+          body: file
+        });
+
+        if (!response.ok) {
+          throw new Error(`HTTP ${response.status}`);
+        }
+
+        await saveImageToCache(model.id, file);
+        await updatePreview();
+
+        showMsg("✅ Bild hochgeladen", false);
+      } catch (err) {
+        showMsg(`❌ Bild-Upload fehlgeschlagen: ${err.message}`, true);
+      } finally {
+        btnUploadImage.disabled = false;
+        btnUploadImage.textContent = "Bild hochladen";
+      }
+    }
+
+    let cachedRecipeTemplate = null;
+    async function loadRecipeTemplate() {
+      if (cachedRecipeTemplate) return cachedRecipeTemplate;
+      const res = await fetch("./receipe_template.md", { cache: "no-store" });
+      if (!res.ok) throw new Error(`Template nicht gefunden (HTTP ${res.status})`);
+      const text = await res.text();
+      cachedRecipeTemplate = text.trim();
+      return cachedRecipeTemplate;
     }
 
     function fillFormFromModel() {
@@ -533,6 +753,72 @@
     document.getElementById("btnAddIngredient").addEventListener("click", addIngredient);
     document.getElementById("btnAddStep").addEventListener("click", addStep);
 
+    btnImportJsonOpen.addEventListener("click", () => {
+      jsonImportText.value = "";
+      if (jsonImportFile) jsonImportFile.value = "";
+      showModal(jsonImportModal);
+    });
+
+    btnImportCancel.addEventListener("click", () => hideModal(jsonImportModal));
+
+    btnImportConfirm.addEventListener("click", async () => {
+      try {
+        let text = (jsonImportText.value || "").trim();
+        if (!text && jsonImportFile?.files?.[0]) {
+          text = await jsonImportFile.files[0].text();
+        }
+
+        if (!text) {
+          showMsg("❌ Bitte JSON einfügen oder Datei wählen", true);
+          return;
+        }
+
+        const obj = JSON.parse(text);
+        if (!obj || typeof obj !== "object") throw new Error("Ungültiges JSON");
+
+        const normalized = normalizeImportedRecipe(obj);
+        if (!normalized.id || !normalized.title) {
+          throw new Error("JSON muss mindestens id und title enthalten");
+        }
+
+        model = normalized;
+        fillFormFromModel();
+        renderIngredients();
+        renderSteps();
+        updatePreview();
+        hideModal(jsonImportModal);
+        showMsg("✅ Import erfolgreich", false);
+      } catch (err) {
+        showMsg(`❌ Import fehlgeschlagen: ${err.message}`, true);
+      }
+    });
+
+    btnGptOpen.addEventListener("click", () => {
+      gptPromptInput.value = "";
+      showModal(gptModal);
+    });
+
+    btnGptCancel.addEventListener("click", () => hideModal(gptModal));
+
+    btnGptGo.addEventListener("click", async () => {
+      try {
+        const inputText = (gptPromptInput.value || "").trim();
+        if (!inputText) {
+          showMsg("❌ Bitte Text oder URL eingeben", true);
+          return;
+        }
+
+        const template = await loadRecipeTemplate();
+        const prompt = `${template}\n\n${inputText}`;
+        const url = `https://chat.openai.com/?q=${encodeURIComponent(prompt)}`;
+        window.location.href = url;
+      } catch (err) {
+        showMsg(`❌ GPT-Start fehlgeschlagen: ${err.message}`, true);
+      }
+    });
+
+    btnUploadImage.addEventListener("click", uploadImageToNextcloud);
+
     // Auto-save zu Model während Typing
     f_id.addEventListener("input", () => { readFormIntoModel(); });
     f_title.addEventListener("input", () => { readFormIntoModel(); updatePreview(); });
@@ -540,6 +826,16 @@
     f_description.addEventListener("input", () => { readFormIntoModel(); updatePreview(); });
 
     boot();
+  </script>
+
+  <!-- Footer with Version -->
+  <footer id="footer" class="fixed bottom-0 right-0 p-2 text-xs text-gray-500 bg-white/80">
+    v<span id="appVersion">?</span>
+  </footer>
+
+  <script type="module">
+    import { APP_VERSION } from "./js/core/version.js";
+    document.getElementById("appVersion").textContent = APP_VERSION;
   </script>
 </body>
 </html>

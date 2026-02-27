@@ -1,6 +1,6 @@
 import { loadAllRecipesFromDav } from "./loader.js";
-import { loadSelected, saveSelected } from "../storage/local.js";
-import { placeholderDataUri } from "../utils/helpers.js";
+import { loadSelected, saveSelected, saveIgnored } from "../storage/local.js";
+import { placeholderDataUri, isIgnoredIngredient } from "../utils/helpers.js";
 import { setupAuthUi } from "../auth/auth-ui.js";
 import {
   showError,
@@ -10,18 +10,27 @@ import {
   normalizeIngredient,
   shouldIgnoreIngredient,
   getRecipeImageUrl as getRecipeImageUrlShared,
-  escapeHtml
+  escapeHtml,
+  setIgnoredIngredients
 } from "../core/shared.js";
+import {
+  applyIgnoredFromLocal,
+  syncIgnoredFromDav,
+  saveIgnoredToDav,
+  getCredsOrThrow
+} from "../ignore/ignore.js";
 
 // ===== State =====
 let recipes = [];
 let allIngredients = [];
+let allIngredientsAll = [];
 let allCategories = [];
 
 let categoryFilter = "alle";
 let searchQuery = "";
 
 const selected = loadSelected();
+let ignoredSet = applyIgnoredFromLocal();
 
 // ===== DOM =====
 const elChips = document.getElementById("ingredientChips");
@@ -33,6 +42,12 @@ const elSearchInput = document.getElementById("searchInput");
 const elResultInfo = document.getElementById("resultInfo");
 const elIngredientSearch = document.getElementById("ingredientSearch");
 const elOnlySelectedToggle = document.getElementById("onlySelectedToggle");
+const btnScrollToRecipes = document.getElementById("btnScrollToRecipes");
+const elIgnoreChips = document.getElementById("ignoreChips");
+const btnToggleIgnore = document.getElementById("btnToggleIgnore");
+const ignoreBody = document.getElementById("ignoreBody");
+const elIgnoreSearch = document.getElementById("ignoreSearch");
+
 
 // ===== Chips UI =====
 function chipClass(isOn) {
@@ -40,6 +55,15 @@ function chipClass(isOn) {
     "px-3 py-1.5 rounded-full text-sm border transition",
     isOn
       ? "bg-blue-600 border-blue-600 text-white hover:bg-blue-700"
+      : "bg-white border-gray-300 text-gray-800 hover:bg-gray-50"
+  ].join(" ");
+}
+
+function ignoreChipClass(isOn) {
+  return [
+    "px-3 py-1.5 rounded-full text-sm border transition",
+    isOn
+      ? "bg-red-600 border-red-600 text-white hover:bg-red-700"
       : "bg-white border-gray-300 text-gray-800 hover:bg-gray-50"
   ].join(" ");
 }
@@ -57,6 +81,27 @@ function makeChip(item) {
     updateChips();
     renderChips();
     render();
+  };
+  return btn;
+}
+
+function makeIgnoreChip(item) {
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.dataset.key = item.key;
+  btn.className = ignoreChipClass(ignoredSet.has(item.key));
+  btn.textContent = item.label;
+  btn.onclick = async () => {
+    if (ignoredSet.has(item.key)) ignoredSet.delete(item.key);
+    else ignoredSet.add(item.key);
+
+    if (selected.has(item.key)) {
+      selected.delete(item.key);
+      saveSelected(selected);
+    }
+
+    await persistIgnored();
+    rebuildIngredientLists();
   };
   return btn;
 }
@@ -84,6 +129,48 @@ function updateChips() {
   elSelectedCount.textContent = String(selected.size);
   for (const btn of elChips.querySelectorAll("button[data-key]")) {
     btn.className = chipClass(selected.has(btn.dataset.key));
+  }
+}
+
+function renderIgnoreChips() {
+  if (!elIgnoreChips) return;
+  const q = (elIgnoreSearch?.value || "").trim().toLowerCase();
+  elIgnoreChips.innerHTML = "";
+  for (const ing of allIngredientsAll) {
+    if (q && !ing.label.toLowerCase().includes(q) && !ing.key.includes(q)) continue;
+    elIgnoreChips.appendChild(makeIgnoreChip(ing));
+  }
+}
+
+function pruneSelected() {
+  let changed = false;
+  for (const key of Array.from(selected)) {
+    if (ignoredSet.has(key)) {
+      selected.delete(key);
+      changed = true;
+    }
+  }
+  if (changed) saveSelected(selected);
+}
+
+function rebuildIngredientLists() {
+  buildIngredientsAndCategories();
+  pruneSelected();
+  initChips();
+  renderIgnoreChips();
+  render();
+}
+
+async function persistIgnored() {
+  try {
+    const creds = getCredsOrThrow();
+    ignoredSet = await saveIgnoredToDav(creds, Array.from(ignoredSet));
+  } catch (err) {
+    const local = Array.from(ignoredSet);
+    saveIgnored(local);
+    setIgnoredIngredients(local);
+    console.warn("Ignore-Liste nicht synchronisiert:", err.message || err);
+    showError("Ignore-Liste lokal gespeichert, Sync fehlgeschlagen.");
   }
 }
 
@@ -140,7 +227,7 @@ function render() {
 
 function renderCard({ r, have, missing, score, total }) {
   const div = document.createElement("div");
-  div.className = "bg-white rounded-2xl shadow-sm hover:shadow-md transition overflow-hidden flex flex-col";
+  div.className = "bg-white rounded-2xl shadow-sm hover:shadow-md transition overflow-hidden flex flex-col cursor-pointer";
 
   const percent = Math.round(score * 100);
 
@@ -200,13 +287,21 @@ function renderCard({ r, have, missing, score, total }) {
           : `<div class="text-red-700"><span class="font-medium">Fehlt:</span> ${missingPreview}${missingMore}</div>`
         }
       </div>
-
-      <a href="recipe.html?id=${encodeURIComponent(r.id)}"
-         class="mt-1 inline-flex justify-center px-3 py-2 rounded-lg bg-gray-900 text-white hover:bg-gray-800 text-sm">
-        Rezept öffnen
-      </a>
     </div>
   `;
+
+  const targetUrl = `recipe.html?id=${encodeURIComponent(r.id)}`;
+  div.setAttribute("role", "button");
+  div.setAttribute("tabindex", "0");
+  div.addEventListener("click", () => {
+    window.location.href = targetUrl;
+  });
+  div.addEventListener("keydown", (e) => {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      window.location.href = targetUrl;
+    }
+  });
   
   // Bild asynchron aus Cache laden
   getRecipeImageUrlShared(r.id).then(url => {
@@ -239,6 +334,15 @@ document.getElementById("btnNone").onclick = () => {
   render();
 };
 
+if (btnScrollToRecipes && elRecipeList) {
+  btnScrollToRecipes.addEventListener("click", () => {
+    const header = document.querySelector("header");
+    const offset = header ? header.offsetHeight + 12 : 0;
+    const top = elRecipeList.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top, behavior: "smooth" });
+  });
+}
+
 elCategorySelect.onchange = () => {
   categoryFilter = elCategorySelect.value;
   render();
@@ -258,6 +362,19 @@ elOnlySelectedToggle.onchange = () => {
   renderChips();
   updateChips();
 };
+
+if (btnToggleIgnore && ignoreBody) {
+  btnToggleIgnore.addEventListener("click", () => {
+    const isHidden = ignoreBody.classList.toggle("hidden");
+    btnToggleIgnore.textContent = isHidden ? "Ausklappen" : "Einklappen";
+  });
+}
+
+if (elIgnoreSearch) {
+  elIgnoreSearch.addEventListener("input", () => {
+    renderIgnoreChips();
+  });
+}
 
 document.getElementById("btnNewRecipe").onclick = () => {
   window.location.href = "edit.html?new=1";
@@ -290,18 +407,29 @@ setupAuthUi();
       // UI komplett neu rendern
       buildIngredientsAndCategories();
       initCategorySelect();
+      pruneSelected();
       initChips();
+      renderIgnoreChips();
       render();
     });
     
     // NEU: lädt aus Cache (instant) oder von Nextcloud (initial)
     recipes = await loadAllRecipesFromDav();
+
+    try {
+      const creds = getCredsOrThrow();
+      ignoredSet = await syncIgnoredFromDav(creds);
+    } catch (err) {
+      console.warn("Ignore-Liste Sync fehlgeschlagen:", err.message || err);
+    }
     
     showLoading(`${recipes.length} Rezepte geladen, verarbeite Zutaten...`);
 
     buildIngredientsAndCategories();
     initCategorySelect();
+    pruneSelected();
     initChips();
+    renderIgnoreChips();
     render();
     
     // Bilder asynchron nachladen (wenn nicht in Cache)
@@ -343,7 +471,7 @@ function buildIngredientsAndCategories() {
   for (const r of recipes) {
     for (const i of (r.ingredients || [])) {
       if (!i || !i.name) continue;
-      if (shouldIgnoreIngredient(i.name)) continue;
+      if (isIgnoredIngredient(i.name)) continue;
 
       const key = normalizeIngredient(i.name);
       if (!key) continue;
@@ -352,9 +480,11 @@ function buildIngredientsAndCategories() {
     }
   }
 
-  allIngredients = Array.from(map.entries())
+  allIngredientsAll = Array.from(map.entries())
     .map(([key, label]) => ({ key, label }))
     .sort((a, b) => a.label.localeCompare(b.label, "de"));
+
+  allIngredients = allIngredientsAll;
 
   allCategories = Array.from(new Set(
     recipes.map(r => r.category).filter(Boolean)

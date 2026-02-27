@@ -4,6 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Rezept</title>
+  <link rel="icon" type="image/png" href="./logo.png" />
+  <link rel="apple-touch-icon" href="./logo.png" />
   <script src="./js/tialwind_3.4.17.js"></script>
   <style>
     @media (max-width: 420px) {
@@ -55,11 +57,12 @@
       showLoading,
       hideLoading,
       normalizeIngredient,
-      shouldIgnoreIngredient,
+      getIgnoredIngredients,
       escapeHtml,
       getUrlParam
     } from "./js/core/shared.js";
     import { loadSelected, saveSelected } from "./js/storage/local.js";
+    import { applyIgnoredFromLocal, syncIgnoredFromDav, getCredsOrThrow } from "./js/ignore/ignore.js";
 
     const STORAGE_KEY = "pantry_selected_v1";
     let pantryEdit = false;
@@ -77,7 +80,6 @@
       const groups = new Map();
       for (const ing of recipe.ingredients || []) {
         if (!ing || !ing.name) continue;
-        if (shouldIgnoreIngredient(ing.name)) continue;
 
         const section = ing.section || "Zutaten";
         if (!groups.has(section)) groups.set(section, []);
@@ -127,14 +129,20 @@
         h.innerHTML = `<div class="text-xs font-semibold uppercase text-gray-600 pt-2">${escapeHtml(section)}</div>`;
         ul.appendChild(h);
 
+        const ignoredSet = getIgnoredIngredients();
         for (const ing of items) {
           const key = normalizeIngredient(ing.name);
           const have = selected.has(key);
+          const isIgnored = ignoredSet.has(key);
 
           const li = document.createElement("li");
+          const bgClass = isIgnored
+            ? "bg-gray-50 border-gray-200"
+            : have
+            ? "bg-green-50 border-green-200"
+            : "bg-red-50 border-red-200";
           li.className =
-            "flex justify-between items-center p-2 rounded-lg border " +
-            (have ? "bg-green-50 border-green-200" : "bg-red-50 border-red-200");
+            "flex justify-between items-center p-2 rounded-lg border " + bgClass;
 
           li.innerHTML = `
             <span class="text-sm">${fmtIngredient(ing)}</span>
@@ -170,6 +178,14 @@
           throw new Error("Nicht authentifiziert. Bitte in index.html anmelden.");
         }
 
+        applyIgnoredFromLocal();
+        try {
+          const creds = getCredsOrThrow();
+          await syncIgnoredFromDav(creds);
+        } catch (err) {
+          console.warn("Ignore-Liste Sync fehlgeschlagen:", err.message || err);
+        }
+
         showLoading("Rezept wird geladen...");
         
         const recipeId = getUrlParam("id");
@@ -195,6 +211,16 @@
     }
 
     boot();
+  </script>
+
+  <!-- Footer with Version -->
+  <footer id="footer" class="fixed bottom-0 right-0 p-2 text-xs text-gray-500 bg-white/80">
+    v<span id="appVersion">?</span>
+  </footer>
+
+  <script type="module">
+    import { APP_VERSION } from "./js/core/version.js";
+    document.getElementById("appVersion").textContent = APP_VERSION;
   </script>
 </body>
 </html>
