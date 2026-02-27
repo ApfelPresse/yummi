@@ -1,4 +1,4 @@
-const APP_VERSION = "1.0.13";
+const APP_VERSION = "1.0.14";
 const CACHE = `yummi-${APP_VERSION}`;
 const ASSETS = [
   "./",
@@ -22,6 +22,20 @@ async function cacheFirst(req) {
     cache.put(req, res.clone());
   }
   return res;
+}
+
+async function staleWhileRevalidate(req) {
+  const cached = await caches.match(req);
+  
+  const fetchPromise = fetch(req).then(async (res) => {
+    if (res && res.ok) {
+      const cache = await caches.open(CACHE);
+      cache.put(req, res.clone());
+    }
+    return res;
+  }).catch(() => null);
+
+  return cached || fetchPromise;
 }
 
 self.addEventListener("install", (event) => {
@@ -49,7 +63,14 @@ self.addEventListener("fetch", (event) => {
 
   const url = new URL(req.url);
   if (url.origin === location.origin) {
-    event.respondWith(cacheFirst(req));
+    const path = url.pathname;
+    const isCodeOrStyle = path.endsWith(".html") || path.endsWith(".js") || path.endsWith(".css") || path === "/" || path === "/yummi/" || path === "/yummi";
+    
+    if (isCodeOrStyle) {
+      event.respondWith(staleWhileRevalidate(req));
+    } else {
+      event.respondWith(cacheFirst(req));
+    }
   }
 });
 
