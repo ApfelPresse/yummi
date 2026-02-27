@@ -1,10 +1,12 @@
-const APP_VERSION = "1.0.1";
+const APP_VERSION = "1.0.2";
 const CACHE = `yummi-${APP_VERSION}`;
 const ASSETS = [
   "./",
   "./index.html",
   "./recipe.html",
   "./edit.html",
+  "./favicon.ico",
+  "./logo.png",
   "./styles.css",
   "./js/tialwind_3.4.17.js",
   "./manifest.webmanifest"
