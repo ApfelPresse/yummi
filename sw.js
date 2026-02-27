@@ -1,4 +1,4 @@
-const APP_VERSION = "1.0.7";
+const APP_VERSION = "1.0.8";
 const CACHE = `yummi-${APP_VERSION}`;
 const ASSETS = [
   "./",
@@ -12,21 +12,6 @@ const ASSETS = [
   "./js/core/sw-register.js",
   "./manifest.webmanifest"
 ];
-
-async function networkFirst(req) {
-  try {
-    const res = await fetch(new Request(req, { cache: "no-store" }));
-    if (res && res.ok) {
-      const cache = await caches.open(CACHE);
-      cache.put(req, res.clone());
-    }
-    return res;
-  } catch {
-    const cached = await caches.match(req);
-    if (cached) return cached;
-    throw new Error("Network unavailable and no cache entry");
-  }
-}
 
 async function cacheFirst(req) {
   const cached = await caches.match(req);
@@ -64,15 +49,6 @@ self.addEventListener("fetch", (event) => {
 
   const url = new URL(req.url);
   if (url.origin === location.origin) {
-    const path = url.pathname;
-    const isDocument = req.mode === "navigate" || path.endsWith(".html") || path === "/";
-    const isCodeOrStyle = path.endsWith(".js") || path.endsWith(".css");
-
-    if (isDocument || isCodeOrStyle) {
-      event.respondWith(networkFirst(req));
-      return;
-    }
-
     event.respondWith(cacheFirst(req));
   }
 });
