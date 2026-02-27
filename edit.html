@@ -1,6 +1,11 @@
 <!doctype html>
 <html lang="de">
 <head>
+  <script>
+    const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.hostname === '';
+    const baseHref = isLocal ? '/' : '/yummi/';
+    document.write(`<base href="${baseHref}" />`);
+  </script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Rezept bearbeiten</title>
@@ -829,14 +834,15 @@
     boot();
   </script>
 
-  <!-- Footer with Version -->
-  <footer id="footer" class="fixed bottom-0 right-0 p-2 text-xs text-gray-500 bg-white/80">
-    v<span id="appVersion">?</span>
-  </footer>
+  <!-- Version (ganz unten wie auf index.html) -->
+  <div class="mt-8 mb-2 text-center text-xs text-gray-500">
+    Version: <span id="appVersion">?</span>
+  </div>
 
   <script type="module">
     import { APP_VERSION } from "./js/core/version.js";
     document.getElementById("appVersion").textContent = APP_VERSION;
   </script>
+  <script type="module" src="./js/core/sw-register.js"></script>
 </body>
 </html>

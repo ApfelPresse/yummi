@@ -60,4 +60,6 @@ echo "   - js/core/version.js: export const APP_VERSION = \"$NEW_VERSION\";"
 echo "   - sw.js: const APP_VERSION = \"$NEW_VERSION\";"
 echo ""
 echo "🚀 Service Worker Cache wird beim nächsten Reload invalidiert!"
-echo "   Commit-Vorschlag: git add .version js/core/version.js sw.js && git commit -m 'v$NEW_VERSION'"
+
+git add *
+git commit -m "Bump version to $NEW_VERSION"

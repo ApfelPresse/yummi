@@ -92,16 +92,27 @@ function makeIgnoreChip(item) {
   btn.className = ignoreChipClass(ignoredSet.has(item.key));
   btn.textContent = item.label;
   btn.onclick = async () => {
-    if (ignoredSet.has(item.key)) ignoredSet.delete(item.key);
-    else ignoredSet.add(item.key);
+    console.log('[DEBUG] Ignore chip clicked:', item.label, 'key:', item.key);
+    if (ignoredSet.has(item.key)) {
+      ignoredSet.delete(item.key);
+      console.log('[DEBUG] Removed from ignoredSet:', item.key);
+    } else {
+      ignoredSet.add(item.key);
+      console.log('[DEBUG] Added to ignoredSet:', item.key);
+    }
+    console.log('[DEBUG] ignoredSet size:', ignoredSet.size, 'contents:', Array.from(ignoredSet));
 
     if (selected.has(item.key)) {
       selected.delete(item.key);
       saveSelected(selected);
+      console.log('[DEBUG] Removed from selected:', item.key);
     }
 
+    console.log('[DEBUG] Calling persistIgnored()...');
     await persistIgnored();
+    console.log('[DEBUG] Calling rebuildIngredientLists()...');
     rebuildIngredientLists();
+    console.log('[DEBUG] rebuildIngredientLists() done');
   };
   return btn;
 }
@@ -154,24 +165,33 @@ function pruneSelected() {
 }
 
 function rebuildIngredientLists() {
+  console.log('[DEBUG] rebuildIngredientLists() START');
   buildIngredientsAndCategories();
+  console.log('[DEBUG] After buildIngredientsAndCategories: allIngredients.length =', allIngredients.length, 'allIngredientsAll.length =', allIngredientsAll.length);
   pruneSelected();
   initChips();
   renderIgnoreChips();
   render();
+  console.log('[DEBUG] rebuildIngredientLists() END');
 }
 
 async function persistIgnored() {
+  console.log('[DEBUG] persistIgnored() START, ignoredSet:', Array.from(ignoredSet));
   try {
     const creds = getCredsOrThrow();
+    console.log('[DEBUG] Got creds, calling saveIgnoredToDav...');
     ignoredSet = await saveIgnoredToDav(creds, Array.from(ignoredSet));
+    console.log('[DEBUG] saveIgnoredToDav success, ignoredSet:', Array.from(ignoredSet));
   } catch (err) {
+    console.error('[DEBUG] persistIgnored() FAILED:', err);
     const local = Array.from(ignoredSet);
     saveIgnored(local);
     setIgnoredIngredients(local);
+    console.warn('[DEBUG] Saved to localStorage instead:', local);
     console.warn("Ignore-Liste nicht synchronisiert:", err.message || err);
     showError("Ignore-Liste lokal gespeichert, Sync fehlgeschlagen.");
   }
+  console.log('[DEBUG] persistIgnored() END');
 }
 
 function initCategorySelect() {
@@ -466,6 +486,7 @@ setupAuthUi();
 })();
 
 function buildIngredientsAndCategories() {
+  console.log('[DEBUG] buildIngredientsAndCategories() START, ignoredSet size:', ignoredSet.size);
   // Zutaten global
   const map = new Map(); // key -> label
   for (const r of recipes) {
@@ -483,8 +504,11 @@ function buildIngredientsAndCategories() {
   allIngredientsAll = Array.from(map.entries())
     .map(([key, label]) => ({ key, label }))
     .sort((a, b) => a.label.localeCompare(b.label, "de"));
+  console.log('[DEBUG] allIngredientsAll built, length:', allIngredientsAll.length);
 
-  allIngredients = allIngredientsAll;
+  // Pantry-Liste: ohne dynamisch ignorierte Zutaten
+  allIngredients = allIngredientsAll.filter((ing) => !ignoredSet.has(ing.key));
+  console.log('[DEBUG] allIngredients filtered, length:', allIngredients.length, 'filtered out:', allIngredientsAll.length - allIngredients.length);
 
   allCategories = Array.from(new Set(
     recipes.map(r => r.category).filter(Boolean)
