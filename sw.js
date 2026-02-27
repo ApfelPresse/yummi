@@ -1,4 +1,4 @@
-const APP_VERSION = "1.0.5";
+const APP_VERSION = "1.0.6";
 const CACHE = `yummi-${APP_VERSION}`;
 const ASSETS = [
   "./",
@@ -15,7 +15,7 @@ const ASSETS = [
 
 async function networkFirst(req) {
   try {
-    const res = await fetch(req);
+    const res = await fetch(new Request(req, { cache: "no-store" }));
     if (res && res.ok) {
       const cache = await caches.open(CACHE);
       cache.put(req, res.clone());
