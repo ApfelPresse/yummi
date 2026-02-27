@@ -1,4 +1,4 @@
-const APP_VERSION = "1.0.2";
+const APP_VERSION = "1.0.4";
 const CACHE = `yummi-${APP_VERSION}`;
 const ASSETS = [
   "./",
@@ -9,8 +9,35 @@ const ASSETS = [
   "./logo.png",
   "./styles.css",
   "./js/tialwind_3.4.17.js",
+  "./js/core/sw-register.js",
   "./manifest.webmanifest"
 ];
+
+async function networkFirst(req) {
+  try {
+    const res = await fetch(req);
+    if (res && res.ok) {
+      const cache = await caches.open(CACHE);
+      cache.put(req, res.clone());
+    }
+    return res;
+  } catch {
+    const cached = await caches.match(req);
+    if (cached) return cached;
+    throw new Error("Network unavailable and no cache entry");
+  }
+}
+
+async function cacheFirst(req) {
+  const cached = await caches.match(req);
+  if (cached) return cached;
+  const res = await fetch(req);
+  if (res && res.ok) {
+    const cache = await caches.open(CACHE);
+    cache.put(req, res.clone());
+  }
+  return res;
+}
 
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)));
@@ -18,16 +45,35 @@ self.addEventListener("install", (event) => {
 });
 
 self.addEventListener("activate", (event) => {
-  event.waitUntil(self.clients.claim());
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(keys.filter((k) => k.startsWith("yummi-") && k !== CACHE).map((k) => caches.delete(k)));
+    await self.clients.claim();
+  })());
+});
+
+self.addEventListener("message", (event) => {
+  if (event.data && event.data.type === "SKIP_WAITING") {
+    self.skipWaiting();
+  }
 });
 
 self.addEventListener("fetch", (event) => {
   const req = event.request;
+  if (req.method !== "GET") return;
 
-  if (new URL(req.url).origin === location.origin) {
-    event.respondWith(
-      caches.match(req).then((cached) => cached || fetch(req))
-    );
+  const url = new URL(req.url);
+  if (url.origin === location.origin) {
+    const path = url.pathname;
+    const isDocument = req.mode === "navigate" || path.endsWith(".html") || path === "/";
+    const isCodeOrStyle = path.endsWith(".js") || path.endsWith(".css");
+
+    if (isDocument || isCodeOrStyle) {
+      event.respondWith(networkFirst(req));
+      return;
+    }
+
+    event.respondWith(cacheFirst(req));
   }
 });
 
