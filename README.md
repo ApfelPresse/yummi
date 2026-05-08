@@ -40,3 +40,70 @@ Rezepte werden als JSON-Dateien in deinem Nextcloud-Server unter `App-Ordner/rec
     "servings": 4
   }
 }
+```
+
+---
+
+## Nährstoffdetails für Zutaten
+
+### Überblick
+
+Die App unterstützt detaillierte Nährstoffinformationen für einzelne Zutaten. Diese können direkt in der Pantry-Ansicht (Zutaten-Chips) aufgerufen und bearbeitet werden.
+
+### Aktivierung
+
+Im Zutaten-Panel gibt es neben **„Nur ausgewählte anzeigen"** eine neue Checkbox: **„Nährstoffdetails anzeigen"**.
+
+- **Deaktiviert** (Standard): Klick auf einen Chip wählt die Zutat aus/ab – wie bisher.
+- **Aktiviert**: Klick auf einen Chip öffnet ein Popup mit den vollständigen Nährstoffdaten der Zutat. Die Zutat wird dabei automatisch ausgewählt.
+
+### Datenspeicherung
+
+Nährstoffdetails liegen als JSON-Dateien im Nextcloud-App-Ordner unter:
+
+```
+App-Ordner/ingredients_details/<normalisierter-name>.json
+```
+
+Beispiel für Karotten: `ingredients_details/karotten.json`
+
+Der Name wird dabei normalisiert (Kleinbuchstaben, ohne Akzente, Leerzeichen bleiben erhalten). Ist noch keine Datei vorhanden, öffnet sich das Popup leer zum Ausfüllen. Nach dem Speichern wird die Datei automatisch angelegt.
+
+### JSON-Schema (BLS-basiert)
+
+Die auswählbaren Felder basieren auf `BLS_4_0_2025_DE/BLS_4_0_Components_DE_EN.xlsx`.
+
+Das JSON enthält feste Blöcke:
+
+- `macros`
+- `vitamins`
+- `minerals`
+- `carbohydrates`
+- `fibers`
+- `sugarAlcoholsDetail`
+- `fattyAcids`
+- `aminoAcids`
+- `otherNutrients`
+- `extra`
+
+Alle Nährstofffelder sind optional (`null` = kein Wert bekannt).
+
+### Vorlage & Import
+
+Im Popup gibt es zwei zusätzliche Aktionen:
+
+- `JSON Vorlage kopieren`:
+  Kopiert ein vollständiges JSON in die Zwischenablage, mit **allen** aktuell unterstützten Feldern (nicht nur den eingeblendeten), wobei unbekannte Werte als `null` gesetzt sind.
+- `JSON importieren`:
+  Importiert eine `.json`-Datei und übernimmt die Daten ins Formular. Danach kann normal gespeichert werden.
+
+Hinweis: JSON unterstützt keine Kommentare. Daher wird die Vorlage mit `null`-Werten als ausfüllbare Struktur erzeugt.
+
+### Code-Struktur
+
+| Datei | Beschreibung |
+|---|---|
+| `js/ingredients/ingredient-details.js` | Komplettes Modul: Schema, DAV-Lade/Speicher-Logik, Popup-UI |
+| `js/core/config.js` | Neu: `INGREDIENT_DETAILS_SUBFOLDER` |
+| `js/recipes/app.js` | Import + `makeChip`-Integration |
+| `index.html` | Neue Checkbox „Nährstoffdetails anzeigen" |

@@ -16,6 +16,10 @@ export const APP = {
   // RezeptApp/images/*.jpg
   IMAGES_SUBFOLDER: "images/",
 
+  // Wo liegen die Nährstoffdetails für einzelne Zutaten?
+  // RezeptApp/ingredients_details/<key>.json
+  INGREDIENT_DETAILS_SUBFOLDER: "ingredients_details/",
+
   // Credentials-Storage (falls du schon Login gebaut hast)
   CREDS_KEY: "yummi_creds",
 

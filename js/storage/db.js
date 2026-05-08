@@ -8,10 +8,11 @@
  */
 
 const DB_NAME = "YummiDB";
-const DB_VERSION = 2; // Version erhöht für Images Store
+const DB_VERSION = 3; // v3: Ingredient Details Store hinzugefügt
 const STORE_RECIPES = "recipes";
 const STORE_METADATA = "metadata";
 const STORE_IMAGES = "images";
+const STORE_INGREDIENT_DETAILS = "ingredientDetails";
 
 let dbInstance = null;
 
@@ -48,6 +49,11 @@ export async function openDB() {
       // Images Store: imageId als Key (z.B. "pasta_birne_walnuss_bergkaese")
       if (!db.objectStoreNames.contains(STORE_IMAGES)) {
         db.createObjectStore(STORE_IMAGES, { keyPath: "imageId" });
+      }
+
+      // Ingredient Details Store: key als Key, speichert data + etag
+      if (!db.objectStoreNames.contains(STORE_INGREDIENT_DETAILS)) {
+        db.createObjectStore(STORE_INGREDIENT_DETAILS, { keyPath: "key" });
       }
     };
   });
@@ -270,6 +276,66 @@ export async function getAllImagesFromCache() {
     const request = store.getAll();
 
     request.onsuccess = () => resolve(request.result || []);
+    request.onerror = () => reject(request.error);
+  });
+}
+
+// ─── Ingredient Details (ETag-basiert) ──────────────────────────────────────
+
+/**
+ * Ingredient Details + ETag in Cache speichern
+ */
+export async function saveIngredientDetailsToCache(key, data, etag = null) {
+  const db = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(STORE_INGREDIENT_DETAILS, "readwrite");
+    const store = tx.objectStore(STORE_INGREDIENT_DETAILS);
+    const request = store.put({ 
+      key, 
+      data, 
+      etag,
+      cachedAt: new Date().toISOString() 
+    });
+
+    request.onsuccess = () => resolve();
+    request.onerror = () => reject(request.error);
+  });
+}
+
+/**
+ * Ingredient Details + ETag aus Cache laden
+ * Returns: { data, etag } oder null
+ */
+export async function getIngredientDetailsFromCache(key) {
+  const db = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(STORE_INGREDIENT_DETAILS, "readonly");
+    const store = tx.objectStore(STORE_INGREDIENT_DETAILS);
+    const request = store.get(key);
+
+    request.onsuccess = () => {
+      const result = request.result;
+      if (result) {
+        resolve({ data: result.data, etag: result.etag });
+      } else {
+        resolve(null);
+      }
+    };
+    request.onerror = () => reject(request.error);
+  });
+}
+
+/**
+ * Ingredient Details aus Cache löschen
+ */
+export async function deleteIngredientDetailsFromCache(key) {
+  const db = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction(STORE_INGREDIENT_DETAILS, "readwrite");
+    const store = tx.objectStore(STORE_INGREDIENT_DETAILS);
+    const request = store.delete(key);
+
+    request.onsuccess = () => resolve();
     request.onerror = () => reject(request.error);
   });
 }

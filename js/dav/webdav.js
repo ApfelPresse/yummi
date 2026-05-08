@@ -71,6 +71,16 @@ export async function put(url, creds, body, extraHeaders = {}) {
   return { status: r.status, statusText: r.statusText, headers: r.headers, text: await r.text() };
 }
 
+export async function mkcol(url, creds) {
+  const r = await fetch(url, {
+    method: "MKCOL",
+    headers: {
+      "Authorization": authHeader(creds.user, creds.pass)
+    }
+  });
+  return { status: r.status, statusText: r.statusText, headers: r.headers, text: await r.text() };
+}
+
 export async function del(url, creds) {
   const r = await fetch(url, {
     method: "DELETE",

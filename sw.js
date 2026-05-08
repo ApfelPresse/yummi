@@ -1,4 +1,4 @@
-const APP_VERSION = "1.0.15";
+const APP_VERSION = "1.0.16";
 const CACHE = `yummi-${APP_VERSION}`;
 const ASSETS = [
   "./",
@@ -16,6 +16,7 @@ const ASSETS = [
   "./js/auth/auth-ui.js",
   "./js/dav/webdav.js",
   "./js/ignore/ignore.js",
+  "./js/ingredients/ingredient-details.js",
   "./js/recipes/app.js",
   "./js/recipes/loader.js",
   "./js/storage/db.js",

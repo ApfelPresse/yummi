@@ -19,6 +19,12 @@ import {
   saveIgnoredToDav,
   getCredsOrThrow
 } from "../ignore/ignore.js";
+import {
+  openIngredientDetailsPopup,
+  hasIngredientData,
+  forceReloadIngredientDetails
+} from "../ingredients/ingredient-details.js";
+import { loadCreds } from "../dav/webdav.js";
 
 // ===== State =====
 let recipes = [];
@@ -46,7 +52,14 @@ const btnScrollToRecipes = document.getElementById("btnScrollToRecipes");
 const elIgnoreChips = document.getElementById("ignoreChips");
 const btnToggleIgnore = document.getElementById("btnToggleIgnore");
 const ignoreBody = document.getElementById("ignoreBody");
+const btnToggleIngredients = document.getElementById("btnToggleIngredients");
+const ingredientsBody = document.getElementById("ingredientsBody");
 const elIgnoreSearch = document.getElementById("ignoreSearch");
+const elNutrientChips = document.getElementById("nutrientChips");
+const btnToggleNutrients = document.getElementById("btnToggleNutrients");
+const btnReloadNutrients = document.getElementById("btnReloadNutrients");
+const nutrientBody = document.getElementById("nutrientBody");
+const elNutrientSearch = document.getElementById("nutrientSearch");
 
 
 // ===== Chips UI =====
@@ -74,7 +87,7 @@ function makeChip(item) {
   btn.dataset.key = item.key;
   btn.className = chipClass(selected.has(item.key));
   btn.textContent = item.label;
-  btn.onclick = () => {
+  btn.onclick = async () => {
     if (selected.has(item.key)) selected.delete(item.key);
     else selected.add(item.key);
     saveSelected(selected);
@@ -122,6 +135,35 @@ function makeIgnoreChip(item) {
   return btn;
 }
 
+function nutrientChipClass(isOn) {
+  return [
+    "px-3 py-1.5 rounded-full text-sm border transition relative",
+    isOn
+      ? "bg-green-600 border-green-600 text-white hover:bg-green-700"
+      : "bg-white border-gray-300 text-gray-800 hover:bg-gray-50"
+  ].join(" ");
+}
+
+function makeNutrientChip(item, hasData) {
+  const btn = document.createElement("button");
+  btn.type = "button";
+  btn.dataset.key = item.key;
+  btn.className = nutrientChipClass(false);
+  btn.textContent = item.label;
+  
+  // Roter Punkt, wenn keine Daten vorhanden
+  if (!hasData) {
+    const dot = document.createElement("span");
+    dot.className = "absolute top-1 right-1 w-2 h-2 bg-red-500 rounded-full";
+    btn.appendChild(dot);
+  }
+  
+  btn.onclick = async () => {
+    await openIngredientDetailsPopup(item.label, item.key);
+  };
+  return btn;
+}
+
 function initChips() {
   elTotalCount.textContent = String(allIngredients.length);
   renderChips();
@@ -155,6 +197,62 @@ function renderIgnoreChips() {
   for (const ing of allIngredientsAll) {
     if (q && !ing.label.toLowerCase().includes(q) && !ing.key.includes(q)) continue;
     elIgnoreChips.appendChild(makeIgnoreChip(ing));
+  }
+}
+
+// ===== Nährstoffdetails =====
+async function renderNutrientChips() {
+  if (!elNutrientChips) return;
+  const q = (elNutrientSearch?.value || "").trim().toLowerCase();
+  elNutrientChips.innerHTML = "";
+  
+  const creds = loadCreds();
+  
+  for (const ing of allIngredients) {
+    if (q && !ing.label.toLowerCase().includes(q) && !ing.key.includes(q)) continue;
+    
+    // Überprüfe, ob Nährstoffdaten vorhanden sind
+    const hasData = creds ? await hasIngredientData(creds, ing.key) : false;
+    elNutrientChips.appendChild(makeNutrientChip(ing, hasData));
+  }
+}
+
+async function reloadNutrientDetailsCache() {
+  const creds = loadCreds();
+  if (!creds) {
+    showError("Keine Nextcloud-Anmeldung gefunden. Reload nicht möglich.");
+    return;
+  }
+
+  hideError();
+  showLoading("Nährstoffdetails werden neu geladen...");
+
+  try {
+    let done = 0;
+    const total = allIngredients.length;
+
+    for (const ing of allIngredients) {
+      // Invalidiert Cache und lädt den Datensatz frisch vom Server.
+      await forceReloadIngredientDetails(creds, ing.key);
+      done += 1;
+      if (done % 10 === 0 || done === total) {
+        showLoading(`Nährstoffdetails Reload: ${done}/${total}`);
+      }
+    }
+
+    await renderNutrientChips();
+  } catch (err) {
+    console.error("Nährstoffdetails Reload fehlgeschlagen:", err);
+    showError("Reload der Nährstoffdetails fehlgeschlagen.");
+  } finally {
+    hideLoading();
+  }
+}
+
+function updateNutrientChips() {
+  if (!elNutrientChips) return;
+  for (const btn of elNutrientChips.querySelectorAll("button[data-key]")) {
+    btn.className = nutrientChipClass(false);
   }
 }
 
@@ -395,9 +493,40 @@ if (btnToggleIgnore && ignoreBody) {
   });
 }
 
+if (btnToggleIngredients && ingredientsBody) {
+  btnToggleIngredients.addEventListener("click", () => {
+    const isHidden = ingredientsBody.classList.toggle("hidden");
+    btnToggleIngredients.textContent = isHidden ? "Ausklappen" : "Einklappen";
+  });
+}
+
 if (elIgnoreSearch) {
   elIgnoreSearch.addEventListener("input", () => {
     renderIgnoreChips();
+  });
+}
+
+if (btnToggleNutrients && nutrientBody) {
+  btnToggleNutrients.addEventListener("click", () => {
+    const isHidden = nutrientBody.classList.toggle("hidden");
+    btnToggleNutrients.textContent = isHidden ? "Ausklappen" : "Einklappen";
+    
+    // Nur laden, wenn geöffnet wird
+    if (!isHidden) {
+      renderNutrientChips();
+    }
+  });
+}
+
+if (btnReloadNutrients) {
+  btnReloadNutrients.addEventListener("click", async () => {
+    await reloadNutrientDetailsCache();
+  });
+}
+
+if (elNutrientSearch) {
+  elNutrientSearch.addEventListener("input", () => {
+    renderNutrientChips();
   });
 }
 
