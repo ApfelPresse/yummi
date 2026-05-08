@@ -60,6 +60,14 @@ const btnToggleNutrients = document.getElementById("btnToggleNutrients");
 const btnReloadNutrients = document.getElementById("btnReloadNutrients");
 const nutrientBody = document.getElementById("nutrientBody");
 const elNutrientSearch = document.getElementById("nutrientSearch");
+const elNutrientLoadingHint = document.getElementById("nutrientLoadingHint");
+
+let nutrientLoadRequestId = 0;
+
+function setNutrientLoading(isLoading) {
+  if (!elNutrientLoadingHint) return;
+  elNutrientLoadingHint.classList.toggle("hidden", !isLoading);
+}
 
 
 // ===== Chips UI =====
@@ -203,17 +211,29 @@ function renderIgnoreChips() {
 // ===== Nährstoffdetails =====
 async function renderNutrientChips() {
   if (!elNutrientChips) return;
+  const currentRequestId = ++nutrientLoadRequestId;
+  setNutrientLoading(true);
+
   const q = (elNutrientSearch?.value || "").trim().toLowerCase();
   elNutrientChips.innerHTML = "";
   
   const creds = loadCreds();
-  
-  for (const ing of allIngredients) {
-    if (q && !ing.label.toLowerCase().includes(q) && !ing.key.includes(q)) continue;
-    
-    // Überprüfe, ob Nährstoffdaten vorhanden sind
-    const hasData = creds ? await hasIngredientData(creds, ing.key) : false;
-    elNutrientChips.appendChild(makeNutrientChip(ing, hasData));
+
+  try {
+    for (const ing of allIngredients) {
+      if (q && !ing.label.toLowerCase().includes(q) && !ing.key.includes(q)) continue;
+      
+      // Überprüfe, ob Nährstoffdaten vorhanden sind
+      const hasData = creds ? await hasIngredientData(creds, ing.key) : false;
+
+      // Nur das neueste Render-Ergebnis in den DOM schreiben.
+      if (currentRequestId !== nutrientLoadRequestId) return;
+      elNutrientChips.appendChild(makeNutrientChip(ing, hasData));
+    }
+  } finally {
+    if (currentRequestId === nutrientLoadRequestId) {
+      setNutrientLoading(false);
+    }
   }
 }
 
@@ -510,11 +530,6 @@ if (btnToggleNutrients && nutrientBody) {
   btnToggleNutrients.addEventListener("click", () => {
     const isHidden = nutrientBody.classList.toggle("hidden");
     btnToggleNutrients.textContent = isHidden ? "Ausklappen" : "Einklappen";
-    
-    // Nur laden, wenn geöffnet wird
-    if (!isHidden) {
-      renderNutrientChips();
-    }
   });
 }
 
@@ -565,6 +580,11 @@ setupAuthUi();
       initChips();
       renderIgnoreChips();
       render();
+
+      // Nährstoffdetails immer im Hintergrund vorladen (unabhängig vom Accordion-Zustand)
+      renderNutrientChips().catch(err => {
+        console.warn("Background-Nährstoffdetails konnten nicht geladen werden:", err);
+      });
     });
     
     // NEU: lädt aus Cache (instant) oder von Nextcloud (initial)
@@ -585,6 +605,11 @@ setupAuthUi();
     initChips();
     renderIgnoreChips();
     render();
+
+    // Nährstoffdetails immer im Hintergrund vorladen (unabhängig vom Accordion-Zustand)
+    renderNutrientChips().catch(err => {
+      console.warn("Background-Nährstoffdetails konnten nicht geladen werden:", err);
+    });
     
     // Bilder asynchron nachladen (wenn nicht in Cache)
     showLoading("Bilder werden im Hintergrund geladen...");
