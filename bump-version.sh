@@ -61,5 +61,5 @@ echo "   - sw.js: const APP_VERSION = \"$NEW_VERSION\";"
 echo ""
 echo "🚀 Service Worker Cache wird beim nächsten Reload invalidiert!"
 
-git add *
+git add -A
 git commit -m "Bump version to $NEW_VERSION"
