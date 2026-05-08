@@ -63,3 +63,5 @@ echo "🚀 Service Worker Cache wird beim nächsten Reload invalidiert!"
 
 git add -A
 git commit -m "Bump version to $NEW_VERSION"
+
+echo "git push nicht vergessen!"

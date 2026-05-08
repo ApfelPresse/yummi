@@ -69,6 +69,7 @@
     } from "./js/core/shared.js";
     import { loadSelected, saveSelected } from "./js/storage/local.js";
     import { applyIgnoredFromLocal, syncIgnoredFromDav, getCredsOrThrow } from "./js/ignore/ignore.js";
+    import { aggregateRecipeNutrition, renderNutritionSummary, setupNutritionCardListeners } from "./js/recipes/nutrition-aggregator.js";
 
     const STORAGE_KEY = "pantry_selected_v1";
     let pantryEdit = false;
@@ -123,6 +124,24 @@
                 </ol>
               </section>
             </div>
+
+            <!-- Nährstoffzusammenfassung (Accordion) -->
+            <section class="mt-6 bg-white rounded-2xl border overflow-hidden" id="nutritionSection">
+              <button id="btnToggleNutrition" class="w-full px-4 py-4 flex items-center justify-between hover:bg-gray-50 transition cursor-pointer">
+                <h2 class="text-lg font-semibold">Nährstoffzusammenfassung</h2>
+                <svg id="nutritionChevron" class="w-5 h-5 text-gray-400 transition transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+              </button>
+              <div id="nutritionBody" class="hidden px-4 pb-4 bg-gray-50 border-t">
+                <div id="nutritionContent" class="text-center text-gray-500 text-sm py-4">
+                  <div class="inline-block">
+                    <div class="w-6 h-6 border-3 border-gray-300 border-t-blue-600 rounded-full animate-spin mb-2"></div>
+                  </div>
+                  <p>Nährstoffe werden berechnet...</p>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
       `;
@@ -169,6 +188,45 @@
           ul.appendChild(li);
         }
       }
+
+      // ──── Nährstoffzusammenfassung ────────────────────────────────────────
+      const btnToggleNutrition = document.getElementById("btnToggleNutrition");
+      const nutritionBody = document.getElementById("nutritionBody");
+      const nutritionChevron = document.getElementById("nutritionChevron");
+      const nutritionContent = document.getElementById("nutritionContent");
+
+      let nutritionExpanded = false;
+      btnToggleNutrition.onclick = () => {
+        nutritionExpanded = !nutritionExpanded;
+        nutritionBody.classList.toggle("hidden");
+        nutritionChevron.style.transform = nutritionExpanded ? "rotate(180deg)" : "rotate(0deg)";
+      };
+
+      // Lade Nährstoffe asynchron
+      (async () => {
+        try {
+          let creds = null;
+          try {
+            creds = getCredsOrThrow();
+          } catch {
+            // Offline - Nährstoffe laden trotzdem aus Cache
+          }
+
+          const aggregated = await aggregateRecipeNutrition(recipe, creds);
+          if (aggregated) {
+            const html = renderNutritionSummary(aggregated);
+            nutritionContent.innerHTML = html;
+            
+            // Setze Click-Handler für Nährstoff-Kärtchen
+            setupNutritionCardListeners(aggregated);
+          } else {
+            nutritionContent.innerHTML = '<p class="text-gray-500 text-sm">Keine Nährstoffdaten verfügbar</p>';
+          }
+        } catch (err) {
+          console.error("Fehler beim Laden der Nährstoffe:", err);
+          nutritionContent.innerHTML = '<p class="text-red-500 text-sm">Fehler beim Laden der Nährstoffe</p>';
+        }
+      })();
     }
 
     document.getElementById("btnToggleMode").onclick = () => {

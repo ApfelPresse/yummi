@@ -55,7 +55,7 @@ export function createEmptyDetails(name = "") {
 
 // ─── Label-Mappings ──────────────────────────────────────────────────────────
 
-const MACRO_LABELS = {
+export const MACRO_LABELS = {
 	kcal:          ["Kalorien (kcal)",   "kcal"],
 	water:         ["Wasser",            "g"],
 	protein:       ["Protein",           "g"],
