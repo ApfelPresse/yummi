@@ -220,7 +220,8 @@ async function renderNutrientChips() {
   const creds = loadCreds();
 
   try {
-    for (const ing of allIngredients) {
+    // Im Nährstoff-Tab immer alle Zutaten anzeigen (auch ignorierte).
+    for (const ing of allIngredientsAll) {
       if (q && !ing.label.toLowerCase().includes(q) && !ing.key.includes(q)) continue;
       
       // Überprüfe, ob Nährstoffdaten vorhanden sind
@@ -249,9 +250,9 @@ async function reloadNutrientDetailsCache() {
 
   try {
     let done = 0;
-    const total = allIngredients.length;
+    const total = allIngredientsAll.length;
 
-    for (const ing of allIngredients) {
+    for (const ing of allIngredientsAll) {
       // Invalidiert Cache und lädt den Datensatz frisch vom Server.
       await forceReloadIngredientDetails(creds, ing.key);
       done += 1;
