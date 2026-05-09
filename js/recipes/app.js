@@ -919,18 +919,30 @@ elOnlySelectedToggle.onchange = () => {
   updateChips();
 };
 
+const setToggleIcon = (button, isHidden) => {
+  button.setAttribute("aria-label", isHidden ? "Ausklappen" : "Einklappen");
+  button.innerHTML = isHidden
+    ? `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m6 9 6 6 6-6" /></svg>`
+    : `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="m18 15-6-6-6 6" /></svg>`;
+};
+
 if (btnToggleIgnore && ignoreBody) {
+
   btnToggleIgnore.addEventListener("click", () => {
     const isHidden = ignoreBody.classList.toggle("hidden");
-    btnToggleIgnore.textContent = isHidden ? "Ausklappen" : "Einklappen";
+    setToggleIcon(btnToggleIgnore, isHidden);
   });
+
+  setToggleIcon(btnToggleIgnore, ignoreBody.classList.contains("hidden"));
 }
 
 if (btnToggleIngredients && ingredientsBody) {
   btnToggleIngredients.addEventListener("click", () => {
     const isHidden = ingredientsBody.classList.toggle("hidden");
-    btnToggleIngredients.textContent = isHidden ? "Ausklappen" : "Einklappen";
+    setToggleIcon(btnToggleIngredients, isHidden);
   });
+
+  setToggleIcon(btnToggleIngredients, ingredientsBody.classList.contains("hidden"));
 }
 
 if (elIgnoreSearch) {
@@ -942,8 +954,10 @@ if (elIgnoreSearch) {
 if (btnToggleNutrients && nutrientBody) {
   btnToggleNutrients.addEventListener("click", () => {
     const isHidden = nutrientBody.classList.toggle("hidden");
-    btnToggleNutrients.textContent = isHidden ? "Ausklappen" : "Einklappen";
+    setToggleIcon(btnToggleNutrients, isHidden);
   });
+
+  setToggleIcon(btnToggleNutrients, nutrientBody.classList.contains("hidden"));
 }
 
 if (btnReloadNutrients) {
