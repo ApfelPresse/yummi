@@ -1,0 +1,56 @@
+{
+  "name": "Bohnenkraut gemahlen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170936)",
+  "macros": {
+    "kcal": 272,
+    "water": 9,
+    "protein": 6.73,
+    "fat": 5.91,
+    "carbs": 68.73,
+    "fiber": 45.7,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.366,
+    "vitb6": 1810,
+    "nia": 4.08,
+    "vitc": 50,
+    "vita": 257,
+    "niaeq": 4.08
+  },
+  "minerals": {
+    "mn": 6100,
+    "zn": 4.3,
+    "cu": 847,
+    "p": 140,
+    "na": 24,
+    "fe": 37.88,
+    "mg": 377,
+    "ca": 2132,
+    "k": 1051,
+    "nacl": 0.061
+  },
+  "carbohydrates": {
+    "cho": 68.73
+  },
+  "fibers": {
+    "fibt": 45.7
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 3.26
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170936",
+    "foodDataDescription": "Spices, savory, ground",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

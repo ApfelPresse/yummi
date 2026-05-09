@@ -1,0 +1,80 @@
+{
+  "name": "Kapern Konserve",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 172238)",
+  "macros": {
+    "kcal": 23,
+    "water": 83.85,
+    "protein": 2.36,
+    "fat": 0.86,
+    "carbs": 4.89,
+    "fiber": 3.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "fol": 23,
+    "folac": 23,
+    "vite": 0.88,
+    "tocpha": 0.88,
+    "vitk1": 24.6,
+    "vita": 7,
+    "thia": 0.018,
+    "nia": 0.652,
+    "vitb6": 23,
+    "folfd": 23,
+    "ribf": 0.139,
+    "vitc": 4.3,
+    "pantac": 0.027,
+    "vitk": 24.6,
+    "niaeq": 0.652
+  },
+  "minerals": {
+    "fe": 1.67,
+    "mg": 33,
+    "mn": 78,
+    "ca": 40,
+    "k": 40,
+    "zn": 0.32,
+    "p": 10,
+    "cu": 374,
+    "na": 2348,
+    "nacl": 5.9639
+  },
+  "carbohydrates": {
+    "sugar": 0.41,
+    "cho": 4.89
+  },
+  "fibers": {
+    "fibt": 3.2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f18_1cn9": 0.057,
+    "f18_2cn6": 0.111,
+    "fams": 0.063,
+    "f20_1cn9": 0.001,
+    "f16_1cn7": 0.004,
+    "f18_3cn3": 0.183,
+    "f20_4cn6": 0.002,
+    "f14_0": 0.001,
+    "f16_0": 0.17,
+    "f22_5cn3": 0.001,
+    "f18_0": 0.036,
+    "fapu": 0.304,
+    "fasat": 0.233,
+    "fapun3": 0.183,
+    "fapun6": 0.111
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "172238",
+    "foodDataDescription": "Capers, canned",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

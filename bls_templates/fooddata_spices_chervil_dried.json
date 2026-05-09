@@ -1,0 +1,66 @@
+{
+  "name": "Kerbel getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171318)",
+  "macros": {
+    "kcal": 237,
+    "water": 7.2,
+    "protein": 23.2,
+    "fat": 3.9,
+    "carbs": 49.1,
+    "fiber": 11.3,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitc": 50,
+    "vitb6": 930,
+    "vita": 293,
+    "folfd": 274,
+    "ribf": 0.68,
+    "fol": 274,
+    "thia": 0.38,
+    "nia": 5.4,
+    "folac": 274,
+    "niaeq": 5.4
+  },
+  "minerals": {
+    "zn": 8.8,
+    "mn": 2100,
+    "p": 450,
+    "cu": 440,
+    "fe": 31.95,
+    "mg": 130,
+    "k": 4740,
+    "na": 83,
+    "ca": 1346,
+    "nacl": 0.2108
+  },
+  "carbohydrates": {
+    "cho": 49.1
+  },
+  "fibers": {
+    "fibt": 11.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f16_0": 0.169,
+    "f18_1cn9": 1.399,
+    "fams": 1.399,
+    "fapu": 1.8,
+    "f18_2cn6": 1.8,
+    "fasat": 0.169,
+    "fapun6": 1.8
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171318",
+    "foodDataDescription": "Spices, chervil, dried",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

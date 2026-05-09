@@ -1,0 +1,103 @@
+{
+  "name": "Paprikapulver",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171329)",
+  "macros": {
+    "kcal": 282,
+    "water": 11.24,
+    "protein": 14.14,
+    "fat": 12.89,
+    "carbs": 53.99,
+    "fiber": 34.9,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitc": 0.9,
+    "folac": 49,
+    "vita": 2463,
+    "vitk1": 80.3,
+    "vite": 29.1,
+    "tocpha": 29.1,
+    "vitb6": 2141,
+    "nia": 10.06,
+    "folfd": 49,
+    "fol": 49,
+    "thia": 0.33,
+    "pantac": 2.51,
+    "ribf": 1.23,
+    "vitk": 80.3,
+    "niaeq": 10.06
+  },
+  "minerals": {
+    "na": 68,
+    "fe": 21.14,
+    "ca": 229,
+    "mn": 1590,
+    "mg": 178,
+    "zn": 4.33,
+    "k": 2280,
+    "cu": 713,
+    "p": 314,
+    "nacl": 0.1727
+  },
+  "carbohydrates": {
+    "glus": 2.63,
+    "cho": 53.99,
+    "sugar": 10.34,
+    "frus": 6.71
+  },
+  "fibers": {
+    "fibt": 34.9
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f14_0": 0.172,
+    "fasat": 2.14,
+    "fams": 1.695,
+    "f18_2cn6": 7.314,
+    "f22_0": 0.047,
+    "fapu": 7.766,
+    "f18_3cn3": 0.453,
+    "f18_1cn9": 1.603,
+    "f16_1cn7": 0.069,
+    "f18_0": 0.337,
+    "f16_0": 1.468,
+    "f20_1cn9": 0.023,
+    "f12_0": 0.068,
+    "f20_0": 0.047,
+    "fapun3": 0.453,
+    "fapun6": 7.314
+  },
+  "aminoAcids": {
+    "tyr": 0.38,
+    "gly": 0.78,
+    "pro": 2.31,
+    "cyste": 0.23,
+    "asp": 2.85,
+    "val": 0.75,
+    "his": 0.25,
+    "ser": 0.61,
+    "glu": 2.26,
+    "ala": 0.64,
+    "arg": 0.89,
+    "thr": 0.49,
+    "ile": 0.57,
+    "trp": 0.07,
+    "phe": 0.61,
+    "met": 0.2,
+    "lys": 0.69,
+    "leu": 0.92,
+    "aae9": 4.55
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171329",
+    "foodDataDescription": "Spices, paprika",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

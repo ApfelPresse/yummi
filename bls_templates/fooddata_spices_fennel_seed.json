@@ -1,0 +1,83 @@
+{
+  "name": "Fenchelsamen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171323)",
+  "macros": {
+    "kcal": 345,
+    "water": 8.81,
+    "protein": 15.8,
+    "fat": 14.87,
+    "carbs": 52.29,
+    "fiber": 39.8,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitb6": 470,
+    "vitc": 21,
+    "vita": 7,
+    "ribf": 0.353,
+    "thia": 0.408,
+    "nia": 6.05,
+    "niaeq": 6.05
+  },
+  "minerals": {
+    "mg": 385,
+    "ca": 1196,
+    "cu": 1067,
+    "fe": 18.54,
+    "p": 487,
+    "zn": 3.7,
+    "k": 1694,
+    "na": 88,
+    "mn": 6533,
+    "nacl": 0.2235
+  },
+  "carbohydrates": {
+    "cho": 52.29
+  },
+  "fibers": {
+    "fibt": 39.8
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fams": 9.91,
+    "fasat": 0.48,
+    "f16_0": 0.48,
+    "fapu": 1.69,
+    "f18_2cn6": 1.69,
+    "f18_1cn9": 9.91,
+    "fapun6": 1.69
+  },
+  "aminoAcids": {
+    "pro": 0.9,
+    "ala": 0.789,
+    "glu": 2.956,
+    "trp": 0.253,
+    "phe": 0.647,
+    "leu": 0.996,
+    "asp": 1.833,
+    "cyste": 0.222,
+    "ile": 0.695,
+    "ser": 0.9,
+    "tyr": 0.41,
+    "thr": 0.602,
+    "met": 0.301,
+    "lys": 0.758,
+    "his": 0.331,
+    "gly": 1.107,
+    "val": 0.915,
+    "arg": 0.68,
+    "aae9": 5.498
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171323",
+    "foodDataDescription": "Spices, fennel seed",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

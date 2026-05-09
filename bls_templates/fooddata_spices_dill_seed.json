@@ -1,0 +1,83 @@
+{
+  "name": "Dillsamen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170925)",
+  "macros": {
+    "kcal": 305,
+    "water": 7.7,
+    "protein": 15.98,
+    "fat": 14.54,
+    "carbs": 55.17,
+    "fiber": 21.1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitb6": 250,
+    "fol": 10,
+    "vitc": 21,
+    "folfd": 10,
+    "vita": 3,
+    "nia": 2.807,
+    "folac": 10,
+    "thia": 0.418,
+    "ribf": 0.284,
+    "niaeq": 2.807
+  },
+  "minerals": {
+    "ca": 1516,
+    "cu": 780,
+    "p": 277,
+    "mg": 256,
+    "na": 20,
+    "mn": 1833,
+    "k": 1186,
+    "fe": 16.33,
+    "zn": 5.2,
+    "nacl": 0.0508
+  },
+  "carbohydrates": {
+    "cho": 55.17
+  },
+  "fibers": {
+    "fibt": 21.1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f18_1cn9": 9.36,
+    "f16_0": 0.58,
+    "f18_3cn3": 0.15,
+    "f18_0": 0.1,
+    "fasat": 0.73,
+    "f12_0": 0.01,
+    "fapu": 1.01,
+    "f16_1cn7": 0.05,
+    "f18_2cn6": 0.96,
+    "f14_0": 0.01,
+    "fams": 9.41,
+    "fapun3": 0.15,
+    "fapun6": 0.96
+  },
+  "aminoAcids": {
+    "val": 1.12,
+    "ile": 0.767,
+    "arg": 1.263,
+    "his": 0.32,
+    "leu": 0.925,
+    "phe": 0.67,
+    "lys": 1.038,
+    "met": 0.143,
+    "thr": 0.575,
+    "aae9": 5.558
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170925",
+    "foodDataDescription": "Spices, dill seed",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

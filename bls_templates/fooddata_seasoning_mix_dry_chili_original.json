@@ -1,0 +1,45 @@
+{
+  "name": "Chili-Gewürzmischung trocken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 173476)",
+  "macros": {
+    "kcal": 335,
+    "water": 10.75,
+    "protein": 10.82,
+    "fat": 7.3,
+    "carbs": 56.56,
+    "fiber": 10.8,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitc": 5.9
+  },
+  "minerals": {
+    "na": 4616,
+    "fe": 3.9,
+    "nacl": 11.7246
+  },
+  "carbohydrates": {
+    "sugar": 8.67,
+    "cho": 56.56
+  },
+  "fibers": {
+    "fibt": 10.8
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fapu": 5.556
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "173476",
+    "foodDataDescription": "Seasoning mix, dry, chili, original",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Vanillearoma ohne Alkohol",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 172236)",
+  "macros": {
+    "kcal": 56,
+    "water": 85.58,
+    "protein": 0.03,
+    "fat": null,
+    "carbs": 14.4,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "ribf": 0.029,
+    "thia": 0.003,
+    "nia": 0.129,
+    "vitb6": 8,
+    "pantac": 0.011,
+    "niaeq": 0.129
+  },
+  "minerals": {
+    "mn": 1,
+    "fe": 0.05,
+    "ca": 3,
+    "na": 3,
+    "zn": 0.01,
+    "mg": 1,
+    "cu": 3,
+    "nacl": 0.0076
+  },
+  "carbohydrates": {
+    "cho": 14.4,
+    "sugar": 14.4
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "172236",
+    "foodDataDescription": "Vanilla extract, imitation, no alcohol",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Korianderblatt getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170921)",
+  "macros": {
+    "kcal": 279,
+    "water": 7.3,
+    "protein": 21.93,
+    "fat": 4.78,
+    "carbs": 52.1,
+    "fiber": 10.4,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitb6": 610,
+    "vitc": 566.7,
+    "ribf": 1.5,
+    "nia": 10.707,
+    "thia": 1.252,
+    "folac": 274,
+    "folfd": 274,
+    "vitk1": 1359.5,
+    "fol": 274,
+    "vita": 293,
+    "vite": 1.03,
+    "tocpha": 1.03,
+    "vitk": 1359.5,
+    "niaeq": 10.707
+  },
+  "minerals": {
+    "mg": 694,
+    "na": 211,
+    "p": 481,
+    "cu": 1786,
+    "mn": 6355,
+    "k": 4466,
+    "ca": 1246,
+    "fe": 42.46,
+    "zn": 4.72,
+    "nacl": 0.5359
+  },
+  "carbohydrates": {
+    "cho": 52.1,
+    "sugar": 7.27
+  },
+  "fibers": {
+    "fibt": 10.4
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fams": 2.232,
+    "fasat": 0.115,
+    "f18_2cn6": 0.328,
+    "f16_1cn7": 0.016,
+    "f14_0": 0.003,
+    "f16_0": 0.096,
+    "f18_0": 0.005,
+    "f18_1cn9": 2.216,
+    "fapu": 0.328,
+    "fapun6": 0.328
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170921",
+    "foodDataDescription": "Spices, coriander leaf, dried",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

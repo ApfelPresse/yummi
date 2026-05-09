@@ -1,0 +1,66 @@
+{
+  "name": "Anissamen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171316)",
+  "macros": {
+    "kcal": 337,
+    "water": 9.54,
+    "protein": 17.6,
+    "fat": 15.9,
+    "carbs": 50.02,
+    "fiber": 14.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "nia": 3.06,
+    "folac": 10,
+    "vitc": 21,
+    "fol": 10,
+    "vitb6": 650,
+    "vita": 16,
+    "thia": 0.34,
+    "ribf": 0.29,
+    "folfd": 10,
+    "pantac": 0.797,
+    "niaeq": 3.06
+  },
+  "minerals": {
+    "cu": 910,
+    "p": 440,
+    "ca": 646,
+    "mn": 2300,
+    "na": 16,
+    "zn": 5.3,
+    "k": 1441,
+    "mg": 170,
+    "fe": 36.96,
+    "nacl": 0.0406
+  },
+  "carbohydrates": {
+    "cho": 50.02
+  },
+  "fibers": {
+    "fibt": 14.6
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.586,
+    "fams": 9.78,
+    "f18_2cn6": 3.15,
+    "f18_1cn9": 9.78,
+    "fapu": 3.15,
+    "fapun6": 3.15
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171316",
+    "foodDataDescription": "Spices, anise seed",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

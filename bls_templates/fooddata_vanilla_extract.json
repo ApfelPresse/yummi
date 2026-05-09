@@ -1,0 +1,64 @@
+{
+  "name": "Vanilleextrakt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 173471)",
+  "macros": {
+    "kcal": 288,
+    "water": 52.58,
+    "protein": 0.06,
+    "fat": 0.06,
+    "carbs": 12.65,
+    "fiber": null,
+    "alcohol": 34.4,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.011,
+    "pantac": 0.035,
+    "nia": 0.425,
+    "vitb6": 26,
+    "ribf": 0.095,
+    "niaeq": 0.425
+  },
+  "minerals": {
+    "na": 9,
+    "p": 6,
+    "mn": 230,
+    "fe": 0.12,
+    "zn": 0.11,
+    "k": 148,
+    "cu": 72,
+    "mg": 12,
+    "ca": 11,
+    "nacl": 0.0229
+  },
+  "carbohydrates": {
+    "sugar": 12.65,
+    "cho": 12.65
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f18_0": 0.001,
+    "f18_1cn9": 0.008,
+    "fapu": 0.004,
+    "f18_2cn6": 0.003,
+    "fasat": 0.01,
+    "f18_3cn3": 0.001,
+    "f16_0": 0.005,
+    "fams": 0.01,
+    "fapun3": 0.001,
+    "fapun6": 0.003
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "173471",
+    "foodDataDescription": "Vanilla extract",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

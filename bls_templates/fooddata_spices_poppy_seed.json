@@ -1,0 +1,99 @@
+{
+  "name": "Mohnsamen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171330)",
+  "macros": {
+    "kcal": 525,
+    "water": 5.95,
+    "protein": 17.99,
+    "fat": 41.56,
+    "carbs": 28.13,
+    "fiber": 19.5,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "fol": 82,
+    "ribf": 0.1,
+    "vite": 1.77,
+    "tocpha": 1.77,
+    "thia": 0.854,
+    "vitc": 1,
+    "nia": 0.896,
+    "pantac": 0.324,
+    "vitb6": 247,
+    "folac": 82,
+    "folfd": 82,
+    "niaeq": 0.896
+  },
+  "minerals": {
+    "fe": 9.76,
+    "zn": 7.9,
+    "mn": 6707,
+    "na": 26,
+    "p": 870,
+    "ca": 1438,
+    "mg": 347,
+    "k": 719,
+    "cu": 1627,
+    "nacl": 0.066
+  },
+  "carbohydrates": {
+    "glus": 0.37,
+    "sugar": 2.99,
+    "frus": 0.29,
+    "cho": 28.13
+  },
+  "fibers": {
+    "fibt": 19.5
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f18_3cn3": 0.273,
+    "f20_0": 0.039,
+    "fasat": 4.517,
+    "f18_2cn6": 28.295,
+    "f14_0": 0.077,
+    "f20_1cn9": 0.078,
+    "fams": 5.982,
+    "f18_1cn9": 5.864,
+    "f6_0": 0.037,
+    "f16_1cn7": 0.039,
+    "f16_0": 3.581,
+    "f18_0": 0.782,
+    "fapu": 28.569,
+    "fapun3": 0.273,
+    "fapun6": 28.295
+  },
+  "aminoAcids": {
+    "ser": 0.952,
+    "ala": 0.839,
+    "gly": 0.952,
+    "thr": 0.686,
+    "ile": 0.819,
+    "cyste": 0.297,
+    "trp": 0.184,
+    "tyr": 0.727,
+    "asp": 2.365,
+    "val": 1.095,
+    "arg": 1.945,
+    "met": 0.502,
+    "his": 0.471,
+    "lys": 0.952,
+    "phe": 0.758,
+    "glu": 4.299,
+    "leu": 1.321,
+    "pro": 2.754,
+    "aae9": 6.788
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171330",
+    "foodDataDescription": "Spices, poppy seed",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

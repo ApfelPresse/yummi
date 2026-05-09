@@ -1,0 +1,98 @@
+{
+  "name": "Knoblauchpulver",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171325)",
+  "macros": {
+    "kcal": 331,
+    "water": 6.45,
+    "protein": 16.55,
+    "fat": 0.73,
+    "carbs": 72.73,
+    "fiber": 9,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.435,
+    "pantac": 0.743,
+    "folfd": 47,
+    "ribf": 0.141,
+    "folac": 47,
+    "vite": 0.67,
+    "tocpha": 0.67,
+    "vitk1": 0.4,
+    "nia": 0.796,
+    "vitb6": 1654,
+    "vitc": 1.2,
+    "fol": 47,
+    "vitk": 0.4,
+    "niaeq": 0.796
+  },
+  "minerals": {
+    "mn": 979,
+    "p": 414,
+    "ca": 79,
+    "mg": 77,
+    "zn": 2.99,
+    "fe": 5.65,
+    "k": 1193,
+    "cu": 533,
+    "na": 60,
+    "nacl": 0.1524
+  },
+  "carbohydrates": {
+    "frus": 0.31,
+    "sugar": 2.43,
+    "cho": 72.73,
+    "glus": 0.07
+  },
+  "fibers": {
+    "fibt": 9
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fapu": 0.178,
+    "f18_2cn6": 0.143,
+    "f18_1cn9": 0.106,
+    "f16_0": 0.101,
+    "f22_0": 0.028,
+    "fams": 0.115,
+    "f18_3cn3": 0.012,
+    "f18_0": 0.105,
+    "f14_0": 0.015,
+    "fasat": 0.249,
+    "fapun3": 0.012,
+    "fapun6": 0.143
+  },
+  "aminoAcids": {
+    "met": 0.111,
+    "ser": 0.505,
+    "cyste": 0.253,
+    "leu": 0.728,
+    "ala": 0.485,
+    "val": 0.667,
+    "asp": 1.89,
+    "tyr": 0.445,
+    "glu": 3.658,
+    "lys": 0.768,
+    "thr": 0.374,
+    "pro": 1.354,
+    "phe": 0.525,
+    "gly": 0.525,
+    "arg": 3.365,
+    "ile": 0.414,
+    "trp": 0.121,
+    "his": 0.263,
+    "aae9": 3.971
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171325",
+    "foodDataDescription": "Spices, garlic powder",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

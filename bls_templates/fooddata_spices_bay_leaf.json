@@ -1,0 +1,74 @@
+{
+  "name": "Lorbeerblatt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170917)",
+  "macros": {
+    "kcal": 313,
+    "water": 5.44,
+    "protein": 7.61,
+    "fat": 8.36,
+    "carbs": 74.97,
+    "fiber": 26.3,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "fol": 180,
+    "folac": 180,
+    "vitb6": 1740,
+    "ribf": 0.421,
+    "vitc": 46.5,
+    "vita": 309,
+    "folfd": 180,
+    "nia": 2.005,
+    "thia": 0.009,
+    "niaeq": 2.005
+  },
+  "minerals": {
+    "zn": 3.7,
+    "mg": 120,
+    "fe": 43,
+    "k": 529,
+    "mn": 8167,
+    "cu": 416,
+    "na": 23,
+    "p": 113,
+    "ca": 834,
+    "nacl": 0.0584
+  },
+  "carbohydrates": {
+    "cho": 74.97
+  },
+  "fibers": {
+    "fibt": 26.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f18_3cn3": 1.05,
+    "f18_1cn9": 1.5,
+    "f18_2cn6": 1.24,
+    "f18_0": 0.16,
+    "f16_0": 1.27,
+    "f10_0": 0.01,
+    "fams": 1.64,
+    "f8_0": 0.01,
+    "f16_1cn7": 0.14,
+    "f14_0": 0.21,
+    "fapu": 2.29,
+    "fasat": 2.28,
+    "f12_0": 0.53,
+    "fapun3": 1.05,
+    "fapun6": 1.24
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170917",
+    "foodDataDescription": "Spices, bay leaf",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

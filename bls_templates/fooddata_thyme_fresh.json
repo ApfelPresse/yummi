@@ -1,0 +1,82 @@
+{
+  "name": "Thymian frisch",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 173470)",
+  "macros": {
+    "kcal": 101,
+    "water": 65.11,
+    "protein": 5.56,
+    "fat": 1.68,
+    "carbs": 24.45,
+    "fiber": 14,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitc": 160.1,
+    "folfd": 45,
+    "folac": 45,
+    "nia": 1.824,
+    "vitb6": 348,
+    "fol": 45,
+    "vita": 238,
+    "pantac": 0.409,
+    "thia": 0.048,
+    "ribf": 0.471,
+    "niaeq": 1.824
+  },
+  "minerals": {
+    "k": 609,
+    "cu": 555,
+    "p": 106,
+    "na": 9,
+    "mn": 1719,
+    "mg": 160,
+    "ca": 405,
+    "zn": 1.81,
+    "fe": 17.45,
+    "nacl": 0.0229
+  },
+  "carbohydrates": {
+    "cho": 24.45
+  },
+  "fibers": {
+    "fibt": 14
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f10_0": 0.021,
+    "fasat": 0.467,
+    "f18_0": 0.047,
+    "f12_0": 0.039,
+    "f16_0": 0.293,
+    "fapu": 0.532,
+    "f8_0": 0.041,
+    "f18_2cn6": 0.085,
+    "f18_1cn9": 0.081,
+    "fams": 0.081,
+    "f14_0": 0.026,
+    "f18_3cn3": 0.447,
+    "fapun3": 0.447,
+    "fapun6": 0.085
+  },
+  "aminoAcids": {
+    "val": 0.307,
+    "leu": 0.262,
+    "ile": 0.285,
+    "trp": 0.114,
+    "thr": 0.154,
+    "lys": 0.126,
+    "aae9": 1.248
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "173470",
+    "foodDataDescription": "Thyme, fresh",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

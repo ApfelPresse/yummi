@@ -1,0 +1,48 @@
+{
+  "name": "Balsamicoessig",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 172241)",
+  "macros": {
+    "kcal": 88,
+    "water": 76.45,
+    "protein": 0.49,
+    "fat": null,
+    "carbs": 17.03,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "ca": 27,
+    "mn": 131,
+    "cu": 26,
+    "p": 19,
+    "zn": 0.08,
+    "k": 112,
+    "mg": 12,
+    "fe": 0.72,
+    "na": 23,
+    "nacl": 0.0584
+  },
+  "carbohydrates": {
+    "cho": 17.03,
+    "glus": 7.57,
+    "frus": 7.38,
+    "sugar": 14.95
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "172241",
+    "foodDataDescription": "Vinegar, balsamic",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

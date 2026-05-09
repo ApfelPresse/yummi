@@ -1,0 +1,74 @@
+{
+  "name": "Majoran getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170928)",
+  "macros": {
+    "kcal": 271,
+    "water": 7.64,
+    "protein": 12.66,
+    "fat": 7.04,
+    "carbs": 60.56,
+    "fiber": 40.3,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitc": 51.4,
+    "fol": 274,
+    "folac": 274,
+    "ribf": 0.316,
+    "vitb6": 1190,
+    "nia": 4.12,
+    "folfd": 274,
+    "thia": 0.289,
+    "vita": 403,
+    "vitk1": 621.7,
+    "vite": 1.69,
+    "tocpha": 1.69,
+    "vitk": 621.7,
+    "niaeq": 4.12
+  },
+  "minerals": {
+    "fe": 82.71,
+    "k": 1522,
+    "mg": 346,
+    "ca": 1990,
+    "zn": 3.6,
+    "cu": 1133,
+    "p": 306,
+    "na": 77,
+    "mn": 5433,
+    "nacl": 0.1956
+  },
+  "carbohydrates": {
+    "sugar": 4.09,
+    "cho": 60.56
+  },
+  "fibers": {
+    "fibt": 40.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f16_0": 0.294,
+    "fapu": 4.405,
+    "f18_2cn6": 1.175,
+    "fasat": 0.529,
+    "fams": 0.94,
+    "f18_0": 0.235,
+    "f18_3cn3": 3.23,
+    "f18_1cn9": 0.94,
+    "fapun3": 3.23,
+    "fapun6": 1.175
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170928",
+    "foodDataDescription": "Spices, marjoram, dried",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Pfefferminze frisch",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 173474)",
+  "macros": {
+    "kcal": 70,
+    "water": 78.65,
+    "protein": 3.75,
+    "fat": 0.94,
+    "carbs": 14.89,
+    "fiber": 8,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "fol": 114,
+    "nia": 1.706,
+    "folfd": 114,
+    "ribf": 0.266,
+    "vitb6": 129,
+    "vitc": 31.8,
+    "thia": 0.082,
+    "pantac": 0.338,
+    "folac": 114,
+    "vita": 212,
+    "niaeq": 1.706
+  },
+  "minerals": {
+    "mg": 80,
+    "mn": 1176,
+    "k": 569,
+    "p": 73,
+    "ca": 243,
+    "fe": 5.08,
+    "na": 31,
+    "cu": 329,
+    "zn": 1.11,
+    "nacl": 0.0787
+  },
+  "carbohydrates": {
+    "cho": 14.89
+  },
+  "fibers": {
+    "fibt": 8
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.246,
+    "f16_0": 0.176,
+    "f16_1cn7": 0.002,
+    "f14_0": 0.006,
+    "f18_0": 0.025,
+    "f18_2cn6": 0.069,
+    "f18_3cn3": 0.435,
+    "fams": 0.033,
+    "fapu": 0.508,
+    "f18_1cn9": 0.029,
+    "fapun3": 0.435,
+    "fapun6": 0.069
+  },
+  "aminoAcids": {
+    "thr": 0.154,
+    "his": 0.075,
+    "gly": 0.18,
+    "cyste": 0.041,
+    "pro": 0.154,
+    "ser": 0.146,
+    "met": 0.053,
+    "tyr": 0.113,
+    "asp": 0.443,
+    "glu": 0.409,
+    "arg": 0.173,
+    "phe": 0.191,
+    "trp": 0.058,
+    "lys": 0.161,
+    "val": 0.187,
+    "leu": 0.281,
+    "ile": 0.154,
+    "ala": 0.195,
+    "aae9": 1.314
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "173474",
+    "foodDataDescription": "Peppermint, fresh",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Pfeffer weiß",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170933)",
+  "macros": {
+    "kcal": 296,
+    "water": 11.42,
+    "protein": 10.4,
+    "fat": 2.12,
+    "carbs": 68.61,
+    "fiber": 26.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitb6": 100,
+    "folac": 10,
+    "ribf": 0.126,
+    "thia": 0.022,
+    "folfd": 10,
+    "vitc": 21,
+    "nia": 0.212,
+    "fol": 10,
+    "niaeq": 0.212
+  },
+  "minerals": {
+    "na": 5,
+    "p": 176,
+    "fe": 14.31,
+    "cu": 910,
+    "k": 73,
+    "zn": 1.13,
+    "ca": 265,
+    "mg": 90,
+    "mn": 4300,
+    "nacl": 0.0127
+  },
+  "carbohydrates": {
+    "cho": 68.61
+  },
+  "fibers": {
+    "fibt": 26.2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fapu": 0.616,
+    "fams": 0.789,
+    "fasat": 0.626
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170933",
+    "foodDataDescription": "Spices, pepper, white",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

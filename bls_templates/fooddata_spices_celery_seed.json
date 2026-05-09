@@ -1,0 +1,77 @@
+{
+  "name": "Selleriesamen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170920)",
+  "macros": {
+    "kcal": 392,
+    "water": 6.04,
+    "protein": 18.07,
+    "fat": 25.27,
+    "carbs": 41.35,
+    "fiber": 11.8,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 3,
+    "vite": 1.07,
+    "tocpha": 1.07,
+    "fol": 10,
+    "vitc": 17.1,
+    "folfd": 10,
+    "vitb6": 890,
+    "thia": 0.34,
+    "nia": 3.06,
+    "folac": 10,
+    "ribf": 0.29,
+    "niaeq": 3.06
+  },
+  "minerals": {
+    "na": 160,
+    "mg": 440,
+    "k": 1400,
+    "cu": 1370,
+    "zn": 6.93,
+    "ca": 1767,
+    "fe": 44.9,
+    "mn": 7567,
+    "p": 547,
+    "nacl": 0.4064
+  },
+  "carbohydrates": {
+    "cho": 41.35,
+    "sugar": 0.67
+  },
+  "fibers": {
+    "fibt": 11.8
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f10_0": 0.02,
+    "f14_0": 0.02,
+    "f18_0": 0.39,
+    "f16_0": 1.29,
+    "f18_1cn9": 15.45,
+    "f16_1cn7": 0.24,
+    "f12_0": 0.02,
+    "fapu": 3.72,
+    "f18_2cn6": 3.52,
+    "f20_1cn9": 0.24,
+    "f18_3cn3": 0.2,
+    "fasat": 2.19,
+    "fams": 15.93,
+    "fapun3": 0.2,
+    "fapun6": 3.52
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170920",
+    "foodDataDescription": "Spices, celery seed",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

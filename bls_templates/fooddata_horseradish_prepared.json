@@ -1,0 +1,79 @@
+{
+  "name": "Meerrettich zubereitet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 173472)",
+  "macros": {
+    "kcal": 48,
+    "water": 85.08,
+    "protein": 1.18,
+    "fat": 0.69,
+    "carbs": 11.29,
+    "fiber": 3.3,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitc": 24.9,
+    "folac": 57,
+    "folfd": 57,
+    "vitb6": 73,
+    "vite": 0.01,
+    "tocpha": 0.01,
+    "ribf": 0.024,
+    "vitk1": 1.3,
+    "thia": 0.008,
+    "fol": 57,
+    "pantac": 0.093,
+    "nia": 0.386,
+    "vitk": 1.3,
+    "niaeq": 0.386
+  },
+  "minerals": {
+    "k": 246,
+    "mg": 27,
+    "p": 31,
+    "mn": 126,
+    "fe": 0.42,
+    "ca": 56,
+    "zn": 0.83,
+    "cu": 58,
+    "na": 420,
+    "nacl": 1.0668
+  },
+  "carbohydrates": {
+    "sugar": 7.99,
+    "cho": 11.29
+  },
+  "fibers": {
+    "fibt": 3.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f12_0": 0.002,
+    "fams": 0.13,
+    "f18_3cn3": 0.053,
+    "f14_0": 0.001,
+    "f16_1cn7": 0.001,
+    "f16_0": 0.061,
+    "fapu": 0.339,
+    "f18_0": 0.021,
+    "f18_1cn9": 0.127,
+    "fasat": 0.09,
+    "f18_2cn6": 0.285,
+    "f20_1cn9": 0.001,
+    "f22_1cn9": 0.001,
+    "fapun3": 0.053,
+    "fapun6": 0.285
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "173472",
+    "foodDataDescription": "Horseradish, prepared",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

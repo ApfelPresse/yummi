@@ -1,0 +1,46 @@
+{
+  "name": "Branntweinessig",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 172237)",
+  "macros": {
+    "kcal": 18,
+    "water": 94.78,
+    "protein": null,
+    "fat": null,
+    "carbs": 0.04,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "na": 2,
+    "cu": 6,
+    "fe": 0.03,
+    "zn": 0.01,
+    "ca": 6,
+    "mn": 55,
+    "k": 2,
+    "mg": 1,
+    "p": 4,
+    "nacl": 0.0051
+  },
+  "carbohydrates": {
+    "cho": 0.04,
+    "sugar": 0.04
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "172237",
+    "foodDataDescription": "Vinegar, distilled",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

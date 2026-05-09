@@ -1,0 +1,103 @@
+{
+  "name": "Kurkuma gemahlen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 172231)",
+  "macros": {
+    "kcal": 312,
+    "water": 12.85,
+    "protein": 9.68,
+    "fat": 3.25,
+    "carbs": 67.14,
+    "fiber": 22.7,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "folac": 20,
+    "fol": 20,
+    "pantac": 0.542,
+    "vitc": 0.7,
+    "ribf": 0.15,
+    "nia": 1.35,
+    "thia": 0.058,
+    "vitb6": 107,
+    "vite": 4.43,
+    "tocpha": 4.43,
+    "vitk1": 13.4,
+    "folfd": 20,
+    "vitk": 13.4,
+    "niaeq": 1.35
+  },
+  "minerals": {
+    "mg": 208,
+    "p": 299,
+    "fe": 55,
+    "cu": 1300,
+    "zn": 4.5,
+    "mn": 19800,
+    "k": 2080,
+    "na": 27,
+    "ca": 168,
+    "nacl": 0.0686
+  },
+  "carbohydrates": {
+    "glus": 0.38,
+    "sugar": 3.21,
+    "frus": 0.45,
+    "cho": 67.14
+  },
+  "fibers": {
+    "fibt": 22.7
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f18_3cn3": 0.084,
+    "f20_0": 0.097,
+    "fasat": 1.838,
+    "fapu": 0.756,
+    "f14_0": 0.394,
+    "f10_0": 0.848,
+    "fams": 0.449,
+    "f16_0": 0.155,
+    "f18_2cn6": 0.672,
+    "f14_1cn5": 0.154,
+    "f12_0": 0.003,
+    "f18_0": 0.003,
+    "f18_1cn9": 0.131,
+    "f8_0": 0.003,
+    "fax": 0.056,
+    "fapun3": 0.084,
+    "fapun6": 0.672
+  },
+  "aminoAcids": {
+    "arg": 0.54,
+    "leu": 0.81,
+    "pro": 0.48,
+    "cyste": 0.15,
+    "met": 0.14,
+    "lys": 0.38,
+    "tyr": 0.32,
+    "asp": 1.86,
+    "trp": 0.17,
+    "ala": 0.33,
+    "phe": 0.53,
+    "gly": 0.47,
+    "his": 0.15,
+    "ile": 0.47,
+    "thr": 0.33,
+    "ser": 0.28,
+    "val": 0.66,
+    "glu": 1.14,
+    "aae9": 3.64
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "172231",
+    "foodDataDescription": "Spices, turmeric, ground",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

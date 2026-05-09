@@ -1,0 +1,86 @@
+{
+  "name": "Thymian getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170938)",
+  "macros": {
+    "kcal": 276,
+    "water": 7.79,
+    "protein": 9.11,
+    "fat": 7.43,
+    "carbs": 63.94,
+    "fiber": 37,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "ribf": 0.399,
+    "folfd": 274,
+    "folac": 274,
+    "fol": 274,
+    "thia": 0.513,
+    "vita": 190,
+    "vitc": 50,
+    "nia": 4.94,
+    "vitk1": 1714.5,
+    "vitb6": 550,
+    "vite": 7.48,
+    "tocpha": 7.48,
+    "vitk": 1714.5,
+    "niaeq": 4.94
+  },
+  "minerals": {
+    "ca": 1890,
+    "mn": 7867,
+    "zn": 6.18,
+    "mg": 220,
+    "cu": 860,
+    "k": 814,
+    "na": 55,
+    "fe": 123.6,
+    "p": 201,
+    "nacl": 0.1397
+  },
+  "carbohydrates": {
+    "cho": 63.94,
+    "sugar": 1.71
+  },
+  "fibers": {
+    "fibt": 37
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f12_0": 0.23,
+    "f18_2cn6": 0.5,
+    "f18_3cn3": 0.69,
+    "f18_1cn9": 0.47,
+    "fasat": 2.73,
+    "f14_0": 0.15,
+    "f10_0": 0.12,
+    "f18_0": 0.28,
+    "f16_0": 1.72,
+    "fapu": 1.19,
+    "fams": 0.47,
+    "f8_0": 0.24,
+    "fapun3": 0.69,
+    "fapun6": 0.5
+  },
+  "aminoAcids": {
+    "ile": 0.468,
+    "thr": 0.252,
+    "val": 0.502,
+    "leu": 0.43,
+    "trp": 0.186,
+    "lys": 0.207,
+    "aae9": 2.045
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170938",
+    "foodDataDescription": "Spices, thyme, dried",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

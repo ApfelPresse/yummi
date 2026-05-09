@@ -1,0 +1,99 @@
+{
+  "name": "Zwiebelpulver",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171327)",
+  "macros": {
+    "kcal": 341,
+    "water": 5.39,
+    "protein": 10.41,
+    "fat": 1.04,
+    "carbs": 79.12,
+    "fiber": 15.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "folac": 64,
+    "pantac": 0.732,
+    "vite": 0.27,
+    "tocpha": 0.27,
+    "nia": 0.321,
+    "vitk1": 4.1,
+    "vitb6": 718,
+    "ribf": 0.08,
+    "fol": 64,
+    "vitc": 23.4,
+    "thia": 0.457,
+    "folfd": 64,
+    "vitk": 4.1,
+    "niaeq": 0.321
+  },
+  "minerals": {
+    "k": 985,
+    "zn": 4.05,
+    "fe": 3.9,
+    "mg": 113,
+    "p": 322,
+    "cu": 590,
+    "ca": 384,
+    "na": 73,
+    "mn": 1300,
+    "nacl": 0.1854
+  },
+  "carbohydrates": {
+    "frus": 1.67,
+    "sugar": 6.63,
+    "glus": 0.73,
+    "cho": 79.12
+  },
+  "fibers": {
+    "fibt": 15.2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fams": 0.202,
+    "f16_0": 0.109,
+    "f20_4cn6": 0.042,
+    "f18_2cn6": 0.254,
+    "f18_3cn3": 0.015,
+    "f20_0": 0.036,
+    "fapu": 0.31,
+    "fasat": 0.219,
+    "f18_0": 0.023,
+    "f18_1cn9": 0.202,
+    "f22_0": 0.052,
+    "fapun3": 0.015,
+    "fapun6": 0.254
+  },
+  "aminoAcids": {
+    "ala": 0.18,
+    "pro": 0.69,
+    "glu": 2.09,
+    "tyr": 0.13,
+    "met": 0.09,
+    "trp": 0.06,
+    "his": 0.16,
+    "lys": 0.49,
+    "ser": 0.14,
+    "leu": 0.22,
+    "arg": 1.95,
+    "cyste": 0.08,
+    "val": 0.17,
+    "phe": 0.28,
+    "gly": 0.27,
+    "thr": 0.14,
+    "ile": 0.14,
+    "asp": 0.66,
+    "aae9": 1.75
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171327",
+    "foodDataDescription": "Spices, onion powder",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

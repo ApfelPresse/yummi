@@ -1,0 +1,79 @@
+{
+  "name": "Kürbiskuchen-Gewürzmischung",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171332)",
+  "macros": {
+    "kcal": 342,
+    "water": 8.46,
+    "protein": 5.76,
+    "fat": 12.6,
+    "carbs": 69.28,
+    "fiber": 14.8,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "folfd": 24,
+    "thia": 0.131,
+    "vitb6": 400,
+    "ribf": 0.137,
+    "vite": 1.93,
+    "tocpha": 1.93,
+    "folac": 24,
+    "nia": 2.243,
+    "vitk1": 28.4,
+    "vitc": 23.4,
+    "fol": 24,
+    "vita": 13,
+    "vitk": 28.4,
+    "niaeq": 2.243
+  },
+  "minerals": {
+    "mn": 15844,
+    "p": 118,
+    "zn": 2.37,
+    "na": 52,
+    "k": 663,
+    "mg": 136,
+    "ca": 682,
+    "cu": 484,
+    "fe": 19.71,
+    "nacl": 0.1321
+  },
+  "carbohydrates": {
+    "sugar": 7.76,
+    "cho": 69.28
+  },
+  "fibers": {
+    "fibt": 14.8
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f8_0": 0.012,
+    "fapu": 0.78,
+    "f10_0": 0.036,
+    "fams": 1.102,
+    "f16_1cn7": 0.292,
+    "f14_0": 4.635,
+    "fasat": 6.53,
+    "f18_0": 0.738,
+    "f12_0": 0.152,
+    "f16_0": 0.871,
+    "f18_2cn6": 0.715,
+    "f18_3cn3": 0.065,
+    "f18_1cn9": 0.764,
+    "fapun3": 0.065,
+    "fapun6": 0.715
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171332",
+    "foodDataDescription": "Spices, pumpkin pie spice",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

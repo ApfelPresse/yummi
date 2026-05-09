@@ -1,0 +1,101 @@
+{
+  "name": "Zimt gemahlen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171320)",
+  "macros": {
+    "kcal": 247,
+    "water": 10.58,
+    "protein": 3.99,
+    "fat": 1.24,
+    "carbs": 80.59,
+    "fiber": 53.1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "pantac": 0.358,
+    "ribf": 0.041,
+    "vitb6": 158,
+    "nia": 1.332,
+    "vite": 2.32,
+    "tocpha": 2.32,
+    "vitc": 3.8,
+    "folac": 6,
+    "fol": 6,
+    "folfd": 6,
+    "thia": 0.022,
+    "vitk1": 31.2,
+    "vita": 15,
+    "vitk": 31.2,
+    "niaeq": 1.332
+  },
+  "minerals": {
+    "fe": 8.32,
+    "p": 64,
+    "mn": 17466,
+    "zn": 1.83,
+    "na": 10,
+    "mg": 60,
+    "cu": 339,
+    "ca": 1002,
+    "k": 431,
+    "nacl": 0.0254
+  },
+  "carbohydrates": {
+    "glus": 1.04,
+    "frus": 1.11,
+    "cho": 80.59,
+    "sugar": 2.17
+  },
+  "fibers": {
+    "fibt": 53.1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fapu": 0.068,
+    "f10_0": 0.003,
+    "fams": 0.246,
+    "fasat": 0.345,
+    "f18_3cn3": 0.011,
+    "f16_0": 0.104,
+    "f12_0": 0.006,
+    "f14_0": 0.009,
+    "f18_2cn6": 0.044,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.246,
+    "f18_0": 0.082,
+    "fapun3": 0.011,
+    "fapun6": 0.044
+  },
+  "aminoAcids": {
+    "arg": 0.166,
+    "pro": 0.419,
+    "tyr": 0.136,
+    "lys": 0.243,
+    "cyste": 0.058,
+    "leu": 0.253,
+    "his": 0.117,
+    "thr": 0.136,
+    "glu": 0.37,
+    "asp": 0.438,
+    "ser": 0.195,
+    "met": 0.078,
+    "ala": 0.166,
+    "trp": 0.049,
+    "val": 0.224,
+    "phe": 0.146,
+    "ile": 0.146,
+    "gly": 0.195,
+    "aae9": 1.392
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171320",
+    "foodDataDescription": "Spices, cinnamon, ground",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

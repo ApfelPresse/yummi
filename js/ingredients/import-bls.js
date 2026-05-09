@@ -61,9 +61,28 @@ class BLSTemplateImporter {
       return;
     }
 
-    const matches = BLS_TEMPLATES.filter(t =>
-      t.name.toLowerCase().includes(needle)
-    );
+    const norm = (value) => value
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9 ]/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    const normalizedNeedle = norm(needle);
+    const matches = BLS_TEMPLATES
+      .filter(t => norm(t.name).includes(normalizedNeedle))
+      .sort((a, b) => {
+        const aName = norm(a.name);
+        const bName = norm(b.name);
+        const aExact = aName === normalizedNeedle ? 0 : 1;
+        const bExact = bName === normalizedNeedle ? 0 : 1;
+        if (aExact !== bExact) return aExact - bExact;
+        const aStarts = aName.startsWith(normalizedNeedle) ? 0 : 1;
+        const bStarts = bName.startsWith(normalizedNeedle) ? 0 : 1;
+        if (aStarts !== bStarts) return aStarts - bStarts;
+        return aName.length - bName.length;
+      });
 
     if (matches.length === 0) {
       list.innerHTML = '<div class="bls-hint">Keine Treffer gefunden.</div>';

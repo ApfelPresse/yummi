@@ -1,0 +1,99 @@
+{
+  "name": "Petersilie getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170930)",
+  "macros": {
+    "kcal": 292,
+    "water": 5.89,
+    "protein": 26.63,
+    "fat": 5.48,
+    "carbs": 50.64,
+    "fiber": 26.7,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk1": 1359.5,
+    "nia": 9.943,
+    "folac": 180,
+    "ribf": 2.383,
+    "vita": 97,
+    "folfd": 180,
+    "fol": 180,
+    "vite": 8.96,
+    "tocpha": 8.96,
+    "vitb6": 900,
+    "vitc": 125,
+    "thia": 0.196,
+    "pantac": 1.062,
+    "vitk": 1359.5,
+    "niaeq": 9.943
+  },
+  "minerals": {
+    "mn": 9810,
+    "k": 2683,
+    "mg": 400,
+    "cu": 780,
+    "p": 436,
+    "fe": 22.04,
+    "zn": 5.44,
+    "ca": 1140,
+    "na": 452,
+    "nacl": 1.1481
+  },
+  "carbohydrates": {
+    "cho": 50.64,
+    "frus": 0.42,
+    "sugar": 7.27,
+    "glus": 2.76
+  },
+  "fibers": {
+    "fibt": 26.7
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f18_2cn6": 1.248,
+    "fasat": 1.378,
+    "fams": 0.761,
+    "fapu": 3.124,
+    "f18_1cn9": 0.761,
+    "f20_0": 0.005,
+    "f18_0": 0.058,
+    "f16_0": 1.223,
+    "f18_3cn3": 1.876,
+    "f22_0": 0.028,
+    "fapun3": 1.876,
+    "fapun6": 1.248
+  },
+  "aminoAcids": {
+    "asp": 3.169,
+    "ile": 1.546,
+    "glu": 3.688,
+    "his": 0.718,
+    "phe": 1.712,
+    "ala": 1.778,
+    "met": 0.596,
+    "tyr": 1.159,
+    "val": 2.021,
+    "gly": 1.756,
+    "leu": 2.794,
+    "ser": 1.159,
+    "cyste": 0.298,
+    "trp": 0.475,
+    "thr": 1.193,
+    "arg": 1.756,
+    "pro": 2.01,
+    "lys": 2.098,
+    "aae9": 13.153
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170930",
+    "foodDataDescription": "Spices, parsley, dried",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

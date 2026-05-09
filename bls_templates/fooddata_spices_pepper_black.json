@@ -1,0 +1,103 @@
+{
+  "name": "Pfeffer schwarz",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170931)",
+  "macros": {
+    "kcal": 251,
+    "water": 12.46,
+    "protein": 10.39,
+    "fat": 3.26,
+    "carbs": 63.95,
+    "fiber": 25.3,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "folfd": 17,
+    "fol": 17,
+    "vita": 27,
+    "ribf": 0.18,
+    "vite": 1.04,
+    "tocpha": 1.04,
+    "thia": 0.108,
+    "vitk1": 163.7,
+    "vitb6": 291,
+    "nia": 1.143,
+    "folac": 17,
+    "pantac": 1.399,
+    "vitk": 163.7,
+    "niaeq": 1.143
+  },
+  "minerals": {
+    "k": 1329,
+    "p": 158,
+    "mn": 12753,
+    "na": 20,
+    "fe": 9.71,
+    "ca": 443,
+    "mg": 171,
+    "cu": 1330,
+    "zn": 1.19,
+    "nacl": 0.0508
+  },
+  "carbohydrates": {
+    "cho": 63.95,
+    "frus": 0.23,
+    "sugar": 0.64,
+    "glus": 0.24
+  },
+  "fibers": {
+    "fibt": 25.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 1.392,
+    "f6_0": 0.012,
+    "f8_0": 0.102,
+    "f18_3cn3": 0.152,
+    "f14_1cn5": 0.016,
+    "fams": 0.739,
+    "f12_0": 0.093,
+    "f10_0": 0.036,
+    "fapu": 0.998,
+    "f14_0": 0.03,
+    "f18_2cn6": 0.694,
+    "f18_1cn9": 0.647,
+    "f16_1cn7": 0.077,
+    "f18_0": 0.327,
+    "f16_0": 0.533,
+    "fapun3": 0.152,
+    "fapun6": 0.694
+  },
+  "aminoAcids": {
+    "tyr": 0.483,
+    "trp": 0.058,
+    "lys": 0.244,
+    "ser": 0.409,
+    "his": 0.159,
+    "leu": 1.014,
+    "cyste": 0.138,
+    "phe": 0.446,
+    "pro": 1.413,
+    "ala": 0.616,
+    "asp": 1.413,
+    "gly": 0.441,
+    "ile": 0.366,
+    "met": 0.096,
+    "val": 0.547,
+    "thr": 0.244,
+    "arg": 0.308,
+    "glu": 1.413,
+    "aae9": 3.174
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170931",
+    "foodDataDescription": "Spices, pepper, black",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

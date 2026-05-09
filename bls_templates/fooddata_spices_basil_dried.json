@@ -1,0 +1,99 @@
+{
+  "name": "Basilikum getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171317)",
+  "macros": {
+    "kcal": 233,
+    "water": 10.35,
+    "protein": 22.98,
+    "fat": 4.07,
+    "carbs": 47.75,
+    "fiber": 37.7,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 37,
+    "vitb6": 1340,
+    "pantac": 0.838,
+    "folfd": 310,
+    "fol": 310,
+    "thia": 0.08,
+    "vite": 10.7,
+    "tocpha": 10.7,
+    "vitc": 0.8,
+    "ribf": 1.2,
+    "nia": 4.9,
+    "vitk1": 1714.5,
+    "folac": 310,
+    "vitk": 1714.5,
+    "niaeq": 4.9
+  },
+  "minerals": {
+    "na": 76,
+    "mn": 9800,
+    "zn": 7.1,
+    "k": 2630,
+    "p": 274,
+    "fe": 89.8,
+    "mg": 711,
+    "ca": 2240,
+    "cu": 2100,
+    "nacl": 0.193
+  },
+  "carbohydrates": {
+    "cho": 47.75,
+    "frus": 0.75,
+    "glus": 0.75,
+    "sugar": 1.71
+  },
+  "fibers": {
+    "fibt": 37.7
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f14_0": 0.046,
+    "fasat": 2.157,
+    "f16_1cn7": 0.171,
+    "f18_3cn3": 0.3,
+    "f18_1cn9": 1.067,
+    "f18_0": 1.075,
+    "fapu": 0.498,
+    "f16_0": 1.036,
+    "f18_2cn6": 0.199,
+    "fams": 1.238,
+    "fapun3": 0.3,
+    "fapun6": 0.199
+  },
+  "aminoAcids": {
+    "phe": 1.25,
+    "tyr": 0.75,
+    "thr": 0.76,
+    "ala": 1.18,
+    "glu": 2.57,
+    "met": 0.32,
+    "trp": 0.26,
+    "pro": 2.7,
+    "gly": 1.25,
+    "ile": 1.06,
+    "ser": 0.53,
+    "cyste": 0.19,
+    "his": 0.45,
+    "val": 1.45,
+    "leu": 1.85,
+    "lys": 1.15,
+    "asp": 3.02,
+    "arg": 1.23,
+    "aae9": 8.55
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171317",
+    "foodDataDescription": "Spices, basil, dried",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "name": "Ingwer gemahlen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170926)",
+  "macros": {
+    "kcal": 335,
+    "water": 9.94,
+    "protein": 8.98,
+    "fat": 4.24,
+    "carbs": 71.62,
+    "fiber": 14.1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "fol": 13,
+    "vitb6": 626,
+    "nia": 9.62,
+    "vita": 2,
+    "vitc": 0.7,
+    "vitk1": 0.8,
+    "folac": 13,
+    "thia": 0.046,
+    "folfd": 13,
+    "pantac": 0.477,
+    "ribf": 0.17,
+    "vitk": 0.8,
+    "niaeq": 9.62
+  },
+  "minerals": {
+    "na": 27,
+    "zn": 3.64,
+    "mg": 214,
+    "mn": 33300,
+    "k": 1320,
+    "p": 168,
+    "fe": 19.8,
+    "cu": 480,
+    "ca": 114,
+    "nacl": 0.0686
+  },
+  "carbohydrates": {
+    "glus": 1.22,
+    "frus": 1.78,
+    "cho": 71.62,
+    "sugar": 3.39
+  },
+  "fibers": {
+    "fibt": 14.1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f18_1cn9": 0.357,
+    "f14_0": 0.044,
+    "f6_0": 0.027,
+    "f18_3cn3": 0.223,
+    "f16_0": 0.574,
+    "f18_2cn6": 0.706,
+    "f10_0": 1.56,
+    "f12_0": 0.068,
+    "f14_1cn5": 0.032,
+    "f22_1cn9": 0.037,
+    "f18_0": 0.227,
+    "fams": 0.479,
+    "fasat": 2.599,
+    "f16_1cn7": 0.036,
+    "fapu": 0.929,
+    "fapun3": 0.223,
+    "fapun6": 0.706
+  },
+  "aminoAcids": {
+    "gly": 0.497,
+    "ser": 0.25,
+    "ile": 0.341,
+    "glu": 0.79,
+    "tyr": 0.243,
+    "met": 0.089,
+    "val": 0.411,
+    "thr": 0.289,
+    "lys": 0.241,
+    "arg": 0.708,
+    "asp": 1.387,
+    "pro": 0.334,
+    "phe": 0.311,
+    "ala": 0.272,
+    "his": 0.199,
+    "cyste": 0.099,
+    "leu": 0.513,
+    "trp": 0.152,
+    "aae9": 2.546
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170926",
+    "foodDataDescription": "Spices, ginger, ground",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

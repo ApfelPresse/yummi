@@ -1,0 +1,77 @@
+{
+  "name": "Rosmarin getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171333)",
+  "macros": {
+    "kcal": 331,
+    "water": 9.31,
+    "protein": 4.88,
+    "fat": 15.22,
+    "carbs": 64.06,
+    "fiber": 42.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitb6": 1740,
+    "folac": 307,
+    "vita": 156,
+    "nia": 1,
+    "ribf": 0.428,
+    "vitc": 61.2,
+    "thia": 0.514,
+    "folfd": 307,
+    "fol": 307,
+    "niaeq": 1
+  },
+  "minerals": {
+    "cu": 550,
+    "ca": 1280,
+    "fe": 29.25,
+    "mg": 220,
+    "p": 70,
+    "na": 50,
+    "mn": 1867,
+    "zn": 3.23,
+    "k": 955,
+    "nacl": 0.127
+  },
+  "carbohydrates": {
+    "cho": 64.06
+  },
+  "fibers": {
+    "fibt": 42.6
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f18_0": 0.6,
+    "fams": 3.014,
+    "f20_1cn9": 0.125,
+    "f14_0": 0.315,
+    "f18_3cn3": 1.076,
+    "f16_1cn7": 0.17,
+    "f22_0": 0.387,
+    "fapu": 2.339,
+    "fasat": 7.371,
+    "f18_1cn9": 2.66,
+    "f10_0": 0.05,
+    "f16_0": 4.991,
+    "f12_0": 0.037,
+    "f14_1cn5": 0.059,
+    "f18_2cn6": 1.16,
+    "f20_0": 0.379,
+    "fapun3": 1.076,
+    "fapun6": 1.16
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171333",
+    "foodDataDescription": "Spices, rosemary, dried",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

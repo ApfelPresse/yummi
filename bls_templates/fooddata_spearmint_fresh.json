@@ -1,0 +1,92 @@
+{
+  "name": "Grüne Minze frisch",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 173475)",
+  "macros": {
+    "kcal": 44,
+    "water": 85.55,
+    "protein": 3.29,
+    "fat": 0.73,
+    "carbs": 8.41,
+    "fiber": 6.8,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "fol": 105,
+    "vitb6": 158,
+    "vita": 203,
+    "thia": 0.078,
+    "vitc": 13.3,
+    "ribf": 0.175,
+    "folfd": 105,
+    "pantac": 0.25,
+    "folac": 105,
+    "nia": 0.948,
+    "niaeq": 0.948
+  },
+  "minerals": {
+    "na": 30,
+    "ca": 199,
+    "p": 60,
+    "fe": 11.87,
+    "k": 458,
+    "mn": 1118,
+    "cu": 240,
+    "zn": 1.09,
+    "mg": 63,
+    "nacl": 0.0762
+  },
+  "carbohydrates": {
+    "cho": 8.41
+  },
+  "fibers": {
+    "fibt": 6.8
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.191,
+    "f14_0": 0.004,
+    "fams": 0.025,
+    "f16_1cn7": 0.002,
+    "f18_0": 0.02,
+    "f16_0": 0.137,
+    "f18_2cn6": 0.054,
+    "fapu": 0.394,
+    "f18_1cn9": 0.022,
+    "f18_3cn3": 0.338,
+    "fapun3": 0.338,
+    "fapun6": 0.054
+  },
+  "aminoAcids": {
+    "ala": 0.171,
+    "lys": 0.141,
+    "asp": 0.388,
+    "leu": 0.247,
+    "tyr": 0.099,
+    "his": 0.066,
+    "gly": 0.158,
+    "ile": 0.135,
+    "val": 0.164,
+    "cyste": 0.036,
+    "ser": 0.128,
+    "met": 0.046,
+    "trp": 0.05,
+    "pro": 0.135,
+    "thr": 0.135,
+    "glu": 0.358,
+    "arg": 0.151,
+    "phe": 0.168,
+    "aae9": 1.152
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "173475",
+    "foodDataDescription": "Spearmint, fresh",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

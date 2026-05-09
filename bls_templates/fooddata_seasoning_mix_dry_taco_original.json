@@ -1,0 +1,42 @@
+{
+  "name": "Taco-Gewürzmischung trocken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 172243)",
+  "macros": {
+    "kcal": 322,
+    "water": 5.7,
+    "protein": 4.5,
+    "fat": null,
+    "carbs": 58,
+    "fiber": 13.3,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "fe": 7.2,
+    "na": 7203,
+    "k": 1000,
+    "nacl": 18.2956
+  },
+  "carbohydrates": {
+    "cho": 58,
+    "sugar": 10.83
+  },
+  "fibers": {
+    "fibt": 13.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "172243",
+    "foodDataDescription": "Seasoning mix, dry, taco, original",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

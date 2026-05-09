@@ -1,0 +1,71 @@
+{
+  "name": "Muskatnuss gemahlen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171326)",
+  "macros": {
+    "kcal": 525,
+    "water": 6.23,
+    "protein": 5.84,
+    "fat": 36.31,
+    "carbs": 49.29,
+    "fiber": 20.8,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "folac": 76,
+    "thia": 0.346,
+    "vitb6": 160,
+    "folfd": 76,
+    "vita": 5,
+    "ribf": 0.057,
+    "vitc": 3,
+    "nia": 1.299,
+    "fol": 76,
+    "niaeq": 1.299
+  },
+  "minerals": {
+    "na": 16,
+    "ca": 184,
+    "cu": 1027,
+    "k": 350,
+    "mn": 2900,
+    "fe": 3.04,
+    "mg": 183,
+    "p": 213,
+    "zn": 2.15,
+    "nacl": 0.0406
+  },
+  "carbohydrates": {
+    "sugar": 2.99,
+    "cho": 49.29
+  },
+  "fibers": {
+    "fibt": 20.8
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f12_0": 0.37,
+    "f18_0": 0.17,
+    "f14_0": 22.83,
+    "fasat": 25.94,
+    "fapu": 0.35,
+    "f18_1cn9": 1.59,
+    "f16_0": 2.26,
+    "fams": 3.22,
+    "f16_1cn7": 1.4,
+    "f18_2cn6": 0.35,
+    "fapun6": 0.35
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171326",
+    "foodDataDescription": "Spices, nutmeg, ground",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

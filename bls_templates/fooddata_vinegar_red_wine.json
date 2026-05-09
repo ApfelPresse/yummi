@@ -1,0 +1,47 @@
+{
+  "name": "Rotweinessig",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 172240)",
+  "macros": {
+    "kcal": 19,
+    "water": 94.47,
+    "protein": 0.04,
+    "fat": null,
+    "carbs": 0.27,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitc": 0.5
+  },
+  "minerals": {
+    "mg": 4,
+    "mn": 46,
+    "fe": 0.45,
+    "cu": 10,
+    "na": 8,
+    "k": 39,
+    "zn": 0.03,
+    "p": 8,
+    "ca": 6,
+    "nacl": 0.0203
+  },
+  "carbohydrates": {
+    "cho": 0.27
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "172240",
+    "foodDataDescription": "Vinegar, red wine",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

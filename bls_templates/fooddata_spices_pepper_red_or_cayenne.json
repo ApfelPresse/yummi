@@ -1,0 +1,78 @@
+{
+  "name": "Cayennepfeffer",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170932)",
+  "macros": {
+    "kcal": 318,
+    "water": 8.05,
+    "protein": 12.01,
+    "fat": 17.27,
+    "carbs": 56.63,
+    "fiber": 27.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk1": 80.3,
+    "ribf": 0.919,
+    "thia": 0.328,
+    "nia": 8.701,
+    "vitc": 76.4,
+    "folfd": 106,
+    "vita": 2081,
+    "vite": 29.83,
+    "tocpha": 29.83,
+    "folac": 106,
+    "fol": 106,
+    "vitb6": 2450,
+    "vitk": 80.3,
+    "niaeq": 8.701
+  },
+  "minerals": {
+    "fe": 7.8,
+    "ca": 148,
+    "k": 2014,
+    "p": 293,
+    "cu": 373,
+    "mg": 152,
+    "zn": 2.48,
+    "mn": 2000,
+    "na": 30,
+    "nacl": 0.0762
+  },
+  "carbohydrates": {
+    "sugar": 10.34,
+    "cho": 56.63
+  },
+  "fibers": {
+    "fibt": 27.2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f12_0": 0.03,
+    "fams": 2.75,
+    "f14_0": 0.09,
+    "f16_0": 2.36,
+    "f18_0": 0.49,
+    "f18_2cn6": 7.71,
+    "f10_0": 0.03,
+    "f18_1cn9": 2.51,
+    "fapu": 8.37,
+    "f16_1cn7": 0.24,
+    "f18_3cn3": 0.66,
+    "fasat": 3.26,
+    "fapun3": 0.66,
+    "fapun6": 7.71
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170932",
+    "foodDataDescription": "Spices, pepper, red or cayenne",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

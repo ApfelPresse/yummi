@@ -1,0 +1,48 @@
+{
+  "name": "Apfelessig",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 173469)",
+  "macros": {
+    "kcal": 21,
+    "water": 93.81,
+    "protein": null,
+    "fat": null,
+    "carbs": 0.93,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "p": 8,
+    "zn": 0.04,
+    "fe": 0.2,
+    "k": 73,
+    "mn": 249,
+    "cu": 8,
+    "na": 5,
+    "ca": 7,
+    "mg": 5,
+    "nacl": 0.0127
+  },
+  "carbohydrates": {
+    "glus": 0.1,
+    "frus": 0.3,
+    "sugar": 0.4,
+    "cho": 0.93
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "173469",
+    "foodDataDescription": "Vinegar, cider",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

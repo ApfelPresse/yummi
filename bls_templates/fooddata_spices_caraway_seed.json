@@ -1,0 +1,96 @@
+{
+  "name": "Kümmel",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170918)",
+  "macros": {
+    "kcal": 333,
+    "water": 9.87,
+    "protein": 19.77,
+    "fat": 14.59,
+    "carbs": 49.9,
+    "fiber": 38,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.383,
+    "ribf": 0.379,
+    "fol": 10,
+    "vitb6": 360,
+    "folac": 10,
+    "vita": 18,
+    "folfd": 10,
+    "vite": 2.5,
+    "tocpha": 2.5,
+    "vitc": 21,
+    "nia": 3.606,
+    "niaeq": 3.606
+  },
+  "minerals": {
+    "ca": 689,
+    "fe": 16.23,
+    "cu": 910,
+    "mg": 258,
+    "zn": 5.5,
+    "na": 17,
+    "p": 568,
+    "k": 1351,
+    "mn": 1300,
+    "nacl": 0.0432
+  },
+  "carbohydrates": {
+    "cho": 49.9,
+    "sugar": 0.64
+  },
+  "fibers": {
+    "fibt": 38
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f10_0": 0.01,
+    "f16_0": 0.4,
+    "f12_0": 0.01,
+    "f16_1cn7": 0.09,
+    "f18_2cn6": 3.122,
+    "f18_3cn3": 0.15,
+    "fasat": 0.62,
+    "fams": 7.125,
+    "f18_1cn9": 7.035,
+    "fapu": 3.272,
+    "f18_0": 0.11,
+    "f14_0": 0.04,
+    "fapun3": 0.15,
+    "fapun6": 3.122
+  },
+  "aminoAcids": {
+    "glu": 3.169,
+    "gly": 1.322,
+    "asp": 2.084,
+    "arg": 1.252,
+    "phe": 0.867,
+    "thr": 0.756,
+    "trp": 0.244,
+    "his": 0.55,
+    "lys": 1.031,
+    "val": 1.037,
+    "ser": 0.946,
+    "ile": 0.826,
+    "ala": 0.914,
+    "leu": 1.218,
+    "cyste": 0.329,
+    "tyr": 0.642,
+    "met": 0.361,
+    "pro": 0.917,
+    "aae9": 6.89
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170918",
+    "foodDataDescription": "Spices, caraway seed",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

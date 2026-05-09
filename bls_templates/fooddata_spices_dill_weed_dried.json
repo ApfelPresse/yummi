@@ -1,0 +1,57 @@
+{
+  "name": "Dill getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171322)",
+  "macros": {
+    "kcal": 253,
+    "water": 7.3,
+    "protein": 19.96,
+    "fat": 4.36,
+    "carbs": 55.82,
+    "fiber": 13.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitb6": 1710,
+    "thia": 0.418,
+    "ribf": 0.284,
+    "vitc": 50,
+    "nia": 2.807,
+    "vita": 293,
+    "niaeq": 2.807
+  },
+  "minerals": {
+    "ca": 1784,
+    "p": 543,
+    "cu": 490,
+    "zn": 3.3,
+    "fe": 48.78,
+    "mg": 451,
+    "k": 3308,
+    "mn": 3950,
+    "na": 208,
+    "nacl": 0.5283
+  },
+  "carbohydrates": {
+    "cho": 55.82
+  },
+  "fibers": {
+    "fibt": 13.6
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.234
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171322",
+    "foodDataDescription": "Spices, dill weed, dried",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

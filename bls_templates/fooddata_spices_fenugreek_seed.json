@@ -1,0 +1,80 @@
+{
+  "name": "Bockshornkleesamen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171324)",
+  "macros": {
+    "kcal": 323,
+    "water": 8.84,
+    "protein": 23,
+    "fat": 6.41,
+    "carbs": 58.35,
+    "fiber": 24.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.322,
+    "folac": 57,
+    "folfd": 57,
+    "vitb6": 600,
+    "ribf": 0.366,
+    "vitc": 3,
+    "vita": 3,
+    "fol": 57,
+    "nia": 1.64,
+    "niaeq": 1.64
+  },
+  "minerals": {
+    "fe": 33.53,
+    "mn": 1228,
+    "na": 67,
+    "p": 296,
+    "cu": 1110,
+    "zn": 2.5,
+    "k": 770,
+    "mg": 191,
+    "ca": 176,
+    "nacl": 0.1702
+  },
+  "carbohydrates": {
+    "cho": 58.35
+  },
+  "fibers": {
+    "fibt": 24.6
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 1.46
+  },
+  "aminoAcids": {
+    "ser": 1.215,
+    "ala": 1.02,
+    "met": 0.338,
+    "lys": 1.684,
+    "trp": 0.391,
+    "pro": 1.198,
+    "phe": 1.089,
+    "val": 1.102,
+    "his": 0.668,
+    "leu": 1.757,
+    "gly": 1.306,
+    "thr": 0.898,
+    "arg": 2.465,
+    "glu": 3.988,
+    "cyste": 0.369,
+    "tyr": 0.764,
+    "asp": 2.708,
+    "ile": 1.241,
+    "aae9": 9.168
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171324",
+    "foodDataDescription": "Spices, fenugreek seed",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

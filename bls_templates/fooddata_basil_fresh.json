@@ -1,0 +1,97 @@
+{
+  "name": "Basilikum frisch",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 172232)",
+  "macros": {
+    "kcal": 23,
+    "water": 92.06,
+    "protein": 3.15,
+    "fat": 0.64,
+    "carbs": 2.65,
+    "fiber": 1.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "folfd": 68,
+    "nia": 0.902,
+    "thia": 0.034,
+    "vitk1": 414.8,
+    "vita": 264,
+    "ribf": 0.076,
+    "folac": 68,
+    "pantac": 0.209,
+    "vitc": 18,
+    "vitb6": 155,
+    "fol": 68,
+    "vite": 0.8,
+    "tocpha": 0.8,
+    "vitk": 414.8,
+    "niaeq": 0.902
+  },
+  "minerals": {
+    "mn": 1148,
+    "k": 295,
+    "fe": 3.17,
+    "p": 56,
+    "zn": 0.81,
+    "ca": 177,
+    "cu": 385,
+    "mg": 64,
+    "na": 4,
+    "nacl": 0.0102
+  },
+  "carbohydrates": {
+    "frus": 0.02,
+    "cho": 2.65,
+    "sugar": 0.3,
+    "glus": 0.02
+  },
+  "fibers": {
+    "fibt": 1.6
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f18_1cn9": 0.088,
+    "fams": 0.088,
+    "f18_2cn6": 0.073,
+    "f18_3cn3": 0.316,
+    "fasat": 0.041,
+    "f18_0": 0.005,
+    "f16_0": 0.036,
+    "fapu": 0.389,
+    "fapun3": 0.316,
+    "fapun6": 0.073
+  },
+  "aminoAcids": {
+    "asp": 0.301,
+    "val": 0.127,
+    "phe": 0.13,
+    "tyr": 0.077,
+    "arg": 0.117,
+    "ala": 0.132,
+    "thr": 0.104,
+    "met": 0.036,
+    "trp": 0.039,
+    "pro": 0.104,
+    "ile": 0.104,
+    "leu": 0.191,
+    "gly": 0.122,
+    "ser": 0.099,
+    "glu": 0.277,
+    "cyste": 0.028,
+    "lys": 0.11,
+    "his": 0.051,
+    "aae9": 0.892
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "172232",
+    "foodDataDescription": "Basil, fresh",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

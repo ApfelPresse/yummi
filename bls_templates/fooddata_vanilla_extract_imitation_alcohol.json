@@ -1,0 +1,51 @@
+{
+  "name": "Vanillearoma mit Alkohol",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 172235)",
+  "macros": {
+    "kcal": 237,
+    "water": 64.46,
+    "protein": 0.05,
+    "fat": null,
+    "carbs": 2.41,
+    "fiber": null,
+    "alcohol": 32.9,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "nia": 0.318,
+    "pantac": 0.026,
+    "thia": 0.008,
+    "ribf": 0.071,
+    "vitb6": 19,
+    "niaeq": 0.318
+  },
+  "minerals": {
+    "fe": 0.13,
+    "mg": 5,
+    "na": 4,
+    "zn": 0.06,
+    "mn": 482,
+    "cu": 23,
+    "k": 98,
+    "p": 22,
+    "nacl": 0.0102
+  },
+  "carbohydrates": {
+    "cho": 2.41
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "172235",
+    "foodDataDescription": "Vanilla extract, imitation, alcohol",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

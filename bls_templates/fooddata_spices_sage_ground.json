@@ -1,0 +1,79 @@
+{
+  "name": "Salbei gemahlen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170935)",
+  "macros": {
+    "kcal": 315,
+    "water": 7.96,
+    "protein": 10.63,
+    "fat": 12.75,
+    "carbs": 60.73,
+    "fiber": 40.3,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.754,
+    "ribf": 0.336,
+    "folac": 274,
+    "nia": 5.72,
+    "vitb6": 2690,
+    "vita": 295,
+    "vite": 7.48,
+    "tocpha": 7.48,
+    "folfd": 274,
+    "vitk1": 1714.5,
+    "fol": 274,
+    "vitc": 32.4,
+    "vitk": 1714.5,
+    "niaeq": 5.72
+  },
+  "minerals": {
+    "zn": 4.7,
+    "fe": 28.12,
+    "cu": 757,
+    "na": 11,
+    "p": 91,
+    "mg": 428,
+    "ca": 1652,
+    "mn": 3133,
+    "k": 1070,
+    "nacl": 0.0279
+  },
+  "carbohydrates": {
+    "sugar": 1.71,
+    "cho": 60.73
+  },
+  "fibers": {
+    "fibt": 40.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f18_1cn9": 1.75,
+    "f18_2cn6": 0.53,
+    "fasat": 7.03,
+    "f18_0": 1.25,
+    "f18_3cn3": 1.23,
+    "f16_1cn7": 0.12,
+    "f8_0": 0.71,
+    "fapu": 1.76,
+    "f10_0": 0.76,
+    "f14_0": 0.72,
+    "fams": 1.87,
+    "f12_0": 0.3,
+    "f16_0": 3.15,
+    "fapun3": 1.23,
+    "fapun6": 0.53
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170935",
+    "foodDataDescription": "Spices, sage, ground",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

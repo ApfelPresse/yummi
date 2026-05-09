@@ -1,0 +1,93 @@
+{
+  "name": "Dill frisch",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 172233)",
+  "macros": {
+    "kcal": 43,
+    "water": 85.95,
+    "protein": 3.46,
+    "fat": 1.12,
+    "carbs": 7.02,
+    "fiber": 2.1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "fol": 150,
+    "thia": 0.058,
+    "folac": 150,
+    "vita": 386,
+    "vitb6": 185,
+    "folfd": 150,
+    "ribf": 0.296,
+    "pantac": 0.397,
+    "vitc": 85,
+    "nia": 1.57,
+    "niaeq": 1.57
+  },
+  "minerals": {
+    "mn": 1264,
+    "cu": 146,
+    "fe": 6.59,
+    "na": 61,
+    "zn": 0.91,
+    "k": 738,
+    "p": 66,
+    "ca": 208,
+    "mg": 55,
+    "nacl": 0.1549
+  },
+  "carbohydrates": {
+    "cho": 7.02
+  },
+  "fibers": {
+    "fibt": 2.1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f16_0": 0.049,
+    "fams": 0.802,
+    "f18_1cn9": 0.798,
+    "f16_1cn7": 0.004,
+    "f18_3cn3": 0.013,
+    "f14_0": 0.001,
+    "f18_2cn6": 0.082,
+    "f18_0": 0.009,
+    "fasat": 0.06,
+    "f12_0": 0.001,
+    "fapu": 0.095,
+    "fapun3": 0.013,
+    "fapun6": 0.082
+  },
+  "aminoAcids": {
+    "arg": 0.142,
+    "asp": 0.343,
+    "val": 0.154,
+    "thr": 0.068,
+    "ile": 0.195,
+    "lys": 0.246,
+    "trp": 0.014,
+    "glu": 0.29,
+    "ser": 0.158,
+    "leu": 0.159,
+    "gly": 0.169,
+    "met": 0.011,
+    "cyste": 0.017,
+    "pro": 0.248,
+    "his": 0.071,
+    "ala": 0.227,
+    "phe": 0.065,
+    "tyr": 0.096,
+    "aae9": 0.983
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "172233",
+    "foodDataDescription": "Dill weed, fresh",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

@@ -723,7 +723,7 @@ function _renderPopup(overlay, label, key, data, creds) {
 						</button>
 						<button id="det-import-bls" type="button"
 							class="flex-1 rounded-xl border border-green-300 bg-green-50 px-3 py-2 text-sm font-medium text-green-700 hover:bg-green-100">
-							📊 Von BLS
+							📊 Template
 						</button>
 					</div>
 					<div id="det-import-panel" class="hidden rounded-xl border border-gray-200 bg-gray-50 p-3 space-y-2">

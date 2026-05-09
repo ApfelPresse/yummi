@@ -1,0 +1,102 @@
+{
+  "name": "Senfsamen gemahlen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170929)",
+  "macros": {
+    "kcal": 508,
+    "water": 5.27,
+    "protein": 26.08,
+    "fat": 36.24,
+    "carbs": 28.09,
+    "fiber": 12.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 5.07,
+    "tocpha": 5.07,
+    "nia": 4.733,
+    "vitk1": 5.4,
+    "fol": 162,
+    "thia": 0.805,
+    "folfd": 162,
+    "ribf": 0.261,
+    "vitb6": 397,
+    "vitc": 7.1,
+    "pantac": 0.81,
+    "vita": 2,
+    "folac": 162,
+    "vitk": 5.4,
+    "niaeq": 4.733
+  },
+  "minerals": {
+    "zn": 6.08,
+    "cu": 645,
+    "p": 828,
+    "fe": 9.21,
+    "ca": 266,
+    "k": 738,
+    "mg": 370,
+    "mn": 2448,
+    "na": 13,
+    "nacl": 0.033
+  },
+  "carbohydrates": {
+    "glus": 2.88,
+    "sugar": 6.79,
+    "frus": 0.02,
+    "cho": 28.09
+  },
+  "fibers": {
+    "fibt": 12.2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f22_1cn9": 9.355,
+    "f16_1cn7": 0.062,
+    "f20_0": 0.275,
+    "fams": 22.518,
+    "f16_0": 0.977,
+    "f22_0": 0.175,
+    "f18_2cn6": 5.921,
+    "fapu": 10.088,
+    "fasat": 1.989,
+    "f18_0": 0.458,
+    "f18_1cn9": 8.463,
+    "f18_3cn3": 3.792,
+    "f20_1cn9": 3.994,
+    "fapun3": 3.792,
+    "fapun6": 5.921
+  },
+  "aminoAcids": {
+    "ile": 1.183,
+    "leu": 2.08,
+    "asp": 2.435,
+    "met": 0.483,
+    "lys": 1.844,
+    "trp": 0.256,
+    "cyste": 0.68,
+    "phe": 1.173,
+    "ser": 0.759,
+    "glu": 5.265,
+    "gly": 1.587,
+    "pro": 2.81,
+    "tyr": 0.809,
+    "ala": 1.173,
+    "val": 1.509,
+    "thr": 0.838,
+    "arg": 1.933,
+    "his": 0.878,
+    "aae9": 10.244
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170929",
+    "foodDataDescription": "Spices, mustard seed, ground",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

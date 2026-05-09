@@ -2,7 +2,7 @@
 """
 Build Templates JS
 
-Liest alle bls_4_0_*.json Dateien aus dem aktuellen Verzeichnis
+Liest alle bls_4_0_*.json und fooddata_*.json Dateien aus dem aktuellen Verzeichnis
 und packt sie in eine einzelne templates.js Datei mit:
   - Alle Templates als Array
   - Index zum schnellen Nachschlagen
@@ -33,9 +33,10 @@ def main():
     
     # Alle JSON-Template-Dateien einlesen
     json_files = sorted(script_dir.glob("bls_4_0_*.json"))
+    json_files += sorted(script_dir.glob("fooddata_*.json"))
     
     if not json_files:
-        print("Fehler: Keine bls_4_0_*.json Dateien gefunden!")
+        print("Fehler: Keine Template-JSON-Dateien gefunden!")
         sys.exit(1)
     
     print(f"Lese {len(json_files)} Template-Dateien…")
@@ -52,9 +53,12 @@ def main():
             name = data.get("name", "")
             norm = normalize_name(name)
             if norm:
-                # Auch nur das erste Wort indexieren (z.B. "Banane" von "Banane roh")
+                current_index = len(templates) - 1
+                # Vollständigen normalisierten Namen und erstes Wort indexieren.
+                index[norm].append(current_index)
                 first_word = norm.split()[0] if norm.split() else norm
-                index[first_word].append(len(templates) - 1)
+                if first_word != norm:
+                    index[first_word].append(current_index)
         except Exception as e:
             print(f"  ✗ Fehler bei {json_file.name}: {e}", file=sys.stderr)
     
@@ -62,12 +66,12 @@ def main():
     index = dict(index)
     
     # JavaScript-Code generieren
-    js_code = f"""// BLS 4.0 Templates
+    js_code = f"""// BLS 4.0 + FoodData Central Templates
 // Auto-generated {len(templates)} entries
 // Last updated: {Path(__file__).stat().st_mtime}
 
 /**
- * All BLS 4.0 nutrition templates
+ * All BLS 4.0 and FoodData Central nutrition templates
  * Each template contains complete nutrition data (macros, vitamins, minerals, etc.)
  */
 const BLS_TEMPLATES = {json.dumps(templates, ensure_ascii=False, separators=(',', ':'))};
@@ -90,7 +94,16 @@ function searchBLSTemplates(ingredientName) {{
     .replace(/[^a-z0-9 -]/g, "");
   
   const indices = BLS_TEMPLATES_INDEX[needle] || [];
-  return indices.map(i => BLS_TEMPLATES[i]);
+  return indices
+    .map(i => BLS_TEMPLATES[i])
+    .sort((a, b) => {{
+      const aName = a.name.toLowerCase().replace(/[^a-z0-9 -]/g, "");
+      const bName = b.name.toLowerCase().replace(/[^a-z0-9 -]/g, "");
+      const aExact = aName === needle ? 0 : 1;
+      const bExact = bName === needle ? 0 : 1;
+      if (aExact !== bExact) return aExact - bExact;
+      return aName.length - bName.length;
+    }});
 }}
 
 /**
@@ -133,9 +146,11 @@ if (typeof module !== 'undefined' && module.exports) {{
 }}
 """
     
-    # Schreibe templates.js
+    # Schreibe templates.js im Datenordner und in den vom Frontend geladenen Pfad.
     output_file = script_dir / "templates.js"
+    app_output_file = script_dir.parent / "js" / "ingredients" / "template" / "bls_4_0" / "templates.js"
     output_file.write_text(js_code, encoding="utf-8")
+    app_output_file.write_text(js_code, encoding="utf-8")
     
     # Statistiken
     file_size_mb = output_file.stat().st_size / (1024 * 1024)
@@ -144,6 +159,7 @@ if (typeof module !== 'undefined' && module.exports) {{
     print(f"  Index-Einträge: {len(index)}")
     print(f"  templates.js: {file_size_mb:.2f} MB")
     print(f"  Gespeichert: {output_file}")
+    print(f"  Frontend: {app_output_file}")
     print(f"\nHinweis: Die Datei wird von der Seite gecacht.")
     print(f"Cache-Header setzen für lange TTL!")
 

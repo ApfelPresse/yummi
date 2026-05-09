@@ -1,0 +1,91 @@
+{
+  "name": "Grüne Minze getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 172239)",
+  "macros": {
+    "kcal": 285,
+    "water": 11.3,
+    "protein": 19.93,
+    "fat": 6.03,
+    "carbs": 52.04,
+    "fiber": 29.8,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "folfd": 530,
+    "vitb6": 2579,
+    "folac": 530,
+    "pantac": 1.399,
+    "fol": 530,
+    "vita": 529,
+    "thia": 0.288,
+    "ribf": 1.421,
+    "nia": 6.561,
+    "niaeq": 6.561
+  },
+  "minerals": {
+    "mg": 602,
+    "cu": 1542,
+    "fe": 87.47,
+    "k": 1924,
+    "zn": 2.41,
+    "ca": 1488,
+    "p": 276,
+    "na": 344,
+    "mn": 11482,
+    "nacl": 0.8738
+  },
+  "carbohydrates": {
+    "cho": 52.04
+  },
+  "fibers": {
+    "fibt": 29.8
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f16_0": 1.131,
+    "f18_3cn3": 2.792,
+    "f14_0": 0.037,
+    "f18_1cn9": 0.183,
+    "f16_1cn7": 0.016,
+    "f18_0": 0.163,
+    "fasat": 1.577,
+    "f18_2cn6": 0.446,
+    "fapu": 3.257,
+    "fams": 0.21,
+    "fapun3": 2.792,
+    "fapun6": 0.446
+  },
+  "aminoAcids": {
+    "ser": 0.778,
+    "val": 0.995,
+    "asp": 2.353,
+    "ala": 1.036,
+    "thr": 0.816,
+    "trp": 0.306,
+    "leu": 1.496,
+    "ile": 0.816,
+    "pro": 0.816,
+    "met": 0.281,
+    "cyste": 0.22,
+    "his": 0.399,
+    "gly": 0.957,
+    "tyr": 0.6,
+    "glu": 2.172,
+    "lys": 0.858,
+    "phe": 1.017,
+    "arg": 0.918,
+    "aae9": 6.984
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "172239",
+    "foodDataDescription": "Spearmint, dried",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

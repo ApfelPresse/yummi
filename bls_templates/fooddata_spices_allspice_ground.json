@@ -1,0 +1,70 @@
+{
+  "name": "Piment gemahlen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171315)",
+  "macros": {
+    "kcal": 263,
+    "water": 8.46,
+    "protein": 6.09,
+    "fat": 8.69,
+    "carbs": 72.12,
+    "fiber": 21.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 27,
+    "fol": 36,
+    "vitb6": 210,
+    "ribf": 0.063,
+    "folfd": 36,
+    "folac": 36,
+    "vitc": 39.2,
+    "thia": 0.101,
+    "nia": 2.86,
+    "niaeq": 2.86
+  },
+  "minerals": {
+    "mn": 2943,
+    "p": 113,
+    "k": 1044,
+    "na": 77,
+    "ca": 661,
+    "fe": 7.06,
+    "zn": 1.01,
+    "cu": 553,
+    "mg": 135,
+    "nacl": 0.1956
+  },
+  "carbohydrates": {
+    "cho": 72.12
+  },
+  "fibers": {
+    "fibt": 21.6
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f18_1cn9": 0.66,
+    "fapu": 2.36,
+    "fams": 0.66,
+    "fasat": 2.55,
+    "f18_2cn6": 2.29,
+    "f18_3cn3": 0.07,
+    "f18_0": 1.99,
+    "f14_0": 0.02,
+    "f16_0": 0.49,
+    "fapun3": 0.07,
+    "fapun6": 2.29
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171315",
+    "foodDataDescription": "Spices, allspice, ground",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

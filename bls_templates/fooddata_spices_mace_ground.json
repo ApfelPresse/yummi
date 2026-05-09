@@ -1,0 +1,71 @@
+{
+  "name": "Macis gemahlen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170927)",
+  "macros": {
+    "kcal": 475,
+    "water": 8.17,
+    "protein": 6.71,
+    "fat": 32.38,
+    "carbs": 50.5,
+    "fiber": 20.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitb6": 160,
+    "ribf": 0.448,
+    "fol": 76,
+    "vita": 40,
+    "thia": 0.312,
+    "nia": 1.35,
+    "folfd": 76,
+    "folac": 76,
+    "vitc": 21,
+    "niaeq": 1.35
+  },
+  "minerals": {
+    "mg": 163,
+    "k": 463,
+    "na": 80,
+    "cu": 2467,
+    "fe": 13.9,
+    "zn": 2.3,
+    "ca": 252,
+    "p": 110,
+    "mn": 1500,
+    "nacl": 0.2032
+  },
+  "carbohydrates": {
+    "cho": 50.5
+  },
+  "fibers": {
+    "fibt": 20.2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f18_2cn6": 4.31,
+    "f18_0": 0.43,
+    "fams": 11.17,
+    "f16_0": 7.69,
+    "f14_0": 0.93,
+    "fasat": 9.51,
+    "f16_1cn7": 0.58,
+    "f18_1cn9": 10.59,
+    "f18_3cn3": 0.08,
+    "fapu": 4.39,
+    "fapun3": 0.08,
+    "fapun6": 4.31
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170927",
+    "foodDataDescription": "Spices, mace, ground",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Rosmarin frisch",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 173473)",
+  "macros": {
+    "kcal": 131,
+    "water": 67.77,
+    "protein": 3.31,
+    "fat": 5.86,
+    "carbs": 20.7,
+    "fiber": 14.1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "folfd": 109,
+    "nia": 0.912,
+    "vita": 146,
+    "vitb6": 336,
+    "pantac": 0.804,
+    "vitc": 21.8,
+    "thia": 0.036,
+    "ribf": 0.152,
+    "folac": 109,
+    "fol": 109,
+    "niaeq": 0.912
+  },
+  "minerals": {
+    "na": 26,
+    "zn": 0.93,
+    "mg": 91,
+    "cu": 301,
+    "p": 66,
+    "k": 668,
+    "fe": 6.65,
+    "mn": 960,
+    "ca": 317,
+    "nacl": 0.066
+  },
+  "carbohydrates": {
+    "cho": 20.7
+  },
+  "fibers": {
+    "fibt": 14.1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f20_1cn9": 0.048,
+    "f10_0": 0.019,
+    "f18_2cn6": 0.447,
+    "f18_1cn9": 1.024,
+    "f14_0": 0.121,
+    "f18_0": 0.231,
+    "fasat": 2.838,
+    "f18_3cn3": 0.414,
+    "fams": 1.16,
+    "fapu": 0.901,
+    "f12_0": 0.014,
+    "f16_0": 1.921,
+    "f16_1cn7": 0.066,
+    "fapun3": 0.414,
+    "fapun6": 0.447
+  },
+  "aminoAcids": {
+    "thr": 0.136,
+    "leu": 0.249,
+    "trp": 0.051,
+    "his": 0.066,
+    "arg": 0.153,
+    "ser": 0.129,
+    "ile": 0.136,
+    "cyste": 0.037,
+    "tyr": 0.1,
+    "asp": 0.391,
+    "phe": 0.169,
+    "val": 0.165,
+    "met": 0.047,
+    "pro": 0.136,
+    "lys": 0.143,
+    "ala": 0.172,
+    "gly": 0.159,
+    "glu": 0.361,
+    "aae9": 1.162
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "173473",
+    "foodDataDescription": "Rosemary, fresh",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

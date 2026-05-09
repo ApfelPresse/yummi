@@ -1,0 +1,42 @@
+{
+  "name": "Speisesalz",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 173468)",
+  "macros": {
+    "kcal": null,
+    "water": 0.2,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "ca": 24,
+    "mn": 100,
+    "mg": 1,
+    "fe": 0.33,
+    "k": 8,
+    "zn": 0.1,
+    "na": 38758,
+    "cu": 30,
+    "nacl": 98.4453
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "173468",
+    "foodDataDescription": "Salt, table",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

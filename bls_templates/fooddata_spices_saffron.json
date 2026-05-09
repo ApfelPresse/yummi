@@ -1,0 +1,74 @@
+{
+  "name": "Safran",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170934)",
+  "macros": {
+    "kcal": 310,
+    "water": 11.9,
+    "protein": 11.43,
+    "fat": 5.85,
+    "carbs": 65.37,
+    "fiber": 3.9,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitc": 80.8,
+    "thia": 0.115,
+    "fol": 93,
+    "vita": 27,
+    "ribf": 0.267,
+    "nia": 1.46,
+    "folfd": 93,
+    "vitb6": 1010,
+    "folac": 93,
+    "niaeq": 1.46
+  },
+  "minerals": {
+    "fe": 11.1,
+    "cu": 328,
+    "zn": 1.09,
+    "k": 1724,
+    "ca": 111,
+    "p": 252,
+    "mn": 28408,
+    "na": 148,
+    "mg": 264,
+    "nacl": 0.3759
+  },
+  "carbohydrates": {
+    "cho": 65.37
+  },
+  "fibers": {
+    "fibt": 3.9
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f18_3cn3": 1.242,
+    "f22_5cn3": 0.006,
+    "f18_2cn6": 0.754,
+    "fasat": 1.586,
+    "f14_0": 0.006,
+    "fapu": 2.067,
+    "f16_1cn7": 0.003,
+    "fams": 0.429,
+    "f16_0": 1.157,
+    "f20_1cn9": 0.006,
+    "f20_4cn6": 0.013,
+    "f18_0": 0.247,
+    "f18_1cn9": 0.39,
+    "fapun3": 1.242,
+    "fapun6": 0.754
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170934",
+    "foodDataDescription": "Spices, saffron",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Koriandersamen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170922)",
+  "macros": {
+    "kcal": 298,
+    "water": 8.86,
+    "protein": 12.37,
+    "fat": 17.77,
+    "carbs": 54.99,
+    "fiber": 41.9,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "nia": 2.13,
+    "ribf": 0.29,
+    "thia": 0.239,
+    "vitc": 21,
+    "niaeq": 2.13
+  },
+  "minerals": {
+    "p": 409,
+    "mg": 330,
+    "zn": 4.7,
+    "fe": 16.32,
+    "na": 35,
+    "k": 1267,
+    "cu": 975,
+    "mn": 1900,
+    "ca": 709,
+    "nacl": 0.0889
+  },
+  "carbohydrates": {
+    "cho": 54.99
+  },
+  "fibers": {
+    "fibt": 41.9
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f14_0": 0.02,
+    "fapu": 1.75,
+    "f18_2cn6": 1.75,
+    "fams": 13.58,
+    "f16_1cn7": 0.1,
+    "fasat": 0.99,
+    "f16_0": 0.81,
+    "f18_0": 0.11,
+    "f18_1cn9": 13.48,
+    "fapun6": 1.75
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170922",
+    "foodDataDescription": "Spices, coriander seed",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Geflügelgewürz",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171331)",
+  "macros": {
+    "kcal": 307,
+    "water": 9.31,
+    "protein": 9.59,
+    "fat": 7.53,
+    "carbs": 65.59,
+    "fiber": 11.3,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 132,
+    "vitc": 12,
+    "fol": 138,
+    "folfd": 138,
+    "vite": 1.32,
+    "tocpha": 1.32,
+    "vitk1": 805.4,
+    "nia": 2.97,
+    "ribf": 0.191,
+    "folac": 138,
+    "vitb6": 1320,
+    "thia": 0.264,
+    "vitk": 805.4,
+    "niaeq": 2.97
+  },
+  "minerals": {
+    "na": 27,
+    "ca": 996,
+    "zn": 3.14,
+    "mn": 6857,
+    "cu": 843,
+    "mg": 224,
+    "k": 684,
+    "fe": 35.3,
+    "p": 171,
+    "nacl": 0.0686
+  },
+  "carbohydrates": {
+    "sugar": 1.8,
+    "cho": 65.59
+  },
+  "fibers": {
+    "fibt": 11.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f14_0": 1.221,
+    "f18_3cn3": 0.944,
+    "f12_0": 0.125,
+    "f8_0": 0.128,
+    "fams": 1.206,
+    "f18_2cn6": 0.992,
+    "f16_0": 1.281,
+    "f16_1cn7": 0.082,
+    "f10_0": 0.135,
+    "f18_1cn9": 1.113,
+    "fapu": 1.936,
+    "f18_0": 0.36,
+    "fasat": 3.29,
+    "fapun3": 0.944,
+    "fapun6": 0.992
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171331",
+    "foodDataDescription": "Spices, poultry seasoning",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

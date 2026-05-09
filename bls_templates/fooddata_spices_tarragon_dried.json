@@ -1,0 +1,73 @@
+{
+  "name": "Estragon getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170937)",
+  "macros": {
+    "kcal": 295,
+    "water": 7.74,
+    "protein": 22.77,
+    "fat": 7.24,
+    "carbs": 50.22,
+    "fiber": 7.4,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitb6": 2410,
+    "fol": 274,
+    "vitc": 50,
+    "ribf": 1.339,
+    "nia": 8.95,
+    "thia": 0.251,
+    "folac": 274,
+    "folfd": 274,
+    "vita": 210,
+    "niaeq": 8.95
+  },
+  "minerals": {
+    "cu": 677,
+    "k": 3020,
+    "p": 313,
+    "ca": 1139,
+    "zn": 3.9,
+    "na": 62,
+    "mg": 347,
+    "mn": 7967,
+    "fe": 32.3,
+    "nacl": 0.1575
+  },
+  "carbohydrates": {
+    "cho": 50.22
+  },
+  "fibers": {
+    "fibt": 7.4
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f10_0": 0.028,
+    "f16_1cn7": 0.113,
+    "f16_0": 1.202,
+    "f18_2cn6": 0.742,
+    "f18_1cn9": 0.361,
+    "f18_0": 0.41,
+    "f14_0": 0.12,
+    "fasat": 1.881,
+    "fapu": 3.698,
+    "fams": 0.474,
+    "f12_0": 0.014,
+    "f18_3cn3": 2.955,
+    "fapun3": 2.955,
+    "fapun6": 0.742
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170937",
+    "foodDataDescription": "Spices, tarragon, dried",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

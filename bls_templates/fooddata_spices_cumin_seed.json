@@ -1,0 +1,79 @@
+{
+  "name": "Kreuzkümmel",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170923)",
+  "macros": {
+    "kcal": 375,
+    "water": 8.06,
+    "protein": 17.81,
+    "fat": 22.27,
+    "carbs": 44.24,
+    "fiber": 10.5,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "fol": 10,
+    "vitc": 7.7,
+    "ribf": 0.327,
+    "vitb6": 435,
+    "folfd": 10,
+    "vitk1": 5.4,
+    "thia": 0.628,
+    "nia": 4.579,
+    "vita": 64,
+    "vite": 3.33,
+    "tocpha": 3.33,
+    "folac": 10,
+    "vitk": 5.4,
+    "niaeq": 4.579
+  },
+  "minerals": {
+    "cu": 867,
+    "k": 1788,
+    "na": 168,
+    "p": 499,
+    "mg": 366,
+    "zn": 4.8,
+    "ca": 931,
+    "mn": 3333,
+    "fe": 66.36,
+    "nacl": 0.4267
+  },
+  "carbohydrates": {
+    "cho": 44.24,
+    "sugar": 2.25
+  },
+  "fibers": {
+    "fibt": 10.5
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fapu": 3.279,
+    "f18_2cn6": 3.103,
+    "f16_1cn7": 0.212,
+    "f16_0": 1.137,
+    "f18_1cn9": 13.618,
+    "fasat": 1.535,
+    "f10_0": 0.018,
+    "f12_0": 0.018,
+    "f14_0": 0.018,
+    "f18_3cn3": 0.176,
+    "f18_0": 0.344,
+    "fams": 14.04,
+    "f20_1cn9": 0.212,
+    "fapun3": 0.176,
+    "fapun6": 3.103
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170923",
+    "foodDataDescription": "Spices, cumin seed",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Sazon-Gewürzmischung Koriander und Annatto trocken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 172242)",
+  "macros": {
+    "kcal": null,
+    "water": 0.2,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "na": 17000,
+    "nacl": 43.18
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "172242",
+    "foodDataDescription": "Seasoning mix, dry, sazon, coriander & annatto",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

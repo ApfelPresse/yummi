@@ -1,0 +1,101 @@
+{
+  "name": "Oregano getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 171328)",
+  "macros": {
+    "kcal": 265,
+    "water": 9.93,
+    "protein": 9,
+    "fat": 4.28,
+    "carbs": 68.92,
+    "fiber": 42.5,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.177,
+    "vita": 85,
+    "ribf": 0.528,
+    "fol": 237,
+    "nia": 4.64,
+    "folfd": 237,
+    "folac": 237,
+    "vitb6": 1044,
+    "vite": 18.26,
+    "tocpha": 18.26,
+    "vitk1": 621.7,
+    "vitc": 2.3,
+    "pantac": 0.921,
+    "vitk": 621.7,
+    "niaeq": 4.64
+  },
+  "minerals": {
+    "na": 25,
+    "p": 148,
+    "zn": 2.69,
+    "cu": 633,
+    "mg": 270,
+    "ca": 1597,
+    "k": 1260,
+    "fe": 36.8,
+    "mn": 4990,
+    "nacl": 0.0635
+  },
+  "carbohydrates": {
+    "cho": 68.92,
+    "frus": 1.13,
+    "sugar": 4.09,
+    "glus": 1.9
+  },
+  "fibers": {
+    "fibt": 42.5
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fapu": 1.369,
+    "fasat": 1.551,
+    "f14_0": 0.004,
+    "f12_0": 0.246,
+    "f16_1cn7": 0.004,
+    "fams": 0.716,
+    "f10_0": 0.004,
+    "f18_2cn6": 0.748,
+    "f16_0": 0.792,
+    "f18_0": 0.505,
+    "f18_1cn9": 0.712,
+    "f18_3cn3": 0.621,
+    "fapun3": 0.621,
+    "fapun6": 0.748
+  },
+  "aminoAcids": {
+    "arg": 0.449,
+    "tyr": 0.297,
+    "trp": 0.203,
+    "phe": 0.449,
+    "ala": 0.5,
+    "gly": 0.517,
+    "val": 0.585,
+    "pro": 1.712,
+    "lys": 0.5,
+    "his": 0.144,
+    "ile": 0.441,
+    "thr": 0.322,
+    "glu": 0.975,
+    "met": 0.127,
+    "leu": 0.78,
+    "ser": 0.314,
+    "asp": 1.009,
+    "cyste": 0.11,
+    "aae9": 3.551
+  },
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "171328",
+    "foodDataDescription": "Spices, oregano, dried",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}

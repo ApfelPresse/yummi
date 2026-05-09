@@ -1,0 +1,67 @@
+{
+  "name": "Kardamom",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "FoodData Central (sr_legacy_food, FDC ID 170919)",
+  "macros": {
+    "kcal": 311,
+    "water": 8.28,
+    "protein": 10.76,
+    "fat": 6.7,
+    "carbs": 68.47,
+    "fiber": 28,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "nia": 1.102,
+    "vitb6": 230,
+    "thia": 0.198,
+    "vitc": 21,
+    "ribf": 0.182,
+    "niaeq": 1.102
+  },
+  "minerals": {
+    "p": 178,
+    "na": 18,
+    "k": 1119,
+    "cu": 383,
+    "ca": 383,
+    "fe": 13.97,
+    "mn": 28000,
+    "mg": 229,
+    "zn": 7.47,
+    "nacl": 0.0457
+  },
+  "carbohydrates": {
+    "cho": 68.47
+  },
+  "fibers": {
+    "fibt": 28
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "f14_0": 0.03,
+    "fapu": 0.43,
+    "f18_1cn9": 0.85,
+    "f16_1cn7": 0.02,
+    "f18_2cn6": 0.31,
+    "fasat": 0.68,
+    "f18_3cn3": 0.12,
+    "f16_0": 0.57,
+    "f18_0": 0.06,
+    "fams": 0.87,
+    "fapun3": 0.12,
+    "fapun6": 0.31
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {
+    "fdcId": "170919",
+    "foodDataDescription": "Spices, cardamom",
+    "foodDataType": "sr_legacy_food",
+    "publicationDate": "2019-04-01"
+  }
+}
