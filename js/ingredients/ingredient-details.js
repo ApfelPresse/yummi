@@ -400,7 +400,8 @@ function getOrCreatePopupEl() {
 	if (_popupEl) return _popupEl;
 	_popupEl = document.createElement("div");
 	_popupEl.id = "ingredientDetailsOverlay";
-	_popupEl.className = "hidden fixed inset-0 z-50";
+	_popupEl.className = "hidden fixed inset-x-0 top-0 z-50";
+	_popupEl.style.height = "100dvh";
 	document.body.appendChild(_popupEl);
 	return _popupEl;
 }
@@ -592,8 +593,10 @@ export async function openIngredientDetailsPopup(label, key) {
 
 	overlay.innerHTML = `
 		<div class="absolute inset-0 bg-black/40"></div>
-		<div class="relative min-h-full flex items-end sm:items-center justify-center p-0 sm:p-4">
-			<div class="w-full sm:max-w-xl bg-white sm:rounded-2xl shadow-xl flex items-center justify-center h-48">
+		<div class="relative h-full flex items-end sm:items-center justify-center px-0 pt-0 sm:p-4"
+			style="padding-bottom: max(1rem, env(safe-area-inset-bottom, 0px) + 1rem);">
+			<div class="w-full sm:max-w-xl bg-white rounded-2xl shadow-xl flex items-center justify-center h-48"
+				style="max-height: calc(100dvh - max(2rem, env(safe-area-inset-bottom, 0px) + 2rem));">
 				<div class="text-gray-500 text-sm">Lade Nährstoffdaten…</div>
 			</div>
 		</div>`;
@@ -620,8 +623,10 @@ function _renderPopup(overlay, label, key, data, creds) {
 
 	overlay.innerHTML = `
 		<div class="absolute inset-0 bg-black/40" id="det-backdrop"></div>
-		<div class="relative min-h-full flex items-end sm:items-center justify-center p-0 sm:p-4 pointer-events-none">
-			<div class="w-full sm:max-w-xl bg-white rounded-t-2xl sm:rounded-2xl shadow-xl flex flex-col max-h-[92vh] overflow-hidden pointer-events-auto">
+		<div class="relative h-full flex items-end sm:items-center justify-center px-0 pt-0 sm:p-4 pointer-events-none"
+			style="padding-bottom: max(1rem, env(safe-area-inset-bottom, 0px) + 1rem);">
+			<div class="w-full sm:max-w-xl bg-white rounded-2xl shadow-xl flex flex-col max-h-[92vh] overflow-hidden pointer-events-auto"
+				style="max-height: calc(100dvh - max(2rem, env(safe-area-inset-bottom, 0px) + 2rem));">
 
 				<!-- Header -->
 				<div class="flex items-center justify-between px-5 py-4 border-b border-gray-200 shrink-0">
@@ -711,7 +716,8 @@ function _renderPopup(overlay, label, key, data, creds) {
 				</div>
 
 				<!-- Footer -->
-				<div class="px-5 py-4 border-t border-gray-200 shrink-0 space-y-3">
+				<div class="px-5 pt-4 border-t border-gray-200 shrink-0 space-y-3"
+					style="padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0px));">
 					<div class="flex gap-2">
 						<button id="det-copy-template" type="button"
 							class="flex-1 rounded-xl border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50">

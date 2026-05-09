@@ -1,7 +1,10 @@
 import { loadAllRecipesFromDav } from "./loader.js";
 import { loadSelected, saveSelected, saveIgnored } from "../storage/local.js";
+import { saveRecipeToCache, saveMetadata } from "../storage/db.js";
 import { placeholderDataUri, isIgnoredIngredient } from "../utils/helpers.js";
 import { setupAuthUi } from "../auth/auth-ui.js";
+import { APP } from "../core/config.js";
+import { APP_VERSION } from "../core/version.js";
 import {
   showError,
   hideError,
@@ -24,7 +27,7 @@ import {
   hasIngredientData,
   forceReloadIngredientDetails
 } from "../ingredients/ingredient-details.js";
-import { loadCreds } from "../dav/webdav.js";
+import { loadCreds, davBaseFolderUrl, put, mkcol } from "../dav/webdav.js";
 
 // ===== State =====
 let recipes = [];
@@ -61,8 +64,10 @@ const btnReloadNutrients = document.getElementById("btnReloadNutrients");
 const nutrientBody = document.getElementById("nutrientBody");
 const elNutrientSearch = document.getElementById("nutrientSearch");
 const elNutrientLoadingHint = document.getElementById("nutrientLoadingHint");
+const btnCleanup = document.getElementById("btnCleanup");
 
 let nutrientLoadRequestId = 0;
+const APP_DATA_VERSION_KEY = "yummi_app_data_version";
 
 function setNutrientLoading(isLoading) {
   if (!elNutrientLoadingHint) return;
@@ -460,6 +465,358 @@ function renderCard({ r, have, missing, score, total }) {
   return div;
 }
 
+// ===== Cleanup Popup =====
+let cleanupOverlay = null;
+
+function joinUrl(base, rel) {
+  const b = base.replace(/\/+$/, "");
+  const r = rel.replace(/^\/+/, "");
+  return `${b}/${r}`;
+}
+
+function escapeAttr(value) {
+  return escapeHtml(value).replaceAll('"', "&quot;");
+}
+
+function getIngredientUsage() {
+  const usage = new Map();
+
+  for (const recipe of recipes) {
+    for (const ingredient of (recipe.ingredients || [])) {
+      const name = String(ingredient?.name || "").trim();
+      const key = normalizeIngredient(name);
+      if (!name || !key) continue;
+
+      const entry = usage.get(key) || {
+        key,
+        label: name,
+        count: 0,
+        recipeIds: new Set()
+      };
+
+      entry.count += 1;
+      entry.recipeIds.add(recipe.id);
+      if (name.length < entry.label.length) entry.label = name;
+      usage.set(key, entry);
+    }
+  }
+
+  return Array.from(usage.values())
+    .map(item => ({ ...item, recipeCount: item.recipeIds.size }))
+    .sort((a, b) => a.label.localeCompare(b.label, "de"));
+}
+
+function findIngredientRenameMatches(fromName) {
+  const fromKey = normalizeIngredient(fromName);
+  if (!fromKey) return [];
+
+  const matches = [];
+  for (const recipe of recipes) {
+    const ingredients = recipe.ingredients || [];
+    const hits = ingredients.filter(ingredient => normalizeIngredient(ingredient?.name) === fromKey);
+    if (hits.length > 0) {
+      matches.push({ recipe, count: hits.length });
+    }
+  }
+  return matches;
+}
+
+function updateCleanupRenamePreview(overlay) {
+  const fromInput = overlay.querySelector("#cleanup-rename-from");
+  const toInput = overlay.querySelector("#cleanup-rename-to");
+  const preview = overlay.querySelector("#cleanup-rename-preview");
+  const applyBtn = overlay.querySelector("#cleanup-rename-apply");
+  if (!fromInput || !toInput || !preview || !applyBtn) return;
+
+  const fromName = fromInput.value.trim();
+  const toName = toInput.value.trim();
+  const matches = findIngredientRenameMatches(fromName);
+  const occurrenceCount = matches.reduce((sum, item) => sum + item.count, 0);
+
+  applyBtn.disabled = !fromName || !toName || matches.length === 0 || fromName === toName;
+  applyBtn.classList.toggle("opacity-50", applyBtn.disabled);
+  applyBtn.classList.toggle("cursor-not-allowed", applyBtn.disabled);
+
+  if (!fromName) {
+    preview.textContent = "Wähle oder tippe eine Zutat, um die betroffenen Rezepte zu sehen.";
+    return;
+  }
+
+  if (matches.length === 0) {
+    preview.textContent = `Keine Vorkommen für "${fromName}" gefunden.`;
+    return;
+  }
+
+  const recipeTitles = matches
+    .slice(0, 4)
+    .map(item => item.recipe.title || item.recipe.id)
+    .join(", ");
+  const more = matches.length > 4 ? ` +${matches.length - 4} weitere` : "";
+  preview.textContent = `${occurrenceCount} Vorkommen in ${matches.length} Rezept(en): ${recipeTitles}${more}`;
+}
+
+function renderCleanupIngredientResults(overlay) {
+  const search = overlay.querySelector("#cleanup-ingredient-search");
+  const list = overlay.querySelector("#cleanup-ingredient-results");
+  if (!search || !list) return;
+
+  const q = search.value.trim().toLowerCase();
+  const items = getIngredientUsage()
+    .filter(item => !q || item.label.toLowerCase().includes(q) || item.key.includes(q))
+    .slice(0, 30);
+
+  list.innerHTML = items.length === 0
+    ? `<div class="px-3 py-2 text-sm text-gray-500">Keine Zutaten gefunden.</div>`
+    : items.map(item => `
+        <button type="button" data-cleanup-pick-key="${escapeAttr(item.key)}"
+          class="w-full text-left px-3 py-2 rounded-lg hover:bg-blue-50 text-sm flex items-center justify-between gap-3">
+          <span class="truncate">${escapeHtml(item.label)}</span>
+          <span class="text-xs text-gray-500 shrink-0">${item.count}x / ${item.recipeCount} Rez.</span>
+        </button>
+      `).join("");
+}
+
+async function applyIngredientRename(overlay) {
+  const fromName = overlay.querySelector("#cleanup-rename-from")?.value.trim() || "";
+  const toName = overlay.querySelector("#cleanup-rename-to")?.value.trim() || "";
+  const matches = findIngredientRenameMatches(fromName);
+
+  if (!fromName || !toName || matches.length === 0) return;
+
+  const occurrenceCount = matches.reduce((sum, item) => sum + item.count, 0);
+  const ok = confirm(`${occurrenceCount} Vorkommen in ${matches.length} Rezept(en) von "${fromName}" zu "${toName}" umbenennen?`);
+  if (!ok) return;
+
+  const creds = loadCreds();
+  if (!creds) {
+    showError("Keine Nextcloud-Anmeldung gefunden. Cleanup kann nicht speichern.");
+    return;
+  }
+
+  const fromKey = normalizeIngredient(fromName);
+  const baseFolder = davBaseFolderUrl(creds);
+  const recipesFolder = joinUrl(baseFolder, APP.RECIPES_SUBFOLDER);
+
+  hideError();
+  showLoading("Zutaten werden umbenannt...");
+
+  try {
+    let done = 0;
+
+    for (const { recipe } of matches) {
+      const updatedRecipe = JSON.parse(JSON.stringify(recipe));
+      for (const ingredient of (updatedRecipe.ingredients || [])) {
+        if (normalizeIngredient(ingredient?.name) === fromKey) {
+          ingredient.name = toName;
+        }
+      }
+
+      const url = joinUrl(recipesFolder, `${encodeURIComponent(updatedRecipe.id)}.json`);
+      const response = await put(
+        url,
+        creds,
+        JSON.stringify(updatedRecipe, null, 2),
+        { "Content-Type": "application/json; charset=utf-8" }
+      );
+
+      let saveResponse = response;
+      if (saveResponse.status === 409) {
+        const mkcolResponse = await mkcol(recipesFolder, creds);
+        if (![201, 405].includes(mkcolResponse.status)) {
+          throw new Error(`Ordner ${APP.RECIPES_SUBFOLDER} konnte nicht angelegt werden (HTTP ${mkcolResponse.status})`);
+        }
+
+        saveResponse = await put(
+          url,
+          creds,
+          JSON.stringify(updatedRecipe, null, 2),
+          { "Content-Type": "application/json; charset=utf-8" }
+        );
+      }
+
+      if (saveResponse.status < 200 || saveResponse.status >= 300) {
+        throw new Error(`Speichern von ${updatedRecipe.id}.json fehlgeschlagen (HTTP ${saveResponse.status})`);
+      }
+
+      await saveRecipeToCache(updatedRecipe);
+      await saveMetadata(`${updatedRecipe.id}.json`, {
+        etag: saveResponse.headers?.get("ETag") || null,
+        lastModified: new Date().toISOString()
+      });
+
+      const idx = recipes.findIndex(item => item.id === updatedRecipe.id);
+      if (idx !== -1) recipes[idx] = updatedRecipe;
+
+      done += 1;
+      showLoading(`Zutaten werden umbenannt: ${done}/${matches.length}`);
+    }
+
+    if (selected.has(fromKey)) {
+      selected.delete(fromKey);
+      selected.add(normalizeIngredient(toName));
+      saveSelected(selected);
+    }
+
+    if (ignoredSet.has(fromKey)) {
+      ignoredSet.delete(fromKey);
+      ignoredSet.add(normalizeIngredient(toName));
+      await persistIgnored();
+    }
+
+    buildIngredientsAndCategories();
+    pruneSelected();
+    initChips();
+    renderIgnoreChips();
+    renderNutrientChips().catch(err => {
+      console.warn("Nährstoffdetails nach Cleanup konnten nicht geladen werden:", err);
+    });
+    render();
+
+    overlay.querySelector("#cleanup-rename-from").value = toName;
+    overlay.querySelector("#cleanup-rename-to").value = "";
+    renderCleanupIngredientResults(overlay);
+    updateCleanupRenamePreview(overlay);
+  } catch (err) {
+    console.error("Cleanup fehlgeschlagen:", err);
+    showError(`Cleanup fehlgeschlagen: ${err.message}`);
+  } finally {
+    hideLoading();
+  }
+}
+
+function getOrCreateCleanupOverlay() {
+  if (cleanupOverlay) return cleanupOverlay;
+
+  cleanupOverlay = document.createElement("div");
+  cleanupOverlay.id = "cleanupOverlay";
+  cleanupOverlay.className = "hidden fixed inset-x-0 top-0 z-50";
+  cleanupOverlay.style.height = "100dvh";
+  document.body.appendChild(cleanupOverlay);
+  return cleanupOverlay;
+}
+
+function closeCleanupPopup() {
+  getOrCreateCleanupOverlay().classList.add("hidden");
+}
+
+function openCleanupPopup() {
+  const overlay = getOrCreateCleanupOverlay();
+
+  overlay.innerHTML = `
+    <div class="absolute inset-0 bg-black/40" id="cleanup-backdrop"></div>
+    <div class="relative h-full flex items-end sm:items-center justify-center px-0 pt-0 sm:p-4 pointer-events-none"
+      style="padding-bottom: max(1rem, env(safe-area-inset-bottom, 0px) + 1rem);">
+      <div class="w-full sm:max-w-xl bg-white rounded-2xl shadow-xl flex flex-col overflow-hidden pointer-events-auto"
+        style="max-height: calc(100dvh - max(2rem, env(safe-area-inset-bottom, 0px) + 2rem));">
+        <div class="flex items-center justify-between px-5 py-4 border-b border-gray-200 shrink-0">
+          <div>
+            <h2 class="text-lg font-semibold">Cleanup</h2>
+            <p class="text-xs text-gray-500 mt-0.5">Werkzeuge zum Aufräumen deiner Rezeptdaten</p>
+          </div>
+          <button id="cleanup-close" type="button"
+            class="p-1 rounded-lg hover:bg-gray-100 text-gray-500 hover:text-gray-800 shrink-0">✕</button>
+        </div>
+
+        <div class="overflow-y-auto flex-1 px-5 py-4 space-y-3">
+          <div class="border border-gray-200 rounded-xl overflow-hidden">
+            <button id="cleanup-toggle-rename" type="button"
+              class="w-full flex items-center justify-between px-4 py-3 text-sm font-semibold text-gray-800 bg-gray-50 hover:bg-gray-100">
+              <span>Zutaten umbenennen</span>
+              <span id="cleanup-rename-icon">▾</span>
+            </button>
+
+            <div id="cleanup-rename-body" class="hidden p-4 space-y-3">
+              <input id="cleanup-ingredient-search" type="search" placeholder="Zutat suchen..."
+                class="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm" />
+
+              <div id="cleanup-ingredient-results" class="max-h-52 overflow-y-auto rounded-xl border border-gray-200 p-1"></div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <label class="block">
+                  <span class="text-xs text-gray-500">Umbenennen von</span>
+                  <input id="cleanup-rename-from" type="text"
+                    class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm" />
+                </label>
+                <label class="block">
+                  <span class="text-xs text-gray-500">Umbenennen nach</span>
+                  <input id="cleanup-rename-to" type="text"
+                    class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm" />
+                </label>
+              </div>
+
+              <div id="cleanup-rename-preview" class="rounded-xl bg-gray-50 border border-gray-200 px-3 py-2 text-sm text-gray-700">
+                Wähle oder tippe eine Zutat, um die betroffenen Rezepte zu sehen.
+              </div>
+
+              <button id="cleanup-rename-apply" type="button" disabled
+                class="w-full rounded-xl bg-blue-600 px-4 py-3 text-sm font-medium text-white hover:bg-blue-700 opacity-50 cursor-not-allowed">
+                In allen Rezepten umbenennen
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>`;
+
+  overlay.classList.remove("hidden");
+  renderCleanupIngredientResults(overlay);
+  updateCleanupRenamePreview(overlay);
+
+  overlay.querySelector("#cleanup-backdrop")?.addEventListener("click", closeCleanupPopup);
+  overlay.querySelector("#cleanup-close")?.addEventListener("click", closeCleanupPopup);
+  overlay.querySelector("#cleanup-toggle-rename")?.addEventListener("click", () => {
+    const body = overlay.querySelector("#cleanup-rename-body");
+    const icon = overlay.querySelector("#cleanup-rename-icon");
+    const isHidden = body.classList.toggle("hidden");
+    if (icon) icon.textContent = isHidden ? "▾" : "▴";
+  });
+  overlay.querySelector("#cleanup-ingredient-search")?.addEventListener("input", () => {
+    renderCleanupIngredientResults(overlay);
+  });
+  overlay.querySelector("#cleanup-rename-from")?.addEventListener("input", () => {
+    updateCleanupRenamePreview(overlay);
+  });
+  overlay.querySelector("#cleanup-rename-to")?.addEventListener("input", () => {
+    updateCleanupRenamePreview(overlay);
+  });
+  overlay.querySelector("#cleanup-ingredient-results")?.addEventListener("click", (e) => {
+    const btn = e.target.closest("[data-cleanup-pick-key]");
+    if (!btn) return;
+    const picked = getIngredientUsage().find(item => item.key === btn.dataset.cleanupPickKey);
+    overlay.querySelector("#cleanup-rename-from").value = picked?.label || "";
+    overlay.querySelector("#cleanup-rename-to").value = picked?.label || "";
+    updateCleanupRenamePreview(overlay);
+  });
+  overlay.querySelector("#cleanup-rename-apply")?.addEventListener("click", () => {
+    applyIngredientRename(overlay);
+  });
+}
+
+async function loadRecipesForCurrentAppVersion() {
+  const storedVersion = localStorage.getItem(APP_DATA_VERSION_KEY);
+
+  if (storedVersion === APP_VERSION) {
+    return await loadAllRecipesFromDav();
+  }
+
+  console.log(`[VERSION] App-Version geändert: ${storedVersion || "keine"} -> ${APP_VERSION}`);
+  showLoading("Neue App-Version erkannt, lade Rezepte frisch...");
+
+  try {
+    const { forceReloadAllRecipesFromDav } = await import("./loader.js");
+    const freshRecipes = await forceReloadAllRecipesFromDav();
+    localStorage.setItem(APP_DATA_VERSION_KEY, APP_VERSION);
+    return freshRecipes;
+  } catch (err) {
+    console.warn("Versions-Refresh fehlgeschlagen, nutze bestehenden Offline-Cache:", err);
+    const fallbackRecipes = await loadAllRecipesFromDav();
+    if (fallbackRecipes.length > 0) {
+      return fallbackRecipes;
+    }
+    throw err;
+  }
+}
+
 // ===== Controls =====
 document.getElementById("btnAll").onclick = () => {
   selected.clear();
@@ -485,6 +842,10 @@ if (btnScrollToRecipes && elRecipeList) {
     const top = elRecipeList.getBoundingClientRect().top + window.scrollY - offset;
     window.scrollTo({ top, behavior: "smooth" });
   });
+}
+
+if (btnCleanup) {
+  btnCleanup.addEventListener("click", openCleanupPopup);
 }
 
 elCategorySelect.onchange = () => {
@@ -588,8 +949,8 @@ setupAuthUi();
       });
     });
     
-    // NEU: lädt aus Cache (instant) oder von Nextcloud (initial)
-    recipes = await loadAllRecipesFromDav();
+    // Lädt bei gleicher App-Version cache-first, bei neuer Version einmal frisch.
+    recipes = await loadRecipesForCurrentAppVersion();
 
     try {
       const creds = getCredsOrThrow();

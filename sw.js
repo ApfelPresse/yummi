@@ -1,4 +1,4 @@
-const APP_VERSION = "1.1.1";
+const APP_VERSION = "1.1.2";
 const CACHE = `yummi-${APP_VERSION}`;
 const ASSETS = [
   "./",
@@ -50,6 +50,22 @@ async function staleWhileRevalidate(req) {
   return cached || fetchPromise;
 }
 
+async function networkFirst(req) {
+  const cache = await caches.open(CACHE);
+
+  try {
+    const res = await fetch(req, { cache: "no-store" });
+    if (res && res.ok) {
+      cache.put(req, res.clone());
+    }
+    return res;
+  } catch {
+    const cached = await caches.match(req);
+    if (cached) return cached;
+    throw new Error(`No network or cache match for ${req.url}`);
+  }
+}
+
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE).then((c) => c.addAll(ASSETS)));
   self.skipWaiting();
@@ -79,10 +95,9 @@ self.addEventListener("fetch", (event) => {
     const isCodeOrStyle = path.endsWith(".html") || path.endsWith(".js") || path.endsWith(".css") || path === "/" || path === "/yummi/" || path === "/yummi";
     
     if (isCodeOrStyle) {
-      event.respondWith(staleWhileRevalidate(req));
+      event.respondWith(networkFirst(req));
     } else {
       event.respondWith(cacheFirst(req));
     }
   }
 });
-

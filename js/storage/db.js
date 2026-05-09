@@ -223,6 +223,23 @@ export async function clearCache() {
 }
 
 /**
+ * Nur Rezeptdaten invalidieren.
+ * Bilder und Nährstoffdetails bleiben für Offline-Nutzung hart gecacht.
+ */
+export async function clearRecipeDataCache() {
+  const db = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction([STORE_RECIPES, STORE_METADATA], "readwrite");
+
+    tx.objectStore(STORE_RECIPES).clear();
+    tx.objectStore(STORE_METADATA).clear();
+
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+  });
+}
+
+/**
  * Prüft, ob Cache leer ist
  */
 export async function isCacheEmpty() {

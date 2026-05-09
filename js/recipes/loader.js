@@ -7,6 +7,7 @@ import {
   getAllMetadata,
   isCacheEmpty,
   saveImageToCache,
+  clearRecipeDataCache,
   deleteRecipeFromCache,
   deleteMetadata,
   deleteImageFromCache
@@ -102,9 +103,23 @@ export async function loadAllRecipesFromDav() {
 }
 
 /**
+ * Lädt alle Rezepte bewusst frisch von Nextcloud und aktualisiert den Cache.
+ * Wird nur bei App-Versionswechsel genutzt.
+ */
+export async function forceReloadAllRecipesFromDav() {
+  const creds = loadCreds();
+  if (!creds) {
+    throw new Error("Keine Nextcloud-Credentials gefunden (localStorage). Bitte zuerst einloggen.");
+  }
+
+  console.log("📥 App-Version geändert, lade alle Rezepte frisch von Nextcloud...");
+  return await loadAllRecipesInitial(creds, { resetRecipeCache: true });
+}
+
+/**
  * Initial Load: Alle Rezepte von Nextcloud laden + cachen
  */
-async function loadAllRecipesInitial(creds) {
+async function loadAllRecipesInitial(creds, options = {}) {
   const baseFolder = davBaseFolderUrl(creds);
   const recipesFolderUrl = joinUrl(baseFolder, APP.RECIPES_SUBFOLDER);
 
@@ -117,6 +132,10 @@ async function loadAllRecipesInitial(creds) {
   if (parsed.error) throw new Error(parsed.error);
 
   const jsonItems = parsed.items.filter(isJsonFile);
+
+  if (options.resetRecipeCache) {
+    await clearRecipeDataCache();
+  }
   
   if (jsonItems.length === 0) {
     console.warn("Keine Rezept-Dateien gefunden im Ordner:", recipesFolderUrl);
