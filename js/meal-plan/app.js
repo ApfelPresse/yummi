@@ -195,6 +195,29 @@ function buildPlanState(selectedRecipes, dayKeys) {
 
 function setupDragAndDrop({ root, assignments, dayKeys, recipesById, selectedIds, renderAll }) {
   let draggedRecipeId = null;
+  let activeTouchCard = null;
+  let touchDragStarted = false;
+  let touchStartX = 0;
+  let touchStartY = 0;
+
+  const clearZoneHighlights = () => {
+    root.querySelectorAll(".meal-dropzone").forEach((zone) => {
+      zone.classList.remove("bg-blue-50");
+    });
+  };
+
+  const moveRecipeToDay = (recipeId, targetDayKey) => {
+    if (!recipeId || !targetDayKey || !recipesById.has(recipeId)) return;
+    const validDayKeys = new Set(dayKeys);
+    if (!validDayKeys.has(targetDayKey)) return;
+
+    for (const dayKey of validDayKeys) {
+      assignments[dayKey] = (assignments[dayKey] || []).filter((id) => id !== recipeId);
+    }
+    assignments[targetDayKey] = [...(assignments[targetDayKey] || []), recipeId];
+    saveAssignments(assignments);
+    renderAll();
+  };
 
   root.querySelectorAll(".meal-plan-card").forEach((card) => {
     card.addEventListener("dragstart", (e) => {
@@ -209,10 +232,67 @@ function setupDragAndDrop({ root, assignments, dayKeys, recipesById, selectedIds
     card.addEventListener("dragend", () => {
       card.classList.remove("opacity-50");
       draggedRecipeId = null;
-      root.querySelectorAll(".meal-dropzone").forEach((zone) => {
-        zone.classList.remove("bg-blue-50");
-      });
+      clearZoneHighlights();
     });
+
+    card.addEventListener("touchstart", (e) => {
+      if (e.touches.length !== 1) return;
+      const touch = e.touches[0];
+      activeTouchCard = card;
+      touchDragStarted = false;
+      touchStartX = touch.clientX;
+      touchStartY = touch.clientY;
+    }, { passive: true });
+
+    card.addEventListener("touchmove", (e) => {
+      if (!activeTouchCard || activeTouchCard !== card || e.touches.length !== 1) return;
+      const touch = e.touches[0];
+      const dx = Math.abs(touch.clientX - touchStartX);
+      const dy = Math.abs(touch.clientY - touchStartY);
+
+      if (!touchDragStarted && (dx > 8 || dy > 8)) {
+        touchDragStarted = true;
+        draggedRecipeId = card.dataset.recipeId || null;
+        card.classList.add("opacity-50");
+        document.body.classList.add("overflow-hidden");
+      }
+
+      if (!touchDragStarted) return;
+      e.preventDefault();
+
+      clearZoneHighlights();
+      const el = document.elementFromPoint(touch.clientX, touch.clientY);
+      const zone = el?.closest?.(".meal-dropzone");
+      if (zone) zone.classList.add("bg-blue-50");
+    }, { passive: false });
+
+    card.addEventListener("touchend", (e) => {
+      if (!activeTouchCard || activeTouchCard !== card) return;
+
+      if (touchDragStarted) {
+        const touch = e.changedTouches?.[0];
+        const el = touch ? document.elementFromPoint(touch.clientX, touch.clientY) : null;
+        const zone = el?.closest?.(".meal-dropzone");
+        const targetDayKey = zone?.dataset?.dayKey;
+        moveRecipeToDay(draggedRecipeId, targetDayKey);
+      }
+
+      card.classList.remove("opacity-50");
+      clearZoneHighlights();
+      document.body.classList.remove("overflow-hidden");
+      draggedRecipeId = null;
+      activeTouchCard = null;
+      touchDragStarted = false;
+    }, { passive: true });
+
+    card.addEventListener("touchcancel", () => {
+      card.classList.remove("opacity-50");
+      clearZoneHighlights();
+      document.body.classList.remove("overflow-hidden");
+      draggedRecipeId = null;
+      activeTouchCard = null;
+      touchDragStarted = false;
+    }, { passive: true });
   });
 
   root.querySelectorAll(".meal-dropzone").forEach((zone) => {
@@ -230,17 +310,7 @@ function setupDragAndDrop({ root, assignments, dayKeys, recipesById, selectedIds
       zone.classList.remove("bg-blue-50");
       const recipeId = draggedRecipeId || e.dataTransfer?.getData("text/plain");
       const targetDayKey = zone.dataset.dayKey;
-      if (!recipeId || !targetDayKey || !recipesById.has(recipeId)) return;
-
-      const validDayKeys = new Set(dayKeys);
-      if (!validDayKeys.has(targetDayKey)) return;
-
-      for (const dayKey of validDayKeys) {
-        assignments[dayKey] = (assignments[dayKey] || []).filter((id) => id !== recipeId);
-      }
-      assignments[targetDayKey] = [...(assignments[targetDayKey] || []), recipeId];
-      saveAssignments(assignments);
-      renderAll();
+      moveRecipeToDay(recipeId, targetDayKey);
     });
   });
 
