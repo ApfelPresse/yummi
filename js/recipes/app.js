@@ -1,5 +1,11 @@
 import { loadAllRecipesFromDav } from "./loader.js";
-import { loadSelected, saveSelected, saveIgnored } from "../storage/local.js";
+import {
+  loadSelected,
+  saveSelected,
+  saveIgnored,
+  loadMealPlanSelectedRecipes,
+  saveMealPlanSelectedRecipes
+} from "../storage/local.js";
 import { saveRecipeToCache, saveMetadata } from "../storage/db.js";
 import { placeholderDataUri, isIgnoredIngredient } from "../utils/helpers.js";
 import { setupAuthUi } from "../auth/auth-ui.js";
@@ -37,6 +43,7 @@ let allCategories = [];
 
 let categoryFilter = "alle";
 let searchQuery = "";
+const selectedRecipeIds = loadMealPlanSelectedRecipes();
 
 const selected = loadSelected();
 let ignoredSet = applyIgnoredFromLocal();
@@ -424,6 +431,9 @@ function renderCard({ r, have, missing, score, total }) {
           ${percent}% Match
         </span>
       </div>
+      <button type="button" class="absolute bottom-3 right-3 w-8 h-8 rounded-full bg-white/90 border border-gray-300 text-gray-800 hover:bg-white flex items-center justify-center js-select-recipe" aria-label="Rezept auswählen">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="w-4 h-4" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 5v14m-7-7h14" /></svg>
+      </button>
     </div>
 
     <div class="p-4 flex flex-col gap-3">
@@ -445,14 +455,70 @@ function renderCard({ r, have, missing, score, total }) {
           : `<div class="text-red-700"><span class="font-medium">Fehlt:</span> ${missingPreview}${missingMore}</div>`
         }
       </div>
+
+      <div class="hidden js-plan-hint text-xs font-medium px-2 py-1 rounded-lg bg-blue-50 text-blue-800 border border-blue-200 w-fit">
+        Rezept zum Essensplan hinzugefügt
+      </div>
     </div>
   `;
 
   const targetUrl = `recipe.html?id=${encodeURIComponent(r.id)}`;
+  const selectButton = div.querySelector(".js-select-recipe");
+  const planHint = div.querySelector(".js-plan-hint");
+  const setSelectedState = (isSelected) => {
+    if (isSelected) {
+      selectedRecipeIds.add(r.id);
+      saveMealPlanSelectedRecipes(selectedRecipeIds);
+      div.classList.add("ring-2", "ring-blue-500", "ring-offset-2");
+      planHint.classList.remove("hidden");
+      selectButton.setAttribute("aria-label", "Rezeptauswahl aufheben");
+      return;
+    }
+
+    selectedRecipeIds.delete(r.id);
+    saveMealPlanSelectedRecipes(selectedRecipeIds);
+    div.classList.remove("ring-2", "ring-blue-500", "ring-offset-2");
+    planHint.classList.add("hidden");
+    selectButton.setAttribute("aria-label", "Rezept auswählen");
+  };
+  const toggleSelectedState = () => setSelectedState(!selectedRecipeIds.has(r.id));
+
+  setSelectedState(selectedRecipeIds.has(r.id));
+
   div.setAttribute("role", "button");
   div.setAttribute("tabindex", "0");
+  let longPressTriggered = false;
+  let longPressTimer = null;
+
+  div.addEventListener("pointerdown", (e) => {
+    if (e.pointerType !== "touch") return;
+    longPressTriggered = false;
+    longPressTimer = window.setTimeout(() => {
+      longPressTriggered = true;
+      toggleSelectedState();
+    }, 450);
+  });
+
+  const clearLongPress = () => {
+    if (!longPressTimer) return;
+    window.clearTimeout(longPressTimer);
+    longPressTimer = null;
+  };
+
+  div.addEventListener("pointerup", clearLongPress);
+  div.addEventListener("pointercancel", clearLongPress);
+  div.addEventListener("pointerleave", clearLongPress);
+
   div.addEventListener("click", () => {
+    if (longPressTriggered) {
+      longPressTriggered = false;
+      return;
+    }
     window.location.href = targetUrl;
+  });
+  div.addEventListener("contextmenu", (e) => {
+    e.preventDefault();
+    toggleSelectedState();
   });
   div.addEventListener("keydown", (e) => {
     if (e.key === "Enter" || e.key === " ") {
@@ -460,6 +526,13 @@ function renderCard({ r, have, missing, score, total }) {
       window.location.href = targetUrl;
     }
   });
+
+  if (selectButton) {
+    selectButton.addEventListener("click", (e) => {
+      e.stopPropagation();
+      toggleSelectedState();
+    });
+  }
   
   // Bild asynchron aus Cache laden
   getRecipeImageUrlShared(r.id).then(url => {

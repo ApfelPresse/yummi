@@ -2,6 +2,7 @@ export const APP = {
   STORAGE_KEY_SELECTED: "pantry_selected_v1",
   STORAGE_KEY_IGNORED: "pantry_ignored_v1",
   STORAGE_KEY_IGNORED_ETAG: "pantry_ignored_etag_v1",
+  STORAGE_KEY_MEAL_PLAN_SELECTED: "meal_plan_selected_recipes_v1",
   IMG_EXT: "jpg",
 
   // Zutaten, die NIE in der Pantry-Liste auftauchen sollen

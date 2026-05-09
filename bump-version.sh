@@ -51,8 +51,9 @@ cat > "$JS_VERSION" << EOF
 export const APP_VERSION = "$NEW_VERSION";
 EOF
 
-# sw.js aktualisieren
-sed -i "s/const APP_VERSION = \".*\";/const APP_VERSION = \"$NEW_VERSION\";/" "$SW_FILE"
+# sw.js aktualisieren (BSD/macOS + GNU kompatibel)
+sed -i.bak "s/const APP_VERSION = \".*\";/const APP_VERSION = \"$NEW_VERSION\";/" "$SW_FILE"
+rm -f "$SW_FILE.bak"
 
 echo "✅ Version erfolgreich hochgezählt!"
 echo "   - .version: $NEW_VERSION"

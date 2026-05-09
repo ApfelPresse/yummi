@@ -46,3 +46,19 @@ export function saveIgnoredEtag(etag) {
   if (etag) localStorage.setItem(APP.STORAGE_KEY_IGNORED_ETAG, etag);
   else localStorage.removeItem(APP.STORAGE_KEY_IGNORED_ETAG);
 }
+
+export function loadMealPlanSelectedRecipes() {
+  try {
+    const raw = localStorage.getItem(APP.STORAGE_KEY_MEAL_PLAN_SELECTED);
+    if (!raw) return new Set();
+    const arr = JSON.parse(raw);
+    return new Set(Array.isArray(arr) ? arr.filter(Boolean) : []);
+  } catch {
+    return new Set();
+  }
+}
+
+export function saveMealPlanSelectedRecipes(recipeIds) {
+  const unique = Array.from(new Set(Array.from(recipeIds || []).filter(Boolean)));
+  localStorage.setItem(APP.STORAGE_KEY_MEAL_PLAN_SELECTED, JSON.stringify(unique));
+}
