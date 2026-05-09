@@ -191,7 +191,7 @@ function renderChips() {
 
   for (const ing of allIngredients) {
     if (onlySelected && !selected.has(ing.key)) continue;
-    if (q && !ing.label.toLowerCase().includes(q) && !ing.key.includes(q)) continue;
+    if (q && !ingredientMatchesQuery(ing, q)) continue;
     elChips.appendChild(makeChip(ing));
   }
 }
@@ -208,7 +208,7 @@ function renderIgnoreChips() {
   const q = (elIgnoreSearch?.value || "").trim().toLowerCase();
   elIgnoreChips.innerHTML = "";
   for (const ing of allIngredientsAll) {
-    if (q && !ing.label.toLowerCase().includes(q) && !ing.key.includes(q)) continue;
+    if (q && !ingredientMatchesQuery(ing, q)) continue;
     elIgnoreChips.appendChild(makeIgnoreChip(ing));
   }
 }
@@ -227,7 +227,7 @@ async function renderNutrientChips() {
   try {
     // Im Nährstoff-Tab immer alle Zutaten anzeigen (auch ignorierte).
     for (const ing of allIngredientsAll) {
-      if (q && !ing.label.toLowerCase().includes(q) && !ing.key.includes(q)) continue;
+      if (q && !ingredientMatchesQuery(ing, q)) continue;
       
       // Überprüfe, ob Nährstoffdaten vorhanden sind
       const hasData = creds ? await hasIngredientData(creds, ing.key) : false;
@@ -280,6 +280,12 @@ function updateNutrientChips() {
   for (const btn of elNutrientChips.querySelectorAll("button[data-key]")) {
     btn.className = nutrientChipClass(false);
   }
+}
+
+function ingredientMatchesQuery(ingredient, q) {
+  if (!q) return true;
+  if (ingredient.label.toLowerCase().includes(q) || ingredient.key.includes(q)) return true;
+  return (ingredient.variants || []).some((variant) => variant.toLowerCase().includes(q));
 }
 
 function pruneSelected() {
@@ -491,19 +497,45 @@ function getIngredientUsage() {
         key,
         label: name,
         count: 0,
-        recipeIds: new Set()
+        recipeIds: new Set(),
+        variants: new Set()
       };
 
       entry.count += 1;
       entry.recipeIds.add(recipe.id);
+      entry.variants.add(name);
       if (name.length < entry.label.length) entry.label = name;
       usage.set(key, entry);
     }
   }
 
   return Array.from(usage.values())
-    .map(item => ({ ...item, recipeCount: item.recipeIds.size }))
-    .sort((a, b) => a.label.localeCompare(b.label, "de"));
+    .map(item => {
+      const variants = Array.from(item.variants).sort((a, b) => a.localeCompare(b, "de"));
+      return {
+        ...item,
+        variants,
+        hasInconsistentVariants: variants.length > 1,
+        hasAllCapsVariant: variants.some(isAllCapsIngredient),
+        recipeCount: item.recipeIds.size
+      };
+    })
+    .sort(compareIngredientCleanupItems);
+}
+
+function isAllCapsIngredient(name) {
+  const letters = String(name || "").match(/\p{L}/gu) || [];
+  if (letters.length < 2) return false;
+  return letters.some(letter => letter !== letter.toLocaleLowerCase("de"))
+    && letters.every(letter => letter === letter.toLocaleUpperCase("de"));
+}
+
+function compareIngredientCleanupItems(a, b) {
+  const priorityA = (a.hasInconsistentVariants ? 2 : 0) + (a.hasAllCapsVariant ? 1 : 0);
+  const priorityB = (b.hasInconsistentVariants ? 2 : 0) + (b.hasAllCapsVariant ? 1 : 0);
+  if (priorityA !== priorityB) return priorityB - priorityA;
+  if (b.variants.length !== a.variants.length) return b.variants.length - a.variants.length;
+  return a.label.localeCompare(b.label, "de");
 }
 
 function findIngredientRenameMatches(fromName) {
@@ -521,6 +553,14 @@ function findIngredientRenameMatches(fromName) {
   return matches;
 }
 
+function countIngredientRenameChanges(matches, toName) {
+  return matches.reduce((sum, { recipe }) => {
+    return sum + (recipe.ingredients || []).filter((ingredient) => {
+      return String(ingredient?.name || "").trim() !== toName;
+    }).length;
+  }, 0);
+}
+
 function updateCleanupRenamePreview(overlay) {
   const fromInput = overlay.querySelector("#cleanup-rename-from");
   const toInput = overlay.querySelector("#cleanup-rename-to");
@@ -532,8 +572,9 @@ function updateCleanupRenamePreview(overlay) {
   const toName = toInput.value.trim();
   const matches = findIngredientRenameMatches(fromName);
   const occurrenceCount = matches.reduce((sum, item) => sum + item.count, 0);
+  const changeCount = countIngredientRenameChanges(matches, toName);
 
-  applyBtn.disabled = !fromName || !toName || matches.length === 0 || fromName === toName;
+  applyBtn.disabled = !fromName || !toName || matches.length === 0 || changeCount === 0;
   applyBtn.classList.toggle("opacity-50", applyBtn.disabled);
   applyBtn.classList.toggle("cursor-not-allowed", applyBtn.disabled);
 
@@ -552,7 +593,7 @@ function updateCleanupRenamePreview(overlay) {
     .map(item => item.recipe.title || item.recipe.id)
     .join(", ");
   const more = matches.length > 4 ? ` +${matches.length - 4} weitere` : "";
-  preview.textContent = `${occurrenceCount} Vorkommen in ${matches.length} Rezept(en): ${recipeTitles}${more}`;
+  preview.textContent = `${occurrenceCount} Vorkommen in ${matches.length} Rezept(en), ${changeCount} Änderung(en): ${recipeTitles}${more}`;
 }
 
 function renderCleanupIngredientResults(overlay) {
@@ -562,7 +603,7 @@ function renderCleanupIngredientResults(overlay) {
 
   const q = search.value.trim().toLowerCase();
   const items = getIngredientUsage()
-    .filter(item => !q || item.label.toLowerCase().includes(q) || item.key.includes(q))
+    .filter(item => item.hasInconsistentVariants || item.hasAllCapsVariant || !q || ingredientMatchesQuery(item, q))
     .slice(0, 30);
 
   list.innerHTML = items.length === 0
@@ -570,7 +611,14 @@ function renderCleanupIngredientResults(overlay) {
     : items.map(item => `
         <button type="button" data-cleanup-pick-key="${escapeAttr(item.key)}"
           class="w-full text-left px-3 py-2 rounded-lg hover:bg-blue-50 text-sm flex items-center justify-between gap-3">
-          <span class="truncate">${escapeHtml(item.label)}</span>
+          <span class="min-w-0">
+            <span class="block truncate">
+              ${escapeHtml(item.label)}
+              ${item.hasInconsistentVariants ? `<span class="ml-1 text-xs font-medium text-amber-700">Varianten</span>` : ""}
+              ${item.hasAllCapsVariant ? `<span class="ml-1 text-xs font-medium text-red-700">GROSS</span>` : ""}
+            </span>
+            ${item.variants.length > 1 ? `<span class="block truncate text-xs text-gray-500">${escapeHtml(item.variants.join(", "))}</span>` : ""}
+          </span>
           <span class="text-xs text-gray-500 shrink-0">${item.count}x / ${item.recipeCount} Rez.</span>
         </button>
       `).join("");
@@ -928,12 +976,11 @@ setupAuthUi();
     
     // Background-Sync Updates
     window.addEventListener("recipesUpdated", async (e) => {
-      const { count } = e.detail;
+      const { count, recipes: syncedRecipes } = e.detail;
       console.log(`🔄 ${count} Rezepte aktualisiert, lade neu...`);
       
-      // Rezepte neu laden & UI updaten
-      const { loadAllRecipesFromDav } = await import("./loader.js");
-      recipes = await loadAllRecipesFromDav();
+      // Der Sync liefert den kompletten aktualisierten Cache direkt mit.
+      recipes = Array.isArray(syncedRecipes) ? syncedRecipes : await loadAllRecipesFromDav();
       
       // UI komplett neu rendern
       buildIngredientsAndCategories();
@@ -1009,7 +1056,7 @@ setupAuthUi();
 function buildIngredientsAndCategories() {
   console.log('[DEBUG] buildIngredientsAndCategories() START, ignoredSet size:', ignoredSet.size);
   // Zutaten global
-  const map = new Map(); // key -> label
+  const map = new Map(); // key -> { label, variants }
   for (const r of recipes) {
     for (const i of (r.ingredients || [])) {
       if (!i || !i.name) continue;
@@ -1018,12 +1065,15 @@ function buildIngredientsAndCategories() {
       const key = normalizeIngredient(i.name);
       if (!key) continue;
 
-      if (!map.has(key)) map.set(key, String(i.name).trim());
+      const name = String(i.name).trim();
+      const entry = map.get(key) || { label: name, variants: new Set() };
+      entry.variants.add(name);
+      if (!map.has(key)) map.set(key, entry);
     }
   }
 
   allIngredientsAll = Array.from(map.entries())
-    .map(([key, label]) => ({ key, label }))
+    .map(([key, entry]) => ({ key, label: entry.label, variants: Array.from(entry.variants) }))
     .sort((a, b) => a.label.localeCompare(b.label, "de"));
   console.log('[DEBUG] allIngredientsAll built, length:', allIngredientsAll.length);
 

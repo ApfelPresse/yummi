@@ -280,11 +280,12 @@ async function syncWithNextcloud(creds) {
   
   if (updatedCount > 0) {
     console.log(`🔄 ${updatedCount} Änderungen erkannt`);
+    const updatedRecipes = await getAllRecipesFromCache();
     
     // Event dispatchen für UI-Update
     if (typeof window !== "undefined" && window.dispatchEvent) {
       window.dispatchEvent(new CustomEvent("recipesUpdated", { 
-        detail: { count: updatedCount } 
+        detail: { count: updatedCount, recipes: updatedRecipes } 
       }));
     }
   } else {
