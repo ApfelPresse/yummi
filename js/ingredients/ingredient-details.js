@@ -337,12 +337,34 @@ export async function saveIngredientDetails(creds, key, data) {
 	const newEtag = res.etag || null;
 	await saveIngredientDetailsToCache(key, data, newEtag);
 	
-	// localStorage hint invalidieren
+	// localStorage hint aktualisieren
 	const cacheKey = `nutrient_has_data_${key}`;
-	localStorage.removeItem(cacheKey);
+	localStorage.setItem(cacheKey, JSON.stringify({
+		value: ingredientDetailsHasData(data),
+		timestamp: Date.now()
+	}));
 }
 
 // ─── Nutrient data existence check (cached) ──────────────────────────────────
+
+function sectionHasData(section) {
+	return Object.values(section || {}).some(value => value !== null && value !== undefined && value !== "");
+}
+
+function ingredientDetailsHasData(data) {
+	if (!data) return false;
+	return [
+		data.macros,
+		data.vitamins,
+		data.minerals,
+		data.carbohydrates,
+		data.fibers,
+		data.sugarAlcoholsDetail,
+		data.fattyAcids,
+		data.aminoAcids,
+		data.otherNutrients
+	].some(sectionHasData);
+}
 
 export async function hasIngredientData(creds, key) {
 	if (!creds) return false;
@@ -359,11 +381,7 @@ export async function hasIngredientData(creds, key) {
 	// Server prüfen
 	try {
 		const data = await loadIngredientDetails(creds, key);
-		const hasData = data !== null && (
-			data.macros?.kcal !== null ||
-			Object.keys(data.vitamins || {}).length > 0 ||
-			Object.keys(data.minerals || {}).length > 0
-		);
+		const hasData = ingredientDetailsHasData(data);
 		
 		// In Cache speichern
 		localStorage.setItem(cacheKey, JSON.stringify({

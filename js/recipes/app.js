@@ -172,7 +172,10 @@ function makeNutrientChip(item, hasData) {
   }
   
   btn.onclick = async () => {
-    await openIngredientDetailsPopup(item.label, item.key);
+    const result = await openIngredientDetailsPopup(item.label, item.key);
+    if (result) {
+      await renderNutrientChips();
+    }
   };
   return btn;
 }
