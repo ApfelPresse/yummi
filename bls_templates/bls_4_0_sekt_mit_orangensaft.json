@@ -1,0 +1,97 @@
+{
+  "name": "Sekt mit Orangensaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 58,
+    "water": 91,
+    "protein": 0.375,
+    "fat": null,
+    "carbs": 5.3,
+    "fiber": 0.155,
+    "alcohol": 4.64,
+    "sugarAlcohols": 0.004
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 2,
+    "cartb": 7,
+    "carotpaxb": 22,
+    "vite": 0.04,
+    "tocpha": 0.04,
+    "vitk": 0.04,
+    "vitk1": 0.04,
+    "thia": 0.076,
+    "ribf": 0.004,
+    "niaeq": 0.302,
+    "nia": 0.2,
+    "pantac": 0.16,
+    "vitb6": 13.8,
+    "biot": 1.4,
+    "fol": 10,
+    "folfd": 10,
+    "vitc": 19.95
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 1.9,
+    "k": 90,
+    "ca": 14,
+    "mg": 10,
+    "p": 15,
+    "s": 10,
+    "fe": 0.1,
+    "zn": 0.04,
+    "cu": 15,
+    "mn": 40,
+    "fd": 9,
+    "cr": 1,
+    "mo": 0.36
+  },
+  "carbohydrates": {
+    "cho": 5.3,
+    "mnsac": 3.36,
+    "glus": 1.65,
+    "frus": 1.71,
+    "disac": 1.935,
+    "sucs": 1.935,
+    "sugar": 5.3
+  },
+  "fibers": {
+    "fibt": 0.155
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.004,
+    "sortl": 0.004
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.036,
+    "ala": 0.008,
+    "arg": 0.022,
+    "asp": 0.034,
+    "cyste": 0.0022,
+    "glu": 0.024,
+    "gly": 0.0044,
+    "his": 0.0016,
+    "ile": 0.0033,
+    "leu": 0.006,
+    "lys": 0.0044,
+    "met": 0.0016,
+    "phe": 0.0038,
+    "pro": 0.045,
+    "ser": 0.006,
+    "thr": 0.0038,
+    "trp": 0.0061,
+    "tyr": 0.0016,
+    "val": 0.005
+  },
+  "otherNutrients": {
+    "nt": 0.06
+  },
+  "extra": {}
+}

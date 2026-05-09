@@ -1,0 +1,93 @@
+{
+  "name": "Batate/Süßkartoffel, gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 135,
+    "water": 64.9,
+    "protein": 1.852,
+    "fat": 0.682,
+    "carbs": 28.6,
+    "fiber": 3.568,
+    "alcohol": null,
+    "sugarAlcohols": 0.31
+  },
+  "vitamins": {
+    "vita": 1195,
+    "vitaa": 598,
+    "cartb": 7169.75,
+    "carotpaxb": 6,
+    "vite": 0.3,
+    "tocpha": 0.3,
+    "vitk": 2,
+    "vitk1": 2,
+    "thia": 0.058,
+    "ribf": 0.054,
+    "niaeq": 1.181,
+    "nia": 0.648,
+    "pantac": 0.849,
+    "vitb6": 291,
+    "biot": 4,
+    "fol": 43,
+    "folfd": 43,
+    "vitc": 27.273
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 51.8,
+    "k": 409,
+    "ca": 25.488,
+    "mg": 20.8,
+    "p": 44.5,
+    "fe": 0.755,
+    "zn": 0.261,
+    "id": 2.6,
+    "cu": 148,
+    "mn": 273
+  },
+  "carbohydrates": {
+    "cho": 28.6,
+    "mnsac": 1.39,
+    "glus": 1.22,
+    "frus": 0.17,
+    "disac": 4.8,
+    "sucs": 3.609,
+    "mals": 1.2,
+    "sugar": 6.2,
+    "starch": 22.114
+  },
+  "fibers": {
+    "fibt": 3.568,
+    "fibhmw": 3.568,
+    "fibins": 1.716,
+    "fibsol": 1.852
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.31,
+    "mantl": 0.31
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.636,
+    "arg": 0.074,
+    "cyste": 0.028,
+    "his": 0.033,
+    "ile": 0.077,
+    "leu": 0.095,
+    "lys": 0.075,
+    "met": 0.032,
+    "phe": 0.09,
+    "thr": 0.077,
+    "trp": 0.032,
+    "tyr": 0.081,
+    "val": 0.125
+  },
+  "otherNutrients": {
+    "nt": 0.297
+  },
+  "extra": {}
+}

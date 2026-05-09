@@ -1,0 +1,112 @@
+{
+  "name": "Preiselbeersaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 34,
+    "water": 89.4,
+    "protein": 0.6188,
+    "fat": 0.424,
+    "carbs": 5.608,
+    "fiber": 0.289,
+    "alcohol": null,
+    "sugarAlcohols": 0.002
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "cartb": 21,
+    "carotpaxb": 8,
+    "vite": 0.94,
+    "tocpha": 0.94,
+    "tocphg": 0.295,
+    "tocphd": 0.01,
+    "vitk": 9,
+    "vitk1": 9,
+    "thia": 0.011,
+    "ribf": 0.019,
+    "niaeq": 0.1,
+    "nia": 0.08,
+    "pantac": 0.18,
+    "vitb6": 10,
+    "biot": 1.2,
+    "fol": 1.6,
+    "folfd": 1.6,
+    "vitc": 7.2
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 4,
+    "k": 68,
+    "ca": 16,
+    "mg": 8,
+    "p": 9.5,
+    "fe": 0.309,
+    "zn": 0.14,
+    "cu": 66,
+    "mn": 2768,
+    "fd": 2,
+    "cr": 1,
+    "mo": 3.21
+  },
+  "carbohydrates": {
+    "cho": 5.608,
+    "mnsac": 5.372,
+    "glus": 2.727,
+    "frus": 2.635,
+    "gals": 0.0096,
+    "disac": 0.126,
+    "sucs": 0.126,
+    "sugar": 5.498,
+    "starch": 0.108
+  },
+  "fibers": {
+    "fibt": 0.289,
+    "fibhmw": 0.289,
+    "fibins": 0.183,
+    "fibsol": 0.106
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.002,
+    "xyltl": 0.002
+  },
+  "fattyAcids": {
+    "fasat": 0.083,
+    "f16_0": 0.068,
+    "f18_0": 0.015,
+    "fams": 0.061,
+    "f16_1cn7": 0.006,
+    "f18_1cn9": 0.055,
+    "fapu": 0.155,
+    "fapun3": 0.068,
+    "f18_3cn3": 0.068,
+    "fapun6": 0.087,
+    "f18_2cn6": 0.087
+  },
+  "aminoAcids": {
+    "aae9": 0.177,
+    "ala": 0.0396,
+    "arg": 0.0965,
+    "asp": 0.0755,
+    "cyste": 0.0074,
+    "glu": 0.1188,
+    "gly": 0.0409,
+    "leu": 0.0532,
+    "lys": 0.0446,
+    "phe": 0.0099,
+    "pro": 0.0148,
+    "ser": 0.0371,
+    "thr": 0.0284,
+    "trp": 0.0013,
+    "tyr": 0.0037,
+    "val": 0.0396
+  },
+  "otherNutrients": {
+    "nt": 0.099
+  },
+  "extra": {}
+}

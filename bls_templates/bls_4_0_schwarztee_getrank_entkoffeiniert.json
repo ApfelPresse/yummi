@@ -1,0 +1,42 @@
+{
+  "name": "Schwarztee (Getränk) entkoffeiniert",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": null,
+    "water": 99.5,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk": 0.2,
+    "vitk1": 0.2
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 11.75,
+    "ca": 5,
+    "mg": 1.5,
+    "p": 0.8,
+    "fe": 0.0026,
+    "zn": 0.0176,
+    "id": 0.32,
+    "cu": 6.3,
+    "mn": 159
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Hartkaramelle (Bonbon) gefüllt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 408,
+    "water": 12.7,
+    "protein": null,
+    "fat": null,
+    "carbs": 87.3,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 1,
+    "k": 0.8,
+    "ca": 0.2,
+    "p": 0.1,
+    "fe": 0.065,
+    "mn": 4
+  },
+  "carbohydrates": {
+    "cho": 87.3,
+    "mnsac": 1.48,
+    "glus": 1.48,
+    "disac": 56.2,
+    "sucs": 38,
+    "mals": 18.2,
+    "sugar": 57.7,
+    "olsac": 29.6
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

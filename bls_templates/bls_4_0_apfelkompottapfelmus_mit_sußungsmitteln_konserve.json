@@ -1,0 +1,104 @@
+{
+  "name": "Apfelkompott/Apfelmus, mit Süßungsmitteln, Konserve",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 32,
+    "water": 86,
+    "protein": 0.3,
+    "fat": 0.12,
+    "carbs": 6.7,
+    "fiber": 1.67,
+    "alcohol": 0.005,
+    "sugarAlcohols": 0.58
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 2,
+    "cartb": 13.8,
+    "carotpaxb": 10,
+    "vite": 0.102,
+    "tocpha": 0.102,
+    "tocphb": 0.01,
+    "vitk": 0.6,
+    "vitk1": 0.6,
+    "thia": 0.004,
+    "ribf": 0.006,
+    "niaeq": 0.2,
+    "nia": 0.1,
+    "pantac": 0.037,
+    "vitb6": 17,
+    "biot": 0.8,
+    "fol": 1,
+    "folfd": 1,
+    "vitc": 2
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 2.4,
+    "k": 60,
+    "ca": 5,
+    "mg": 4,
+    "p": 7,
+    "s": 0.3,
+    "fe": 0.098,
+    "zn": 0.009,
+    "id": 3,
+    "cu": 28,
+    "mn": 19,
+    "fd": 8,
+    "cr": 1,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 6.7,
+    "mnsac": 3.6,
+    "glus": 1.06,
+    "frus": 2.5,
+    "disac": 2.099,
+    "sucs": 2.099,
+    "sugar": 5.7,
+    "starch": 0.453
+  },
+  "fibers": {
+    "fibt": 1.67
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.58,
+    "sortl": 0.58
+  },
+  "fattyAcids": {
+    "fasat": 0.018,
+    "f16_0": 0.016,
+    "f18_0": 0.002,
+    "fax": 0.04
+  },
+  "aminoAcids": {
+    "aae9": 0.06,
+    "ala": 0.011,
+    "arg": 0.005,
+    "asp": 0.066,
+    "cyste": 0.001,
+    "glu": 0.023,
+    "his": 0.004,
+    "ile": 0.005,
+    "leu": 0.013,
+    "lys": 0.012,
+    "met": 0.001,
+    "phe": 0.006,
+    "pro": 0.005,
+    "ser": 0.009,
+    "thr": 0.005,
+    "trp": 0.003,
+    "tyr": 0.001,
+    "val": 0.011
+  },
+  "otherNutrients": {
+    "nt": 0.03
+  },
+  "extra": {}
+}

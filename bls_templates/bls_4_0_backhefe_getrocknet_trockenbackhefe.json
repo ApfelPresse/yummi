@@ -1,0 +1,89 @@
+{
+  "name": "Backhefe getrocknet (Trockenbackhefe)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 334,
+    "water": 5.08,
+    "protein": 40.4,
+    "fat": 7.61,
+    "carbs": 14.3,
+    "fiber": 23.3,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk": 0.4,
+    "vitk1": 0.4,
+    "thia": 7,
+    "ribf": 4,
+    "niaeq": 49.2,
+    "nia": 40.2,
+    "pantac": 13.5,
+    "vitb6": 1500,
+    "fol": 2340,
+    "folfd": 2340,
+    "vitb12": 0.07,
+    "vitc": 0.3
+  },
+  "minerals": {
+    "nacl": 0.128,
+    "na": 51,
+    "k": 955,
+    "ca": 30,
+    "mg": 54,
+    "p": 637,
+    "fe": 9.1,
+    "zn": 7.94,
+    "cu": 436,
+    "mn": 312
+  },
+  "carbohydrates": {
+    "cho": 14.3,
+    "starch": 14.3
+  },
+  "fibers": {
+    "fibt": 23.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 1.001,
+    "f12_0": 0.049,
+    "f16_0": 0.706,
+    "f18_0": 0.246,
+    "fams": 4.31,
+    "f16_1cn7": 2.29,
+    "f18_1cn9": 2.02,
+    "fapu": 0.017,
+    "fapun6": 0.017,
+    "f18_2cn6": 0.017
+  },
+  "aminoAcids": {
+    "aae9": 16.18,
+    "ala": 2.32,
+    "arg": 2.03,
+    "asp": 4.15,
+    "cyste": 0.5,
+    "glu": 6.47,
+    "gly": 1.93,
+    "his": 0.91,
+    "ile": 1.89,
+    "leu": 2.92,
+    "lys": 3.28,
+    "met": 0.59,
+    "phe": 1.75,
+    "pro": 1.65,
+    "ser": 1.98,
+    "thr": 1.99,
+    "trp": 0.54,
+    "tyr": 1.13,
+    "val": 2.31
+  },
+  "otherNutrients": {
+    "nt": 6.5
+  },
+  "extra": {}
+}

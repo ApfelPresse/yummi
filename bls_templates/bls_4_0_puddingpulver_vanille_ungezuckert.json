@@ -1,0 +1,84 @@
+{
+  "name": "Puddingpulver Vanille, ungezuckert",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 344,
+    "water": 12.5,
+    "protein": 0.426,
+    "fat": 0.079,
+    "carbs": 84.911,
+    "fiber": 0.988,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "ribf": 0.008,
+    "niaeq": 0.08,
+    "nia": 0.03,
+    "vitb6": 5,
+    "biot": 6
+  },
+  "minerals": {
+    "nacl": 1.105,
+    "na": 442,
+    "cld": 672,
+    "k": 9,
+    "ca": 10,
+    "mg": 2,
+    "p": 30,
+    "fe": 0.494,
+    "zn": 0.06,
+    "id": 3,
+    "cu": 50,
+    "mn": 990
+  },
+  "carbohydrates": {
+    "cho": 84.911,
+    "starch": 84.911
+  },
+  "fibers": {
+    "fibt": 0.988
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.01,
+    "f16_0": 0.008,
+    "f18_0": 0.002,
+    "fams": 0.025,
+    "f18_1cn9": 0.025,
+    "fapu": 0.041,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.04,
+    "f18_2cn6": 0.04
+  },
+  "aminoAcids": {
+    "aae9": 0.168,
+    "ala": 0.035,
+    "arg": 0.019,
+    "asp": 0.029,
+    "cyste": 0.009,
+    "glu": 0.087,
+    "gly": 0.018,
+    "his": 0.012,
+    "ile": 0.018,
+    "leu": 0.053,
+    "lys": 0.014,
+    "met": 0.009,
+    "phe": 0.02,
+    "pro": 0.045,
+    "ser": 0.026,
+    "thr": 0.017,
+    "trp": 0.003,
+    "tyr": 0.018,
+    "val": 0.022
+  },
+  "otherNutrients": {
+    "nt": 0.068
+  },
+  "extra": {}
+}

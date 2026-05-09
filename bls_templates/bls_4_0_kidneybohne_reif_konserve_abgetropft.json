@@ -1,0 +1,101 @@
+{
+  "name": "Kidneybohne reif, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 128,
+    "water": 64.5,
+    "protein": 8.5,
+    "fat": 1,
+    "carbs": 15.1,
+    "fiber": 11.23,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.27,
+    "tocpha": 0.27,
+    "tocphb": 0.15,
+    "tocphg": 2.53,
+    "tocphd": 0.18,
+    "vitk": 24,
+    "vitk1": 24,
+    "ribf": 0.01,
+    "niaeq": 2.3,
+    "nia": 0.4,
+    "pantac": 0.05,
+    "vitb6": 30,
+    "biot": 0.3,
+    "fol": 33,
+    "folfd": 33,
+    "vitc": 0.01
+  },
+  "minerals": {
+    "nacl": 0.6228,
+    "na": 249.1,
+    "cld": 406,
+    "k": 304,
+    "ca": 41,
+    "mg": 39,
+    "p": 152,
+    "s": 2,
+    "fe": 2.12,
+    "zn": 0.88,
+    "id": 5,
+    "cu": 200,
+    "mn": 640,
+    "cr": 3
+  },
+  "carbohydrates": {
+    "cho": 15.1,
+    "mnsac": 0.1,
+    "glus": 0.05,
+    "frus": 0.05,
+    "disac": 0.8,
+    "sucs": 0.8,
+    "mals": 0.05,
+    "sugar": 0.9,
+    "olsac": 1.3,
+    "starch": 12.9
+  },
+  "fibers": {
+    "fibt": 11.23,
+    "fibhmw": 11.23,
+    "fibins": 8.89,
+    "fibsol": 2.34
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.051,
+    "f16_0": 0.044,
+    "f18_0": 0.007,
+    "fax": 0.216
+  },
+  "aminoAcids": {
+    "aae9": 3.79,
+    "ala": 0.401,
+    "arg": 0.59,
+    "asp": 1.16,
+    "cyste": 0.105,
+    "glu": 1.5,
+    "gly": 0.38,
+    "his": 0.267,
+    "ile": 0.43,
+    "leu": 0.77,
+    "lys": 0.65,
+    "met": 0.144,
+    "phe": 0.52,
+    "ser": 0.52,
+    "thr": 0.403,
+    "trp": 0.113,
+    "tyr": 0.27,
+    "val": 0.49
+  },
+  "otherNutrients": {
+    "nt": 1.5
+  },
+  "extra": {}
+}

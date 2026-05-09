@@ -1,0 +1,103 @@
+{
+  "name": "Sauerkraut Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 34,
+    "water": 90.9,
+    "protein": 1.15,
+    "fat": 0.41,
+    "carbs": 2.37,
+    "fiber": 3.95,
+    "alcohol": 0.32,
+    "sugarAlcohols": 0.123
+  },
+  "vitamins": {
+    "vite": 0.029,
+    "tocpha": 0.029,
+    "vitk": 8.96,
+    "vitk1": 8.96,
+    "thia": 0.04,
+    "ribf": 0.14,
+    "niaeq": 0.15,
+    "nia": 0.15,
+    "pantac": 0.06,
+    "vitb6": 140,
+    "biot": 0.82,
+    "fol": 17.4,
+    "folfd": 17.4,
+    "vitc": 31.5
+  },
+  "minerals": {
+    "nacl": 0.9812,
+    "na": 392.5,
+    "k": 187.5,
+    "ca": 55,
+    "mg": 8.9,
+    "p": 25.4,
+    "fe": 0.32,
+    "zn": 0.15,
+    "cu": 22.5,
+    "mn": 105,
+    "cr": 2.4,
+    "mo": 9.4
+  },
+  "carbohydrates": {
+    "cho": 2.37,
+    "mnsac": 1.89,
+    "glus": 1.62,
+    "frus": 0.27,
+    "disac": 0.26,
+    "sucs": 0.26,
+    "sugar": 2.15,
+    "starch": 0.1
+  },
+  "fibers": {
+    "fibt": 3.95,
+    "fibhmw": 3.95,
+    "fibins": 2.49,
+    "fibsol": 1.46
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.123,
+    "mantl": 0.123
+  },
+  "fattyAcids": {
+    "fasat": 0.095,
+    "f16_0": 0.073,
+    "f18_0": 0.022,
+    "fams": 0.16,
+    "f18_1cn9": 0.16,
+    "fapu": 0.085,
+    "fapun3": 0.015,
+    "f18_3cn3": 0.015,
+    "fapun6": 0.07,
+    "f18_2cn6": 0.07
+  },
+  "aminoAcids": {
+    "aae9": 0.167,
+    "ala": 0.069,
+    "arg": 0.03,
+    "asp": 0.043,
+    "cyste": 0.014,
+    "glu": 0.151,
+    "gly": 0.022,
+    "his": 0.01,
+    "ile": 0.028,
+    "leu": 0.032,
+    "lys": 0.026,
+    "phe": 0.022,
+    "pro": 0.032,
+    "ser": 0.031,
+    "thr": 0.022,
+    "tyr": 0.014,
+    "val": 0.027
+  },
+  "otherNutrients": {
+    "nt": 0.18
+  },
+  "extra": {}
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Neuseeländer Spinat gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 23,
+    "water": 90.9,
+    "protein": 2.2,
+    "fat": 0.3,
+    "carbs": 1.39,
+    "fiber": 2.7,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 995,
+    "vitaa": 498,
+    "cartb": 5765,
+    "carotpaxb": 414,
+    "vite": 4.425,
+    "tocpha": 4.425,
+    "tocphb": 0.0093,
+    "tocphg": 0.254,
+    "tocphd": 0.0057,
+    "vitk": 681,
+    "vitk1": 681,
+    "thia": 0.05,
+    "ribf": 0.18,
+    "niaeq": 0.7,
+    "nia": 0.7,
+    "pantac": 0.419,
+    "vitb6": 408,
+    "biot": 0.1,
+    "fol": 16,
+    "folfd": 16,
+    "vitc": 36
+  },
+  "minerals": {
+    "nacl": 0.485,
+    "na": 194,
+    "cld": 81,
+    "k": 194,
+    "ca": 87,
+    "mg": 58,
+    "p": 42,
+    "fe": 1.2,
+    "zn": 0.57,
+    "id": 6,
+    "cu": 139,
+    "mn": 954,
+    "fd": 112
+  },
+  "carbohydrates": {
+    "cho": 1.39,
+    "mnsac": 0.54,
+    "glus": 0.21,
+    "frus": 0.33,
+    "disac": 0.5758,
+    "sucs": 0.5758,
+    "sugar": 1.12,
+    "starch": 0.272
+  },
+  "fibers": {
+    "fibt": 2.7,
+    "fibhmw": 2.7,
+    "fibins": 1.9,
+    "fibsol": 0.7
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.045,
+    "f14_0": 0.006,
+    "f16_0": 0.036,
+    "f18_0": 0.003,
+    "fax": 0.127
+  },
+  "aminoAcids": {
+    "aae9": 0.6,
+    "arg": 0.1,
+    "ile": 0.1,
+    "leu": 0.1,
+    "lys": 0.1,
+    "phe": 0.1,
+    "thr": 0.1,
+    "val": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.3
+  },
+  "extra": {}
+}

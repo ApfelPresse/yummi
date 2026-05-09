@@ -1,0 +1,71 @@
+{
+  "name": "Malzgetränk, alkoholfrei",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 43,
+    "water": 85.1,
+    "protein": 0.38,
+    "fat": null,
+    "carbs": 10.32,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 0.4,
+    "vitaa": 0.4,
+    "vitk": 0.05,
+    "ribf": 0.058,
+    "niaeq": 1.083,
+    "nia": 0.75,
+    "pantac": 0.157,
+    "vitb6": 61,
+    "biot": 1.27,
+    "fol": 7.86,
+    "folfd": 7.86
+  },
+  "minerals": {
+    "nacl": 0.006,
+    "na": 2.4,
+    "cld": 13.4,
+    "k": 32,
+    "ca": 4.3,
+    "mg": 5.5,
+    "p": 14.2,
+    "s": 10,
+    "fe": 0.026,
+    "zn": 0.0049,
+    "id": 0.3,
+    "cu": 4,
+    "mn": 8.4,
+    "cr": 0.4,
+    "mo": 0.8
+  },
+  "carbohydrates": {
+    "cho": 10.32,
+    "mnsac": 4.32,
+    "glus": 2.59,
+    "frus": 1.73,
+    "disac": 4.03,
+    "sucs": 0.71,
+    "mals": 3.32,
+    "sugar": 8.35,
+    "starch": 1.97
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.22,
+    "glu": 0.05,
+    "trp": 0.02
+  },
+  "otherNutrients": {
+    "nt": 0.06
+  },
+  "extra": {}
+}

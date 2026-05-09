@@ -1,0 +1,100 @@
+{
+  "name": "Tomatensuppe aus frischen Tomaten, Gemüsebrühe und Teigwaren eifrei",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 38,
+    "water": 91,
+    "protein": 1.1,
+    "fat": 1.2,
+    "carbs": 5,
+    "fiber": 0.9,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 57,
+    "vitaa": 29,
+    "cartb": 337,
+    "carotpaxb": 13,
+    "vite": 0.7,
+    "tocpha": 0.7,
+    "tocphb": 0.03,
+    "tocphg": 0.51,
+    "tocphd": 0.019,
+    "vitk": 5,
+    "vitk1": 5,
+    "thia": 0.04,
+    "ribf": 0.02,
+    "niaeq": 0.7,
+    "nia": 0.6,
+    "pantac": 0.2,
+    "vitb6": 50,
+    "biot": 1,
+    "fol": 11,
+    "folfd": 11,
+    "vitc": 13
+  },
+  "minerals": {
+    "nacl": 0.34,
+    "na": 136,
+    "cld": 91,
+    "k": 179,
+    "ca": 9,
+    "mg": 10,
+    "p": 26,
+    "fe": 0.2,
+    "zn": 0.18,
+    "id": 1,
+    "mn": 100,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 5,
+    "mnsac": 2.58,
+    "glus": 1.23,
+    "frus": 1.34,
+    "gals": 0.01,
+    "disac": 0.3,
+    "sucs": 0.3,
+    "mals": 0.044,
+    "sugar": 2.9,
+    "starch": 2.07
+  },
+  "fibers": {
+    "fibt": 0.9
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.1,
+    "f10_0": 0.001,
+    "f16_0": 0.1,
+    "f18_0": 0.02,
+    "f20_0": 0.01,
+    "f22_0": 0.01,
+    "fams": 0.58,
+    "f18_1cn9": 0.57,
+    "f20_1cn9": 0.01,
+    "fapu": 0.32,
+    "fapun3": 0.09,
+    "f18_3cn3": 0.09,
+    "fapun6": 0.23,
+    "f18_2cn6": 0.23,
+    "fax": 0.04
+  },
+  "aminoAcids": {
+    "aae9": 0.1,
+    "asp": 0.1,
+    "glu": 0.4,
+    "leu": 0.1,
+    "trp": 0.005
+  },
+  "otherNutrients": {
+    "chorl": 0.02,
+    "nt": 0.2
+  },
+  "extra": {}
+}

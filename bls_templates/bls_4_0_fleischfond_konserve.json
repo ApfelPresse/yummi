@@ -1,0 +1,79 @@
+{
+  "name": "Fleischfond Konserve",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 8,
+    "water": 97.6,
+    "protein": 1.48,
+    "fat": 0.22,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.01,
+    "ribf": 0.037,
+    "niaeq": 1.34,
+    "nia": 1.17,
+    "pantac": 0.08,
+    "vitb6": 60,
+    "fol": 1,
+    "folfd": 1,
+    "vitb12": 0.07,
+    "vitc": 0.25
+  },
+  "minerals": {
+    "nacl": 0.638,
+    "na": 255,
+    "cld": 385,
+    "k": 109,
+    "ca": 4,
+    "mg": 6,
+    "p": 12,
+    "fe": 0.1,
+    "zn": 0.09,
+    "cu": 15,
+    "mn": 10,
+    "fd": 29
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.11,
+    "f14_0": 0.01,
+    "f16_0": 0.06,
+    "f18_0": 0.04,
+    "fax": 0.1
+  },
+  "aminoAcids": {
+    "aae9": 0.35,
+    "ala": 0.07,
+    "arg": 0.05,
+    "asp": 0.08,
+    "cyste": 0.01,
+    "glu": 0.5,
+    "gly": 0.07,
+    "his": 0.03,
+    "ile": 0.04,
+    "leu": 0.07,
+    "lys": 0.06,
+    "met": 0.01,
+    "phe": 0.04,
+    "pro": 0.06,
+    "ser": 0.04,
+    "thr": 0.04,
+    "trp": 0.01,
+    "tyr": 0.03,
+    "val": 0.05
+  },
+  "otherNutrients": {
+    "nt": 0.24
+  },
+  "extra": {}
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Madeirawein",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 153,
+    "water": 71.1,
+    "protein": 0.1,
+    "fat": null,
+    "carbs": 11.9,
+    "fiber": null,
+    "alcohol": 14.75,
+    "sugarAlcohols": 0.028
+  },
+  "vitamins": {
+    "vite": 0.012,
+    "tocpha": 0.012,
+    "tocphb": 0.005,
+    "ribf": 0.01,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "pantac": 0.05,
+    "vitb6": 10,
+    "biot": 0.3,
+    "fol": 1.9,
+    "folfd": 1.9
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 8,
+    "k": 100,
+    "ca": 8.4,
+    "mg": 10,
+    "p": 12,
+    "s": 14,
+    "fe": 0.83,
+    "zn": 0.14,
+    "id": 2,
+    "cu": 134,
+    "mn": 23,
+    "cr": 4,
+    "mo": 0.3
+  },
+  "carbohydrates": {
+    "cho": 11.9,
+    "mnsac": 9.2,
+    "glus": 4.6,
+    "frus": 4.6,
+    "disac": 2.7,
+    "sucs": 2.7,
+    "sugar": 11.9
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.028,
+    "sortl": 0.028
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.02
+  },
+  "extra": {}
+}

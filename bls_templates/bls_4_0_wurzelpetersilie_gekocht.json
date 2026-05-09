@@ -1,0 +1,110 @@
+{
+  "name": "Wurzelpetersilie gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 72,
+    "water": 85.5,
+    "protein": 2.728,
+    "fat": 0.445,
+    "carbs": 13.1,
+    "fiber": 2.085,
+    "alcohol": null,
+    "sugarAlcohols": 0.777
+  },
+  "vitamins": {
+    "vita": 5,
+    "vitaa": 2,
+    "cartb": 29,
+    "vite": 0.926,
+    "tocpha": 0.926,
+    "vitk": 1,
+    "vitk1": 1,
+    "thia": 0.082,
+    "ribf": 0.073,
+    "niaeq": 2.155,
+    "nia": 1.705,
+    "pantac": 0.316,
+    "vitb6": 203,
+    "fol": 37,
+    "folfd": 37,
+    "vitc": 25.463
+  },
+  "minerals": {
+    "nacl": 0.025,
+    "na": 10,
+    "k": 444,
+    "ca": 39,
+    "mg": 23,
+    "p": 53.6,
+    "fe": 0.787,
+    "zn": 0.588,
+    "id": 0.358,
+    "cu": 120,
+    "mn": 291,
+    "fd": 10,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 13.1,
+    "mnsac": 1.156,
+    "glus": 0.531,
+    "frus": 0.625,
+    "disac": 4.576,
+    "sucs": 4.576,
+    "sugar": 5.732,
+    "olsac": 0.294,
+    "starch": 6.3
+  },
+  "fibers": {
+    "fibt": 2.085,
+    "fibins": 1.478,
+    "fibsol": 0.607
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.777,
+    "mantl": 0.777
+  },
+  "fattyAcids": {
+    "fasat": 0.071,
+    "f14_0": 0.0004,
+    "f16_0": 0.068,
+    "f18_0": 0.002,
+    "f20_0": 0.001,
+    "fams": 0.0302,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.027,
+    "f20_1cn9": 0.0022,
+    "fapu": 0.2387,
+    "fapun3": 0.0298,
+    "f18_3cn3": 0.0298,
+    "fapun6": 0.2089,
+    "f18_2cn6": 0.2089
+  },
+  "aminoAcids": {
+    "aae9": 0.627,
+    "ala": 0.093,
+    "arg": 0.099,
+    "asp": 0.285,
+    "cyste": 0.009,
+    "glu": 0.724,
+    "gly": 0.076,
+    "ile": 0.084,
+    "leu": 0.111,
+    "lys": 0.107,
+    "met": 0.027,
+    "phe": 0.064,
+    "pro": 0.273,
+    "thr": 0.076,
+    "trp": 0.027,
+    "tyr": 0.034,
+    "val": 0.131
+  },
+  "otherNutrients": {
+    "nt": 0.437
+  },
+  "extra": {}
+}

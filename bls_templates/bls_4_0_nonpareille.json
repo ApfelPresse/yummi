@@ -1,0 +1,90 @@
+{
+  "name": "Nonpareille",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 388,
+    "water": 8.2,
+    "protein": 0.129,
+    "fat": 0.024,
+    "carbs": 91.4,
+    "fiber": 0.3,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "ribf": 0.002,
+    "niaeq": 0.026,
+    "nia": 0.009,
+    "vitb6": 2,
+    "biot": 2
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 3,
+    "k": 3,
+    "ca": 3,
+    "mg": 1,
+    "p": 9,
+    "fe": 0.215,
+    "zn": 0.02,
+    "id": 0.8,
+    "cu": 20,
+    "mn": 304,
+    "fd": 13
+  },
+  "carbohydrates": {
+    "cho": 91.4,
+    "mnsac": 10.3,
+    "glus": 10.3,
+    "disac": 44.9,
+    "sucs": 38.5,
+    "mals": 6.4,
+    "sugar": 55.2,
+    "olsac": 10.4,
+    "starch": 25.77
+  },
+  "fibers": {
+    "fibt": 0.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.003,
+    "f16_0": 0.002,
+    "f18_0": 0.001,
+    "fams": 0.008,
+    "f18_1cn9": 0.008,
+    "fapu": 0.012,
+    "fapun6": 0.012,
+    "f18_2cn6": 0.012
+  },
+  "aminoAcids": {
+    "aae9": 0.051,
+    "ala": 0.01,
+    "arg": 0.006,
+    "asp": 0.009,
+    "cyste": 0.003,
+    "glu": 0.026,
+    "gly": 0.005,
+    "his": 0.004,
+    "ile": 0.005,
+    "leu": 0.016,
+    "lys": 0.004,
+    "met": 0.003,
+    "phe": 0.006,
+    "pro": 0.014,
+    "ser": 0.008,
+    "thr": 0.005,
+    "trp": 0.001,
+    "tyr": 0.005,
+    "val": 0.007
+  },
+  "otherNutrients": {
+    "nt": 0.021
+  },
+  "extra": {}
+}

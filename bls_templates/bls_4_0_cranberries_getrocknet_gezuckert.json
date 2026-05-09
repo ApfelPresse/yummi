@@ -1,0 +1,82 @@
+{
+  "name": "Cranberries getrocknet, gezuckert",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 287,
+    "water": 18.5,
+    "protein": 0.53,
+    "fat": 0.34,
+    "carbs": 68.61,
+    "fiber": 3.9,
+    "alcohol": null,
+    "sugarAlcohols": 1.15
+  },
+  "vitamins": {
+    "vita": 5,
+    "vitaa": 2,
+    "cartb": 29,
+    "vite": 1.16,
+    "tocpha": 1.16,
+    "niaeq": 0.29,
+    "nia": 0.29,
+    "vitb6": 120
+  },
+  "minerals": {
+    "nacl": 0.0382,
+    "na": 15.3,
+    "k": 264,
+    "ca": 15.3,
+    "mg": 11,
+    "p": 18,
+    "fe": 0.33,
+    "zn": 0.1,
+    "cu": 109,
+    "mn": 188,
+    "fd": 78
+  },
+  "carbohydrates": {
+    "cho": 68.61,
+    "mnsac": 61.7,
+    "glus": 28.7,
+    "frus": 33,
+    "disac": 5.76,
+    "sucs": 5.76,
+    "sugar": 67.46
+  },
+  "fibers": {
+    "fibt": 3.9,
+    "fibhmw": 3.9,
+    "fibins": 3.9
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.15,
+    "sortl": 1.15
+  },
+  "fattyAcids": {
+    "fasat": 0.032,
+    "f16_0": 0.022,
+    "f18_0": 0.006,
+    "f20_0": 0.004,
+    "fams": 0.057,
+    "f18_1cn9": 0.055,
+    "f20_1cn9": 0.002,
+    "fapu": 0.227,
+    "fapun3": 0.104,
+    "f18_3cn3": 0.104,
+    "fapun6": 0.123,
+    "f18_2cn6": 0.123,
+    "fax": 0.002
+  },
+  "aminoAcids": {
+    "asp": 0.13,
+    "glu": 0.07
+  },
+  "otherNutrients": {
+    "nt": 0.085
+  },
+  "extra": {}
+}

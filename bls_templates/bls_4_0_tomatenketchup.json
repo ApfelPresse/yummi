@@ -1,0 +1,95 @@
+{
+  "name": "Tomatenketchup",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 98,
+    "water": 72.7,
+    "protein": 1.4,
+    "fat": 0.1,
+    "carbs": 21.16,
+    "fiber": 1.81,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 73,
+    "vitaa": 36,
+    "cartb": 435,
+    "vite": 1.7,
+    "tocpha": 1.7,
+    "tocphb": 0.036,
+    "tocphg": 0.115,
+    "vitk": 1.765,
+    "vitk1": 1.765,
+    "thia": 0.187,
+    "ribf": 0.092,
+    "niaeq": 1.475,
+    "nia": 1.308,
+    "pantac": 0.203,
+    "vitb6": 329,
+    "biot": 10.85,
+    "fol": 14.6,
+    "folfd": 14.6
+  },
+  "minerals": {
+    "nacl": 1.9,
+    "na": 760,
+    "cld": 1310,
+    "k": 356.5,
+    "ca": 18.6,
+    "mg": 15.8,
+    "p": 25,
+    "fe": 0.454,
+    "zn": 0.13,
+    "cu": 99.8,
+    "mn": 126,
+    "fd": 33,
+    "cr": 8,
+    "mo": 5
+  },
+  "carbohydrates": {
+    "cho": 21.16,
+    "mnsac": 10.1,
+    "glus": 4.51,
+    "frus": 5.59,
+    "disac": 10.72,
+    "sucs": 10.72,
+    "sugar": 20.82,
+    "starch": 0.34
+  },
+  "fibers": {
+    "fibt": 1.81,
+    "fibhmw": 1.81,
+    "fibins": 0.1,
+    "fibsol": 1.71
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.032,
+    "f14_0": 0.0026,
+    "f16_0": 0.02,
+    "f18_0": 0.0073,
+    "f22_0": 0.002,
+    "fams": 0.019,
+    "f18_1cn9": 0.019,
+    "fapu": 0.019,
+    "fapun3": 0.0028,
+    "f18_3cn3": 0.0028,
+    "fapun6": 0.016,
+    "f18_2cn6": 0.016
+  },
+  "aminoAcids": {
+    "aae9": 0.216,
+    "ala": 0.058,
+    "asp": 0.228,
+    "glu": 0.573
+  },
+  "otherNutrients": {
+    "nt": 0.22
+  },
+  "extra": {}
+}

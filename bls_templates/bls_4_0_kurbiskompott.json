@@ -1,0 +1,109 @@
+{
+  "name": "Kürbiskompott",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 82,
+    "water": 76.7,
+    "protein": 0.538,
+    "fat": 0.1,
+    "carbs": 19.395,
+    "fiber": 0.286,
+    "alcohol": null,
+    "sugarAlcohols": 0.003
+  },
+  "vitamins": {
+    "vita": 172,
+    "vitaa": 86,
+    "cartb": 806,
+    "carotpaxb": 452,
+    "vite": 0.397,
+    "tocpha": 0.397,
+    "vitk": 1,
+    "vitk1": 1,
+    "thia": 0.028,
+    "ribf": 0.021,
+    "niaeq": 0.569,
+    "nia": 0.552,
+    "pantac": 0.141,
+    "vitb6": 38,
+    "fol": 14,
+    "folfd": 14,
+    "vitc": 6.433
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 29,
+    "k": 154,
+    "ca": 14.5,
+    "mg": 7,
+    "p": 14,
+    "s": 0.7,
+    "fe": 0.207,
+    "zn": 0.11,
+    "id": 0.8,
+    "cu": 21,
+    "mn": 20,
+    "cr": 1,
+    "mo": 0.02
+  },
+  "carbohydrates": {
+    "cho": 19.395,
+    "mnsac": 1.072,
+    "glus": 0.53,
+    "frus": 0.542,
+    "disac": 18.069,
+    "sucs": 18.069,
+    "sugar": 19.141,
+    "starch": 0.251
+  },
+  "fibers": {
+    "fibt": 0.286
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.003,
+    "xyltl": 0.003
+  },
+  "fattyAcids": {
+    "fasat": 0.022,
+    "f14_0": 0.0002,
+    "f16_0": 0.02,
+    "f18_0": 0.002,
+    "fams": 0.008,
+    "f18_1cn9": 0.008,
+    "fapu": 0.049,
+    "fapun3": 0.026,
+    "f18_3cn3": 0.026,
+    "fapun6": 0.023,
+    "f18_2cn6": 0.023
+  },
+  "aminoAcids": {
+    "aae9": 0.117,
+    "ala": 0.059,
+    "arg": 0.019,
+    "asp": 0.086,
+    "cyste": 0.002,
+    "glu": 0.129,
+    "gly": 0.019,
+    "his": 0.009,
+    "ile": 0.014,
+    "leu": 0.018,
+    "lys": 0.02,
+    "met": 0.008,
+    "phe": 0.015,
+    "pro": 0.013,
+    "ser": 0.026,
+    "thr": 0.011,
+    "trp": 0.001,
+    "tyr": 0.009,
+    "val": 0.021
+  },
+  "otherNutrients": {
+    "nt": 0.086
+  },
+  "extra": {}
+}

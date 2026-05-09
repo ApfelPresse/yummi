@@ -1,0 +1,61 @@
+{
+  "name": "Federweißer (Traubenmost teilweise vergoren)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 73,
+    "water": 88,
+    "protein": 0.15,
+    "fat": null,
+    "carbs": 1.288,
+    "fiber": null,
+    "alcohol": 9.4513,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.005,
+    "tocpha": 0.005,
+    "tocphb": 0.003,
+    "niaeq": 0.05,
+    "nia": 0.05,
+    "pantac": 0.04,
+    "fol": 2.5,
+    "folfd": 2.5,
+    "vitc": 2.8
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 5,
+    "k": 61,
+    "ca": 8,
+    "mg": 7.3,
+    "p": 18,
+    "s": 14,
+    "fe": 0.13,
+    "zn": 0.06,
+    "cu": 12,
+    "mn": 90.5,
+    "fd": 30,
+    "cr": 1.6,
+    "mo": 0.12
+  },
+  "carbohydrates": {
+    "cho": 1.288,
+    "mnsac": 1.288,
+    "glus": 0.574,
+    "frus": 0.714,
+    "sugar": 1.288
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.024
+  },
+  "extra": {}
+}

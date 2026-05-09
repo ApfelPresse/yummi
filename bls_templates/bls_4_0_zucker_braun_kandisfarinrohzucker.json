@@ -1,0 +1,46 @@
+{
+  "name": "Zucker braun (Kandisfarin/Rohzucker)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 387,
+    "water": 0.58,
+    "protein": null,
+    "fat": null,
+    "carbs": 96.7,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.006,
+    "ribf": 0.006,
+    "niaeq": 0.03,
+    "nia": 0.03,
+    "vitc": 0.7
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 90,
+    "ca": 55,
+    "mg": 14,
+    "p": 24,
+    "fe": 1.6
+  },
+  "carbohydrates": {
+    "cho": 96.7,
+    "disac": 96.7,
+    "sucs": 96.7,
+    "sugar": 96.7
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

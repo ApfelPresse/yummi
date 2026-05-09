@@ -1,0 +1,97 @@
+{
+  "name": "Reis parboiled, poliert, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 110,
+    "water": 66.7,
+    "protein": 2.68,
+    "fat": 0.32,
+    "carbs": 23.8,
+    "fiber": 0.5,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.01,
+    "tocpha": 0.01,
+    "tocphb": 0.01,
+    "tocphg": 0.06,
+    "toctra": 0.02,
+    "thia": 0.05,
+    "ribf": 0.01,
+    "niaeq": 0.953,
+    "nia": 0.37,
+    "pantac": 0.2,
+    "vitb6": 110,
+    "biot": 1,
+    "fol": 3,
+    "folfd": 3
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "k": 47,
+    "ca": 2,
+    "mg": 35,
+    "p": 56,
+    "fe": 0.266,
+    "zn": 0.643,
+    "id": 0.2,
+    "cu": 117,
+    "mn": 993,
+    "fd": 17,
+    "cr": 1,
+    "mo": 14
+  },
+  "carbohydrates": {
+    "cho": 23.8,
+    "mnsac": 0.05,
+    "glus": 0.04,
+    "frus": 0.01,
+    "disac": 0.07,
+    "sucs": 0.07,
+    "sugar": 0.12,
+    "starch": 23.7
+  },
+  "fibers": {
+    "fibt": 0.5,
+    "fibins": 0.2,
+    "fibsol": 0.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.092,
+    "f16_0": 0.087,
+    "f18_0": 0.005,
+    "fax": 0.18
+  },
+  "aminoAcids": {
+    "aae9": 0.94,
+    "ala": 0.147,
+    "arg": 0.205,
+    "asp": 0.246,
+    "cyste": 0.04,
+    "glu": 0.4,
+    "gly": 0.117,
+    "his": 0.059,
+    "ile": 0.112,
+    "leu": 0.208,
+    "lys": 0.083,
+    "met": 0.061,
+    "phe": 0.135,
+    "pro": 0.138,
+    "ser": 0.125,
+    "thr": 0.088,
+    "trp": 0.035,
+    "tyr": 0.073,
+    "val": 0.16
+  },
+  "otherNutrients": {
+    "nt": 0.429
+  },
+  "extra": {}
+}

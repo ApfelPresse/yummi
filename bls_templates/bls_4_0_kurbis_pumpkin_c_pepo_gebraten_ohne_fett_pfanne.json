@@ -1,0 +1,101 @@
+{
+  "name": "Kürbis Pumpkin (C. pepo) gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 66,
+    "water": 87.56,
+    "protein": 2.037,
+    "fat": 0.241,
+    "carbs": 10.76,
+    "fiber": 6.352,
+    "alcohol": null,
+    "sugarAlcohols": 0.015
+  },
+  "vitamins": {
+    "vita": 164,
+    "vitaa": 82,
+    "cartb": 971.212,
+    "carotpaxb": 23,
+    "vite": 1.852,
+    "tocpha": 1.852,
+    "vitk": 7,
+    "vitk1": 7,
+    "thia": 0.078,
+    "ribf": 0.114,
+    "niaeq": 1.347,
+    "nia": 0.88,
+    "pantac": 0.667,
+    "vitb6": 183,
+    "biot": 0.3,
+    "fol": 73,
+    "folfd": 73,
+    "vitc": 17.778
+  },
+  "minerals": {
+    "nacl": 0.0041,
+    "na": 1.65,
+    "cld": 33,
+    "k": 244,
+    "ca": 17.824,
+    "mg": 24.4,
+    "p": 81,
+    "fe": 0.224,
+    "zn": 0.274,
+    "id": 2.5,
+    "cu": 148,
+    "mn": 122
+  },
+  "carbohydrates": {
+    "cho": 10.76,
+    "mnsac": 7.48,
+    "glus": 4.57,
+    "frus": 2.91,
+    "disac": 1.972,
+    "sucs": 1.972,
+    "sugar": 9.45,
+    "starch": 1.296
+  },
+  "fibers": {
+    "fibt": 6.352,
+    "fibhmw": 6.352,
+    "fibins": 4.444,
+    "fibsol": 1.907
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.015,
+    "xyltl": 0.015
+  },
+  "fattyAcids": {
+    "fasat": 0.063,
+    "f16_0": 0.063,
+    "fams": 0.004,
+    "f18_1cn9": 0.004,
+    "fapu": 0.119,
+    "fapun3": 0.076,
+    "f18_3cn3": 0.076,
+    "fapun6": 0.043,
+    "f18_2cn6": 0.043
+  },
+  "aminoAcids": {
+    "aae9": 0.535,
+    "arg": 0.072,
+    "his": 0.031,
+    "ile": 0.074,
+    "leu": 0.107,
+    "lys": 0.098,
+    "met": 0.019,
+    "phe": 0.054,
+    "thr": 0.048,
+    "trp": 0.028,
+    "tyr": 0.028,
+    "val": 0.076
+  },
+  "otherNutrients": {
+    "nt": 0.326
+  },
+  "extra": {}
+}

@@ -1,0 +1,100 @@
+{
+  "name": "Weizen Grütze, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 98,
+    "water": 77.88,
+    "protein": 3.71,
+    "fat": 0.41,
+    "carbs": 19.15,
+    "fiber": 1.34,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.066,
+    "tocpha": 0.066,
+    "tocphb": 0.03,
+    "tocphg": 0.03,
+    "thia": 0.047,
+    "ribf": 0.015,
+    "niaeq": 1.39,
+    "nia": 0.72,
+    "pantac": 0.1,
+    "vitb6": 65,
+    "biot": 0.51,
+    "fol": 6.7,
+    "folfd": 6.7
+  },
+  "minerals": {
+    "nacl": 0.0005,
+    "na": 0.2,
+    "cld": 15,
+    "k": 52.2,
+    "ca": 6.6,
+    "mg": 10.1,
+    "p": 39.8,
+    "s": 38,
+    "fe": 0.2917,
+    "zn": 0.3406,
+    "cu": 71.1,
+    "mn": 184.6
+  },
+  "carbohydrates": {
+    "cho": 19.15,
+    "mnsac": 0.011,
+    "glus": 0.0072,
+    "frus": 0.0038,
+    "disac": 0.2841,
+    "sucs": 0.0461,
+    "mals": 0.238,
+    "sugar": 0.2951,
+    "starch": 18.85
+  },
+  "fibers": {
+    "fibt": 1.34,
+    "fiblmw": 0.29,
+    "fibhmws": 0.5,
+    "fibhmwi": 0.55
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.05,
+    "f16_0": 0.05,
+    "fapu": 0.18,
+    "fapun3": 0.01,
+    "f18_3cn3": 0.01,
+    "fapun6": 0.17,
+    "f18_2cn6": 0.17,
+    "fax": 0.06
+  },
+  "aminoAcids": {
+    "aae9": 1.08,
+    "ala": 0.11,
+    "arg": 0.14,
+    "asp": 0.15,
+    "cyste": 0.08,
+    "glu": 1.2,
+    "gly": 0.11,
+    "his": 0.09,
+    "ile": 0.13,
+    "leu": 0.26,
+    "lys": 0.08,
+    "met": 0.06,
+    "phe": 0.18,
+    "pro": 0.41,
+    "ser": 0.17,
+    "thr": 0.09,
+    "trp": 0.04,
+    "tyr": 0.1,
+    "val": 0.15
+  },
+  "otherNutrients": {
+    "nt": 0.59
+  },
+  "extra": {}
+}

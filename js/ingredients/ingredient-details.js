@@ -721,6 +721,10 @@ function _renderPopup(overlay, label, key, data, creds) {
 							class="flex-1 rounded-xl border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50">
 							JSON importieren
 						</button>
+						<button id="det-import-bls" type="button"
+							class="flex-1 rounded-xl border border-green-300 bg-green-50 px-3 py-2 text-sm font-medium text-green-700 hover:bg-green-100">
+							📊 Von BLS
+						</button>
 					</div>
 					<div id="det-import-panel" class="hidden rounded-xl border border-gray-200 bg-gray-50 p-3 space-y-2">
 						<label for="det-import-text" class="text-xs text-gray-600">JSON hier einfügen</label>
@@ -1035,6 +1039,37 @@ function _bindPopupEvents(overlay, label, key, data, creds) {
 			alert("JSON-Import fehlgeschlagen. Bitte gültigen JSON-Text prüfen.");
 		}
 	});
+
+	// ── BLS Template Import ──
+	const blsBtn = overlay.querySelector("#det-import-bls");
+	blsBtn?.addEventListener("click", () => {
+		// Trigger BLS Modal mit aktueller Zutat
+		if (typeof blsImporter !== 'undefined') {
+			blsImporter.openImportModal(label, blsBtn);
+		} else {
+			alert("BLS-Templates nicht geladen. Bitte Seite neu laden.");
+		}
+	});
+
+	// Listen für BLS Import Events
+	const handleBLSImport = (e) => {
+		const { template, importNote } = e.detail;
+		
+		// Normalisiere das BLS Template
+		const normalized = _normalizeImportedData(template, label);
+		
+		// Füge die Import-Note hinzu
+		if (normalized.notes) {
+			normalized.notes += "\n" + importNote;
+		} else {
+			normalized.notes = importNote;
+		}
+		
+		// Rendern Sie das Popup mit den importierten Daten neu
+		_renderPopup(overlay, normalized.name || label, key, normalized, creds);
+	};
+	
+	document.addEventListener('blsTemplateImported', handleBLSImport, { once: true });
 
 	// ── Save ──
 	overlay.querySelector("#det-save")?.addEventListener("click", async () => {

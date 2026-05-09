@@ -1,0 +1,46 @@
+{
+  "name": "Fischkraftbrühe",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 8,
+    "water": 97,
+    "protein": 1,
+    "fat": 0.4,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 1,
+    "vitaa": 1,
+    "retol": 1,
+    "ribf": 0.02,
+    "niaeq": 0.8,
+    "nia": 0.8,
+    "vitb6": 10,
+    "vitb12": 0.1
+  },
+  "minerals": {
+    "nacl": 0.738,
+    "na": 295,
+    "k": 46,
+    "ca": 17,
+    "mg": 2,
+    "p": 17,
+    "fe": 0.2,
+    "id": 0.3,
+    "cu": 51
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

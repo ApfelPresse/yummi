@@ -1,0 +1,95 @@
+{
+  "name": "Gartenbohne reif, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 130,
+    "water": 67.6,
+    "protein": 9.0383,
+    "fat": 0.597,
+    "carbs": 17.72,
+    "fiber": 7.136,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 21,
+    "vitaa": 11,
+    "cartb": 127,
+    "thia": 0.032,
+    "ribf": 0.033,
+    "niaeq": 1.864,
+    "nia": 0.331,
+    "pantac": 0.068,
+    "vitb6": 45,
+    "fol": 26,
+    "folfd": 26,
+    "vitc": 0.143
+  },
+  "minerals": {
+    "nacl": 0.622,
+    "na": 249,
+    "cld": 414,
+    "k": 378,
+    "ca": 39,
+    "mg": 43,
+    "p": 149,
+    "s": 2,
+    "fe": 1.974,
+    "zn": 0.9,
+    "cu": 150,
+    "mn": 620,
+    "cr": 2
+  },
+  "carbohydrates": {
+    "cho": 17.72,
+    "disac": 0.785,
+    "sucs": 0.785,
+    "sugar": 0.785,
+    "olsac": 1.834,
+    "starch": 15.1008
+  },
+  "fibers": {
+    "fibt": 7.136,
+    "fibhmw": 9.792,
+    "fibins": 7.584,
+    "fibsol": 2.208
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.104,
+    "f12_0": 0.002,
+    "f14_0": 0.002,
+    "f16_0": 0.087,
+    "f18_0": 0.013,
+    "fax": 0.394
+  },
+  "aminoAcids": {
+    "aae9": 4.393,
+    "ala": 0.296,
+    "arg": 0.596,
+    "asp": 0.979,
+    "cyste": 0.092,
+    "glu": 1.73,
+    "gly": 0.38,
+    "his": 0.28,
+    "ile": 0.596,
+    "leu": 0.903,
+    "lys": 0.748,
+    "met": 0.103,
+    "phe": 0.56,
+    "pro": 0.393,
+    "ser": 0.551,
+    "thr": 0.46,
+    "trp": 0.092,
+    "tyr": 0.388,
+    "val": 0.651
+  },
+  "otherNutrients": {
+    "nt": 1.165
+  },
+  "extra": {}
+}

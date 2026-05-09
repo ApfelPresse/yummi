@@ -1,0 +1,43 @@
+{
+  "name": "Natürliches Mineralwasser mit geringem Mineraliengehalt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": null,
+    "water": 100,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.0035,
+    "na": 1.4,
+    "cld": 1.2,
+    "k": 0.4,
+    "ca": 3.7,
+    "mg": 0.6,
+    "p": 0.011,
+    "s": 1.8,
+    "fe": 0.0001,
+    "zn": 0.0012,
+    "id": 0.45,
+    "cu": 1.8,
+    "mn": 0.1,
+    "fd": 17,
+    "mo": 0.04
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

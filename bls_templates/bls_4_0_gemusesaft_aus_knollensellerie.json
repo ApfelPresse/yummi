@@ -1,0 +1,107 @@
+{
+  "name": "Gemüsesaft aus Knollensellerie",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 18,
+    "water": 95.1,
+    "protein": 1.318,
+    "fat": 0.264,
+    "carbs": 2.22,
+    "fiber": 0.4,
+    "alcohol": null,
+    "sugarAlcohols": 0.18
+  },
+  "vitamins": {
+    "vite": 0.5,
+    "tocpha": 0.5,
+    "vitk": 41,
+    "vitk1": 41,
+    "thia": 0.018,
+    "ribf": 0.049,
+    "niaeq": 0.842,
+    "nia": 0.675,
+    "pantac": 0.357,
+    "vitb6": 100,
+    "biot": 0.1,
+    "fol": 30,
+    "folfd": 30,
+    "vitc": 3.3
+  },
+  "minerals": {
+    "nacl": 0.172,
+    "na": 69,
+    "cld": 142,
+    "k": 457,
+    "ca": 39,
+    "mg": 14,
+    "p": 66,
+    "fe": 0.477,
+    "zn": 0.38,
+    "id": 2.3,
+    "cu": 113,
+    "mn": 190,
+    "fd": 10,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 2.22,
+    "mnsac": 0.32,
+    "glus": 0.24,
+    "frus": 0.08,
+    "disac": 1.368,
+    "sucs": 1.368,
+    "sugar": 1.688,
+    "starch": 0.352
+  },
+  "fibers": {
+    "fibt": 0.4,
+    "fibhmw": 0.4,
+    "fibins": 0.4,
+    "fibsol": 0.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.18,
+    "sortl": 0.18
+  },
+  "fattyAcids": {
+    "fasat": 0.053,
+    "f16_0": 0.05,
+    "f18_0": 0.0028,
+    "fams": 0.01,
+    "f18_1cn9": 0.01,
+    "fapu": 0.139,
+    "fapun3": 0.014,
+    "f18_3cn3": 0.014,
+    "fapun6": 0.125,
+    "f18_2cn6": 0.125
+  },
+  "aminoAcids": {
+    "aae9": 0.352,
+    "ala": 0.073,
+    "arg": 0.037,
+    "asp": 0.139,
+    "cyste": 0.003,
+    "glu": 0.241,
+    "gly": 0.04,
+    "his": 0.02,
+    "ile": 0.041,
+    "leu": 0.064,
+    "lys": 0.063,
+    "met": 0.015,
+    "phe": 0.04,
+    "pro": 0.034,
+    "ser": 0.042,
+    "thr": 0.037,
+    "trp": 0.01,
+    "tyr": 0.021,
+    "val": 0.062
+  },
+  "otherNutrients": {
+    "nt": 0.17
+  },
+  "extra": {}
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Ahornsirup",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 240,
+    "water": 32.2,
+    "protein": 0.04,
+    "fat": 0.06,
+    "carbs": 59.9,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.066,
+    "ribf": 1.27,
+    "niaeq": 0.081,
+    "nia": 0.081,
+    "pantac": 0.036,
+    "vitb6": 2
+  },
+  "minerals": {
+    "nacl": 0.03,
+    "na": 12,
+    "cld": 55,
+    "k": 212,
+    "ca": 102,
+    "mg": 21,
+    "p": 2,
+    "fe": 0.11,
+    "zn": 1.47,
+    "cu": 18,
+    "mn": 2600
+  },
+  "carbohydrates": {
+    "cho": 59.9,
+    "mnsac": 0.99,
+    "glus": 0.65,
+    "frus": 0.34,
+    "disac": 58.9,
+    "sucs": 58.9,
+    "sugar": 59.9
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.007,
+    "f16_0": 0.006,
+    "f18_0": 0.001,
+    "fax": 0.028
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.01
+  },
+  "extra": {}
+}

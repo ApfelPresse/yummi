@@ -1,0 +1,111 @@
+{
+  "name": "Hagebuttensauce aus Konfitüre",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 183,
+    "water": 53.7,
+    "protein": 0.3,
+    "fat": 0.1,
+    "carbs": 44.5,
+    "fiber": 0.7,
+    "alcohol": null,
+    "sugarAlcohols": 0.019
+  },
+  "vitamins": {
+    "cartb": 1,
+    "vite": 0.088,
+    "tocpha": 0.088,
+    "tocphb": 0.04,
+    "tocphg": 0.026,
+    "tocphd": 0.013,
+    "toctra": 0.003,
+    "vitk": 1.3,
+    "vitk1": 1.3,
+    "thia": 0.004,
+    "ribf": 0.006,
+    "niaeq": 0.239,
+    "nia": 0.156,
+    "pantac": 0.1,
+    "vitb6": 6,
+    "fol": 8,
+    "folfd": 8,
+    "vitc": 8.896
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 5,
+    "k": 54,
+    "ca": 7,
+    "mg": 4,
+    "p": 9,
+    "s": 0.6,
+    "fe": 0.211,
+    "zn": 0.04,
+    "id": 0.2,
+    "cu": 10,
+    "mn": 130,
+    "fd": 6,
+    "mo": 2.2
+  },
+  "carbohydrates": {
+    "cho": 44.5,
+    "mnsac": 1.8,
+    "glus": 0.8,
+    "frus": 1,
+    "gals": 0.0034,
+    "disac": 41.644,
+    "sucs": 41.644,
+    "sugar": 43.4,
+    "starch": 1.075
+  },
+  "fibers": {
+    "fibt": 0.7
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.019,
+    "sortl": 0.01,
+    "xyltl": 0.009
+  },
+  "fattyAcids": {
+    "fasat": 0.011,
+    "f16_0": 0.009,
+    "f18_0": 0.002,
+    "fams": 0.02,
+    "f16_1cn7": 0.0004,
+    "f18_1cn9": 0.02,
+    "fapu": 0.076,
+    "fapun3": 0.033,
+    "f18_3cn3": 0.033,
+    "fapun6": 0.043,
+    "f18_2cn6": 0.043
+  },
+  "aminoAcids": {
+    "aae9": 0.067,
+    "ala": 0.014,
+    "arg": 0.012,
+    "asp": 0.062,
+    "cyste": 0.003,
+    "glu": 0.041,
+    "gly": 0.011,
+    "his": 0.005,
+    "ile": 0.007,
+    "leu": 0.015,
+    "lys": 0.011,
+    "phe": 0.008,
+    "pro": 0.009,
+    "ser": 0.011,
+    "thr": 0.008,
+    "trp": 0.005,
+    "tyr": 0.009,
+    "val": 0.008
+  },
+  "otherNutrients": {
+    "nt": 0.001
+  },
+  "extra": {}
+}

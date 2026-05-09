@@ -1,0 +1,98 @@
+{
+  "name": "Reineclaude roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 61,
+    "water": 80.9,
+    "protein": 0.84,
+    "fat": null,
+    "carbs": 13.4,
+    "fiber": 2.25,
+    "alcohol": null,
+    "sugarAlcohols": 2.61
+  },
+  "vitamins": {
+    "vita": 39,
+    "vitaa": 20,
+    "cartb": 235,
+    "vite": 0.283,
+    "tocpha": 0.283,
+    "tocphg": 0.02,
+    "toctra": 0.02,
+    "vitk": 7,
+    "vitk1": 7,
+    "thia": 0.02,
+    "ribf": 0.02,
+    "niaeq": 0.5,
+    "nia": 0.4,
+    "pantac": 0.22,
+    "vitb6": 50,
+    "fol": 11,
+    "folfd": 11,
+    "vitc": 5
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 1,
+    "k": 268,
+    "ca": 14,
+    "mg": 9,
+    "p": 23,
+    "fe": 0.57,
+    "zn": 0.1,
+    "cu": 80,
+    "mn": 80,
+    "fd": 2,
+    "cr": 2,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 13.4,
+    "mnsac": 7.2,
+    "glus": 4.6,
+    "frus": 2.6,
+    "disac": 3.6,
+    "sucs": 3.6,
+    "sugar": 10.8
+  },
+  "fibers": {
+    "fibt": 2.25,
+    "fibhmw": 2.25,
+    "fibins": 0.87,
+    "fibsol": 1.38
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 2.61,
+    "sortl": 2.61
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.14,
+    "ala": 0.03,
+    "arg": 0.02,
+    "asp": 0.26,
+    "cyste": 0.01,
+    "glu": 0.04,
+    "gly": 0.02,
+    "his": 0.01,
+    "ile": 0.01,
+    "leu": 0.03,
+    "lys": 0.02,
+    "phe": 0.02,
+    "pro": 0.04,
+    "ser": 0.02,
+    "thr": 0.02,
+    "trp": 0.006,
+    "tyr": 0.01,
+    "val": 0.02
+  },
+  "otherNutrients": {
+    "nt": 0.13
+  },
+  "extra": {}
+}

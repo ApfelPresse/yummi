@@ -1,0 +1,61 @@
+{
+  "name": "Aperitif alkoholfrei",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 64,
+    "water": 75.9,
+    "protein": 0.129,
+    "fat": null,
+    "carbs": 15,
+    "fiber": null,
+    "alcohol": 0.4,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.004,
+    "tocpha": 0.004,
+    "tocphb": 0.003,
+    "niaeq": 0.04,
+    "nia": 0.04,
+    "pantac": 0.03,
+    "fol": 2.2,
+    "folfd": 2.2,
+    "vitc": 2.4
+  },
+  "minerals": {
+    "nacl": 0.0042,
+    "na": 1.7,
+    "cld": 4,
+    "k": 52.6,
+    "ca": 6.9,
+    "mg": 6.3,
+    "p": 15.5,
+    "s": 12,
+    "fe": 0.112,
+    "zn": 0.05,
+    "cu": 10.3,
+    "mn": 78,
+    "fd": 26,
+    "cr": 1.4,
+    "mo": 0.1
+  },
+  "carbohydrates": {
+    "cho": 15,
+    "mnsac": 15,
+    "glus": 6.685,
+    "frus": 8.315,
+    "sugar": 15
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.021
+  },
+  "extra": {}
+}

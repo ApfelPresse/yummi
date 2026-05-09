@@ -1,0 +1,98 @@
+{
+  "name": "Austernpilz gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 45,
+    "water": 84.96,
+    "protein": 4.66,
+    "fat": 0.31,
+    "carbs": 1.78,
+    "fiber": 8.239,
+    "alcohol": null,
+    "sugarAlcohols": 0.225
+  },
+  "vitamins": {
+    "vitd": 1,
+    "ergcal": 1,
+    "thia": 0.242,
+    "ribf": 0.381,
+    "niaeq": 14.363,
+    "nia": 13.38,
+    "pantac": 1.64,
+    "vitb6": 130,
+    "biot": 8.92,
+    "fol": 61,
+    "folfd": 61,
+    "vitc": 0.676
+  },
+  "minerals": {
+    "nacl": 0.02,
+    "na": 8,
+    "k": 357,
+    "ca": 17,
+    "mg": 18,
+    "p": 94,
+    "fe": 0.8,
+    "zn": 0.77,
+    "cu": 115,
+    "mn": 3790,
+    "cr": 0.4
+  },
+  "carbohydrates": {
+    "cho": 1.78,
+    "mnsac": 1.56,
+    "glus": 1.56,
+    "sugar": 1.56
+  },
+  "fibers": {
+    "fibt": 8.239,
+    "fibhmw": 8.239,
+    "fibins": 6.506,
+    "fibsol": 1.734
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.225,
+    "mantl": 0.225
+  },
+  "fattyAcids": {
+    "fasat": 0.0431,
+    "f14_0": 0.0013,
+    "f16_0": 0.0354,
+    "f18_0": 0.0064,
+    "fams": 0.0297,
+    "f16_1cn7": 0.0031,
+    "f18_1cn9": 0.0266,
+    "fapu": 0.1372,
+    "fapun6": 0.1372,
+    "f18_2cn6": 0.1372
+  },
+  "aminoAcids": {
+    "aae9": 1.42,
+    "ala": 0.337,
+    "arg": 0.256,
+    "asp": 0.415,
+    "cyste": 0.039,
+    "glu": 0.89,
+    "gly": 0.177,
+    "his": 0.1,
+    "ile": 0.158,
+    "leu": 0.237,
+    "lys": 0.177,
+    "met": 0.059,
+    "phe": 0.158,
+    "pro": 0.059,
+    "ser": 0.177,
+    "thr": 0.2,
+    "trp": 0.059,
+    "tyr": 0.118,
+    "val": 0.277
+  },
+  "otherNutrients": {
+    "nt": 0.76
+  },
+  "extra": {}
+}

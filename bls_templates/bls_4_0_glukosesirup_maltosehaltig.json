@@ -1,0 +1,35 @@
+{
+  "name": "Glukosesirup maltosehaltig",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 413,
+    "water": 20.5,
+    "protein": null,
+    "fat": null,
+    "carbs": 79.5,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {},
+  "carbohydrates": {
+    "cho": 79.5,
+    "mnsac": 2.39,
+    "glus": 2.39,
+    "disac": 29.4,
+    "mals": 29.4,
+    "sugar": 31.8,
+    "olsac": 47.7
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

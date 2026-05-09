@@ -1,0 +1,111 @@
+{
+  "name": "Kürbis gebacken, in Tomatensauce (aus Tomatenmark)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 80,
+    "water": 90,
+    "protein": 1,
+    "fat": 5.4,
+    "carbs": 5.3,
+    "fiber": 3,
+    "alcohol": null,
+    "sugarAlcohols": 0.006
+  },
+  "vitamins": {
+    "vita": 76,
+    "vitaa": 38,
+    "cartb": 449,
+    "carotpaxb": 10,
+    "vite": 1.984,
+    "tocpha": 1.984,
+    "tocphb": 0.029,
+    "tocphg": 1.45,
+    "tocphd": 0.05,
+    "toctra": 0.001,
+    "vitk": 9,
+    "vitk1": 9,
+    "thia": 0.05,
+    "ribf": 0.05,
+    "niaeq": 0.7,
+    "nia": 0.5,
+    "pantac": 0.29,
+    "vitb6": 90,
+    "fol": 32,
+    "folfd": 32,
+    "vitc": 9.68
+  },
+  "minerals": {
+    "nacl": 0.415,
+    "na": 166,
+    "cld": 243,
+    "k": 157,
+    "ca": 12,
+    "mg": 13,
+    "p": 38,
+    "s": 1,
+    "fe": 0.236,
+    "zn": 0.14,
+    "id": 2,
+    "cu": 70,
+    "mn": 100
+  },
+  "carbohydrates": {
+    "cho": 5.3,
+    "mnsac": 3.8,
+    "glus": 2.2,
+    "frus": 1.6,
+    "disac": 0.9,
+    "sucs": 0.9,
+    "sugar": 4.7,
+    "starch": 0.57
+  },
+  "fibers": {
+    "fibt": 3
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.006,
+    "xyltl": 0.006
+  },
+  "fattyAcids": {
+    "fasat": 0.4,
+    "f16_0": 0.26,
+    "f18_0": 0.09,
+    "f20_0": 0.03,
+    "f22_0": 0.02,
+    "fams": 3.07,
+    "f16_1cn7": 0.01,
+    "f18_1cn9": 2.97,
+    "f20_1cn9": 0.07,
+    "f22_1cn9": 0.02,
+    "fapu": 1.52,
+    "fapun3": 0.49,
+    "f18_3cn3": 0.49,
+    "fapun6": 1.03,
+    "f18_2cn6": 1.03,
+    "fax": 0.16
+  },
+  "aminoAcids": {
+    "aae9": 0.23,
+    "arg": 0.031,
+    "glu": 0.1,
+    "his": 0.013,
+    "ile": 0.032,
+    "leu": 0.046,
+    "lys": 0.042,
+    "met": 0.008,
+    "phe": 0.023,
+    "thr": 0.021,
+    "trp": 0.012,
+    "tyr": 0.012,
+    "val": 0.033
+  },
+  "otherNutrients": {
+    "chorl": 0.105,
+    "nt": 0.2
+  },
+  "extra": {}
+}

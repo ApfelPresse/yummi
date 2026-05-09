@@ -1,0 +1,109 @@
+{
+  "name": "Schwarzwurzel geschmort ohne Fett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 73,
+    "water": 73,
+    "protein": 1.658,
+    "fat": 0.513,
+    "carbs": 10.5,
+    "fiber": 6,
+    "alcohol": null,
+    "sugarAlcohols": 0.084
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "cartb": 21,
+    "vite": 1.06,
+    "tocpha": 1.06,
+    "vitk": 1,
+    "vitk1": 1,
+    "thia": 0.102,
+    "ribf": 0.042,
+    "niaeq": 0.867,
+    "nia": 0.367,
+    "pantac": 0.5,
+    "vitb6": 103,
+    "fol": 53,
+    "folfd": 53,
+    "vitc": 3.855
+  },
+  "minerals": {
+    "nacl": 0.015,
+    "na": 6,
+    "cld": 37,
+    "k": 382,
+    "ca": 63,
+    "mg": 28,
+    "p": 91.2,
+    "fe": 3.976,
+    "zn": 0.262,
+    "id": 2.2,
+    "cu": 361,
+    "mn": 494,
+    "fd": 12,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 10.5,
+    "mnsac": 0.117,
+    "glus": 0.023,
+    "frus": 0.094,
+    "disac": 4.7,
+    "sucs": 4.7,
+    "sugar": 4.8,
+    "olsac": 3.229,
+    "starch": 2.4
+  },
+  "fibers": {
+    "fibt": 6,
+    "fibins": 7.6,
+    "fibsol": 2
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.084,
+    "mantl": 0.084
+  },
+  "fattyAcids": {
+    "fasat": 0.056,
+    "f14_0": 0.001,
+    "f15_0": 0.001,
+    "f16_0": 0.038,
+    "f17_0": 0.001,
+    "f18_0": 0.005,
+    "f20_0": 0.002,
+    "f22_0": 0.004,
+    "f24_0": 0.004,
+    "fams": 0.006,
+    "f18_1cn9": 0.006,
+    "fapu": 0.294,
+    "fapun3": 0.217,
+    "f18_3cn3": 0.217,
+    "fapun6": 0.077,
+    "f18_2cn6": 0.076,
+    "f18_3cn6": 0.001,
+    "fax": 0.001
+  },
+  "aminoAcids": {
+    "aae9": 0.463,
+    "arg": 0.122,
+    "his": 0.027,
+    "ile": 0.099,
+    "leu": 0.072,
+    "lys": 0.064,
+    "met": 0.01,
+    "phe": 0.039,
+    "thr": 0.047,
+    "trp": 0.03,
+    "val": 0.075
+  },
+  "otherNutrients": {
+    "nt": 0.265
+  },
+  "extra": {}
+}

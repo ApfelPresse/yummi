@@ -1,0 +1,102 @@
+{
+  "name": "Haferschleim",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 20,
+    "water": 94.8,
+    "protein": 0.768,
+    "fat": 0.386,
+    "carbs": 3.1,
+    "fiber": 0.638,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.046,
+    "tocpha": 0.046,
+    "tocphb": 0.002,
+    "tocphd": 0.001,
+    "toctra": 0.17,
+    "vitk": 0.1,
+    "vitk1": 0.1,
+    "thia": 0.026,
+    "ribf": 0.001,
+    "niaeq": 0.235,
+    "nia": 0.052,
+    "pantac": 0.056,
+    "vitb6": 5,
+    "biot": 1,
+    "fol": 3.8,
+    "folfd": 3.8
+  },
+  "minerals": {
+    "nacl": 0.034,
+    "na": 13.6,
+    "cld": 20,
+    "k": 21.3,
+    "ca": 8,
+    "mg": 8,
+    "p": 17.94,
+    "s": 2,
+    "fe": 0.2448,
+    "zn": 0.213,
+    "cu": 20,
+    "mn": 287,
+    "mo": 4
+  },
+  "carbohydrates": {
+    "cho": 3.1,
+    "disac": 0.043,
+    "sucs": 0.041,
+    "mals": 0.002,
+    "sugar": 0.043,
+    "starch": 3.1
+  },
+  "fibers": {
+    "fibt": 0.638
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.078,
+    "f14_0": 0.002,
+    "f16_0": 0.07,
+    "f18_0": 0.006,
+    "fams": 0.137,
+    "f16_1cn7": 0.003,
+    "f18_1cn9": 0.134,
+    "fapu": 0.156,
+    "fapun3": 0.007,
+    "f18_3cn3": 0.007,
+    "fapun6": 0.149,
+    "f18_2cn6": 0.149
+  },
+  "aminoAcids": {
+    "aae9": 0.295,
+    "ala": 0.046,
+    "arg": 0.051,
+    "asp": 0.075,
+    "cyste": 0.023,
+    "glu": 0.179,
+    "gly": 0.049,
+    "his": 0.017,
+    "ile": 0.035,
+    "leu": 0.066,
+    "lys": 0.029,
+    "met": 0.014,
+    "phe": 0.045,
+    "pro": 0.049,
+    "ser": 0.041,
+    "thr": 0.031,
+    "trp": 0.011,
+    "tyr": 0.033,
+    "val": 0.047
+  },
+  "otherNutrients": {
+    "nt": 0.123
+  },
+  "extra": {}
+}

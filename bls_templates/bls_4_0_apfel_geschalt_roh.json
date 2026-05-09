@@ -1,0 +1,106 @@
+{
+  "name": "Apfel geschält, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 43,
+    "water": 82.47,
+    "protein": 0.3,
+    "fat": 0.13,
+    "carbs": 8.9,
+    "fiber": 2.19,
+    "alcohol": 0.019,
+    "sugarAlcohols": 0.76
+  },
+  "vitamins": {
+    "vita": 5,
+    "vitaa": 2,
+    "cartb": 23.1,
+    "carotpaxb": 13,
+    "vite": 0.115,
+    "tocpha": 0.115,
+    "tocphb": 0.01,
+    "vitk": 0.6,
+    "vitk1": 0.6,
+    "thia": 0.011,
+    "ribf": 0.009,
+    "niaeq": 0.2,
+    "nia": 0.1,
+    "pantac": 0.071,
+    "vitb6": 43,
+    "biot": 1.2,
+    "fol": 2,
+    "folfd": 2,
+    "vitc": 9
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 2.2,
+    "k": 110,
+    "ca": 5,
+    "mg": 6,
+    "p": 9,
+    "fe": 0.12,
+    "zn": 0.01,
+    "id": 4,
+    "cu": 30,
+    "mn": 20,
+    "fd": 9,
+    "cr": 1,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 8.9,
+    "mnsac": 4.7,
+    "glus": 1.4,
+    "frus": 3.3,
+    "disac": 2.78,
+    "sucs": 2.78,
+    "sugar": 7.5,
+    "starch": 0.6
+  },
+  "fibers": {
+    "fibt": 2.19,
+    "fibhmw": 2.19,
+    "fibins": 1.3,
+    "fibsol": 0.89
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.76,
+    "sortl": 0.76
+  },
+  "fattyAcids": {
+    "fasat": 0.019,
+    "f16_0": 0.017,
+    "f18_0": 0.002,
+    "fax": 0.043
+  },
+  "aminoAcids": {
+    "aae9": 0.068,
+    "ala": 0.012,
+    "arg": 0.006,
+    "asp": 0.074,
+    "cyste": 0.001,
+    "glu": 0.026,
+    "his": 0.005,
+    "ile": 0.006,
+    "leu": 0.014,
+    "lys": 0.013,
+    "met": 0.001,
+    "phe": 0.007,
+    "pro": 0.006,
+    "ser": 0.011,
+    "thr": 0.006,
+    "trp": 0.004,
+    "tyr": 0.001,
+    "val": 0.012
+  },
+  "otherNutrients": {
+    "nt": 0.04
+  },
+  "extra": {}
+}

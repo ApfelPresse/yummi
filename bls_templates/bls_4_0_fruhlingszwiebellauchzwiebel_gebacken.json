@@ -1,0 +1,102 @@
+{
+  "name": "Frühlingszwiebel/Lauchzwiebel, gebacken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 31,
+    "water": 87,
+    "protein": 2.2,
+    "fat": 0.22,
+    "carbs": 3.4,
+    "fiber": 3.1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 109,
+    "vitaa": 55,
+    "cartb": 656,
+    "vite": 0.41,
+    "tocpha": 0.41,
+    "vitk": 64,
+    "vitk1": 64,
+    "thia": 0.05,
+    "ribf": 0.07,
+    "niaeq": 0.9,
+    "nia": 0.6,
+    "pantac": 0.07,
+    "vitb6": 110,
+    "biot": 3,
+    "fol": 73,
+    "folfd": 73,
+    "vitc": 22
+  },
+  "minerals": {
+    "nacl": 0.035,
+    "na": 14,
+    "cld": 36,
+    "k": 315,
+    "ca": 66,
+    "mg": 19,
+    "p": 39,
+    "fe": 1.99,
+    "zn": 0.21,
+    "id": 1,
+    "cu": 52,
+    "mn": 310,
+    "fd": 12,
+    "cr": 1,
+    "mo": 6
+  },
+  "carbohydrates": {
+    "cho": 3.4,
+    "mnsac": 3,
+    "glus": 1.4,
+    "frus": 1.6,
+    "disac": 0.2,
+    "sucs": 0.2,
+    "sugar": 3.2,
+    "starch": 0.2
+  },
+  "fibers": {
+    "fibt": 3.1,
+    "fibhmw": 3.1,
+    "fibins": 1.5,
+    "fibsol": 1.5
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.038,
+    "f14_0": 0.001,
+    "f16_0": 0.033,
+    "f18_0": 0.004,
+    "fax": 0.119
+  },
+  "aminoAcids": {
+    "aae9": 0.65,
+    "ala": 0.096,
+    "arg": 0.155,
+    "asp": 0.199,
+    "glu": 0.445,
+    "gly": 0.107,
+    "his": 0.038,
+    "ile": 0.091,
+    "leu": 0.128,
+    "lys": 0.107,
+    "met": 0.02,
+    "phe": 0.069,
+    "pro": 0.142,
+    "ser": 0.096,
+    "thr": 0.085,
+    "trp": 0.02,
+    "tyr": 0.062,
+    "val": 0.095
+  },
+  "otherNutrients": {
+    "nt": 0.35
+  },
+  "extra": {}
+}

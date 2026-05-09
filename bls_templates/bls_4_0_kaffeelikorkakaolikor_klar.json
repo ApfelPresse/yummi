@@ -1,0 +1,55 @@
+{
+  "name": "Kaffeelikör/Kakaolikör, klar",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 335,
+    "water": 36,
+    "protein": 0.1,
+    "fat": 0.4,
+    "carbs": 46,
+    "fiber": null,
+    "alcohol": 20.76,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.012,
+    "tocpha": 0.012,
+    "tocphb": 0.005,
+    "thia": 0.01,
+    "ribf": 0.01,
+    "niaeq": 0.2,
+    "nia": 0.2
+  },
+  "minerals": {
+    "nacl": 0.022,
+    "na": 9,
+    "cld": 4,
+    "k": 35,
+    "ca": 1,
+    "mg": 4,
+    "p": 7,
+    "s": 14,
+    "fe": 0.1,
+    "id": 0.5,
+    "cr": 3,
+    "mo": 0.3
+  },
+  "carbohydrates": {
+    "cho": 46,
+    "mnsac": 5,
+    "glus": 5,
+    "disac": 41,
+    "sucs": 41,
+    "sugar": 46
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

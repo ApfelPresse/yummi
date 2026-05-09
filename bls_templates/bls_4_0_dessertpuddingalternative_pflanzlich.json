@@ -1,0 +1,107 @@
+{
+  "name": "Dessert/Puddingalternative, pflanzlich",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 89,
+    "water": 79.4,
+    "protein": 2.32,
+    "fat": 3.78,
+    "carbs": 10.85,
+    "fiber": 0.99,
+    "alcohol": null,
+    "sugarAlcohols": 0.027
+  },
+  "vitamins": {
+    "vita": 9,
+    "vitaa": 4,
+    "cartb": 51,
+    "vite": 0.48,
+    "tocpha": 0.48,
+    "tocphb": 0.021,
+    "tocphg": 0.44,
+    "tocphd": 0.06,
+    "ribf": 0.06,
+    "niaeq": 0.52,
+    "nia": 0.07,
+    "biot": 0.68,
+    "fol": 4.4,
+    "folfd": 4.4
+  },
+  "minerals": {
+    "nacl": 0.065,
+    "na": 26,
+    "cld": 46.8,
+    "k": 200,
+    "ca": 17,
+    "mg": 28,
+    "p": 53,
+    "fe": 1.3,
+    "zn": 0.39,
+    "cu": 200,
+    "mn": 260
+  },
+  "carbohydrates": {
+    "cho": 10.85,
+    "disac": 10.82,
+    "sucs": 10.82,
+    "sugar": 10.82
+  },
+  "fibers": {
+    "fibt": 0.99,
+    "fibhmw": 0.99,
+    "fibins": 0.99
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.027,
+    "sortl": 0.027
+  },
+  "fattyAcids": {
+    "fasat": 2.38,
+    "f4_0": 0.0165,
+    "f6_0": 0.0164,
+    "f8_0": 0.198,
+    "f10_0": 0.0209,
+    "f12_0": 1.13,
+    "f14_0": 0.418,
+    "f16_0": 0.353,
+    "f18_0": 0.23,
+    "fams": 0.722,
+    "f18_1cn9": 0.711,
+    "f22_1cn9": 0.0114,
+    "fapu": 0.404,
+    "fapun3": 0.0172,
+    "f18_3cn3": 0.0172,
+    "fapun6": 0.387,
+    "f18_2cn6": 0.387,
+    "fax": 0.0086
+  },
+  "aminoAcids": {
+    "aae9": 0.69,
+    "ala": 0.088,
+    "arg": 0.168,
+    "asp": 0.21,
+    "cyste": 0.025,
+    "glu": 0.398,
+    "gly": 0.09,
+    "his": 0.05,
+    "ile": 0.083,
+    "leu": 0.152,
+    "lys": 0.097,
+    "met": 0.027,
+    "phe": 0.098,
+    "pro": 0.084,
+    "ser": 0.094,
+    "thr": 0.067,
+    "trp": 0.027,
+    "tyr": 0.068,
+    "val": 0.089
+  },
+  "otherNutrients": {
+    "nt": 0.37
+  },
+  "extra": {}
+}

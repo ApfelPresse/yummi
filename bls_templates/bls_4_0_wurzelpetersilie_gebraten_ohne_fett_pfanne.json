@@ -1,0 +1,110 @@
+{
+  "name": "Wurzelpetersilie gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 140,
+    "water": 65.7,
+    "protein": 5.333,
+    "fat": 0.87,
+    "carbs": 25.5,
+    "fiber": 3.944,
+    "alcohol": null,
+    "sugarAlcohols": 1.519
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 4,
+    "cartb": 50,
+    "vite": 1.63,
+    "tocpha": 1.63,
+    "vitk": 2,
+    "vitk1": 2,
+    "thia": 0.167,
+    "ribf": 0.151,
+    "niaeq": 4.386,
+    "nia": 3.519,
+    "pantac": 0.833,
+    "vitb6": 383,
+    "fol": 76,
+    "folfd": 76,
+    "vitc": 64.537
+  },
+  "minerals": {
+    "nacl": 0.055,
+    "na": 22,
+    "k": 1041,
+    "ca": 72,
+    "mg": 48,
+    "p": 104.8,
+    "fe": 1.574,
+    "zn": 1.176,
+    "id": 0.704,
+    "cu": 222,
+    "mn": 556,
+    "fd": 19,
+    "cr": 2
+  },
+  "carbohydrates": {
+    "cho": 25.5,
+    "mnsac": 2.259,
+    "glus": 1.037,
+    "frus": 1.222,
+    "disac": 8.944,
+    "sucs": 8.944,
+    "sugar": 11.203,
+    "olsac": 0.574,
+    "starch": 12.2
+  },
+  "fibers": {
+    "fibt": 3.944,
+    "fibins": 2.796,
+    "fibsol": 1.148
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.519,
+    "mantl": 1.519
+  },
+  "fattyAcids": {
+    "fasat": 0.14,
+    "f14_0": 0.0007,
+    "f16_0": 0.133,
+    "f18_0": 0.0039,
+    "f20_0": 0.002,
+    "fams": 0.0591,
+    "f16_1cn7": 0.002,
+    "f18_1cn9": 0.0528,
+    "f20_1cn9": 0.0043,
+    "fapu": 0.4666,
+    "fapun3": 0.0583,
+    "f18_3cn3": 0.0583,
+    "fapun6": 0.4083,
+    "f18_2cn6": 0.4083
+  },
+  "aminoAcids": {
+    "aae9": 1.227,
+    "ala": 0.181,
+    "arg": 0.193,
+    "asp": 0.557,
+    "cyste": 0.017,
+    "glu": 1.415,
+    "gly": 0.148,
+    "ile": 0.165,
+    "leu": 0.217,
+    "lys": 0.209,
+    "met": 0.054,
+    "phe": 0.126,
+    "pro": 0.533,
+    "thr": 0.148,
+    "trp": 0.052,
+    "tyr": 0.067,
+    "val": 0.256
+  },
+  "otherNutrients": {
+    "nt": 0.854
+  },
+  "extra": {}
+}

@@ -1,0 +1,105 @@
+{
+  "name": "Pfifferling Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 24,
+    "water": 90.1,
+    "protein": 2.083,
+    "fat": 0.69,
+    "carbs": 0.643,
+    "fiber": 3.81,
+    "alcohol": null,
+    "sugarAlcohols": 0.455
+  },
+  "vitamins": {
+    "vita": 217,
+    "vitaa": 108,
+    "cartb": 1300,
+    "vitd": 12.3,
+    "ergcal": 12.3,
+    "thia": 0.008,
+    "ribf": 0.164,
+    "niaeq": 4.179,
+    "nia": 3.196,
+    "pantac": 0.57,
+    "vitb6": 40,
+    "fol": 0.56,
+    "folfd": 0.56,
+    "vitc": 3
+  },
+  "minerals": {
+    "nacl": 0.412,
+    "na": 165,
+    "cld": 474,
+    "k": 155,
+    "ca": 4.7,
+    "mg": 6.1,
+    "p": 70,
+    "s": 2,
+    "fe": 0.96,
+    "zn": 0.83,
+    "id": 3.3,
+    "cu": 530,
+    "mn": 359,
+    "cr": 5,
+    "mo": 12
+  },
+  "carbohydrates": {
+    "cho": 0.643,
+    "mnsac": 0.188,
+    "glus": 0.106,
+    "frus": 0.082,
+    "sugar": 0.188
+  },
+  "fibers": {
+    "fibt": 3.81,
+    "fibhmw": 4.696,
+    "fibins": 3.706,
+    "fibsol": 0.988
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.455,
+    "mantl": 0.455
+  },
+  "fattyAcids": {
+    "fasat": 0.054,
+    "f4_0": 0.003,
+    "f10_0": 0.003,
+    "f16_0": 0.034,
+    "f18_0": 0.008,
+    "f20_0": 0.003,
+    "f24_0": 0.003,
+    "fams": 0.007,
+    "f18_1cn9": 0.007,
+    "fapu": 0.166,
+    "fapun6": 0.166,
+    "f18_2cn6": 0.166
+  },
+  "aminoAcids": {
+    "aae9": 0.56,
+    "ala": 0.054,
+    "arg": 0.095,
+    "cyste": 0.149,
+    "gly": 0.044,
+    "his": 0.032,
+    "ile": 0.049,
+    "leu": 0.1072,
+    "lys": 0.048,
+    "met": 0.01,
+    "phe": 0.082,
+    "pro": 0.049,
+    "ser": 0.061,
+    "thr": 0.1083,
+    "trp": 0.059,
+    "tyr": 0.0725,
+    "val": 0.065
+  },
+  "otherNutrients": {
+    "nt": 0.333
+  },
+  "extra": {}
+}

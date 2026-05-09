@@ -1,0 +1,102 @@
+{
+  "name": "Pfirsichnektar",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 48,
+    "water": 87,
+    "protein": 0.3,
+    "fat": 0.044,
+    "carbs": 11.6,
+    "fiber": 0.1,
+    "alcohol": null,
+    "sugarAlcohols": 0.46
+  },
+  "vitamins": {
+    "vita": 12,
+    "vitaa": 6,
+    "cartb": 44,
+    "carotpaxb": 57,
+    "vite": 0.212,
+    "tocpha": 0.212,
+    "tocphg": 0.005,
+    "toctra": 0.01,
+    "vitk": 1.9,
+    "vitk1": 1.9,
+    "thia": 0.01,
+    "ribf": 0.014,
+    "niaeq": 0.412,
+    "nia": 0.412,
+    "pantac": 0.056,
+    "vitb6": 10,
+    "biot": 1,
+    "fol": 2,
+    "folfd": 2,
+    "vitc": 3
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 3,
+    "k": 84,
+    "ca": 5,
+    "mg": 5,
+    "p": 10,
+    "s": 0.8,
+    "fe": 0.145,
+    "zn": 0.07,
+    "id": 1,
+    "cu": 44,
+    "mn": 40,
+    "fd": 6,
+    "mo": 0.02
+  },
+  "carbohydrates": {
+    "cho": 11.6,
+    "mnsac": 2.09,
+    "glus": 1.03,
+    "frus": 1.06,
+    "disac": 9.054,
+    "sucs": 9.054,
+    "sugar": 11.14
+  },
+  "fibers": {
+    "fibt": 0.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.46,
+    "mantl": 0.08,
+    "sortl": 0.38
+  },
+  "fattyAcids": {
+    "fasat": 0.0036,
+    "f16_0": 0.0036,
+    "fams": 0.013,
+    "f18_1cn9": 0.013,
+    "fapu": 0.017,
+    "fapun6": 0.017,
+    "f18_2cn6": 0.017
+  },
+  "aminoAcids": {
+    "aae9": 0.039,
+    "ala": 0.011,
+    "arg": 0.007,
+    "asp": 0.152,
+    "cyste": 0.002,
+    "glu": 0.022,
+    "gly": 0.004,
+    "leu": 0.011,
+    "lys": 0.01,
+    "pro": 0.002,
+    "ser": 0.014,
+    "thr": 0.009,
+    "val": 0.009
+  },
+  "otherNutrients": {
+    "nt": 0.07
+  },
+  "extra": {}
+}

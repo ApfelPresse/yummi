@@ -1,0 +1,110 @@
+{
+  "name": "Cornflakes gesüßt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 366,
+    "water": 6,
+    "protein": 6.24,
+    "fat": 1.75,
+    "carbs": 79.35,
+    "fiber": 4.19,
+    "alcohol": null,
+    "sugarAlcohols": 0.007
+  },
+  "vitamins": {
+    "vita": 15,
+    "vitaa": 8,
+    "cartb": 92,
+    "vite": 0.065,
+    "tocpha": 0.065,
+    "tocphg": 0.084,
+    "thia": 0.01,
+    "ribf": 0.09,
+    "niaeq": 0.74,
+    "nia": 0.24,
+    "pantac": 0.08,
+    "vitb6": 140,
+    "biot": 0.89,
+    "fol": 3.4,
+    "folfd": 3.4
+  },
+  "minerals": {
+    "nacl": 0.8638,
+    "na": 345.5,
+    "cld": 1085,
+    "k": 82.6,
+    "ca": 2.4,
+    "mg": 10,
+    "p": 39.6,
+    "s": 76,
+    "fe": 0.14,
+    "zn": 0.16,
+    "cu": 52,
+    "mn": 48.5,
+    "cr": 1.4,
+    "mo": 20.5
+  },
+  "carbohydrates": {
+    "cho": 79.35,
+    "mnsac": 0.56,
+    "glus": 0.16,
+    "frus": 0.4,
+    "disac": 0.73,
+    "sucs": 0.73,
+    "sugar": 1.29,
+    "starch": 78.05
+  },
+  "fibers": {
+    "fibt": 4.19,
+    "fibhmw": 4.19,
+    "fibins": 2.51,
+    "fibsol": 1.68
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.007
+  },
+  "fattyAcids": {
+    "fasat": 0.236,
+    "f16_0": 0.179,
+    "f18_0": 0.045,
+    "f22_0": 0.0121,
+    "fams": 0.469,
+    "f18_1cn9": 0.464,
+    "f22_1cn9": 0.0046,
+    "fapu": 0.788,
+    "fapun3": 0.0185,
+    "f18_3cn3": 0.0185,
+    "fapun6": 0.77,
+    "f18_2cn6": 0.77,
+    "fax": 0.0119
+  },
+  "aminoAcids": {
+    "aae9": 2.382,
+    "ala": 0.507,
+    "arg": 0.144,
+    "asp": 0.345,
+    "cyste": 0.11,
+    "glu": 1.315,
+    "gly": 0.202,
+    "his": 0.176,
+    "ile": 0.212,
+    "leu": 0.96,
+    "lys": 0.032,
+    "met": 0.132,
+    "phe": 0.34,
+    "pro": 0.69,
+    "ser": 0.314,
+    "thr": 0.208,
+    "trp": 0.03,
+    "tyr": 0.279,
+    "val": 0.292
+  },
+  "otherNutrients": {
+    "nt": 1
+  },
+  "extra": {}
+}

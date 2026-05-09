@@ -1,0 +1,104 @@
+{
+  "name": "Selleriegemüse gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 26,
+    "water": 91.7,
+    "protein": 1.333,
+    "fat": 0.3,
+    "carbs": 2.41,
+    "fiber": 3.7,
+    "alcohol": null,
+    "sugarAlcohols": 0.19
+  },
+  "vitamins": {
+    "vite": 0.495,
+    "tocpha": 0.495,
+    "vitk": 39,
+    "vitk1": 39,
+    "thia": 0.027,
+    "ribf": 0.054,
+    "niaeq": 0.856,
+    "nia": 0.689,
+    "pantac": 0.293,
+    "vitb6": 159,
+    "fol": 42,
+    "folfd": 42,
+    "vitc": 5.653
+  },
+  "minerals": {
+    "nacl": 0.395,
+    "na": 158,
+    "cld": 279,
+    "k": 362,
+    "ca": 37,
+    "mg": 12,
+    "p": 59,
+    "fe": 0.443,
+    "zn": 0.33,
+    "id": 2,
+    "cu": 110,
+    "mn": 170,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 2.41,
+    "mnsac": 0.382,
+    "glus": 0.275,
+    "frus": 0.107,
+    "disac": 1.463,
+    "sucs": 1.463,
+    "sugar": 1.845,
+    "starch": 0.372
+  },
+  "fibers": {
+    "fibt": 3.7
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.19,
+    "sortl": 0.19
+  },
+  "fattyAcids": {
+    "fasat": 0.059,
+    "f14_0": 0.0001,
+    "f16_0": 0.056,
+    "f18_0": 0.0031,
+    "fams": 0.012,
+    "f16_1cn7": 0.0001,
+    "f18_1cn9": 0.012,
+    "fapu": 0.155,
+    "fapun3": 0.017,
+    "f18_3cn3": 0.017,
+    "fapun6": 0.138,
+    "f18_2cn6": 0.138
+  },
+  "aminoAcids": {
+    "aae9": 0.357,
+    "ala": 0.074,
+    "arg": 0.039,
+    "asp": 0.142,
+    "cyste": 0.004,
+    "glu": 0.242,
+    "gly": 0.042,
+    "his": 0.021,
+    "ile": 0.041,
+    "leu": 0.064,
+    "lys": 0.064,
+    "met": 0.016,
+    "phe": 0.041,
+    "pro": 0.035,
+    "ser": 0.042,
+    "thr": 0.038,
+    "trp": 0.01,
+    "tyr": 0.022,
+    "val": 0.062
+  },
+  "otherNutrients": {
+    "nt": 0.173
+  },
+  "extra": {}
+}

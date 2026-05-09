@@ -1,0 +1,94 @@
+{
+  "name": "Augenbohne reif, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 114,
+    "water": 67.1,
+    "protein": 8.5,
+    "fat": 0.47,
+    "carbs": 16.074,
+    "fiber": 4.1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 1,
+    "vitaa": 1,
+    "cartb": 8,
+    "thia": 0.06,
+    "ribf": 0.04,
+    "niaeq": 2.1,
+    "nia": 0.27,
+    "pantac": 0.1,
+    "vitb6": 33,
+    "fol": 59,
+    "folfd": 59,
+    "vitc": 0.1
+  },
+  "minerals": {
+    "nacl": 0.63,
+    "na": 252,
+    "cld": 412,
+    "k": 247,
+    "ca": 39,
+    "mg": 51,
+    "p": 136,
+    "s": 2,
+    "fe": 2.36,
+    "zn": 1.08,
+    "cu": 170,
+    "mn": 570,
+    "cr": 2
+  },
+  "carbohydrates": {
+    "cho": 16.074,
+    "disac": 0.713,
+    "sucs": 0.713,
+    "sugar": 0.713,
+    "olsac": 1.664,
+    "starch": 13.6974
+  },
+  "fibers": {
+    "fibt": 4.1,
+    "fibhmw": 4.1,
+    "fibins": 3,
+    "fibsol": 0.8
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.115,
+    "f14_0": 0.002,
+    "f16_0": 0.093,
+    "f18_0": 0.02,
+    "fax": 0.31
+  },
+  "aminoAcids": {
+    "aae9": 3.3,
+    "ala": 0.39,
+    "arg": 0.59,
+    "asp": 1.03,
+    "cyste": 0.08,
+    "glu": 1.6,
+    "gly": 0.352,
+    "his": 0.26,
+    "ile": 0.347,
+    "leu": 0.7,
+    "lys": 0.57,
+    "met": 0.121,
+    "phe": 0.49,
+    "pro": 0.39,
+    "ser": 0.43,
+    "thr": 0.324,
+    "trp": 0.11,
+    "tyr": 0.28,
+    "val": 0.41
+  },
+  "otherNutrients": {
+    "nt": 1.5
+  },
+  "extra": {}
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Knollensellerie gesäuert, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 40,
+    "water": 87.1,
+    "protein": 1.142,
+    "fat": 0.242,
+    "carbs": 5.85,
+    "fiber": 3.2,
+    "alcohol": 0.018,
+    "sugarAlcohols": 0.13
+  },
+  "vitamins": {
+    "vita": 0.27,
+    "vitaa": 0.13,
+    "cartb": 1.6,
+    "vite": 0.455,
+    "tocpha": 0.455,
+    "vitk": 36,
+    "vitk1": 36,
+    "thia": 0.014,
+    "ribf": 0.031,
+    "niaeq": 0.533,
+    "nia": 0.366,
+    "pantac": 0.176,
+    "vitb6": 76,
+    "fol": 12,
+    "folfd": 12,
+    "vitc": 1.673
+  },
+  "minerals": {
+    "nacl": 1.278,
+    "na": 511,
+    "cld": 927,
+    "k": 213,
+    "ca": 36,
+    "mg": 9,
+    "p": 47,
+    "s": 2,
+    "fe": 0.31,
+    "zn": 0.24,
+    "id": 1,
+    "cu": 90,
+    "mn": 140,
+    "cr": 2,
+    "mo": 0.2
+  },
+  "carbohydrates": {
+    "cho": 5.85,
+    "mnsac": 0.243,
+    "glus": 0.182,
+    "frus": 0.061,
+    "disac": 5.206,
+    "sucs": 5.206,
+    "sugar": 5.449,
+    "starch": 0.267
+  },
+  "fibers": {
+    "fibt": 3.2,
+    "fibhmw": 3.2,
+    "fibins": 2.9,
+    "fibsol": 0.5
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.13,
+    "sortl": 0.13
+  },
+  "fattyAcids": {
+    "fasat": 0.05,
+    "f16_0": 0.047,
+    "f18_0": 0.0026,
+    "fams": 0.01,
+    "f18_1cn9": 0.01,
+    "fapu": 0.128,
+    "fapun3": 0.013,
+    "f18_3cn3": 0.013,
+    "fapun6": 0.115,
+    "f18_2cn6": 0.115
+  },
+  "aminoAcids": {
+    "aae9": 0.306,
+    "ala": 0.064,
+    "arg": 0.033,
+    "asp": 0.121,
+    "cyste": 0.003,
+    "glu": 0.209,
+    "gly": 0.034,
+    "his": 0.018,
+    "ile": 0.034,
+    "leu": 0.056,
+    "lys": 0.054,
+    "met": 0.013,
+    "phe": 0.034,
+    "pro": 0.029,
+    "ser": 0.036,
+    "thr": 0.033,
+    "trp": 0.01,
+    "tyr": 0.018,
+    "val": 0.054
+  },
+  "otherNutrients": {
+    "nt": 0.147
+  },
+  "extra": {}
+}

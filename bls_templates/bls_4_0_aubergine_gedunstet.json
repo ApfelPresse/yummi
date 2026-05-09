@@ -1,0 +1,109 @@
+{
+  "name": "Aubergine gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 21,
+    "water": 92.6,
+    "protein": 0.62,
+    "fat": 0.196,
+    "carbs": 3.28,
+    "fiber": 1.5,
+    "alcohol": null,
+    "sugarAlcohols": 0.12
+  },
+  "vitamins": {
+    "vita": 7.05,
+    "vitaa": 3.53,
+    "cartb": 42.31,
+    "vite": 0.033,
+    "tocpha": 0.033,
+    "vitk": 1,
+    "vitk1": 1,
+    "thia": 0.037,
+    "ribf": 0.046,
+    "niaeq": 0.753,
+    "nia": 0.62,
+    "pantac": 0.225,
+    "vitb6": 67,
+    "biot": 1.9,
+    "fol": 31,
+    "folfd": 31,
+    "vitc": 3.557
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 60,
+    "k": 190,
+    "ca": 9,
+    "mg": 13.6,
+    "p": 23.3,
+    "fe": 0.217,
+    "zn": 0.12,
+    "id": 0.8,
+    "cu": 41,
+    "mn": 163
+  },
+  "carbohydrates": {
+    "cho": 3.28,
+    "mnsac": 2.69,
+    "glus": 1.78,
+    "frus": 0.91,
+    "disac": 0.229,
+    "sucs": 0.12,
+    "mals": 0.109,
+    "sugar": 2.92,
+    "starch": 0.239
+  },
+  "fibers": {
+    "fibt": 1.5,
+    "fibhmw": 1.5,
+    "fibins": 1.4,
+    "fibsol": 0.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.12,
+    "sortl": 0.12
+  },
+  "fattyAcids": {
+    "fasat": 0.043,
+    "f16_0": 0.032,
+    "f18_0": 0.011,
+    "fams": 0.02,
+    "f16_1cn7": 0.0025,
+    "f18_1cn9": 0.017,
+    "fapu": 0.094,
+    "fapun3": 0.016,
+    "f18_3cn3": 0.016,
+    "fapun6": 0.078,
+    "f18_2cn6": 0.078
+  },
+  "aminoAcids": {
+    "aae9": 0.288,
+    "ala": 0.033,
+    "arg": 0.041,
+    "asp": 0.109,
+    "cyste": 0.007,
+    "glu": 0.125,
+    "gly": 0.028,
+    "his": 0.011,
+    "ile": 0.035,
+    "leu": 0.064,
+    "lys": 0.041,
+    "met": 0.004,
+    "phe": 0.029,
+    "pro": 0.017,
+    "ser": 0.033,
+    "thr": 0.037,
+    "trp": 0.008,
+    "val": 0.059
+  },
+  "otherNutrients": {
+    "nt": 0.099
+  },
+  "extra": {}
+}

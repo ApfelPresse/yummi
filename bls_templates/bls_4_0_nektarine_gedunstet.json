@@ -1,0 +1,108 @@
+{
+  "name": "Nektarine gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 53,
+    "water": 85,
+    "protein": 1.2,
+    "fat": 0.2,
+    "carbs": 10.4,
+    "fiber": 1.9,
+    "alcohol": null,
+    "sugarAlcohols": 1.15
+  },
+  "vitamins": {
+    "vita": 33,
+    "vitaa": 16,
+    "cartb": 158,
+    "carotpaxb": 79,
+    "vite": 0.61,
+    "tocpha": 0.61,
+    "tocphb": 0.03,
+    "tocphg": 0.02,
+    "tocphd": 0.22,
+    "vitk": 2.5,
+    "vitk1": 2.5,
+    "thia": 0.02,
+    "ribf": 0.03,
+    "niaeq": 1.1,
+    "nia": 1,
+    "pantac": 0.36,
+    "vitb6": 30,
+    "biot": 0.1,
+    "fol": 8,
+    "folfd": 8,
+    "vitc": 5
+  },
+  "minerals": {
+    "nacl": 0.0015,
+    "na": 0.6,
+    "cld": 8,
+    "k": 264,
+    "ca": 9,
+    "mg": 9,
+    "p": 28,
+    "fe": 0.2,
+    "zn": 0.15,
+    "id": 0.5,
+    "cu": 100,
+    "mn": 70,
+    "fd": 11
+  },
+  "carbohydrates": {
+    "cho": 10.4,
+    "mnsac": 3.4,
+    "glus": 1.9,
+    "frus": 1.5,
+    "disac": 5.9,
+    "sucs": 5.8,
+    "mals": 0.06,
+    "sugar": 9.3
+  },
+  "fibers": {
+    "fibt": 1.9,
+    "fibhmw": 1.9,
+    "fibins": 0.9,
+    "fibsol": 1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.15,
+    "sortl": 1.15
+  },
+  "fattyAcids": {
+    "fams": 0.1,
+    "f18_1cn9": 0.1,
+    "fapu": 0.1,
+    "fapun6": 0.1,
+    "f18_2cn6": 0.1
+  },
+  "aminoAcids": {
+    "aae9": 0.115,
+    "ala": 0.019,
+    "arg": 0.01,
+    "asp": 0.645,
+    "cyste": 0.006,
+    "glu": 0.039,
+    "gly": 0.012,
+    "his": 0.009,
+    "ile": 0.01,
+    "leu": 0.016,
+    "lys": 0.018,
+    "met": 0.007,
+    "phe": 0.024,
+    "pro": 0.01,
+    "ser": 0.02,
+    "thr": 0.01,
+    "trp": 0.006,
+    "tyr": 0.008,
+    "val": 0.015
+  },
+  "otherNutrients": {
+    "nt": 0.19
+  },
+  "extra": {}
+}

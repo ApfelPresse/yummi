@@ -1,0 +1,90 @@
+{
+  "name": "Bier mit Sekt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 52,
+    "water": 92.7,
+    "protein": 0.263,
+    "fat": null,
+    "carbs": 2.18,
+    "fiber": null,
+    "alcohol": 5.91,
+    "sugarAlcohols": 0.003
+  },
+  "vitamins": {
+    "vitk": 0.009,
+    "vitk1": 0.009,
+    "thia": 0.034,
+    "ribf": 0.021,
+    "niaeq": 0.95,
+    "nia": 0.85,
+    "pantac": 0.066,
+    "vitb6": 38,
+    "biot": 1.6,
+    "fol": 5.5,
+    "folfd": 5.5
+  },
+  "minerals": {
+    "nacl": 0.0042,
+    "na": 1.7,
+    "cld": 17.1,
+    "k": 50,
+    "ca": 5.9,
+    "mg": 7.7,
+    "p": 18.5,
+    "s": 14,
+    "fe": 0.052,
+    "zn": 0.02,
+    "id": 0.1882,
+    "cu": 5.9,
+    "mn": 27.7,
+    "fd": 7,
+    "cr": 0.5
+  },
+  "carbohydrates": {
+    "cho": 2.18,
+    "mnsac": 0.84,
+    "glus": 0.43,
+    "frus": 0.41,
+    "disac": 0.019,
+    "sucs": 0.004,
+    "mals": 0.015,
+    "sugar": 0.86,
+    "starch": 1.314
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.003,
+    "sortl": 0.003
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.059,
+    "ala": 0.007,
+    "arg": 0.007,
+    "asp": 0.009,
+    "cyste": 0.003,
+    "glu": 0.033,
+    "gly": 0.006,
+    "his": 0.004,
+    "ile": 0.007,
+    "leu": 0.012,
+    "lys": 0.005,
+    "met": 0.002,
+    "phe": 0.009,
+    "pro": 0.043,
+    "ser": 0.007,
+    "thr": 0.005,
+    "trp": 0.006,
+    "tyr": 0.004,
+    "val": 0.009
+  },
+  "otherNutrients": {
+    "nt": 0.042
+  },
+  "extra": {}
+}

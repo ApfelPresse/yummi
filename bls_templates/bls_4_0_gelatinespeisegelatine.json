@@ -1,0 +1,77 @@
+{
+  "name": "Gelatine/Speisegelatine",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 341,
+    "water": 12.8,
+    "protein": 85.1,
+    "fat": 0.1,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "ribf": 0.04,
+    "vitb6": 6
+  },
+  "minerals": {
+    "nacl": 0.412,
+    "na": 165,
+    "k": 17,
+    "ca": 146,
+    "mg": 11,
+    "fe": 0.6,
+    "zn": 0.2,
+    "id": 6
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.042,
+    "f14_0": 0.003,
+    "f15_0": 0.0005,
+    "f16_0": 0.025,
+    "f17_0": 0.0011,
+    "f18_0": 0.0121,
+    "fams": 0.0464,
+    "f14_1cn5": 0.0014,
+    "f16_1cn7": 0.0059,
+    "f18_1cn9": 0.0391,
+    "fapu": 0.0039,
+    "fapun3": 0.0012,
+    "f18_3cn3": 0.0012,
+    "fapun6": 0.0027,
+    "f18_2cn6": 0.0018,
+    "f20_4cn6": 0.0009,
+    "fax": 0.0009
+  },
+  "aminoAcids": {
+    "aae9": 14.85,
+    "ala": 8.62,
+    "arg": 6.674,
+    "asp": 5.144,
+    "glu": 9.1766,
+    "gly": 22.246,
+    "his": 0.57,
+    "ile": 1.363,
+    "leu": 2.5027,
+    "lys": 3.8931,
+    "met": 0.681,
+    "phe": 1.8075,
+    "pro": 13.1,
+    "ser": 3.1979,
+    "thr": 1.6685,
+    "tyr": 0.111,
+    "val": 2.3637
+  },
+  "otherNutrients": {
+    "nt": 13.5
+  },
+  "extra": {}
+}

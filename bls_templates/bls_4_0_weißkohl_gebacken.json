@@ -1,0 +1,108 @@
+{
+  "name": "Weißkohl gebacken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 37,
+    "water": 90,
+    "protein": 1.626,
+    "fat": 0.224,
+    "carbs": 5.33,
+    "fiber": 3.5,
+    "alcohol": null,
+    "sugarAlcohols": 0.16
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 4,
+    "cartb": 45,
+    "carotpaxb": 10,
+    "vite": 0.345,
+    "tocpha": 0.345,
+    "tocphg": 0.002,
+    "toctra": 0.047,
+    "vitk": 106,
+    "vitk1": 106,
+    "thia": 0.24,
+    "ribf": 0.02,
+    "niaeq": 0.3,
+    "nia": 0.3,
+    "pantac": 0.22,
+    "vitb6": 87.97,
+    "biot": 0.1,
+    "fol": 42,
+    "folfd": 42,
+    "vitc": 37.406
+  },
+  "minerals": {
+    "nacl": 0.015,
+    "na": 6,
+    "cld": 44,
+    "k": 299,
+    "ca": 52,
+    "mg": 14,
+    "p": 41.814,
+    "fe": 0.367,
+    "zn": 0.19,
+    "id": 2,
+    "cu": 27,
+    "mn": 220,
+    "fd": 14,
+    "cr": 0.6,
+    "mo": 5
+  },
+  "carbohydrates": {
+    "cho": 5.33,
+    "mnsac": 4.94,
+    "glus": 2.74,
+    "frus": 2.2,
+    "disac": 0.233,
+    "sucs": 0.233,
+    "sugar": 5.17
+  },
+  "fibers": {
+    "fibt": 3.5,
+    "fibhmw": 3.5,
+    "fibins": 2.6,
+    "fibsol": 0.9
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.16,
+    "sortl": 0.16
+  },
+  "fattyAcids": {
+    "fasat": 0.0393,
+    "f14_0": 0.0006,
+    "f16_0": 0.0347,
+    "f18_0": 0.0034,
+    "f20_0": 0.0006,
+    "fams": 0.0057,
+    "f16_1cn7": 0.0032,
+    "f18_1cn9": 0.0025,
+    "fapu": 0.133,
+    "fapun3": 0.102,
+    "f18_3cn3": 0.102,
+    "fapun6": 0.0312,
+    "f18_2cn6": 0.0312
+  },
+  "aminoAcids": {
+    "aae9": 0.361,
+    "arg": 0.118,
+    "cyste": 0.032,
+    "his": 0.029,
+    "ile": 0.046,
+    "leu": 0.066,
+    "lys": 0.076,
+    "met": 0.015,
+    "phe": 0.035,
+    "thr": 0.045,
+    "val": 0.049
+  },
+  "otherNutrients": {
+    "nt": 0.26
+  },
+  "extra": {}
+}

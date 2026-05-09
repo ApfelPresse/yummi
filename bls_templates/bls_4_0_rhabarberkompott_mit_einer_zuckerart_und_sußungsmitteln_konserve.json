@@ -1,0 +1,103 @@
+{
+  "name": "Rhabarberkompott mit einer Zuckerart und Süßungsmitteln, Konserve",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 48,
+    "water": 86,
+    "protein": 0.522,
+    "fat": 0.121,
+    "carbs": 9.3,
+    "fiber": 2.908,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 4,
+    "cartb": 46,
+    "vite": 0.227,
+    "tocpha": 0.227,
+    "vitk": 10,
+    "vitk1": 10,
+    "thia": 0.009,
+    "ribf": 0.016,
+    "niaeq": 0.211,
+    "nia": 0.111,
+    "pantac": 0.04,
+    "vitb6": 13,
+    "fol": 0.8,
+    "folfd": 0.8,
+    "vitc": 3.23
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 64,
+    "k": 150,
+    "ca": 68,
+    "mg": 5,
+    "p": 18.4,
+    "fe": 0.1,
+    "zn": 0.12,
+    "id": 1.9,
+    "cu": 27,
+    "mn": 110,
+    "fd": 35,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 9.3,
+    "mnsac": 8.8,
+    "glus": 0.354,
+    "frus": 8.4,
+    "disac": 0.292,
+    "sucs": 0.292,
+    "sugar": 9.1,
+    "starch": 0.2
+  },
+  "fibers": {
+    "fibt": 2.908
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.025,
+    "f16_0": 0.022,
+    "f18_0": 0.0031,
+    "fams": 0.006,
+    "f18_1cn9": 0.006,
+    "fapu": 0.06,
+    "fapun3": 0.014,
+    "f18_3cn3": 0.014,
+    "fapun6": 0.046,
+    "f18_2cn6": 0.046
+  },
+  "aminoAcids": {
+    "aae9": 0.13,
+    "ala": 0.015,
+    "arg": 0.017,
+    "asp": 0.025,
+    "cyste": 0.001,
+    "glu": 0.042,
+    "gly": 0.015,
+    "his": 0.01,
+    "ile": 0.015,
+    "leu": 0.021,
+    "lys": 0.022,
+    "met": 0.006,
+    "phe": 0.015,
+    "pro": 0.013,
+    "ser": 0.015,
+    "thr": 0.012,
+    "trp": 0.006,
+    "tyr": 0.01,
+    "val": 0.023
+  },
+  "otherNutrients": {
+    "nt": 0.095
+  },
+  "extra": {}
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Pflaumensuppe passiert",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 72,
+    "water": 81,
+    "protein": 0.29,
+    "fat": 0.165,
+    "carbs": 16.6,
+    "fiber": 1.7,
+    "alcohol": null,
+    "sugarAlcohols": 2.535
+  },
+  "vitamins": {
+    "vita": 14,
+    "vitaa": 7,
+    "cartb": 73,
+    "carotpaxb": 24,
+    "vite": 0.275,
+    "tocpha": 0.275,
+    "tocphg": 0.019,
+    "toctra": 0.019,
+    "vitk": 7,
+    "vitk1": 7,
+    "thia": 0.033,
+    "ribf": 0.038,
+    "niaeq": 0.481,
+    "nia": 0.481,
+    "pantac": 0.143,
+    "vitb6": 38,
+    "fol": 6.1,
+    "folfd": 6.1,
+    "vitc": 3.496
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 2,
+    "k": 159,
+    "ca": 8,
+    "mg": 7,
+    "p": 16,
+    "s": 0.2,
+    "fe": 0.2,
+    "zn": 0.09,
+    "id": 1,
+    "cu": 60,
+    "mn": 80,
+    "fd": 2,
+    "cr": 2,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 16.6,
+    "mnsac": 5.56,
+    "glus": 3.43,
+    "frus": 2.13,
+    "disac": 8.5,
+    "sucs": 8.34,
+    "mals": 0.165,
+    "sugar": 14.06
+  },
+  "fibers": {
+    "fibt": 1.7
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 2.535,
+    "sortl": 2.535
+  },
+  "fattyAcids": {
+    "fasat": 0.022,
+    "f16_0": 0.017,
+    "f18_0": 0.005,
+    "fams": 0.051,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.05,
+    "fapu": 0.076,
+    "fapun3": 0.03,
+    "f18_3cn3": 0.03,
+    "fapun6": 0.046,
+    "f18_2cn6": 0.046
+  },
+  "aminoAcids": {
+    "aae9": 0.05,
+    "ala": 0.01,
+    "arg": 0.01,
+    "asp": 0.09,
+    "glu": 0.01,
+    "gly": 0.01,
+    "leu": 0.01,
+    "lys": 0.01,
+    "phe": 0.01,
+    "pro": 0.02,
+    "ser": 0.01,
+    "thr": 0.01,
+    "val": 0.01
+  },
+  "otherNutrients": {
+    "nt": 0.097
+  },
+  "extra": {}
+}

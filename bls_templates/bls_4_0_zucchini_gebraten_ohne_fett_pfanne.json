@@ -1,0 +1,94 @@
+{
+  "name": "Zucchini gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 41,
+    "water": 91,
+    "protein": 2.2,
+    "fat": 0.486,
+    "carbs": 6,
+    "fiber": 1.9,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 53,
+    "vitaa": 27,
+    "cartb": 305,
+    "carotpaxb": 31,
+    "vite": 0.53,
+    "tocpha": 0.53,
+    "vitk": 54,
+    "vitk1": 54,
+    "thia": 0.05,
+    "ribf": 0.03,
+    "niaeq": 0.657,
+    "nia": 0.657,
+    "pantac": 0.262,
+    "vitb6": 90,
+    "biot": 5.3,
+    "fol": 50,
+    "folfd": 50,
+    "vitc": 23.864
+  },
+  "minerals": {
+    "nacl": 0.0046,
+    "na": 1.83,
+    "cld": 41,
+    "k": 436.68,
+    "ca": 34.58,
+    "mg": 48.49,
+    "p": 76.25,
+    "fe": 0.7,
+    "zn": 0.41,
+    "id": 4.12,
+    "cu": 100,
+    "mn": 150,
+    "cr": 3
+  },
+  "carbohydrates": {
+    "cho": 6,
+    "mnsac": 3.4,
+    "glus": 1.7,
+    "frus": 1.7,
+    "disac": 0.08,
+    "mals": 0.08,
+    "sugar": 3.5,
+    "starch": 2
+  },
+  "fibers": {
+    "fibt": 1.9,
+    "fibhmw": 1.9,
+    "fibins": 1.4,
+    "fibsol": 0.5
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.116,
+    "f12_0": 0.0031,
+    "f16_0": 0.1,
+    "f18_0": 0.0125,
+    "fams": 0.044,
+    "f16_1cn7": 0.0031,
+    "f18_1cn9": 0.041,
+    "fapu": 0.235,
+    "fapun3": 0.147,
+    "f18_3cn3": 0.147,
+    "fapun6": 0.088,
+    "f18_2cn6": 0.088
+  },
+  "aminoAcids": {
+    "ala": 0.2,
+    "asp": 0.3,
+    "glu": 0.5,
+    "ser": 0.2
+  },
+  "otherNutrients": {
+    "nt": 0.3
+  },
+  "extra": {}
+}

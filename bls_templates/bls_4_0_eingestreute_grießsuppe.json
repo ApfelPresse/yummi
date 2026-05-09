@@ -1,0 +1,101 @@
+{
+  "name": "Eingestreute Grießsuppe",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 19,
+    "water": 94,
+    "protein": 0.74,
+    "fat": 0.1,
+    "carbs": 3.6,
+    "fiber": 0.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 15,
+    "vitaa": 7,
+    "cartb": 89,
+    "vite": 0.01,
+    "tocpha": 0.01,
+    "vitk": 2,
+    "vitk1": 2,
+    "thia": 0.04,
+    "ribf": 0.03,
+    "niaeq": 0.5,
+    "nia": 0.4,
+    "pantac": 0.06,
+    "vitb6": 10,
+    "biot": 0.02,
+    "fol": 0.4,
+    "folfd": 0.4,
+    "vitc": 4
+  },
+  "minerals": {
+    "nacl": 0.74,
+    "na": 296,
+    "cld": 46,
+    "k": 19,
+    "ca": 5,
+    "mg": 2,
+    "p": 7,
+    "s": 5,
+    "fe": 0.1,
+    "zn": 0.04,
+    "cu": 10,
+    "mn": 21
+  },
+  "carbohydrates": {
+    "cho": 3.6,
+    "mnsac": 0.17,
+    "glus": 0.14,
+    "frus": 0.03,
+    "disac": 0.42,
+    "sucs": 0.39,
+    "mals": 0.0267,
+    "sugar": 0.59,
+    "starch": 3.01
+  },
+  "fibers": {
+    "fibt": 0.2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.1,
+    "f10_0": 0.003,
+    "f14_0": 0.001,
+    "f15_0": 0.001,
+    "f16_0": 0.1,
+    "fapu": 0.02,
+    "fapun6": 0.02,
+    "f18_2cn6": 0.02
+  },
+  "aminoAcids": {
+    "aae9": 0.19,
+    "ala": 0.03,
+    "arg": 0.03,
+    "asp": 0.04,
+    "cyste": 0.01,
+    "glu": 0.25,
+    "gly": 0.02,
+    "his": 0.01,
+    "ile": 0.02,
+    "leu": 0.05,
+    "lys": 0.02,
+    "met": 0.007,
+    "phe": 0.03,
+    "pro": 0.06,
+    "ser": 0.03,
+    "thr": 0.02,
+    "trp": 0.005,
+    "tyr": 0.02,
+    "val": 0.03
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

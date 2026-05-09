@@ -1,0 +1,102 @@
+{
+  "name": "Essigmarinade warm, für gekochte Salate",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 140,
+    "water": 82,
+    "protein": 0.16,
+    "fat": 14.2,
+    "carbs": 0.77,
+    "fiber": 0.01,
+    "alcohol": 0.03,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 13,
+    "vitaa": 6,
+    "cartb": 76,
+    "vite": 2.816,
+    "tocpha": 2.816,
+    "tocphb": 0.009,
+    "tocphg": 5.203,
+    "tocphd": 0.175,
+    "vitk": 17,
+    "vitk1": 17,
+    "thia": 0.02,
+    "ribf": 0.01,
+    "niaeq": 0.2,
+    "nia": 0.2,
+    "pantac": 0.03,
+    "vitb6": 10,
+    "biot": 0.004,
+    "fol": 0.01,
+    "folfd": 0.01,
+    "vitc": 2
+  },
+  "minerals": {
+    "nacl": 0.875,
+    "na": 350,
+    "cld": 286,
+    "k": 66,
+    "ca": 6,
+    "mg": 2,
+    "p": 4,
+    "fe": 0.1,
+    "zn": 0.02,
+    "cu": 10,
+    "mn": 26,
+    "cr": 1,
+    "mo": 0.1
+  },
+  "carbohydrates": {
+    "cho": 0.77,
+    "mnsac": 0.07,
+    "glus": 0.06,
+    "frus": 0.01,
+    "disac": 0.68,
+    "sucs": 0.68,
+    "sugar": 0.75,
+    "starch": 0.02
+  },
+  "fibers": {
+    "fibt": 0.01
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 1.1,
+    "f10_0": 0.001,
+    "f14_0": 0.01,
+    "f16_0": 0.7,
+    "f17_0": 0.01,
+    "f18_0": 0.24,
+    "f20_0": 0.08,
+    "f22_0": 0.05,
+    "f24_0": 0.02,
+    "fams": 8.17,
+    "f16_1cn7": 0.03,
+    "f18_1cn9": 7.92,
+    "f20_1cn9": 0.18,
+    "f22_1cn9": 0.04,
+    "fapu": 3.87,
+    "fapun3": 1.2,
+    "f18_3cn3": 1.2,
+    "fapun6": 2.67,
+    "f18_2cn6": 2.67,
+    "fax": 0.44
+  },
+  "aminoAcids": {
+    "aae9": 0.01,
+    "ala": 0.01,
+    "asp": 0.01,
+    "glu": 0.05,
+    "leu": 0.01
+  },
+  "otherNutrients": {
+    "chorl": 0.292
+  },
+  "extra": {}
+}

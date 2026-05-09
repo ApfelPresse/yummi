@@ -1,0 +1,94 @@
+{
+  "name": "Reis parboiled, poliert, geschmort ohne Fett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 101,
+    "water": 68.8,
+    "protein": 2.405,
+    "fat": 0.27,
+    "carbs": 22.1,
+    "fiber": 0.5,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.01,
+    "tocpha": 0.01,
+    "tocphg": 0.05,
+    "toctra": 0.01,
+    "thia": 0.05,
+    "ribf": 0.01,
+    "niaeq": 0.812,
+    "nia": 0.295,
+    "pantac": 0.2,
+    "vitb6": 90,
+    "biot": 1,
+    "fol": 2,
+    "folfd": 2
+  },
+  "minerals": {
+    "k": 38,
+    "ca": 2,
+    "mg": 26,
+    "p": 44,
+    "fe": 0.244,
+    "zn": 0.597,
+    "id": 0.2,
+    "cu": 99,
+    "mn": 922,
+    "fd": 16,
+    "cr": 1,
+    "mo": 13
+  },
+  "carbohydrates": {
+    "cho": 22.1,
+    "mnsac": 0.04,
+    "glus": 0.03,
+    "frus": 0.01,
+    "disac": 0.06,
+    "sucs": 0.06,
+    "sugar": 0.1,
+    "starch": 22
+  },
+  "fibers": {
+    "fibt": 0.5,
+    "fibins": 0.2,
+    "fibsol": 0.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.076,
+    "f16_0": 0.072,
+    "f18_0": 0.004,
+    "fax": 0.15
+  },
+  "aminoAcids": {
+    "aae9": 0.85,
+    "ala": 0.132,
+    "arg": 0.184,
+    "asp": 0.221,
+    "cyste": 0.036,
+    "glu": 0.4,
+    "gly": 0.105,
+    "his": 0.053,
+    "ile": 0.101,
+    "leu": 0.187,
+    "lys": 0.075,
+    "met": 0.054,
+    "phe": 0.121,
+    "pro": 0.124,
+    "ser": 0.112,
+    "thr": 0.079,
+    "trp": 0.031,
+    "tyr": 0.065,
+    "val": 0.15
+  },
+  "otherNutrients": {
+    "nt": 0.385
+  },
+  "extra": {}
+}

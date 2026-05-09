@@ -1,0 +1,83 @@
+{
+  "name": "Fenchelblatt/Bologneser Fenchel, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 33,
+    "water": 86,
+    "protein": 2.43,
+    "fat": 0.3,
+    "carbs": 3.24,
+    "fiber": 4.19,
+    "alcohol": null,
+    "sugarAlcohols": 0.49
+  },
+  "vitamins": {
+    "vita": 783,
+    "vitaa": 392,
+    "cartb": 4700,
+    "vitk": 651,
+    "vitk1": 651,
+    "thia": 0.23,
+    "ribf": 0.11,
+    "niaeq": 0.567,
+    "nia": 0.2,
+    "pantac": 0.25,
+    "vitb6": 100,
+    "biot": 2,
+    "fol": 100,
+    "folfd": 100,
+    "vitc": 93
+  },
+  "minerals": {
+    "nacl": 0.215,
+    "na": 86,
+    "k": 494,
+    "ca": 109,
+    "mg": 49,
+    "p": 51,
+    "fe": 2.7,
+    "zn": 0.25,
+    "cu": 57
+  },
+  "carbohydrates": {
+    "cho": 3.24,
+    "mnsac": 2.23,
+    "glus": 1.97,
+    "frus": 0.26,
+    "disac": 0.517,
+    "sucs": 0.517,
+    "sugar": 2.75
+  },
+  "fibers": {
+    "fibt": 4.19,
+    "fibhmw": 4.19,
+    "fibins": 3.72,
+    "fibsol": 0.47
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.49,
+    "mantl": 0.21,
+    "sortl": 0.28
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.58,
+    "arg": 0.202,
+    "cyste": 0.012,
+    "his": 0.089,
+    "lys": 0.038,
+    "met": 0.028,
+    "phe": 0.14,
+    "trp": 0.022,
+    "tyr": 0.063,
+    "val": 0.263
+  },
+  "otherNutrients": {
+    "nt": 0.389
+  },
+  "extra": {}
+}

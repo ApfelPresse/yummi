@@ -1,0 +1,102 @@
+{
+  "name": "Sesam-Krokant",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 488,
+    "water": 7.7,
+    "protein": 10.657,
+    "fat": 25.704,
+    "carbs": 44.7,
+    "fiber": 5.702,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.13,
+    "tocpha": 0.13,
+    "tocphg": 11.63,
+    "tocphd": 0.15,
+    "vitk": 1.44,
+    "vitk1": 1.44,
+    "thia": 0.403,
+    "ribf": 0.128,
+    "niaeq": 4.772,
+    "nia": 2.305,
+    "pantac": 0.12,
+    "vitb6": 403,
+    "biot": 7,
+    "fol": 61,
+    "folfd": 61
+  },
+  "minerals": {
+    "nacl": 0.06,
+    "na": 24,
+    "k": 234,
+    "ca": 399,
+    "mg": 177,
+    "p": 310,
+    "fe": 5.142,
+    "zn": 3.03,
+    "cu": 845,
+    "mn": 930,
+    "cr": 6
+  },
+  "carbohydrates": {
+    "cho": 44.7,
+    "mnsac": 0.9,
+    "glus": 0.59,
+    "gals": 0.306,
+    "disac": 32,
+    "sucs": 24.806,
+    "mals": 7.2,
+    "sugar": 32.9,
+    "olsac": 11.7,
+    "starch": 0.112
+  },
+  "fibers": {
+    "fibt": 5.702
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 3.851,
+    "f16_0": 2.907,
+    "f18_0": 0.816,
+    "f20_0": 0.128,
+    "fams": 10.149,
+    "f18_1cn9": 10.149,
+    "fapu": 9.879,
+    "fapun3": 0.342,
+    "f18_3cn3": 0.342,
+    "fapun6": 9.537,
+    "f18_2cn6": 9.537
+  },
+  "aminoAcids": {
+    "aae9": 3.977,
+    "ala": 0.576,
+    "arg": 1.122,
+    "asp": 0.699,
+    "cyste": 0.133,
+    "glu": 1.902,
+    "gly": 0.755,
+    "his": 0.25,
+    "ile": 0.474,
+    "leu": 0.785,
+    "lys": 0.326,
+    "met": 0.326,
+    "phe": 0.638,
+    "pro": 0.576,
+    "ser": 0.505,
+    "thr": 0.464,
+    "trp": 0.148,
+    "tyr": 0.367,
+    "val": 0.566
+  },
+  "otherNutrients": {
+    "nt": 1.705
+  },
+  "extra": {}
+}

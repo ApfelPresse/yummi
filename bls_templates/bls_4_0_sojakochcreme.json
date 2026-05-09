@@ -1,0 +1,95 @@
+{
+  "name": "Sojakochcreme",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 157,
+    "water": 79,
+    "protein": 2.2,
+    "fat": 15.7,
+    "carbs": 1.4,
+    "fiber": 0.5,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "cartb": 2,
+    "vite": 4.3,
+    "tocpha": 4.3,
+    "tocphb": 0.2,
+    "tocphg": 1.7,
+    "tocphd": 1.9,
+    "vitk": 8.6,
+    "vitk1": 8.6,
+    "thia": 0.02,
+    "ribf": 0.01,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "vitb6": 36,
+    "fol": 9.7,
+    "folfd": 9.7
+  },
+  "minerals": {
+    "nacl": 0.132,
+    "na": 53,
+    "k": 105,
+    "ca": 13,
+    "mg": 13,
+    "p": 31,
+    "fe": 0.4,
+    "zn": 0.25,
+    "id": 0.8,
+    "cu": 90
+  },
+  "carbohydrates": {
+    "cho": 1.4,
+    "starch": 1.4
+  },
+  "fibers": {
+    "fibt": 0.5,
+    "fibhmw": 0.5,
+    "fibins": 0.5
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 1.6,
+    "f16_0": 0.9,
+    "f18_0": 0.6,
+    "f22_0": 0.1,
+    "fams": 7.1,
+    "f16_1cn7": 0.05,
+    "f18_1cn7": 0.2,
+    "f18_1cn9": 6.79,
+    "f20_1cn9": 0.06,
+    "fapu": 5.07,
+    "fapun3": 0.51,
+    "f18_3cn3": 0.51,
+    "fapun6": 4.56,
+    "f18_2cn6": 4.55,
+    "f20_2cn6": 0.01,
+    "fax": 0.1
+  },
+  "aminoAcids": {
+    "aae9": 0.7,
+    "ala": 0.1,
+    "arg": 0.2,
+    "asp": 0.2,
+    "glu": 0.4,
+    "ile": 0.1,
+    "leu": 0.2,
+    "lys": 0.1,
+    "phe": 0.1,
+    "pro": 0.1,
+    "ser": 0.1,
+    "thr": 0.1,
+    "tyr": 0.1,
+    "val": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.4
+  },
+  "extra": {}
+}

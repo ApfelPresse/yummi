@@ -1,0 +1,109 @@
+{
+  "name": "Spitzkohl roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 31,
+    "water": 92.5,
+    "protein": 1.21,
+    "fat": 0.18,
+    "carbs": 4.54,
+    "fiber": 3,
+    "alcohol": null,
+    "sugarAlcohols": 0.14
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 4,
+    "cartb": 42,
+    "carotpaxb": 9,
+    "vite": 0.293,
+    "tocpha": 0.293,
+    "tocphg": 0.002,
+    "toctra": 0.04,
+    "vitk": 90,
+    "vitk1": 90,
+    "thia": 0.05,
+    "ribf": 0.03,
+    "niaeq": 0.5,
+    "nia": 0.3,
+    "pantac": 0.14,
+    "vitb6": 95,
+    "biot": 0.1,
+    "fol": 57,
+    "folfd": 57,
+    "vitc": 46
+  },
+  "minerals": {
+    "nacl": 0.045,
+    "na": 18,
+    "cld": 37,
+    "k": 246,
+    "ca": 47,
+    "mg": 15,
+    "p": 23,
+    "fe": 0.56,
+    "zn": 0.18,
+    "id": 2,
+    "cu": 23,
+    "mn": 159,
+    "fd": 12,
+    "cr": 0.5,
+    "mo": 8.24
+  },
+  "carbohydrates": {
+    "cho": 4.54,
+    "mnsac": 4.2,
+    "glus": 2.33,
+    "frus": 1.87,
+    "disac": 0.198,
+    "sucs": 0.198,
+    "sugar": 4.4
+  },
+  "fibers": {
+    "fibt": 3,
+    "fibhmw": 3,
+    "fibins": 2.2,
+    "fibsol": 0.8
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.14,
+    "sortl": 0.14
+  },
+  "fattyAcids": {
+    "fasat": 0.022,
+    "f12_0": 0.001,
+    "f14_0": 0.001,
+    "f16_0": 0.019,
+    "f18_0": 0.001,
+    "fax": 0.094
+  },
+  "aminoAcids": {
+    "aae9": 0.363,
+    "ala": 0.042,
+    "arg": 0.069,
+    "asp": 0.119,
+    "cyste": 0.01,
+    "glu": 0.27,
+    "gly": 0.027,
+    "his": 0.025,
+    "ile": 0.061,
+    "leu": 0.063,
+    "lys": 0.057,
+    "met": 0.012,
+    "phe": 0.039,
+    "pro": 0.238,
+    "ser": 0.071,
+    "thr": 0.042,
+    "trp": 0.012,
+    "tyr": 0.021,
+    "val": 0.052
+  },
+  "otherNutrients": {
+    "nt": 0.19
+  },
+  "extra": {}
+}

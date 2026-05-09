@@ -1,0 +1,70 @@
+{
+  "name": "Acerolasaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 15,
+    "water": 89.551,
+    "protein": 0.189,
+    "fat": 0.184,
+    "carbs": 2.394,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 28,
+    "vitaa": 14,
+    "cartb": 165,
+    "thia": 0.016,
+    "ribf": 0.058,
+    "niaeq": 0.328,
+    "nia": 0.328,
+    "pantac": 0.264,
+    "vitb6": 7,
+    "biot": 2,
+    "vitc": 1014
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 10,
+    "k": 71,
+    "ca": 11.7,
+    "mg": 12,
+    "p": 16.8,
+    "fe": 0.228,
+    "zn": 0.1
+  },
+  "carbohydrates": {
+    "cho": 2.394,
+    "mnsac": 2.394,
+    "glus": 1.08,
+    "frus": 1.314,
+    "sugar": 2.394
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.041,
+    "f14_0": 0.001,
+    "f16_0": 0.03,
+    "f18_0": 0.01,
+    "fams": 0.051,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.05,
+    "fapu": 0.055,
+    "fapun3": 0.027,
+    "f18_3cn3": 0.027,
+    "fapun6": 0.028,
+    "f18_2cn6": 0.028
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.031
+  },
+  "extra": {}
+}

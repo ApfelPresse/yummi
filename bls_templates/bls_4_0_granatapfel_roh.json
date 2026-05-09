@@ -1,0 +1,66 @@
+{
+  "name": "Granatapfel roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 79,
+    "water": 79.06,
+    "protein": 0.7,
+    "fat": 0.6,
+    "carbs": 16.1,
+    "fiber": 2.24,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 7,
+    "vitaa": 3,
+    "cartb": 40,
+    "vitk": 16.4,
+    "vitk1": 16.4,
+    "thia": 0.05,
+    "ribf": 0.02,
+    "niaeq": 0.3,
+    "nia": 0.3,
+    "pantac": 0.596,
+    "vitb6": 100,
+    "vitc": 7
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 220,
+    "ca": 8,
+    "mg": 3,
+    "p": 17,
+    "fe": 0.5,
+    "zn": 0.3,
+    "cu": 120,
+    "mn": 130
+  },
+  "carbohydrates": {
+    "cho": 16.1,
+    "mnsac": 15.1,
+    "glus": 7.2,
+    "frus": 7.9,
+    "disac": 1,
+    "sucs": 1,
+    "sugar": 16.1
+  },
+  "fibers": {
+    "fibt": 2.24,
+    "fibhmw": 2.24,
+    "fibins": 1.98,
+    "fibsol": 0.26
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.112
+  },
+  "extra": {}
+}

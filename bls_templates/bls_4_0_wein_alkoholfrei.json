@@ -1,0 +1,63 @@
+{
+  "name": "Wein alkoholfrei",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 18,
+    "water": 86.7,
+    "protein": 0.097,
+    "fat": null,
+    "carbs": 3,
+    "fiber": null,
+    "alcohol": 0.5,
+    "sugarAlcohols": 0.008
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 5,
+    "vite": 0.003,
+    "tocpha": 0.003,
+    "ribf": 0.1,
+    "pantac": 0.45,
+    "biot": 0.11,
+    "fol": 3.5,
+    "folfd": 3.5,
+    "vitc": 5.1
+  },
+  "minerals": {
+    "nacl": 0.0048,
+    "na": 1.9,
+    "k": 67.6,
+    "ca": 7.6,
+    "mg": 6.6,
+    "p": 16.9,
+    "s": 10,
+    "fe": 0.117,
+    "zn": 0.07,
+    "cu": 7.1,
+    "mn": 88.6,
+    "cr": 1.2,
+    "mo": 0.6
+  },
+  "carbohydrates": {
+    "cho": 3,
+    "mnsac": 3,
+    "glus": 1.69,
+    "frus": 1.31,
+    "sugar": 3
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.008,
+    "sortl": 0.008
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.016
+  },
+  "extra": {}
+}

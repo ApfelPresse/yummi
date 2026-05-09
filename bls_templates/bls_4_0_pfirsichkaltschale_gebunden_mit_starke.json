@@ -1,0 +1,112 @@
+{
+  "name": "Pfirsichkaltschale gebunden mit Stärke",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 61,
+    "water": 82.4,
+    "protein": 0.7,
+    "fat": 0.081,
+    "carbs": 13.57,
+    "fiber": 1.3,
+    "alcohol": 0.002,
+    "sugarAlcohols": 0.75
+  },
+  "vitamins": {
+    "vita": 15,
+    "vitaa": 7,
+    "cartb": 53,
+    "carotpaxb": 73,
+    "vite": 0.331,
+    "tocpha": 0.331,
+    "tocphg": 0.007,
+    "toctra": 0.015,
+    "vitk": 2.8,
+    "vitk1": 2.8,
+    "thia": 0.033,
+    "ribf": 0.028,
+    "niaeq": 0.808,
+    "nia": 0.791,
+    "pantac": 0.14,
+    "vitb6": 25,
+    "biot": 2,
+    "fol": 9,
+    "folfd": 9,
+    "vitc": 15.435
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 2,
+    "k": 186,
+    "ca": 10,
+    "mg": 10,
+    "p": 19,
+    "fe": 0.2,
+    "zn": 0.1,
+    "id": 1,
+    "cu": 70,
+    "mn": 70,
+    "fd": 9,
+    "mo": 0.19
+  },
+  "carbohydrates": {
+    "cho": 13.57,
+    "mnsac": 4.87,
+    "glus": 2.39,
+    "frus": 2.48,
+    "disac": 6.836,
+    "sucs": 6.836,
+    "sugar": 11.71,
+    "starch": 1.112
+  },
+  "fibers": {
+    "fibt": 1.3
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.75,
+    "mantl": 0.12,
+    "sortl": 0.63
+  },
+  "fattyAcids": {
+    "fasat": 0.008,
+    "f16_0": 0.007,
+    "f18_0": 0.001,
+    "fams": 0.025,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.024,
+    "fapu": 0.033,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.032,
+    "f18_2cn6": 0.032
+  },
+  "aminoAcids": {
+    "aae9": 0.083,
+    "ala": 0.022,
+    "arg": 0.024,
+    "asp": 0.266,
+    "cyste": 0.004,
+    "glu": 0.045,
+    "gly": 0.01,
+    "his": 0.001,
+    "ile": 0.002,
+    "leu": 0.022,
+    "lys": 0.019,
+    "met": 0.001,
+    "phe": 0.002,
+    "pro": 0.014,
+    "ser": 0.026,
+    "thr": 0.017,
+    "trp": 0.001,
+    "tyr": 0.001,
+    "val": 0.018
+  },
+  "otherNutrients": {
+    "nt": 0.148
+  },
+  "extra": {}
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Kohlrabi gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 30,
+    "water": 91.1,
+    "protein": 2.042,
+    "fat": 0.168,
+    "carbs": 4.09,
+    "fiber": 1.6,
+    "alcohol": null,
+    "sugarAlcohols": 0.15
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 9,
+    "carotpaxb": 2,
+    "vite": 0.0658,
+    "tocpha": 0.0658,
+    "tocphg": 0.0132,
+    "vitk": 7,
+    "vitk1": 7,
+    "thia": 0.045,
+    "ribf": 0.046,
+    "niaeq": 2.017,
+    "nia": 1.8,
+    "pantac": 0.095,
+    "vitb6": 67,
+    "biot": 3,
+    "fol": 51.7,
+    "folfd": 51.7,
+    "vitc": 53.305
+  },
+  "minerals": {
+    "nacl": 0.052,
+    "na": 21,
+    "cld": 39,
+    "k": 339,
+    "ca": 62,
+    "mg": 45,
+    "p": 52.3,
+    "fe": 0.2,
+    "zn": 0.18,
+    "id": 0.728,
+    "cu": 28,
+    "mn": 70,
+    "fd": 13,
+    "cr": 4,
+    "mo": 4
+  },
+  "carbohydrates": {
+    "cho": 4.09,
+    "mnsac": 2.756,
+    "glus": 1.458,
+    "frus": 1.298,
+    "disac": 1.143,
+    "sucs": 1.143,
+    "sugar": 3.899,
+    "olsac": 0.042
+  },
+  "fibers": {
+    "fibt": 1.6,
+    "fibhmw": 1.6,
+    "fibins": 1.1,
+    "fibsol": 0.5
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.15,
+    "sortl": 0.15
+  },
+  "fattyAcids": {
+    "fasat": 0.029,
+    "f14_0": 0.0002,
+    "f16_0": 0.0247,
+    "f18_0": 0.0035,
+    "f20_0": 0.001,
+    "fams": 0.0145,
+    "f16_1cn7": 0.0024,
+    "f18_1cn9": 0.0121,
+    "fapu": 0.074,
+    "fapun3": 0.049,
+    "f18_3cn3": 0.049,
+    "fapun6": 0.025,
+    "f18_2cn6": 0.025
+  },
+  "aminoAcids": {
+    "aae9": 0.479,
+    "arg": 0.126,
+    "his": 0.039,
+    "ile": 0.094,
+    "leu": 0.082,
+    "lys": 0.067,
+    "met": 0.017,
+    "phe": 0.047,
+    "thr": 0.059,
+    "trp": 0.013,
+    "val": 0.061
+  },
+  "otherNutrients": {
+    "nt": 0.326
+  },
+  "extra": {}
+}

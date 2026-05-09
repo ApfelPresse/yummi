@@ -1,0 +1,42 @@
+{
+  "name": "Meersalz",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": null,
+    "water": null,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 95.3625,
+    "na": 38145,
+    "cld": 57885,
+    "k": 37,
+    "ca": 67,
+    "mg": 25,
+    "p": 6.695,
+    "s": 24,
+    "zn": 0.086,
+    "id": 42,
+    "cu": 20,
+    "mn": 98,
+    "cr": 5,
+    "mo": 2.5
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

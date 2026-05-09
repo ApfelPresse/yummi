@@ -1,0 +1,47 @@
+{
+  "name": "Apfelessig",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 18,
+    "water": 93.2,
+    "protein": 0.2,
+    "fat": null,
+    "carbs": 0.147,
+    "fiber": null,
+    "alcohol": 0.097,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.045,
+    "na": 18,
+    "cld": 0.8,
+    "k": 100,
+    "ca": 5.8,
+    "mg": 4.2,
+    "p": 6,
+    "fe": 0.12,
+    "zn": 0.036,
+    "cu": 2,
+    "mn": 36,
+    "cr": 1.8,
+    "mo": 0.57
+  },
+  "carbohydrates": {
+    "cho": 0.147,
+    "mnsac": 0.147,
+    "glus": 0.017,
+    "frus": 0.13,
+    "sugar": 0.147
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

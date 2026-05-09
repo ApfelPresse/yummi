@@ -1,0 +1,109 @@
+{
+  "name": "Aubergine geschmort ohne Fett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 24,
+    "water": 91.7,
+    "protein": 0.705,
+    "fat": 0.223,
+    "carbs": 3.78,
+    "fiber": 1.8,
+    "alcohol": null,
+    "sugarAlcohols": 0.14
+  },
+  "vitamins": {
+    "vita": 7.75,
+    "vitaa": 3.87,
+    "cartb": 46.49,
+    "vite": 0.038,
+    "tocpha": 0.038,
+    "vitk": 1,
+    "vitk1": 1,
+    "thia": 0.037,
+    "ribf": 0.056,
+    "niaeq": 0.802,
+    "nia": 0.652,
+    "pantac": 0.239,
+    "vitb6": 66,
+    "biot": 2.2,
+    "fol": 38,
+    "folfd": 38,
+    "vitc": 4.09
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 69,
+    "k": 217,
+    "ca": 10,
+    "mg": 15.6,
+    "p": 26.8,
+    "fe": 0.25,
+    "zn": 0.14,
+    "id": 1,
+    "cu": 48,
+    "mn": 188
+  },
+  "carbohydrates": {
+    "cho": 3.78,
+    "mnsac": 3.1,
+    "glus": 2.05,
+    "frus": 1.05,
+    "disac": 0.263,
+    "sucs": 0.138,
+    "mals": 0.125,
+    "sugar": 3.36,
+    "starch": 0.275
+  },
+  "fibers": {
+    "fibt": 1.8,
+    "fibhmw": 1.8,
+    "fibins": 1.6,
+    "fibsol": 0.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.14,
+    "sortl": 0.14
+  },
+  "fattyAcids": {
+    "fasat": 0.048,
+    "f16_0": 0.036,
+    "f18_0": 0.012,
+    "fams": 0.023,
+    "f16_1cn7": 0.0028,
+    "f18_1cn9": 0.02,
+    "fapu": 0.108,
+    "fapun3": 0.019,
+    "f18_3cn3": 0.019,
+    "fapun6": 0.089,
+    "f18_2cn6": 0.089
+  },
+  "aminoAcids": {
+    "aae9": 0.328,
+    "ala": 0.037,
+    "arg": 0.047,
+    "asp": 0.124,
+    "cyste": 0.007,
+    "glu": 0.142,
+    "gly": 0.032,
+    "his": 0.012,
+    "ile": 0.04,
+    "leu": 0.073,
+    "lys": 0.047,
+    "met": 0.005,
+    "phe": 0.033,
+    "pro": 0.02,
+    "ser": 0.037,
+    "thr": 0.042,
+    "trp": 0.009,
+    "val": 0.067
+  },
+  "otherNutrients": {
+    "nt": 0.113
+  },
+  "extra": {}
+}

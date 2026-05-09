@@ -1,0 +1,51 @@
+{
+  "name": "Balsamicoessig",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 95,
+    "water": 79.85,
+    "protein": null,
+    "fat": null,
+    "carbs": 20.04,
+    "fiber": null,
+    "alcohol": 0.086,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "niaeq": 0.08,
+    "nia": 0.08,
+    "vitb6": 40
+  },
+  "minerals": {
+    "nacl": 0.055,
+    "na": 22,
+    "k": 67,
+    "ca": 16,
+    "mg": 12,
+    "p": 24,
+    "fe": 0.29,
+    "zn": 0.1,
+    "id": 1,
+    "cu": 26,
+    "mn": 131,
+    "cr": 3,
+    "mo": 0.18
+  },
+  "carbohydrates": {
+    "cho": 20.04,
+    "mnsac": 20.04,
+    "glus": 9.54,
+    "frus": 10.5,
+    "sugar": 20.04
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

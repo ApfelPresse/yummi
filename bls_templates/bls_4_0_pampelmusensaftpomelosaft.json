@@ -1,0 +1,91 @@
+{
+  "name": "Pampelmusensaft/Pomelosaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 35,
+    "water": 90.5,
+    "protein": 0.8,
+    "fat": 0.3,
+    "carbs": 6.22,
+    "fiber": 0.2,
+    "alcohol": 0.021,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 8,
+    "carotpaxb": 12,
+    "vite": 0.725,
+    "tocpha": 0.725,
+    "vitk": 0.1,
+    "vitk1": 0.1,
+    "thia": 0.03,
+    "ribf": 0.02,
+    "niaeq": 0.3,
+    "nia": 0.2,
+    "pantac": 0.22,
+    "vitb6": 40,
+    "biot": 1,
+    "fol": 20,
+    "folfd": 20,
+    "vitc": 35.6
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 4,
+    "k": 162,
+    "ca": 19,
+    "mg": 8,
+    "p": 17,
+    "fe": 0.16,
+    "zn": 0.09,
+    "id": 0.05,
+    "cu": 48,
+    "mn": 17,
+    "fd": 5,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 6.22,
+    "mnsac": 2.2,
+    "glus": 1.1,
+    "frus": 1.1,
+    "disac": 4.02,
+    "sucs": 4.02,
+    "sugar": 6.22
+  },
+  "fibers": {
+    "fibt": 0.2,
+    "fibhmw": 0.2,
+    "fibins": 0.1,
+    "fibsol": 0.1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.1,
+    "f16_0": 0.1,
+    "fams": 0.1,
+    "f18_1cn9": 0.1,
+    "fapu": 0.1,
+    "fapun6": 0.1,
+    "f18_2cn6": 0.1
+  },
+  "aminoAcids": {
+    "aae9": 0.005,
+    "arg": 0.1,
+    "asp": 0.2,
+    "glu": 0.1,
+    "pro": 0.1,
+    "trp": 0.005
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

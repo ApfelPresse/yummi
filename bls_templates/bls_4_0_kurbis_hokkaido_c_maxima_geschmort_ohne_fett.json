@@ -1,0 +1,112 @@
+{
+  "name": "Kürbis Hokkaido (C. maxima) geschmort ohne Fett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 33,
+    "water": 83.601,
+    "protein": 1.523,
+    "fat": 0.218,
+    "carbs": 5.821,
+    "fiber": 0.857,
+    "alcohol": null,
+    "sugarAlcohols": 0.009
+  },
+  "vitamins": {
+    "vita": 504,
+    "vitaa": 252,
+    "cartb": 2363,
+    "carotpaxb": 1323,
+    "vite": 1.099,
+    "tocpha": 1.099,
+    "vitk": 4,
+    "vitk1": 4,
+    "thia": 0.076,
+    "ribf": 0.065,
+    "niaeq": 1.58,
+    "nia": 1.53,
+    "pantac": 0.365,
+    "vitb6": 94,
+    "biot": 0.4,
+    "fol": 46,
+    "folfd": 46,
+    "vitc": 12.308
+  },
+  "minerals": {
+    "nacl": 0.02,
+    "na": 8,
+    "cld": 84.4,
+    "k": 443,
+    "ca": 34.4,
+    "mg": 18.6,
+    "p": 41,
+    "fe": 0.536,
+    "zn": 0.3,
+    "id": 1.5,
+    "cu": 51.1,
+    "mn": 54.3,
+    "cr": 2.9
+  },
+  "carbohydrates": {
+    "cho": 5.821,
+    "mnsac": 3.043,
+    "glus": 1.505,
+    "frus": 1.538,
+    "disac": 2,
+    "sucs": 2,
+    "sugar": 5.043,
+    "starch": 0.769
+  },
+  "fibers": {
+    "fibt": 0.857,
+    "fibhmw": 0.857,
+    "fibins": 0.824,
+    "fibsol": 0.033
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.009,
+    "xyltl": 0.009
+  },
+  "fattyAcids": {
+    "fasat": 0.051,
+    "f12_0": 0.001,
+    "f16_0": 0.045,
+    "f18_0": 0.005,
+    "fams": 0.019,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.018,
+    "fapu": 0.105,
+    "fapun3": 0.066,
+    "f18_3cn3": 0.066,
+    "fapun6": 0.039,
+    "f18_2cn6": 0.039
+  },
+  "aminoAcids": {
+    "aae9": 0.327,
+    "ala": 0.172,
+    "arg": 0.052,
+    "asp": 0.247,
+    "cyste": 0.003,
+    "glu": 0.379,
+    "gly": 0.047,
+    "his": 0.027,
+    "ile": 0.038,
+    "leu": 0.052,
+    "lys": 0.054,
+    "met": 0.022,
+    "phe": 0.041,
+    "pro": 0.035,
+    "ser": 0.076,
+    "thr": 0.03,
+    "trp": 0.003,
+    "tyr": 0.025,
+    "val": 0.06
+  },
+  "otherNutrients": {
+    "nt": 0.244
+  },
+  "extra": {}
+}

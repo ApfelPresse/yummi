@@ -1,0 +1,103 @@
+{
+  "name": "Aprikose getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 216,
+    "water": 32.5,
+    "protein": 2.66,
+    "fat": 0.23,
+    "carbs": 44,
+    "fiber": 6.04,
+    "alcohol": null,
+    "sugarAlcohols": 4.922
+  },
+  "vitamins": {
+    "vita": 78,
+    "vitaa": 39,
+    "cartb": 440,
+    "carotpaxb": 50,
+    "vite": 4.35,
+    "tocpha": 4.35,
+    "tocphb": 0.11,
+    "tocphg": 0.0765,
+    "vitk": 2.8,
+    "vitk1": 2.8,
+    "ribf": 0.08,
+    "niaeq": 1.53,
+    "nia": 1.3,
+    "pantac": 0.35,
+    "vitb6": 118,
+    "biot": 0.63,
+    "fol": 6.5,
+    "folfd": 6.5,
+    "vitc": 11
+  },
+  "minerals": {
+    "nacl": 0.0052,
+    "na": 2.1,
+    "cld": 11,
+    "k": 1136.2,
+    "ca": 63.4,
+    "mg": 34.4,
+    "p": 66.6,
+    "s": 191,
+    "fe": 1.19,
+    "zn": 0.55,
+    "cu": 385,
+    "mn": 240,
+    "fd": 50,
+    "cr": 5.2,
+    "mo": 6.4
+  },
+  "carbohydrates": {
+    "cho": 44,
+    "mnsac": 31.18,
+    "glus": 23.64,
+    "frus": 7.54,
+    "disac": 7.28,
+    "sucs": 7.28,
+    "sugar": 38.46,
+    "starch": 0.62
+  },
+  "fibers": {
+    "fibt": 6.04,
+    "fibhmw": 6.04,
+    "fibins": 3.1,
+    "fibsol": 2.94
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 4.922,
+    "sortl": 4.6,
+    "xyltl": 0.322
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.411,
+    "ala": 0.072,
+    "arg": 0.054,
+    "asp": 0.576,
+    "cyste": 0.018,
+    "glu": 0.127,
+    "gly": 0.06,
+    "his": 0.029,
+    "ile": 0.044,
+    "leu": 0.085,
+    "lys": 0.061,
+    "met": 0.016,
+    "phe": 0.054,
+    "pro": 0.625,
+    "ser": 0.06,
+    "thr": 0.051,
+    "trp": 0.014,
+    "tyr": 0.036,
+    "val": 0.057
+  },
+  "otherNutrients": {
+    "nt": 0.43
+  },
+  "extra": {}
+}

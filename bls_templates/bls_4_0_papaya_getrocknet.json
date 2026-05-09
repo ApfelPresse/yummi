@@ -1,0 +1,90 @@
+{
+  "name": "Papaya getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 289,
+    "water": 20,
+    "protein": 4.4,
+    "fat": 0.568,
+    "carbs": 60.2,
+    "fiber": 12,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 381,
+    "vitaa": 191,
+    "cartb": 518.8,
+    "carotpaxb": 3539,
+    "vite": 1.77,
+    "tocpha": 1.77,
+    "tocphb": 0.69,
+    "tocphg": 1.51,
+    "tocphd": 0.44,
+    "vitk": 16.4,
+    "vitk1": 16.4,
+    "thia": 0.132,
+    "ribf": 0.221,
+    "niaeq": 1.703,
+    "nia": 1.703,
+    "pantac": 1.25,
+    "vitb6": 230,
+    "biot": 1.7,
+    "vitc": 101.296
+  },
+  "minerals": {
+    "nacl": 0.22,
+    "na": 88,
+    "k": 1356,
+    "ca": 132,
+    "mg": 107,
+    "p": 57,
+    "fe": 1.39,
+    "zn": 1.45,
+    "id": 0.6,
+    "cu": 190,
+    "mn": 130
+  },
+  "carbohydrates": {
+    "cho": 60.2,
+    "mnsac": 59.9,
+    "glus": 30.3,
+    "frus": 29.6,
+    "disac": 0.32,
+    "mals": 0.32,
+    "sugar": 60.2
+  },
+  "fibers": {
+    "fibt": 12,
+    "fibhmw": 12,
+    "fibins": 6.9,
+    "fibsol": 5
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.169,
+    "f14_0": 0.0284,
+    "f16_0": 0.132,
+    "f18_0": 0.0082,
+    "fams": 0.158,
+    "f16_1cn7": 0.082,
+    "f18_1cn9": 0.076,
+    "fapu": 0.125,
+    "fapun3": 0.101,
+    "f18_3cn3": 0.101,
+    "fapun6": 0.024,
+    "f18_2cn6": 0.024
+  },
+  "aminoAcids": {
+    "asp": 0.6,
+    "glu": 0.6
+  },
+  "otherNutrients": {
+    "nt": 0.6
+  },
+  "extra": {}
+}

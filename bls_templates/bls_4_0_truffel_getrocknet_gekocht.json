@@ -1,0 +1,95 @@
+{
+  "name": "Trüffel getrocknet, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 128,
+    "water": 55.1,
+    "protein": 14.154,
+    "fat": 0.871,
+    "carbs": 1,
+    "fiber": 29.501,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitd": 5.9,
+    "ergcal": 5.9,
+    "vite": 0.095,
+    "tocpha": 0.095,
+    "thia": 0.126,
+    "ribf": 0.078,
+    "niaeq": 0.633,
+    "pantac": 0.51,
+    "vitb6": 180,
+    "fol": 3.3,
+    "folfd": 3.3,
+    "vitc": 1.101
+  },
+  "minerals": {
+    "nacl": 0.295,
+    "na": 118,
+    "cld": 47.8,
+    "k": 669,
+    "ca": 43,
+    "mg": 33.9,
+    "p": 106,
+    "fe": 5.579,
+    "mn": 777
+  },
+  "carbohydrates": {
+    "cho": 1,
+    "mnsac": 1,
+    "glus": 1,
+    "sugar": 1
+  },
+  "fibers": {
+    "fibt": 29.501,
+    "fibhmw": 29.501,
+    "fibins": 23.291,
+    "fibsol": 6.21
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.156,
+    "f4_0": 0.009,
+    "f8_0": 0.002,
+    "f10_0": 0.007,
+    "f14_0": 0.004,
+    "f15_0": 0.002,
+    "f16_0": 0.089,
+    "f17_0": 0.002,
+    "f18_0": 0.022,
+    "f20_0": 0.009,
+    "f22_0": 0.005,
+    "f24_0": 0.005,
+    "fams": 0.019,
+    "f14_1cn5": 0.004,
+    "f18_1cn9": 0.015,
+    "fapu": 0.436,
+    "fapun6": 0.436,
+    "f18_2cn6": 0.436,
+    "fax": 0.006
+  },
+  "aminoAcids": {
+    "aae9": 3.739,
+    "arg": 1.221,
+    "cyste": 0.282,
+    "his": 0.188,
+    "ile": 0.3,
+    "leu": 0.751,
+    "lys": 0.921,
+    "phe": 0.357,
+    "thr": 0.714,
+    "trp": 0.038,
+    "tyr": 0.338,
+    "val": 0.47
+  },
+  "otherNutrients": {
+    "nt": 2.491
+  },
+  "extra": {}
+}

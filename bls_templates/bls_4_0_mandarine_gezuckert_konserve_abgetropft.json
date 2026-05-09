@@ -1,0 +1,88 @@
+{
+  "name": "Mandarine gezuckert, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 72,
+    "water": 84.5,
+    "protein": 0.51,
+    "fat": 0.31,
+    "carbs": 16.15,
+    "fiber": 0.51,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 12,
+    "vitaa": 6,
+    "cartb": 72,
+    "vite": 0.45,
+    "tocpha": 0.45,
+    "tocphg": 0.016,
+    "thia": 0.04,
+    "niaeq": 0.19,
+    "nia": 0.11,
+    "pantac": 0.06,
+    "fol": 10,
+    "folfd": 10,
+    "vitc": 12.5
+  },
+  "minerals": {
+    "nacl": 0.0128,
+    "na": 5.1,
+    "k": 76.4,
+    "ca": 14.9,
+    "mg": 6.8,
+    "p": 9.7,
+    "fe": 0.19,
+    "zn": 0.04,
+    "cu": 21,
+    "mn": 20,
+    "cr": 3.4,
+    "mo": 0.4
+  },
+  "carbohydrates": {
+    "cho": 16.15,
+    "mnsac": 12.3,
+    "glus": 6.6,
+    "frus": 5.7,
+    "disac": 3.85,
+    "sucs": 3.85,
+    "sugar": 16.15
+  },
+  "fibers": {
+    "fibt": 0.51,
+    "fibhmw": 0.51
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.054,
+    "f16_0": 0.037,
+    "f18_0": 0.017,
+    "fams": 0.091,
+    "f16_1cn7": 0.0041,
+    "f18_1cn9": 0.087,
+    "fapu": 0.019,
+    "fapun3": 0.0019,
+    "f18_3cn3": 0.0019,
+    "fapun6": 0.017,
+    "f18_2cn6": 0.017,
+    "fax": 0.0004
+  },
+  "aminoAcids": {
+    "aae9": 0.045,
+    "ala": 0.013,
+    "arg": 0.04,
+    "asp": 0.074,
+    "glu": 0.014,
+    "pro": 0.022,
+    "ser": 0.012
+  },
+  "otherNutrients": {
+    "nt": 0.08
+  },
+  "extra": {}
+}

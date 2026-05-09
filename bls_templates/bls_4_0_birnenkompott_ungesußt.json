@@ -1,0 +1,113 @@
+{
+  "name": "Birnenkompott ungesüßt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 34,
+    "water": 90.5,
+    "protein": 0.185,
+    "fat": 0.2,
+    "carbs": 7.45,
+    "fiber": 1.6,
+    "alcohol": 0.003,
+    "sugarAlcohols": 1.73
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 4,
+    "carotpaxb": 2,
+    "vite": 0.136,
+    "tocpha": 0.136,
+    "tocphb": 0.006,
+    "tocphg": 0.045,
+    "toctra": 0.067,
+    "vitk": 2.5,
+    "vitk1": 2.5,
+    "thia": 0.012,
+    "ribf": 0.023,
+    "niaeq": 0.122,
+    "nia": 0.105,
+    "pantac": 0.05,
+    "vitb6": 18,
+    "fol": 2,
+    "folfd": 2,
+    "vitc": 2.785
+  },
+  "minerals": {
+    "nacl": 0.0042,
+    "na": 1.7,
+    "cld": 2,
+    "k": 73,
+    "ca": 7,
+    "mg": 4,
+    "p": 7,
+    "s": 0.7,
+    "fe": 0.1,
+    "zn": 0.06,
+    "id": 1,
+    "cu": 47,
+    "mn": 30,
+    "fd": 6,
+    "cr": 1,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 7.45,
+    "mnsac": 4.89,
+    "glus": 1.53,
+    "frus": 3.35,
+    "gals": 0.0066,
+    "disac": 0.83,
+    "sucs": 0.83,
+    "sugar": 5.72
+  },
+  "fibers": {
+    "fibt": 1.6
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.73,
+    "sortl": 1.73
+  },
+  "fattyAcids": {
+    "fasat": 0.024,
+    "f14_0": 0.0001,
+    "f16_0": 0.02,
+    "f18_0": 0.0042,
+    "fams": 0.037,
+    "f16_1cn7": 0.0018,
+    "f18_1cn9": 0.035,
+    "fapu": 0.077,
+    "fapun3": 0.012,
+    "f18_3cn3": 0.012,
+    "fapun6": 0.065,
+    "f18_2cn6": 0.065
+  },
+  "aminoAcids": {
+    "aae9": 0.045,
+    "ala": 0.008,
+    "arg": 0.005,
+    "asp": 0.048,
+    "cyste": 0.001,
+    "glu": 0.018,
+    "gly": 0.002,
+    "his": 0.004,
+    "ile": 0.004,
+    "leu": 0.009,
+    "lys": 0.009,
+    "met": 0.001,
+    "phe": 0.005,
+    "pro": 0.005,
+    "ser": 0.007,
+    "thr": 0.004,
+    "trp": 0.001,
+    "tyr": 0.001,
+    "val": 0.008
+  },
+  "otherNutrients": {
+    "nt": 0.03
+  },
+  "extra": {}
+}

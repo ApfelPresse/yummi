@@ -1,0 +1,62 @@
+{
+  "name": "Kokosfett gehärtet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.62,
+    "tocpha": 0.62,
+    "tocphb": 0.05,
+    "tocphg": 0.12,
+    "tocphd": 0.05,
+    "toctra": 0.37,
+    "vitk": 1.5,
+    "vitk1": 1.5
+  },
+  "minerals": {
+    "cld": 0.1,
+    "mg": 0.2,
+    "p": 0.9,
+    "fe": 0.02,
+    "cu": 2
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 92.1,
+    "f6_0": 0.49,
+    "f8_0": 6.26,
+    "f10_0": 5.1,
+    "f12_0": 42.5,
+    "f14_0": 17.6,
+    "f16_0": 9.51,
+    "f18_0": 10.4,
+    "f20_0": 0.15,
+    "f22_0": 0.02,
+    "f24_0": 0.05,
+    "fams": 1.38,
+    "f18_1cn7": 0.02,
+    "f18_1cn9": 1.34,
+    "f20_1cn9": 0.02,
+    "fapu": 0.31,
+    "fapun6": 0.31,
+    "f18_2cn6": 0.31,
+    "fax": 0.21
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

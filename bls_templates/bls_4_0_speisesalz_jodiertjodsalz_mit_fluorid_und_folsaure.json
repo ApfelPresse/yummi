@@ -1,0 +1,46 @@
+{
+  "name": "Speisesalz jodiert/Jodsalz, mit Fluorid und Folsäure",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": null,
+    "water": null,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "fol": 17000,
+    "folac": 10000
+  },
+  "minerals": {
+    "nacl": 95.3625,
+    "na": 38145,
+    "cld": 57885,
+    "k": 140,
+    "ca": 51.9,
+    "mg": 4.825,
+    "p": 6.695,
+    "s": 24,
+    "zn": 0.086,
+    "id": 2000,
+    "cu": 20,
+    "mn": 98,
+    "fd": 31000,
+    "cr": 5,
+    "mo": 2.5
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

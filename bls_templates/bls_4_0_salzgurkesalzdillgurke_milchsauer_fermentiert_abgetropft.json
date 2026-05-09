@@ -1,0 +1,82 @@
+{
+  "name": "Salzgurke/Salzdillgurke, milchsauer fermentiert, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 12,
+    "water": 94.1,
+    "protein": 0.52,
+    "fat": null,
+    "carbs": 1.38,
+    "fiber": 0.7,
+    "alcohol": null,
+    "sugarAlcohols": 0.022
+  },
+  "vitamins": {
+    "vita": 33,
+    "vitaa": 17,
+    "cartb": 200,
+    "vite": 0.23,
+    "tocpha": 0.23,
+    "tocphb": 0.015,
+    "tocphg": 0.1,
+    "tocphd": 0.013,
+    "vitk": 1.4,
+    "vitk2": 1.4,
+    "niaeq": 0.06,
+    "nia": 0.06,
+    "pantac": 0.06,
+    "biot": 0.8,
+    "fol": 1.2,
+    "folfd": 1.2,
+    "vitc": 2
+  },
+  "minerals": {
+    "nacl": 2.2488,
+    "na": 899.5,
+    "cld": 1500,
+    "k": 76.4,
+    "ca": 24.2,
+    "mg": 6.9,
+    "p": 10.2,
+    "fe": 0.24,
+    "zn": 0.07,
+    "cu": 25,
+    "mn": 45.5,
+    "cr": 1.4,
+    "mo": 1.8
+  },
+  "carbohydrates": {
+    "cho": 1.38,
+    "disac": 1.36,
+    "sucs": 1.36,
+    "sugar": 1.36
+  },
+  "fibers": {
+    "fibt": 0.7,
+    "fibhmw": 0.7,
+    "fibins": 0.54,
+    "fibsol": 0.16
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.022,
+    "mantl": 0.022
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.044,
+    "ala": 0.023,
+    "asp": 0.011,
+    "glu": 0.026,
+    "ile": 0.016,
+    "leu": 0.016,
+    "phe": 0.012
+  },
+  "otherNutrients": {
+    "nt": 0.08
+  },
+  "extra": {}
+}

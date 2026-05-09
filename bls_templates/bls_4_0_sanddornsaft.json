@@ -1,0 +1,97 @@
+{
+  "name": "Sanddornsaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 33,
+    "water": 91.5,
+    "protein": 0.94,
+    "fat": 2.33,
+    "carbs": 1.9,
+    "fiber": 0.4,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 243,
+    "vitaa": 121,
+    "cartb": 1455,
+    "vite": 3.05,
+    "tocpha": 3.05,
+    "thia": 0.027,
+    "ribf": 0.168,
+    "niaeq": 0.225,
+    "nia": 0.208,
+    "pantac": 0.12,
+    "vitb6": 88,
+    "biot": 2,
+    "fol": 23,
+    "folfd": 23,
+    "vitb12": 0.1,
+    "vitc": 266
+  },
+  "minerals": {
+    "nacl": 0.015,
+    "na": 6,
+    "cld": 0.38,
+    "k": 209,
+    "ca": 9,
+    "mg": 10,
+    "p": 14,
+    "fe": 0.342,
+    "zn": 0.21,
+    "cu": 80,
+    "mn": 196
+  },
+  "carbohydrates": {
+    "cho": 1.9,
+    "mnsac": 1.8,
+    "glus": 1.5,
+    "frus": 0.3,
+    "sugar": 1.8,
+    "starch": 0.1
+  },
+  "fibers": {
+    "fibt": 0.4
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.3,
+    "f16_0": 0.2,
+    "f18_0": 0.1,
+    "fams": 0.4,
+    "f18_1cn9": 0.4,
+    "fapu": 0.272,
+    "fapun3": 0.072,
+    "f18_3cn3": 0.072,
+    "fapun6": 0.2,
+    "f18_2cn6": 0.2
+  },
+  "aminoAcids": {
+    "aae9": 0.256,
+    "ala": 0.123,
+    "arg": 0.059,
+    "asp": 0.201,
+    "cyste": 0.004,
+    "glu": 0.181,
+    "gly": 0.046,
+    "his": 0.023,
+    "ile": 0.014,
+    "leu": 0.055,
+    "lys": 0.047,
+    "phe": 0.035,
+    "pro": 0.03,
+    "ser": 0.068,
+    "thr": 0.037,
+    "trp": 0.001,
+    "tyr": 0.028,
+    "val": 0.044
+  },
+  "otherNutrients": {
+    "nt": 0.15
+  },
+  "extra": {}
+}

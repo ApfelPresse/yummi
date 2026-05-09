@@ -1,0 +1,83 @@
+{
+  "name": "Topinambur/Erdartischocke, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 52,
+    "water": 85,
+    "protein": 2.288,
+    "fat": 0.384,
+    "carbs": 3.75,
+    "fiber": 11.693,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 11,
+    "vitk": 0.1,
+    "vitk1": 0.1,
+    "thia": 0.162,
+    "ribf": 0.051,
+    "niaeq": 1.747,
+    "nia": 1.097,
+    "vitc": 2.458
+  },
+  "minerals": {
+    "k": 416,
+    "ca": 15,
+    "mg": 16.1,
+    "p": 73,
+    "fe": 1.83,
+    "zn": 0.211,
+    "cu": 168,
+    "mn": 29
+  },
+  "carbohydrates": {
+    "cho": 3.75,
+    "disac": 3.75,
+    "sucs": 3.75,
+    "sugar": 3.75
+  },
+  "fibers": {
+    "fibt": 11.693,
+    "fibins": 8.289,
+    "fibsol": 3.404
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.089,
+    "f16_0": 0.084,
+    "f18_0": 0.0048,
+    "fams": 0.0072,
+    "f18_1cn9": 0.0072,
+    "fapu": 0.196,
+    "fapun3": 0.04,
+    "f18_3cn3": 0.04,
+    "fapun6": 0.156,
+    "f18_2cn6": 0.156
+  },
+  "aminoAcids": {
+    "aae9": 0.787,
+    "arg": 0.091,
+    "cyste": 0.035,
+    "his": 0.04,
+    "ile": 0.096,
+    "leu": 0.118,
+    "lys": 0.093,
+    "met": 0.039,
+    "phe": 0.111,
+    "thr": 0.096,
+    "trp": 0.039,
+    "tyr": 0.099,
+    "val": 0.155
+  },
+  "otherNutrients": {
+    "nt": 0.366
+  },
+  "extra": {}
+}

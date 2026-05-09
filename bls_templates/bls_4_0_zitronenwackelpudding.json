@@ -1,0 +1,110 @@
+{
+  "name": "Zitronenwackelpudding",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 80,
+    "water": 78.9,
+    "protein": 2.1,
+    "fat": 0.2,
+    "carbs": 14.994,
+    "fiber": 0.182,
+    "alcohol": 0.014,
+    "sugarAlcohols": 0.385
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 1,
+    "cartb": 6,
+    "carotpaxb": 20,
+    "vite": 0.384,
+    "tocpha": 0.384,
+    "vitk": 0.1,
+    "vitk1": 0.1,
+    "thia": 0.021,
+    "ribf": 0.01,
+    "niaeq": 0.178,
+    "nia": 0.145,
+    "pantac": 0.13,
+    "vitb6": 27,
+    "biot": 1,
+    "fol": 1.8,
+    "folfd": 1.8,
+    "vitc": 19.732
+  },
+  "minerals": {
+    "nacl": 0.02,
+    "na": 8,
+    "cld": 2,
+    "k": 100,
+    "ca": 12,
+    "mg": 7,
+    "p": 11,
+    "fe": 0.2,
+    "zn": 0.1,
+    "id": 2,
+    "cu": 40,
+    "mn": 30,
+    "fd": 5,
+    "cr": 1,
+    "mo": 0.25
+  },
+  "carbohydrates": {
+    "cho": 14.994,
+    "mnsac": 3.868,
+    "glus": 1.153,
+    "frus": 2.715,
+    "disac": 10.741,
+    "sucs": 10.741,
+    "sugar": 14.609
+  },
+  "fibers": {
+    "fibt": 0.182
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.385,
+    "sortl": 0.385
+  },
+  "fattyAcids": {
+    "fasat": 0.052,
+    "f14_0": 0.001,
+    "f16_0": 0.048,
+    "f18_0": 0.0029,
+    "fams": 0.016,
+    "f16_1cn7": 0.0015,
+    "f18_1cn9": 0.015,
+    "fapu": 0.121,
+    "fapun3": 0.035,
+    "f18_3cn3": 0.035,
+    "fapun6": 0.086,
+    "f18_2cn6": 0.086
+  },
+  "aminoAcids": {
+    "aae9": 0.383,
+    "ala": 0.197,
+    "arg": 0.157,
+    "asp": 0.158,
+    "cyste": 0.004,
+    "glu": 0.227,
+    "gly": 0.486,
+    "his": 0.017,
+    "ile": 0.037,
+    "leu": 0.061,
+    "lys": 0.098,
+    "met": 0.018,
+    "phe": 0.049,
+    "pro": 0.286,
+    "ser": 0.076,
+    "thr": 0.04,
+    "trp": 0.002,
+    "tyr": 0.009,
+    "val": 0.061
+  },
+  "otherNutrients": {
+    "nt": 0.3
+  },
+  "extra": {}
+}

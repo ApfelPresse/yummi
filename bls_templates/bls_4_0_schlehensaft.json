@@ -1,0 +1,97 @@
+{
+  "name": "Schlehensaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 42,
+    "water": 85.8,
+    "protein": 0.675,
+    "fat": 0.176,
+    "carbs": 7.04,
+    "fiber": 0.4,
+    "alcohol": null,
+    "sugarAlcohols": 0.003
+  },
+  "vitamins": {
+    "vita": 9,
+    "vitaa": 5,
+    "cartb": 54,
+    "carotpaxb": 2,
+    "vite": 1.82,
+    "tocpha": 1.82,
+    "tocphb": 0.16,
+    "tocphg": 0.32,
+    "tocphd": 0.15,
+    "vitk": 30,
+    "vitk1": 30,
+    "thia": 0.041,
+    "ribf": 0.035,
+    "niaeq": 0.224,
+    "nia": 0.224,
+    "pantac": 0.32,
+    "vitb6": 64,
+    "biot": 2,
+    "fol": 8,
+    "folfd": 8
+  },
+  "minerals": {
+    "nacl": 0.0024,
+    "na": 0.96,
+    "cld": 15,
+    "k": 260,
+    "ca": 52,
+    "mg": 23,
+    "p": 39,
+    "fe": 1.016,
+    "zn": 0.25,
+    "id": 1,
+    "cu": 114,
+    "mn": 258,
+    "fd": 28,
+    "cr": 3,
+    "mo": 10
+  },
+  "carbohydrates": {
+    "cho": 7.04,
+    "mnsac": 6.775,
+    "glus": 2.989,
+    "frus": 3.776,
+    "gals": 0.0096,
+    "disac": 0.26,
+    "sucs": 0.216,
+    "mals": 0.04,
+    "sugar": 7.04
+  },
+  "fibers": {
+    "fibt": 0.4,
+    "fibhmw": 0.4,
+    "fibins": 0.3,
+    "fibsol": 0.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.003,
+    "xyltl": 0.003
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.09,
+    "ala": 0.039,
+    "arg": 0.009,
+    "asp": 0.472,
+    "cyste": 0.007,
+    "glu": 0.072,
+    "leu": 0.025,
+    "lys": 0.034,
+    "pro": 0.014,
+    "ser": 0.039,
+    "thr": 0.027,
+    "val": 0.004
+  },
+  "otherNutrients": {
+    "nt": 0.11
+  },
+  "extra": {}
+}

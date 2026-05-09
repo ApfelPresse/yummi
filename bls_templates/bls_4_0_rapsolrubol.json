@@ -1,0 +1,72 @@
+{
+  "name": "Rapsöl/Rüböl",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 21,
+    "vitaa": 10,
+    "cartb": 125,
+    "vite": 19.833,
+    "tocpha": 19.833,
+    "tocphb": 0.063,
+    "tocphg": 36.623,
+    "tocphd": 1.232,
+    "vitk": 121,
+    "vitk1": 121
+  },
+  "minerals": {
+    "nacl": 0.0041,
+    "na": 1.65,
+    "k": 0.678,
+    "ca": 0.4417,
+    "mg": 0.4455,
+    "p": 1.702,
+    "fe": 0.1156,
+    "zn": 0.0401,
+    "id": 0.01,
+    "cu": 2.499,
+    "mn": 1.364
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 7.2,
+    "f14_0": 0.05,
+    "f16_0": 4.35,
+    "f17_0": 0.06,
+    "f18_0": 1.71,
+    "f20_0": 0.58,
+    "f22_0": 0.33,
+    "f24_0": 0.12,
+    "fams": 57.51,
+    "f16_1cn7": 0.19,
+    "f18_1cn9": 55.8,
+    "f20_1cn9": 1.25,
+    "f22_1cn9": 0.27,
+    "fapu": 27.24,
+    "fapun3": 8.47,
+    "f18_3cn3": 8.47,
+    "fapun6": 18.77,
+    "f18_2cn6": 18.77,
+    "fax": 3.07
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 2.055
+  },
+  "extra": {}
+}

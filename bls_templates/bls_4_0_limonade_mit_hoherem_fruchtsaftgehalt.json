@@ -1,0 +1,97 @@
+{
+  "name": "Limonade mit höherem Fruchtsaftgehalt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 37,
+    "water": 90.6,
+    "protein": 0.121,
+    "fat": null,
+    "carbs": 8.9,
+    "fiber": 0.054,
+    "alcohol": 0.004,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 2,
+    "carotpaxb": 7,
+    "vite": 0.028,
+    "tocpha": 0.028,
+    "thia": 0.01,
+    "ribf": 0.001,
+    "niaeq": 0.072,
+    "nia": 0.055,
+    "pantac": 0.03,
+    "vitb6": 4,
+    "fol": 2,
+    "folfd": 2,
+    "vitc": 6.738
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 3,
+    "k": 27,
+    "ca": 10,
+    "mg": 4,
+    "p": 3,
+    "s": 1.3,
+    "zn": 0.01,
+    "cu": 7,
+    "fd": 22,
+    "mo": 0.15
+  },
+  "carbohydrates": {
+    "cho": 8.9,
+    "mnsac": 0.912,
+    "glus": 0.45,
+    "frus": 0.462,
+    "disac": 7.988,
+    "sucs": 7.988,
+    "sugar": 8.9
+  },
+  "fibers": {
+    "fibt": 0.054
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.003,
+    "f16_0": 0.003,
+    "fams": 0.002,
+    "f18_1cn9": 0.002,
+    "fapu": 0.008,
+    "fapun3": 0.002,
+    "f18_3cn3": 0.002,
+    "fapun6": 0.006,
+    "f18_2cn6": 0.006
+  },
+  "aminoAcids": {
+    "aae9": 0.018,
+    "ala": 0.004,
+    "arg": 0.006,
+    "asp": 0.012,
+    "cyste": 0.001,
+    "glu": 0.012,
+    "gly": 0.004,
+    "his": 0.001,
+    "ile": 0.002,
+    "leu": 0.003,
+    "lys": 0.004,
+    "met": 0.001,
+    "phe": 0.002,
+    "pro": 0.005,
+    "ser": 0.003,
+    "thr": 0.002,
+    "trp": 0.001,
+    "tyr": 0.001,
+    "val": 0.002
+  },
+  "otherNutrients": {
+    "nt": 0.019
+  },
+  "extra": {}
+}

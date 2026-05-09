@@ -1,0 +1,41 @@
+{
+  "name": "Vanillinzucker",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 400,
+    "water": null,
+    "protein": null,
+    "fat": null,
+    "carbs": 100,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 2,
+    "k": 2.2,
+    "ca": 0.6,
+    "p": 0.3,
+    "fe": 0.17,
+    "mn": 10
+  },
+  "carbohydrates": {
+    "cho": 100,
+    "disac": 100,
+    "sucs": 100,
+    "sugar": 100
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

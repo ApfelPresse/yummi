@@ -1,0 +1,58 @@
+{
+  "name": "Orangeat",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 260,
+    "water": 23.5,
+    "protein": null,
+    "fat": 0.2,
+    "carbs": 62.9,
+    "fiber": 3.3,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 0.97,
+    "vitaa": 0.49,
+    "cartb": 5.83,
+    "pantac": 0.0076
+  },
+  "minerals": {
+    "nacl": 0.14,
+    "na": 56,
+    "cld": 65.9,
+    "k": 40,
+    "ca": 71,
+    "mg": 4.7,
+    "p": 5.8,
+    "fe": 0.27,
+    "zn": 0.1,
+    "cu": 40,
+    "mn": 30
+  },
+  "carbohydrates": {
+    "cho": 62.9,
+    "mnsac": 42.8,
+    "glus": 24.6,
+    "frus": 18.2,
+    "disac": 20.1,
+    "sucs": 8.22,
+    "mals": 11.9,
+    "sugar": 62.9
+  },
+  "fibers": {
+    "fibt": 3.3,
+    "fibhmw": 3.3,
+    "fibins": 1.4,
+    "fibsol": 1.9
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Rosenkohl Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 29,
+    "water": 90,
+    "protein": 2.736,
+    "fat": 0.3,
+    "carbs": 2.2,
+    "fiber": 2.969,
+    "alcohol": null,
+    "sugarAlcohols": 0.1
+  },
+  "vitamins": {
+    "vita": 70,
+    "vitaa": 35,
+    "cartb": 375,
+    "carotpaxb": 92,
+    "vite": 0.22,
+    "tocpha": 0.22,
+    "tocphb": 0.09,
+    "tocphg": 0.005,
+    "vitk": 140,
+    "vitk1": 140,
+    "thia": 0.01,
+    "ribf": 0.03,
+    "niaeq": 0.7,
+    "nia": 0.2,
+    "pantac": 0.1,
+    "vitb6": 70,
+    "biot": 0.2,
+    "fol": 25,
+    "folfd": 25,
+    "vitc": 9.894
+  },
+  "minerals": {
+    "nacl": 0.532,
+    "na": 213,
+    "cld": 450,
+    "k": 179,
+    "ca": 22,
+    "mg": 10,
+    "p": 46,
+    "s": 1,
+    "fe": 0.4,
+    "zn": 0.16,
+    "cu": 30,
+    "mn": 150
+  },
+  "carbohydrates": {
+    "cho": 2.2,
+    "mnsac": 0.6,
+    "glus": 0.4,
+    "frus": 0.2,
+    "disac": 1.5,
+    "sucs": 1.5,
+    "mals": 0.02,
+    "sugar": 2.1
+  },
+  "fibers": {
+    "fibt": 2.969,
+    "fibhmw": 2.969,
+    "fibins": 2.53,
+    "fibsol": 0.439
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.1,
+    "sortl": 0.1
+  },
+  "fattyAcids": {
+    "fasat": 0.0311,
+    "f14_0": 0.0008,
+    "f16_0": 0.026,
+    "f18_0": 0.0017,
+    "f20_0": 0.0026,
+    "fams": 0.0048,
+    "f16_1cn7": 0.0008,
+    "f18_1cn9": 0.0033,
+    "f20_1cn9": 0.0007,
+    "fapu": 0.12,
+    "fapun3": 0.096,
+    "f18_3cn3": 0.096,
+    "fapun6": 0.0235,
+    "f18_2cn6": 0.0235
+  },
+  "aminoAcids": {
+    "aae9": 0.878,
+    "arg": 0.172,
+    "his": 0.066,
+    "ile": 0.129,
+    "leu": 0.14,
+    "lys": 0.152,
+    "met": 0.025,
+    "phe": 0.091,
+    "thr": 0.098,
+    "trp": 0.03,
+    "val": 0.147
+  },
+  "otherNutrients": {
+    "nt": 0.4
+  },
+  "extra": {}
+}

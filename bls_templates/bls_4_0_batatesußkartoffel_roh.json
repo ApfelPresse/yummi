@@ -1,0 +1,93 @@
+{
+  "name": "Batate/Süßkartoffel, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 119,
+    "water": 69.2,
+    "protein": 1.63,
+    "fat": 0.6,
+    "carbs": 25.2,
+    "fiber": 3.14,
+    "alcohol": null,
+    "sugarAlcohols": 0.27
+  },
+  "vitamins": {
+    "vita": 1315,
+    "vitaa": 658,
+    "cartb": 7886.72,
+    "carotpaxb": 7,
+    "vite": 0.26,
+    "tocpha": 0.26,
+    "vitk": 1.8,
+    "vitk1": 1.8,
+    "thia": 0.064,
+    "ribf": 0.05,
+    "niaeq": 1.067,
+    "nia": 0.6,
+    "pantac": 0.83,
+    "vitb6": 270,
+    "biot": 4,
+    "fol": 50,
+    "folfd": 50,
+    "vitc": 30
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 45.6,
+    "k": 360,
+    "ca": 22.429,
+    "mg": 18.3,
+    "p": 39.2,
+    "fe": 0.664,
+    "zn": 0.23,
+    "id": 2.4,
+    "cu": 130,
+    "mn": 240
+  },
+  "carbohydrates": {
+    "cho": 25.2,
+    "mnsac": 1.22,
+    "glus": 1.07,
+    "frus": 0.15,
+    "disac": 4.3,
+    "sucs": 3.176,
+    "mals": 1.1,
+    "sugar": 5.5,
+    "starch": 19.46
+  },
+  "fibers": {
+    "fibt": 3.14,
+    "fibhmw": 3.14,
+    "fibins": 1.51,
+    "fibsol": 1.63
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.27,
+    "mantl": 0.27
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.56,
+    "arg": 0.065,
+    "cyste": 0.025,
+    "his": 0.029,
+    "ile": 0.068,
+    "leu": 0.084,
+    "lys": 0.066,
+    "met": 0.028,
+    "phe": 0.079,
+    "thr": 0.068,
+    "trp": 0.028,
+    "tyr": 0.071,
+    "val": 0.11
+  },
+  "otherNutrients": {
+    "nt": 0.261
+  },
+  "extra": {}
+}

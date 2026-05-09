@@ -1,0 +1,94 @@
+{
+  "name": "Bleichsellerie gebacken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 20,
+    "water": 93.8,
+    "protein": 1.412,
+    "fat": 0.1,
+    "carbs": 1.9,
+    "fiber": 3.004,
+    "alcohol": null,
+    "sugarAlcohols": 0.129
+  },
+  "vitamins": {
+    "vita": 512,
+    "vitaa": 256,
+    "cartb": 3071,
+    "carotpaxb": 1.1,
+    "vite": 0.07,
+    "tocpha": 0.07,
+    "tocphb": 0.006,
+    "tocphg": 0.006,
+    "tocphd": 0.006,
+    "toctra": 0.05,
+    "vitk": 34,
+    "vitk1": 34,
+    "thia": 0.03,
+    "ribf": 0.02,
+    "niaeq": 0.5,
+    "nia": 0.3,
+    "pantac": 0.31,
+    "vitb6": 20,
+    "biot": 0.1,
+    "fol": 9,
+    "folfd": 9,
+    "vitc": 6.176
+  },
+  "minerals": {
+    "nacl": 0.23,
+    "na": 92,
+    "cld": 247,
+    "k": 331,
+    "ca": 47,
+    "mg": 9,
+    "p": 26,
+    "fe": 0.14,
+    "zn": 0.12,
+    "id": 1,
+    "cu": 20,
+    "mn": 90,
+    "cr": 1,
+    "mo": 1.25
+  },
+  "carbohydrates": {
+    "cho": 1.9,
+    "mnsac": 1.7,
+    "glus": 1.2,
+    "frus": 0.5,
+    "disac": 0.06,
+    "mals": 0.06,
+    "sugar": 1.8
+  },
+  "fibers": {
+    "fibt": 3.004,
+    "fibhmw": 3.004,
+    "fibins": 1.842,
+    "fibsol": 1.161
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.129,
+    "mantl": 0.129
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.337,
+    "arg": 0.118,
+    "cyste": 0.007,
+    "his": 0.052,
+    "lys": 0.022,
+    "met": 0.016,
+    "phe": 0.081,
+    "trp": 0.013,
+    "tyr": 0.036,
+    "val": 0.153
+  },
+  "otherNutrients": {
+    "nt": 0.01
+  },
+  "extra": {}
+}

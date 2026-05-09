@@ -1,0 +1,112 @@
+{
+  "name": "Fruchteis",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 128,
+    "water": 68.6,
+    "protein": 0.291,
+    "fat": 0.149,
+    "carbs": 30.3,
+    "fiber": 0.6,
+    "alcohol": null,
+    "sugarAlcohols": 0.019
+  },
+  "vitamins": {
+    "cartb": 2,
+    "vite": 0.103,
+    "tocpha": 0.103,
+    "tocphb": 0.05,
+    "tocphg": 0.03,
+    "tocphd": 0.015,
+    "toctra": 0.004,
+    "vitk": 1.5,
+    "vitk1": 1.5,
+    "thia": 0.005,
+    "ribf": 0.006,
+    "niaeq": 0.262,
+    "nia": 0.179,
+    "pantac": 0.11,
+    "vitb6": 6.46,
+    "biot": 0.5,
+    "fol": 13,
+    "folfd": 13,
+    "vitc": 8.501
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 5,
+    "k": 42,
+    "ca": 8,
+    "mg": 4,
+    "p": 7.7,
+    "s": 0.6,
+    "fe": 0.191,
+    "zn": 0.04,
+    "cu": 18,
+    "mn": 130,
+    "fd": 6,
+    "mo": 2.6
+  },
+  "carbohydrates": {
+    "cho": 30.3,
+    "mnsac": 6.2,
+    "glus": 5.4,
+    "frus": 0.804,
+    "gals": 0.0032,
+    "disac": 22.6,
+    "sucs": 21.695,
+    "mals": 0.9,
+    "sugar": 28.8,
+    "olsac": 1.5
+  },
+  "fibers": {
+    "fibt": 0.6
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.019,
+    "sortl": 0.01,
+    "xyltl": 0.009
+  },
+  "fattyAcids": {
+    "fasat": 0.0117,
+    "f16_0": 0.0099,
+    "f18_0": 0.0018,
+    "fams": 0.0235,
+    "f16_1cn7": 0.0005,
+    "f18_1cn9": 0.023,
+    "fapu": 0.089,
+    "fapun3": 0.0391,
+    "f18_3cn3": 0.0391,
+    "fapun6": 0.05,
+    "f18_2cn6": 0.05
+  },
+  "aminoAcids": {
+    "aae9": 0.073,
+    "ala": 0.016,
+    "arg": 0.013,
+    "asp": 0.068,
+    "cyste": 0.002,
+    "glu": 0.045,
+    "gly": 0.012,
+    "his": 0.006,
+    "ile": 0.007,
+    "leu": 0.016,
+    "lys": 0.012,
+    "phe": 0.009,
+    "pro": 0.01,
+    "ser": 0.012,
+    "thr": 0.009,
+    "trp": 0.005,
+    "tyr": 0.01,
+    "val": 0.009
+  },
+  "otherNutrients": {
+    "nt": 0.035
+  },
+  "extra": {}
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Blumenkohl gebacken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 50,
+    "water": 86.8,
+    "protein": 3.414,
+    "fat": 0.394,
+    "carbs": 7.52,
+    "fiber": 4.1,
+    "alcohol": null,
+    "sugarAlcohols": 4.21
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "cartb": 20,
+    "carotpaxb": 5,
+    "vite": 0.113,
+    "tocpha": 0.113,
+    "tocphg": 0.282,
+    "toctra": 0.085,
+    "vitk": 30,
+    "vitk1": 30,
+    "thia": 0.068,
+    "ribf": 0.12,
+    "niaeq": 1.603,
+    "nia": 0.803,
+    "pantac": 1.32,
+    "vitb6": 120.21,
+    "biot": 2.2,
+    "fol": 75,
+    "folfd": 75,
+    "vitc": 72.113
+  },
+  "minerals": {
+    "nacl": 0.042,
+    "na": 17,
+    "cld": 27,
+    "k": 394,
+    "ca": 34,
+    "mg": 20,
+    "p": 69,
+    "fe": 0.577,
+    "zn": 0.44,
+    "id": 0.9,
+    "cu": 49,
+    "mn": 230,
+    "fd": 13,
+    "cr": 0.7,
+    "mo": 8.9
+  },
+  "carbohydrates": {
+    "cho": 7.52,
+    "mnsac": 2.57,
+    "glus": 1.2,
+    "frus": 1.37,
+    "disac": 0.479,
+    "sucs": 0.479,
+    "sugar": 3.05,
+    "starch": 0.256
+  },
+  "fibers": {
+    "fibt": 4.1,
+    "fibhmw": 4.1,
+    "fibins": 3.4,
+    "fibsol": 0.7
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 4.21,
+    "mantl": 4.17,
+    "xyltl": 0.037
+  },
+  "fattyAcids": {
+    "fasat": 0.06,
+    "f14_0": 0.0007,
+    "f16_0": 0.055,
+    "f18_0": 0.0025,
+    "f20_0": 0.0015,
+    "fams": 0.0094,
+    "f16_1cn7": 0.0054,
+    "f18_1cn9": 0.0025,
+    "f20_1cn9": 0.0015,
+    "fapu": 0.195,
+    "fapun3": 0.154,
+    "f18_3cn3": 0.154,
+    "fapun6": 0.041,
+    "f18_2cn6": 0.041
+  },
+  "aminoAcids": {
+    "aae9": 1.25,
+    "arg": 0.155,
+    "his": 0.069,
+    "ile": 0.155,
+    "leu": 0.239,
+    "lys": 0.197,
+    "met": 0.068,
+    "phe": 0.108,
+    "thr": 0.155,
+    "trp": 0.048,
+    "tyr": 0.049,
+    "val": 0.211
+  },
+  "otherNutrients": {
+    "nt": 0.546
+  },
+  "extra": {}
+}

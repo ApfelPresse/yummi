@@ -1,0 +1,112 @@
+{
+  "name": "Erdbeerbowle",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 67,
+    "water": 88.9,
+    "protein": 0.227,
+    "fat": 0.086,
+    "carbs": 3.56,
+    "fiber": 0.4,
+    "alcohol": 6.83,
+    "sugarAlcohols": 0.019
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 4,
+    "vite": 0.06,
+    "tocpha": 0.06,
+    "tocphb": 0.03,
+    "tocphg": 0.017,
+    "tocphd": 0.009,
+    "toctra": 0.002,
+    "vitk": 0.8,
+    "vitk1": 0.8,
+    "thia": 0.026,
+    "ribf": 0.06,
+    "niaeq": 0.228,
+    "nia": 0.128,
+    "pantac": 0.35,
+    "vitb6": 5.28,
+    "biot": 0.8,
+    "fol": 17,
+    "folfd": 17,
+    "vitc": 14.8
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 3,
+    "k": 86,
+    "ca": 9,
+    "mg": 8,
+    "p": 18,
+    "s": 10,
+    "fe": 0.196,
+    "zn": 0.07,
+    "cu": 15,
+    "mn": 140,
+    "fd": 8,
+    "cr": 1,
+    "mo": 1.8
+  },
+  "carbohydrates": {
+    "cho": 3.56,
+    "mnsac": 1.8,
+    "glus": 0.89,
+    "frus": 0.91,
+    "gals": 0.0023,
+    "disac": 1.745,
+    "sucs": 1.745,
+    "sugar": 3.54
+  },
+  "fibers": {
+    "fibt": 0.4
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.019,
+    "sortl": 0.013,
+    "xyltl": 0.006
+  },
+  "fattyAcids": {
+    "fasat": 0.0067,
+    "f16_0": 0.0057,
+    "f18_0": 0.001,
+    "fams": 0.0135,
+    "f16_1cn7": 0.0003,
+    "f18_1cn9": 0.0132,
+    "fapu": 0.05,
+    "fapun3": 0.0224,
+    "f18_3cn3": 0.0224,
+    "fapun6": 0.028,
+    "f18_2cn6": 0.028
+  },
+  "aminoAcids": {
+    "aae9": 0.045,
+    "ala": 0.009,
+    "arg": 0.008,
+    "asp": 0.041,
+    "cyste": 0.001,
+    "glu": 0.031,
+    "gly": 0.007,
+    "his": 0.003,
+    "ile": 0.004,
+    "leu": 0.009,
+    "lys": 0.007,
+    "phe": 0.005,
+    "pro": 0.018,
+    "ser": 0.007,
+    "thr": 0.006,
+    "trp": 0.006,
+    "tyr": 0.006,
+    "val": 0.005
+  },
+  "otherNutrients": {
+    "nt": 0.029
+  },
+  "extra": {}
+}

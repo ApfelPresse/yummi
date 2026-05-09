@@ -1,0 +1,101 @@
+{
+  "name": "Mungbohne reif, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 111,
+    "water": 69.3,
+    "protein": 8.6,
+    "fat": 0.7,
+    "carbs": 14.5,
+    "fiber": 6.1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 1,
+    "vitaa": 1,
+    "cartb": 7,
+    "vite": 0.26,
+    "tocpha": 0.26,
+    "tocphb": 0.19,
+    "tocphg": 3.33,
+    "tocphd": 0.36,
+    "vitk": 52,
+    "vitk1": 52,
+    "thia": 0.1,
+    "ribf": 0.06,
+    "niaeq": 1.8,
+    "nia": 0.5,
+    "pantac": 0.25,
+    "vitb6": 80,
+    "biot": 0.9,
+    "fol": 29,
+    "folfd": 29,
+    "vitc": 1.8
+  },
+  "minerals": {
+    "nacl": 0.0012,
+    "cld": 4,
+    "k": 339,
+    "ca": 30,
+    "mg": 42,
+    "p": 133,
+    "fe": 1.66,
+    "zn": 0.87,
+    "id": 1.8,
+    "cu": 300,
+    "mn": 410,
+    "cr": 3
+  },
+  "carbohydrates": {
+    "cho": 14.5,
+    "mnsac": 0.1,
+    "disac": 0.4,
+    "sucs": 0.4,
+    "mals": 0.05,
+    "sugar": 0.5,
+    "starch": 14
+  },
+  "fibers": {
+    "fibt": 6.1,
+    "fibhmw": 5.3,
+    "fibins": 4.1,
+    "fibsol": 1.2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.11,
+    "f16_0": 0.09,
+    "f18_0": 0.024,
+    "fax": 0.186
+  },
+  "aminoAcids": {
+    "aae9": 3.08,
+    "ala": 0.35,
+    "arg": 0.56,
+    "asp": 0.92,
+    "cyste": 0.07,
+    "glu": 1.42,
+    "gly": 0.319,
+    "his": 0.232,
+    "ile": 0.34,
+    "leu": 0.62,
+    "lys": 0.56,
+    "met": 0.096,
+    "phe": 0.48,
+    "pro": 0.4,
+    "ser": 0.39,
+    "thr": 0.262,
+    "trp": 0.08,
+    "tyr": 0.239,
+    "val": 0.41
+  },
+  "otherNutrients": {
+    "nt": 1.4
+  },
+  "extra": {}
+}

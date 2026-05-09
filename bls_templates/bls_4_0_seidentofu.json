@@ -1,0 +1,91 @@
+{
+  "name": "Seidentofu",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 46,
+    "water": 89.4,
+    "protein": 4.57,
+    "fat": 2.9,
+    "carbs": null,
+    "fiber": 0.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.765,
+    "tocpha": 0.765,
+    "tocphg": 6.49,
+    "tocphd": 2.83,
+    "vitk": 5.48,
+    "vitk1": 5.48,
+    "thia": 0.036,
+    "niaeq": 1,
+    "pantac": 0.21,
+    "vitb6": 48,
+    "biot": 1.78,
+    "fol": 24.2,
+    "folfd": 24.2
+  },
+  "minerals": {
+    "nacl": 0.018,
+    "na": 7,
+    "cld": 111,
+    "k": 210,
+    "ca": 21,
+    "mg": 64,
+    "p": 58,
+    "s": 160,
+    "fe": 0.64,
+    "zn": 0.47,
+    "cu": 190,
+    "mn": 270,
+    "fd": 170
+  },
+  "carbohydrates": {},
+  "fibers": {
+    "fibt": 0.6,
+    "fibins": 0.6
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.45,
+    "f16_0": 0.31,
+    "f18_0": 0.14,
+    "fams": 0.61,
+    "f18_1cn9": 0.61,
+    "fapu": 1.62,
+    "fapun3": 0.18,
+    "f18_3cn3": 0.18,
+    "fapun6": 1.44,
+    "f18_2cn6": 1.44
+  },
+  "aminoAcids": {
+    "aae9": 1.81,
+    "ala": 0.2,
+    "arg": 0.35,
+    "asp": 0.55,
+    "cyste": 0.06,
+    "glu": 0.9,
+    "gly": 0.2,
+    "his": 0.12,
+    "ile": 0.23,
+    "leu": 0.38,
+    "lys": 0.29,
+    "met": 0.06,
+    "phe": 0.26,
+    "pro": 0.25,
+    "ser": 0.24,
+    "thr": 0.18,
+    "trp": 0.06,
+    "tyr": 0.15,
+    "val": 0.23
+  },
+  "otherNutrients": {
+    "nt": 0.73
+  },
+  "extra": {}
+}

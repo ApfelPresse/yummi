@@ -1,0 +1,58 @@
+{
+  "name": "Rinderkraftbrühe mit Tapioka (Sago)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 11,
+    "water": 95,
+    "protein": 0.4,
+    "fat": 0.2,
+    "carbs": 1.897,
+    "fiber": 0.018,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 0.8,
+    "vitaa": 0.8,
+    "retol": 0.8,
+    "ribf": 0.002,
+    "niaeq": 0.2,
+    "nia": 0.2,
+    "vitb12": 0.1
+  },
+  "minerals": {
+    "nacl": 0.61,
+    "na": 244,
+    "cld": 0.09,
+    "k": 12,
+    "ca": 4,
+    "mg": 2,
+    "p": 7,
+    "fe": 0.1,
+    "zn": 0.003,
+    "fd": 1
+  },
+  "carbohydrates": {
+    "cho": 1.897,
+    "starch": 1.897
+  },
+  "fibers": {
+    "fibt": 0.018
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.003,
+    "leu": 0.001,
+    "phe": 0.001,
+    "val": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

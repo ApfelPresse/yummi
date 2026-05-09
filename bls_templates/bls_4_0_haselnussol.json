@@ -1,0 +1,50 @@
+{
+  "name": "Haselnussöl",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 899,
+    "water": null,
+    "protein": null,
+    "fat": 99.9,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 20.47,
+    "tocpha": 20.47,
+    "tocphb": 0.84,
+    "tocphg": 1.84
+  },
+  "minerals": {
+    "zn": 0.051
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 7.8,
+    "f16_0": 5.3,
+    "f17_0": 0.1,
+    "f18_0": 2.3,
+    "f20_0": 0.1,
+    "fams": 76.4,
+    "f16_1cn7": 0.2,
+    "f18_1cn9": 76.1,
+    "f20_1cn9": 0.1,
+    "fapu": 11.2,
+    "fapun3": 0.1,
+    "f18_3cn3": 0.1,
+    "fapun6": 11.1,
+    "f18_2cn6": 11.1,
+    "fax": 0.1
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

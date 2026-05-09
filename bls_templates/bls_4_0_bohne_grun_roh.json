@@ -1,0 +1,109 @@
+{
+  "name": "Bohne grün, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 28,
+    "water": 90.39,
+    "protein": 2.238,
+    "fat": 0.24,
+    "carbs": 3.4,
+    "fiber": 1.89,
+    "alcohol": null,
+    "sugarAlcohols": 0.28
+  },
+  "vitamins": {
+    "vita": 71,
+    "vitaa": 36,
+    "cartb": 387,
+    "carotpaxb": 83,
+    "vite": 0.0625,
+    "tocpha": 0.0625,
+    "tocphg": 0.19,
+    "tocphd": 0.0075,
+    "vitk": 36,
+    "vitk1": 36,
+    "thia": 0.12,
+    "ribf": 0.09,
+    "niaeq": 1.25,
+    "nia": 0.8,
+    "pantac": 0.11,
+    "vitb6": 33.87,
+    "biot": 1,
+    "fol": 52,
+    "folfd": 52,
+    "vitc": 18.94
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 1.98,
+    "cld": 12.886,
+    "k": 234,
+    "ca": 65,
+    "mg": 24,
+    "p": 35.813,
+    "fe": 0.78,
+    "zn": 0.32,
+    "id": 2,
+    "cu": 68,
+    "mn": 260,
+    "fd": 12,
+    "cr": 1,
+    "mo": 20
+  },
+  "carbohydrates": {
+    "cho": 3.4,
+    "mnsac": 2.15,
+    "glus": 0.94,
+    "frus": 1.21,
+    "disac": 0.114,
+    "sucs": 0.114,
+    "sugar": 2.26,
+    "starch": 0.9
+  },
+  "fibers": {
+    "fibt": 1.89,
+    "fibhmw": 1.89,
+    "fibins": 1.01,
+    "fibsol": 0.88
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.28,
+    "mantl": 0.11,
+    "sortl": 0.17
+  },
+  "fattyAcids": {
+    "fasat": 0.071,
+    "f16_0": 0.062,
+    "f18_0": 0.0088,
+    "fams": 0.007,
+    "f18_1cn9": 0.007,
+    "fapu": 0.115,
+    "fapun3": 0.062,
+    "f18_3cn3": 0.062,
+    "fapun6": 0.053,
+    "f18_2cn6": 0.053
+  },
+  "aminoAcids": {
+    "aae9": 0.796,
+    "arg": 0.1,
+    "cyste": 0.024,
+    "his": 0.049,
+    "ile": 0.11,
+    "leu": 0.14,
+    "lys": 0.14,
+    "met": 0.034,
+    "phe": 0.073,
+    "thr": 0.093,
+    "trp": 0.027,
+    "tyr": 0.05,
+    "val": 0.13
+  },
+  "otherNutrients": {
+    "nt": 0.358
+  },
+  "extra": {}
+}

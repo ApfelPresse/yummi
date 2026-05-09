@@ -1,0 +1,94 @@
+{
+  "name": "Neuseeländer Spinat roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 15,
+    "water": 94,
+    "protein": 1.5,
+    "fat": 0.2,
+    "carbs": 0.93,
+    "fiber": 1.8,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 741,
+    "vitaa": 370,
+    "cartb": 4292,
+    "carotpaxb": 308,
+    "vite": 2.965,
+    "tocpha": 2.965,
+    "tocphb": 0.0062,
+    "tocphg": 0.17,
+    "tocphd": 0.0038,
+    "vitk": 456,
+    "vitk1": 456,
+    "thia": 0.04,
+    "ribf": 0.13,
+    "niaeq": 0.5,
+    "nia": 0.5,
+    "pantac": 0.312,
+    "vitb6": 304,
+    "biot": 0.1,
+    "fol": 15,
+    "folfd": 15,
+    "vitc": 30
+  },
+  "minerals": {
+    "nacl": 0.325,
+    "na": 130,
+    "cld": 54,
+    "k": 130,
+    "ca": 58,
+    "mg": 39,
+    "p": 28,
+    "fe": 0.8,
+    "zn": 0.38,
+    "id": 4,
+    "cu": 93,
+    "mn": 639,
+    "fd": 75
+  },
+  "carbohydrates": {
+    "cho": 0.93,
+    "mnsac": 0.36,
+    "glus": 0.14,
+    "frus": 0.22,
+    "disac": 0.3858,
+    "sucs": 0.3858,
+    "sugar": 0.75,
+    "starch": 0.182
+  },
+  "fibers": {
+    "fibt": 1.8,
+    "fibhmw": 1.8,
+    "fibins": 1.3,
+    "fibsol": 0.5
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.03,
+    "f14_0": 0.004,
+    "f16_0": 0.024,
+    "f18_0": 0.002,
+    "fax": 0.085
+  },
+  "aminoAcids": {
+    "aae9": 0.6,
+    "arg": 0.1,
+    "ile": 0.1,
+    "leu": 0.1,
+    "lys": 0.1,
+    "phe": 0.1,
+    "thr": 0.1,
+    "val": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

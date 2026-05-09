@@ -1,0 +1,98 @@
+{
+  "name": "Aprikosenkompott",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 61,
+    "water": 82,
+    "protein": 0.7,
+    "fat": 0.109,
+    "carbs": 13.145,
+    "fiber": 1.284,
+    "alcohol": null,
+    "sugarAlcohols": 0.667
+  },
+  "vitamins": {
+    "vita": 177,
+    "vitaa": 88,
+    "cartb": 977,
+    "carotpaxb": 166,
+    "vite": 0.416,
+    "tocpha": 0.416,
+    "vitk": 3,
+    "vitk1": 3,
+    "thia": 0.071,
+    "ribf": 0.044,
+    "niaeq": 0.577,
+    "nia": 0.577,
+    "pantac": 0.218,
+    "vitb6": 52,
+    "fol": 6.3,
+    "folfd": 6.3,
+    "vitc": 5.486
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 1,
+    "k": 302,
+    "ca": 19.4,
+    "mg": 17,
+    "p": 18,
+    "s": 0.4,
+    "fe": 0.519,
+    "zn": 0.18,
+    "id": 0.5,
+    "cu": 68,
+    "mn": 176,
+    "fd": 8,
+    "mo": 0.01
+  },
+  "carbohydrates": {
+    "cho": 13.145,
+    "mnsac": 2.397,
+    "glus": 1.617,
+    "frus": 0.78,
+    "disac": 10.081,
+    "sucs": 10.081,
+    "sugar": 12.478
+  },
+  "fibers": {
+    "fibt": 1.284
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.667,
+    "sortl": 0.667
+  },
+  "fattyAcids": {
+    "fasat": 0.0086,
+    "f16_0": 0.0077,
+    "f18_0": 0.0009,
+    "fams": 0.053,
+    "f16_1cn7": 0.053,
+    "fapu": 0.024,
+    "fapun6": 0.024,
+    "f18_2cn6": 0.024
+  },
+  "aminoAcids": {
+    "aae9": 0.07,
+    "ala": 0.018,
+    "arg": 0.012,
+    "asp": 0.345,
+    "cyste": 0.005,
+    "glu": 0.035,
+    "leu": 0.02,
+    "lys": 0.019,
+    "pro": 0.012,
+    "ser": 0.021,
+    "thr": 0.016,
+    "val": 0.015
+  },
+  "otherNutrients": {
+    "nt": 0.107
+  },
+  "extra": {}
+}

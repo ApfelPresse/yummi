@@ -1,0 +1,98 @@
+{
+  "name": "Weizenkleber/Weizengluten",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 394,
+    "water": 8.2,
+    "protein": 80.6,
+    "fat": 1.85,
+    "carbs": 13.46,
+    "fiber": 0.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 5,
+    "tocphb": 0.087,
+    "thia": 0.69,
+    "ribf": 0.26,
+    "niaeq": 15.5,
+    "nia": 2.2,
+    "pantac": 1.8,
+    "biot": 2.6,
+    "vitc": 1.6
+  },
+  "minerals": {
+    "nacl": 0.072,
+    "na": 29,
+    "k": 100,
+    "ca": 142,
+    "mg": 278,
+    "p": 260,
+    "fe": 5.2,
+    "zn": 4.72,
+    "cu": 1600,
+    "mn": 4070
+  },
+  "carbohydrates": {
+    "cho": 13.46,
+    "mnsac": 1.21,
+    "frus": 1.21,
+    "disac": 12.25,
+    "sucs": 12.25,
+    "sugar": 13.46
+  },
+  "fibers": {
+    "fibt": 0.6,
+    "fiblmw": 0.1,
+    "fibhmws": 0.3,
+    "fibhmwi": 0.2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.23,
+    "f16_0": 0.22,
+    "f18_0": 0.01,
+    "fams": 0.21,
+    "f18_1cn7": 0.01,
+    "f18_1cn9": 0.19,
+    "f20_1cn9": 0.01,
+    "fapu": 0.88,
+    "fapun3": 0.06,
+    "f18_3cn3": 0.06,
+    "fapun6": 0.82,
+    "f18_2cn6": 0.82,
+    "fax": 0.02
+  },
+  "aminoAcids": {
+    "aae9": 22.5,
+    "ala": 2.3,
+    "arg": 3,
+    "asp": 3.1,
+    "cyste": 1.9,
+    "glu": 27.8,
+    "gly": 2.8,
+    "his": 1.7,
+    "ile": 2.7,
+    "leu": 5.3,
+    "lys": 1.6,
+    "met": 1.3,
+    "phe": 3.8,
+    "pro": 9.5,
+    "ser": 3.9,
+    "thr": 2.1,
+    "trp": 0.8,
+    "tyr": 2.1,
+    "val": 3.2
+  },
+  "otherNutrients": {
+    "chorl": 0.5,
+    "nt": 12.9
+  },
+  "extra": {}
+}

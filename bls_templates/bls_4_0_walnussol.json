@@ -1,0 +1,54 @@
+{
+  "name": "Walnussöl",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 899,
+    "water": null,
+    "protein": null,
+    "fat": 99.9,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 5.66,
+    "tocpha": 5.66,
+    "tocphb": 0.46,
+    "tocphg": 30.9,
+    "tocphd": 3.23,
+    "vitk": 15,
+    "vitk1": 15
+  },
+  "minerals": {
+    "zn": 0.051
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 9.6,
+    "f16_0": 6.8,
+    "f18_0": 2.6,
+    "f20_0": 0.2,
+    "fams": 17.1,
+    "f18_1cn7": 1.3,
+    "f18_1cn9": 15.6,
+    "f20_1cn9": 0.2,
+    "fapu": 68.6,
+    "fapun3": 11.6,
+    "f18_3cn3": 11.6,
+    "fapun6": 57,
+    "f18_2cn6": 57,
+    "fax": 1
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 1.3
+  },
+  "extra": {}
+}

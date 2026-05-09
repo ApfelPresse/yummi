@@ -1,0 +1,102 @@
+{
+  "name": "Dicke Bohne unreif, tiefgefroren",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 70,
+    "water": 80.3,
+    "protein": 6,
+    "fat": 0.7,
+    "carbs": 6.6,
+    "fiber": 6.4,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 25,
+    "vitaa": 12,
+    "cartb": 146,
+    "carotpaxb": 7,
+    "thia": 0.1,
+    "ribf": 0.1,
+    "niaeq": 2.9,
+    "nia": 1.9,
+    "pantac": 0.125,
+    "vitb6": 60,
+    "biot": 3,
+    "fol": 101,
+    "folfd": 101,
+    "vitc": 35
+  },
+  "minerals": {
+    "nacl": 0.048,
+    "na": 19,
+    "cld": 18,
+    "k": 320,
+    "ca": 22,
+    "mg": 31,
+    "p": 108,
+    "fe": 1.4,
+    "zn": 0.73,
+    "id": 4,
+    "cu": 90,
+    "mn": 300
+  },
+  "carbohydrates": {
+    "cho": 6.6,
+    "mnsac": 0.4,
+    "glus": 0.1,
+    "frus": 0.3,
+    "disac": 1,
+    "sucs": 1,
+    "sugar": 1.4,
+    "starch": 5.2
+  },
+  "fibers": {
+    "fibt": 6.4,
+    "fibhmw": 6.4,
+    "fibins": 5,
+    "fibsol": 1.4
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.153,
+    "f16_0": 0.134,
+    "f18_0": 0.019,
+    "fams": 0.019,
+    "f18_1cn9": 0.019,
+    "fapu": 0.34,
+    "fapun3": 0.21,
+    "f18_3cn3": 0.21,
+    "fapun6": 0.13,
+    "f18_2cn6": 0.13
+  },
+  "aminoAcids": {
+    "aae9": 2.212,
+    "ala": 0.253,
+    "arg": 0.514,
+    "asp": 0.701,
+    "cyste": 0.086,
+    "glu": 0.95,
+    "gly": 0.26,
+    "his": 0.149,
+    "ile": 0.279,
+    "leu": 0.48,
+    "lys": 0.407,
+    "met": 0.048,
+    "phe": 0.253,
+    "pro": 0.28,
+    "ser": 0.273,
+    "thr": 0.231,
+    "trp": 0.061,
+    "tyr": 0.218,
+    "val": 0.304
+  },
+  "otherNutrients": {
+    "nt": 1
+  },
+  "extra": {}
+}

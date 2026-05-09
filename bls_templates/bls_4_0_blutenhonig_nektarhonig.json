@@ -1,0 +1,61 @@
+{
+  "name": "Blütenhonig (Nektarhonig)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 318,
+    "water": 18.6,
+    "protein": 0.38,
+    "fat": null,
+    "carbs": 78.557,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.003,
+    "ribf": 0.05,
+    "niaeq": 0.13,
+    "nia": 0.13,
+    "pantac": 0.07,
+    "vitb6": 159,
+    "vitc": 2.4
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 45,
+    "ca": 6,
+    "mg": 1.6,
+    "p": 4.933,
+    "fe": 0.3,
+    "zn": 0.19,
+    "id": 0.5,
+    "cu": 18,
+    "mn": 220,
+    "fd": 7,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 78.557,
+    "mnsac": 72.7,
+    "glus": 33.9,
+    "frus": 38.8,
+    "disac": 4.947,
+    "sucs": 2.37,
+    "mals": 2.577,
+    "sugar": 77.647,
+    "olsac": 0.91
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.061
+  },
+  "extra": {}
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Altbierbowle",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 48,
+    "water": 89.2,
+    "protein": 0.552,
+    "fat": 0.078,
+    "carbs": 5.282,
+    "fiber": 0.4,
+    "alcohol": 3.1547,
+    "sugarAlcohols": 0.011
+  },
+  "vitamins": {
+    "cartb": 2,
+    "vite": 0.054,
+    "tocpha": 0.054,
+    "tocphb": 0.03,
+    "tocphg": 0.016,
+    "tocphd": 0.008,
+    "toctra": 0.002,
+    "vitk": 0.8,
+    "vitk1": 0.8,
+    "thia": 0.007,
+    "ribf": 0.032,
+    "niaeq": 1,
+    "nia": 0.9,
+    "pantac": 0.09,
+    "vitb6": 51,
+    "biot": 1.5,
+    "fol": 20,
+    "folfd": 20,
+    "vitc": 11.106
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 13,
+    "k": 80,
+    "ca": 7,
+    "mg": 10,
+    "p": 26.1,
+    "s": 10.04,
+    "fe": 0.103,
+    "zn": 0.02,
+    "cu": 14,
+    "mn": 80,
+    "fd": 3,
+    "mo": 1.4
+  },
+  "carbohydrates": {
+    "cho": 5.282,
+    "mnsac": 1.074,
+    "glus": 0.531,
+    "frus": 0.541,
+    "gals": 0.0021,
+    "disac": 2.535,
+    "sucs": 2.478,
+    "mals": 0.057,
+    "sugar": 3.609,
+    "starch": 1.6621
+  },
+  "fibers": {
+    "fibt": 0.4
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.011,
+    "sortl": 0.006,
+    "xyltl": 0.005
+  },
+  "fattyAcids": {
+    "fasat": 0.0061,
+    "f16_0": 0.0052,
+    "f18_0": 0.0009,
+    "fams": 0.0123,
+    "f16_1cn7": 0.0003,
+    "f18_1cn9": 0.012,
+    "fapu": 0.046,
+    "fapun3": 0.0204,
+    "f18_3cn3": 0.0204,
+    "fapun6": 0.026,
+    "f18_2cn6": 0.026
+  },
+  "aminoAcids": {
+    "aae9": 0.169,
+    "ala": 0.03,
+    "arg": 0.022,
+    "asp": 0.064,
+    "cyste": 0.012,
+    "glu": 0.107,
+    "gly": 0.029,
+    "his": 0.014,
+    "ile": 0.022,
+    "leu": 0.027,
+    "lys": 0.021,
+    "met": 0.007,
+    "phe": 0.028,
+    "pro": 0.073,
+    "ser": 0.022,
+    "thr": 0.018,
+    "trp": 0.008,
+    "tyr": 0.017,
+    "val": 0.024
+  },
+  "otherNutrients": {
+    "nt": 0.082
+  },
+  "extra": {}
+}

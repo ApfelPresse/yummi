@@ -1,0 +1,62 @@
+{
+  "name": "Kokosöl desodoriert",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.05,
+    "tocpha": 0.05,
+    "tocphb": 0.05,
+    "tocphg": 0.05,
+    "tocphd": 0.05,
+    "toctra": 0.87,
+    "vitk": 1.5,
+    "vitk1": 1.5
+  },
+  "minerals": {
+    "cld": 0.1,
+    "mg": 0.2,
+    "p": 0.9,
+    "fe": 0.02,
+    "cu": 2
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 85.7,
+    "f6_0": 0.51,
+    "f8_0": 6.77,
+    "f10_0": 5.2,
+    "f12_0": 43.4,
+    "f14_0": 18.2,
+    "f16_0": 8.56,
+    "f18_0": 2.87,
+    "f20_0": 0.09,
+    "f22_0": 0.02,
+    "f24_0": 0.04,
+    "fams": 6.52,
+    "f18_1cn7": 0.09,
+    "f18_1cn9": 6.37,
+    "f20_1cn9": 0.06,
+    "fapu": 1.65,
+    "fapun6": 1.65,
+    "f18_2cn6": 1.65,
+    "fax": 0.13
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Cocktail, Campari-Orange",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 74,
+    "water": 85.6,
+    "protein": 0.3,
+    "fat": null,
+    "carbs": 9.4,
+    "fiber": 0.127,
+    "alcohol": 4.8,
+    "sugarAlcohols": 0.006
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 1,
+    "cartb": 6,
+    "carotpaxb": 18,
+    "vite": 0.035,
+    "tocpha": 0.035,
+    "tocphb": 0.001,
+    "vitk": 0.02,
+    "vitk1": 0.02,
+    "thia": 0.028,
+    "niaeq": 0.2,
+    "nia": 0.2,
+    "pantac": 0.07,
+    "vitb6": 20,
+    "biot": 0.5,
+    "fol": 8,
+    "folfd": 8,
+    "vitc": 16.319
+  },
+  "minerals": {
+    "nacl": 0.018,
+    "na": 7,
+    "cld": 3,
+    "k": 67,
+    "ca": 12,
+    "mg": 10,
+    "p": 11,
+    "s": 4,
+    "fe": 0.1,
+    "zn": 0.06,
+    "id": 1,
+    "cu": 20,
+    "mn": 10,
+    "cr": 1,
+    "mo": 0.4
+  },
+  "carbohydrates": {
+    "cho": 9.4,
+    "mnsac": 4.2,
+    "glus": 2.1,
+    "frus": 2.1,
+    "disac": 5.2,
+    "sucs": 5.2,
+    "sugar": 9.4
+  },
+  "fibers": {
+    "fibt": 0.127
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.006,
+    "sortl": 0.006
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.025,
+    "ala": 0.006,
+    "arg": 0.018,
+    "asp": 0.028,
+    "cyste": 0.0018,
+    "glu": 0.013,
+    "gly": 0.0036,
+    "his": 0.0013,
+    "ile": 0.0027,
+    "leu": 0.005,
+    "lys": 0.0036,
+    "met": 0.0013,
+    "phe": 0.0031,
+    "pro": 0.017,
+    "ser": 0.005,
+    "thr": 0.0031,
+    "trp": 0.0009,
+    "tyr": 0.0013,
+    "val": 0.004
+  },
+  "otherNutrients": {
+    "nt": 0.05
+  },
+  "extra": {}
+}

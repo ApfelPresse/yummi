@@ -1,0 +1,32 @@
+{
+  "name": "Traubenzucker (Dextrose/Glukose)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 400,
+    "water": null,
+    "protein": null,
+    "fat": null,
+    "carbs": 100,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {},
+  "carbohydrates": {
+    "cho": 100,
+    "mnsac": 100,
+    "glus": 100,
+    "sugar": 100
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

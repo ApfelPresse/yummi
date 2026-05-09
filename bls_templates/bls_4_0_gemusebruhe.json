@@ -1,0 +1,85 @@
+{
+  "name": "Gemüsebrühe",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 4,
+    "water": 98,
+    "protein": 0.32,
+    "fat": 0.1,
+    "carbs": 0.54,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 19,
+    "vitaa": 9,
+    "cartb": 111,
+    "thia": 0.04,
+    "ribf": 0.03,
+    "niaeq": 0.4,
+    "nia": 0.4,
+    "pantac": 0.06,
+    "vitb6": 10,
+    "vitc": 5
+  },
+  "minerals": {
+    "nacl": 0.67,
+    "na": 268,
+    "k": 14,
+    "ca": 4,
+    "mg": 2,
+    "p": 4,
+    "fe": 0.1,
+    "zn": 0.02,
+    "id": 0.3,
+    "cu": 9,
+    "mn": 6
+  },
+  "carbohydrates": {
+    "cho": 0.54,
+    "mnsac": 0.16,
+    "glus": 0.13,
+    "frus": 0.03,
+    "disac": 0.38,
+    "sucs": 0.38,
+    "sugar": 0.54
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.1,
+    "f10_0": 0.003,
+    "f14_0": 0.001,
+    "f15_0": 0.001,
+    "f16_0": 0.1,
+    "fapu": 0.002,
+    "fapun6": 0.002,
+    "f18_2cn6": 0.002
+  },
+  "aminoAcids": {
+    "aae9": 0.07,
+    "ala": 0.02,
+    "arg": 0.01,
+    "asp": 0.02,
+    "glu": 0.11,
+    "gly": 0.01,
+    "ile": 0.01,
+    "leu": 0.02,
+    "lys": 0.01,
+    "phe": 0.01,
+    "pro": 0.01,
+    "ser": 0.01,
+    "thr": 0.01,
+    "tyr": 0.01,
+    "val": 0.01
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

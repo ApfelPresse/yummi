@@ -1,0 +1,110 @@
+{
+  "name": "Wurzelpetersilie geschmort ohne Fett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 91,
+    "water": 79.5,
+    "protein": 3.435,
+    "fat": 0.561,
+    "carbs": 16.6,
+    "fiber": 2.566,
+    "alcohol": null,
+    "sugarAlcohols": 0.988
+  },
+  "vitamins": {
+    "vita": 5,
+    "vitaa": 3,
+    "cartb": 31,
+    "vite": 1.06,
+    "tocpha": 1.06,
+    "vitk": 1,
+    "vitk1": 1,
+    "thia": 0.093,
+    "ribf": 0.103,
+    "niaeq": 2.646,
+    "nia": 2.096,
+    "pantac": 0.5,
+    "vitb6": 216,
+    "fol": 53,
+    "folfd": 53,
+    "vitc": 39.518
+  },
+  "minerals": {
+    "nacl": 0.035,
+    "na": 14,
+    "k": 670,
+    "ca": 47,
+    "mg": 31,
+    "p": 68.2,
+    "fe": 1.024,
+    "zn": 0.757,
+    "id": 0.458,
+    "cu": 145,
+    "mn": 361,
+    "fd": 12,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 16.6,
+    "mnsac": 1.47,
+    "glus": 0.675,
+    "frus": 0.795,
+    "disac": 5.819,
+    "sucs": 5.819,
+    "sugar": 7.289,
+    "olsac": 0.373,
+    "starch": 8
+  },
+  "fibers": {
+    "fibt": 2.566,
+    "fibins": 1.819,
+    "fibsol": 0.747
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.988,
+    "mantl": 0.988
+  },
+  "fattyAcids": {
+    "fasat": 0.09,
+    "f14_0": 0.0005,
+    "f16_0": 0.086,
+    "f18_0": 0.0025,
+    "f20_0": 0.0013,
+    "fams": 0.038,
+    "f16_1cn7": 0.0013,
+    "f18_1cn9": 0.034,
+    "f20_1cn9": 0.0027,
+    "fapu": 0.3006,
+    "fapun3": 0.0376,
+    "f18_3cn3": 0.0376,
+    "fapun6": 0.263,
+    "f18_2cn6": 0.263
+  },
+  "aminoAcids": {
+    "aae9": 0.79,
+    "ala": 0.117,
+    "arg": 0.124,
+    "asp": 0.359,
+    "cyste": 0.011,
+    "glu": 0.911,
+    "gly": 0.095,
+    "ile": 0.106,
+    "leu": 0.14,
+    "lys": 0.135,
+    "met": 0.035,
+    "phe": 0.081,
+    "pro": 0.344,
+    "thr": 0.095,
+    "trp": 0.033,
+    "tyr": 0.043,
+    "val": 0.165
+  },
+  "otherNutrients": {
+    "nt": 0.55
+  },
+  "extra": {}
+}

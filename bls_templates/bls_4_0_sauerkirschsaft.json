@@ -1,0 +1,113 @@
+{
+  "name": "Sauerkirschsaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 62,
+    "water": 85.29,
+    "protein": 0.81,
+    "fat": 0.4,
+    "carbs": 12.853,
+    "fiber": 0.1,
+    "alcohol": null,
+    "sugarAlcohols": 0.9
+  },
+  "vitamins": {
+    "vita": 93,
+    "vitaa": 46,
+    "cartb": 388,
+    "carotpaxb": 340,
+    "vite": 0.13,
+    "tocpha": 0.13,
+    "tocphg": 0.02,
+    "toctra": 0.02,
+    "vitk": 7,
+    "vitk1": 7,
+    "thia": 0.04,
+    "ribf": 0.048,
+    "niaeq": 0.387,
+    "nia": 0.32,
+    "pantac": 0.144,
+    "vitb6": 36,
+    "fol": 44.8,
+    "folfd": 44.8,
+    "vitc": 8.52
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 21,
+    "k": 201,
+    "ca": 15,
+    "mg": 13,
+    "p": 17,
+    "fe": 0.7242,
+    "zn": 0.091,
+    "id": 1,
+    "cu": 77.7,
+    "mn": 60.2,
+    "fd": 2,
+    "cr": 2,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 12.853,
+    "mnsac": 11.8,
+    "glus": 6.5,
+    "frus": 5.3,
+    "disac": 0.153,
+    "mals": 0.153,
+    "sugar": 11.953
+  },
+  "fibers": {
+    "fibt": 0.1,
+    "fibhmw": 0.1,
+    "fibsol": 0.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.9,
+    "sortl": 0.9
+  },
+  "fattyAcids": {
+    "fasat": 0.089,
+    "f14_0": 0.0026,
+    "f16_0": 0.064,
+    "f18_0": 0.022,
+    "fams": 0.109,
+    "f16_1cn7": 0.0013,
+    "f18_1cn9": 0.108,
+    "fapu": 0.12,
+    "fapun3": 0.058,
+    "f18_3cn3": 0.058,
+    "fapun6": 0.062,
+    "f18_2cn6": 0.062
+  },
+  "aminoAcids": {
+    "aae9": 0.173,
+    "ala": 0.028,
+    "arg": 0.019,
+    "asp": 0.248,
+    "cyste": 0.012,
+    "glu": 0.071,
+    "gly": 0.027,
+    "his": 0.013,
+    "ile": 0.019,
+    "leu": 0.034,
+    "lys": 0.028,
+    "met": 0.004,
+    "phe": 0.022,
+    "pro": 0.032,
+    "ser": 0.029,
+    "thr": 0.025,
+    "trp": 0.004,
+    "tyr": 0.019,
+    "val": 0.024
+  },
+  "otherNutrients": {
+    "nt": 0.048
+  },
+  "extra": {}
+}

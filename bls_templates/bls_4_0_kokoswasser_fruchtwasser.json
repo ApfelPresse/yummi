@@ -1,0 +1,79 @@
+{
+  "name": "Kokoswasser (Fruchtwasser)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 10,
+    "water": 94.4,
+    "protein": 0.25,
+    "fat": 0.4,
+    "carbs": 1.28,
+    "fiber": null,
+    "alcohol": 0.053,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "niaeq": 0.133,
+    "nia": 0.1,
+    "pantac": 0.05,
+    "vitb6": 30,
+    "vitc": 2
+  },
+  "minerals": {
+    "nacl": 0.118,
+    "na": 47,
+    "cld": 183,
+    "k": 282,
+    "ca": 27,
+    "mg": 30,
+    "p": 33,
+    "fe": 0.1,
+    "cu": 400
+  },
+  "carbohydrates": {
+    "cho": 1.28,
+    "disac": 1.28,
+    "sucs": 1.28,
+    "sugar": 1.28
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.35,
+    "f8_0": 0.031,
+    "f10_0": 0.024,
+    "f12_0": 0.178,
+    "f14_0": 0.067,
+    "f16_0": 0.034,
+    "f18_0": 0.012,
+    "f20_0": 0.004,
+    "fams": 0.024,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.023,
+    "fapu": 0.007,
+    "fapun6": 0.007,
+    "f18_2cn6": 0.007
+  },
+  "aminoAcids": {
+    "aae9": 0.075,
+    "arg": 0.026,
+    "cyste": 0.004,
+    "his": 0.004,
+    "ile": 0.011,
+    "leu": 0.017,
+    "lys": 0.008,
+    "met": 0.004,
+    "phe": 0.01,
+    "thr": 0.007,
+    "trp": 0.002,
+    "tyr": 0.006,
+    "val": 0.012
+  },
+  "otherNutrients": {
+    "nt": 0.04
+  },
+  "extra": {}
+}

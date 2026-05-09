@@ -1,0 +1,107 @@
+{
+  "name": "Knollensellerie gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 55,
+    "water": 81.7,
+    "protein": 2.87,
+    "fat": 0.611,
+    "carbs": 5.13,
+    "fiber": 7.8,
+    "alcohol": null,
+    "sugarAlcohols": 0.41
+  },
+  "vitamins": {
+    "vite": 0.926,
+    "tocpha": 0.926,
+    "vitk": 76,
+    "vitk1": 76,
+    "thia": 0.06,
+    "ribf": 0.123,
+    "niaeq": 1.95,
+    "nia": 1.583,
+    "pantac": 0.85,
+    "vitb6": 333,
+    "biot": 0.2,
+    "fol": 99,
+    "folfd": 99,
+    "vitc": 12.986
+  },
+  "minerals": {
+    "nacl": 0.358,
+    "na": 143,
+    "cld": 278,
+    "k": 941,
+    "ca": 76,
+    "mg": 28,
+    "p": 128,
+    "fe": 0.981,
+    "zn": 0.74,
+    "id": 4.2,
+    "cu": 220,
+    "mn": 370,
+    "fd": 19,
+    "cr": 2
+  },
+  "carbohydrates": {
+    "cho": 5.13,
+    "mnsac": 0.741,
+    "glus": 0.556,
+    "frus": 0.185,
+    "disac": 3.167,
+    "sucs": 3.167,
+    "sugar": 3.908,
+    "starch": 0.815
+  },
+  "fibers": {
+    "fibt": 7.8,
+    "fibhmw": 7.8,
+    "fibins": 6.7,
+    "fibsol": 1.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.41,
+    "sortl": 0.41
+  },
+  "fattyAcids": {
+    "fasat": 0.124,
+    "f16_0": 0.117,
+    "f18_0": 0.0065,
+    "fams": 0.024,
+    "f18_1cn9": 0.024,
+    "fapu": 0.32,
+    "fapun3": 0.031,
+    "f18_3cn3": 0.031,
+    "fapun6": 0.289,
+    "f18_2cn6": 0.289
+  },
+  "aminoAcids": {
+    "aae9": 0.767,
+    "ala": 0.159,
+    "arg": 0.081,
+    "asp": 0.304,
+    "cyste": 0.007,
+    "glu": 0.524,
+    "gly": 0.087,
+    "his": 0.044,
+    "ile": 0.089,
+    "leu": 0.139,
+    "lys": 0.137,
+    "met": 0.033,
+    "phe": 0.087,
+    "pro": 0.074,
+    "ser": 0.091,
+    "thr": 0.081,
+    "trp": 0.022,
+    "tyr": 0.046,
+    "val": 0.135
+  },
+  "otherNutrients": {
+    "nt": 0.37
+  },
+  "extra": {}
+}

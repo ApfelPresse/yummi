@@ -1,0 +1,108 @@
+{
+  "name": "Mispel roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 45,
+    "water": 80.8,
+    "protein": 0.5,
+    "fat": 0.2,
+    "carbs": 9.2,
+    "fiber": 2.07,
+    "alcohol": null,
+    "sugarAlcohols": 0.6
+  },
+  "vitamins": {
+    "vita": 133,
+    "vitaa": 67,
+    "cartb": 800,
+    "vite": 0.172,
+    "tocpha": 0.172,
+    "tocphb": 0.003,
+    "tocphg": 0.006,
+    "tocphd": 0.002,
+    "vitk": 5,
+    "vitk1": 5,
+    "thia": 0.02,
+    "ribf": 0.027,
+    "niaeq": 0.29,
+    "nia": 0.19,
+    "pantac": 0.1,
+    "vitb6": 100,
+    "biot": 1.1,
+    "fol": 14,
+    "folfd": 14,
+    "vitc": 2
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 3,
+    "k": 260,
+    "ca": 22,
+    "mg": 11,
+    "p": 26,
+    "fe": 0.36,
+    "zn": 0.05,
+    "id": 2,
+    "cu": 100,
+    "mn": 148,
+    "fd": 9,
+    "cr": 1,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 9.2,
+    "mnsac": 5.48,
+    "glus": 2.28,
+    "frus": 3.2,
+    "disac": 3.1,
+    "sucs": 3.1,
+    "sugar": 8.58
+  },
+  "fibers": {
+    "fibt": 2.07,
+    "fibhmw": 2.07,
+    "fibins": 1.58,
+    "fibsol": 0.49
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.6,
+    "sortl": 0.6
+  },
+  "fattyAcids": {
+    "fasat": 0.038,
+    "f12_0": 0.001,
+    "f14_0": 0.001,
+    "f16_0": 0.032,
+    "f18_0": 0.004
+  },
+  "aminoAcids": {
+    "aae9": 0.131,
+    "ala": 0.024,
+    "arg": 0.014,
+    "asp": 0.058,
+    "cyste": 0.006,
+    "glu": 0.061,
+    "gly": 0.02,
+    "his": 0.007,
+    "ile": 0.015,
+    "leu": 0.026,
+    "lys": 0.023,
+    "met": 0.004,
+    "phe": 0.014,
+    "pro": 0.027,
+    "ser": 0.02,
+    "thr": 0.015,
+    "trp": 0.006,
+    "tyr": 0.013,
+    "val": 0.021
+  },
+  "otherNutrients": {
+    "nt": 0.08
+  },
+  "extra": {}
+}

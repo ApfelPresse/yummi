@@ -1,0 +1,97 @@
+{
+  "name": "Reis Grieß, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 55,
+    "water": 86.1,
+    "protein": 1.143,
+    "fat": 0.103,
+    "carbs": 12.2,
+    "fiber": 0.317,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.008,
+    "tocpha": 0.008,
+    "tocphb": 0.001,
+    "tocphg": 0.012,
+    "tocphd": 0.001,
+    "toctra": 0.011,
+    "thia": 0.007,
+    "ribf": 0.004,
+    "niaeq": 0.465,
+    "nia": 0.198,
+    "pantac": 0.09,
+    "vitb6": 27
+  },
+  "minerals": {
+    "k": 14,
+    "ca": 1,
+    "mg": 3,
+    "p": 14,
+    "fe": 0.057,
+    "zn": 0.4814,
+    "cu": 30,
+    "mn": 95,
+    "fd": 8,
+    "cr": 1,
+    "mo": 5
+  },
+  "carbohydrates": {
+    "cho": 12.2,
+    "mnsac": 0.02,
+    "glus": 0.02,
+    "disac": 0.024,
+    "sucs": 0.024,
+    "sugar": 0.04,
+    "starch": 12.2
+  },
+  "fibers": {
+    "fibt": 0.317,
+    "fibins": 0.131,
+    "fibsol": 0.187
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.022,
+    "f16_0": 0.02,
+    "f18_0": 0.002,
+    "fams": 0.037,
+    "f18_1cn9": 0.037,
+    "fapu": 0.039,
+    "fapun3": 0.002,
+    "f18_3cn3": 0.002,
+    "fapun6": 0.037,
+    "f18_2cn6": 0.037
+  },
+  "aminoAcids": {
+    "aae9": 0.448,
+    "ala": 0.07,
+    "arg": 0.092,
+    "asp": 0.106,
+    "cyste": 0.014,
+    "glu": 0.183,
+    "gly": 0.054,
+    "his": 0.029,
+    "ile": 0.052,
+    "leu": 0.098,
+    "lys": 0.044,
+    "met": 0.03,
+    "phe": 0.062,
+    "pro": 0.052,
+    "ser": 0.065,
+    "thr": 0.038,
+    "trp": 0.016,
+    "tyr": 0.044,
+    "val": 0.079
+  },
+  "otherNutrients": {
+    "nt": 0.183
+  },
+  "extra": {}
+}

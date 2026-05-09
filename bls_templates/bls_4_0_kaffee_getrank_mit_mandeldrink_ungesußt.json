@@ -1,0 +1,101 @@
+{
+  "name": "Kaffee (Getränk) mit Mandeldrink, ungesüßt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 2,
+    "water": 98.1,
+    "protein": 0.14,
+    "fat": 0.072,
+    "carbs": 0.006,
+    "fiber": 0.31,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.038,
+    "tocpha": 0.038,
+    "tocphb": 0.005,
+    "tocphg": 0.0006,
+    "toctra": 0.0001,
+    "vitk": 0.1,
+    "vitk1": 0.1,
+    "thia": 0.0001,
+    "ribf": 0.0007,
+    "niaeq": 0.683,
+    "nia": 0.678,
+    "pantac": 0.083,
+    "biot": 0.01,
+    "fol": 0.28,
+    "folfd": 0.28
+  },
+  "minerals": {
+    "nacl": 0.014,
+    "na": 5.6,
+    "cld": 10.4,
+    "k": 106.4,
+    "ca": 7.2,
+    "mg": 8.3,
+    "p": 6.6,
+    "s": 6,
+    "fe": 0.022,
+    "zn": 0.01,
+    "id": 0.0258,
+    "cu": 21,
+    "mn": 67.6,
+    "cr": 0.0155,
+    "mo": 0.049
+  },
+  "carbohydrates": {
+    "cho": 0.006,
+    "disac": 0.006,
+    "sucs": 0.006,
+    "sugar": 0.006
+  },
+  "fibers": {
+    "fibt": 0.31
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.006,
+    "f16_0": 0.004,
+    "f18_0": 0.0018,
+    "f20_0": 0.0001,
+    "f22_0": 0.0001,
+    "fams": 0.047,
+    "f16_1cn7": 0.0003,
+    "f18_1cn7": 0.0011,
+    "f18_1cn9": 0.046,
+    "fapu": 0.0128,
+    "fapun6": 0.0128,
+    "f18_2cn6": 0.0128,
+    "fax": 0.0001
+  },
+  "aminoAcids": {
+    "aae9": 0.02,
+    "ala": 0.004,
+    "arg": 0.004,
+    "asp": 0.008,
+    "cyste": 0.002,
+    "glu": 0.03,
+    "gly": 0.005,
+    "his": 0.002,
+    "ile": 0.003,
+    "leu": 0.006,
+    "lys": 0.002,
+    "phe": 0.004,
+    "pro": 0.005,
+    "ser": 0.002,
+    "thr": 0.002,
+    "trp": 0.0003,
+    "tyr": 0.0008,
+    "val": 0.0011
+  },
+  "otherNutrients": {
+    "nt": 0.01
+  },
+  "extra": {}
+}

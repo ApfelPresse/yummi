@@ -1,0 +1,94 @@
+{
+  "name": "Fruchtsaftgetränk angereichert mit Vitaminen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 37,
+    "water": 90.5,
+    "protein": 0.121,
+    "fat": null,
+    "carbs": 9,
+    "fiber": 0.049,
+    "alcohol": 0.018,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 31,
+    "vitaa": 15,
+    "cartb": 182,
+    "carotpaxb": 7,
+    "vite": 1.8,
+    "tocpha": 1.8,
+    "thia": 0.17,
+    "ribf": 0.001,
+    "niaeq": 2.4,
+    "nia": 2.4,
+    "pantac": 0.9,
+    "vitb6": 210,
+    "biot": 7.6,
+    "fol": 54,
+    "folfd": 3,
+    "folac": 30,
+    "vitb12": 0.38,
+    "vitc": 12
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 3,
+    "k": 23,
+    "ca": 11,
+    "mg": 4,
+    "p": 3,
+    "s": 1.4,
+    "zn": 0.01,
+    "cu": 5,
+    "fd": 23,
+    "mo": 0.14
+  },
+  "carbohydrates": {
+    "cho": 9,
+    "mnsac": 0.653,
+    "glus": 0.318,
+    "frus": 0.335,
+    "disac": 8.347,
+    "sucs": 8.347,
+    "sugar": 9
+  },
+  "fibers": {
+    "fibt": 0.049
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fapu": 0.001,
+    "fapun6": 0.001,
+    "f18_2cn6": 0.001
+  },
+  "aminoAcids": {
+    "aae9": 0.011,
+    "ala": 0.003,
+    "arg": 0.007,
+    "asp": 0.011,
+    "cyste": 0.001,
+    "glu": 0.005,
+    "gly": 0.002,
+    "his": 0.001,
+    "ile": 0.001,
+    "leu": 0.002,
+    "lys": 0.002,
+    "met": 0.001,
+    "phe": 0.001,
+    "pro": 0.007,
+    "ser": 0.002,
+    "thr": 0.001,
+    "tyr": 0.001,
+    "val": 0.002
+  },
+  "otherNutrients": {
+    "nt": 0.019
+  },
+  "extra": {}
+}

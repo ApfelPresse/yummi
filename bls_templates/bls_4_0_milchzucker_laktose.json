@@ -1,0 +1,34 @@
+{
+  "name": "Milchzucker (Laktose)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 400,
+    "water": null,
+    "protein": null,
+    "fat": null,
+    "carbs": 100,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "ca": 46.5
+  },
+  "carbohydrates": {
+    "cho": 100,
+    "disac": 100,
+    "lacs": 100,
+    "sugar": 100
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

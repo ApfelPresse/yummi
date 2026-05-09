@@ -1,0 +1,90 @@
+{
+  "name": "Fruchtsaftgetränk Zitrusfrüchte",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 41,
+    "water": 89.6,
+    "protein": 0.119,
+    "fat": null,
+    "carbs": 9.975,
+    "fiber": 0.049,
+    "alcohol": 0.02,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 2,
+    "carotpaxb": 7,
+    "vite": 0.016,
+    "tocpha": 0.016,
+    "thia": 0.011,
+    "ribf": 0.001,
+    "niaeq": 0.063,
+    "nia": 0.063,
+    "pantac": 0.03,
+    "vitb6": 5,
+    "fol": 3,
+    "folfd": 3,
+    "vitc": 6.388
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 3,
+    "k": 22,
+    "ca": 11,
+    "mg": 4,
+    "p": 3,
+    "s": 1.4,
+    "zn": 0.01,
+    "cu": 5,
+    "fd": 23,
+    "mo": 0.14
+  },
+  "carbohydrates": {
+    "cho": 9.975,
+    "mnsac": 0.723,
+    "glus": 0.352,
+    "frus": 0.371,
+    "disac": 9.252,
+    "sucs": 9.252,
+    "sugar": 9.975
+  },
+  "fibers": {
+    "fibt": 0.049
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fapu": 0.001,
+    "fapun6": 0.001,
+    "f18_2cn6": 0.001
+  },
+  "aminoAcids": {
+    "aae9": 0.011,
+    "ala": 0.003,
+    "arg": 0.007,
+    "asp": 0.011,
+    "cyste": 0.001,
+    "glu": 0.005,
+    "gly": 0.002,
+    "his": 0.001,
+    "ile": 0.001,
+    "leu": 0.002,
+    "lys": 0.002,
+    "met": 0.001,
+    "phe": 0.001,
+    "pro": 0.007,
+    "ser": 0.002,
+    "thr": 0.001,
+    "tyr": 0.001,
+    "val": 0.002
+  },
+  "otherNutrients": {
+    "nt": 0.019
+  },
+  "extra": {}
+}

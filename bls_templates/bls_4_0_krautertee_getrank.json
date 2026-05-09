@@ -1,0 +1,39 @@
+{
+  "name": "Kräutertee (Getränk)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": null,
+    "water": 100,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.0062,
+    "na": 2.49,
+    "k": 8.52,
+    "ca": 7.02,
+    "mg": 2.07,
+    "p": 0.4,
+    "fe": 0.0034,
+    "zn": 0.0106,
+    "id": 0.4,
+    "cu": 9,
+    "mn": 43.3
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

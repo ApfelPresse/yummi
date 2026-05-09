@@ -1,0 +1,63 @@
+{
+  "name": "Kakaobutter",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitd": 2.98,
+    "ergcal": 2.98,
+    "vite": 0.5,
+    "tocpha": 0.5,
+    "tocphb": 0.05,
+    "tocphg": 0.05,
+    "tocphd": 0.05,
+    "toctra": 1.37,
+    "vitk": 15,
+    "vitk1": 15
+  },
+  "minerals": {
+    "cld": 0.1,
+    "mg": 0.2,
+    "p": 0.9,
+    "fe": 0.02,
+    "cu": 2
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 59.9,
+    "f14_0": 0.1,
+    "f16_0": 24.15,
+    "f17_0": 0.22,
+    "f18_0": 33.74,
+    "f20_0": 1.35,
+    "f22_0": 0.24,
+    "f24_0": 0.07,
+    "fams": 32.19,
+    "f16_1cn7": 0.27,
+    "f18_1cn9": 31.89,
+    "f20_1cn9": 0.03,
+    "fapu": 2.87,
+    "fapun6": 2.87,
+    "f18_2cn6": 2.87,
+    "fax": 0.2
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 2.7
+  },
+  "extra": {}
+}

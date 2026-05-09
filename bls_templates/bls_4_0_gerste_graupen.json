@@ -1,0 +1,101 @@
+{
+  "name": "Gerste Graupen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 313,
+    "water": 11.6,
+    "protein": 10.399,
+    "fat": 1.36,
+    "carbs": 62.6,
+    "fiber": 4.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "cartb": 1,
+    "vite": 0.31,
+    "tocpha": 0.31,
+    "vitk": 2.2,
+    "vitk1": 2.2,
+    "thia": 0.092,
+    "ribf": 0.08,
+    "niaeq": 5.1,
+    "nia": 3.1,
+    "pantac": 0.5,
+    "vitb6": 220,
+    "biot": 8.61,
+    "fol": 20,
+    "folfd": 20
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 23,
+    "k": 270,
+    "ca": 17.6,
+    "mg": 65,
+    "p": 210,
+    "fe": 3,
+    "zn": 2.1,
+    "id": 5,
+    "cu": 400,
+    "mn": 1300,
+    "cr": 3.16,
+    "mo": 57.4
+  },
+  "carbohydrates": {
+    "cho": 62.6,
+    "mnsac": 0.2,
+    "glus": 0.1,
+    "frus": 0.1,
+    "disac": 1.51,
+    "sucs": 0.99,
+    "mals": 0.52,
+    "sugar": 1.71,
+    "starch": 60.9
+  },
+  "fibers": {
+    "fibt": 4.6,
+    "fibhmw": 4.6,
+    "fibins": 2.7,
+    "fibsol": 1.9
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.343,
+    "f14_0": 0.026,
+    "f16_0": 0.291,
+    "f18_0": 0.026,
+    "fams": 0.162,
+    "f16_1cn7": 0.013,
+    "f18_1cn9": 0.149,
+    "fapu": 0.816,
+    "fapun3": 0.071,
+    "f18_3cn3": 0.071,
+    "fapun6": 0.745,
+    "f18_2cn6": 0.745
+  },
+  "aminoAcids": {
+    "aae9": 3.12,
+    "arg": 0.49,
+    "cyste": 0.2,
+    "his": 0.18,
+    "ile": 0.41,
+    "leu": 0.66,
+    "lys": 0.32,
+    "met": 0.14,
+    "phe": 0.49,
+    "thr": 0.32,
+    "trp": 0.12,
+    "tyr": 0.34,
+    "val": 0.48
+  },
+  "otherNutrients": {
+    "nt": 1.664
+  },
+  "extra": {}
+}

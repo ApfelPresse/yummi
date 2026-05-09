@@ -1,0 +1,111 @@
+{
+  "name": "Weinsauerkraut gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 18,
+    "water": 92.4,
+    "protein": 1.046,
+    "fat": 0.288,
+    "carbs": 0.94,
+    "fiber": 2.075,
+    "alcohol": 0.08,
+    "sugarAlcohols": 0.115
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 1,
+    "cartb": 17,
+    "vite": 0.029,
+    "tocpha": 0.029,
+    "tocphg": 0.0062,
+    "tocphd": 0.0031,
+    "vitk": 29.3,
+    "vitk1": 24.6,
+    "vitk2": 4.7,
+    "thia": 0.02,
+    "ribf": 0.04,
+    "niaeq": 0.132,
+    "nia": 0.132,
+    "pantac": 0.16,
+    "vitb6": 165,
+    "biot": 0.6,
+    "fol": 17.8,
+    "folfd": 17.8,
+    "vitb12": 0.21,
+    "vitc": 12
+  },
+  "minerals": {
+    "nacl": 0.995,
+    "na": 398,
+    "k": 149,
+    "ca": 43,
+    "mg": 11,
+    "p": 40,
+    "fe": 0.955,
+    "zn": 0.28,
+    "cu": 29,
+    "mn": 133,
+    "fd": 42,
+    "cr": 5,
+    "mo": 8.8
+  },
+  "carbohydrates": {
+    "cho": 0.94,
+    "mnsac": 0.6,
+    "glus": 0.4,
+    "frus": 0.2,
+    "disac": 0.13,
+    "sucs": 0.13,
+    "sugar": 0.73,
+    "starch": 0.09
+  },
+  "fibers": {
+    "fibt": 2.075,
+    "fibhmw": 2.075,
+    "fibins": 1.261,
+    "fibsol": 0.814
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.115,
+    "mantl": 0.115
+  },
+  "fattyAcids": {
+    "fasat": 0.067,
+    "f16_0": 0.051,
+    "f18_0": 0.016,
+    "fams": 0.113,
+    "f18_1cn9": 0.113,
+    "fapu": 0.059,
+    "fapun3": 0.01,
+    "f18_3cn3": 0.01,
+    "fapun6": 0.049,
+    "f18_2cn6": 0.049
+  },
+  "aminoAcids": {
+    "aae9": 0.149,
+    "ala": 0.063,
+    "arg": 0.027,
+    "asp": 0.039,
+    "cyste": 0.013,
+    "glu": 0.137,
+    "gly": 0.02,
+    "his": 0.009,
+    "ile": 0.025,
+    "leu": 0.028,
+    "lys": 0.023,
+    "phe": 0.02,
+    "pro": 0.028,
+    "ser": 0.027,
+    "thr": 0.02,
+    "tyr": 0.013,
+    "val": 0.024
+  },
+  "otherNutrients": {
+    "nt": 0.168
+  },
+  "extra": {}
+}

@@ -1,0 +1,86 @@
+{
+  "name": "Mungbohnensprossen/Mungbohnenkeimlinge, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 19,
+    "water": 93.1,
+    "protein": 3.2,
+    "fat": 0.3,
+    "carbs": 0.3,
+    "fiber": 1.24,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 16,
+    "vitaa": 8,
+    "cartb": 96,
+    "vitk": 33,
+    "vitk1": 33,
+    "thia": 0.041,
+    "ribf": 0.092,
+    "niaeq": 1.373,
+    "nia": 0.79,
+    "pantac": 0.39,
+    "vitb6": 67,
+    "fol": 208,
+    "folfd": 208,
+    "vitc": 11
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "k": 178.5,
+    "ca": 3.7,
+    "mg": 12,
+    "p": 49,
+    "fe": 0.46,
+    "zn": 0.39,
+    "cu": 120,
+    "mn": 100
+  },
+  "carbohydrates": {
+    "cho": 0.3,
+    "mnsac": 0.3,
+    "glus": 0.1,
+    "frus": 0.2,
+    "sugar": 0.3
+  },
+  "fibers": {
+    "fibt": 1.24,
+    "fibhmw": 1.24,
+    "fibins": 0.797,
+    "fibsol": 0.443
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 1.235,
+    "ala": 0.14,
+    "arg": 0.224,
+    "asp": 0.37,
+    "cyste": 0.028,
+    "glu": 0.57,
+    "gly": 0.128,
+    "his": 0.093,
+    "ile": 0.135,
+    "leu": 0.248,
+    "lys": 0.222,
+    "met": 0.038,
+    "phe": 0.193,
+    "pro": 0.147,
+    "ser": 0.158,
+    "thr": 0.105,
+    "trp": 0.035,
+    "tyr": 0.096,
+    "val": 0.166
+  },
+  "otherNutrients": {
+    "nt": 0.512
+  },
+  "extra": {}
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Johannisbeernektar schwarz, mit Süßungsmitteln",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 14,
+    "water": 96,
+    "protein": 0.31,
+    "fat": 0.044,
+    "carbs": 2.5,
+    "fiber": 0.1,
+    "alcohol": 0.012,
+    "sugarAlcohols": 0.001
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 14,
+    "vite": 0.455,
+    "tocpha": 0.455,
+    "tocphb": 0.04,
+    "tocphg": 0.08,
+    "tocphd": 0.038,
+    "vitk": 8,
+    "vitk1": 8,
+    "thia": 0.01,
+    "ribf": 0.009,
+    "niaeq": 0.056,
+    "nia": 0.056,
+    "pantac": 0.08,
+    "vitb6": 16,
+    "fol": 2,
+    "folfd": 2,
+    "vitc": 26.55
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 6,
+    "k": 70,
+    "ca": 17,
+    "mg": 6,
+    "p": 10,
+    "s": 1.3,
+    "fe": 0.254,
+    "zn": 0.063,
+    "id": 1,
+    "cu": 30,
+    "mn": 65,
+    "fd": 7,
+    "cr": 1,
+    "mo": 3
+  },
+  "carbohydrates": {
+    "cho": 2.5,
+    "mnsac": 2.457,
+    "glus": 1.16,
+    "frus": 1.295,
+    "gals": 0.0024,
+    "disac": 0.04,
+    "sucs": 0.035,
+    "mals": 0.01,
+    "sugar": 2.5
+  },
+  "fibers": {
+    "fibt": 0.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.001,
+    "xyltl": 0.001
+  },
+  "fattyAcids": {
+    "fasat": 0.005,
+    "f16_0": 0.004,
+    "f18_0": 0.0008,
+    "fams": 0.005,
+    "f16_1cn7": 0.0002,
+    "f18_1cn9": 0.005,
+    "fapu": 0.022,
+    "fapun3": 0.0081,
+    "f18_3cn3": 0.0081,
+    "fapun6": 0.0139,
+    "f18_2cn6": 0.0139
+  },
+  "aminoAcids": {
+    "aae9": 0.063,
+    "ala": 0.03,
+    "arg": 0.014,
+    "asp": 0.048,
+    "cyste": 0.001,
+    "glu": 0.044,
+    "gly": 0.011,
+    "his": 0.006,
+    "ile": 0.004,
+    "leu": 0.013,
+    "lys": 0.012,
+    "phe": 0.008,
+    "pro": 0.007,
+    "ser": 0.017,
+    "thr": 0.009,
+    "tyr": 0.007,
+    "val": 0.011
+  },
+  "otherNutrients": {
+    "nt": 0.05
+  },
+  "extra": {}
+}

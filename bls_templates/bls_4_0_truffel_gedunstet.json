@@ -1,0 +1,95 @@
+{
+  "name": "Trüffel gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 103,
+    "water": 64.2,
+    "protein": 11.673,
+    "fat": 0.718,
+    "carbs": 0.8,
+    "fiber": 23.296,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitd": 4.4,
+    "ergcal": 4.4,
+    "vite": 0.07,
+    "tocpha": 0.07,
+    "thia": 0.165,
+    "ribf": 0.08,
+    "niaeq": 0.467,
+    "pantac": 0.56,
+    "vitb6": 180,
+    "fol": 6.3,
+    "folfd": 6.3,
+    "vitc": 5.634
+  },
+  "minerals": {
+    "nacl": 0.27,
+    "na": 108,
+    "cld": 39,
+    "k": 741,
+    "ca": 34,
+    "mg": 33.5,
+    "p": 87,
+    "fe": 4.93,
+    "mn": 634
+  },
+  "carbohydrates": {
+    "cho": 0.8,
+    "mnsac": 0.8,
+    "glus": 0.8,
+    "sugar": 0.8
+  },
+  "fibers": {
+    "fibt": 23.296,
+    "fibhmw": 23.296,
+    "fibins": 18.392,
+    "fibsol": 4.904
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.125,
+    "f4_0": 0.007,
+    "f8_0": 0.001,
+    "f10_0": 0.006,
+    "f14_0": 0.003,
+    "f15_0": 0.001,
+    "f16_0": 0.073,
+    "f17_0": 0.001,
+    "f18_0": 0.018,
+    "f20_0": 0.007,
+    "f22_0": 0.004,
+    "f24_0": 0.004,
+    "fams": 0.016,
+    "f14_1cn5": 0.003,
+    "f18_1cn9": 0.013,
+    "fapu": 0.359,
+    "fapun6": 0.359,
+    "f18_2cn6": 0.359,
+    "fax": 0.004
+  },
+  "aminoAcids": {
+    "aae9": 2.802,
+    "arg": 0.915,
+    "cyste": 0.211,
+    "his": 0.141,
+    "ile": 0.225,
+    "leu": 0.563,
+    "lys": 0.69,
+    "phe": 0.268,
+    "thr": 0.535,
+    "trp": 0.028,
+    "tyr": 0.254,
+    "val": 0.352
+  },
+  "otherNutrients": {
+    "nt": 1.868
+  },
+  "extra": {}
+}

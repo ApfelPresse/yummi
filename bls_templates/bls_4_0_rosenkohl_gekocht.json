@@ -1,0 +1,105 @@
+{
+  "name": "Rosenkohl gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 47,
+    "water": 85.8,
+    "protein": 3.8,
+    "fat": 0.4,
+    "carbs": 5,
+    "fiber": 3.99,
+    "alcohol": null,
+    "sugarAlcohols": 0.16
+  },
+  "vitamins": {
+    "vita": 106,
+    "vitaa": 53,
+    "cartb": 579,
+    "carotpaxb": 115,
+    "vite": 0.26,
+    "tocpha": 0.26,
+    "tocphb": 0.12,
+    "vitk": 175,
+    "vitk1": 175,
+    "thia": 0.05,
+    "ribf": 0.07,
+    "niaeq": 1.1,
+    "nia": 0.4,
+    "pantac": 0.4,
+    "vitb6": 190,
+    "biot": 0.5,
+    "fol": 124,
+    "folfd": 124,
+    "vitc": 61.835
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 25,
+    "k": 404,
+    "ca": 26,
+    "mg": 17,
+    "p": 71,
+    "fe": 0.6,
+    "zn": 0.25,
+    "id": 0.5,
+    "mn": 230
+  },
+  "carbohydrates": {
+    "cho": 5,
+    "mnsac": 1.1,
+    "glus": 0.6,
+    "frus": 0.5,
+    "disac": 2.6,
+    "sucs": 2.5,
+    "sugar": 3.7,
+    "starch": 1
+  },
+  "fibers": {
+    "fibt": 3.99,
+    "fibhmw": 3.99,
+    "fibins": 3.4,
+    "fibsol": 0.59
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.16,
+    "sortl": 0.16
+  },
+  "fattyAcids": {
+    "fasat": 0.0434,
+    "f14_0": 0.0012,
+    "f16_0": 0.0361,
+    "f18_0": 0.0024,
+    "f20_0": 0.0037,
+    "fams": 0.0067,
+    "f16_1cn7": 0.0012,
+    "f18_1cn9": 0.0046,
+    "f20_1cn9": 0.0009,
+    "fapu": 0.165,
+    "fapun3": 0.132,
+    "f18_3cn3": 0.132,
+    "fapun6": 0.0327,
+    "f18_2cn6": 0.0327
+  },
+  "aminoAcids": {
+    "aae9": 1.221,
+    "arg": 0.238,
+    "his": 0.093,
+    "ile": 0.178,
+    "leu": 0.195,
+    "lys": 0.212,
+    "met": 0.034,
+    "phe": 0.127,
+    "thr": 0.136,
+    "trp": 0.042,
+    "val": 0.204
+  },
+  "otherNutrients": {
+    "nt": 0.5
+  },
+  "extra": {}
+}

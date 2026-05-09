@@ -1,0 +1,97 @@
+{
+  "name": "Schlehe roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 52,
+    "water": 81.7,
+    "protein": 0.75,
+    "fat": 0.22,
+    "carbs": 7.82,
+    "fiber": 3.5,
+    "alcohol": null,
+    "sugarAlcohols": 0.003
+  },
+  "vitamins": {
+    "vita": 10,
+    "vitaa": 5,
+    "cartb": 56,
+    "carotpaxb": 2,
+    "vite": 1.82,
+    "tocpha": 1.82,
+    "tocphb": 0.16,
+    "tocphg": 0.32,
+    "tocphd": 0.15,
+    "vitk": 30,
+    "vitk1": 30,
+    "thia": 0.051,
+    "ribf": 0.044,
+    "niaeq": 0.28,
+    "nia": 0.28,
+    "pantac": 0.4,
+    "vitb6": 80,
+    "biot": 2,
+    "fol": 14,
+    "folfd": 14
+  },
+  "minerals": {
+    "nacl": 0.0028,
+    "na": 1.13,
+    "cld": 15,
+    "k": 306,
+    "ca": 52,
+    "mg": 23,
+    "p": 40,
+    "fe": 1.07,
+    "zn": 0.25,
+    "id": 1,
+    "cu": 114,
+    "mn": 263,
+    "fd": 29,
+    "cr": 3,
+    "mo": 10
+  },
+  "carbohydrates": {
+    "cho": 7.82,
+    "mnsac": 7.528,
+    "glus": 3.321,
+    "frus": 4.196,
+    "gals": 0.0107,
+    "disac": 0.29,
+    "sucs": 0.24,
+    "mals": 0.05,
+    "sugar": 7.82
+  },
+  "fibers": {
+    "fibt": 3.5,
+    "fibhmw": 3.5,
+    "fibins": 2.8,
+    "fibsol": 0.7
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.003,
+    "xyltl": 0.003
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.101,
+    "ala": 0.043,
+    "arg": 0.01,
+    "asp": 0.525,
+    "cyste": 0.008,
+    "glu": 0.08,
+    "leu": 0.028,
+    "lys": 0.038,
+    "pro": 0.015,
+    "ser": 0.043,
+    "thr": 0.03,
+    "val": 0.005
+  },
+  "otherNutrients": {
+    "nt": 0.12
+  },
+  "extra": {}
+}

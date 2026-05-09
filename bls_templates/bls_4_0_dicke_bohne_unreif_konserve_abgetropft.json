@@ -1,0 +1,102 @@
+{
+  "name": "Dicke Bohne unreif, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 51,
+    "water": 85,
+    "protein": 4.4,
+    "fat": 0.6,
+    "carbs": 4.3,
+    "fiber": 5.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 17,
+    "vitaa": 8,
+    "cartb": 98,
+    "carotpaxb": 6,
+    "ribf": 0.03,
+    "niaeq": 1.4,
+    "nia": 0.6,
+    "pantac": 0.042,
+    "vitb6": 10,
+    "biot": 1,
+    "fol": 14,
+    "folfd": 14,
+    "vitc": 8
+  },
+  "minerals": {
+    "nacl": 0.548,
+    "na": 219,
+    "cld": 447,
+    "k": 92,
+    "ca": 22,
+    "mg": 15,
+    "p": 82,
+    "s": 1,
+    "fe": 0.7,
+    "zn": 0.434,
+    "id": 3,
+    "cu": 70,
+    "mn": 300
+  },
+  "carbohydrates": {
+    "cho": 4.3,
+    "mnsac": 0.3,
+    "glus": 0.1,
+    "frus": 0.2,
+    "disac": 0.6,
+    "sucs": 0.6,
+    "sugar": 0.9,
+    "starch": 3.4
+  },
+  "fibers": {
+    "fibt": 5.2,
+    "fibhmw": 5.2,
+    "fibins": 4,
+    "fibsol": 1.1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.115,
+    "f16_0": 0.101,
+    "f18_0": 0.014,
+    "fams": 0.014,
+    "f18_1cn9": 0.014,
+    "fapu": 0.27,
+    "fapun3": 0.158,
+    "f18_3cn3": 0.158,
+    "fapun6": 0.11,
+    "f18_2cn6": 0.11
+  },
+  "aminoAcids": {
+    "aae9": 1.666,
+    "ala": 0.191,
+    "arg": 0.388,
+    "asp": 0.529,
+    "cyste": 0.065,
+    "glu": 0.716,
+    "gly": 0.19,
+    "his": 0.112,
+    "ile": 0.21,
+    "leu": 0.361,
+    "lys": 0.306,
+    "met": 0.036,
+    "phe": 0.191,
+    "pro": 0.21,
+    "ser": 0.206,
+    "thr": 0.174,
+    "trp": 0.046,
+    "tyr": 0.165,
+    "val": 0.23
+  },
+  "otherNutrients": {
+    "nt": 0.8
+  },
+  "extra": {}
+}

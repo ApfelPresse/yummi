@@ -1,0 +1,109 @@
+{
+  "name": "Schwarzwurzel tiefgefroren, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 58,
+    "water": 77,
+    "protein": 1.386,
+    "fat": 0.429,
+    "carbs": 8.3,
+    "fiber": 5,
+    "alcohol": null,
+    "sugarAlcohols": 0.066
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 2,
+    "cartb": 19,
+    "vite": 0.975,
+    "tocpha": 0.975,
+    "vitk": 1,
+    "vitk1": 1,
+    "thia": 0.088,
+    "ribf": 0.033,
+    "niaeq": 0.749,
+    "nia": 0.332,
+    "pantac": 0.316,
+    "vitb6": 93,
+    "fol": 32,
+    "folfd": 32,
+    "vitc": 2.171
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 28,
+    "k": 287,
+    "ca": 52,
+    "mg": 24,
+    "p": 67.9,
+    "fe": 2.953,
+    "zn": 0.232,
+    "id": 1.6,
+    "cu": 297,
+    "mn": 376,
+    "fd": 9,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 8.3,
+    "mnsac": 0.092,
+    "glus": 0.018,
+    "frus": 0.074,
+    "disac": 3.7,
+    "sucs": 3.7,
+    "sugar": 3.8,
+    "olsac": 2.539,
+    "starch": 1.9
+  },
+  "fibers": {
+    "fibt": 5,
+    "fibins": 6.5,
+    "fibsol": 2
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.066,
+    "mantl": 0.066
+  },
+  "fattyAcids": {
+    "fasat": 0.047,
+    "f14_0": 0.001,
+    "f15_0": 0.001,
+    "f16_0": 0.032,
+    "f17_0": 0.001,
+    "f18_0": 0.004,
+    "f20_0": 0.002,
+    "f22_0": 0.003,
+    "f24_0": 0.003,
+    "fams": 0.005,
+    "f18_1cn9": 0.005,
+    "fapu": 0.246,
+    "fapun3": 0.182,
+    "f18_3cn3": 0.182,
+    "fapun6": 0.064,
+    "f18_2cn6": 0.063,
+    "f18_3cn6": 0.001,
+    "fax": 0.001
+  },
+  "aminoAcids": {
+    "aae9": 0.387,
+    "arg": 0.101,
+    "his": 0.023,
+    "ile": 0.082,
+    "leu": 0.06,
+    "lys": 0.054,
+    "met": 0.008,
+    "phe": 0.033,
+    "thr": 0.039,
+    "trp": 0.025,
+    "val": 0.063
+  },
+  "otherNutrients": {
+    "nt": 0.222
+  },
+  "extra": {}
+}

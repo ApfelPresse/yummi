@@ -1,0 +1,107 @@
+{
+  "name": "Johannisbeernektar schwarz",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 55,
+    "water": 85.3,
+    "protein": 0.43,
+    "fat": null,
+    "carbs": 12.82,
+    "fiber": 0.1,
+    "alcohol": 0.012,
+    "sugarAlcohols": 0.023
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "cartb": 24,
+    "vite": 0.455,
+    "tocpha": 0.455,
+    "tocphb": 0.04,
+    "tocphg": 0.08,
+    "tocphd": 0.038,
+    "vitk": 8,
+    "vitk1": 8,
+    "thia": 0.005,
+    "ribf": 0.002,
+    "niaeq": 0.03,
+    "nia": 0.03,
+    "vitc": 30
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 6,
+    "k": 98,
+    "ca": 15,
+    "mg": 6,
+    "p": 10,
+    "s": 1.2,
+    "fe": 0.3,
+    "zn": 0.063,
+    "cu": 20,
+    "mn": 66,
+    "fd": 7,
+    "cr": 1,
+    "mo": 3
+  },
+  "carbohydrates": {
+    "cho": 12.82,
+    "mnsac": 9.502,
+    "glus": 4.96,
+    "frus": 4.54,
+    "gals": 0.0024,
+    "disac": 3.3,
+    "sucs": 3.285,
+    "mals": 0.01,
+    "sugar": 12.8
+  },
+  "fibers": {
+    "fibt": 0.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.023,
+    "sortl": 0.022,
+    "xyltl": 0.001
+  },
+  "fattyAcids": {
+    "fasat": 0.005,
+    "f16_0": 0.004,
+    "f18_0": 0.0008,
+    "fams": 0.005,
+    "f16_1cn7": 0.0002,
+    "f18_1cn9": 0.005,
+    "fapu": 0.022,
+    "fapun3": 0.0081,
+    "f18_3cn3": 0.0081,
+    "fapun6": 0.0139,
+    "f18_2cn6": 0.0139
+  },
+  "aminoAcids": {
+    "aae9": 0.063,
+    "ala": 0.03,
+    "arg": 0.014,
+    "asp": 0.048,
+    "cyste": 0.001,
+    "glu": 0.044,
+    "gly": 0.011,
+    "his": 0.006,
+    "ile": 0.004,
+    "leu": 0.013,
+    "lys": 0.012,
+    "phe": 0.008,
+    "pro": 0.007,
+    "ser": 0.017,
+    "thr": 0.009,
+    "tyr": 0.007,
+    "val": 0.011
+  },
+  "otherNutrients": {
+    "nt": 0.069
+  },
+  "extra": {}
+}

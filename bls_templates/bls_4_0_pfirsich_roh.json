@@ -1,0 +1,106 @@
+{
+  "name": "Pfirsich roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 39,
+    "water": 87.439,
+    "protein": 0.7,
+    "fat": 0.11,
+    "carbs": 8.02,
+    "fiber": 1.7,
+    "alcohol": null,
+    "sugarAlcohols": 1.03
+  },
+  "vitamins": {
+    "vita": 25,
+    "vitaa": 12,
+    "cartb": 91,
+    "carotpaxb": 114,
+    "vite": 0.425,
+    "tocpha": 0.425,
+    "tocphg": 0.01,
+    "toctra": 0.02,
+    "vitk": 3.8,
+    "vitk1": 3.8,
+    "thia": 0.026,
+    "ribf": 0.035,
+    "niaeq": 1.029,
+    "nia": 1.029,
+    "pantac": 0.14,
+    "vitb6": 26,
+    "biot": 2,
+    "fol": 8,
+    "folfd": 8,
+    "vitc": 10
+  },
+  "minerals": {
+    "nacl": 0.0017,
+    "na": 0.687,
+    "cld": 2.6,
+    "k": 198,
+    "ca": 6,
+    "mg": 9,
+    "p": 20,
+    "fe": 0.276,
+    "zn": 0.13,
+    "cu": 86,
+    "mn": 70,
+    "fd": 12
+  },
+  "carbohydrates": {
+    "cho": 8.02,
+    "mnsac": 4.65,
+    "glus": 2.29,
+    "frus": 2.36,
+    "disac": 2.342,
+    "sucs": 2.342,
+    "sugar": 6.99
+  },
+  "fibers": {
+    "fibt": 1.7,
+    "fibhmw": 1.7,
+    "fibins": 0.8,
+    "fibsol": 0.9
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.03,
+    "mantl": 0.17,
+    "sortl": 0.86
+  },
+  "fattyAcids": {
+    "fasat": 0.01,
+    "f16_0": 0.0089,
+    "f18_0": 0.001,
+    "fams": 0.034,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.033,
+    "fapu": 0.044,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.043,
+    "f18_2cn6": 0.043
+  },
+  "aminoAcids": {
+    "aae9": 0.087,
+    "ala": 0.024,
+    "arg": 0.016,
+    "asp": 0.338,
+    "cyste": 0.004,
+    "glu": 0.048,
+    "gly": 0.01,
+    "leu": 0.024,
+    "lys": 0.023,
+    "pro": 0.003,
+    "ser": 0.031,
+    "thr": 0.02,
+    "val": 0.02
+  },
+  "otherNutrients": {
+    "nt": 0.155
+  },
+  "extra": {}
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Palmkernfett/Palmkernöl",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.62,
+    "tocpha": 0.62,
+    "tocphb": 0.05,
+    "tocphg": 0.12,
+    "tocphd": 0.05,
+    "toctra": 0.37,
+    "vitk": 1.5,
+    "vitk1": 1.5
+  },
+  "minerals": {
+    "cld": 0.1,
+    "mg": 0.2,
+    "p": 0.9,
+    "fe": 0.02,
+    "cu": 2
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 78.85,
+    "f8_0": 4.75,
+    "f10_0": 3.8,
+    "f12_0": 44.3,
+    "f14_0": 15.1,
+    "f16_0": 8.5,
+    "f18_0": 2.4,
+    "fams": 14.1,
+    "f18_1cn9": 14.1,
+    "fapu": 2.4,
+    "fapun6": 2.4,
+    "f18_2cn6": 2.4
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 1.6
+  },
+  "extra": {}
+}

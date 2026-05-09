@@ -1,0 +1,94 @@
+{
+  "name": "Bleichsellerie gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 16,
+    "water": 95.6,
+    "protein": 1.081,
+    "fat": 0.1,
+    "carbs": 1.5,
+    "fiber": 2.3,
+    "alcohol": null,
+    "sugarAlcohols": 0.099
+  },
+  "vitamins": {
+    "vita": 392,
+    "vitaa": 196,
+    "cartb": 2351,
+    "carotpaxb": 0.8,
+    "vite": 0.05,
+    "tocpha": 0.05,
+    "tocphb": 0.005,
+    "tocphg": 0.005,
+    "tocphd": 0.005,
+    "toctra": 0.04,
+    "vitk": 26,
+    "vitk1": 26,
+    "thia": 0.02,
+    "ribf": 0.02,
+    "niaeq": 0.5,
+    "nia": 0.3,
+    "pantac": 0.24,
+    "vitb6": 20,
+    "biot": 0.1,
+    "fol": 7,
+    "folfd": 7,
+    "vitc": 5.045
+  },
+  "minerals": {
+    "nacl": 0.175,
+    "na": 70,
+    "cld": 189,
+    "k": 253,
+    "ca": 36,
+    "mg": 7,
+    "p": 20,
+    "fe": 0.11,
+    "zn": 0.09,
+    "id": 1,
+    "cu": 20,
+    "mn": 70,
+    "cr": 1,
+    "mo": 0.95
+  },
+  "carbohydrates": {
+    "cho": 1.5,
+    "mnsac": 1.3,
+    "glus": 0.9,
+    "frus": 0.4,
+    "disac": 0.05,
+    "mals": 0.05,
+    "sugar": 1.4
+  },
+  "fibers": {
+    "fibt": 2.3,
+    "fibhmw": 2.3,
+    "fibins": 1.411,
+    "fibsol": 0.889
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.099,
+    "mantl": 0.099
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.259,
+    "arg": 0.09,
+    "cyste": 0.005,
+    "his": 0.04,
+    "lys": 0.017,
+    "met": 0.013,
+    "phe": 0.062,
+    "trp": 0.01,
+    "tyr": 0.028,
+    "val": 0.117
+  },
+  "otherNutrients": {
+    "nt": 0.01
+  },
+  "extra": {}
+}

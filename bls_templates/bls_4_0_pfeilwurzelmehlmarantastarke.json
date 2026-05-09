@@ -1,0 +1,86 @@
+{
+  "name": "Pfeilwurzelmehl/Marantastärke",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 341,
+    "water": 11.4,
+    "protein": 0.3,
+    "fat": 0.1,
+    "carbs": 83.1,
+    "fiber": 3.4,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.001,
+    "ribf": 0.007,
+    "niaeq": 0.207,
+    "nia": 0.14,
+    "pantac": 0.13,
+    "vitb6": 5,
+    "biot": 6,
+    "fol": 7,
+    "folfd": 7
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 4.75,
+    "k": 11,
+    "ca": 40,
+    "mg": 3,
+    "p": 5,
+    "fe": 0.33,
+    "zn": 0.07,
+    "id": 1,
+    "cu": 40,
+    "mn": 470,
+    "fd": 43
+  },
+  "carbohydrates": {
+    "cho": 83.1,
+    "starch": 83.1
+  },
+  "fibers": {
+    "fibt": 3.4,
+    "fibins": 2,
+    "fibsol": 1.4
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.019,
+    "f14_0": 0.001,
+    "f16_0": 0.017,
+    "f18_0": 0.001,
+    "fax": 0.047
+  },
+  "aminoAcids": {
+    "aae9": 0.09,
+    "ala": 0.014,
+    "arg": 0.012,
+    "asp": 0.047,
+    "cyste": 0.006,
+    "glu": 0.05,
+    "gly": 0.014,
+    "his": 0.004,
+    "ile": 0.01,
+    "leu": 0.019,
+    "lys": 0.013,
+    "met": 0.006,
+    "phe": 0.012,
+    "pro": 0.009,
+    "ser": 0.013,
+    "thr": 0.012,
+    "trp": 0.004,
+    "tyr": 0.009,
+    "val": 0.014
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

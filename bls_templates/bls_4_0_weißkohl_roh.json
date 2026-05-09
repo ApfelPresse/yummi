@@ -1,0 +1,108 @@
+{
+  "name": "Weißkohl roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 32,
+    "water": 92,
+    "protein": 1.382,
+    "fat": 0.19,
+    "carbs": 4.54,
+    "fiber": 3,
+    "alcohol": null,
+    "sugarAlcohols": 0.14
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 4,
+    "cartb": 42,
+    "carotpaxb": 9,
+    "vite": 0.293,
+    "tocpha": 0.293,
+    "tocphg": 0.002,
+    "toctra": 0.04,
+    "vitk": 90,
+    "vitk1": 90,
+    "thia": 0.23,
+    "ribf": 0.02,
+    "niaeq": 0.3,
+    "nia": 0.3,
+    "pantac": 0.21,
+    "vitb6": 81.28,
+    "biot": 0.1,
+    "fol": 49,
+    "folfd": 49,
+    "vitc": 47.455
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 37,
+    "k": 254,
+    "ca": 44,
+    "mg": 12,
+    "p": 35.542,
+    "fe": 0.312,
+    "zn": 0.16,
+    "id": 2,
+    "cu": 23,
+    "mn": 190,
+    "fd": 12,
+    "cr": 0.5,
+    "mo": 4
+  },
+  "carbohydrates": {
+    "cho": 4.54,
+    "mnsac": 4.2,
+    "glus": 2.33,
+    "frus": 1.87,
+    "disac": 0.198,
+    "sucs": 0.198,
+    "sugar": 4.4
+  },
+  "fibers": {
+    "fibt": 3,
+    "fibhmw": 3,
+    "fibins": 2.2,
+    "fibsol": 0.8
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.14,
+    "sortl": 0.14
+  },
+  "fattyAcids": {
+    "fasat": 0.0334,
+    "f14_0": 0.0005,
+    "f16_0": 0.0295,
+    "f18_0": 0.0029,
+    "f20_0": 0.0005,
+    "fams": 0.0048,
+    "f16_1cn7": 0.0027,
+    "f18_1cn9": 0.0021,
+    "fapu": 0.114,
+    "fapun3": 0.087,
+    "f18_3cn3": 0.087,
+    "fapun6": 0.0265,
+    "f18_2cn6": 0.0265
+  },
+  "aminoAcids": {
+    "aae9": 0.308,
+    "arg": 0.1,
+    "cyste": 0.027,
+    "his": 0.025,
+    "ile": 0.039,
+    "leu": 0.056,
+    "lys": 0.065,
+    "met": 0.013,
+    "phe": 0.03,
+    "thr": 0.038,
+    "val": 0.042
+  },
+  "otherNutrients": {
+    "nt": 0.221
+  },
+  "extra": {}
+}

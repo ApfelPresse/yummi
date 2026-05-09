@@ -1,0 +1,65 @@
+{
+  "name": "Weißwein-Schorle, süß, mit Zitronenlimonade",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 51,
+    "water": 90,
+    "protein": 0.051,
+    "fat": null,
+    "carbs": 4.7,
+    "fiber": null,
+    "alcohol": 4.43,
+    "sugarAlcohols": 0.004
+  },
+  "vitamins": {
+    "cartb": 3,
+    "vite": 0.002,
+    "tocpha": 0.002,
+    "ribf": 0.05,
+    "pantac": 0.23,
+    "biot": 0.06,
+    "fol": 1.8,
+    "folfd": 1.8,
+    "vitc": 2.7
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 0.4,
+    "k": 35.4,
+    "ca": 5,
+    "mg": 3.5,
+    "p": 9.2,
+    "s": 10,
+    "fe": 0.062,
+    "zn": 0.04,
+    "cu": 4.9,
+    "mn": 78.8,
+    "cr": 0.6,
+    "mo": 0.3
+  },
+  "carbohydrates": {
+    "cho": 4.7,
+    "mnsac": 0.92,
+    "glus": 0.48,
+    "frus": 0.44,
+    "disac": 3.783,
+    "sucs": 3.783,
+    "sugar": 4.7
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.004,
+    "sortl": 0.004
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.008
+  },
+  "extra": {}
+}

@@ -1,0 +1,102 @@
+{
+  "name": "Basilikum getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 211,
+    "water": 10.4,
+    "protein": 23,
+    "fat": 4.07,
+    "carbs": 1.71,
+    "fiber": 37.7,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 74,
+    "vitaa": 37,
+    "cartb": 378,
+    "carotpaxb": 137,
+    "vite": 10.7,
+    "tocpha": 10.7,
+    "tocphg": 0.77,
+    "vitk": 1710,
+    "vitk1": 1710,
+    "thia": 0.08,
+    "ribf": 1.2,
+    "niaeq": 9.2,
+    "nia": 4.9,
+    "pantac": 0.838,
+    "vitb6": 1340,
+    "fol": 310,
+    "folfd": 310,
+    "vitc": 0.8
+  },
+  "minerals": {
+    "nacl": 0.19,
+    "na": 76,
+    "k": 2630,
+    "ca": 2240,
+    "mg": 711,
+    "p": 274,
+    "fe": 89.8,
+    "zn": 7.1,
+    "cu": 2100,
+    "mn": 9800
+  },
+  "carbohydrates": {
+    "cho": 1.71,
+    "mnsac": 1.69,
+    "glus": 0.75,
+    "frus": 0.75,
+    "gals": 0.19,
+    "disac": 0.02,
+    "sucs": 0.02,
+    "sugar": 1.71
+  },
+  "fibers": {
+    "fibt": 37.7
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 2.17,
+    "f14_0": 0.046,
+    "f16_0": 1.04,
+    "f18_0": 1.08,
+    "fams": 1.07,
+    "f18_1cn9": 1.07,
+    "fapu": 0.3,
+    "fapun3": 0.296,
+    "f18_3cn3": 0.296,
+    "fapun6": 0.004,
+    "f18_3cn6": 0.004
+  },
+  "aminoAcids": {
+    "aae9": 8.55,
+    "ala": 1.18,
+    "arg": 1.23,
+    "asp": 3.02,
+    "cyste": 0.19,
+    "glu": 2.57,
+    "gly": 1.25,
+    "his": 0.45,
+    "ile": 1.06,
+    "leu": 1.85,
+    "lys": 1.15,
+    "met": 0.32,
+    "phe": 1.25,
+    "pro": 2.7,
+    "ser": 0.53,
+    "thr": 0.76,
+    "trp": 0.26,
+    "tyr": 0.75,
+    "val": 1.45
+  },
+  "otherNutrients": {
+    "nt": 4
+  },
+  "extra": {}
+}

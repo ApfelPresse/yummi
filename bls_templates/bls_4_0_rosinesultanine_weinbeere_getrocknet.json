@@ -1,0 +1,111 @@
+{
+  "name": "Rosine/Sultanine (Weinbeere getrocknet)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 288,
+    "water": 19,
+    "protein": 2.7,
+    "fat": 1,
+    "carbs": 61.8,
+    "fiber": 5.4,
+    "alcohol": null,
+    "sugarAlcohols": 0.892
+  },
+  "vitamins": {
+    "carotpaxb": 2,
+    "vite": 0.29,
+    "tocpha": 0.29,
+    "tocphb": 0.04,
+    "tocphg": 0.08,
+    "tocphd": 0.002,
+    "toctra": 0.01,
+    "vitk": 4,
+    "vitk1": 4,
+    "thia": 0.11,
+    "ribf": 0.01,
+    "niaeq": 0.8,
+    "nia": 0.7,
+    "pantac": 0.09,
+    "vitb6": 200,
+    "biot": 11,
+    "fol": 32,
+    "folfd": 32,
+    "vitc": 1
+  },
+  "minerals": {
+    "nacl": 0.028,
+    "na": 11,
+    "cld": 20,
+    "k": 773,
+    "ca": 52,
+    "mg": 32,
+    "p": 101,
+    "s": 34,
+    "fe": 2.36,
+    "zn": 0.25,
+    "id": 3,
+    "cu": 370,
+    "mn": 400,
+    "fd": 62,
+    "cr": 10,
+    "mo": 1.48
+  },
+  "carbohydrates": {
+    "cho": 61.8,
+    "mnsac": 60.3,
+    "glus": 28.2,
+    "frus": 32.1,
+    "disac": 0.61,
+    "sucs": 0.49,
+    "mals": 0.12,
+    "sugar": 60.9
+  },
+  "fibers": {
+    "fibt": 5.4,
+    "fibhmw": 5.4,
+    "fibins": 3.8,
+    "fibsol": 1.6
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.892,
+    "sortl": 0.892
+  },
+  "fattyAcids": {
+    "fasat": 0.2,
+    "f16_0": 0.2,
+    "fapu": 0.5,
+    "fapun3": 0.1,
+    "f18_3cn3": 0.1,
+    "fapun6": 0.4,
+    "f18_2cn6": 0.4
+  },
+  "aminoAcids": {
+    "aae9": 0.435,
+    "ala": 0.091,
+    "arg": 0.305,
+    "asp": 0.087,
+    "cyste": 0.006,
+    "glu": 0.118,
+    "gly": 0.063,
+    "his": 0.051,
+    "ile": 0.047,
+    "leu": 0.075,
+    "lys": 0.071,
+    "met": 0.013,
+    "phe": 0.047,
+    "pro": 0.157,
+    "ser": 0.051,
+    "thr": 0.055,
+    "trp": 0.005,
+    "tyr": 0.01,
+    "val": 0.071
+  },
+  "otherNutrients": {
+    "nt": 0.4
+  },
+  "extra": {}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Mannit Pulver (E 421)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 240,
+    "water": 0.6,
+    "protein": null,
+    "fat": null,
+    "carbs": 100,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": 100
+  },
+  "vitamins": {},
+  "minerals": {},
+  "carbohydrates": {
+    "cho": 100
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 100,
+    "mantl": 99,
+    "sortl": 1
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

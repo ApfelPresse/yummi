@@ -1,0 +1,108 @@
+{
+  "name": "Zwetschge roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 48,
+    "water": 87.071,
+    "protein": 0.3,
+    "fat": 0.17,
+    "carbs": 10.71,
+    "fiber": 1.7,
+    "alcohol": null,
+    "sugarAlcohols": 2.61
+  },
+  "vitamins": {
+    "vita": 18,
+    "vitaa": 9,
+    "cartb": 90,
+    "carotpaxb": 30,
+    "vite": 0.283,
+    "tocpha": 0.283,
+    "tocphg": 0.02,
+    "toctra": 0.02,
+    "vitk": 7,
+    "vitk1": 7,
+    "thia": 0.044,
+    "ribf": 0.045,
+    "niaeq": 0.583,
+    "nia": 0.583,
+    "pantac": 0.18,
+    "vitb6": 45,
+    "fol": 13.3,
+    "folfd": 13.3,
+    "vitc": 5
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 0.8,
+    "cld": 1.5,
+    "k": 172,
+    "ca": 8,
+    "mg": 7,
+    "p": 16,
+    "fe": 0.2,
+    "zn": 0.09,
+    "id": 1,
+    "cu": 65,
+    "mn": 80,
+    "fd": 2,
+    "cr": 2,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 10.71,
+    "mnsac": 5.72,
+    "glus": 3.53,
+    "frus": 2.19,
+    "disac": 2.38,
+    "sucs": 2.21,
+    "mals": 0.17,
+    "sugar": 8.1
+  },
+  "fibers": {
+    "fibt": 1.7,
+    "fibhmw": 1.7,
+    "fibins": 0.9,
+    "fibsol": 0.8
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 2.61,
+    "sortl": 2.61
+  },
+  "fattyAcids": {
+    "fasat": 0.022,
+    "f16_0": 0.017,
+    "f18_0": 0.005,
+    "fams": 0.052,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.051,
+    "fapu": 0.078,
+    "fapun3": 0.031,
+    "f18_3cn3": 0.031,
+    "fapun6": 0.047,
+    "f18_2cn6": 0.047
+  },
+  "aminoAcids": {
+    "aae9": 0.05,
+    "ala": 0.01,
+    "arg": 0.01,
+    "asp": 0.09,
+    "glu": 0.01,
+    "gly": 0.01,
+    "leu": 0.01,
+    "lys": 0.01,
+    "phe": 0.01,
+    "pro": 0.02,
+    "ser": 0.01,
+    "thr": 0.01,
+    "val": 0.01
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

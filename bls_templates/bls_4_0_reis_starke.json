@@ -1,0 +1,87 @@
+{
+  "name": "Reis Stärke",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 344,
+    "water": 13.8,
+    "protein": 0.819,
+    "fat": 0.08,
+    "carbs": 85,
+    "fiber": 0.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "ribf": 0.008,
+    "niaeq": 0.213,
+    "nia": 0.03,
+    "vitb6": 5,
+    "biot": 6
+  },
+  "minerals": {
+    "nacl": 0.028,
+    "na": 11,
+    "cld": 6,
+    "k": 8,
+    "ca": 20,
+    "mg": 20,
+    "p": 30,
+    "fe": 0.5,
+    "zn": 0.06,
+    "id": 2.5,
+    "cu": 50,
+    "mn": 1000,
+    "fd": 43
+  },
+  "carbohydrates": {
+    "cho": 85,
+    "starch": 85
+  },
+  "fibers": {
+    "fibt": 0.2,
+    "fibins": 0.082,
+    "fibsol": 0.118
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.017,
+    "f16_0": 0.015,
+    "f18_0": 0.002,
+    "fams": 0.029,
+    "f18_1cn9": 0.029,
+    "fapu": 0.03,
+    "fapun3": 0.002,
+    "f18_3cn3": 0.002,
+    "fapun6": 0.028,
+    "f18_2cn6": 0.028
+  },
+  "aminoAcids": {
+    "aae9": 0.322,
+    "ala": 0.05,
+    "arg": 0.066,
+    "asp": 0.076,
+    "cyste": 0.01,
+    "glu": 0.131,
+    "gly": 0.039,
+    "his": 0.02,
+    "ile": 0.038,
+    "leu": 0.071,
+    "lys": 0.032,
+    "met": 0.022,
+    "phe": 0.044,
+    "pro": 0.038,
+    "ser": 0.047,
+    "thr": 0.027,
+    "trp": 0.011,
+    "tyr": 0.032,
+    "val": 0.057
+  },
+  "otherNutrients": {
+    "nt": 0.131
+  },
+  "extra": {}
+}

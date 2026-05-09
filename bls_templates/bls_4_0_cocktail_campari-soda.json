@@ -1,0 +1,61 @@
+{
+  "name": "Cocktail, Campari-Soda",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 56,
+    "water": 90.5,
+    "protein": null,
+    "fat": null,
+    "carbs": 5.7,
+    "fiber": null,
+    "alcohol": 4.7,
+    "sugarAlcohols": 0.006
+  },
+  "vitamins": {
+    "vite": 0.002,
+    "tocpha": 0.002,
+    "tocphb": 0.001,
+    "biot": 0.2,
+    "fol": 0.4,
+    "folfd": 0.4
+  },
+  "minerals": {
+    "nacl": 0.018,
+    "na": 7,
+    "cld": 4,
+    "k": 11,
+    "ca": 8,
+    "mg": 3,
+    "p": 5,
+    "s": 4,
+    "fe": 0.08,
+    "zn": 0.043,
+    "id": 0.36,
+    "cu": 10,
+    "fd": 15,
+    "cr": 0.6,
+    "mo": 0.1
+  },
+  "carbohydrates": {
+    "cho": 5.7,
+    "mnsac": 2.2,
+    "glus": 1.1,
+    "frus": 1.1,
+    "disac": 3.5,
+    "sucs": 3.5,
+    "sugar": 5.7
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.006,
+    "sortl": 0.006
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

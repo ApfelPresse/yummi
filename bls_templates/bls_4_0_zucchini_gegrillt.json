@@ -1,0 +1,94 @@
+{
+  "name": "Zucchini gegrillt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 46,
+    "water": 88,
+    "protein": 2.8,
+    "fat": 0.638,
+    "carbs": 6,
+    "fiber": 2.4,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 70,
+    "vitaa": 35,
+    "cartb": 400,
+    "carotpaxb": 40,
+    "vite": 0.69,
+    "tocpha": 0.69,
+    "vitk": 71,
+    "vitk1": 71,
+    "thia": 0.06,
+    "ribf": 0.04,
+    "niaeq": 0.861,
+    "nia": 0.861,
+    "pantac": 0.34,
+    "vitb6": 120,
+    "biot": 6.9,
+    "fol": 65,
+    "folfd": 65,
+    "vitc": 33.244
+  },
+  "minerals": {
+    "nacl": 0.006,
+    "na": 2.4,
+    "cld": 53.8,
+    "k": 561.08,
+    "ca": 45.33,
+    "mg": 63.58,
+    "p": 99.98,
+    "fe": 0.9,
+    "zn": 0.53,
+    "id": 5.4,
+    "cu": 130,
+    "mn": 200,
+    "cr": 4
+  },
+  "carbohydrates": {
+    "cho": 6,
+    "mnsac": 4.4,
+    "glus": 2.2,
+    "frus": 2.2,
+    "disac": 0.11,
+    "mals": 0.11,
+    "sugar": 4.5,
+    "starch": 2
+  },
+  "fibers": {
+    "fibt": 2.4,
+    "fibhmw": 2.4,
+    "fibins": 1.8,
+    "fibsol": 0.7
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.151,
+    "f12_0": 0.004,
+    "f16_0": 0.131,
+    "f18_0": 0.0164,
+    "fams": 0.057,
+    "f16_1cn7": 0.004,
+    "f18_1cn9": 0.053,
+    "fapu": 0.309,
+    "fapun3": 0.193,
+    "f18_3cn3": 0.193,
+    "fapun6": 0.116,
+    "f18_2cn6": 0.116
+  },
+  "aminoAcids": {
+    "ala": 0.2,
+    "asp": 0.4,
+    "glu": 0.7,
+    "ser": 0.2
+  },
+  "otherNutrients": {
+    "nt": 0.4
+  },
+  "extra": {}
+}

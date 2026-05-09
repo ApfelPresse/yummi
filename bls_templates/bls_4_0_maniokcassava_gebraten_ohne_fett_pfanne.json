@@ -1,0 +1,80 @@
+{
+  "name": "Maniok/Cassava, gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 166,
+    "water": 57.9,
+    "protein": 1.136,
+    "fat": 0.261,
+    "carbs": 38,
+    "fiber": 3.284,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 5,
+    "vitaa": 2,
+    "cartb": 27,
+    "vitk": 2.2,
+    "vitk1": 2.2,
+    "thia": 0.055,
+    "ribf": 0.032,
+    "niaeq": 0.965,
+    "nia": 0.648,
+    "vitc": 27.273
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "k": 391,
+    "ca": 36.39,
+    "mg": 24,
+    "p": 43,
+    "fe": 1.33,
+    "zn": 0.625,
+    "cu": 182,
+    "mn": 705
+  },
+  "carbohydrates": {
+    "cho": 38,
+    "mnsac": 0.3,
+    "glus": 0.2,
+    "frus": 0.1,
+    "disac": 1.2,
+    "sucs": 1.1,
+    "mals": 0.1,
+    "sugar": 1.5,
+    "starch": 36.5
+  },
+  "fibers": {
+    "fibt": 3.284,
+    "fibhmw": 3.284,
+    "fibins": 2.5,
+    "fibsol": 0.784
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.39,
+    "arg": 0.045,
+    "cyste": 0.017,
+    "his": 0.02,
+    "ile": 0.048,
+    "leu": 0.059,
+    "lys": 0.045,
+    "met": 0.019,
+    "phe": 0.055,
+    "thr": 0.048,
+    "trp": 0.019,
+    "tyr": 0.05,
+    "val": 0.077
+  },
+  "otherNutrients": {
+    "nt": 0.182
+  },
+  "extra": {}
+}

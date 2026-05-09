@@ -1,0 +1,108 @@
+{
+  "name": "Bohne grün, milchsauer fermentiert, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 23,
+    "water": 91,
+    "protein": 1.905,
+    "fat": 0.205,
+    "carbs": 2.6,
+    "fiber": 1.662,
+    "alcohol": null,
+    "sugarAlcohols": 0.22
+  },
+  "vitamins": {
+    "vita": 56,
+    "vitaa": 28,
+    "cartb": 296,
+    "carotpaxb": 78,
+    "vite": 0.0591,
+    "tocpha": 0.0591,
+    "tocphg": 0.18,
+    "tocphd": 0.0071,
+    "vitk": 35,
+    "vitk1": 35,
+    "thia": 0.063,
+    "ribf": 0.042,
+    "niaeq": 0.752,
+    "nia": 0.369,
+    "pantac": 0.06,
+    "vitb6": 15.61,
+    "fol": 15,
+    "folfd": 15,
+    "vitc": 6.267
+  },
+  "minerals": {
+    "nacl": 1.2202,
+    "na": 488.1,
+    "cld": 961,
+    "k": 145,
+    "ca": 64,
+    "mg": 19,
+    "p": 30.592,
+    "s": 2,
+    "fe": 0.591,
+    "zn": 0.26,
+    "id": 1,
+    "cu": 70,
+    "mn": 230,
+    "cr": 2,
+    "mo": 16
+  },
+  "carbohydrates": {
+    "cho": 2.6,
+    "mnsac": 1.63,
+    "glus": 0.71,
+    "frus": 0.92,
+    "disac": 0.086,
+    "sucs": 0.086,
+    "sugar": 1.72,
+    "starch": 0.7
+  },
+  "fibers": {
+    "fibt": 1.662,
+    "fibhmw": 1.662,
+    "fibins": 0.888,
+    "fibsol": 0.774
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.22,
+    "mantl": 0.09,
+    "sortl": 0.13
+  },
+  "fattyAcids": {
+    "fasat": 0.06,
+    "f16_0": 0.052,
+    "f18_0": 0.0075,
+    "fams": 0.007,
+    "f18_1cn9": 0.007,
+    "fapu": 0.098,
+    "fapun3": 0.052,
+    "f18_3cn3": 0.052,
+    "fapun6": 0.046,
+    "f18_2cn6": 0.046
+  },
+  "aminoAcids": {
+    "aae9": 0.676,
+    "arg": 0.085,
+    "cyste": 0.02,
+    "his": 0.041,
+    "ile": 0.093,
+    "leu": 0.119,
+    "lys": 0.119,
+    "met": 0.029,
+    "phe": 0.062,
+    "thr": 0.079,
+    "trp": 0.023,
+    "tyr": 0.043,
+    "val": 0.111
+  },
+  "otherNutrients": {
+    "nt": 0.304
+  },
+  "extra": {}
+}

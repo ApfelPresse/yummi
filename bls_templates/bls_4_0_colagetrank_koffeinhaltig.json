@@ -1,0 +1,48 @@
+{
+  "name": "Colagetränk koffeinhaltig",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 41,
+    "water": 90.29,
+    "protein": null,
+    "fat": null,
+    "carbs": 10.3,
+    "fiber": null,
+    "alcohol": 0.002,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 10,
+    "k": 1,
+    "ca": 1,
+    "p": 15,
+    "s": 1.8,
+    "fe": 0.001,
+    "zn": 0.001,
+    "mn": 2,
+    "fd": 30,
+    "mo": 0.04
+  },
+  "carbohydrates": {
+    "cho": 10.3,
+    "mnsac": 5.85,
+    "glus": 2.81,
+    "frus": 3.04,
+    "disac": 4.45,
+    "sucs": 4.45,
+    "sugar": 10.3
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Hagebuttensuppe mit Apfel, gebunden mit Stärke",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 48,
+    "water": 89,
+    "protein": 0.657,
+    "fat": 0.2,
+    "carbs": 9.6,
+    "fiber": 1.3,
+    "alcohol": 0.001,
+    "sugarAlcohols": 0.1
+  },
+  "vitamins": {
+    "vita": 107,
+    "vitaa": 53,
+    "cartb": 608,
+    "carotpaxb": 65,
+    "vite": 0.86,
+    "tocpha": 0.86,
+    "tocphb": 0.01,
+    "tocphg": 0.23,
+    "tocphd": 0.02,
+    "vitk": 10,
+    "vitk1": 10,
+    "thia": 0.009,
+    "ribf": 0.015,
+    "niaeq": 0.2,
+    "nia": 0.083,
+    "vitb6": 13,
+    "fol": 12,
+    "folfd": 12,
+    "vitc": 124
+  },
+  "minerals": {
+    "nacl": 0.015,
+    "na": 6,
+    "cld": 4,
+    "k": 18,
+    "ca": 31,
+    "mg": 6,
+    "p": 9,
+    "s": 1,
+    "fe": 0.2,
+    "zn": 0.06,
+    "id": 1,
+    "cu": 20,
+    "mn": 100,
+    "fd": 11
+  },
+  "carbohydrates": {
+    "cho": 9.6,
+    "mnsac": 3.086,
+    "glus": 1.345,
+    "frus": 1.741,
+    "disac": 5.627,
+    "sucs": 5.627,
+    "sugar": 8.713,
+    "starch": 0.767
+  },
+  "fibers": {
+    "fibt": 1.3
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.1,
+    "sortl": 0.1
+  },
+  "fattyAcids": {
+    "fasat": 0.021,
+    "f12_0": 0.001,
+    "f14_0": 0.0018,
+    "f16_0": 0.013,
+    "f18_0": 0.004,
+    "f20_0": 0.001,
+    "fams": 0.002,
+    "f16_1cn7": 0.0003,
+    "f18_1cn9": 0.002,
+    "fapu": 0.027,
+    "fapun3": 0.005,
+    "f18_3cn3": 0.005,
+    "fapun6": 0.022,
+    "f18_2cn6": 0.022
+  },
+  "aminoAcids": {
+    "aae9": 0.189,
+    "ala": 0.056,
+    "arg": 0.033,
+    "asp": 0.087,
+    "cyste": 0.006,
+    "glu": 0.108,
+    "gly": 0.03,
+    "his": 0.014,
+    "ile": 0.017,
+    "leu": 0.037,
+    "lys": 0.035,
+    "phe": 0.024,
+    "pro": 0.022,
+    "ser": 0.039,
+    "thr": 0.025,
+    "trp": 0.007,
+    "tyr": 0.018,
+    "val": 0.03
+  },
+  "otherNutrients": {
+    "nt": 0.105
+  },
+  "extra": {}
+}

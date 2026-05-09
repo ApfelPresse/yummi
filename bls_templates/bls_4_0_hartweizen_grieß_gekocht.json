@@ -1,0 +1,102 @@
+{
+  "name": "Hartweizen Grieß, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 159,
+    "water": 62.46,
+    "protein": 6.02,
+    "fat": 0.67,
+    "carbs": 31.05,
+    "fiber": 2.18,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.108,
+    "tocpha": 0.108,
+    "tocphb": 0.05,
+    "tocphg": 0.05,
+    "thia": 0.076,
+    "ribf": 0.025,
+    "niaeq": 2.15,
+    "nia": 1.17,
+    "pantac": 0.15,
+    "vitb6": 106,
+    "biot": 0.83,
+    "fol": 10.9,
+    "folfd": 10.9
+  },
+  "minerals": {
+    "nacl": 0.0008,
+    "na": 0.3,
+    "cld": 24,
+    "k": 84.7,
+    "ca": 10.8,
+    "mg": 16.4,
+    "p": 64.5,
+    "s": 62,
+    "fe": 0.473,
+    "zn": 0.5524,
+    "cu": 115.3,
+    "mn": 299.4
+  },
+  "carbohydrates": {
+    "cho": 31.05,
+    "mnsac": 0.0179,
+    "glus": 0.0116,
+    "frus": 0.0062,
+    "disac": 0.4608,
+    "sucs": 0.0747,
+    "mals": 0.386,
+    "sugar": 0.4786,
+    "starch": 30.57
+  },
+  "fibers": {
+    "fibt": 2.18,
+    "fiblmw": 0.48,
+    "fibhmw": 1.7,
+    "fibhmws": 0.82,
+    "fibhmwi": 0.89
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.09,
+    "f16_0": 0.09,
+    "fams": 0.09,
+    "f18_1cn9": 0.09,
+    "fapu": 0.28,
+    "fapun3": 0.02,
+    "f18_3cn3": 0.02,
+    "fapun6": 0.26,
+    "f18_2cn6": 0.26
+  },
+  "aminoAcids": {
+    "aae9": 1.721,
+    "ala": 0.171,
+    "arg": 0.221,
+    "asp": 0.239,
+    "cyste": 0.126,
+    "glu": 1.94,
+    "gly": 0.185,
+    "his": 0.14,
+    "ile": 0.207,
+    "leu": 0.414,
+    "lys": 0.122,
+    "met": 0.095,
+    "phe": 0.288,
+    "pro": 0.658,
+    "ser": 0.275,
+    "thr": 0.153,
+    "trp": 0.0586,
+    "tyr": 0.167,
+    "val": 0.243
+  },
+  "otherNutrients": {
+    "nt": 0.96
+  },
+  "extra": {}
+}

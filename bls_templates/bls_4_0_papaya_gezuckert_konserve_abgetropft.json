@@ -1,0 +1,94 @@
+{
+  "name": "Papaya gezuckert, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 58,
+    "water": 84.7,
+    "protein": 0.5,
+    "fat": 0.079,
+    "carbs": 13.2,
+    "fiber": 1.4,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 49,
+    "vitaa": 24,
+    "cartb": 92.8,
+    "carotpaxb": 397,
+    "vite": 0.24,
+    "tocpha": 0.24,
+    "tocphb": 0.1,
+    "tocphg": 0.21,
+    "tocphd": 0.06,
+    "vitk": 2.4,
+    "vitk1": 2.4,
+    "thia": 0.006,
+    "ribf": 0.016,
+    "niaeq": 0.103,
+    "nia": 0.103,
+    "pantac": 0.07,
+    "vitb6": 10,
+    "biot": 0.2,
+    "vitc": 7.77
+  },
+  "minerals": {
+    "nacl": 0.02,
+    "na": 8,
+    "cld": 1,
+    "k": 93,
+    "ca": 20,
+    "mg": 12,
+    "p": 5,
+    "s": 0.8,
+    "fe": 0.18,
+    "zn": 0.21,
+    "id": 0.3,
+    "cu": 30,
+    "mn": 10,
+    "mo": 0.01
+  },
+  "carbohydrates": {
+    "cho": 13.2,
+    "mnsac": 4.2,
+    "glus": 2.1,
+    "frus": 2.1,
+    "disac": 8.95,
+    "sucs": 8.919,
+    "mals": 0.03,
+    "sugar": 13.2
+  },
+  "fibers": {
+    "fibt": 1.4,
+    "fibhmw": 1.4,
+    "fibins": 0.9,
+    "fibsol": 0.6
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.024,
+    "f14_0": 0.0039,
+    "f16_0": 0.019,
+    "f18_0": 0.0011,
+    "fams": 0.022,
+    "f16_1cn7": 0.011,
+    "f18_1cn9": 0.011,
+    "fapu": 0.017,
+    "fapun3": 0.014,
+    "f18_3cn3": 0.014,
+    "fapun6": 0.0034,
+    "f18_2cn6": 0.0034
+  },
+  "aminoAcids": {
+    "asp": 0.1,
+    "glu": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

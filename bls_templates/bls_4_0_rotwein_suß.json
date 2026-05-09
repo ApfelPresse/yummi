@@ -1,0 +1,62 @@
+{
+  "name": "Rotwein süß",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 95,
+    "water": 83.4,
+    "protein": null,
+    "fat": null,
+    "carbs": 5.15,
+    "fiber": null,
+    "alcohol": 10.42,
+    "sugarAlcohols": 0.027
+  },
+  "vitamins": {
+    "vite": 0.012,
+    "tocpha": 0.012,
+    "tocphb": 0.005,
+    "ribf": 0.03,
+    "niaeq": 0.09,
+    "nia": 0.09,
+    "pantac": 0.05,
+    "biot": 0.29,
+    "fol": 1.8,
+    "folfd": 1.8,
+    "vitc": 0.4
+  },
+  "minerals": {
+    "nacl": 0.0048,
+    "na": 1.9,
+    "k": 95.7,
+    "ca": 7,
+    "mg": 9.3,
+    "p": 17.3,
+    "s": 14,
+    "fe": 0.275,
+    "zn": 0.08,
+    "cu": 14,
+    "mn": 120.7,
+    "cr": 1.4,
+    "mo": 0.3
+  },
+  "carbohydrates": {
+    "cho": 5.15,
+    "mnsac": 5.12,
+    "glus": 2.35,
+    "frus": 2.77,
+    "sugar": 5.12
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.027,
+    "sortl": 0.027
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

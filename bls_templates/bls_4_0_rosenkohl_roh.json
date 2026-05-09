@@ -1,0 +1,106 @@
+{
+  "name": "Rosenkohl roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 40,
+    "water": 82.7,
+    "protein": 4.45,
+    "fat": 0.34,
+    "carbs": 2.26,
+    "fiber": 4.4,
+    "alcohol": null,
+    "sugarAlcohols": 0.19
+  },
+  "vitamins": {
+    "vita": 120,
+    "vitaa": 60,
+    "cartb": 653,
+    "carotpaxb": 130,
+    "vite": 0.83,
+    "tocpha": 0.83,
+    "tocphg": 0.04,
+    "vitk": 186,
+    "vitk1": 186,
+    "thia": 0.126,
+    "ribf": 0.134,
+    "niaeq": 1.503,
+    "nia": 0.67,
+    "pantac": 1,
+    "vitb6": 350,
+    "biot": 0.2,
+    "fol": 138,
+    "folfd": 138,
+    "vitc": 128.52
+  },
+  "minerals": {
+    "nacl": 0.022,
+    "na": 9,
+    "cld": 25,
+    "k": 470.875,
+    "ca": 35,
+    "mg": 22,
+    "p": 83.6,
+    "fe": 0.92,
+    "zn": 0.3,
+    "id": 0.7,
+    "cu": 33,
+    "mn": 210
+  },
+  "carbohydrates": {
+    "cho": 2.26,
+    "mnsac": 0.47,
+    "glus": 0.41,
+    "frus": 0.06,
+    "disac": 1.109,
+    "sucs": 1.109,
+    "sugar": 1.58,
+    "starch": 0.49
+  },
+  "fibers": {
+    "fibt": 4.4,
+    "fibhmw": 4.4,
+    "fibins": 3.3,
+    "fibsol": 1.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.19,
+    "sortl": 0.19
+  },
+  "fattyAcids": {
+    "fasat": 0.0511,
+    "f14_0": 0.0014,
+    "f16_0": 0.0425,
+    "f18_0": 0.0028,
+    "f20_0": 0.0044,
+    "fams": 0.0079,
+    "f16_1cn7": 0.0014,
+    "f18_1cn9": 0.0054,
+    "f20_1cn9": 0.0011,
+    "fapu": 0.194,
+    "fapun3": 0.156,
+    "f18_3cn3": 0.156,
+    "fapun6": 0.0385,
+    "f18_2cn6": 0.0385
+  },
+  "aminoAcids": {
+    "aae9": 1.44,
+    "arg": 0.28,
+    "his": 0.11,
+    "ile": 0.21,
+    "leu": 0.23,
+    "lys": 0.25,
+    "met": 0.04,
+    "phe": 0.15,
+    "thr": 0.16,
+    "trp": 0.05,
+    "val": 0.24
+  },
+  "otherNutrients": {
+    "nt": 0.712
+  },
+  "extra": {}
+}

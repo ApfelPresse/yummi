@@ -1,0 +1,99 @@
+{
+  "name": "Schalotte gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 33,
+    "water": 90.2,
+    "protein": 2,
+    "fat": 0.1,
+    "carbs": 3.2,
+    "fiber": 5.3179,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.039,
+    "tocpha": 0.039,
+    "toctra": 0.118,
+    "vitk": 0.4,
+    "vitk1": 0.4,
+    "thia": 0.04,
+    "ribf": 0.04,
+    "niaeq": 0.8,
+    "nia": 0.4,
+    "pantac": 0.18,
+    "vitb6": 240,
+    "biot": 0.8,
+    "fol": 39.5,
+    "folfd": 39.5,
+    "vitc": 8
+  },
+  "minerals": {
+    "nacl": 0.028,
+    "na": 11,
+    "cld": 25,
+    "k": 252,
+    "ca": 29,
+    "mg": 12,
+    "p": 54,
+    "fe": 1,
+    "zn": 0.4,
+    "id": 2,
+    "cu": 70,
+    "mn": 200,
+    "fd": 41,
+    "cr": 1,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 3.2,
+    "mnsac": 1.7,
+    "glus": 0.8,
+    "frus": 0.9,
+    "disac": 1.5,
+    "sucs": 1.2,
+    "mals": 0.3,
+    "sugar": 3.2
+  },
+  "fibers": {
+    "fibt": 5.3179,
+    "fibhmw": 5.3179,
+    "fibins": 2.659,
+    "fibsol": 2.659
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.016,
+    "f16_0": 0.015,
+    "f18_0": 0.001,
+    "fax": 0.052
+  },
+  "aminoAcids": {
+    "aae9": 0.75,
+    "ala": 0.111,
+    "arg": 0.177,
+    "asp": 0.226,
+    "glu": 0.507,
+    "gly": 0.122,
+    "his": 0.042,
+    "ile": 0.104,
+    "leu": 0.146,
+    "lys": 0.123,
+    "met": 0.026,
+    "phe": 0.079,
+    "pro": 0.162,
+    "ser": 0.111,
+    "thr": 0.096,
+    "trp": 0.025,
+    "tyr": 0.071,
+    "val": 0.11
+  },
+  "otherNutrients": {
+    "nt": 0.3
+  },
+  "extra": {}
+}

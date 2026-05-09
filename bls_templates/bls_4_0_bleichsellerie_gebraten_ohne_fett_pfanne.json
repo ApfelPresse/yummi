@@ -1,0 +1,94 @@
+{
+  "name": "Bleichsellerie gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 32,
+    "water": 89.5,
+    "protein": 2.264,
+    "fat": 0.2,
+    "carbs": 3,
+    "fiber": 4.817,
+    "alcohol": null,
+    "sugarAlcohols": 0.208
+  },
+  "vitamins": {
+    "vita": 821,
+    "vitaa": 410,
+    "cartb": 4925,
+    "carotpaxb": 1.7,
+    "vite": 0.11,
+    "tocpha": 0.11,
+    "tocphb": 0.009,
+    "tocphg": 0.009,
+    "tocphd": 0.009,
+    "toctra": 0.08,
+    "vitk": 55,
+    "vitk1": 55,
+    "thia": 0.05,
+    "ribf": 0.04,
+    "niaeq": 0.8,
+    "nia": 0.5,
+    "pantac": 0.49,
+    "vitb6": 30,
+    "biot": 0.2,
+    "fol": 15,
+    "folfd": 15,
+    "vitc": 10.566
+  },
+  "minerals": {
+    "nacl": 0.368,
+    "na": 147,
+    "cld": 396,
+    "k": 530,
+    "ca": 75,
+    "mg": 15,
+    "p": 42,
+    "fe": 0.23,
+    "zn": 0.19,
+    "id": 2,
+    "cu": 40,
+    "mn": 150,
+    "cr": 2,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 3,
+    "mnsac": 2.7,
+    "glus": 1.9,
+    "frus": 0.8,
+    "disac": 0.09,
+    "mals": 0.09,
+    "sugar": 2.8
+  },
+  "fibers": {
+    "fibt": 4.817,
+    "fibhmw": 4.817,
+    "fibins": 2.955,
+    "fibsol": 1.862
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.208,
+    "mantl": 0.208
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.541,
+    "arg": 0.189,
+    "cyste": 0.011,
+    "his": 0.083,
+    "lys": 0.036,
+    "met": 0.026,
+    "phe": 0.13,
+    "trp": 0.021,
+    "tyr": 0.058,
+    "val": 0.245
+  },
+  "otherNutrients": {
+    "nt": 0.02
+  },
+  "extra": {}
+}

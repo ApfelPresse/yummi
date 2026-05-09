@@ -1,0 +1,112 @@
+{
+  "name": "Mirabelle gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 85,
+    "water": 79.3,
+    "protein": 0.839,
+    "fat": 0.23,
+    "carbs": 19.287,
+    "fiber": 2,
+    "alcohol": null,
+    "sugarAlcohols": 3
+  },
+  "vitamins": {
+    "vita": 41,
+    "vitaa": 20,
+    "cartb": 191,
+    "carotpaxb": 106,
+    "vite": 0.325,
+    "tocpha": 0.325,
+    "tocphg": 0.023,
+    "toctra": 0.023,
+    "vitk": 8,
+    "vitk1": 8,
+    "thia": 0.054,
+    "ribf": 0.04,
+    "niaeq": 0.669,
+    "nia": 0.586,
+    "pantac": 0.17,
+    "vitb6": 45,
+    "fol": 1,
+    "folfd": 1,
+    "vitc": 5.959
+  },
+  "minerals": {
+    "cld": 2.82,
+    "k": 251,
+    "ca": 14,
+    "mg": 17,
+    "p": 38,
+    "fe": 0.575,
+    "zn": 0.1,
+    "id": 1,
+    "cu": 71,
+    "mn": 90,
+    "fd": 2,
+    "cr": 2,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 19.287,
+    "mnsac": 10.805,
+    "glus": 5.862,
+    "frus": 4.943,
+    "disac": 5.482,
+    "sucs": 5.287,
+    "mals": 0.195,
+    "sugar": 16.287
+  },
+  "fibers": {
+    "fibt": 2,
+    "fibhmw": 2,
+    "fibins": 1,
+    "fibsol": 0.9
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 3,
+    "sortl": 3
+  },
+  "fattyAcids": {
+    "fasat": 0.03,
+    "f16_0": 0.023,
+    "f18_0": 0.007,
+    "fams": 0.069,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.068,
+    "fapu": 0.104,
+    "fapun3": 0.041,
+    "f18_3cn3": 0.041,
+    "fapun6": 0.063,
+    "f18_2cn6": 0.063
+  },
+  "aminoAcids": {
+    "aae9": 0.132,
+    "ala": 0.026,
+    "arg": 0.016,
+    "asp": 0.263,
+    "cyste": 0.007,
+    "glu": 0.039,
+    "gly": 0.02,
+    "his": 0.007,
+    "ile": 0.014,
+    "leu": 0.026,
+    "lys": 0.017,
+    "met": 0.005,
+    "phe": 0.021,
+    "pro": 0.045,
+    "ser": 0.022,
+    "thr": 0.017,
+    "trp": 0.005,
+    "tyr": 0.011,
+    "val": 0.02
+  },
+  "otherNutrients": {
+    "nt": 0.134
+  },
+  "extra": {}
+}

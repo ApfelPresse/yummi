@@ -1,0 +1,39 @@
+{
+  "name": "Früchtetee (Getränk)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": null,
+    "water": 100,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.0052,
+    "na": 2.06,
+    "k": 15.27,
+    "ca": 10.16,
+    "mg": 3.2,
+    "p": 0.8,
+    "fe": 0.0244,
+    "zn": 0.0327,
+    "id": 0.36,
+    "cu": 5.2,
+    "mn": 350.2
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

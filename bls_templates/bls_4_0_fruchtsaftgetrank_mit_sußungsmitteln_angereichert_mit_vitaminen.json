@@ -1,0 +1,92 @@
+{
+  "name": "Fruchtsaftgetränk mit Süßungsmitteln, angereichert mit Vitaminen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 2,
+    "water": 99,
+    "protein": 0.042,
+    "fat": null,
+    "carbs": 0.4,
+    "fiber": 0.016,
+    "alcohol": 0.018,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 1,
+    "carotpaxb": 6,
+    "vite": 1.8,
+    "tocpha": 1.8,
+    "thia": 0.003,
+    "ribf": 0.001,
+    "niaeq": 2.4,
+    "nia": 2.4,
+    "pantac": 0.9,
+    "vitb6": 210,
+    "fol": 52,
+    "folfd": 1,
+    "folac": 30,
+    "vitb12": 0.28,
+    "vitc": 9
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 3.2,
+    "k": 10,
+    "ca": 10,
+    "mg": 4,
+    "p": 1,
+    "s": 1.7,
+    "cu": 4,
+    "fd": 28,
+    "mo": 0.07
+  },
+  "carbohydrates": {
+    "cho": 0.4,
+    "mnsac": 0.237,
+    "glus": 0.113,
+    "frus": 0.124,
+    "disac": 0.163,
+    "sucs": 0.163,
+    "sugar": 0.4
+  },
+  "fibers": {
+    "fibt": 0.016
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.002,
+    "f16_0": 0.002,
+    "fams": 0.001,
+    "f18_1cn9": 0.001,
+    "fapu": 0.004,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.003,
+    "f18_2cn6": 0.003
+  },
+  "aminoAcids": {
+    "aae9": 0.005,
+    "ala": 0.001,
+    "arg": 0.002,
+    "asp": 0.005,
+    "glu": 0.003,
+    "gly": 0.001,
+    "ile": 0.001,
+    "leu": 0.001,
+    "lys": 0.001,
+    "phe": 0.001,
+    "pro": 0.002,
+    "ser": 0.001,
+    "val": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.007
+  },
+  "extra": {}
+}

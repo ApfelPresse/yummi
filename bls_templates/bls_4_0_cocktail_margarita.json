@@ -1,0 +1,98 @@
+{
+  "name": "Cocktail, Margarita",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 70,
+    "water": 88.7,
+    "protein": null,
+    "fat": null,
+    "carbs": 2.4,
+    "fiber": 0.009,
+    "alcohol": 8.5,
+    "sugarAlcohols": 0.002
+  },
+  "vitamins": {
+    "carotpaxb": 1,
+    "vite": 0.051,
+    "tocpha": 0.051,
+    "thia": 0.004,
+    "pantac": 0.02,
+    "fol": 0.4,
+    "folfd": 0.4,
+    "vitc": 2.8
+  },
+  "minerals": {
+    "nacl": 0.338,
+    "na": 135,
+    "cld": 202,
+    "k": 14,
+    "ca": 5,
+    "mg": 2,
+    "p": 4,
+    "s": 2,
+    "fe": 0.06,
+    "zn": 0.03,
+    "id": 1,
+    "cu": 20,
+    "mn": 10,
+    "mo": 0.1
+  },
+  "carbohydrates": {
+    "cho": 2.4,
+    "mnsac": 1,
+    "glus": 0.5,
+    "frus": 0.5,
+    "disac": 1.4,
+    "sucs": 1.4,
+    "sugar": 2.4
+  },
+  "fibers": {
+    "fibt": 0.009
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.002,
+    "sortl": 0.002
+  },
+  "fattyAcids": {
+    "fasat": 0.008,
+    "f14_0": 0.0002,
+    "f16_0": 0.007,
+    "f18_0": 0.0004,
+    "fams": 0.002,
+    "f16_1cn7": 0.0002,
+    "f18_1cn9": 0.002,
+    "fapu": 0.017,
+    "fapun3": 0.005,
+    "f18_3cn3": 0.005,
+    "fapun6": 0.012,
+    "f18_2cn6": 0.012
+  },
+  "aminoAcids": {
+    "aae9": 0.011,
+    "ala": 0.003,
+    "arg": 0.003,
+    "asp": 0.006,
+    "cyste": 0.001,
+    "glu": 0.005,
+    "gly": 0.004,
+    "his": 0.001,
+    "ile": 0.001,
+    "leu": 0.001,
+    "lys": 0.002,
+    "met": 0.001,
+    "phe": 0.002,
+    "pro": 0.002,
+    "ser": 0.001,
+    "thr": 0.001,
+    "tyr": 0.001,
+    "val": 0.002
+  },
+  "otherNutrients": {
+    "nt": 0.01
+  },
+  "extra": {}
+}

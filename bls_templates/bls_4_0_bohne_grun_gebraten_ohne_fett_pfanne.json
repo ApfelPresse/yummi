@@ -1,0 +1,109 @@
+{
+  "name": "Bohne grün, gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 32,
+    "water": 89.1,
+    "protein": 2.572,
+    "fat": 0.276,
+    "carbs": 3.9,
+    "fiber": 2.172,
+    "alcohol": null,
+    "sugarAlcohols": 0.33
+  },
+  "vitamins": {
+    "vita": 74,
+    "vitaa": 37,
+    "cartb": 400,
+    "carotpaxb": 86,
+    "vite": 0.0718,
+    "tocpha": 0.0718,
+    "tocphg": 0.218,
+    "tocphd": 0.0086,
+    "vitk": 41,
+    "vitk1": 41,
+    "thia": 0.124,
+    "ribf": 0.098,
+    "niaeq": 1.391,
+    "nia": 0.874,
+    "pantac": 0.11,
+    "vitb6": 35.04,
+    "biot": 1,
+    "fol": 42,
+    "folfd": 42,
+    "vitc": 17.416
+  },
+  "minerals": {
+    "nacl": 0.0057,
+    "na": 2.28,
+    "cld": 14.811,
+    "k": 269,
+    "ca": 75,
+    "mg": 28,
+    "p": 41.164,
+    "fe": 0.897,
+    "zn": 0.37,
+    "id": 2,
+    "cu": 78,
+    "mn": 300,
+    "fd": 14,
+    "cr": 1,
+    "mo": 23
+  },
+  "carbohydrates": {
+    "cho": 3.9,
+    "mnsac": 2.47,
+    "glus": 1.08,
+    "frus": 1.39,
+    "disac": 0.131,
+    "sucs": 0.131,
+    "sugar": 2.6,
+    "starch": 1
+  },
+  "fibers": {
+    "fibt": 2.172,
+    "fibhmw": 2.172,
+    "fibins": 1.161,
+    "fibsol": 1.011
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.33,
+    "mantl": 0.13,
+    "sortl": 0.2
+  },
+  "fattyAcids": {
+    "fasat": 0.081,
+    "f16_0": 0.071,
+    "f18_0": 0.0101,
+    "fams": 0.008,
+    "f18_1cn9": 0.008,
+    "fapu": 0.132,
+    "fapun3": 0.071,
+    "f18_3cn3": 0.071,
+    "fapun6": 0.061,
+    "f18_2cn6": 0.061
+  },
+  "aminoAcids": {
+    "aae9": 0.914,
+    "arg": 0.115,
+    "cyste": 0.028,
+    "his": 0.056,
+    "ile": 0.126,
+    "leu": 0.161,
+    "lys": 0.161,
+    "met": 0.039,
+    "phe": 0.084,
+    "thr": 0.107,
+    "trp": 0.031,
+    "tyr": 0.057,
+    "val": 0.149
+  },
+  "otherNutrients": {
+    "nt": 0.411
+  },
+  "extra": {}
+}

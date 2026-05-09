@@ -1,0 +1,98 @@
+{
+  "name": "Reineclaude gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 72,
+    "water": 77.7,
+    "protein": 0.99,
+    "fat": null,
+    "carbs": 15.8,
+    "fiber": 2.647,
+    "alcohol": null,
+    "sugarAlcohols": 3.071
+  },
+  "vitamins": {
+    "vita": 38,
+    "vitaa": 19,
+    "cartb": 229,
+    "vite": 0.333,
+    "tocpha": 0.333,
+    "tocphg": 0.024,
+    "toctra": 0.024,
+    "vitk": 8,
+    "vitk1": 8,
+    "thia": 0.02,
+    "ribf": 0.02,
+    "niaeq": 0.5,
+    "nia": 0.4,
+    "pantac": 0.21,
+    "vitb6": 50,
+    "fol": 6,
+    "folfd": 6,
+    "vitc": 4
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 1,
+    "k": 300,
+    "ca": 16,
+    "mg": 11,
+    "p": 27,
+    "fe": 0.67,
+    "zn": 0.1,
+    "cu": 90,
+    "mn": 90,
+    "fd": 2,
+    "cr": 2,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 15.8,
+    "mnsac": 8.5,
+    "glus": 5.4,
+    "frus": 3.1,
+    "disac": 4.2,
+    "sucs": 4.2,
+    "sugar": 12.7
+  },
+  "fibers": {
+    "fibt": 2.647,
+    "fibhmw": 2.647,
+    "fibins": 1.024,
+    "fibsol": 1.624
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 3.071,
+    "sortl": 3.071
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.15,
+    "ala": 0.04,
+    "arg": 0.02,
+    "asp": 0.31,
+    "cyste": 0.01,
+    "glu": 0.05,
+    "gly": 0.02,
+    "his": 0.01,
+    "ile": 0.01,
+    "leu": 0.04,
+    "lys": 0.02,
+    "phe": 0.02,
+    "pro": 0.05,
+    "ser": 0.02,
+    "thr": 0.02,
+    "trp": 0.007,
+    "tyr": 0.01,
+    "val": 0.02
+  },
+  "otherNutrients": {
+    "nt": 0.15
+  },
+  "extra": {}
+}

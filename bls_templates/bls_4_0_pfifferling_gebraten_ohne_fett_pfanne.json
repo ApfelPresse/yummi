@@ -1,0 +1,109 @@
+{
+  "name": "Pfifferling gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 43,
+    "water": 81.068,
+    "protein": 6.41,
+    "fat": 0.444,
+    "carbs": 0.903,
+    "fiber": 5.361,
+    "alcohol": null,
+    "sugarAlcohols": 0.639
+  },
+  "vitamins": {
+    "vita": 355,
+    "vitaa": 178,
+    "cartb": 2131,
+    "vitd": 13.1,
+    "ergcal": 13.1,
+    "thia": 0.03,
+    "ribf": 0.358,
+    "niaeq": 11.44,
+    "nia": 10.123,
+    "pantac": 1.59,
+    "vitb6": 62,
+    "fol": 2.55,
+    "folfd": 2.55,
+    "vitc": 7.869
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "k": 738,
+    "ca": 5.9,
+    "mg": 20,
+    "p": 93,
+    "fe": 2.385,
+    "zn": 1.36,
+    "cu": 670,
+    "mn": 544,
+    "fd": 82,
+    "cr": 7,
+    "mo": 16
+  },
+  "carbohydrates": {
+    "cho": 0.903,
+    "mnsac": 0.264,
+    "glus": 0.149,
+    "frus": 0.115,
+    "sugar": 0.264
+  },
+  "fibers": {
+    "fibt": 5.361,
+    "fibhmw": 5.361,
+    "fibins": 4.233,
+    "fibsol": 1.128
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.639,
+    "mantl": 0.639
+  },
+  "fattyAcids": {
+    "fasat": 0.081,
+    "f4_0": 0.005,
+    "f10_0": 0.003,
+    "f14_0": 0.002,
+    "f15_0": 0.002,
+    "f16_0": 0.046,
+    "f17_0": 0.002,
+    "f18_0": 0.011,
+    "f20_0": 0.005,
+    "f22_0": 0.002,
+    "f24_0": 0.003,
+    "fams": 0.01,
+    "f14_1cn5": 0.002,
+    "f18_1cn9": 0.008,
+    "fapu": 0.223,
+    "fapun6": 0.223,
+    "f18_2cn6": 0.223,
+    "fax": 0.002
+  },
+  "aminoAcids": {
+    "aae9": 0.745,
+    "ala": 0.072,
+    "arg": 0.125,
+    "cyste": 0.197,
+    "gly": 0.057,
+    "his": 0.043,
+    "ile": 0.066,
+    "leu": 0.1418,
+    "lys": 0.064,
+    "met": 0.015,
+    "phe": 0.107,
+    "pro": 0.066,
+    "ser": 0.08,
+    "thr": 0.1434,
+    "trp": 0.079,
+    "tyr": 0.0959,
+    "val": 0.0861
+  },
+  "otherNutrients": {
+    "nt": 1.026
+  },
+  "extra": {}
+}

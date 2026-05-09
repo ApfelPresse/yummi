@@ -1,0 +1,106 @@
+{
+  "name": "Pfefferschote grün, gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 69,
+    "water": 79.7,
+    "protein": 3.4,
+    "fat": 0.3,
+    "carbs": 11.67,
+    "fiber": 2.5,
+    "alcohol": null,
+    "sugarAlcohols": 0.63
+  },
+  "vitamins": {
+    "vita": 45,
+    "vitaa": 22,
+    "cartb": 232,
+    "carotpaxb": 73,
+    "vite": 0.602,
+    "tocpha": 0.602,
+    "tocphb": 0.0105,
+    "tocphg": 0.0105,
+    "toctra": 0.0529,
+    "vitk": 13.9,
+    "vitk1": 13.9,
+    "thia": 0.14,
+    "ribf": 0.14,
+    "niaeq": 2.26,
+    "nia": 1.53,
+    "pantac": 0.093,
+    "vitb6": 424,
+    "biot": 5,
+    "fol": 27,
+    "folfd": 27,
+    "vitc": 245
+  },
+  "minerals": {
+    "nacl": 0.03,
+    "na": 12,
+    "k": 576,
+    "ca": 31,
+    "mg": 42,
+    "p": 78,
+    "fe": 2,
+    "zn": 0.5,
+    "cu": 295,
+    "mn": 402,
+    "cr": 2
+  },
+  "carbohydrates": {
+    "cho": 11.67,
+    "mnsac": 10.84,
+    "glus": 6.78,
+    "frus": 4.02,
+    "gals": 0.0372,
+    "disac": 0.2,
+    "sucs": 0.2,
+    "sugar": 11.04
+  },
+  "fibers": {
+    "fibt": 2.5,
+    "fibhmw": 2.5,
+    "fibins": 2.2,
+    "fibsol": 0.3
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.63,
+    "sortl": 0.63
+  },
+  "fattyAcids": {
+    "fasat": 0.032,
+    "f14_0": 0.002,
+    "f16_0": 0.025,
+    "f18_0": 0.005,
+    "fax": 0.2
+  },
+  "aminoAcids": {
+    "aae9": 0.965,
+    "ala": 0.139,
+    "arg": 0.163,
+    "asp": 0.485,
+    "cyste": 0.064,
+    "glu": 0.447,
+    "gly": 0.125,
+    "his": 0.069,
+    "ile": 0.11,
+    "leu": 0.178,
+    "lys": 0.151,
+    "met": 0.041,
+    "phe": 0.105,
+    "pro": 0.147,
+    "ser": 0.14,
+    "thr": 0.125,
+    "trp": 0.044,
+    "tyr": 0.071,
+    "val": 0.142
+  },
+  "otherNutrients": {
+    "nt": 0.5
+  },
+  "extra": {}
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Stachelbeere gezuckert, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 74,
+    "water": 81.5,
+    "protein": 0.658,
+    "fat": 0.118,
+    "carbs": 16.492,
+    "fiber": 1.987,
+    "alcohol": null,
+    "sugarAlcohols": 1.045
+  },
+  "vitamins": {
+    "vita": 7,
+    "vitaa": 3,
+    "cartb": 39,
+    "carotpaxb": 6,
+    "vite": 0.479,
+    "tocpha": 0.479,
+    "tocphg": 0.016,
+    "toctra": 0.016,
+    "vitk": 6,
+    "vitk1": 6,
+    "thia": 0.004,
+    "ribf": 0.006,
+    "niaeq": 0.209,
+    "nia": 0.076,
+    "pantac": 0.06,
+    "vitb6": 4,
+    "fol": 2.4,
+    "folfd": 2.4,
+    "vitc": 3.025
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 3,
+    "k": 77,
+    "ca": 26,
+    "mg": 7,
+    "p": 19,
+    "s": 0.8,
+    "fe": 0.27,
+    "zn": 0.13,
+    "id": 1,
+    "cu": 87,
+    "mn": 120,
+    "fd": 8,
+    "mo": 0.01
+  },
+  "carbohydrates": {
+    "cho": 16.492,
+    "mnsac": 2.54,
+    "glus": 1.207,
+    "frus": 1.333,
+    "disac": 12.907,
+    "sucs": 12.839,
+    "mals": 0.068,
+    "sugar": 15.447
+  },
+  "fibers": {
+    "fibt": 1.987,
+    "fibhmw": 1.987,
+    "fibins": 1.761,
+    "fibsol": 0.227
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.045,
+    "sortl": 1.045
+  },
+  "fattyAcids": {
+    "fasat": 0.0107,
+    "f16_0": 0.0084,
+    "f18_0": 0.0023,
+    "fams": 0.0114,
+    "f18_1cn9": 0.0114,
+    "fapu": 0.0629,
+    "fapun3": 0.0162,
+    "f18_3cn3": 0.0162,
+    "fapun6": 0.0467,
+    "f18_2cn6": 0.0467
+  },
+  "aminoAcids": {
+    "aae9": 0.196,
+    "ala": 0.058,
+    "arg": 0.035,
+    "asp": 0.081,
+    "cyste": 0.007,
+    "glu": 0.113,
+    "gly": 0.03,
+    "his": 0.015,
+    "ile": 0.018,
+    "leu": 0.038,
+    "lys": 0.037,
+    "phe": 0.024,
+    "pro": 0.022,
+    "ser": 0.041,
+    "thr": 0.026,
+    "trp": 0.008,
+    "tyr": 0.019,
+    "val": 0.03
+  },
+  "otherNutrients": {
+    "nt": 0.106
+  },
+  "extra": {}
+}

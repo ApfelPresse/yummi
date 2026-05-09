@@ -1,0 +1,106 @@
+{
+  "name": "Pfefferschote grün, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 41,
+    "water": 87.7,
+    "protein": 2,
+    "fat": 0.2,
+    "carbs": 6.88,
+    "fiber": 1.5,
+    "alcohol": null,
+    "sugarAlcohols": 0.37
+  },
+  "vitamins": {
+    "vita": 29,
+    "vitaa": 15,
+    "cartb": 152,
+    "carotpaxb": 48,
+    "vite": 0.355,
+    "tocpha": 0.355,
+    "tocphb": 0.0062,
+    "tocphg": 0.0062,
+    "toctra": 0.0312,
+    "vitk": 8.2,
+    "vitk1": 8.2,
+    "thia": 0.09,
+    "ribf": 0.09,
+    "niaeq": 1.38,
+    "nia": 0.95,
+    "pantac": 0.061,
+    "vitb6": 278,
+    "biot": 3.3,
+    "fol": 23,
+    "folfd": 23,
+    "vitc": 181
+  },
+  "minerals": {
+    "nacl": 0.018,
+    "na": 7,
+    "k": 340,
+    "ca": 18,
+    "mg": 25,
+    "p": 46,
+    "fe": 1.2,
+    "zn": 0.3,
+    "cu": 174,
+    "mn": 237,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 6.88,
+    "mnsac": 6.39,
+    "glus": 4,
+    "frus": 2.37,
+    "gals": 0.0219,
+    "disac": 0.12,
+    "sucs": 0.12,
+    "sugar": 6.51
+  },
+  "fibers": {
+    "fibt": 1.5,
+    "fibhmw": 1.5,
+    "fibins": 1.3,
+    "fibsol": 0.2
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.37,
+    "sortl": 0.37
+  },
+  "fattyAcids": {
+    "fasat": 0.019,
+    "f14_0": 0.001,
+    "f16_0": 0.015,
+    "f18_0": 0.003,
+    "fax": 0.12
+  },
+  "aminoAcids": {
+    "aae9": 0.57,
+    "ala": 0.082,
+    "arg": 0.096,
+    "asp": 0.286,
+    "cyste": 0.038,
+    "glu": 0.264,
+    "gly": 0.074,
+    "his": 0.041,
+    "ile": 0.065,
+    "leu": 0.105,
+    "lys": 0.089,
+    "met": 0.024,
+    "phe": 0.062,
+    "pro": 0.087,
+    "ser": 0.08,
+    "thr": 0.074,
+    "trp": 0.026,
+    "tyr": 0.042,
+    "val": 0.084
+  },
+  "otherNutrients": {
+    "nt": 0.3
+  },
+  "extra": {}
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Alfalfasprossen/Alfalfakeimlinge, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 29,
+    "water": 93.1,
+    "protein": 4,
+    "fat": 0.69,
+    "carbs": 0.3,
+    "fiber": 2.8,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 16,
+    "vitaa": 8,
+    "cartb": 96,
+    "vitk": 30.5,
+    "vitk1": 30.5,
+    "thia": 0.06,
+    "ribf": 0.09,
+    "niaeq": 1.1,
+    "nia": 0.5,
+    "pantac": 0.56,
+    "vitb6": 30,
+    "fol": 36,
+    "folfd": 36,
+    "vitc": 8.2
+  },
+  "minerals": {
+    "nacl": 0.015,
+    "na": 6,
+    "k": 79,
+    "ca": 32,
+    "mg": 27,
+    "p": 70,
+    "fe": 1,
+    "zn": 0.9,
+    "cu": 160,
+    "mn": 200
+  },
+  "carbohydrates": {
+    "cho": 0.3,
+    "mnsac": 0.3,
+    "glus": 0.1,
+    "frus": 0.2,
+    "sugar": 0.3
+  },
+  "fibers": {
+    "fibt": 2.8,
+    "fibhmw": 2.8,
+    "fibins": 1.8,
+    "fibsol": 1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.069,
+    "f14_0": 0.002,
+    "f16_0": 0.059,
+    "f18_0": 0.008,
+    "fax": 0.465
+  },
+  "aminoAcids": {
+    "aae9": 1.2,
+    "ala": 0.2,
+    "arg": 0.3,
+    "asp": 0.5,
+    "cyste": 0.1,
+    "glu": 0.6,
+    "gly": 0.2,
+    "his": 0.1,
+    "ile": 0.143,
+    "leu": 0.267,
+    "lys": 0.214,
+    "phe": 0.2,
+    "pro": 0.2,
+    "ser": 0.2,
+    "thr": 0.134,
+    "trp": 0.036,
+    "tyr": 0.1,
+    "val": 0.145
+  },
+  "otherNutrients": {
+    "nt": 0.6
+  },
+  "extra": {}
+}

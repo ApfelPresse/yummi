@@ -1,0 +1,84 @@
+{
+  "name": "Weizenbier kristallklar",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 40,
+    "water": 91.91,
+    "protein": 0.496,
+    "fat": null,
+    "carbs": 2.433,
+    "fiber": null,
+    "alcohol": 4.0548,
+    "sugarAlcohols": 0.002
+  },
+  "vitamins": {
+    "thia": 0.005,
+    "ribf": 0.032,
+    "niaeq": 1.73,
+    "nia": 1.63,
+    "pantac": 0.0857,
+    "vitb6": 47,
+    "biot": 1.1,
+    "fol": 7.6,
+    "folfd": 7.6
+  },
+  "minerals": {
+    "nacl": 0.0032,
+    "na": 1.3,
+    "cld": 19.1,
+    "k": 52,
+    "ca": 6.6,
+    "mg": 8.7,
+    "p": 25.9,
+    "s": 7.56,
+    "fe": 0.01,
+    "zn": 0.0012,
+    "id": 0.5923,
+    "cu": 4.2,
+    "mn": 21.1,
+    "fd": 32
+  },
+  "carbohydrates": {
+    "cho": 2.433,
+    "mnsac": 0.045,
+    "frus": 0.012,
+    "disac": 0.013,
+    "sugar": 0.058,
+    "starch": 2.3726
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.002,
+    "sortl": 0.002
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.141,
+    "ala": 0.02,
+    "arg": 0.016,
+    "asp": 0.024,
+    "cyste": 0.015,
+    "glu": 0.156,
+    "gly": 0.024,
+    "his": 0.012,
+    "ile": 0.019,
+    "leu": 0.023,
+    "lys": 0.016,
+    "met": 0.008,
+    "phe": 0.025,
+    "pro": 0.078,
+    "ser": 0.023,
+    "thr": 0.013,
+    "trp": 0.006,
+    "tyr": 0.013,
+    "val": 0.019
+  },
+  "otherNutrients": {
+    "nt": 0.079
+  },
+  "extra": {}
+}

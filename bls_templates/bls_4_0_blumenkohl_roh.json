@@ -1,0 +1,112 @@
+{
+  "name": "Blumenkohl roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 35,
+    "water": 91.7,
+    "protein": 2.424,
+    "fat": 0.28,
+    "carbs": 5.33,
+    "fiber": 2.9,
+    "alcohol": null,
+    "sugarAlcohols": 2.99
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 1,
+    "cartb": 16,
+    "carotpaxb": 4,
+    "vite": 0.08,
+    "tocpha": 0.08,
+    "tocphg": 0.2,
+    "toctra": 0.06,
+    "vitk": 21,
+    "vitk1": 21,
+    "thia": 0.054,
+    "ribf": 0.09,
+    "niaeq": 1.167,
+    "nia": 0.6,
+    "pantac": 1.04,
+    "vitb6": 94.83,
+    "biot": 1.7,
+    "fol": 76,
+    "folfd": 76,
+    "vitc": 64
+  },
+  "minerals": {
+    "nacl": 0.03,
+    "na": 12,
+    "cld": 19,
+    "k": 280,
+    "ca": 24,
+    "mg": 14,
+    "p": 49,
+    "fe": 0.41,
+    "zn": 0.31,
+    "id": 0.7,
+    "cu": 35,
+    "mn": 160,
+    "fd": 9,
+    "cr": 0.5,
+    "mo": 6.3
+  },
+  "carbohydrates": {
+    "cho": 5.33,
+    "mnsac": 1.82,
+    "glus": 0.85,
+    "frus": 0.97,
+    "disac": 0.34,
+    "sucs": 0.34,
+    "sugar": 2.16,
+    "starch": 0.182
+  },
+  "fibers": {
+    "fibt": 2.9,
+    "fibhmw": 2.9,
+    "fibins": 2.4,
+    "fibsol": 0.5
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 2.99,
+    "mantl": 2.96,
+    "xyltl": 0.026
+  },
+  "fattyAcids": {
+    "fasat": 0.042,
+    "f14_0": 0.0005,
+    "f16_0": 0.039,
+    "f18_0": 0.0018,
+    "f20_0": 0.0011,
+    "fams": 0.0067,
+    "f16_1cn7": 0.0038,
+    "f18_1cn9": 0.0018,
+    "f20_1cn9": 0.0011,
+    "fapu": 0.138,
+    "fapun3": 0.109,
+    "f18_3cn3": 0.109,
+    "fapun6": 0.029,
+    "f18_2cn6": 0.029
+  },
+  "aminoAcids": {
+    "aae9": 0.888,
+    "arg": 0.11,
+    "his": 0.049,
+    "ile": 0.11,
+    "leu": 0.17,
+    "lys": 0.14,
+    "met": 0.048,
+    "phe": 0.077,
+    "thr": 0.11,
+    "trp": 0.034,
+    "tyr": 0.035,
+    "val": 0.15
+  },
+  "otherNutrients": {
+    "nt": 0.388
+  },
+  "extra": {}
+}

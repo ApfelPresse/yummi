@@ -1,0 +1,79 @@
+{
+  "name": "Schwein Hirn, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 116,
+    "water": 78.876,
+    "protein": 11.224,
+    "fat": 7.941,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 8,
+    "retol": 8,
+    "thia": 0.056,
+    "ribf": 0.231,
+    "niaeq": 5.346,
+    "nia": 2.529,
+    "pantac": 1.647,
+    "vitb6": 150,
+    "fol": 2,
+    "folfd": 2,
+    "vitb12": 2,
+    "vitc": 15.882
+  },
+  "minerals": {
+    "nacl": 0.202,
+    "na": 81,
+    "k": 184,
+    "ca": 9,
+    "mg": 14,
+    "p": 282,
+    "fe": 4.235,
+    "zn": 0.988,
+    "cu": 604,
+    "mn": 56
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 2.008,
+    "f14_0": 0.037,
+    "f16_0": 0.981,
+    "f18_0": 0.99,
+    "fams": 0.111,
+    "f20_1cn9": 0.111,
+    "fapu": 0.575,
+    "fapun3": 0.575,
+    "f22_5cn3": 0.121,
+    "f22_6cn3": 0.454,
+    "fax": 1.481
+  },
+  "aminoAcids": {
+    "aae9": 5.092,
+    "arg": 0.593,
+    "his": 0.307,
+    "ile": 0.593,
+    "leu": 0.985,
+    "lys": 0.974,
+    "met": 0.233,
+    "phe": 0.582,
+    "thr": 0.561,
+    "trp": 0.169,
+    "val": 0.688
+  },
+  "otherNutrients": {
+    "chorl": 3000,
+    "nt": 1.796
+  },
+  "extra": {}
+}

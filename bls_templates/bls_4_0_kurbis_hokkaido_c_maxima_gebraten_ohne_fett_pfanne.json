@@ -1,0 +1,112 @@
+{
+  "name": "Kürbis Hokkaido (C. maxima) gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 56,
+    "water": 77.009,
+    "protein": 2.593,
+    "fat": 0.37,
+    "carbs": 9.811,
+    "fiber": 1.444,
+    "alcohol": null,
+    "sugarAlcohols": 0.015
+  },
+  "vitamins": {
+    "vita": 889,
+    "vitaa": 444,
+    "cartb": 4167,
+    "carotpaxb": 2333,
+    "vite": 1.852,
+    "tocpha": 1.852,
+    "vitk": 7,
+    "vitk1": 7,
+    "thia": 0.15,
+    "ribf": 0.106,
+    "niaeq": 2.915,
+    "nia": 2.815,
+    "pantac": 0.667,
+    "vitb6": 183,
+    "biot": 0.7,
+    "fol": 73,
+    "folfd": 73,
+    "vitc": 20.741
+  },
+  "minerals": {
+    "nacl": 0.032,
+    "na": 13,
+    "cld": 142.2,
+    "k": 754,
+    "ca": 58.5,
+    "mg": 31.3,
+    "p": 69.1,
+    "fe": 0.904,
+    "zn": 0.52,
+    "id": 2.5,
+    "cu": 86.1,
+    "mn": 91.5,
+    "cr": 4.8
+  },
+  "carbohydrates": {
+    "cho": 9.811,
+    "mnsac": 5.13,
+    "glus": 2.537,
+    "frus": 2.593,
+    "disac": 3.37,
+    "sucs": 3.37,
+    "sugar": 8.5,
+    "starch": 1.296
+  },
+  "fibers": {
+    "fibt": 1.444,
+    "fibhmw": 1.444,
+    "fibins": 1.389,
+    "fibsol": 0.056
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.015,
+    "xyltl": 0.015
+  },
+  "fattyAcids": {
+    "fasat": 0.087,
+    "f12_0": 0.002,
+    "f16_0": 0.076,
+    "f18_0": 0.009,
+    "fams": 0.033,
+    "f16_1cn7": 0.002,
+    "f18_1cn9": 0.031,
+    "fapu": 0.18,
+    "fapun3": 0.113,
+    "f18_3cn3": 0.113,
+    "fapun6": 0.067,
+    "f18_2cn6": 0.067
+  },
+  "aminoAcids": {
+    "aae9": 0.56,
+    "ala": 0.293,
+    "arg": 0.089,
+    "asp": 0.42,
+    "cyste": 0.006,
+    "glu": 0.644,
+    "gly": 0.08,
+    "his": 0.046,
+    "ile": 0.065,
+    "leu": 0.089,
+    "lys": 0.093,
+    "met": 0.037,
+    "phe": 0.07,
+    "pro": 0.059,
+    "ser": 0.13,
+    "thr": 0.052,
+    "trp": 0.006,
+    "tyr": 0.043,
+    "val": 0.102
+  },
+  "otherNutrients": {
+    "nt": 0.415
+  },
+  "extra": {}
+}

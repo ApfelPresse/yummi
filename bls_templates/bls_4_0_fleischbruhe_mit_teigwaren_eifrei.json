@@ -1,0 +1,89 @@
+{
+  "name": "Fleischbrühe mit Teigwaren eifrei",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 21,
+    "water": 93,
+    "protein": 1,
+    "fat": 0.3,
+    "carbs": 3.44,
+    "fiber": 0.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 1,
+    "vitaa": 1,
+    "retol": 0.9,
+    "cartb": 2,
+    "vite": 0.03,
+    "tocpha": 0.03,
+    "tocphb": 0.01,
+    "tocphg": 0.05,
+    "vitk": 2,
+    "vitk1": 2,
+    "thia": 0.005,
+    "ribf": 0.002,
+    "niaeq": 0.3,
+    "nia": 0.3,
+    "vitb6": 8,
+    "fol": 1,
+    "folfd": 1,
+    "vitb12": 0.1,
+    "vitc": 0.247
+  },
+  "minerals": {
+    "nacl": 0.552,
+    "na": 221,
+    "cld": 41,
+    "k": 21,
+    "ca": 6,
+    "mg": 4,
+    "p": 24,
+    "fe": 0.2,
+    "zn": 0.14,
+    "mn": 40
+  },
+  "carbohydrates": {
+    "cho": 3.44,
+    "mnsac": 0.02,
+    "glus": 0.01,
+    "frus": 0.01,
+    "disac": 0.086,
+    "sucs": 0.015,
+    "mals": 0.071,
+    "sugar": 0.11,
+    "starch": 3.33
+  },
+  "fibers": {
+    "fibt": 0.2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.1,
+    "f16_0": 0.1,
+    "f18_0": 0.001,
+    "fams": 0.1,
+    "f18_1cn9": 0.1,
+    "fapu": 0.035,
+    "fapun3": 0.004,
+    "f18_3cn3": 0.004,
+    "fapun6": 0.031,
+    "f18_2cn6": 0.031,
+    "fax": 0.01
+  },
+  "aminoAcids": {
+    "aae9": 0.1,
+    "glu": 0.3,
+    "leu": 0.1,
+    "pro": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

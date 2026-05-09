@@ -1,0 +1,53 @@
+{
+  "name": "Fruchtwein (Obstwein)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 43,
+    "water": 91.4,
+    "protein": null,
+    "fat": null,
+    "carbs": 4,
+    "fiber": null,
+    "alcohol": 3.8,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "pantac": 0.05,
+    "biot": 1,
+    "vitc": 3.5
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 14,
+    "k": 95,
+    "ca": 8,
+    "mg": 3,
+    "p": 6,
+    "fe": 0.5,
+    "zn": 0.011,
+    "id": 0.4,
+    "cu": 20,
+    "mn": 30
+  },
+  "carbohydrates": {
+    "cho": 4,
+    "mnsac": 1.9,
+    "glus": 1.1,
+    "frus": 0.8,
+    "disac": 2.1,
+    "sucs": 0.6,
+    "mals": 1.5,
+    "sugar": 4
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

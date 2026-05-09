@@ -1,0 +1,74 @@
+{
+  "name": "Schwarztee (Getränk) mit Zitronensaft und Zucker",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 8,
+    "water": 97.6,
+    "protein": 0.008,
+    "fat": null,
+    "carbs": 1.823,
+    "fiber": 0.002,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.009,
+    "tocpha": 0.009,
+    "vitk": 0.2,
+    "vitk1": 0.2,
+    "niaeq": 0.002,
+    "nia": 0.002,
+    "pantac": 0.003,
+    "vitb6": 1,
+    "vitc": 0.532
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 13.1,
+    "ca": 5,
+    "mg": 1.58,
+    "p": 1,
+    "fe": 0.007,
+    "zn": 0.02,
+    "id": 0.3,
+    "cu": 7,
+    "mn": 150
+  },
+  "carbohydrates": {
+    "cho": 1.823,
+    "mnsac": 0.016,
+    "glus": 0.008,
+    "frus": 0.008,
+    "disac": 1.807,
+    "sucs": 1.807,
+    "sugar": 1.823
+  },
+  "fibers": {
+    "fibt": 0.002
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.001,
+    "f16_0": 0.001,
+    "f18_0": 0.0001,
+    "fapu": 0.003,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.002,
+    "f18_2cn6": 0.002
+  },
+  "aminoAcids": {
+    "asp": 0.001,
+    "glu": 0.001,
+    "gly": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.001
+  },
+  "extra": {}
+}

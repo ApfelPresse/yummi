@@ -1,0 +1,99 @@
+{
+  "name": "Aprikose gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 47,
+    "water": 83,
+    "protein": 0.9,
+    "fat": 0.148,
+    "carbs": 9.341,
+    "fiber": 1.75,
+    "alcohol": null,
+    "sugarAlcohols": 0.909
+  },
+  "vitamins": {
+    "vita": 266,
+    "vitaa": 133,
+    "cartb": 1473,
+    "carotpaxb": 250,
+    "vite": 0.568,
+    "tocpha": 0.568,
+    "vitk": 3,
+    "vitk1": 3,
+    "thia": 0.095,
+    "ribf": 0.053,
+    "niaeq": 0.744,
+    "nia": 0.744,
+    "pantac": 0.27,
+    "vitb6": 69,
+    "fol": 5.8,
+    "folfd": 5.8,
+    "vitc": 7.691
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 1,
+    "k": 391,
+    "ca": 24.4,
+    "mg": 23,
+    "p": 24,
+    "fe": 0.695,
+    "zn": 0.24,
+    "id": 0.5,
+    "cu": 89,
+    "mn": 240,
+    "fd": 11
+  },
+  "carbohydrates": {
+    "cho": 9.341,
+    "mnsac": 3.267,
+    "glus": 2.205,
+    "frus": 1.062,
+    "disac": 5.165,
+    "sucs": 5.165,
+    "sugar": 8.432
+  },
+  "fibers": {
+    "fibt": 1.75,
+    "fibhmw": 1.75,
+    "fibins": 0.943,
+    "fibsol": 0.807
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.909,
+    "sortl": 0.909
+  },
+  "fattyAcids": {
+    "fasat": 0.0117,
+    "f16_0": 0.0105,
+    "f18_0": 0.0012,
+    "fams": 0.073,
+    "f16_1cn7": 0.073,
+    "fapu": 0.033,
+    "fapun6": 0.033,
+    "f18_2cn6": 0.033
+  },
+  "aminoAcids": {
+    "aae9": 0.095,
+    "ala": 0.024,
+    "arg": 0.017,
+    "asp": 0.47,
+    "cyste": 0.007,
+    "glu": 0.048,
+    "leu": 0.027,
+    "lys": 0.026,
+    "pro": 0.017,
+    "ser": 0.028,
+    "thr": 0.022,
+    "val": 0.02
+  },
+  "otherNutrients": {
+    "nt": 0.145
+  },
+  "extra": {}
+}

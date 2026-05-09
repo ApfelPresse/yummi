@@ -1,0 +1,96 @@
+{
+  "name": "Sojabohnensprossen/Sojabohnenkeimlinge, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 36,
+    "water": 93.5,
+    "protein": 4.299,
+    "fat": 0.692,
+    "carbs": 2.4,
+    "fiber": 1.751,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 1,
+    "cartb": 15,
+    "vitk": 58.1,
+    "vitk1": 58.1,
+    "thia": 0.027,
+    "ribf": 0.054,
+    "niaeq": 1.266,
+    "nia": 0.416,
+    "pantac": 0.414,
+    "vitb6": 41,
+    "fol": 13.31,
+    "folfd": 13.31,
+    "vitc": 2.183
+  },
+  "minerals": {
+    "nacl": 0.478,
+    "na": 191,
+    "cld": 281,
+    "k": 71,
+    "ca": 27,
+    "mg": 8,
+    "p": 48.9,
+    "s": 1,
+    "fe": 0.482,
+    "zn": 0.524,
+    "cu": 180,
+    "mn": 117
+  },
+  "carbohydrates": {
+    "cho": 2.4,
+    "mnsac": 0.1,
+    "frus": 0.1,
+    "disac": 2.277,
+    "sucs": 2.277,
+    "sugar": 2.4
+  },
+  "fibers": {
+    "fibt": 1.751,
+    "fibhmw": 1.751,
+    "fibins": 1.125,
+    "fibsol": 0.624
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.08,
+    "f16_0": 0.058,
+    "f18_0": 0.022,
+    "fams": 0.001,
+    "f20_1cn9": 0.001,
+    "fax": 0.454
+  },
+  "aminoAcids": {
+    "aae9": 1.523,
+    "ala": 0.193,
+    "arg": 0.343,
+    "asp": 0.5,
+    "cyste": 0.039,
+    "glu": 0.804,
+    "gly": 0.179,
+    "his": 0.116,
+    "ile": 0.189,
+    "leu": 0.306,
+    "lys": 0.256,
+    "met": 0.051,
+    "phe": 0.193,
+    "pro": 0.201,
+    "ser": 0.239,
+    "thr": 0.171,
+    "trp": 0.051,
+    "tyr": 0.153,
+    "val": 0.19
+  },
+  "otherNutrients": {
+    "nt": 0.688
+  },
+  "extra": {}
+}

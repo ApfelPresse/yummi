@@ -1,0 +1,103 @@
+{
+  "name": "Berliner Weisse mit Fruchtsirup",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 53,
+    "water": 88,
+    "protein": 0.6,
+    "fat": null,
+    "carbs": 5.74,
+    "fiber": null,
+    "alcohol": 3.9397,
+    "sugarAlcohols": 0.002
+  },
+  "vitamins": {
+    "cartb": 1,
+    "vite": 0.04,
+    "tocpha": 0.04,
+    "tocphg": 0.02,
+    "thia": 0.011,
+    "ribf": 0.04,
+    "niaeq": 2.1,
+    "nia": 2,
+    "pantac": 0.05,
+    "vitb6": 50,
+    "biot": 1,
+    "fol": 9,
+    "folfd": 9,
+    "vitc": 1.739
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 16,
+    "k": 58,
+    "ca": 6,
+    "mg": 9,
+    "p": 26,
+    "s": 10.98,
+    "zn": 0.01,
+    "id": 1,
+    "cu": 10,
+    "mn": 30,
+    "fd": 31
+  },
+  "carbohydrates": {
+    "cho": 5.74,
+    "mnsac": 0.282,
+    "glus": 0.143,
+    "frus": 0.139,
+    "gals": 0.0003,
+    "disac": 3.22,
+    "sucs": 3.192,
+    "mals": 0.03,
+    "sugar": 3.5,
+    "starch": 2.2378
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.002,
+    "sortl": 0.002
+  },
+  "fattyAcids": {
+    "fasat": 0.001,
+    "f16_0": 0.001,
+    "f18_0": 0.0001,
+    "fams": 0.001,
+    "f18_1cn9": 0.001,
+    "fapu": 0.004,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.003,
+    "f18_2cn6": 0.003
+  },
+  "aminoAcids": {
+    "aae9": 0.17,
+    "ala": 0.026,
+    "arg": 0.02,
+    "asp": 0.032,
+    "cyste": 0.017,
+    "glu": 0.186,
+    "gly": 0.029,
+    "his": 0.015,
+    "ile": 0.022,
+    "leu": 0.028,
+    "lys": 0.02,
+    "met": 0.009,
+    "phe": 0.03,
+    "pro": 0.091,
+    "ser": 0.028,
+    "thr": 0.016,
+    "trp": 0.007,
+    "tyr": 0.016,
+    "val": 0.023
+  },
+  "otherNutrients": {
+    "nt": 0.096
+  },
+  "extra": {}
+}

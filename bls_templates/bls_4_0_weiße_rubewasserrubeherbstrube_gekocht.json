@@ -1,0 +1,113 @@
+{
+  "name": "Weiße Rübe/Wasserrübe/Herbstrübe, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 39,
+    "water": 90.58,
+    "protein": 0.958,
+    "fat": 0.213,
+    "carbs": 6.37,
+    "fiber": 3.49,
+    "alcohol": null,
+    "sugarAlcohols": 0.21
+  },
+  "vitamins": {
+    "vita": 12,
+    "vitaa": 6,
+    "cartb": 70,
+    "vite": 0.538,
+    "tocpha": 0.538,
+    "vitk": 2,
+    "vitk1": 2,
+    "thia": 0.034,
+    "ribf": 0.044,
+    "niaeq": 0.751,
+    "nia": 0.584,
+    "pantac": 0.129,
+    "vitb6": 72,
+    "biot": 2,
+    "fol": 13,
+    "folfd": 13,
+    "vitc": 12.688
+  },
+  "minerals": {
+    "nacl": 0.128,
+    "na": 51,
+    "cld": 69,
+    "k": 217,
+    "ca": 45.6,
+    "mg": 12.2,
+    "p": 36,
+    "fe": 0.362,
+    "zn": 0.066,
+    "id": 6.9,
+    "cu": 57,
+    "mn": 67,
+    "fd": 10,
+    "cr": 1,
+    "mo": 10
+  },
+  "carbohydrates": {
+    "cho": 6.37,
+    "mnsac": 4.97,
+    "glus": 3.62,
+    "frus": 1.35,
+    "disac": 0.523,
+    "sucs": 0.523,
+    "sugar": 5.49,
+    "starch": 0.668
+  },
+  "fibers": {
+    "fibt": 3.49,
+    "fibhmw": 3.49,
+    "fibins": 3.1,
+    "fibsol": 0.39
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.21,
+    "sortl": 0.21
+  },
+  "fattyAcids": {
+    "fasat": 0.029,
+    "f14_0": 0.001,
+    "f16_0": 0.027,
+    "f18_0": 0.001,
+    "fams": 0.005,
+    "f16_1cn7": 0.004,
+    "f18_1cn9": 0.001,
+    "fapu": 0.129,
+    "fapun3": 0.092,
+    "f18_3cn3": 0.092,
+    "fapun6": 0.037,
+    "f18_2cn6": 0.037
+  },
+  "aminoAcids": {
+    "aae9": 0.248,
+    "ala": 0.033,
+    "arg": 0.054,
+    "asp": 0.094,
+    "cyste": 0.008,
+    "glu": 0.214,
+    "gly": 0.021,
+    "his": 0.019,
+    "ile": 0.017,
+    "leu": 0.05,
+    "lys": 0.049,
+    "met": 0.011,
+    "phe": 0.017,
+    "pro": 0.189,
+    "ser": 0.056,
+    "thr": 0.033,
+    "trp": 0.01,
+    "tyr": 0.034,
+    "val": 0.042
+  },
+  "otherNutrients": {
+    "nt": 0.153
+  },
+  "extra": {}
+}

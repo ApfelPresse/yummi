@@ -1,0 +1,81 @@
+{
+  "name": "Zichorienkaffee (Getränk)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 6,
+    "water": 98.2,
+    "protein": 0.129,
+    "fat": 0.03,
+    "carbs": 0.97,
+    "fiber": 0.543,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "niaeq": 0.2,
+    "nia": 0.2,
+    "vitb6": 10,
+    "fol": 0.4,
+    "folfd": 0.4
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 2.6,
+    "k": 1,
+    "ca": 7,
+    "mg": 2,
+    "p": 4,
+    "s": 1.8,
+    "fe": 0.1,
+    "id": 0.5,
+    "mo": 0.04
+  },
+  "carbohydrates": {
+    "cho": 0.97,
+    "mnsac": 0.048,
+    "glus": 0.01,
+    "frus": 0.038,
+    "disac": 0.096,
+    "sucs": 0.01,
+    "mals": 0.086,
+    "sugar": 0.144,
+    "starch": 0.826
+  },
+  "fibers": {
+    "fibt": 0.543
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.002,
+    "f16_0": 0.002,
+    "fapu": 0.017,
+    "fapun3": 0.013,
+    "f18_3cn3": 0.013,
+    "fapun6": 0.004,
+    "f18_2cn6": 0.004
+  },
+  "aminoAcids": {
+    "aae9": 0.039,
+    "arg": 0.005,
+    "cyste": 0.002,
+    "his": 0.002,
+    "ile": 0.006,
+    "leu": 0.009,
+    "lys": 0.003,
+    "met": 0.001,
+    "phe": 0.007,
+    "thr": 0.004,
+    "trp": 0.001,
+    "tyr": 0.004,
+    "val": 0.006
+  },
+  "otherNutrients": {
+    "nt": 0.021
+  },
+  "extra": {}
+}

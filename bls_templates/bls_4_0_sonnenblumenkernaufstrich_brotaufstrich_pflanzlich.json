@@ -1,0 +1,111 @@
+{
+  "name": "Sonnenblumenkernaufstrich, Brotaufstrich pflanzlich",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 308,
+    "water": 59.7,
+    "protein": 4.15,
+    "fat": 27.75,
+    "carbs": 7.84,
+    "fiber": 4.65,
+    "alcohol": null,
+    "sugarAlcohols": 0.084
+  },
+  "vitamins": {
+    "vita": 75,
+    "vitaa": 40,
+    "cartb": 420,
+    "vite": 19,
+    "tocpha": 19,
+    "tocphb": 0.54,
+    "tocphg": 0.59,
+    "tocphd": 0.024,
+    "vitk": 3.68,
+    "vitk1": 3.68,
+    "thia": 0.25,
+    "ribf": 0.07,
+    "niaeq": 1.58,
+    "nia": 0.8,
+    "pantac": 0.14,
+    "vitb6": 130,
+    "biot": 1.95,
+    "fol": 6,
+    "folfd": 6
+  },
+  "minerals": {
+    "nacl": 1.1238,
+    "na": 449.5,
+    "k": 292,
+    "ca": 41.6,
+    "mg": 52.6,
+    "p": 114,
+    "s": 58,
+    "fe": 1.11,
+    "zn": 0.98,
+    "cu": 325,
+    "mn": 500,
+    "cr": 6,
+    "mo": 6.8
+  },
+  "carbohydrates": {
+    "cho": 7.84,
+    "mnsac": 5,
+    "glus": 2.8,
+    "frus": 2.2,
+    "disac": 1.66,
+    "sucs": 1.66,
+    "sugar": 6.66,
+    "starch": 1.1
+  },
+  "fibers": {
+    "fibt": 4.65,
+    "fibhmw": 4.65,
+    "fibins": 1.8,
+    "fibsol": 2.85
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.084,
+    "sortl": 0.084
+  },
+  "fattyAcids": {
+    "fasat": 2.448,
+    "f16_0": 1.627,
+    "f18_0": 0.8211,
+    "fams": 11.45,
+    "f16_1cn7": 0.0456,
+    "f18_1cn9": 11.4,
+    "fapu": 12.63,
+    "fapun6": 12.63,
+    "f18_2cn6": 12.63,
+    "fax": 0.001
+  },
+  "aminoAcids": {
+    "aae9": 1.287,
+    "ala": 0.18,
+    "arg": 0.355,
+    "asp": 0.428,
+    "cyste": 0.062,
+    "glu": 0.89,
+    "gly": 0.252,
+    "his": 0.094,
+    "ile": 0.152,
+    "leu": 0.256,
+    "lys": 0.142,
+    "met": 0.076,
+    "phe": 0.184,
+    "pro": 0.148,
+    "ser": 0.182,
+    "thr": 0.152,
+    "trp": 0.047,
+    "tyr": 0.124,
+    "val": 0.184
+  },
+  "otherNutrients": {
+    "nt": 0.66
+  },
+  "extra": {}
+}

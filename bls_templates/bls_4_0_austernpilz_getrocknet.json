@@ -1,0 +1,98 @@
+{
+  "name": "Austernpilz getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 251,
+    "water": 10.5,
+    "protein": 26.18,
+    "fat": 1.74,
+    "carbs": 10.05,
+    "fiber": 46.278,
+    "alcohol": null,
+    "sugarAlcohols": 1.266
+  },
+  "vitamins": {
+    "vitd": 5.5,
+    "ergcal": 5.5,
+    "thia": 1.058,
+    "ribf": 2.029,
+    "niaeq": 77.23,
+    "nia": 71.197,
+    "pantac": 9.18,
+    "vitb6": 710,
+    "biot": 50.12,
+    "fol": 245,
+    "folfd": 245,
+    "vitc": 0.949
+  },
+  "minerals": {
+    "nacl": 0.118,
+    "na": 47,
+    "k": 2005.4,
+    "ca": 95,
+    "mg": 103,
+    "p": 530,
+    "fe": 4.7,
+    "zn": 4.35,
+    "cu": 649,
+    "mn": 21280,
+    "cr": 2.4
+  },
+  "carbohydrates": {
+    "cho": 10.05,
+    "mnsac": 8.78,
+    "glus": 8.78,
+    "sugar": 8.78
+  },
+  "fibers": {
+    "fibt": 46.278,
+    "fibhmw": 46.278,
+    "fibins": 36.54,
+    "fibsol": 9.738
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.266,
+    "mantl": 1.266
+  },
+  "fattyAcids": {
+    "fasat": 0.2421,
+    "f14_0": 0.0074,
+    "f16_0": 0.1986,
+    "f18_0": 0.0361,
+    "fams": 0.1669,
+    "f16_1cn7": 0.0174,
+    "f18_1cn9": 0.1495,
+    "fapu": 0.7705,
+    "fapun6": 0.7705,
+    "f18_2cn6": 0.7705
+  },
+  "aminoAcids": {
+    "aae9": 8.7,
+    "ala": 2.063,
+    "arg": 1.571,
+    "asp": 2.546,
+    "cyste": 0.242,
+    "glu": 5.455,
+    "gly": 1.087,
+    "his": 0.6,
+    "ile": 0.967,
+    "leu": 1.45,
+    "lys": 1.087,
+    "met": 0.362,
+    "phe": 0.967,
+    "pro": 0.362,
+    "ser": 1.087,
+    "thr": 1.21,
+    "trp": 0.362,
+    "tyr": 0.725,
+    "val": 1.7
+  },
+  "otherNutrients": {
+    "nt": 4.66
+  },
+  "extra": {}
+}

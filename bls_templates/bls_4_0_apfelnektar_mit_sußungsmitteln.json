@@ -1,0 +1,86 @@
+{
+  "name": "Apfelnektar mit Süßungsmitteln",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 22,
+    "water": 94,
+    "protein": 0.048,
+    "fat": null,
+    "carbs": 5.294,
+    "fiber": 0.155,
+    "alcohol": 0.02,
+    "sugarAlcohols": 0.5
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 2,
+    "cartb": 7,
+    "carotpaxb": 22,
+    "vite": 0.04,
+    "tocpha": 0.04,
+    "thia": 0.002,
+    "ribf": 0.0022,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "pantac": 0.02,
+    "vitb6": 4,
+    "biot": 0.4
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 1.3,
+    "k": 50,
+    "ca": 5,
+    "mg": 2,
+    "p": 3.38,
+    "s": 0.9,
+    "fe": 0.1,
+    "zn": 0.02,
+    "id": 1,
+    "cu": 10,
+    "mn": 20,
+    "mo": 0.34
+  },
+  "carbohydrates": {
+    "cho": 5.294,
+    "mnsac": 4.226,
+    "glus": 1.108,
+    "frus": 3.118,
+    "disac": 0.568,
+    "sucs": 0.568,
+    "sugar": 4.794
+  },
+  "fibers": {
+    "fibt": 0.155
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.5,
+    "sortl": 0.5
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.011,
+    "ala": 0.002,
+    "arg": 0.001,
+    "asp": 0.014,
+    "glu": 0.004,
+    "his": 0.001,
+    "ile": 0.001,
+    "leu": 0.002,
+    "lys": 0.002,
+    "phe": 0.002,
+    "pro": 0.001,
+    "ser": 0.002,
+    "thr": 0.001,
+    "val": 0.002
+  },
+  "otherNutrients": {
+    "nt": 0.008
+  },
+  "extra": {}
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Stout",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 46,
+    "water": 91.64,
+    "protein": 0.4,
+    "fat": null,
+    "carbs": 5.3,
+    "fiber": null,
+    "alcohol": 3.3,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.004,
+    "ribf": 0.036,
+    "niaeq": 1,
+    "nia": 1,
+    "pantac": 0.0222,
+    "vitb6": 59,
+    "biot": 1.6,
+    "fol": 8.4,
+    "folfd": 8.4
+  },
+  "minerals": {
+    "nacl": 0.004,
+    "na": 1.6,
+    "cld": 14.4,
+    "k": 56.2,
+    "ca": 4.6,
+    "mg": 9.8,
+    "p": 27.1,
+    "s": 12.85,
+    "fe": 0.0122,
+    "zn": 0.0016,
+    "id": 0.2302,
+    "cu": 6.3,
+    "mn": 14.2
+  },
+  "carbohydrates": {
+    "cho": 5.3,
+    "disac": 3.2,
+    "mals": 3.2,
+    "sugar": 3.2,
+    "starch": 2.1275
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "glu": 0.1,
+    "pro": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

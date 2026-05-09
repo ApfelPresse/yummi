@@ -1,0 +1,85 @@
+{
+  "name": "Bambussprossen gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 18,
+    "water": 90.936,
+    "protein": 2.679,
+    "fat": 0.321,
+    "carbs": 1.028,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 1,
+    "cartb": 15,
+    "thia": 0.096,
+    "ribf": 0.062,
+    "niaeq": 0.931,
+    "nia": 0.464,
+    "vitc": 4.488
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "k": 279,
+    "ca": 17,
+    "mg": 2,
+    "p": 57,
+    "fe": 0.625,
+    "zn": 1
+  },
+  "carbohydrates": {
+    "cho": 1.028,
+    "mnsac": 0.814,
+    "glus": 0.375,
+    "frus": 0.439,
+    "disac": 0.214,
+    "sucs": 0.214,
+    "sugar": 1.028
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.059,
+    "f16_0": 0.059,
+    "fams": 0.012,
+    "f18_1cn9": 0.012,
+    "fapu": 0.185,
+    "fapun3": 0.056,
+    "f18_3cn3": 0.056,
+    "fapun6": 0.129,
+    "f18_2cn6": 0.129
+  },
+  "aminoAcids": {
+    "aae9": 0.769,
+    "ala": 0.129,
+    "arg": 0.099,
+    "asp": 0.429,
+    "cyste": 0.022,
+    "glu": 0.257,
+    "gly": 0.09,
+    "his": 0.043,
+    "ile": 0.09,
+    "leu": 0.146,
+    "lys": 0.137,
+    "met": 0.03,
+    "phe": 0.094,
+    "pro": 0.227,
+    "ser": 0.133,
+    "thr": 0.09,
+    "trp": 0.028,
+    "tyr": 0.429,
+    "val": 0.111
+  },
+  "otherNutrients": {
+    "nt": 0.429
+  },
+  "extra": {}
+}

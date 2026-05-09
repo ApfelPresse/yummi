@@ -1,0 +1,106 @@
+{
+  "name": "Pflaume mit Süßungsmitteln, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 22,
+    "water": 94,
+    "protein": 0.24,
+    "fat": 0.141,
+    "carbs": 4.52,
+    "fiber": 1.1,
+    "alcohol": null,
+    "sugarAlcohols": 1.105
+  },
+  "vitamins": {
+    "vita": 28,
+    "vitaa": 14,
+    "cartb": 133,
+    "carotpaxb": 74,
+    "vite": 0.234,
+    "tocpha": 0.234,
+    "tocphg": 0.016,
+    "toctra": 0.016,
+    "vitk": 6,
+    "vitk1": 6,
+    "thia": 0.009,
+    "ribf": 0.018,
+    "niaeq": 0.189,
+    "nia": 0.189,
+    "pantac": 0.058,
+    "vitb6": 11,
+    "vitc": 0.457
+  },
+  "minerals": {
+    "nacl": 0.02,
+    "na": 8,
+    "cld": 2.7,
+    "k": 70,
+    "ca": 10,
+    "mg": 5,
+    "p": 11,
+    "s": 1.1,
+    "fe": 0.1,
+    "zn": 0.07,
+    "id": 1,
+    "cu": 57,
+    "mn": 70,
+    "fd": 1,
+    "cr": 1,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 4.52,
+    "mnsac": 2.42,
+    "glus": 1.49,
+    "frus": 0.93,
+    "disac": 1,
+    "sucs": 0.93,
+    "mals": 0.072,
+    "sugar": 3.42
+  },
+  "fibers": {
+    "fibt": 1.1,
+    "fibhmw": 1.1,
+    "fibins": 0.6,
+    "fibsol": 0.6
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.105,
+    "sortl": 1.105
+  },
+  "fattyAcids": {
+    "fasat": 0.018,
+    "f16_0": 0.0143,
+    "f18_0": 0.004,
+    "fams": 0.0429,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.0419,
+    "fapu": 0.065,
+    "fapun3": 0.026,
+    "f18_3cn3": 0.026,
+    "fapun6": 0.039,
+    "f18_2cn6": 0.039
+  },
+  "aminoAcids": {
+    "aae9": 0.033,
+    "ala": 0.014,
+    "arg": 0.003,
+    "asp": 0.167,
+    "cyste": 0.003,
+    "glu": 0.026,
+    "leu": 0.01,
+    "lys": 0.012,
+    "pro": 0.004,
+    "ser": 0.014,
+    "thr": 0.01,
+    "val": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.08
+  },
+  "extra": {}
+}

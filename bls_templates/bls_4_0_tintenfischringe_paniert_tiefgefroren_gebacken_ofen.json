@@ -1,0 +1,102 @@
+{
+  "name": "Tintenfischringe paniert, tiefgefroren, gebacken (Ofen)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 284,
+    "water": 44.6,
+    "protein": 10.62,
+    "fat": 15.44,
+    "carbs": 21.54,
+    "fiber": 1.52,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 7,
+    "vitaa": 5,
+    "retol": 4.4,
+    "cartb": 13,
+    "vite": 7.9,
+    "tocpha": 7.9,
+    "tocphb": 0.3,
+    "tocphg": 0.75,
+    "thia": 0.05,
+    "ribf": 0.32,
+    "niaeq": 2.97,
+    "nia": 1.1,
+    "pantac": 0.17,
+    "biot": 0.92,
+    "fol": 7.6,
+    "folfd": 7.6,
+    "vitb12": 1.45
+  },
+  "minerals": {
+    "nacl": 2.48,
+    "na": 992,
+    "k": 117.5,
+    "ca": 32.1,
+    "mg": 25.4,
+    "p": 219.4,
+    "s": 98,
+    "fe": 0.692,
+    "zn": 1.02,
+    "id": 18.8,
+    "cu": 180,
+    "mn": 225,
+    "cr": 15,
+    "mo": 7.7
+  },
+  "carbohydrates": {
+    "cho": 21.54,
+    "starch": 21.54
+  },
+  "fibers": {
+    "fibt": 1.52,
+    "fibhmw": 1.52,
+    "fibins": 1.52
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 1.2791,
+    "f16_0": 0.898,
+    "f18_0": 0.3811,
+    "fams": 4.861,
+    "f18_1cn9": 4.861,
+    "fapu": 6.165,
+    "fapun3": 0.184,
+    "f18_3cn3": 0.184,
+    "fapun6": 5.981,
+    "f18_2cn6": 5.981,
+    "fax": 0.0469
+  },
+  "aminoAcids": {
+    "aae9": 3.87,
+    "ala": 0.5,
+    "arg": 0.63,
+    "asp": 0.874,
+    "cyste": 0.13,
+    "glu": 2.042,
+    "gly": 0.594,
+    "his": 0.201,
+    "ile": 0.434,
+    "leu": 0.83,
+    "lys": 0.788,
+    "met": 0.252,
+    "phe": 0.428,
+    "pro": 0.702,
+    "ser": 0.468,
+    "thr": 0.405,
+    "trp": 0.112,
+    "tyr": 0.341,
+    "val": 0.42
+  },
+  "otherNutrients": {
+    "chorl": 77,
+    "nt": 1.7
+  },
+  "extra": {}
+}

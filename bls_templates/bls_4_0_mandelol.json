@@ -1,0 +1,50 @@
+{
+  "name": "Mandelöl",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 36.54,
+    "tocpha": 36.54,
+    "tocphb": 0.61,
+    "tocphg": 3.1,
+    "tocphd": 0.04,
+    "vitk": 8.7,
+    "vitk1": 8.7
+  },
+  "minerals": {},
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 7.04,
+    "f16_0": 5.52,
+    "f18_0": 1.48,
+    "f20_0": 0.04,
+    "fams": 65.5,
+    "f16_1cn7": 0.4,
+    "f18_1cn9": 65.06,
+    "f20_1cn9": 0.04,
+    "fapu": 22.22,
+    "fapun3": 0.12,
+    "f18_3cn3": 0.12,
+    "fapun6": 22.1,
+    "f18_2cn6": 22,
+    "f20_2cn6": 0.1
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

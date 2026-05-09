@@ -1,0 +1,109 @@
+{
+  "name": "Spitzkohl gebacken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 36,
+    "water": 90.8,
+    "protein": 1.42,
+    "fat": 0.21,
+    "carbs": 5.33,
+    "fiber": 3.5,
+    "alcohol": null,
+    "sugarAlcohols": 0.16
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 4,
+    "cartb": 45,
+    "carotpaxb": 10,
+    "vite": 0.345,
+    "tocpha": 0.345,
+    "tocphg": 0.002,
+    "toctra": 0.047,
+    "vitk": 106,
+    "vitk1": 106,
+    "thia": 0.05,
+    "ribf": 0.03,
+    "niaeq": 0.5,
+    "nia": 0.3,
+    "pantac": 0.15,
+    "vitb6": 103,
+    "biot": 0.1,
+    "fol": 48,
+    "folfd": 48,
+    "vitc": 36
+  },
+  "minerals": {
+    "nacl": 0.052,
+    "na": 21,
+    "cld": 44,
+    "k": 289,
+    "ca": 55,
+    "mg": 18,
+    "p": 27,
+    "fe": 0.66,
+    "zn": 0.21,
+    "id": 2,
+    "cu": 27,
+    "mn": 187,
+    "fd": 14,
+    "cr": 0.6,
+    "mo": 9.69
+  },
+  "carbohydrates": {
+    "cho": 5.33,
+    "mnsac": 4.94,
+    "glus": 2.74,
+    "frus": 2.2,
+    "disac": 0.233,
+    "sucs": 0.233,
+    "sugar": 5.17
+  },
+  "fibers": {
+    "fibt": 3.5,
+    "fibhmw": 3.5,
+    "fibins": 2.6,
+    "fibsol": 0.9
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.16,
+    "sortl": 0.16
+  },
+  "fattyAcids": {
+    "fasat": 0.025,
+    "f12_0": 0.001,
+    "f14_0": 0.001,
+    "f16_0": 0.022,
+    "f18_0": 0.001,
+    "fax": 0.111
+  },
+  "aminoAcids": {
+    "aae9": 0.426,
+    "ala": 0.049,
+    "arg": 0.081,
+    "asp": 0.14,
+    "cyste": 0.01,
+    "glu": 0.32,
+    "gly": 0.032,
+    "his": 0.029,
+    "ile": 0.072,
+    "leu": 0.074,
+    "lys": 0.067,
+    "met": 0.014,
+    "phe": 0.046,
+    "pro": 0.28,
+    "ser": 0.084,
+    "thr": 0.049,
+    "trp": 0.014,
+    "tyr": 0.025,
+    "val": 0.061
+  },
+  "otherNutrients": {
+    "nt": 0.22
+  },
+  "extra": {}
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Loganbeere roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 36,
+    "water": 85,
+    "protein": 1.1,
+    "fat": 0.3,
+    "carbs": 3.4,
+    "fiber": 4.7,
+    "alcohol": null,
+    "sugarAlcohols": 0.003
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 6,
+    "vite": 0.79,
+    "tocpha": 0.79,
+    "tocphb": 0.13,
+    "tocphg": 1.28,
+    "tocphd": 1.2,
+    "vitk": 9,
+    "vitk1": 9,
+    "thia": 0.03,
+    "ribf": 0.05,
+    "niaeq": 0.7,
+    "nia": 0.5,
+    "pantac": 0.24,
+    "vitb6": 60,
+    "biot": 1.9,
+    "fol": 33,
+    "folfd": 33,
+    "vitc": 35
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 16,
+    "k": 260,
+    "ca": 35,
+    "mg": 25,
+    "p": 24,
+    "fe": 1.4,
+    "zn": 0.3,
+    "id": 0.21,
+    "cu": 140,
+    "mn": 600000,
+    "fd": 16,
+    "cr": 4,
+    "mo": 7.64
+  },
+  "carbohydrates": {
+    "cho": 3.4,
+    "mnsac": 3.2,
+    "glus": 1.9,
+    "frus": 1.3,
+    "gals": 0.0107,
+    "disac": 0.2,
+    "sucs": 0.2,
+    "sugar": 3.4
+  },
+  "fibers": {
+    "fibt": 4.7,
+    "fibhmw": 4.7,
+    "fibins": 3.2,
+    "fibsol": 1.5
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.003,
+    "xyltl": 0.003
+  },
+  "fattyAcids": {
+    "fasat": 0.01,
+    "f16_0": 0.008,
+    "f18_0": 0.002,
+    "fams": 0.03,
+    "f18_1cn9": 0.03,
+    "fapu": 0.195,
+    "fapun3": 0.065,
+    "f18_3cn3": 0.065,
+    "fapun6": 0.13,
+    "f18_2cn6": 0.13
+  },
+  "aminoAcids": {
+    "aae9": 0.23,
+    "ala": 0.11,
+    "arg": 0.05,
+    "asp": 0.17,
+    "glu": 0.16,
+    "gly": 0.04,
+    "his": 0.02,
+    "ile": 0.01,
+    "leu": 0.05,
+    "lys": 0.04,
+    "phe": 0.03,
+    "pro": 0.03,
+    "ser": 0.06,
+    "thr": 0.03,
+    "trp": 0.012,
+    "tyr": 0.02,
+    "val": 0.04
+  },
+  "otherNutrients": {
+    "nt": 0.17
+  },
+  "extra": {}
+}

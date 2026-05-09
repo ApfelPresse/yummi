@@ -1,0 +1,70 @@
+{
+  "name": "Hefe Flocken/Nährhefe",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 305,
+    "water": 5,
+    "protein": 48.7,
+    "fat": 4.5,
+    "carbs": 6.2,
+    "fiber": 22.5,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.42,
+    "tocpha": 0.42,
+    "tocphb": 0.087,
+    "thia": 11.6,
+    "ribf": 1,
+    "niaeq": 18.5,
+    "nia": 18.5,
+    "pantac": 5.14,
+    "vitb6": 880,
+    "biot": 2.6,
+    "fol": 697,
+    "folfd": 697,
+    "vitb12": 0.34
+  },
+  "minerals": {
+    "nacl": 0.352,
+    "na": 141,
+    "cld": 251,
+    "k": 1800,
+    "ca": 130,
+    "mg": 150,
+    "p": 1100,
+    "fe": 4.1,
+    "zn": 8.4,
+    "id": 0.85,
+    "cu": 390,
+    "mn": 890,
+    "cr": 29.5
+  },
+  "carbohydrates": {
+    "cho": 6.2,
+    "mnsac": 0.3,
+    "glus": 0.3,
+    "disac": 2.2,
+    "mals": 2.2,
+    "sugar": 2.5,
+    "starch": 3.7
+  },
+  "fibers": {
+    "fibt": 22.5
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fams": 1.82,
+    "f18_1cn9": 1.82
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 7.8
+  },
+  "extra": {}
+}

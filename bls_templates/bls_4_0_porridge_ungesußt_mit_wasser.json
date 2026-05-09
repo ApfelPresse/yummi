@@ -1,0 +1,103 @@
+{
+  "name": "Porridge ungesüßt, mit Wasser",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 71,
+    "water": 81.9,
+    "protein": 2.687,
+    "fat": 1.351,
+    "carbs": 10.8,
+    "fiber": 2.232,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.163,
+    "tocpha": 0.163,
+    "tocphb": 0.005,
+    "tocphd": 0.003,
+    "toctra": 0.593,
+    "vitk": 0.4,
+    "vitk1": 0.4,
+    "thia": 0.091,
+    "ribf": 0.005,
+    "niaeq": 0.833,
+    "nia": 0.183,
+    "pantac": 0.197,
+    "vitb6": 18,
+    "biot": 4,
+    "fol": 13.2,
+    "folfd": 13.2
+  },
+  "minerals": {
+    "nacl": 0.025,
+    "na": 10,
+    "cld": 24,
+    "k": 73.9,
+    "ca": 14,
+    "mg": 25.5,
+    "p": 62.76,
+    "s": 1,
+    "fe": 0.8566,
+    "zn": 0.741,
+    "id": 1,
+    "cu": 80,
+    "mn": 1003,
+    "mo": 14
+  },
+  "carbohydrates": {
+    "cho": 10.8,
+    "disac": 0.15,
+    "sucs": 0.144,
+    "mals": 0.006,
+    "sugar": 0.15,
+    "starch": 10.7
+  },
+  "fibers": {
+    "fibt": 2.232
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.273,
+    "f14_0": 0.008,
+    "f16_0": 0.244,
+    "f18_0": 0.021,
+    "fams": 0.479,
+    "f16_1cn7": 0.01,
+    "f18_1cn9": 0.469,
+    "fapu": 0.545,
+    "fapun3": 0.023,
+    "f18_3cn3": 0.023,
+    "fapun6": 0.522,
+    "f18_2cn6": 0.522
+  },
+  "aminoAcids": {
+    "aae9": 1.037,
+    "ala": 0.161,
+    "arg": 0.177,
+    "asp": 0.262,
+    "cyste": 0.079,
+    "glu": 0.626,
+    "gly": 0.173,
+    "his": 0.061,
+    "ile": 0.124,
+    "leu": 0.23,
+    "lys": 0.102,
+    "met": 0.049,
+    "phe": 0.159,
+    "pro": 0.171,
+    "ser": 0.144,
+    "thr": 0.108,
+    "trp": 0.039,
+    "tyr": 0.116,
+    "val": 0.165
+  },
+  "otherNutrients": {
+    "nt": 0.43
+  },
+  "extra": {}
+}

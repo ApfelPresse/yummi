@@ -1,0 +1,50 @@
+{
+  "name": "Kräuteressig",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 27,
+    "water": 93.5,
+    "protein": null,
+    "fat": null,
+    "carbs": 0.003,
+    "fiber": null,
+    "alcohol": 0.418,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 1.45,
+    "vitaa": 0.72,
+    "cartb": 8.69,
+    "vitb6": 2
+  },
+  "minerals": {
+    "nacl": 0.982,
+    "na": 393,
+    "cld": 476,
+    "k": 160,
+    "ca": 10.2,
+    "mg": 2,
+    "p": 5,
+    "zn": 0.02,
+    "cu": 10,
+    "mn": 56,
+    "cr": 3,
+    "mo": 0.2
+  },
+  "carbohydrates": {
+    "cho": 0.003,
+    "mnsac": 0.003,
+    "frus": 0.003,
+    "sugar": 0.003
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

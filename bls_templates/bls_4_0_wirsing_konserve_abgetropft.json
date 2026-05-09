@@ -1,0 +1,104 @@
+{
+  "name": "Wirsing Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 26,
+    "water": 90.9,
+    "protein": 2.121,
+    "fat": 0.244,
+    "carbs": 2.7,
+    "fiber": 2.3,
+    "alcohol": null,
+    "sugarAlcohols": 0.09
+  },
+  "vitamins": {
+    "vita": 6,
+    "vitaa": 3,
+    "cartb": 36,
+    "vite": 2.357,
+    "tocpha": 2.357,
+    "tocphg": 0.037,
+    "vitk": 64.9,
+    "vitk1": 64.9,
+    "thia": 0.009,
+    "ribf": 0.025,
+    "niaeq": 0.533,
+    "nia": 0.116,
+    "pantac": 0.068,
+    "vitb6": 51,
+    "fol": 22,
+    "folfd": 22,
+    "vitc": 4.878
+  },
+  "minerals": {
+    "nacl": 0.538,
+    "na": 215,
+    "cld": 454,
+    "k": 93,
+    "ca": 52.3,
+    "mg": 7,
+    "p": 37.4,
+    "s": 1,
+    "fe": 0.31,
+    "zn": 0.21,
+    "id": 1,
+    "cu": 40,
+    "mn": 180
+  },
+  "carbohydrates": {
+    "cho": 2.7,
+    "mnsac": 1.8,
+    "glus": 1.2,
+    "frus": 0.63,
+    "disac": 0.463,
+    "sucs": 0.463,
+    "sugar": 2.3,
+    "starch": 0.315
+  },
+  "fibers": {
+    "fibt": 2.3,
+    "fibhmw": 2.3,
+    "fibins": 1.4,
+    "fibsol": 0.9
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.09,
+    "sortl": 0.09
+  },
+  "fattyAcids": {
+    "fasat": 0.044,
+    "f14_0": 0.001,
+    "f16_0": 0.039,
+    "f18_0": 0.003,
+    "f20_0": 0.001,
+    "fams": 0.006,
+    "f16_1cn7": 0.003,
+    "f18_1cn9": 0.003,
+    "fapu": 0.147,
+    "fapun3": 0.112,
+    "f18_3cn3": 0.112,
+    "fapun6": 0.035,
+    "f18_2cn6": 0.035
+  },
+  "aminoAcids": {
+    "aae9": 0.657,
+    "arg": 0.114,
+    "his": 0.036,
+    "ile": 0.076,
+    "leu": 0.145,
+    "lys": 0.071,
+    "met": 0.021,
+    "phe": 0.091,
+    "thr": 0.084,
+    "trp": 0.025,
+    "val": 0.108
+  },
+  "otherNutrients": {
+    "nt": 0.341
+  },
+  "extra": {}
+}

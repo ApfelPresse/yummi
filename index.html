@@ -250,6 +250,24 @@
     </div>
   </div>
 
+  <!-- BLS Template Import Modal -->
+  <div id="blsImportModal" class="hidden">
+    <div class="bls-modal-content">
+      <div class="bls-modal-header">
+        <h2>BLS Template auswählen</h2>
+        <button id="blsImportModalClose">✕</button>
+      </div>
+      <div class="bls-search-box">
+        <input id="blsTemplateSearch" type="text" placeholder="Suchen..." />
+      </div>
+      <div id="blsTemplateList" class="bls-template-list"></div>
+    </div>
+  </div>
+
+  <!-- BLS Templates und Import-Logik -->
+  <script src="./js/ingredients/template/bls_4_0/templates.js"></script>
+  <script src="./js/ingredients/import-bls.js"></script>
+
   <!-- Deine Logik ist jetzt in mehrere JS-Dateien ausgelagert (App-Shell bleibt gleich) -->
   <script type="module">
     import { APP_VERSION } from "./js/core/version.js";

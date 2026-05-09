@@ -1,0 +1,75 @@
+{
+  "name": "Kaktusfeige roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 52,
+    "water": 86.11,
+    "protein": 1,
+    "fat": 0.4,
+    "carbs": 8.63,
+    "fiber": 5,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 4,
+    "cartb": 49,
+    "thia": 0.018,
+    "ribf": 0.03,
+    "niaeq": 0.547,
+    "nia": 0.38,
+    "vitc": 23
+  },
+  "minerals": {
+    "k": 90,
+    "ca": 28,
+    "mg": 85,
+    "p": 27,
+    "fe": 0.3
+  },
+  "carbohydrates": {
+    "cho": 8.63,
+    "mnsac": 8.63,
+    "glus": 6.89,
+    "frus": 1.74,
+    "sugar": 8.63
+  },
+  "fibers": {
+    "fibt": 5,
+    "fibhmw": 5,
+    "fibins": 4.87,
+    "fibsol": 0.13
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.234,
+    "ala": 0.054,
+    "arg": 0.027,
+    "asp": 0.106,
+    "cyste": 0.01,
+    "glu": 0.186,
+    "gly": 0.039,
+    "his": 0.013,
+    "ile": 0.027,
+    "leu": 0.039,
+    "lys": 0.054,
+    "met": 0.01,
+    "phe": 0.027,
+    "pro": 0.027,
+    "ser": 0.039,
+    "thr": 0.027,
+    "trp": 0.01,
+    "tyr": 0.013,
+    "val": 0.027
+  },
+  "otherNutrients": {
+    "nt": 0.16
+  },
+  "extra": {}
+}

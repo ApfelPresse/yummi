@@ -1,0 +1,84 @@
+{
+  "name": "Pfirsich gezuckert, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 65,
+    "water": 84.9,
+    "protein": 0.54,
+    "fat": null,
+    "carbs": 14.8,
+    "fiber": 1.34,
+    "alcohol": null,
+    "sugarAlcohols": 0.218
+  },
+  "vitamins": {
+    "vita": 38,
+    "vitaa": 19,
+    "cartb": 225,
+    "vite": 1.75,
+    "tocpha": 1.75,
+    "tocphg": 0.0325,
+    "vitk": 0.8,
+    "niaeq": 0.34,
+    "nia": 0.26,
+    "pantac": 0.05,
+    "fol": 9.3,
+    "folfd": 9.3,
+    "vitc": 2.6
+  },
+  "minerals": {
+    "nacl": 0.0045,
+    "na": 1.8,
+    "cld": 1.6,
+    "k": 104.5,
+    "ca": 9.5,
+    "mg": 5.2,
+    "p": 12.2,
+    "fe": 0.13,
+    "zn": 0.08,
+    "cu": 65.8,
+    "mn": 24.8,
+    "fd": 7,
+    "cr": 3.3,
+    "mo": 1.5
+  },
+  "carbohydrates": {
+    "cho": 14.8,
+    "mnsac": 10.62,
+    "glus": 5.65,
+    "frus": 4.97,
+    "disac": 3.96,
+    "sucs": 3.96,
+    "sugar": 14.58
+  },
+  "fibers": {
+    "fibt": 1.34,
+    "fibhmw": 1.34,
+    "fibins": 0.52,
+    "fibsol": 0.82
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.218,
+    "sortl": 0.218
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.054,
+    "ala": 0.021,
+    "arg": 0.018,
+    "asp": 0.164,
+    "gly": 0.116,
+    "his": 0.008,
+    "ile": 0.008,
+    "ser": 0.012,
+    "val": 0.008
+  },
+  "otherNutrients": {
+    "nt": 0.09
+  },
+  "extra": {}
+}

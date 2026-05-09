@@ -1,0 +1,102 @@
+{
+  "name": "Frühlingszwiebel/Lauchzwiebel, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 27,
+    "water": 88,
+    "protein": 1.9,
+    "fat": 0.19,
+    "carbs": 3,
+    "fiber": 2.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 103,
+    "vitaa": 52,
+    "cartb": 620,
+    "vite": 0.35,
+    "tocpha": 0.35,
+    "vitk": 54,
+    "vitk1": 54,
+    "thia": 0.05,
+    "ribf": 0.06,
+    "niaeq": 0.8,
+    "nia": 0.5,
+    "pantac": 0.07,
+    "vitb6": 100,
+    "biot": 3,
+    "fol": 89,
+    "folfd": 89,
+    "vitc": 22
+  },
+  "minerals": {
+    "nacl": 0.03,
+    "na": 12,
+    "cld": 31,
+    "k": 268,
+    "ca": 56,
+    "mg": 16,
+    "p": 33,
+    "fe": 1.69,
+    "zn": 0.18,
+    "id": 1,
+    "cu": 44,
+    "mn": 260,
+    "fd": 10,
+    "cr": 1,
+    "mo": 5
+  },
+  "carbohydrates": {
+    "cho": 3,
+    "mnsac": 2.6,
+    "glus": 1.2,
+    "frus": 1.4,
+    "disac": 0.2,
+    "sucs": 0.2,
+    "sugar": 2.8,
+    "starch": 0.2
+  },
+  "fibers": {
+    "fibt": 2.6,
+    "fibhmw": 2.6,
+    "fibins": 1.3,
+    "fibsol": 1.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.032,
+    "f14_0": 0.001,
+    "f16_0": 0.028,
+    "f18_0": 0.003,
+    "fax": 0.101
+  },
+  "aminoAcids": {
+    "aae9": 0.56,
+    "ala": 0.082,
+    "arg": 0.132,
+    "asp": 0.169,
+    "glu": 0.378,
+    "gly": 0.091,
+    "his": 0.032,
+    "ile": 0.077,
+    "leu": 0.109,
+    "lys": 0.091,
+    "met": 0.02,
+    "phe": 0.059,
+    "pro": 0.121,
+    "ser": 0.082,
+    "thr": 0.072,
+    "trp": 0.02,
+    "tyr": 0.053,
+    "val": 0.081
+  },
+  "otherNutrients": {
+    "nt": 0.3
+  },
+  "extra": {}
+}

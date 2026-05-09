@@ -1,0 +1,102 @@
+{
+  "name": "Wachsbohne gesäuert, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 41,
+    "water": 86.7,
+    "protein": 1.6,
+    "fat": 0.2,
+    "carbs": 6.5,
+    "fiber": 1.662,
+    "alcohol": 0.018,
+    "sugarAlcohols": 0.18
+  },
+  "vitamins": {
+    "vita": 13,
+    "vitaa": 7,
+    "cartb": 42.4,
+    "carotpaxb": 76,
+    "vite": 0.458,
+    "tocpha": 0.458,
+    "tocphg": 0.193,
+    "tocphd": 0.0076,
+    "vitk": 33,
+    "vitk1": 33,
+    "thia": 0.0303,
+    "ribf": 0.049,
+    "niaeq": 0.602,
+    "nia": 0.219,
+    "pantac": 0.05,
+    "vitb6": 32.8,
+    "fol": 15.3,
+    "folfd": 15.3,
+    "vitc": 5.3
+  },
+  "minerals": {
+    "nacl": 1.19,
+    "na": 476,
+    "cld": 842,
+    "k": 87,
+    "ca": 42.7,
+    "mg": 10,
+    "p": 28,
+    "s": 2,
+    "fe": 0.6,
+    "zn": 0.18,
+    "cu": 50,
+    "mn": 190,
+    "cr": 2,
+    "mo": 14
+  },
+  "carbohydrates": {
+    "cho": 6.5,
+    "mnsac": 1.46,
+    "glus": 0.64,
+    "frus": 0.82,
+    "disac": 4.246,
+    "sucs": 4.246,
+    "sugar": 5.71,
+    "starch": 0.6
+  },
+  "fibers": {
+    "fibt": 1.662,
+    "fibhmw": 1.662,
+    "fibins": 1.287,
+    "fibsol": 0.375
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.18,
+    "mantl": 0.07,
+    "sortl": 0.11
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.539,
+    "ala": 0.069,
+    "arg": 0.064,
+    "asp": 0.277,
+    "cyste": 0.007,
+    "glu": 0.18,
+    "gly": 0.052,
+    "his": 0.028,
+    "ile": 0.067,
+    "leu": 0.097,
+    "lys": 0.092,
+    "met": 0.023,
+    "phe": 0.047,
+    "pro": 0.049,
+    "ser": 0.136,
+    "thr": 0.075,
+    "trp": 0.023,
+    "tyr": 0.038,
+    "val": 0.087
+  },
+  "otherNutrients": {
+    "nt": 0.277
+  },
+  "extra": {}
+}

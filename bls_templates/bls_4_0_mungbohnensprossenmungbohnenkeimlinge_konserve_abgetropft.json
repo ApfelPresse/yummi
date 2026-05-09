@@ -1,0 +1,89 @@
+{
+  "name": "Mungbohnensprossen/Mungbohnenkeimlinge, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 22,
+    "water": 92.9,
+    "protein": 2.182,
+    "fat": 0.202,
+    "carbs": 2.4,
+    "fiber": 0.911,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 10,
+    "vitaa": 5,
+    "cartb": 58,
+    "vitk": 27,
+    "vitk1": 27,
+    "thia": 0.007,
+    "ribf": 0.031,
+    "niaeq": 0.614,
+    "nia": 0.214,
+    "pantac": 0.112,
+    "vitb6": 18,
+    "fol": 32,
+    "folfd": 32,
+    "vitc": 1.224
+  },
+  "minerals": {
+    "nacl": 0.445,
+    "na": 178,
+    "cld": 281,
+    "k": 54.6,
+    "ca": 6.4,
+    "mg": 5,
+    "p": 32,
+    "s": 1,
+    "fe": 0.25,
+    "zn": 0.213,
+    "cu": 100,
+    "mn": 69
+  },
+  "carbohydrates": {
+    "cho": 2.4,
+    "mnsac": 0.1,
+    "frus": 0.1,
+    "disac": 2.277,
+    "sucs": 2.277,
+    "sugar": 2.4
+  },
+  "fibers": {
+    "fibt": 0.911,
+    "fibhmw": 0.911,
+    "fibins": 0.586,
+    "fibsol": 0.326
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.844,
+    "ala": 0.095,
+    "arg": 0.153,
+    "asp": 0.252,
+    "cyste": 0.019,
+    "glu": 0.388,
+    "gly": 0.087,
+    "his": 0.064,
+    "ile": 0.093,
+    "leu": 0.17,
+    "lys": 0.152,
+    "met": 0.026,
+    "phe": 0.131,
+    "pro": 0.1,
+    "ser": 0.108,
+    "thr": 0.071,
+    "trp": 0.024,
+    "tyr": 0.066,
+    "val": 0.113
+  },
+  "otherNutrients": {
+    "nt": 0.35
+  },
+  "extra": {}
+}

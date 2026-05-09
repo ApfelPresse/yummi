@@ -1,0 +1,45 @@
+{
+  "name": "Kalbsbrühe",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 3,
+    "water": 97,
+    "protein": 0.4,
+    "fat": 0.2,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 1,
+    "vitaa": 1,
+    "retol": 1,
+    "niaeq": 0.2,
+    "nia": 0.2,
+    "vitb12": 0.1
+  },
+  "minerals": {
+    "nacl": 0.562,
+    "na": 225,
+    "k": 11,
+    "ca": 4,
+    "mg": 2,
+    "p": 7,
+    "fe": 0.1,
+    "id": 0.1
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

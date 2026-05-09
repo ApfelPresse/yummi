@@ -1,0 +1,90 @@
+{
+  "name": "Traubensaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 68,
+    "water": 84.455,
+    "protein": 0.21,
+    "fat": null,
+    "carbs": 16.35,
+    "fiber": 0.31,
+    "alcohol": 0.084,
+    "sugarAlcohols": 1
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "carotpaxb": 43,
+    "vite": 0.08,
+    "tocpha": 0.08,
+    "thia": 0.002,
+    "ribf": 0.005,
+    "niaeq": 0.197,
+    "nia": 0.18,
+    "pantac": 0.049,
+    "vitb6": 21.5,
+    "biot": 1
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 3.3,
+    "k": 95,
+    "ca": 11,
+    "mg": 7,
+    "p": 12,
+    "fe": 0.16,
+    "zn": 0.039,
+    "cu": 9,
+    "mn": 157,
+    "fd": 10,
+    "cr": 1,
+    "mo": 0.5
+  },
+  "carbohydrates": {
+    "cho": 16.35,
+    "mnsac": 15.35,
+    "glus": 7.555,
+    "frus": 7.795,
+    "sugar": 15.35
+  },
+  "fibers": {
+    "fibt": 0.31,
+    "fibins": 0.03,
+    "fibsol": 0.28
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1,
+    "sortl": 1
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.043,
+    "ala": 0.009,
+    "arg": 0.015,
+    "asp": 0.026,
+    "cyste": 0.003,
+    "glu": 0.046,
+    "gly": 0.006,
+    "his": 0.008,
+    "ile": 0.002,
+    "leu": 0.004,
+    "lys": 0.005,
+    "met": 0.007,
+    "phe": 0.004,
+    "pro": 0.007,
+    "ser": 0.01,
+    "thr": 0.006,
+    "trp": 0.001,
+    "tyr": 0.004,
+    "val": 0.006
+  },
+  "otherNutrients": {
+    "nt": 0.034
+  },
+  "extra": {}
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Birnenkraut (ohne Zuckerzusatz)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 191,
+    "water": 43.45,
+    "protein": 1,
+    "fat": 0.9,
+    "carbs": 42.9,
+    "fiber": 9.9,
+    "alcohol": null,
+    "sugarAlcohols": 9.66
+  },
+  "vitamins": {
+    "vita": 6,
+    "vitaa": 3,
+    "cartb": 28,
+    "carotpaxb": 14,
+    "vite": 0.659,
+    "tocpha": 0.659,
+    "tocphb": 0.031,
+    "tocphg": 0.251,
+    "toctra": 0.376,
+    "vitk": 14.194,
+    "vitk1": 14.194,
+    "thia": 0.068,
+    "ribf": 0.125,
+    "niaeq": 0.677,
+    "nia": 0.627,
+    "pantac": 0.25,
+    "vitb6": 103.26,
+    "biot": 0.9,
+    "fol": 10,
+    "folfd": 10,
+    "vitc": 11.544
+  },
+  "minerals": {
+    "nacl": 0.0061,
+    "na": 2.44,
+    "cld": 6,
+    "k": 389,
+    "ca": 25,
+    "mg": 19,
+    "p": 35,
+    "fe": 0.3,
+    "zn": 0.35,
+    "id": 3,
+    "cu": 248,
+    "mn": 160,
+    "fd": 31,
+    "cr": 6,
+    "mo": 3
+  },
+  "carbohydrates": {
+    "cho": 42.9,
+    "mnsac": 28.6,
+    "glus": 9.1,
+    "frus": 19.5,
+    "gals": 0.0369,
+    "disac": 4.55,
+    "sucs": 4.55,
+    "sugar": 33.2
+  },
+  "fibers": {
+    "fibt": 9.9
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 9.66,
+    "sortl": 9.66
+  },
+  "fattyAcids": {
+    "fasat": 0.1215,
+    "f16_0": 0.0988,
+    "f18_0": 0.0227,
+    "fams": 0.2028,
+    "f16_1cn7": 0.0099,
+    "f18_1cn9": 0.1929,
+    "fapu": 0.397,
+    "fapun3": 0.0583,
+    "f18_3cn3": 0.0583,
+    "fapun6": 0.339,
+    "f18_2cn6": 0.339
+  },
+  "aminoAcids": {
+    "aae9": 0.23,
+    "ala": 0.041,
+    "arg": 0.022,
+    "asp": 0.259,
+    "cyste": 0.003,
+    "glu": 0.092,
+    "his": 0.019,
+    "ile": 0.022,
+    "leu": 0.051,
+    "lys": 0.044,
+    "met": 0.003,
+    "phe": 0.025,
+    "pro": 0.022,
+    "ser": 0.038,
+    "thr": 0.022,
+    "trp": 0.003,
+    "tyr": 0.003,
+    "val": 0.041
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

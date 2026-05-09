@@ -1,0 +1,47 @@
+{
+  "name": "Ginger Ale",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 37,
+    "water": 91.69,
+    "protein": null,
+    "fat": null,
+    "carbs": 8.87,
+    "fiber": null,
+    "alcohol": 0.113,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 0.8,
+    "ca": 2,
+    "p": 0.7,
+    "s": 0.5,
+    "fe": 0.003,
+    "zn": 0.003,
+    "id": 0.1,
+    "cu": 2.5,
+    "mn": 66.2
+  },
+  "carbohydrates": {
+    "cho": 8.87,
+    "mnsac": 5.1,
+    "glus": 2.47,
+    "frus": 2.63,
+    "disac": 3.77,
+    "sucs": 3.77,
+    "sugar": 8.87
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

@@ -1,0 +1,91 @@
+{
+  "name": "Seidentofu gargezogen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 41,
+    "water": 90.5,
+    "protein": 4.2,
+    "fat": 2.5,
+    "carbs": null,
+    "fiber": 0.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.696,
+    "tocpha": 0.696,
+    "tocphg": 5.91,
+    "tocphd": 2.58,
+    "vitk": 4.93,
+    "vitk1": 4.93,
+    "thia": 0.025,
+    "niaeq": 1,
+    "pantac": 0.14,
+    "vitb6": 35,
+    "biot": 1.35,
+    "fol": 15.5,
+    "folfd": 15.5
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 107,
+    "k": 147,
+    "ca": 19,
+    "mg": 52,
+    "p": 50,
+    "s": 154,
+    "fe": 0.56,
+    "zn": 0.44,
+    "cu": 170,
+    "mn": 260,
+    "fd": 163
+  },
+  "carbohydrates": {},
+  "fibers": {
+    "fibt": 0.6,
+    "fibins": 0.6
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.39,
+    "f16_0": 0.27,
+    "f18_0": 0.12,
+    "fams": 0.52,
+    "f18_1cn9": 0.52,
+    "fapu": 1.39,
+    "fapun3": 0.15,
+    "f18_3cn3": 0.15,
+    "fapun6": 1.24,
+    "f18_2cn6": 1.24
+  },
+  "aminoAcids": {
+    "aae9": 1.68,
+    "ala": 0.18,
+    "arg": 0.32,
+    "asp": 0.51,
+    "cyste": 0.06,
+    "glu": 0.83,
+    "gly": 0.18,
+    "his": 0.11,
+    "ile": 0.21,
+    "leu": 0.35,
+    "lys": 0.27,
+    "met": 0.06,
+    "phe": 0.24,
+    "pro": 0.23,
+    "ser": 0.22,
+    "thr": 0.17,
+    "trp": 0.06,
+    "tyr": 0.14,
+    "val": 0.21
+  },
+  "otherNutrients": {
+    "nt": 0.67
+  },
+  "extra": {}
+}

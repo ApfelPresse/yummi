@@ -1,0 +1,84 @@
+{
+  "name": "Hefeweizen/Weizenbier, naturtrüb",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 42,
+    "water": 91.59,
+    "protein": 0.614,
+    "fat": null,
+    "carbs": 2.452,
+    "fiber": null,
+    "alcohol": 4.1785,
+    "sugarAlcohols": 0.002
+  },
+  "vitamins": {
+    "thia": 0.01,
+    "ribf": 0.038,
+    "niaeq": 2.25,
+    "nia": 2.13,
+    "pantac": 0.0426,
+    "vitb6": 50,
+    "biot": 1.1,
+    "fol": 8.8,
+    "folfd": 8.8
+  },
+  "minerals": {
+    "nacl": 0.0032,
+    "na": 1.3,
+    "cld": 17,
+    "k": 54.7,
+    "ca": 5.6,
+    "mg": 9.3,
+    "p": 26.4,
+    "s": 11.65,
+    "fe": 0.0137,
+    "zn": 0.0033,
+    "id": 0.5407,
+    "cu": 4.2,
+    "mn": 20.5,
+    "fd": 32
+  },
+  "carbohydrates": {
+    "cho": 2.452,
+    "mnsac": 0.046,
+    "frus": 0.011,
+    "disac": 0.031,
+    "sugar": 0.077,
+    "starch": 2.3734
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.002,
+    "sortl": 0.002
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.173,
+    "ala": 0.025,
+    "arg": 0.02,
+    "asp": 0.029,
+    "cyste": 0.018,
+    "glu": 0.192,
+    "gly": 0.029,
+    "his": 0.015,
+    "ile": 0.023,
+    "leu": 0.028,
+    "lys": 0.02,
+    "met": 0.01,
+    "phe": 0.031,
+    "pro": 0.096,
+    "ser": 0.028,
+    "thr": 0.016,
+    "trp": 0.007,
+    "tyr": 0.016,
+    "val": 0.023
+  },
+  "otherNutrients": {
+    "nt": 0.098
+  },
+  "extra": {}
+}

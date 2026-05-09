@@ -1,0 +1,107 @@
+{
+  "name": "Weizenpops/Weizen gepufft, gesüßt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 372,
+    "water": 3.2,
+    "protein": 9.34,
+    "fat": 1.8,
+    "carbs": 76.52,
+    "fiber": 5.64,
+    "alcohol": null,
+    "sugarAlcohols": 0.006
+  },
+  "vitamins": {
+    "vite": 0.29,
+    "tocpha": 0.29,
+    "tocphb": 0.045,
+    "tocphg": 0.023,
+    "vitk": 1.88,
+    "vitk2": 1.88,
+    "niaeq": 3.43,
+    "nia": 1.7,
+    "pantac": 0.2,
+    "vitb6": 53,
+    "biot": 1.55,
+    "fol": 13.2,
+    "folfd": 13.2
+  },
+  "minerals": {
+    "nacl": 0.0048,
+    "na": 1.9,
+    "k": 271,
+    "ca": 21.9,
+    "mg": 59.6,
+    "p": 194,
+    "s": 90,
+    "fe": 1.77,
+    "zn": 1.61,
+    "cu": 305,
+    "mn": 1340,
+    "cr": 1.6,
+    "mo": 32.5
+  },
+  "carbohydrates": {
+    "cho": 76.52,
+    "mnsac": 2.14,
+    "glus": 1.44,
+    "frus": 0.7,
+    "disac": 20.6,
+    "sucs": 18.6,
+    "mals": 2,
+    "sugar": 22.74,
+    "starch": 53.77
+  },
+  "fibers": {
+    "fibt": 5.64,
+    "fibhmw": 5.64,
+    "fibins": 3.32,
+    "fibsol": 2.32
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.006
+  },
+  "fattyAcids": {
+    "fasat": 0.232,
+    "f16_0": 0.207,
+    "f18_0": 0.0231,
+    "f22_0": 0.0016,
+    "fams": 0.302,
+    "f18_1cn9": 0.302,
+    "fapu": 0.752,
+    "fapun3": 0.0421,
+    "f18_3cn3": 0.0421,
+    "fapun6": 0.71,
+    "f18_2cn6": 0.71,
+    "fax": 0.0096
+  },
+  "aminoAcids": {
+    "aae9": 2.682,
+    "ala": 0.296,
+    "arg": 0.324,
+    "asp": 0.394,
+    "cyste": 0.116,
+    "glu": 2.655,
+    "gly": 0.342,
+    "his": 0.212,
+    "ile": 0.328,
+    "leu": 0.658,
+    "lys": 0.124,
+    "met": 0.162,
+    "phe": 0.464,
+    "pro": 0.933,
+    "ser": 0.41,
+    "thr": 0.236,
+    "trp": 0.104,
+    "tyr": 0.248,
+    "val": 0.394
+  },
+  "otherNutrients": {
+    "nt": 1.49
+  },
+  "extra": {}
+}

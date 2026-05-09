@@ -1,0 +1,55 @@
+{
+  "name": "Hartkaramelle (Bonbon)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 421,
+    "water": 1.3,
+    "protein": null,
+    "fat": 0.2,
+    "carbs": 92.8,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.004,
+    "ribf": 0.003,
+    "niaeq": 0.007,
+    "nia": 0.007,
+    "pantac": 0.008,
+    "vitb6": 3
+  },
+  "minerals": {
+    "nacl": 0.095,
+    "na": 38,
+    "cld": 2,
+    "k": 5,
+    "ca": 3,
+    "mg": 3,
+    "p": 3,
+    "fe": 0.3,
+    "zn": 0.01,
+    "cu": 29,
+    "mn": 10
+  },
+  "carbohydrates": {
+    "cho": 92.8,
+    "mnsac": 5.5,
+    "glus": 5.5,
+    "disac": 63.5,
+    "sucs": 60.6,
+    "mals": 2.9,
+    "sugar": 69,
+    "olsac": 23.85
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

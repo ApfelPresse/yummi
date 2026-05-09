@@ -1,0 +1,103 @@
+{
+  "name": "Feige gezuckert, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 68,
+    "water": 79.8,
+    "protein": 0.996,
+    "fat": 0.399,
+    "carbs": 14.3,
+    "fiber": 1.386,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "cartb": 24,
+    "vitk": 3.9,
+    "vitk1": 3.9,
+    "thia": 0.009,
+    "ribf": 0.019,
+    "niaeq": 0.334,
+    "nia": 0.134,
+    "pantac": 0.092,
+    "vitb6": 26,
+    "fol": 0.8,
+    "folfd": 0.8,
+    "vitc": 0.241
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 15,
+    "k": 98,
+    "ca": 46,
+    "mg": 14,
+    "p": 20,
+    "s": 1,
+    "fe": 0.422,
+    "zn": 0.3,
+    "id": 1,
+    "cu": 71,
+    "mn": 35,
+    "fd": 16,
+    "mo": 0.03
+  },
+  "carbohydrates": {
+    "cho": 14.3,
+    "mnsac": 3.8,
+    "glus": 2.1,
+    "frus": 1.7,
+    "disac": 10.5,
+    "sucs": 10.5,
+    "sugar": 14.3
+  },
+  "fibers": {
+    "fibt": 1.386,
+    "fibhmw": 1.386,
+    "fibins": 0.953,
+    "fibsol": 0.433
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.071,
+    "f14_0": 0.0026,
+    "f16_0": 0.054,
+    "f18_0": 0.014,
+    "fams": 0.079,
+    "f18_1cn9": 0.079,
+    "fapu": 0.171,
+    "fapun6": 0.171,
+    "f18_2cn6": 0.171
+  },
+  "aminoAcids": {
+    "aae9": 0.244,
+    "ala": 0.042,
+    "arg": 0.057,
+    "asp": 0.125,
+    "cyste": 0.012,
+    "glu": 0.156,
+    "gly": 0.043,
+    "his": 0.015,
+    "ile": 0.031,
+    "leu": 0.052,
+    "lys": 0.024,
+    "met": 0.007,
+    "phe": 0.033,
+    "pro": 0.087,
+    "ser": 0.042,
+    "thr": 0.031,
+    "trp": 0.012,
+    "tyr": 0.02,
+    "val": 0.039
+  },
+  "otherNutrients": {
+    "nt": 0.159
+  },
+  "extra": {}
+}

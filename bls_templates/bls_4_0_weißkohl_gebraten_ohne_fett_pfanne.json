@@ -1,0 +1,108 @@
+{
+  "name": "Weißkohl gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 60,
+    "water": 83,
+    "protein": 2.608,
+    "fat": 0.358,
+    "carbs": 8.56,
+    "fiber": 5.7,
+    "alcohol": null,
+    "sugarAlcohols": 0.26
+  },
+  "vitamins": {
+    "vita": 13,
+    "vitaa": 7,
+    "cartb": 71,
+    "carotpaxb": 15,
+    "vite": 0.553,
+    "tocpha": 0.553,
+    "tocphg": 0.004,
+    "toctra": 0.075,
+    "vitk": 170,
+    "vitk1": 170,
+    "thia": 0.39,
+    "ribf": 0.04,
+    "niaeq": 0.5,
+    "nia": 0.5,
+    "pantac": 0.36,
+    "vitb6": 138.02,
+    "biot": 0.2,
+    "fol": 65,
+    "folfd": 65,
+    "vitc": 71.63
+  },
+  "minerals": {
+    "nacl": 0.022,
+    "na": 9,
+    "cld": 70,
+    "k": 479,
+    "ca": 83,
+    "mg": 23,
+    "p": 67.06,
+    "fe": 0.589,
+    "zn": 0.3,
+    "id": 4,
+    "cu": 43,
+    "mn": 360,
+    "fd": 23,
+    "cr": 0.9,
+    "mo": 8
+  },
+  "carbohydrates": {
+    "cho": 8.56,
+    "mnsac": 7.93,
+    "glus": 4.4,
+    "frus": 3.53,
+    "disac": 0.374,
+    "sucs": 0.374,
+    "sugar": 8.3
+  },
+  "fibers": {
+    "fibt": 5.7,
+    "fibhmw": 5.7,
+    "fibins": 4.2,
+    "fibsol": 1.5
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.26,
+    "sortl": 0.26
+  },
+  "fattyAcids": {
+    "fasat": 0.063,
+    "f14_0": 0.0009,
+    "f16_0": 0.0557,
+    "f18_0": 0.0055,
+    "f20_0": 0.0009,
+    "fams": 0.0091,
+    "f16_1cn7": 0.0051,
+    "f18_1cn9": 0.004,
+    "fapu": 0.214,
+    "fapun3": 0.164,
+    "f18_3cn3": 0.164,
+    "fapun6": 0.05,
+    "f18_2cn6": 0.05
+  },
+  "aminoAcids": {
+    "aae9": 0.583,
+    "arg": 0.189,
+    "cyste": 0.051,
+    "his": 0.047,
+    "ile": 0.074,
+    "leu": 0.106,
+    "lys": 0.123,
+    "met": 0.025,
+    "phe": 0.057,
+    "thr": 0.072,
+    "val": 0.079
+  },
+  "otherNutrients": {
+    "nt": 0.417
+  },
+  "extra": {}
+}

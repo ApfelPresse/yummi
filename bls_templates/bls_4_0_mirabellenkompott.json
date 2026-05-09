@@ -1,0 +1,113 @@
+{
+  "name": "Mirabellenkompott",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 86,
+    "water": 78.7,
+    "protein": 0.449,
+    "fat": 0.1,
+    "carbs": 20.393,
+    "fiber": 1,
+    "alcohol": null,
+    "sugarAlcohols": 1.555
+  },
+  "vitamins": {
+    "vita": 19,
+    "vitaa": 9,
+    "cartb": 89,
+    "carotpaxb": 50,
+    "vite": 0.183,
+    "tocpha": 0.183,
+    "tocphg": 0.012,
+    "toctra": 0.012,
+    "vitk": 4,
+    "vitk1": 4,
+    "thia": 0.029,
+    "ribf": 0.024,
+    "niaeq": 0.358,
+    "nia": 0.325,
+    "pantac": 0.101,
+    "vitb6": 25,
+    "fol": 1,
+    "folfd": 1,
+    "vitc": 3.816
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 3,
+    "k": 140,
+    "ca": 9,
+    "mg": 10,
+    "p": 20,
+    "s": 0.6,
+    "fe": 0.316,
+    "zn": 0.06,
+    "id": 1,
+    "cu": 41,
+    "mn": 50,
+    "fd": 1,
+    "cr": 1,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 20.393,
+    "mnsac": 5.631,
+    "glus": 3.053,
+    "frus": 2.578,
+    "disac": 13.207,
+    "sucs": 13.106,
+    "mals": 0.101,
+    "sugar": 18.838
+  },
+  "fibers": {
+    "fibt": 1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.555,
+    "sortl": 1.555
+  },
+  "fattyAcids": {
+    "fasat": 0.018,
+    "f14_0": 0.0001,
+    "f16_0": 0.014,
+    "f18_0": 0.004,
+    "fams": 0.037,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.036,
+    "fapu": 0.059,
+    "fapun3": 0.023,
+    "f18_3cn3": 0.023,
+    "fapun6": 0.036,
+    "f18_2cn6": 0.036
+  },
+  "aminoAcids": {
+    "aae9": 0.072,
+    "ala": 0.015,
+    "arg": 0.009,
+    "asp": 0.138,
+    "cyste": 0.004,
+    "glu": 0.022,
+    "gly": 0.011,
+    "his": 0.004,
+    "ile": 0.008,
+    "leu": 0.014,
+    "lys": 0.01,
+    "met": 0.003,
+    "phe": 0.011,
+    "pro": 0.024,
+    "ser": 0.012,
+    "thr": 0.009,
+    "trp": 0.002,
+    "tyr": 0.006,
+    "val": 0.011
+  },
+  "otherNutrients": {
+    "nt": 0.072
+  },
+  "extra": {}
+}

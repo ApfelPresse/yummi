@@ -1,0 +1,93 @@
+{
+  "name": "Basilikum roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 23,
+    "water": 92.1,
+    "protein": 3.15,
+    "fat": 0.64,
+    "carbs": 0.31,
+    "fiber": 1.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 531,
+    "vitaa": 266,
+    "cartb": 3140,
+    "carotpaxb": 95,
+    "vite": 0.8,
+    "tocpha": 0.8,
+    "tocphg": 0.16,
+    "vitk": 415,
+    "vitk1": 415,
+    "thia": 0.034,
+    "ribf": 0.076,
+    "niaeq": 1.552,
+    "nia": 0.902,
+    "pantac": 0.209,
+    "vitb6": 155,
+    "fol": 68,
+    "folfd": 68,
+    "vitc": 18
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "k": 295,
+    "ca": 177,
+    "mg": 64,
+    "p": 56,
+    "fe": 3.17,
+    "zn": 0.81,
+    "cu": 385,
+    "mn": 1150
+  },
+  "carbohydrates": {
+    "cho": 0.31,
+    "mnsac": 0.31,
+    "glus": 0.02,
+    "frus": 0.02,
+    "gals": 0.27,
+    "sugar": 0.31
+  },
+  "fibers": {
+    "fibt": 1.6
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.041,
+    "f16_0": 0.036,
+    "f18_0": 0.005,
+    "fax": 0.477
+  },
+  "aminoAcids": {
+    "aae9": 0.89,
+    "ala": 0.132,
+    "arg": 0.117,
+    "asp": 0.301,
+    "cyste": 0.028,
+    "glu": 0.277,
+    "gly": 0.122,
+    "his": 0.051,
+    "ile": 0.104,
+    "leu": 0.191,
+    "lys": 0.11,
+    "met": 0.036,
+    "phe": 0.13,
+    "pro": 0.104,
+    "ser": 0.099,
+    "thr": 0.104,
+    "trp": 0.039,
+    "tyr": 0.077,
+    "val": 0.127
+  },
+  "otherNutrients": {
+    "nt": 0.5
+  },
+  "extra": {}
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Pfefferminztee (Getränk)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": null,
+    "water": 100,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.0072,
+    "na": 2.9,
+    "k": 14.4,
+    "ca": 7.4,
+    "mg": 2.9,
+    "p": 0.8,
+    "fe": 0.006,
+    "zn": 0.0171,
+    "id": 0.37,
+    "cu": 12,
+    "mn": 18.2,
+    "cr": 0.2
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

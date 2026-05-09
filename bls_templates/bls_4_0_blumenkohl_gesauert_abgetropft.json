@@ -1,0 +1,111 @@
+{
+  "name": "Blumenkohl gesäuert, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 49,
+    "water": 87.1,
+    "protein": 1.617,
+    "fat": 0.766,
+    "carbs": 7.74,
+    "fiber": 2.093,
+    "alcohol": 0.018,
+    "sugarAlcohols": 1.91
+  },
+  "vitamins": {
+    "vita": 1.34,
+    "vitaa": 0.67,
+    "cartb": 7.54,
+    "carotpaxb": 1.02,
+    "vite": 0.095,
+    "tocpha": 0.095,
+    "tocphg": 0.191,
+    "toctra": 0.058,
+    "vitk": 18,
+    "vitk1": 18,
+    "thia": 0.043,
+    "ribf": 0.017,
+    "niaeq": 0.629,
+    "nia": 0.196,
+    "pantac": 0.27,
+    "vitb6": 45.01,
+    "biot": 0.6,
+    "fol": 14,
+    "folfd": 14,
+    "vitc": 16.011
+  },
+  "minerals": {
+    "nacl": 1.198,
+    "na": 479,
+    "cld": 845,
+    "k": 134,
+    "ca": 21,
+    "mg": 9,
+    "p": 33,
+    "s": 2,
+    "fe": 0.31,
+    "zn": 0.17,
+    "id": 1,
+    "cu": 20,
+    "mn": 107,
+    "cr": 2,
+    "mo": 4.3
+  },
+  "carbohydrates": {
+    "cho": 7.74,
+    "mnsac": 1.332,
+    "glus": 0.631,
+    "frus": 0.701,
+    "disac": 4.503,
+    "sucs": 4.503,
+    "sugar": 5.835
+  },
+  "fibers": {
+    "fibt": 2.093,
+    "fibhmw": 2.093,
+    "fibins": 1.478,
+    "fibsol": 0.615
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.91,
+    "mantl": 1.89,
+    "xyltl": 0.017
+  },
+  "fattyAcids": {
+    "fasat": 0.032,
+    "f14_0": 0.0005,
+    "f16_0": 0.029,
+    "f18_0": 0.0013,
+    "f20_0": 0.0008,
+    "fams": 0.005,
+    "f16_1cn7": 0.0029,
+    "f18_1cn9": 0.0013,
+    "f20_1cn9": 0.0008,
+    "fapu": 0.106,
+    "fapun3": 0.083,
+    "f18_3cn3": 0.083,
+    "fapun6": 0.023,
+    "f18_2cn6": 0.023
+  },
+  "aminoAcids": {
+    "aae9": 0.688,
+    "arg": 0.085,
+    "his": 0.038,
+    "ile": 0.085,
+    "leu": 0.133,
+    "lys": 0.108,
+    "met": 0.038,
+    "phe": 0.059,
+    "thr": 0.085,
+    "trp": 0.026,
+    "tyr": 0.028,
+    "val": 0.116
+  },
+  "otherNutrients": {
+    "nt": 0.259
+  },
+  "extra": {}
+}

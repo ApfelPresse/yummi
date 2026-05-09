@@ -1,0 +1,91 @@
+{
+  "name": "Traubendicksaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 270,
+    "water": 29.6,
+    "protein": 0.838,
+    "fat": null,
+    "carbs": 65.278,
+    "fiber": 1.238,
+    "alcohol": null,
+    "sugarAlcohols": 3.993
+  },
+  "vitamins": {
+    "vita": 13,
+    "vitaa": 6,
+    "carotpaxb": 155,
+    "vite": 0.319,
+    "tocpha": 0.319,
+    "thia": 0.007,
+    "ribf": 0.02,
+    "niaeq": 0.802,
+    "nia": 0.719,
+    "pantac": 0.196,
+    "vitb6": 85.8,
+    "biot": 4
+  },
+  "minerals": {
+    "nacl": 0.03,
+    "na": 12,
+    "cld": 13.2,
+    "k": 379,
+    "ca": 44,
+    "mg": 28,
+    "p": 48,
+    "fe": 0.64,
+    "zn": 0.156,
+    "id": 4,
+    "cu": 36,
+    "mn": 627,
+    "fd": 40,
+    "cr": 4,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 65.278,
+    "mnsac": 61.285,
+    "glus": 30.163,
+    "frus": 31.122,
+    "sugar": 61.285
+  },
+  "fibers": {
+    "fibt": 1.238,
+    "fibins": 0.12,
+    "fibsol": 1.118
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 3.993,
+    "sortl": 3.993
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.195,
+    "ala": 0.041,
+    "arg": 0.068,
+    "asp": 0.118,
+    "cyste": 0.014,
+    "glu": 0.208,
+    "gly": 0.027,
+    "his": 0.036,
+    "ile": 0.009,
+    "leu": 0.018,
+    "lys": 0.023,
+    "met": 0.032,
+    "phe": 0.018,
+    "pro": 0.032,
+    "ser": 0.045,
+    "thr": 0.027,
+    "trp": 0.005,
+    "tyr": 0.018,
+    "val": 0.027
+  },
+  "otherNutrients": {
+    "nt": 0.154
+  },
+  "extra": {}
+}

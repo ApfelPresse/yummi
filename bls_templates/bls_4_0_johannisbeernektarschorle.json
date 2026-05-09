@@ -1,0 +1,102 @@
+{
+  "name": "Johannisbeernektarschorle",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 27,
+    "water": 92.7,
+    "protein": 0.215,
+    "fat": null,
+    "carbs": 6.404,
+    "fiber": null,
+    "alcohol": 0.006,
+    "sugarAlcohols": 0.011
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 12,
+    "vite": 0.228,
+    "tocpha": 0.228,
+    "tocphb": 0.02,
+    "tocphg": 0.04,
+    "tocphd": 0.019,
+    "vitk": 4,
+    "vitk1": 4,
+    "thia": 0.002,
+    "ribf": 0.001,
+    "niaeq": 0.015,
+    "nia": 0.015,
+    "vitc": 15
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 5,
+    "k": 49,
+    "ca": 12,
+    "mg": 5,
+    "p": 5,
+    "s": 1.5,
+    "fe": 0.15,
+    "zn": 0.032,
+    "id": 0.22,
+    "cu": 11,
+    "mn": 33,
+    "fd": 18,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 6.404,
+    "mnsac": 4.751,
+    "glus": 2.48,
+    "frus": 2.27,
+    "gals": 0.0012,
+    "disac": 1.642,
+    "sucs": 1.642,
+    "sugar": 6.393
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.011,
+    "sortl": 0.011
+  },
+  "fattyAcids": {
+    "fasat": 0.002,
+    "f16_0": 0.002,
+    "f18_0": 0.0004,
+    "fams": 0.002,
+    "f16_1cn7": 0.0001,
+    "f18_1cn9": 0.002,
+    "fapu": 0.011,
+    "fapun3": 0.004,
+    "f18_3cn3": 0.004,
+    "fapun6": 0.007,
+    "f18_2cn6": 0.007
+  },
+  "aminoAcids": {
+    "aae9": 0.031,
+    "ala": 0.015,
+    "arg": 0.007,
+    "asp": 0.024,
+    "glu": 0.022,
+    "gly": 0.006,
+    "his": 0.003,
+    "ile": 0.002,
+    "leu": 0.006,
+    "lys": 0.006,
+    "phe": 0.004,
+    "pro": 0.004,
+    "ser": 0.008,
+    "thr": 0.004,
+    "tyr": 0.004,
+    "val": 0.006
+  },
+  "otherNutrients": {
+    "nt": 0.034
+  },
+  "extra": {}
+}

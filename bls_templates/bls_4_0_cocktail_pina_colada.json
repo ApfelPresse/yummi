@@ -1,0 +1,112 @@
+{
+  "name": "Cocktail, Pina Colada",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 89,
+    "water": 85.3,
+    "protein": 0.583,
+    "fat": 3.924,
+    "carbs": 2.8,
+    "fiber": 0.96,
+    "alcohol": 5.5,
+    "sugarAlcohols": 0.223
+  },
+  "vitamins": {
+    "vita": 1,
+    "vitaa": 1,
+    "cartb": 3,
+    "carotpaxb": 10,
+    "vite": 0.093,
+    "tocpha": 0.093,
+    "thia": 0.019,
+    "ribf": 0.005,
+    "niaeq": 0.168,
+    "nia": 0.085,
+    "pantac": 0.044,
+    "vitb6": 29,
+    "biot": 0.2,
+    "fol": 2,
+    "folfd": 2,
+    "vitc": 2.909
+  },
+  "minerals": {
+    "nacl": 0.015,
+    "na": 6,
+    "cld": 20,
+    "k": 56,
+    "ca": 7,
+    "mg": 7,
+    "p": 4,
+    "s": 0.9,
+    "fe": 0.18,
+    "zn": 0.11,
+    "id": 1,
+    "cu": 50,
+    "mn": 198,
+    "cr": 0.249,
+    "mo": 1.11
+  },
+  "carbohydrates": {
+    "cho": 2.8,
+    "mnsac": 1.158,
+    "glus": 0.58,
+    "frus": 0.578,
+    "disac": 1.4,
+    "sucs": 1.4,
+    "sugar": 2.6
+  },
+  "fibers": {
+    "fibt": 0.96
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.223,
+    "sortl": 0.223
+  },
+  "fattyAcids": {
+    "fasat": 3.408,
+    "f8_0": 0.299,
+    "f10_0": 0.235,
+    "f12_0": 1.732,
+    "f14_0": 0.652,
+    "f16_0": 0.335,
+    "f18_0": 0.118,
+    "f20_0": 0.037,
+    "fams": 0.243,
+    "f16_1cn7": 0.014,
+    "f18_1cn9": 0.229,
+    "fapu": 0.077,
+    "fapun3": 0.003,
+    "f18_3cn3": 0.003,
+    "fapun6": 0.074,
+    "f18_2cn6": 0.074
+  },
+  "aminoAcids": {
+    "aae9": 0.168,
+    "ala": 0.005,
+    "arg": 0.055,
+    "asp": 0.009,
+    "cyste": 0.009,
+    "glu": 0.016,
+    "gly": 0.004,
+    "his": 0.009,
+    "ile": 0.024,
+    "leu": 0.037,
+    "lys": 0.021,
+    "met": 0.008,
+    "phe": 0.022,
+    "pro": 0.002,
+    "ser": 0.004,
+    "thr": 0.016,
+    "trp": 0.005,
+    "tyr": 0.014,
+    "val": 0.026
+  },
+  "otherNutrients": {
+    "nt": 0.093
+  },
+  "extra": {}
+}

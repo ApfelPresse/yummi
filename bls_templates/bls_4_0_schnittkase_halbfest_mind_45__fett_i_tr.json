@@ -1,0 +1,113 @@
+{
+  "name": "Schnittkäse halbfest mind. 45 % Fett i. Tr.",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 316,
+    "water": 47.2,
+    "protein": 21.46,
+    "fat": 25.06,
+    "carbs": 0.1,
+    "fiber": 0.27,
+    "alcohol": null,
+    "sugarAlcohols": 0.01
+  },
+  "vitamins": {
+    "vita": 226,
+    "vitaa": 218,
+    "retol": 210,
+    "cartb": 98,
+    "vite": 0.56,
+    "tocpha": 0.56,
+    "tocphg": 0.012,
+    "vitk": 15.85,
+    "vitk2": 15.85,
+    "ribf": 0.28,
+    "niaeq": 5.46,
+    "nia": 0.06,
+    "pantac": 0.24,
+    "biot": 1.1,
+    "fol": 20,
+    "folfd": 20,
+    "vitb12": 1.75
+  },
+  "minerals": {
+    "nacl": 1.5662,
+    "na": 626.5,
+    "k": 66.2,
+    "ca": 659.5,
+    "mg": 25.1,
+    "p": 419.5,
+    "s": 213,
+    "fe": 0.12,
+    "zn": 2.82,
+    "id": 10.44,
+    "cu": 34,
+    "mn": 17,
+    "cr": 2.2,
+    "mo": 6.6
+  },
+  "carbohydrates": {
+    "cho": 0.1,
+    "starch": 0.1
+  },
+  "fibers": {
+    "fibt": 0.27,
+    "fibhmw": 0.27,
+    "fibsol": 0.27
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.01,
+    "sortl": 0.01
+  },
+  "fattyAcids": {
+    "fasat": 16.015,
+    "f4_0": 0.5454,
+    "f6_0": 0.4119,
+    "f8_0": 0.2952,
+    "f10_0": 0.8294,
+    "f12_0": 0.8642,
+    "f14_0": 2.731,
+    "f16_0": 7.607,
+    "f17_0": 0.132,
+    "f18_0": 2.599,
+    "fams": 6.576,
+    "f16_1cn7": 0.3476,
+    "f18_1cn9": 6.228,
+    "fapu": 0.571,
+    "fapun3": 0.121,
+    "f18_3cn3": 0.121,
+    "fapun6": 0.45,
+    "f18_2cn6": 0.45,
+    "fax": 0.6447
+  },
+  "aminoAcids": {
+    "aae9": 11.182,
+    "ala": 0.78,
+    "arg": 0.866,
+    "asp": 1.705,
+    "cyste": 0.089,
+    "glu": 4.01,
+    "gly": 0.439,
+    "his": 0.74,
+    "ile": 1.245,
+    "leu": 2.415,
+    "lys": 1.925,
+    "met": 0.668,
+    "phe": 1.38,
+    "pro": 2.685,
+    "ser": 1.42,
+    "thr": 0.93,
+    "trp": 0.324,
+    "tyr": 1.41,
+    "val": 1.555
+  },
+  "otherNutrients": {
+    "chorl": 74.8,
+    "nt": 3.43
+  },
+  "extra": {}
+}

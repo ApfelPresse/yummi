@@ -1,0 +1,107 @@
+{
+  "name": "Pfirsich gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 45,
+    "water": 85.9,
+    "protein": 0.8,
+    "fat": 0.125,
+    "carbs": 9.11,
+    "fiber": 1.9,
+    "alcohol": null,
+    "sugarAlcohols": 1.17
+  },
+  "vitamins": {
+    "vita": 23,
+    "vitaa": 12,
+    "cartb": 86,
+    "carotpaxb": 108,
+    "vite": 0.483,
+    "tocpha": 0.483,
+    "tocphg": 0.011,
+    "toctra": 0.023,
+    "vitk": 4.3,
+    "vitk1": 4.3,
+    "thia": 0.023,
+    "ribf": 0.035,
+    "niaeq": 0.994,
+    "nia": 0.994,
+    "pantac": 0.13,
+    "vitb6": 26,
+    "biot": 2,
+    "fol": 4,
+    "folfd": 4,
+    "vitc": 8.182
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 0.781,
+    "cld": 3,
+    "k": 214,
+    "ca": 7,
+    "mg": 10,
+    "p": 23,
+    "fe": 0.314,
+    "zn": 0.15,
+    "id": 1,
+    "cu": 93,
+    "mn": 80,
+    "fd": 14
+  },
+  "carbohydrates": {
+    "cho": 9.11,
+    "mnsac": 5.28,
+    "glus": 2.6,
+    "frus": 2.68,
+    "disac": 2.661,
+    "sucs": 2.661,
+    "sugar": 7.94
+  },
+  "fibers": {
+    "fibt": 1.9,
+    "fibhmw": 1.9,
+    "fibins": 0.9,
+    "fibsol": 1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.17,
+    "mantl": 0.19,
+    "sortl": 0.98
+  },
+  "fattyAcids": {
+    "fasat": 0.011,
+    "f16_0": 0.0101,
+    "f18_0": 0.001,
+    "fams": 0.039,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.038,
+    "fapu": 0.05,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.049,
+    "f18_2cn6": 0.049
+  },
+  "aminoAcids": {
+    "aae9": 0.099,
+    "ala": 0.027,
+    "arg": 0.018,
+    "asp": 0.384,
+    "cyste": 0.005,
+    "glu": 0.055,
+    "gly": 0.011,
+    "leu": 0.027,
+    "lys": 0.026,
+    "pro": 0.003,
+    "ser": 0.035,
+    "thr": 0.023,
+    "val": 0.023
+  },
+  "otherNutrients": {
+    "nt": 0.176
+  },
+  "extra": {}
+}

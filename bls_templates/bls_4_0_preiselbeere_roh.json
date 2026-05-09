@@ -1,0 +1,112 @@
+{
+  "name": "Preiselbeere roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 43,
+    "water": 86,
+    "protein": 0.6875,
+    "fat": 0.53,
+    "carbs": 6.231,
+    "fiber": 2.89,
+    "alcohol": null,
+    "sugarAlcohols": 0.002
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "cartb": 22,
+    "carotpaxb": 8,
+    "vite": 0.94,
+    "tocpha": 0.94,
+    "tocphg": 0.295,
+    "tocphd": 0.01,
+    "vitk": 9,
+    "vitk1": 9,
+    "thia": 0.014,
+    "ribf": 0.024,
+    "niaeq": 0.12,
+    "nia": 0.1,
+    "pantac": 0.22,
+    "vitb6": 12,
+    "biot": 1.5,
+    "fol": 2.6,
+    "folfd": 2.6,
+    "vitc": 12
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 4,
+    "k": 80,
+    "ca": 16,
+    "mg": 8,
+    "p": 9.7,
+    "fe": 0.325,
+    "zn": 0.14,
+    "cu": 66,
+    "mn": 2825,
+    "fd": 2,
+    "cr": 1,
+    "mo": 3.24
+  },
+  "carbohydrates": {
+    "cho": 6.231,
+    "mnsac": 5.969,
+    "glus": 3.03,
+    "frus": 2.928,
+    "gals": 0.0107,
+    "disac": 0.14,
+    "sucs": 0.14,
+    "sugar": 6.109,
+    "starch": 0.12
+  },
+  "fibers": {
+    "fibt": 2.89,
+    "fibhmw": 2.89,
+    "fibins": 1.83,
+    "fibsol": 1.06
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.002,
+    "xyltl": 0.002
+  },
+  "fattyAcids": {
+    "fasat": 0.104,
+    "f16_0": 0.085,
+    "f18_0": 0.019,
+    "fams": 0.077,
+    "f16_1cn7": 0.008,
+    "f18_1cn9": 0.069,
+    "fapu": 0.194,
+    "fapun3": 0.085,
+    "f18_3cn3": 0.085,
+    "fapun6": 0.109,
+    "f18_2cn6": 0.109
+  },
+  "aminoAcids": {
+    "aae9": 0.1966,
+    "ala": 0.044,
+    "arg": 0.1072,
+    "asp": 0.0839,
+    "cyste": 0.0082,
+    "glu": 0.132,
+    "gly": 0.0454,
+    "leu": 0.0591,
+    "lys": 0.0495,
+    "phe": 0.011,
+    "pro": 0.0165,
+    "ser": 0.0412,
+    "thr": 0.0316,
+    "trp": 0.0014,
+    "tyr": 0.0041,
+    "val": 0.044
+  },
+  "otherNutrients": {
+    "nt": 0.11
+  },
+  "extra": {}
+}

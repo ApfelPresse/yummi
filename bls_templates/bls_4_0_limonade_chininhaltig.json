@@ -1,0 +1,51 @@
+{
+  "name": "Limonade chininhaltig",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 41,
+    "water": 90.31,
+    "protein": null,
+    "fat": null,
+    "carbs": 9.88,
+    "fiber": null,
+    "alcohol": 0.038,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitc": 3.54
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 9,
+    "k": 5,
+    "ca": 3,
+    "mg": 1,
+    "s": 8,
+    "fe": 0.004,
+    "zn": 0.006,
+    "id": 0.1,
+    "cu": 2.5,
+    "mn": 40,
+    "fd": 15
+  },
+  "carbohydrates": {
+    "cho": 9.88,
+    "mnsac": 6.4,
+    "glus": 3.18,
+    "frus": 3.22,
+    "disac": 3.48,
+    "sucs": 3.48,
+    "sugar": 9.88
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

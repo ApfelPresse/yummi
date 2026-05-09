@@ -1,0 +1,40 @@
+{
+  "name": "Fondantcreme",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 351,
+    "water": 17.1,
+    "protein": 0.7,
+    "fat": 3.1,
+    "carbs": 80,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.042,
+    "na": 17,
+    "cld": 2,
+    "k": 2,
+    "ca": 3,
+    "mn": 10
+  },
+  "carbohydrates": {
+    "cho": 80,
+    "disac": 79,
+    "sucs": 79,
+    "sugar": 79,
+    "starch": 1.43
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

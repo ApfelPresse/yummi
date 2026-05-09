@@ -1,0 +1,103 @@
+{
+  "name": "Wasabi roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 90,
+    "water": 69.1,
+    "protein": 4.8,
+    "fat": 0.63,
+    "carbs": 11.67,
+    "fiber": 7.8,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "cartb": 21,
+    "vite": 0.88,
+    "tocpha": 0.88,
+    "vitk": 1,
+    "vitk1": 1,
+    "thia": 0.131,
+    "ribf": 0.114,
+    "niaeq": 0.743,
+    "nia": 0.743,
+    "pantac": 0.203,
+    "vitb6": 274,
+    "fol": 18,
+    "folfd": 18,
+    "vitc": 41.9
+  },
+  "minerals": {
+    "nacl": 0.042,
+    "na": 17,
+    "cld": 18,
+    "k": 568,
+    "ca": 128,
+    "mg": 69,
+    "p": 80,
+    "fe": 1.03,
+    "zn": 1.62,
+    "id": 1,
+    "cu": 155,
+    "mn": 391,
+    "fd": 10,
+    "cr": 3
+  },
+  "carbohydrates": {
+    "cho": 11.67,
+    "mnsac": 1.53,
+    "glus": 1.4,
+    "frus": 0.13,
+    "disac": 6.72,
+    "sucs": 6.72,
+    "sugar": 8.25,
+    "starch": 3.42
+  },
+  "fibers": {
+    "fibt": 7.8,
+    "fibhmw": 7.8,
+    "fibins": 5.8,
+    "fibsol": 2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.1,
+    "f16_0": 0.09,
+    "f18_0": 0.01,
+    "fams": 0.06,
+    "f18_1cn9": 0.06,
+    "fapu": 0.35,
+    "fapun3": 0.24,
+    "f18_3cn3": 0.24,
+    "fapun6": 0.11,
+    "f18_2cn6": 0.11
+  },
+  "aminoAcids": {
+    "aae9": 1.4,
+    "ala": 0.2,
+    "arg": 0.3,
+    "asp": 0.5,
+    "glu": 1.1,
+    "gly": 0.1,
+    "his": 0.1,
+    "ile": 0.2,
+    "leu": 0.3,
+    "lys": 0.2,
+    "phe": 0.2,
+    "pro": 0.9,
+    "ser": 0.3,
+    "thr": 0.2,
+    "tyr": 0.1,
+    "val": 0.2
+  },
+  "otherNutrients": {
+    "nt": 0.8
+  },
+  "extra": {}
+}

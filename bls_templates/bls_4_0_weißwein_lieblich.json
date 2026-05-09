@@ -1,0 +1,61 @@
+{
+  "name": "Weißwein lieblich",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 77,
+    "water": 87,
+    "protein": 0.148,
+    "fat": null,
+    "carbs": 2.43,
+    "fiber": null,
+    "alcohol": 9.3424,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.005,
+    "tocpha": 0.005,
+    "tocphb": 0.003,
+    "niaeq": 0.05,
+    "nia": 0.05,
+    "pantac": 0.04,
+    "fol": 2.5,
+    "folfd": 2.5,
+    "vitc": 2.8
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 5,
+    "k": 60.3,
+    "ca": 7.9,
+    "mg": 7.2,
+    "p": 17.8,
+    "s": 14,
+    "fe": 0.129,
+    "zn": 0.06,
+    "cu": 11.9,
+    "mn": 89.5,
+    "fd": 30,
+    "cr": 1.6,
+    "mo": 0.12
+  },
+  "carbohydrates": {
+    "cho": 2.43,
+    "mnsac": 2.43,
+    "glus": 1.083,
+    "frus": 1.347,
+    "sugar": 2.43
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.024
+  },
+  "extra": {}
+}

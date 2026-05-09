@@ -1,0 +1,71 @@
+{
+  "name": "Tapioka/Tapiokastärke",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 346,
+    "water": 12.6,
+    "protein": 0.625,
+    "fat": 0.24,
+    "carbs": 84.9,
+    "fiber": 1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.006,
+    "ribf": 0.1,
+    "niaeq": 0.323,
+    "nia": 0.14,
+    "vitb6": 10,
+    "biot": 6
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 4.75,
+    "k": 20,
+    "ca": 12,
+    "mg": 3,
+    "p": 12,
+    "fe": 1,
+    "zn": 0.15,
+    "id": 1,
+    "cu": 40,
+    "mn": 110,
+    "fd": 43
+  },
+  "carbohydrates": {
+    "cho": 84.9,
+    "starch": 84.9
+  },
+  "fibers": {
+    "fibt": 1,
+    "fibins": 0.761,
+    "fibsol": 0.239
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.214,
+    "arg": 0.025,
+    "cyste": 0.01,
+    "his": 0.011,
+    "ile": 0.026,
+    "leu": 0.032,
+    "lys": 0.025,
+    "met": 0.011,
+    "phe": 0.03,
+    "thr": 0.026,
+    "trp": 0.011,
+    "tyr": 0.027,
+    "val": 0.042
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

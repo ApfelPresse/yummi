@@ -1,0 +1,90 @@
+{
+  "name": "Yamswurzel gebacken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 158,
+    "water": 59.2,
+    "protein": 2.564,
+    "fat": 0.167,
+    "carbs": 33,
+    "fiber": 7.128,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 12,
+    "vitk": 2.9,
+    "vitk1": 2.9,
+    "thia": 0.092,
+    "ribf": 0.037,
+    "niaeq": 1.464,
+    "nia": 0.731,
+    "vitb6": 357,
+    "vitc": 10.256
+  },
+  "minerals": {
+    "nacl": 0.032,
+    "na": 13,
+    "k": 504,
+    "ca": 32,
+    "mg": 27,
+    "p": 56,
+    "fe": 1.154,
+    "zn": 0.141
+  },
+  "carbohydrates": {
+    "cho": 33,
+    "mnsac": 0.4,
+    "glus": 0.3,
+    "frus": 0.1,
+    "disac": 0.5,
+    "sucs": 0.5,
+    "sugar": 0.9,
+    "starch": 32.1
+  },
+  "fibers": {
+    "fibt": 7.128,
+    "fibhmw": 7.128,
+    "fibins": 4.244,
+    "fibsol": 2.885
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.059,
+    "f12_0": 0.0023,
+    "f14_0": 0.001,
+    "f16_0": 0.053,
+    "f20_0": 0.0028,
+    "fams": 0.078,
+    "f16_1cn7": 0.0031,
+    "f18_1cn9": 0.0749,
+    "fapu": 0.0015,
+    "fapun6": 0.0015,
+    "f18_2cn6": 0.0015
+  },
+  "aminoAcids": {
+    "aae9": 0.879,
+    "arg": 0.103,
+    "cyste": 0.04,
+    "his": 0.046,
+    "ile": 0.106,
+    "leu": 0.132,
+    "lys": 0.104,
+    "met": 0.044,
+    "phe": 0.124,
+    "thr": 0.106,
+    "trp": 0.044,
+    "tyr": 0.112,
+    "val": 0.173
+  },
+  "otherNutrients": {
+    "nt": 0.41
+  },
+  "extra": {}
+}

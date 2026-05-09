@@ -1,0 +1,81 @@
+{
+  "name": "Hammel Herz, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 128,
+    "water": 72,
+    "protein": 16.8,
+    "fat": 6.8,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 5,
+    "vitaa": 5,
+    "retol": 5,
+    "vite": 0.65,
+    "tocpha": 0.65,
+    "tocphb": 0.1,
+    "tocphg": 0.1,
+    "tocphd": 0.1,
+    "thia": 0.31,
+    "ribf": 0.86,
+    "niaeq": 7.933,
+    "nia": 4.6,
+    "pantac": 3,
+    "vitb6": 220,
+    "biot": 4,
+    "fol": 2,
+    "folfd": 2,
+    "vitb12": 5.2,
+    "vitc": 7
+  },
+  "minerals": {
+    "nacl": 0.295,
+    "na": 118,
+    "cld": 140,
+    "k": 248,
+    "ca": 4,
+    "mg": 16,
+    "p": 160,
+    "fe": 6.1,
+    "zn": 2.12,
+    "id": 1.1,
+    "cu": 450,
+    "mn": 50,
+    "fd": 15
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 2.6,
+    "f14_0": 0.2,
+    "f16_0": 1,
+    "f18_0": 1.4,
+    "fax": 2.3
+  },
+  "aminoAcids": {
+    "aae9": 7.26,
+    "his": 0.42,
+    "ile": 0.84,
+    "leu": 1.53,
+    "lys": 1.43,
+    "met": 0.37,
+    "phe": 0.79,
+    "thr": 0.76,
+    "trp": 0.2,
+    "val": 0.92
+  },
+  "otherNutrients": {
+    "chorl": 130,
+    "nt": 2.688
+  },
+  "extra": {}
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Heidelbeerkompott",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 65,
+    "water": 84.8,
+    "protein": 0.4,
+    "fat": 0.451,
+    "carbs": 12.2,
+    "fiber": 3.7,
+    "alcohol": null,
+    "sugarAlcohols": 0.002
+  },
+  "vitamins": {
+    "vita": 5,
+    "vitaa": 2,
+    "cartb": 27,
+    "carotpaxb": 5,
+    "vite": 0.914,
+    "tocpha": 0.914,
+    "tocphg": 0.222,
+    "tocphd": 0.008,
+    "vitk": 12,
+    "vitk1": 12,
+    "thia": 0.024,
+    "ribf": 0.03,
+    "niaeq": 0.22,
+    "nia": 0.203,
+    "pantac": 0.1,
+    "vitb6": 4.58,
+    "biot": 1.1,
+    "fol": 6,
+    "folfd": 6,
+    "vitc": 11.579
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 4,
+    "k": 63,
+    "ca": 9,
+    "mg": 5,
+    "p": 10,
+    "s": 0.4,
+    "fe": 0.539,
+    "zn": 0.106,
+    "id": 1,
+    "cu": 55,
+    "mn": 1520,
+    "fd": 2,
+    "cr": 1,
+    "mo": 2.44
+  },
+  "carbohydrates": {
+    "cho": 12.2,
+    "mnsac": 7.29,
+    "glus": 2.932,
+    "frus": 4.35,
+    "gals": 0.008,
+    "disac": 4.912,
+    "sucs": 4.912,
+    "sugar": 12.2
+  },
+  "fibers": {
+    "fibt": 3.7
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.002,
+    "xyltl": 0.002
+  },
+  "fattyAcids": {
+    "fasat": 0.042,
+    "f16_0": 0.0288,
+    "f18_0": 0.0083,
+    "f20_0": 0.0048,
+    "fams": 0.0755,
+    "f18_1cn9": 0.073,
+    "f20_1cn9": 0.0024,
+    "fapu": 0.3018,
+    "fapun3": 0.1385,
+    "f18_3cn3": 0.1385,
+    "fapun6": 0.1633,
+    "f18_2cn6": 0.1633,
+    "fax": 0.0028
+  },
+  "aminoAcids": {
+    "aae9": 0.107,
+    "ala": 0.024,
+    "arg": 0.059,
+    "asp": 0.046,
+    "cyste": 0.005,
+    "glu": 0.072,
+    "gly": 0.025,
+    "leu": 0.032,
+    "lys": 0.027,
+    "phe": 0.006,
+    "pro": 0.009,
+    "ser": 0.023,
+    "thr": 0.017,
+    "trp": 0.001,
+    "tyr": 0.002,
+    "val": 0.024
+  },
+  "otherNutrients": {
+    "nt": 0.118
+  },
+  "extra": {}
+}

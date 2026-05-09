@@ -1,0 +1,46 @@
+{
+  "name": "Mate-Tee (Getränk)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": null,
+    "water": 99.7,
+    "protein": 0.1,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "ribf": 0.02,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "vitc": 0.3
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 7.22,
+    "ca": 5,
+    "mg": 1.27,
+    "p": 0.4,
+    "fe": 0.0024,
+    "zn": 0.0161,
+    "id": 0.35,
+    "cu": 4,
+    "mn": 258
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.016
+  },
+  "extra": {}
+}

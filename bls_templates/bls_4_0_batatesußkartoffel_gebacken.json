@@ -1,0 +1,93 @@
+{
+  "name": "Batate/Süßkartoffel, gebacken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 152,
+    "water": 60.2,
+    "protein": 2.09,
+    "fat": 0.769,
+    "carbs": 32.4,
+    "fiber": 4.026,
+    "alcohol": null,
+    "sugarAlcohols": 0.35
+  },
+  "vitamins": {
+    "vita": 1517,
+    "vitaa": 759,
+    "cartb": 9100.06,
+    "carotpaxb": 8,
+    "vite": 0.33,
+    "tocpha": 0.33,
+    "vitk": 2.3,
+    "vitk1": 2.3,
+    "thia": 0.066,
+    "ribf": 0.061,
+    "niaeq": 1.331,
+    "nia": 0.731,
+    "pantac": 0.958,
+    "vitb6": 329,
+    "biot": 5,
+    "fol": 48,
+    "folfd": 48,
+    "vitc": 30.769
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 58.5,
+    "k": 462,
+    "ca": 28.755,
+    "mg": 23.5,
+    "p": 50.3,
+    "fe": 0.851,
+    "zn": 0.295,
+    "id": 2.9,
+    "cu": 167,
+    "mn": 308
+  },
+  "carbohydrates": {
+    "cho": 32.4,
+    "mnsac": 1.56,
+    "glus": 1.37,
+    "frus": 0.19,
+    "disac": 5.5,
+    "sucs": 4.072,
+    "mals": 1.4,
+    "sugar": 7.1,
+    "starch": 24.949
+  },
+  "fibers": {
+    "fibt": 4.026,
+    "fibhmw": 4.026,
+    "fibins": 1.936,
+    "fibsol": 2.09
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.35,
+    "mantl": 0.35
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.718,
+    "arg": 0.083,
+    "cyste": 0.032,
+    "his": 0.037,
+    "ile": 0.087,
+    "leu": 0.108,
+    "lys": 0.085,
+    "met": 0.036,
+    "phe": 0.101,
+    "thr": 0.087,
+    "trp": 0.036,
+    "tyr": 0.091,
+    "val": 0.141
+  },
+  "otherNutrients": {
+    "nt": 0.335
+  },
+  "extra": {}
+}

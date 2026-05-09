@@ -1,0 +1,77 @@
+{
+  "name": "Kaffee (Getränk) mit Zucker",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 9,
+    "water": 96.4,
+    "protein": 0.12,
+    "fat": null,
+    "carbs": 1.861,
+    "fiber": 0.3084,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.02,
+    "tocpha": 0.02,
+    "tocphb": 0.005,
+    "vitk": 0.06,
+    "vitk1": 0.049,
+    "vitk2": 0.011,
+    "niaeq": 0.684,
+    "nia": 0.684,
+    "pantac": 0.084,
+    "fol": 0.28,
+    "folfd": 0.28
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 8,
+    "k": 107,
+    "ca": 6.9,
+    "mg": 8.1,
+    "p": 6.1,
+    "s": 6,
+    "fe": 0.023,
+    "zn": 0.01,
+    "cu": 20.1,
+    "mn": 67
+  },
+  "carbohydrates": {
+    "cho": 1.861,
+    "disac": 1.861,
+    "sucs": 1.861,
+    "sugar": 1.861
+  },
+  "fibers": {
+    "fibt": 0.3084
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.014,
+    "ala": 0.003,
+    "arg": 0.001,
+    "asp": 0.005,
+    "cyste": 0.002,
+    "glu": 0.02,
+    "gly": 0.004,
+    "his": 0.002,
+    "ile": 0.002,
+    "leu": 0.005,
+    "lys": 0.001,
+    "phe": 0.003,
+    "pro": 0.004,
+    "ser": 0.001,
+    "thr": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.01
+  },
+  "extra": {}
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Cocktail, Kir Royal",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 90,
+    "water": 89,
+    "protein": null,
+    "fat": null,
+    "carbs": 4.8,
+    "fiber": null,
+    "alcohol": 9.78,
+    "sugarAlcohols": 0.009
+  },
+  "vitamins": {
+    "vite": 0.001,
+    "tocpha": 0.001,
+    "vitk": 0.023,
+    "vitk1": 0.023,
+    "thia": 0.076,
+    "niaeq": 0.1517,
+    "pantac": 0.14,
+    "biot": 2,
+    "fol": 0.9,
+    "folfd": 0.9
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 4,
+    "k": 45,
+    "ca": 7,
+    "mg": 6,
+    "p": 15,
+    "s": 19,
+    "fe": 0.15,
+    "zn": 0.06,
+    "cu": 10,
+    "mn": 50,
+    "fd": 16,
+    "cr": 1.5
+  },
+  "carbohydrates": {
+    "cho": 4.8,
+    "mnsac": 3,
+    "glus": 1.5,
+    "frus": 1.5,
+    "disac": 1.8,
+    "sucs": 1.8,
+    "sugar": 4.8
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.009,
+    "sortl": 0.009
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.0091,
+    "glu": 0.015,
+    "pro": 0.045,
+    "trp": 0.0091
+  },
+  "otherNutrients": {},
+  "extra": {}
+}

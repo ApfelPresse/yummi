@@ -1,0 +1,81 @@
+{
+  "name": "Backhefe frisch (Frischbackhefe)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 128,
+    "water": 82.2,
+    "protein": 16.7,
+    "fat": 1.2,
+    "carbs": 10,
+    "fiber": 5.18,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 1.43,
+    "ribf": 2.31,
+    "niaeq": 13.9,
+    "nia": 11.4,
+    "pantac": 3.46,
+    "vitb6": 400,
+    "biot": 33,
+    "fol": 293,
+    "folfd": 293
+  },
+  "minerals": {
+    "nacl": 0.085,
+    "na": 34,
+    "k": 640,
+    "ca": 22.667,
+    "mg": 29.5,
+    "p": 473,
+    "fe": 3.5,
+    "zn": 5.9,
+    "id": 0.5,
+    "cu": 150,
+    "mn": 295
+  },
+  "carbohydrates": {
+    "cho": 10,
+    "starch": 10
+  },
+  "fibers": {
+    "fibt": 5.18
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.158,
+    "f12_0": 0.008,
+    "f16_0": 0.111,
+    "f18_0": 0.039,
+    "fams": 0.679,
+    "f16_1cn7": 0.361,
+    "f18_1cn9": 0.318,
+    "fapu": 0.003,
+    "fapun6": 0.003,
+    "f18_2cn6": 0.003
+  },
+  "aminoAcids": {
+    "aae9": 6.85,
+    "arg": 0.73,
+    "cyste": 0.14,
+    "his": 0.4,
+    "ile": 0.89,
+    "leu": 1.3,
+    "lys": 1.23,
+    "met": 0.29,
+    "phe": 0.77,
+    "thr": 0.82,
+    "trp": 0.15,
+    "tyr": 0.67,
+    "val": 1
+  },
+  "otherNutrients": {
+    "nt": 2.672
+  },
+  "extra": {}
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Cocktail, Tequila Sunrise",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 60,
+    "water": 88,
+    "protein": 0.3,
+    "fat": null,
+    "carbs": 5.594,
+    "fiber": 0.1,
+    "alcohol": 5.011,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 5,
+    "carotpaxb": 14,
+    "vite": 0.08,
+    "tocpha": 0.08,
+    "tocphg": 0.02,
+    "thia": 0.024,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "pantac": 0.07,
+    "vitb6": 10,
+    "fol": 6,
+    "folfd": 6,
+    "vitc": 14.608
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 2,
+    "k": 51,
+    "ca": 10,
+    "p": 7,
+    "s": 0.9,
+    "fe": 0.1,
+    "zn": 0.03,
+    "id": 1,
+    "cu": 20,
+    "mn": 20,
+    "fd": 1
+  },
+  "carbohydrates": {
+    "cho": 5.594,
+    "mnsac": 1.631,
+    "glus": 0.789,
+    "frus": 0.842,
+    "gals": 0.0003,
+    "disac": 3.963,
+    "sucs": 3.963,
+    "sugar": 5.594
+  },
+  "fibers": {
+    "fibt": 0.1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.003,
+    "f14_0": 0.0001,
+    "f16_0": 0.003,
+    "f18_0": 0.0002,
+    "fams": 0.001,
+    "f16_1cn7": 0.0001,
+    "f18_1cn9": 0.001,
+    "fapu": 0.01,
+    "fapun3": 0.003,
+    "f18_3cn3": 0.003,
+    "fapun6": 0.007,
+    "f18_2cn6": 0.007
+  },
+  "aminoAcids": {
+    "aae9": 0.029,
+    "ala": 0.008,
+    "arg": 0.016,
+    "asp": 0.027,
+    "cyste": 0.002,
+    "glu": 0.015,
+    "gly": 0.006,
+    "his": 0.002,
+    "ile": 0.003,
+    "leu": 0.005,
+    "lys": 0.005,
+    "met": 0.001,
+    "phe": 0.004,
+    "pro": 0.014,
+    "ser": 0.006,
+    "thr": 0.003,
+    "trp": 0.001,
+    "tyr": 0.002,
+    "val": 0.005
+  },
+  "otherNutrients": {
+    "nt": 0.042
+  },
+  "extra": {}
+}

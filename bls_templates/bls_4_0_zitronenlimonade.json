@@ -1,0 +1,46 @@
+{
+  "name": "Zitronenlimonade",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 38,
+    "water": 91.01,
+    "protein": null,
+    "fat": null,
+    "carbs": 9.27,
+    "fiber": null,
+    "alcohol": 0.002,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.022,
+    "na": 9,
+    "cld": 0.8,
+    "ca": 2,
+    "p": 0.7,
+    "s": 0.5,
+    "fe": 0.002,
+    "zn": 0.005,
+    "cu": 2.5,
+    "mn": 66.2
+  },
+  "carbohydrates": {
+    "cho": 9.27,
+    "mnsac": 1.55,
+    "glus": 0.8,
+    "frus": 0.75,
+    "disac": 7.72,
+    "sucs": 7.72,
+    "sugar": 9.27
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

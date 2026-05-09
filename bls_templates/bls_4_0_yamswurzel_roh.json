@@ -1,0 +1,90 @@
+{
+  "name": "Yamswurzel roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 123,
+    "water": 68.91,
+    "protein": 2,
+    "fat": 0.13,
+    "carbs": 25.7,
+    "fiber": 5.56,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 10,
+    "vitk": 2.3,
+    "vitk1": 2.3,
+    "thia": 0.09,
+    "ribf": 0.03,
+    "niaeq": 1.167,
+    "nia": 0.6,
+    "vitb6": 293,
+    "vitc": 10
+  },
+  "minerals": {
+    "nacl": 0.025,
+    "na": 10,
+    "k": 393,
+    "ca": 25,
+    "mg": 21,
+    "p": 44,
+    "fe": 0.9,
+    "zn": 0.11
+  },
+  "carbohydrates": {
+    "cho": 25.7,
+    "mnsac": 0.3,
+    "glus": 0.2,
+    "frus": 0.1,
+    "disac": 0.4,
+    "sucs": 0.4,
+    "sugar": 0.7,
+    "starch": 25
+  },
+  "fibers": {
+    "fibt": 5.56,
+    "fibhmw": 5.56,
+    "fibins": 3.31,
+    "fibsol": 2.25
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.046,
+    "f12_0": 0.0018,
+    "f14_0": 0.001,
+    "f16_0": 0.041,
+    "f20_0": 0.0022,
+    "fams": 0.0608,
+    "f16_1cn7": 0.0024,
+    "f18_1cn9": 0.0584,
+    "fapu": 0.0012,
+    "fapun6": 0.0012,
+    "f18_2cn6": 0.0012
+  },
+  "aminoAcids": {
+    "aae9": 0.686,
+    "arg": 0.08,
+    "cyste": 0.031,
+    "his": 0.036,
+    "ile": 0.083,
+    "leu": 0.103,
+    "lys": 0.081,
+    "met": 0.034,
+    "phe": 0.097,
+    "thr": 0.083,
+    "trp": 0.034,
+    "tyr": 0.087,
+    "val": 0.135
+  },
+  "otherNutrients": {
+    "nt": 0.32
+  },
+  "extra": {}
+}

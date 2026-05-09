@@ -1,0 +1,95 @@
+{
+  "name": "Trüffel getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 243,
+    "water": 10.5,
+    "protein": 27.521,
+    "fat": 1.694,
+    "carbs": 2,
+    "fiber": 54.923,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitd": 10.3,
+    "ergcal": 10.3,
+    "vite": 0.166,
+    "tocpha": 0.166,
+    "thia": 0.302,
+    "ribf": 0.179,
+    "niaeq": 1.217,
+    "pantac": 1.31,
+    "vitb6": 420,
+    "fol": 10.6,
+    "folfd": 10.6,
+    "vitc": 3.321
+  },
+  "minerals": {
+    "nacl": 0.64,
+    "na": 256,
+    "cld": 92,
+    "k": 1747,
+    "ca": 80,
+    "mg": 79,
+    "p": 206,
+    "fe": 11.622,
+    "mn": 1494
+  },
+  "carbohydrates": {
+    "cho": 2,
+    "mnsac": 2,
+    "glus": 2,
+    "sugar": 2
+  },
+  "fibers": {
+    "fibt": 54.923,
+    "fibhmw": 54.923,
+    "fibins": 43.36,
+    "fibsol": 11.562
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.299,
+    "f4_0": 0.017,
+    "f8_0": 0.003,
+    "f10_0": 0.013,
+    "f14_0": 0.007,
+    "f15_0": 0.003,
+    "f16_0": 0.173,
+    "f17_0": 0.003,
+    "f18_0": 0.043,
+    "f20_0": 0.017,
+    "f22_0": 0.01,
+    "f24_0": 0.01,
+    "fams": 0.037,
+    "f14_1cn5": 0.007,
+    "f18_1cn9": 0.03,
+    "fapu": 0.847,
+    "fapun6": 0.847,
+    "f18_2cn6": 0.847,
+    "fax": 0.011
+  },
+  "aminoAcids": {
+    "aae9": 7.268,
+    "arg": 2.374,
+    "cyste": 0.548,
+    "his": 0.365,
+    "ile": 0.584,
+    "leu": 1.461,
+    "lys": 1.79,
+    "phe": 0.694,
+    "thr": 1.388,
+    "trp": 0.073,
+    "tyr": 0.658,
+    "val": 0.913
+  },
+  "otherNutrients": {
+    "nt": 4.844
+  },
+  "extra": {}
+}

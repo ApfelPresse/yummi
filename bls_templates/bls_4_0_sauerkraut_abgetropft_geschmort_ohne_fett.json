@@ -1,0 +1,111 @@
+{
+  "name": "Sauerkraut abgetropft, geschmort ohne Fett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 41,
+    "water": 84.3,
+    "protein": 1.989,
+    "fat": 0.548,
+    "carbs": 1.78,
+    "fiber": 3.821,
+    "alcohol": 0.29,
+    "sugarAlcohols": 0.22
+  },
+  "vitamins": {
+    "vita": 5,
+    "vitaa": 2,
+    "cartb": 28,
+    "vite": 0.052,
+    "tocpha": 0.052,
+    "tocphg": 0.0107,
+    "tocphd": 0.0054,
+    "vitk": 53.4,
+    "vitk1": 44.8,
+    "vitk2": 8.6,
+    "thia": 0.037,
+    "ribf": 0.088,
+    "niaeq": 0.264,
+    "nia": 0.264,
+    "pantac": 0.341,
+    "vitb6": 292,
+    "biot": 1.33,
+    "fol": 41.4,
+    "folfd": 41.4,
+    "vitb12": 0.38,
+    "vitc": 28.571
+  },
+  "minerals": {
+    "nacl": 2.105,
+    "na": 842,
+    "k": 378,
+    "ca": 78,
+    "mg": 25,
+    "p": 77,
+    "fe": 1.964,
+    "zn": 0.566,
+    "cu": 52,
+    "mn": 250,
+    "fd": 80,
+    "cr": 9,
+    "mo": 16.8
+  },
+  "carbohydrates": {
+    "cho": 1.78,
+    "mnsac": 1.125,
+    "glus": 0.75,
+    "frus": 0.375,
+    "disac": 0.25,
+    "sucs": 0.25,
+    "sugar": 1.375,
+    "starch": 0.18
+  },
+  "fibers": {
+    "fibt": 3.821,
+    "fibhmw": 3.821,
+    "fibins": 2.321,
+    "fibsol": 1.5
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.22,
+    "mantl": 0.22
+  },
+  "fattyAcids": {
+    "fasat": 0.127,
+    "f16_0": 0.097,
+    "f18_0": 0.03,
+    "fams": 0.214,
+    "f18_1cn9": 0.214,
+    "fapu": 0.113,
+    "fapun3": 0.019,
+    "f18_3cn3": 0.019,
+    "fapun6": 0.094,
+    "f18_2cn6": 0.094
+  },
+  "aminoAcids": {
+    "aae9": 0.285,
+    "ala": 0.12,
+    "arg": 0.051,
+    "asp": 0.074,
+    "cyste": 0.025,
+    "glu": 0.262,
+    "gly": 0.037,
+    "his": 0.018,
+    "ile": 0.048,
+    "leu": 0.055,
+    "lys": 0.044,
+    "phe": 0.037,
+    "pro": 0.055,
+    "ser": 0.053,
+    "thr": 0.037,
+    "tyr": 0.025,
+    "val": 0.046
+  },
+  "otherNutrients": {
+    "nt": 0.318
+  },
+  "extra": {}
+}

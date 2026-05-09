@@ -1,0 +1,64 @@
+{
+  "name": "Hanföl",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 21,
+    "vitaa": 10,
+    "cartb": 125,
+    "vite": 5.8,
+    "tocpha": 5.8,
+    "tocphb": 0.063,
+    "tocphg": 36.623,
+    "tocphd": 1.232,
+    "vitk": 121,
+    "vitk1": 121
+  },
+  "minerals": {
+    "nacl": 0.0041,
+    "na": 1.65,
+    "k": 0.678,
+    "ca": 0.4417,
+    "mg": 0.4455,
+    "p": 1.702,
+    "fe": 0.1156,
+    "zn": 0.0401,
+    "id": 0.01,
+    "cu": 2.499,
+    "mn": 1.364
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 9.6,
+    "f16_0": 5.9,
+    "f18_0": 2.8,
+    "f20_0": 0.9,
+    "fams": 12.7,
+    "f18_1cn9": 12.7,
+    "fapu": 71.4,
+    "fapun3": 18.8,
+    "f18_3cn3": 18.8,
+    "fapun6": 52.6,
+    "f18_2cn6": 52.6
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 2.055
+  },
+  "extra": {}
+}

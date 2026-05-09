@@ -1,0 +1,100 @@
+{
+  "name": "Reisnudeln gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 91,
+    "water": 81,
+    "protein": 1.889,
+    "fat": 0.15,
+    "carbs": 20.4,
+    "fiber": 0.4,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.014,
+    "tocpha": 0.014,
+    "tocphb": 0.002,
+    "tocphg": 0.019,
+    "tocphd": 0.002,
+    "toctra": 0.019,
+    "thia": 0.006,
+    "ribf": 0.004,
+    "niaeq": 0.478,
+    "nia": 0.045,
+    "pantac": 0.012,
+    "vitb6": 3,
+    "biot": 1,
+    "fol": 1,
+    "folfd": 1
+  },
+  "minerals": {
+    "nacl": 0.032,
+    "na": 13,
+    "cld": 0.1,
+    "k": 4,
+    "ca": 4,
+    "mg": 3,
+    "p": 37,
+    "fe": 0.1,
+    "zn": 0.19,
+    "cu": 18,
+    "mn": 131,
+    "fd": 13,
+    "cr": 1,
+    "mo": 8
+  },
+  "carbohydrates": {
+    "cho": 20.4,
+    "mnsac": 0.03,
+    "glus": 0.03,
+    "disac": 0.037,
+    "sucs": 0.037,
+    "sugar": 0.07,
+    "starch": 20.3
+  },
+  "fibers": {
+    "fibt": 0.4,
+    "fibins": 0.2,
+    "fibsol": 0.2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.03,
+    "f16_0": 0.03,
+    "fams": 0.05,
+    "f18_1cn9": 0.05,
+    "fapu": 0.05,
+    "fapun6": 0.05,
+    "f18_2cn6": 0.05
+  },
+  "aminoAcids": {
+    "aae9": 0.742,
+    "ala": 0.115,
+    "arg": 0.152,
+    "asp": 0.176,
+    "cyste": 0.024,
+    "glu": 0.302,
+    "gly": 0.089,
+    "his": 0.047,
+    "ile": 0.087,
+    "leu": 0.163,
+    "lys": 0.073,
+    "met": 0.05,
+    "phe": 0.102,
+    "pro": 0.087,
+    "ser": 0.108,
+    "thr": 0.063,
+    "trp": 0.026,
+    "tyr": 0.073,
+    "val": 0.131
+  },
+  "otherNutrients": {
+    "nt": 0.302
+  },
+  "extra": {}
+}

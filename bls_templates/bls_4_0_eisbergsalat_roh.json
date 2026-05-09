@@ -1,0 +1,90 @@
+{
+  "name": "Eisbergsalat roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 15,
+    "water": 96.03,
+    "protein": 0.8,
+    "fat": 0.2,
+    "carbs": 1.62,
+    "fiber": 1.8,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 37,
+    "vitaa": 19,
+    "cartb": 202,
+    "carotpaxb": 43,
+    "vite": 0.22,
+    "tocpha": 0.22,
+    "tocphg": 0.11,
+    "vitk": 33,
+    "vitk1": 33,
+    "thia": 0.05,
+    "ribf": 0.015,
+    "niaeq": 0.3,
+    "nia": 0.3,
+    "pantac": 0.109,
+    "vitb6": 58,
+    "biot": 2.46,
+    "fol": 38,
+    "folfd": 38,
+    "vitc": 4.3
+  },
+  "minerals": {
+    "nacl": 0.022,
+    "na": 9,
+    "k": 175,
+    "ca": 19,
+    "mg": 7,
+    "p": 26,
+    "fe": 0.35,
+    "zn": 0.16,
+    "cu": 32,
+    "mn": 129,
+    "cr": 1,
+    "mo": 1.06
+  },
+  "carbohydrates": {
+    "cho": 1.62,
+    "mnsac": 1.58,
+    "glus": 0.67,
+    "frus": 0.91,
+    "disac": 0.04,
+    "sucs": 0.02,
+    "mals": 0.02,
+    "sugar": 1.62
+  },
+  "fibers": {
+    "fibt": 1.8,
+    "fibhmw": 1.8,
+    "fibins": 1.4,
+    "fibsol": 0.4
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.05,
+    "f16_0": 0.04,
+    "f18_0": 0.01,
+    "fams": 0.03,
+    "f18_1cn9": 0.03,
+    "fapu": 0.07,
+    "fapun3": 0.03,
+    "f18_3cn3": 0.03,
+    "fapun6": 0.04,
+    "f18_2cn6": 0.04
+  },
+  "aminoAcids": {
+    "asp": 0.1,
+    "glu": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

@@ -1,0 +1,95 @@
+{
+  "name": "Morchel gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 48,
+    "water": 82.3,
+    "protein": 4.079,
+    "fat": 0.525,
+    "carbs": 1,
+    "fiber": 11.492,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitd": 5.1,
+    "ergcal": 5.1,
+    "vite": 0.082,
+    "tocpha": 0.082,
+    "thia": 0.192,
+    "ribf": 0.093,
+    "niaeq": 0.25,
+    "pantac": 0.65,
+    "vitb6": 210,
+    "fol": 7.3,
+    "folfd": 7.3,
+    "vitc": 6.557
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 13,
+    "k": 639,
+    "ca": 18,
+    "mg": 26.775,
+    "p": 266,
+    "fe": 1.967,
+    "mn": 738
+  },
+  "carbohydrates": {
+    "cho": 1,
+    "mnsac": 1,
+    "glus": 1,
+    "sugar": 1
+  },
+  "fibers": {
+    "fibt": 11.492,
+    "fibhmw": 11.492,
+    "fibins": 9.072,
+    "fibsol": 2.42
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.09,
+    "f4_0": 0.005,
+    "f10_0": 0.003,
+    "f14_0": 0.002,
+    "f15_0": 0.002,
+    "f16_0": 0.052,
+    "f17_0": 0.002,
+    "f18_0": 0.013,
+    "f20_0": 0.005,
+    "f22_0": 0.003,
+    "f24_0": 0.003,
+    "fams": 0.012,
+    "f14_1cn5": 0.002,
+    "f18_1cn9": 0.01,
+    "fapu": 0.262,
+    "fapun6": 0.262,
+    "f18_2cn6": 0.262,
+    "fax": 0.003
+  },
+  "aminoAcids": {
+    "aae9": 0.344,
+    "arg": 0.052,
+    "cyste": 0.046,
+    "his": 0.013,
+    "ile": 0.026,
+    "leu": 0.085,
+    "lys": 0.036,
+    "met": 0.002,
+    "phe": 0.054,
+    "thr": 0.07,
+    "trp": 0.015,
+    "tyr": 0.057,
+    "val": 0.043
+  },
+  "otherNutrients": {
+    "nt": 0.652
+  },
+  "extra": {}
+}

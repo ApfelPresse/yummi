@@ -1,0 +1,63 @@
+{
+  "name": "Schwein Blut, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 75,
+    "water": 79.2,
+    "protein": 18.5,
+    "fat": 0.11,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 30,
+    "vitaa": 30,
+    "retol": 30,
+    "thia": 0.09,
+    "ribf": 0.03,
+    "niaeq": 0.55,
+    "nia": 0.55
+  },
+  "minerals": {
+    "nacl": 0.518,
+    "na": 207,
+    "cld": 262,
+    "k": 160,
+    "ca": 6.329,
+    "mg": 9.05,
+    "p": 74,
+    "fe": 41.5,
+    "zn": 0.33,
+    "cu": 140,
+    "mn": 7
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 14.571,
+    "arg": 1.299,
+    "cyste": 0.187,
+    "his": 1.996,
+    "ile": 0.416,
+    "leu": 2.91,
+    "lys": 3.398,
+    "met": 0.81,
+    "phe": 1.497,
+    "thr": 1.33,
+    "tyr": 0.801,
+    "val": 2.214
+  },
+  "otherNutrients": {
+    "chorl": 40,
+    "nt": 2.96
+  },
+  "extra": {}
+}

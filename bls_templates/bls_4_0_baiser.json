@@ -1,0 +1,83 @@
+{
+  "name": "Baiser",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 387,
+    "water": 2.4,
+    "protein": 6.3,
+    "fat": 0.019,
+    "carbs": 90.5,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk": 1,
+    "vitk2": 1,
+    "thia": 0.01,
+    "ribf": 0.231,
+    "niaeq": 1.657,
+    "nia": 0.024,
+    "pantac": 0.13,
+    "vitb6": 17,
+    "biot": 3.5,
+    "fol": 4,
+    "folfd": 4,
+    "vitb12": 0.19,
+    "vitc": 0.171
+  },
+  "minerals": {
+    "nacl": 0.302,
+    "na": 121,
+    "cld": 102,
+    "k": 96,
+    "ca": 4,
+    "mg": 8,
+    "p": 14,
+    "fe": 0.16,
+    "zn": 0.006,
+    "id": 2,
+    "cu": 13,
+    "mn": 34
+  },
+  "carbohydrates": {
+    "cho": 90.5,
+    "mnsac": 0.259,
+    "glus": 0.259,
+    "disac": 90.2,
+    "sucs": 90.2,
+    "sugar": 90.5
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 3.308,
+    "ala": 0.441,
+    "arg": 0.4,
+    "asp": 0.769,
+    "cyste": 0.164,
+    "glu": 0.863,
+    "gly": 0.257,
+    "his": 0.164,
+    "ile": 0.4,
+    "leu": 0.595,
+    "lys": 0.502,
+    "met": 0.277,
+    "phe": 0.42,
+    "pro": 0.257,
+    "ser": 0.482,
+    "thr": 0.308,
+    "trp": 0.098,
+    "tyr": 0.277,
+    "val": 0.544
+  },
+  "otherNutrients": {
+    "nt": 1.089
+  },
+  "extra": {}
+}

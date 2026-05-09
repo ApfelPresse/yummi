@@ -1,0 +1,100 @@
+{
+  "name": "Mehrfruchtnektar mit Süßungsmitteln",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 22,
+    "water": 93,
+    "protein": 0.2,
+    "fat": null,
+    "carbs": 5.36,
+    "fiber": 0.2,
+    "alcohol": 0.015,
+    "sugarAlcohols": 0.29
+  },
+  "vitamins": {
+    "vita": 7,
+    "vitaa": 3,
+    "cartb": 30,
+    "carotpaxb": 20,
+    "vite": 0.08,
+    "tocpha": 0.08,
+    "vitk": 0.2,
+    "vitk1": 0.2,
+    "thia": 0.0136,
+    "ribf": 0.0043,
+    "niaeq": 0.2,
+    "nia": 0.2,
+    "pantac": 0.06,
+    "vitb6": 18.4,
+    "fol": 4,
+    "folfd": 4,
+    "vitc": 13.75
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 5,
+    "k": 60,
+    "ca": 8,
+    "mg": 10,
+    "p": 6,
+    "s": 0.9,
+    "fe": 0.1,
+    "zn": 0.1,
+    "id": 1,
+    "cu": 20,
+    "mn": 60
+  },
+  "carbohydrates": {
+    "cho": 5.36,
+    "mnsac": 3.945,
+    "glus": 1.55,
+    "frus": 2.395,
+    "disac": 1.13,
+    "sucs": 1.13,
+    "sugar": 5.075
+  },
+  "fibers": {
+    "fibt": 0.2
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.29,
+    "sortl": 0.29
+  },
+  "fattyAcids": {
+    "fasat": 0.006,
+    "f16_0": 0.006,
+    "fams": 0.002,
+    "f16_1cn7": 0.002,
+    "fapu": 0.005,
+    "fapun3": 0.005,
+    "f18_3cn3": 0.005
+  },
+  "aminoAcids": {
+    "aae9": 0.031,
+    "ala": 0.007,
+    "arg": 0.01,
+    "asp": 0.027,
+    "cyste": 0.002,
+    "glu": 0.018,
+    "gly": 0.004,
+    "his": 0.002,
+    "ile": 0.003,
+    "leu": 0.006,
+    "lys": 0.006,
+    "met": 0.001,
+    "phe": 0.004,
+    "pro": 0.01,
+    "ser": 0.006,
+    "thr": 0.004,
+    "trp": 0.001,
+    "tyr": 0.002,
+    "val": 0.004
+  },
+  "otherNutrients": {},
+  "extra": {}
+}

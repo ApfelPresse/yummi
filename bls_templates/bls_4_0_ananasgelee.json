@@ -1,0 +1,112 @@
+{
+  "name": "Ananasgelee",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 60,
+    "water": 83.3,
+    "protein": 1.6,
+    "fat": 0.1,
+    "carbs": 12.931,
+    "fiber": 0.292,
+    "alcohol": 0.019,
+    "sugarAlcohols": 0.935
+  },
+  "vitamins": {
+    "vita": 6,
+    "vitaa": 3,
+    "cartb": 13,
+    "carotpaxb": 40,
+    "vite": 0.091,
+    "tocpha": 0.091,
+    "vitk": 0.1,
+    "vitk1": 0.1,
+    "thia": 0.046,
+    "ribf": 0.02,
+    "niaeq": 0.257,
+    "nia": 0.19,
+    "pantac": 0.098,
+    "vitb6": 92,
+    "biot": 1,
+    "fol": 2,
+    "folfd": 2,
+    "vitc": 11.627
+  },
+  "minerals": {
+    "nacl": 0.015,
+    "na": 6,
+    "cld": 25,
+    "k": 117,
+    "ca": 15,
+    "mg": 10,
+    "p": 5,
+    "fe": 0.4,
+    "zn": 0.2,
+    "id": 1,
+    "cu": 29,
+    "mn": 470,
+    "cr": 1,
+    "mo": 4.56
+  },
+  "carbohydrates": {
+    "cho": 12.931,
+    "mnsac": 4.887,
+    "glus": 2.448,
+    "frus": 2.439,
+    "disac": 7.109,
+    "sucs": 7.109,
+    "sugar": 11.996
+  },
+  "fibers": {
+    "fibt": 0.292
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.935,
+    "sortl": 0.935
+  },
+  "fattyAcids": {
+    "fasat": 0.021,
+    "f14_0": 0.0001,
+    "f16_0": 0.017,
+    "f18_0": 0.002,
+    "f20_0": 0.001,
+    "f24_0": 0.001,
+    "fams": 0.02,
+    "f16_1cn7": 0.0002,
+    "f18_1cn9": 0.019,
+    "f20_1cn9": 0.001,
+    "fapu": 0.024,
+    "fapun3": 0.013,
+    "f18_3cn3": 0.013,
+    "fapun6": 0.011,
+    "f18_2cn6": 0.011
+  },
+  "aminoAcids": {
+    "aae9": 0.305,
+    "ala": 0.144,
+    "arg": 0.107,
+    "asp": 0.115,
+    "cyste": 0.004,
+    "glu": 0.203,
+    "gly": 0.337,
+    "his": 0.013,
+    "ile": 0.03,
+    "leu": 0.052,
+    "lys": 0.077,
+    "met": 0.013,
+    "phe": 0.037,
+    "pro": 0.199,
+    "ser": 0.061,
+    "thr": 0.034,
+    "trp": 0.004,
+    "tyr": 0.007,
+    "val": 0.045
+  },
+  "otherNutrients": {
+    "nt": 0.3
+  },
+  "extra": {}
+}

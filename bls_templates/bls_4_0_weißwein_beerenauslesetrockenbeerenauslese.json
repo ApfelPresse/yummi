@@ -1,0 +1,61 @@
+{
+  "name": "Weißwein Beerenauslese/Trockenbeerenauslese",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 130,
+    "water": 72.6,
+    "protein": 0.124,
+    "fat": null,
+    "carbs": 18.55,
+    "fiber": null,
+    "alcohol": 7.7989,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.004,
+    "tocpha": 0.004,
+    "tocphb": 0.002,
+    "niaeq": 0.04,
+    "nia": 0.04,
+    "pantac": 0.03,
+    "fol": 2.1,
+    "folfd": 2.1,
+    "vitc": 2.3
+  },
+  "minerals": {
+    "nacl": 0.0042,
+    "na": 1.7,
+    "cld": 4,
+    "k": 50.3,
+    "ca": 6.6,
+    "mg": 6,
+    "p": 14.9,
+    "s": 12,
+    "fe": 0.107,
+    "zn": 0.05,
+    "cu": 9.9,
+    "mn": 74.7,
+    "fd": 25,
+    "cr": 1.3,
+    "mo": 0.1
+  },
+  "carbohydrates": {
+    "cho": 18.55,
+    "mnsac": 18.55,
+    "glus": 8.267,
+    "frus": 10.283,
+    "sugar": 18.55
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.02
+  },
+  "extra": {}
+}

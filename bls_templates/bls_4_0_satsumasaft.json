@@ -1,0 +1,76 @@
+{
+  "name": "Satsumasaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 39,
+    "water": 90.4,
+    "protein": 0.7,
+    "fat": 0.24,
+    "carbs": 7.68,
+    "fiber": 0.112,
+    "alcohol": 0.021,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 140,
+    "vitaa": 70,
+    "cartb": 98,
+    "carotpaxb": 1484,
+    "vite": 0.2,
+    "tocpha": 0.2,
+    "thia": 0.005,
+    "ribf": 0.024,
+    "niaeq": 0.16,
+    "nia": 0.16,
+    "pantac": 0.22,
+    "vitb6": 18,
+    "fol": 11,
+    "folfd": 11,
+    "vitc": 24.6
+  },
+  "minerals": {
+    "nacl": 0.0062,
+    "na": 2.5,
+    "cld": 4,
+    "k": 119,
+    "ca": 26,
+    "mg": 11,
+    "p": 20,
+    "fe": 0.15,
+    "zn": 0.07,
+    "id": 0.8,
+    "cu": 52,
+    "mn": 40,
+    "fd": 10,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 7.68,
+    "mnsac": 2.8,
+    "glus": 1.28,
+    "frus": 1.52,
+    "disac": 4.88,
+    "sucs": 4.88,
+    "sugar": 7.68
+  },
+  "fibers": {
+    "fibt": 0.112,
+    "fibhmw": 0.112,
+    "fibins": 0.08,
+    "fibsol": 0.032
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "arg": 0.1,
+    "asp": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

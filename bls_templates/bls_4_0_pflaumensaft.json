@@ -1,0 +1,106 @@
+{
+  "name": "Pflaumensaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 41,
+    "water": 89.8,
+    "protein": 0.27,
+    "fat": 0.136,
+    "carbs": 9.64,
+    "fiber": 0.2,
+    "alcohol": null,
+    "sugarAlcohols": 2.349
+  },
+  "vitamins": {
+    "vita": 49,
+    "vitaa": 25,
+    "cartb": 241,
+    "carotpaxb": 111,
+    "vite": 0.283,
+    "tocpha": 0.283,
+    "tocphg": 0.02,
+    "toctra": 0.02,
+    "vitk": 7,
+    "vitk1": 7,
+    "thia": 0.035,
+    "ribf": 0.036,
+    "niaeq": 0.466,
+    "nia": 0.466,
+    "pantac": 0.144,
+    "vitb6": 36,
+    "fol": 1,
+    "folfd": 1,
+    "vitc": 3
+  },
+  "minerals": {
+    "nacl": 0.0018,
+    "na": 0.7,
+    "cld": 1.5,
+    "k": 146,
+    "ca": 8,
+    "mg": 7,
+    "p": 16,
+    "fe": 0.2,
+    "zn": 0.09,
+    "cu": 20,
+    "mn": 108,
+    "fd": 2,
+    "cr": 0.57,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 9.64,
+    "mnsac": 5.15,
+    "glus": 3.18,
+    "frus": 1.97,
+    "disac": 2.14,
+    "sucs": 1.99,
+    "mals": 0.153,
+    "sugar": 7.29
+  },
+  "fibers": {
+    "fibt": 0.2,
+    "fibhmw": 0.2,
+    "fibins": 0.1,
+    "fibsol": 0.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 2.349,
+    "sortl": 2.349
+  },
+  "fattyAcids": {
+    "fasat": 0.018,
+    "f16_0": 0.0138,
+    "f18_0": 0.004,
+    "fams": 0.0413,
+    "f16_1cn7": 0.0009,
+    "f18_1cn9": 0.0404,
+    "fapu": 0.063,
+    "fapun3": 0.025,
+    "f18_3cn3": 0.025,
+    "fapun6": 0.038,
+    "f18_2cn6": 0.038
+  },
+  "aminoAcids": {
+    "aae9": 0.037,
+    "ala": 0.015,
+    "arg": 0.004,
+    "asp": 0.189,
+    "cyste": 0.003,
+    "glu": 0.029,
+    "leu": 0.01,
+    "lys": 0.014,
+    "pro": 0.005,
+    "ser": 0.015,
+    "thr": 0.011,
+    "val": 0.002
+  },
+  "otherNutrients": {
+    "nt": 0.09
+  },
+  "extra": {}
+}

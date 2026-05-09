@@ -1,0 +1,94 @@
+{
+  "name": "Apfelkompott/Apfelmark, ungesüßt, Konserve",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 63,
+    "water": 87.3,
+    "protein": 0.4,
+    "fat": 0.27,
+    "carbs": 14.07,
+    "fiber": 1.14,
+    "alcohol": 0.019,
+    "sugarAlcohols": 0.314
+  },
+  "vitamins": {
+    "vita": 6,
+    "vitaa": 3,
+    "cartb": 34,
+    "carotpaxb": 5,
+    "vite": 0.37,
+    "tocpha": 0.37,
+    "vitk": 0.6,
+    "vitk1": 0.6,
+    "niaeq": 0.083,
+    "pantac": 0.05,
+    "biot": 0.76,
+    "fol": 1.7,
+    "folfd": 1.7,
+    "vitc": 2.4
+  },
+  "minerals": {
+    "nacl": 0.001,
+    "na": 0.4,
+    "cld": 2.2,
+    "k": 105.5,
+    "ca": 4,
+    "mg": 3.7,
+    "p": 8.6,
+    "fe": 0.1,
+    "zn": 0.02,
+    "id": 1.7,
+    "cu": 38,
+    "mn": 35.5,
+    "fd": 9,
+    "cr": 1.2,
+    "mo": 0.8
+  },
+  "carbohydrates": {
+    "cho": 14.07,
+    "mnsac": 9.7,
+    "glus": 2.74,
+    "frus": 6.96,
+    "disac": 1.4,
+    "sucs": 1.4,
+    "sugar": 11.1,
+    "starch": 2.66
+  },
+  "fibers": {
+    "fibt": 1.14,
+    "fibhmw": 1.14,
+    "fibins": 0.56,
+    "fibsol": 0.58
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.314,
+    "sortl": 0.314
+  },
+  "fattyAcids": {
+    "fasat": 0.044,
+    "f16_0": 0.03,
+    "f18_0": 0.014,
+    "fams": 0.044,
+    "f16_1cn7": 0.0015,
+    "f18_1cn9": 0.042,
+    "fapu": 0.024,
+    "fapun3": 0.0015,
+    "f18_3cn3": 0.0015,
+    "fapun6": 0.022,
+    "f18_2cn6": 0.022,
+    "fax": 0.0003
+  },
+  "aminoAcids": {
+    "aae9": 0.045,
+    "ala": 0.015,
+    "asp": 0.049
+  },
+  "otherNutrients": {
+    "nt": 0.06
+  },
+  "extra": {}
+}

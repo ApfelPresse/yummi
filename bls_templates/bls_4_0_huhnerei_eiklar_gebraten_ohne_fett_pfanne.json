@@ -1,0 +1,81 @@
+{
+  "name": "Hühnerei Eiklar, gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 46,
+    "water": 86.9,
+    "protein": 10.9,
+    "fat": 0.034,
+    "carbs": 0.461,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk": 1,
+    "vitk2": 1,
+    "thia": 0.02,
+    "ribf": 0.401,
+    "niaeq": 2.91,
+    "nia": 0.043,
+    "pantac": 0.26,
+    "vitb6": 33,
+    "biot": 5.7,
+    "fol": 7,
+    "folfd": 7,
+    "vitb12": 0.35,
+    "vitc": 0.287
+  },
+  "minerals": {
+    "nacl": 0.52,
+    "na": 208,
+    "cld": 179,
+    "k": 167,
+    "ca": 7,
+    "mg": 13,
+    "p": 24,
+    "fe": 0.011,
+    "zn": 0.011,
+    "id": 3,
+    "cu": 22,
+    "mn": 45
+  },
+  "carbohydrates": {
+    "cho": 0.461,
+    "mnsac": 0.461,
+    "glus": 0.461,
+    "sugar": 0.461
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 5.778,
+    "ala": 0.771,
+    "arg": 0.699,
+    "asp": 1.343,
+    "cyste": 0.286,
+    "glu": 1.509,
+    "gly": 0.448,
+    "his": 0.286,
+    "ile": 0.699,
+    "leu": 1.039,
+    "lys": 0.878,
+    "met": 0.483,
+    "phe": 0.734,
+    "pro": 0.448,
+    "ser": 0.842,
+    "thr": 0.537,
+    "trp": 0.172,
+    "tyr": 0.483,
+    "val": 0.95
+  },
+  "otherNutrients": {
+    "nt": 1.903
+  },
+  "extra": {}
+}

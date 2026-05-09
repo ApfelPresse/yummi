@@ -1,0 +1,110 @@
+{
+  "name": "Chayote gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 58,
+    "water": 85.95,
+    "protein": 1.32,
+    "fat": 0.169,
+    "carbs": 9.86,
+    "fiber": 5.814,
+    "alcohol": null,
+    "sugarAlcohols": 0.014
+  },
+  "vitamins": {
+    "vita": 6,
+    "vitaa": 3,
+    "cartb": 23,
+    "carotpaxb": 21,
+    "vite": 1.695,
+    "tocpha": 1.695,
+    "vitk": 7,
+    "vitk1": 7,
+    "thia": 0.046,
+    "ribf": 0.056,
+    "niaeq": 1.042,
+    "nia": 0.725,
+    "pantac": 0.61,
+    "vitb6": 168,
+    "biot": 0.3,
+    "fol": 66,
+    "folfd": 66,
+    "vitc": 23.051
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 31,
+    "k": 183,
+    "ca": 22.9,
+    "mg": 22.4,
+    "p": 24,
+    "fe": 0.678,
+    "zn": 0.251,
+    "id": 2.3,
+    "cu": 136,
+    "mn": 112
+  },
+  "carbohydrates": {
+    "cho": 9.86,
+    "mnsac": 6.85,
+    "glus": 4.19,
+    "frus": 2.66,
+    "disac": 1.805,
+    "sucs": 1.805,
+    "sugar": 8.66,
+    "starch": 1.186
+  },
+  "fibers": {
+    "fibt": 5.814,
+    "fibhmw": 5.814,
+    "fibins": 4.229,
+    "fibsol": 1.585
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.014,
+    "xyltl": 0.014
+  },
+  "fattyAcids": {
+    "fasat": 0.043,
+    "f12_0": 0.002,
+    "f16_0": 0.036,
+    "f18_0": 0.005,
+    "fams": 0.016,
+    "f16_1cn7": 0.002,
+    "f18_1cn9": 0.014,
+    "fapu": 0.082,
+    "fapun3": 0.051,
+    "f18_3cn3": 0.051,
+    "fapun6": 0.031,
+    "f18_2cn6": 0.031
+  },
+  "aminoAcids": {
+    "aae9": 0.58,
+    "ala": 0.086,
+    "arg": 0.059,
+    "asp": 0.156,
+    "glu": 0.212,
+    "gly": 0.069,
+    "his": 0.025,
+    "ile": 0.075,
+    "leu": 0.131,
+    "lys": 0.066,
+    "met": 0.002,
+    "phe": 0.08,
+    "pro": 0.075,
+    "ser": 0.08,
+    "thr": 0.07,
+    "trp": 0.019,
+    "tyr": 0.054,
+    "val": 0.107
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

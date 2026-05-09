@@ -1,0 +1,110 @@
+{
+  "name": "Pfirsich-Maracuja Fruchtnektar",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 43,
+    "water": 88.1,
+    "protein": 0.3,
+    "fat": null,
+    "carbs": 10.2,
+    "fiber": 0.1,
+    "alcohol": null,
+    "sugarAlcohols": 0.44
+  },
+  "vitamins": {
+    "vita": 16,
+    "vitaa": 8,
+    "cartb": 58,
+    "carotpaxb": 72,
+    "vite": 0.202,
+    "tocpha": 0.202,
+    "tocphg": 0.005,
+    "toctra": 0.009,
+    "vitk": 1.8,
+    "vitk1": 1.8,
+    "thia": 0.011,
+    "ribf": 0.016,
+    "niaeq": 0.457,
+    "nia": 0.457,
+    "pantac": 0.053,
+    "vitb6": 10,
+    "biot": 1,
+    "fol": 2,
+    "folfd": 2,
+    "vitc": 3
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 2,
+    "k": 91,
+    "ca": 5,
+    "mg": 5,
+    "p": 12,
+    "s": 0.8,
+    "fe": 0.162,
+    "zn": 0.08,
+    "id": 1,
+    "cu": 46,
+    "mn": 40,
+    "fd": 6,
+    "mo": 0.02
+  },
+  "carbohydrates": {
+    "cho": 10.2,
+    "mnsac": 2.54,
+    "glus": 1.27,
+    "frus": 1.27,
+    "disac": 7.266,
+    "sucs": 7.266,
+    "sugar": 9.8
+  },
+  "fibers": {
+    "fibt": 0.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.44,
+    "mantl": 0.07,
+    "sortl": 0.37
+  },
+  "fattyAcids": {
+    "fasat": 0.005,
+    "f16_0": 0.004,
+    "f18_0": 0.001,
+    "fams": 0.014,
+    "f16_1cn7": 0.001,
+    "f18_1cn7": 0.0003,
+    "f18_1cn9": 0.013,
+    "fapu": 0.018,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.017,
+    "f18_2cn6": 0.017
+  },
+  "aminoAcids": {
+    "aae9": 0.045,
+    "ala": 0.012,
+    "arg": 0.008,
+    "asp": 0.147,
+    "cyste": 0.002,
+    "glu": 0.024,
+    "gly": 0.005,
+    "ile": 0.001,
+    "leu": 0.012,
+    "lys": 0.011,
+    "phe": 0.001,
+    "pro": 0.002,
+    "ser": 0.014,
+    "thr": 0.01,
+    "tyr": 0.001,
+    "val": 0.01
+  },
+  "otherNutrients": {
+    "nt": 0.071
+  },
+  "extra": {}
+}

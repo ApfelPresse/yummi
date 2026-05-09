@@ -1,0 +1,94 @@
+{
+  "name": "Erfrischungsgetränk isotonisch, mit Zucker und Süßungsmitteln, angereichert mit Vitaminen und Mineralstoffen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 18,
+    "water": 95,
+    "protein": 0.037,
+    "fat": null,
+    "carbs": 4.3,
+    "fiber": 0.011,
+    "alcohol": 0.001,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "carotpaxb": 1,
+    "vite": 1.8,
+    "tocpha": 1.8,
+    "thia": 0.002,
+    "ribf": 0.001,
+    "niaeq": 2.4,
+    "nia": 2.4,
+    "pantac": 0.9,
+    "vitb6": 160,
+    "biot": 6.2,
+    "fol": 51,
+    "folac": 30,
+    "vitb12": 0.19,
+    "vitc": 2.307
+  },
+  "minerals": {
+    "nacl": 0.05,
+    "na": 20,
+    "cld": 3,
+    "k": 10,
+    "ca": 24,
+    "mg": 11.3,
+    "p": 1,
+    "s": 1.6,
+    "zn": 0.01,
+    "cu": 5,
+    "fd": 27,
+    "mo": 0.05
+  },
+  "carbohydrates": {
+    "cho": 4.3,
+    "mnsac": 0.148,
+    "glus": 0.073,
+    "frus": 0.075,
+    "disac": 4.151,
+    "sucs": 4.151,
+    "sugar": 4.3
+  },
+  "fibers": {
+    "fibt": 0.011
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.004,
+    "f14_0": 0.0001,
+    "f16_0": 0.004,
+    "fams": 0.001,
+    "f18_1cn9": 0.001,
+    "fapu": 0.011,
+    "fapun3": 0.003,
+    "f18_3cn3": 0.003,
+    "fapun6": 0.008,
+    "f18_2cn6": 0.008
+  },
+  "aminoAcids": {
+    "aae9": 0.007,
+    "ala": 0.002,
+    "arg": 0.002,
+    "asp": 0.005,
+    "glu": 0.004,
+    "gly": 0.003,
+    "ile": 0.001,
+    "leu": 0.001,
+    "lys": 0.002,
+    "phe": 0.001,
+    "pro": 0.002,
+    "ser": 0.001,
+    "thr": 0.001,
+    "tyr": 0.001,
+    "val": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.006
+  },
+  "extra": {}
+}

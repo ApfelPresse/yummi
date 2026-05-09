@@ -1,0 +1,97 @@
+{
+  "name": "Schnittlauch roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 29,
+    "water": 83.3,
+    "protein": 2.6,
+    "fat": 0.74,
+    "carbs": 1.54,
+    "fiber": 2.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 50,
+    "vitaa": 25,
+    "cartb": 300,
+    "vite": 1.6,
+    "tocpha": 1.6,
+    "vitk": 375,
+    "vitk1": 375,
+    "thia": 0.14,
+    "ribf": 0.15,
+    "niaeq": 1.067,
+    "nia": 0.6,
+    "pantac": 0.33,
+    "vitb6": 420,
+    "vitc": 47
+  },
+  "minerals": {
+    "nacl": 0.024,
+    "na": 9.6,
+    "cld": 74,
+    "k": 301.8,
+    "ca": 116.3,
+    "mg": 20.5,
+    "p": 75,
+    "fe": 0.9,
+    "zn": 0.34,
+    "id": 4.2,
+    "cu": 62
+  },
+  "carbohydrates": {
+    "cho": 1.54,
+    "mnsac": 1.36,
+    "glus": 0.88,
+    "frus": 0.48,
+    "disac": 0.18,
+    "sucs": 0.18,
+    "sugar": 1.54
+  },
+  "fibers": {
+    "fibt": 2.6
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.094,
+    "f16_0": 0.086,
+    "f18_0": 0.0078,
+    "fams": 0.02,
+    "f16_1cn7": 0.012,
+    "f18_1cn9": 0.0078,
+    "fapu": 0.42,
+    "fapun3": 0.288,
+    "f18_3cn3": 0.288,
+    "fapun6": 0.132,
+    "f18_2cn6": 0.132
+  },
+  "aminoAcids": {
+    "aae9": 0.796,
+    "ala": 0.116,
+    "arg": 0.187,
+    "asp": 0.24,
+    "glu": 0.537,
+    "gly": 0.129,
+    "his": 0.046,
+    "ile": 0.109,
+    "leu": 0.155,
+    "lys": 0.129,
+    "met": 0.028,
+    "phe": 0.084,
+    "pro": 0.172,
+    "ser": 0.116,
+    "thr": 0.102,
+    "trp": 0.028,
+    "tyr": 0.075,
+    "val": 0.115
+  },
+  "otherNutrients": {
+    "nt": 0.416
+  },
+  "extra": {}
+}

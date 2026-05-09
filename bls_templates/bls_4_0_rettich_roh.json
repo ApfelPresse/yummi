@@ -1,0 +1,113 @@
+{
+  "name": "Rettich roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 21,
+    "water": 94.507,
+    "protein": 1.05,
+    "fat": 0.15,
+    "carbs": 2.97,
+    "fiber": 1.2,
+    "alcohol": null,
+    "sugarAlcohols": 0.14
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 9.4,
+    "carotpaxb": 2,
+    "vite": 0.0625,
+    "tocpha": 0.0625,
+    "tocphg": 0.0125,
+    "vitk": 1.4,
+    "vitk1": 1.4,
+    "thia": 0.458,
+    "ribf": 0.03,
+    "niaeq": 0.567,
+    "nia": 0.4,
+    "pantac": 0.18,
+    "vitb6": 60,
+    "biot": 3,
+    "fol": 24,
+    "folfd": 24,
+    "vitc": 27
+  },
+  "minerals": {
+    "nacl": 0.055,
+    "na": 22,
+    "cld": 19,
+    "k": 232,
+    "ca": 24,
+    "mg": 9,
+    "p": 36,
+    "fe": 0.28,
+    "zn": 0.16,
+    "cu": 15,
+    "mn": 45,
+    "fd": 12,
+    "cr": 4,
+    "mo": 4
+  },
+  "carbohydrates": {
+    "cho": 2.97,
+    "mnsac": 1.839,
+    "glus": 1.218,
+    "frus": 0.621,
+    "disac": 0.142,
+    "sucs": 0.142,
+    "sugar": 1.981,
+    "olsac": 0.04,
+    "starch": 0.8053
+  },
+  "fibers": {
+    "fibt": 1.2,
+    "fibhmw": 1.2,
+    "fibins": 0.9,
+    "fibsol": 0.3
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.14,
+    "sortl": 0.14
+  },
+  "fattyAcids": {
+    "fasat": 0.033,
+    "f16_0": 0.029,
+    "f18_0": 0.0036,
+    "fams": 0.015,
+    "f18_1cn9": 0.015,
+    "fapu": 0.073,
+    "fapun3": 0.055,
+    "f18_3cn3": 0.055,
+    "fapun6": 0.018,
+    "f18_2cn6": 0.018
+  },
+  "aminoAcids": {
+    "aae9": 0.314,
+    "ala": 0.036,
+    "arg": 0.06,
+    "asp": 0.103,
+    "cyste": 0.009,
+    "glu": 0.234,
+    "gly": 0.023,
+    "his": 0.022,
+    "ile": 0.053,
+    "leu": 0.055,
+    "lys": 0.049,
+    "met": 0.01,
+    "phe": 0.034,
+    "pro": 0.207,
+    "ser": 0.062,
+    "thr": 0.036,
+    "trp": 0.01,
+    "tyr": 0.018,
+    "val": 0.045
+  },
+  "otherNutrients": {
+    "nt": 0.168
+  },
+  "extra": {}
+}

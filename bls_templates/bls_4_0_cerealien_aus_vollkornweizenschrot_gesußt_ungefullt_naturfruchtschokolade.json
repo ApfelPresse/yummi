@@ -1,0 +1,111 @@
+{
+  "name": "Cerealien aus Vollkornweizenschrot, gesüßt, ungefüllt, Natur/Frucht/Schokolade",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 363,
+    "water": 5.4,
+    "protein": 10.36,
+    "fat": 1.8,
+    "carbs": 71.29,
+    "fiber": 9.64,
+    "alcohol": null,
+    "sugarAlcohols": 0.066
+  },
+  "vitamins": {
+    "vita": 1,
+    "vite": 1.1,
+    "tocpha": 1.1,
+    "tocphb": 0.26,
+    "tocphg": 1.9,
+    "tocphd": 0.26,
+    "vitk": 0.74,
+    "vitk2": 0.74,
+    "thia": 0.33,
+    "ribf": 0.08,
+    "niaeq": 3.38,
+    "nia": 0.91,
+    "pantac": 0.37,
+    "vitb6": 150,
+    "biot": 0.58,
+    "fol": 10.9,
+    "folfd": 10.9
+  },
+  "minerals": {
+    "nacl": 0.0045,
+    "na": 1.8,
+    "k": 323,
+    "ca": 32.8,
+    "mg": 72.2,
+    "p": 200.5,
+    "s": 94,
+    "fe": 2.765,
+    "zn": 1.74,
+    "cu": 310,
+    "mn": 2220,
+    "cr": 2.6,
+    "mo": 29.5
+  },
+  "carbohydrates": {
+    "cho": 71.29,
+    "mnsac": 0.32,
+    "glus": 0.32,
+    "disac": 14.88,
+    "sucs": 14.58,
+    "mals": 0.12,
+    "lacs": 0.18,
+    "sugar": 15.2,
+    "starch": 56.02
+  },
+  "fibers": {
+    "fibt": 9.64,
+    "fibhmw": 9.64,
+    "fibins": 8.04,
+    "fibsol": 1.6
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.066,
+    "sortl": 0.066
+  },
+  "fattyAcids": {
+    "fasat": 0.219,
+    "f16_0": 0.192,
+    "f18_0": 0.0271,
+    "fams": 0.28,
+    "f16_1cn7": 0.0026,
+    "f18_1cn9": 0.277,
+    "fapu": 0.797,
+    "fapun3": 0.0353,
+    "f18_3cn3": 0.0353,
+    "fapun6": 0.762,
+    "f18_2cn6": 0.762
+  },
+  "aminoAcids": {
+    "aae9": 3.416,
+    "ala": 0.432,
+    "arg": 0.554,
+    "asp": 0.517,
+    "cyste": 0.186,
+    "glu": 3.12,
+    "gly": 0.454,
+    "his": 0.271,
+    "ile": 0.41,
+    "leu": 0.784,
+    "lys": 0.314,
+    "met": 0.142,
+    "phe": 0.535,
+    "pro": 1.105,
+    "ser": 0.52,
+    "thr": 0.33,
+    "trp": 0.148,
+    "tyr": 0.344,
+    "val": 0.482
+  },
+  "otherNutrients": {
+    "nt": 1.66
+  },
+  "extra": {}
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Kohlrübe/Steckrübe, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 38,
+    "water": 88.5,
+    "protein": 0.7,
+    "fat": 0.1,
+    "carbs": 7,
+    "fiber": 3,
+    "alcohol": null,
+    "sugarAlcohols": 0.22
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "carotpaxb": 28,
+    "vite": 0.543,
+    "tocpha": 0.543,
+    "vitk": 2,
+    "vitk1": 2,
+    "thia": 0.02,
+    "niaeq": 0.6,
+    "nia": 0.5,
+    "pantac": 0.1,
+    "vitb6": 60,
+    "fol": 19,
+    "folfd": 19,
+    "vitc": 15
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 31,
+    "k": 175,
+    "ca": 37,
+    "mg": 8,
+    "p": 32,
+    "fe": 0.16,
+    "id": 0.3,
+    "mn": 80,
+    "fd": 30,
+    "cr": 0.5
+  },
+  "carbohydrates": {
+    "cho": 7,
+    "mnsac": 5.2,
+    "glus": 3,
+    "frus": 2.2,
+    "disac": 0.6,
+    "sucs": 0.5,
+    "sugar": 5.8,
+    "starch": 1
+  },
+  "fibers": {
+    "fibt": 3,
+    "fibhmw": 2.932,
+    "fibins": 1.954,
+    "fibsol": 0.978
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.22,
+    "sortl": 0.22
+  },
+  "fattyAcids": {
+    "fasat": 0.022,
+    "f14_0": 0.0005,
+    "f16_0": 0.02,
+    "f18_0": 0.001,
+    "fams": 0.0041,
+    "f16_1cn7": 0.003,
+    "f18_1cn9": 0.0008,
+    "f20_1cn9": 0.0003,
+    "fapu": 0.095,
+    "fapun3": 0.068,
+    "f18_3cn3": 0.068,
+    "fapun6": 0.027,
+    "f18_2cn6": 0.027
+  },
+  "aminoAcids": {
+    "aae9": 0.167,
+    "ala": 0.027,
+    "arg": 0.019,
+    "asp": 0.05,
+    "cyste": 0.004,
+    "glu": 0.102,
+    "gly": 0.019,
+    "his": 0.011,
+    "ile": 0.029,
+    "leu": 0.026,
+    "lys": 0.028,
+    "met": 0.009,
+    "phe": 0.014,
+    "pro": 0.021,
+    "ser": 0.023,
+    "thr": 0.02,
+    "trp": 0.007,
+    "tyr": 0.011,
+    "val": 0.023
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

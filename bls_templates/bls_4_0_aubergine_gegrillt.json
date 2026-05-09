@@ -1,0 +1,109 @@
+{
+  "name": "Aubergine gegrillt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 38,
+    "water": 87.4,
+    "protein": 1.117,
+    "fat": 0.36,
+    "carbs": 6.04,
+    "fiber": 2.8,
+    "alcohol": null,
+    "sugarAlcohols": 0.22
+  },
+  "vitamins": {
+    "vita": 12.98,
+    "vitaa": 6.49,
+    "cartb": 77.85,
+    "vite": 0.06,
+    "tocpha": 0.06,
+    "vitk": 2,
+    "vitk1": 2,
+    "thia": 0.068,
+    "ribf": 0.086,
+    "niaeq": 1.373,
+    "nia": 1.14,
+    "pantac": 0.409,
+    "vitb6": 125,
+    "biot": 3.4,
+    "fol": 57,
+    "folfd": 57,
+    "vitc": 6.953
+  },
+  "minerals": {
+    "nacl": 0.02,
+    "na": 8,
+    "cld": 110,
+    "k": 343,
+    "ca": 16,
+    "mg": 25,
+    "p": 42.8,
+    "fe": 0.4,
+    "zn": 0.22,
+    "id": 1.5,
+    "cu": 76,
+    "mn": 300
+  },
+  "carbohydrates": {
+    "cho": 6.04,
+    "mnsac": 4.96,
+    "glus": 3.28,
+    "frus": 1.68,
+    "disac": 0.42,
+    "sucs": 0.22,
+    "mals": 0.2,
+    "sugar": 5.38,
+    "starch": 0.44
+  },
+  "fibers": {
+    "fibt": 2.8,
+    "fibhmw": 2.8,
+    "fibins": 2.6,
+    "fibsol": 0.2
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.22,
+    "sortl": 0.22
+  },
+  "fattyAcids": {
+    "fasat": 0.078,
+    "f16_0": 0.058,
+    "f18_0": 0.02,
+    "fams": 0.037,
+    "f16_1cn7": 0.0046,
+    "f18_1cn9": 0.032,
+    "fapu": 0.174,
+    "fapun3": 0.03,
+    "f18_3cn3": 0.03,
+    "fapun6": 0.144,
+    "f18_2cn6": 0.144
+  },
+  "aminoAcids": {
+    "aae9": 0.521,
+    "ala": 0.059,
+    "arg": 0.074,
+    "asp": 0.196,
+    "cyste": 0.012,
+    "glu": 0.225,
+    "gly": 0.051,
+    "his": 0.02,
+    "ile": 0.063,
+    "leu": 0.116,
+    "lys": 0.074,
+    "met": 0.008,
+    "phe": 0.053,
+    "pro": 0.031,
+    "ser": 0.059,
+    "thr": 0.067,
+    "trp": 0.014,
+    "val": 0.106
+  },
+  "otherNutrients": {
+    "nt": 0.178
+  },
+  "extra": {}
+}

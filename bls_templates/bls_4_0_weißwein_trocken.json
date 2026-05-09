@@ -1,0 +1,57 @@
+{
+  "name": "Weißwein trocken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 64,
+    "water": 89.1,
+    "protein": 0.1,
+    "fat": null,
+    "carbs": 0.33,
+    "fiber": null,
+    "alcohol": 8.68,
+    "sugarAlcohols": 0.008
+  },
+  "vitamins": {
+    "vita": 1,
+    "ribf": 0.1,
+    "pantac": 0.46,
+    "fol": 3.6,
+    "folfd": 3.6,
+    "vitc": 5.2
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 69.4,
+    "ca": 7.8,
+    "mg": 6.8,
+    "p": 17.4,
+    "fe": 0.12,
+    "zn": 0.07,
+    "cu": 7.3,
+    "mn": 91,
+    "cr": 1.2,
+    "mo": 0.6
+  },
+  "carbohydrates": {
+    "cho": 0.33,
+    "mnsac": 0.32,
+    "glus": 0.18,
+    "frus": 0.14,
+    "sugar": 0.32
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.008
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.016
+  },
+  "extra": {}
+}

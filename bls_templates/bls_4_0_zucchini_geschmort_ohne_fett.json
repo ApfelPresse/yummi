@@ -1,0 +1,94 @@
+{
+  "name": "Zucchini geschmort ohne Fett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 23,
+    "water": 95,
+    "protein": 1.4,
+    "fat": 0.312,
+    "carbs": 3,
+    "fiber": 1.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 33,
+    "vitaa": 17,
+    "cartb": 189,
+    "carotpaxb": 19,
+    "vite": 0.34,
+    "tocpha": 0.34,
+    "vitk": 35,
+    "vitk1": 35,
+    "thia": 0.03,
+    "ribf": 0.02,
+    "niaeq": 0.39,
+    "nia": 0.39,
+    "pantac": 0.157,
+    "vitb6": 50,
+    "biot": 3.5,
+    "fol": 34,
+    "folfd": 34,
+    "vitc": 15.473
+  },
+  "minerals": {
+    "nacl": 0.0029,
+    "na": 1.17,
+    "cld": 26.6,
+    "k": 280.29,
+    "ca": 22.19,
+    "mg": 31.44,
+    "p": 49.44,
+    "fe": 0.4,
+    "zn": 0.26,
+    "id": 2.67,
+    "cu": 70,
+    "mn": 100,
+    "cr": 2
+  },
+  "carbohydrates": {
+    "cho": 3,
+    "mnsac": 2.2,
+    "glus": 1.1,
+    "frus": 1.1,
+    "disac": 0.05,
+    "mals": 0.05,
+    "sugar": 2.2,
+    "starch": 1
+  },
+  "fibers": {
+    "fibt": 1.2,
+    "fibhmw": 1.2,
+    "fibins": 0.9,
+    "fibsol": 0.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.074,
+    "f12_0": 0.002,
+    "f16_0": 0.064,
+    "f18_0": 0.0081,
+    "fams": 0.028,
+    "f16_1cn7": 0.002,
+    "f18_1cn9": 0.026,
+    "fapu": 0.152,
+    "fapun3": 0.095,
+    "f18_3cn3": 0.095,
+    "fapun6": 0.057,
+    "f18_2cn6": 0.057
+  },
+  "aminoAcids": {
+    "ala": 0.1,
+    "asp": 0.2,
+    "glu": 0.3,
+    "ser": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

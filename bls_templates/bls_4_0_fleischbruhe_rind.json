@@ -1,0 +1,67 @@
+{
+  "name": "Fleischbrühe (Rind)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 3,
+    "water": 97,
+    "protein": 0.4,
+    "fat": 0.2,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 1,
+    "vitaa": 1,
+    "retol": 1,
+    "niaeq": 0.2,
+    "nia": 0.2,
+    "vitb12": 0.1
+  },
+  "minerals": {
+    "nacl": 0.562,
+    "na": 225,
+    "k": 11,
+    "ca": 4,
+    "mg": 2,
+    "p": 7,
+    "fe": 0.1,
+    "id": 0.1
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.1,
+    "f16_0": 0.1,
+    "fams": 0.1,
+    "f18_1cn9": 0.1
+  },
+  "aminoAcids": {
+    "aae9": 0.09,
+    "ala": 0.02,
+    "arg": 0.01,
+    "asp": 0.02,
+    "glu": 0.14,
+    "gly": 0.02,
+    "his": 0.01,
+    "ile": 0.01,
+    "leu": 0.02,
+    "lys": 0.02,
+    "phe": 0.01,
+    "pro": 0.02,
+    "ser": 0.01,
+    "thr": 0.01,
+    "tyr": 0.01,
+    "val": 0.01
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Kichererbse reif",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 317,
+    "water": 8.767,
+    "protein": 18.583,
+    "fat": 5.915,
+    "carbs": 39.6,
+    "fiber": 15.51,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 30,
+    "vitaa": 15,
+    "cartb": 180,
+    "vite": 1.9,
+    "tocpha": 1.9,
+    "vitk": 170,
+    "vitk1": 170,
+    "thia": 0.517,
+    "ribf": 0.134,
+    "niaeq": 4.387,
+    "nia": 1.72,
+    "pantac": 1.32,
+    "vitb6": 560,
+    "biot": 21.4,
+    "fol": 212,
+    "folfd": 212,
+    "vitc": 5.08
+  },
+  "minerals": {
+    "nacl": 0.058,
+    "na": 23,
+    "cld": 80,
+    "k": 800,
+    "ca": 124,
+    "mg": 79,
+    "p": 334,
+    "fe": 4.9,
+    "zn": 2.373,
+    "id": 6.7,
+    "cu": 790,
+    "mn": 3400,
+    "cr": 8.8
+  },
+  "carbohydrates": {
+    "cho": 39.6,
+    "mnsac": 0.178,
+    "glus": 0.089,
+    "frus": 0.089,
+    "disac": 2.233,
+    "sucs": 2.233,
+    "sugar": 2.411,
+    "starch": 37.2
+  },
+  "fibers": {
+    "fibt": 15.51,
+    "fibhmw": 15.51,
+    "fibins": 11.1,
+    "fibsol": 4.41
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.918,
+    "f16_0": 0.612,
+    "f22_0": 0.306,
+    "fams": 1.53,
+    "f18_1cn7": 0.102,
+    "f18_1cn9": 1.428,
+    "fapu": 3.264,
+    "fapun3": 0.102,
+    "f18_3cn3": 0.102,
+    "fapun6": 3.162,
+    "f18_2cn6": 3.162
+  },
+  "aminoAcids": {
+    "aae9": 7.56,
+    "arg": 1.48,
+    "cyste": 0.28,
+    "his": 0.53,
+    "ile": 1.14,
+    "leu": 1.46,
+    "lys": 1.37,
+    "met": 0.26,
+    "phe": 0.96,
+    "thr": 0.7,
+    "trp": 0.16,
+    "tyr": 0.66,
+    "val": 0.98
+  },
+  "otherNutrients": {
+    "nt": 2.973
+  },
+  "extra": {}
+}

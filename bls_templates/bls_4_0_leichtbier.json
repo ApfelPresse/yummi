@@ -1,0 +1,83 @@
+{
+  "name": "Leichtbier",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 27,
+    "water": 92.48,
+    "protein": 0.422,
+    "fat": null,
+    "carbs": 2.2,
+    "fiber": null,
+    "alcohol": 2.4,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.003,
+    "ribf": 0.034,
+    "niaeq": 1.41,
+    "nia": 1.36,
+    "pantac": 0.0138,
+    "vitb6": 61,
+    "biot": 1.4,
+    "fol": 8.4,
+    "folfd": 8.4
+  },
+  "minerals": {
+    "nacl": 0.0038,
+    "na": 1.5,
+    "cld": 25.2,
+    "k": 53.6,
+    "ca": 5.2,
+    "mg": 8.6,
+    "p": 21.2,
+    "s": 11.15,
+    "fe": 0.0049,
+    "zn": 0.0009,
+    "id": 0.3022,
+    "cu": 5.4,
+    "mn": 11.1
+  },
+  "carbohydrates": {
+    "cho": 2.2,
+    "mnsac": 0.072,
+    "glus": 0.049,
+    "frus": 0.023,
+    "disac": 0.028,
+    "sucs": 0.006,
+    "mals": 0.022,
+    "sugar": 0.1,
+    "starch": 2.1107
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.088,
+    "ala": 0.011,
+    "arg": 0.012,
+    "asp": 0.014,
+    "cyste": 0.005,
+    "glu": 0.043,
+    "gly": 0.009,
+    "his": 0.006,
+    "ile": 0.011,
+    "leu": 0.019,
+    "lys": 0.008,
+    "met": 0.004,
+    "phe": 0.014,
+    "pro": 0.039,
+    "ser": 0.012,
+    "thr": 0.008,
+    "trp": 0.003,
+    "tyr": 0.006,
+    "val": 0.015
+  },
+  "otherNutrients": {
+    "nt": 0.068
+  },
+  "extra": {}
+}

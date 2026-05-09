@@ -1,0 +1,98 @@
+{
+  "name": "Aprikosenkompott mit Süßstoff",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 38,
+    "water": 87,
+    "protein": 0.7,
+    "fat": 0.115,
+    "carbs": 7.283,
+    "fiber": 1.365,
+    "alcohol": null,
+    "sugarAlcohols": 0.709
+  },
+  "vitamins": {
+    "vita": 188,
+    "vitaa": 94,
+    "cartb": 1038,
+    "carotpaxb": 176,
+    "vite": 0.443,
+    "tocpha": 0.443,
+    "vitk": 3,
+    "vitk1": 3,
+    "thia": 0.076,
+    "ribf": 0.047,
+    "niaeq": 0.614,
+    "nia": 0.614,
+    "pantac": 0.232,
+    "vitb6": 56,
+    "fol": 6.7,
+    "folfd": 6.7,
+    "vitc": 5.83
+  },
+  "minerals": {
+    "nacl": 0.015,
+    "na": 6,
+    "cld": 1,
+    "k": 320,
+    "ca": 20.6,
+    "mg": 18,
+    "p": 19,
+    "s": 0.4,
+    "fe": 0.542,
+    "zn": 0.19,
+    "id": 0.5,
+    "cu": 73,
+    "mn": 187,
+    "fd": 9,
+    "mo": 0.01
+  },
+  "carbohydrates": {
+    "cho": 7.283,
+    "mnsac": 2.547,
+    "glus": 1.719,
+    "frus": 0.828,
+    "disac": 4.027,
+    "sucs": 4.027,
+    "sugar": 6.574
+  },
+  "fibers": {
+    "fibt": 1.365
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.709,
+    "sortl": 0.709
+  },
+  "fattyAcids": {
+    "fasat": 0.0092,
+    "f16_0": 0.0082,
+    "f18_0": 0.001,
+    "fams": 0.057,
+    "f16_1cn7": 0.057,
+    "fapu": 0.026,
+    "fapun6": 0.026,
+    "f18_2cn6": 0.026
+  },
+  "aminoAcids": {
+    "aae9": 0.074,
+    "ala": 0.019,
+    "arg": 0.013,
+    "asp": 0.367,
+    "cyste": 0.005,
+    "glu": 0.037,
+    "leu": 0.021,
+    "lys": 0.02,
+    "pro": 0.013,
+    "ser": 0.022,
+    "thr": 0.017,
+    "val": 0.016
+  },
+  "otherNutrients": {
+    "nt": 0.113
+  },
+  "extra": {}
+}

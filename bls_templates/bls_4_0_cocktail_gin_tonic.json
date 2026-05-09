@@ -1,0 +1,54 @@
+{
+  "name": "Cocktail, Gin Tonic",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 55,
+    "water": 89.9,
+    "protein": null,
+    "fat": null,
+    "carbs": 5.368,
+    "fiber": null,
+    "alcohol": 4.79,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.001,
+    "niaeq": 0.01,
+    "nia": 0.01,
+    "vitc": 1.923
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 6,
+    "k": 3,
+    "ca": 4,
+    "mg": 1,
+    "p": 1,
+    "s": 5,
+    "zn": 0.01,
+    "cu": 2.1,
+    "mn": 23,
+    "fd": 8,
+    "mo": 0.01
+  },
+  "carbohydrates": {
+    "cho": 5.368,
+    "mnsac": 3.477,
+    "glus": 1.728,
+    "frus": 1.749,
+    "disac": 1.891,
+    "sucs": 1.891,
+    "sugar": 5.368
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

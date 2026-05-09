@@ -1,0 +1,41 @@
+{
+  "name": "Roibusch-/Rooibos-/Rotbusch-Tee (Getränk)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": null,
+    "water": 100,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 1.81,
+    "ca": 5,
+    "mg": 1.42,
+    "p": 0.2,
+    "fe": 0.007,
+    "zn": 0.0123,
+    "id": 0.52,
+    "cu": 44,
+    "mn": 27.1,
+    "cr": 0.3,
+    "mo": 49
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

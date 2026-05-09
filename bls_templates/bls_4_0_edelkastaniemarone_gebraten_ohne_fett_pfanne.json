@@ -1,0 +1,94 @@
+{
+  "name": "Edelkastanie/Marone, gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 228,
+    "water": 40.324,
+    "protein": 3.02,
+    "fat": 2.065,
+    "carbs": 44.783,
+    "fiber": 9.098,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "cartb": 23,
+    "vite": 0.543,
+    "tocpha": 0.543,
+    "thia": 0.185,
+    "ribf": 0.217,
+    "niaeq": 1.415,
+    "nia": 0.898,
+    "pantac": 0.489,
+    "vitb6": 361,
+    "biot": 2,
+    "vitc": 23.478
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 14,
+    "k": 1273.8,
+    "ca": 47.4,
+    "mg": 92.3,
+    "p": 178.7,
+    "fe": 1.79,
+    "zn": 0.96,
+    "id": 0.1,
+    "cu": 540,
+    "mn": 3500,
+    "cr": 25.2,
+    "mo": 3.28
+  },
+  "carbohydrates": {
+    "cho": 44.783,
+    "disac": 15.109,
+    "sucs": 15.109,
+    "sugar": 15.109,
+    "starch": 29.674
+  },
+  "fibers": {
+    "fibt": 9.098,
+    "fibhmw": 9.098,
+    "fibins": 8.707,
+    "fibsol": 0.391
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.31,
+    "f16_0": 0.288,
+    "f18_0": 0.022,
+    "fams": 1.1,
+    "f16_1cn7": 0.014,
+    "f18_1cn9": 1.066,
+    "f20_1cn9": 0.02,
+    "fapu": 0.544,
+    "fapun3": 0.053,
+    "f18_3cn3": 0.053,
+    "fapun6": 0.491,
+    "f18_2cn6": 0.491
+  },
+  "aminoAcids": {
+    "aae9": 0.734,
+    "arg": 0.207,
+    "cyste": 0.031,
+    "his": 0.083,
+    "lys": 0.155,
+    "met": 0.041,
+    "phe": 0.114,
+    "thr": 0.145,
+    "trp": 0.031,
+    "tyr": 0.145,
+    "val": 0.165
+  },
+  "otherNutrients": {
+    "nt": 0.483
+  },
+  "extra": {}
+}

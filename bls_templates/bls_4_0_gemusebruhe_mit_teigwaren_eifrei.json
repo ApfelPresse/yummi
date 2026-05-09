@@ -1,0 +1,89 @@
+{
+  "name": "Gemüsebrühe mit Teigwaren eifrei",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 21,
+    "water": 93,
+    "protein": 0.9,
+    "fat": 0.2,
+    "carbs": 3.91,
+    "fiber": 0.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 17,
+    "vitaa": 8,
+    "cartb": 99,
+    "vite": 0.03,
+    "tocpha": 0.03,
+    "tocphb": 0.01,
+    "tocphg": 0.05,
+    "vitk": 2,
+    "vitk1": 2,
+    "thia": 0.04,
+    "ribf": 0.03,
+    "niaeq": 0.5,
+    "nia": 0.5,
+    "pantac": 0.1,
+    "vitb6": 20,
+    "fol": 1,
+    "folfd": 1,
+    "vitc": 5
+  },
+  "minerals": {
+    "nacl": 0.645,
+    "na": 258,
+    "cld": 41,
+    "k": 24,
+    "ca": 6,
+    "mg": 4,
+    "p": 22,
+    "fe": 0.2,
+    "zn": 0.16,
+    "mn": 50
+  },
+  "carbohydrates": {
+    "cho": 3.91,
+    "mnsac": 0.16,
+    "glus": 0.12,
+    "frus": 0.04,
+    "disac": 0.42,
+    "sucs": 0.35,
+    "mals": 0.071,
+    "sugar": 0.58,
+    "starch": 3.33
+  },
+  "fibers": {
+    "fibt": 0.2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.1,
+    "f10_0": 0.003,
+    "f14_0": 0.001,
+    "f15_0": 0.001,
+    "f16_0": 0.1,
+    "f18_0": 0.001,
+    "fapu": 0.037,
+    "fapun3": 0.004,
+    "f18_3cn3": 0.004,
+    "fapun6": 0.033,
+    "f18_2cn6": 0.033,
+    "fax": 0.01
+  },
+  "aminoAcids": {
+    "aae9": 0.1,
+    "glu": 0.3,
+    "leu": 0.1,
+    "pro": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

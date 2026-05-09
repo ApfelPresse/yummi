@@ -1,0 +1,79 @@
+{
+  "name": "Kalb Hirn, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 109,
+    "water": 80.4,
+    "protein": 10.1,
+    "fat": 7.6,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.16,
+    "ribf": 0.26,
+    "niaeq": 5.933,
+    "nia": 3.6,
+    "pantac": 2.5,
+    "vitb6": 160,
+    "biot": 6,
+    "fol": 13,
+    "folfd": 13,
+    "vitb12": 5.7,
+    "vitc": 23
+  },
+  "minerals": {
+    "nacl": 0.395,
+    "na": 158,
+    "k": 280,
+    "ca": 12,
+    "mg": 15,
+    "p": 350,
+    "fe": 2.5,
+    "zn": 1.28,
+    "cu": 140,
+    "mn": 40
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 1.923,
+    "f14_0": 0.036,
+    "f16_0": 0.939,
+    "f18_0": 0.948,
+    "fams": 0.106,
+    "f20_1cn9": 0.106,
+    "fapu": 0.55,
+    "fapun3": 0.55,
+    "f22_5cn3": 0.116,
+    "f22_6cn3": 0.434,
+    "fax": 1.417
+  },
+  "aminoAcids": {
+    "aae9": 4.39,
+    "arg": 0.6,
+    "cyste": 0.13,
+    "his": 0.28,
+    "ile": 0.53,
+    "leu": 0.89,
+    "lys": 0.78,
+    "met": 0.25,
+    "phe": 0.48,
+    "thr": 0.48,
+    "trp": 0.14,
+    "tyr": 0.46,
+    "val": 0.56
+  },
+  "otherNutrients": {
+    "chorl": 2000,
+    "nt": 1.616
+  },
+  "extra": {}
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Sauerkirschkompott",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 96,
+    "water": 77.4,
+    "protein": 0.679,
+    "fat": 0.377,
+    "carbs": 21.436,
+    "fiber": 0.8,
+    "alcohol": null,
+    "sugarAlcohols": 0.754
+  },
+  "vitamins": {
+    "vita": 54,
+    "vitaa": 27,
+    "cartb": 226,
+    "carotpaxb": 192,
+    "vite": 0.098,
+    "tocpha": 0.098,
+    "tocphg": 0.015,
+    "toctra": 0.015,
+    "vitk": 5,
+    "vitk1": 5,
+    "thia": 0.03,
+    "ribf": 0.045,
+    "niaeq": 0.338,
+    "nia": 0.271,
+    "pantac": 0.122,
+    "vitb6": 31,
+    "fol": 39.4,
+    "folfd": 39.4,
+    "vitc": 6.334
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 17,
+    "k": 93.9,
+    "ca": 8.2,
+    "mg": 6.2,
+    "p": 14,
+    "s": 0.4,
+    "fe": 0.591,
+    "zn": 0.069,
+    "id": 1,
+    "cu": 59,
+    "mn": 47,
+    "fd": 2,
+    "cr": 2,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 21.436,
+    "mnsac": 8.048,
+    "glus": 4.961,
+    "frus": 3.087,
+    "disac": 12.634,
+    "sucs": 12.506,
+    "mals": 0.128,
+    "sugar": 20.682
+  },
+  "fibers": {
+    "fibt": 0.8
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.754,
+    "sortl": 0.754
+  },
+  "fattyAcids": {
+    "fasat": 0.082,
+    "f14_0": 0.0024,
+    "f16_0": 0.06,
+    "f18_0": 0.02,
+    "fams": 0.103,
+    "f16_1cn7": 0.0012,
+    "f18_1cn9": 0.102,
+    "fapu": 0.113,
+    "fapun3": 0.055,
+    "f18_3cn3": 0.055,
+    "fapun6": 0.058,
+    "f18_2cn6": 0.058
+  },
+  "aminoAcids": {
+    "aae9": 0.147,
+    "ala": 0.023,
+    "arg": 0.016,
+    "asp": 0.208,
+    "cyste": 0.01,
+    "glu": 0.06,
+    "gly": 0.023,
+    "his": 0.011,
+    "ile": 0.016,
+    "leu": 0.029,
+    "lys": 0.023,
+    "met": 0.004,
+    "phe": 0.019,
+    "pro": 0.027,
+    "ser": 0.024,
+    "thr": 0.021,
+    "trp": 0.004,
+    "tyr": 0.016,
+    "val": 0.02
+  },
+  "otherNutrients": {
+    "nt": 0.109
+  },
+  "extra": {}
+}

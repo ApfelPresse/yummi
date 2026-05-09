@@ -1,0 +1,72 @@
+{
+  "name": "Fruchtgummi (Gummibonbon)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 312,
+    "water": 8.15,
+    "protein": 4.8,
+    "fat": 0.3,
+    "carbs": 70.7,
+    "fiber": 1.01,
+    "alcohol": null,
+    "sugarAlcohols": 0.019
+  },
+  "vitamins": {
+    "vita": 0.3,
+    "vitaa": 0.3,
+    "retol": 0.3,
+    "vite": 0.048,
+    "tocpha": 0.048,
+    "tocphb": 0.067,
+    "tocphg": 0.007,
+    "pantac": 0.05,
+    "biot": 1.45,
+    "fol": 0.7,
+    "folfd": 0.7
+  },
+  "minerals": {
+    "nacl": 0.142,
+    "na": 57,
+    "k": 5,
+    "ca": 7,
+    "p": 4,
+    "s": 50,
+    "fe": 0.2,
+    "zn": 0.03,
+    "cu": 12,
+    "mn": 10,
+    "cr": 6.6,
+    "mo": 12
+  },
+  "carbohydrates": {
+    "cho": 70.7,
+    "mnsac": 13.6,
+    "glus": 9.2,
+    "frus": 4.35,
+    "disac": 43.1,
+    "sucs": 35.2,
+    "mals": 7.9,
+    "lacs": 0.0333,
+    "sugar": 56.7,
+    "olsac": 2.4,
+    "starch": 11.6
+  },
+  "fibers": {
+    "fibt": 1.01
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.019,
+    "sortl": 0.01,
+    "xyltl": 0.009
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.4
+  },
+  "extra": {}
+}

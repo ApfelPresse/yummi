@@ -1,0 +1,83 @@
+{
+  "name": "Shiitakepilz getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 270,
+    "water": 9.5,
+    "protein": 22.8,
+    "fat": 1.8,
+    "carbs": 21.74,
+    "fiber": 38.09,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.006,
+    "ribf": 1.81,
+    "niaeq": 24.14,
+    "nia": 22.52,
+    "vitb6": 1320,
+    "biot": 49.73,
+    "fol": 56.6,
+    "folfd": 56.6
+  },
+  "minerals": {
+    "nacl": 0.0228,
+    "na": 9.13,
+    "k": 2219.43,
+    "ca": 9.13,
+    "mg": 128.78,
+    "p": 694.14,
+    "fe": 1.28,
+    "zn": 6.94,
+    "cu": 460,
+    "mn": 1550
+  },
+  "carbohydrates": {
+    "cho": 21.74,
+    "mnsac": 21.74,
+    "glus": 21.74,
+    "sugar": 21.74
+  },
+  "fibers": {
+    "fibt": 38.09,
+    "fibhmw": 38.09,
+    "fibins": 30.05,
+    "fibsol": 8.04
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fapu": 0.9,
+    "fapun6": 0.9,
+    "f18_2cn6": 0.9
+  },
+  "aminoAcids": {
+    "aae9": 6.554,
+    "ala": 0.917,
+    "arg": 1.12,
+    "asp": 1.676,
+    "cyste": 0.212,
+    "glu": 3.131,
+    "gly": 0.803,
+    "his": 0.494,
+    "ile": 0.697,
+    "leu": 1.173,
+    "lys": 1.076,
+    "met": 0.256,
+    "phe": 0.803,
+    "pro": 0.794,
+    "ser": 0.909,
+    "thr": 0.864,
+    "trp": 0.097,
+    "tyr": 2.337,
+    "val": 1.094
+  },
+  "otherNutrients": {
+    "nt": 3.5
+  },
+  "extra": {}
+}

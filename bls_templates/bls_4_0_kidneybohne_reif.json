@@ -1,0 +1,95 @@
+{
+  "name": "Kidneybohne reif",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 316,
+    "water": 11.5,
+    "protein": 22.8,
+    "fat": 0.83,
+    "carbs": 40.3,
+    "fiber": 24.9,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk": 57,
+    "vitk1": 57,
+    "thia": 0.529,
+    "ribf": 0.219,
+    "niaeq": 6.71,
+    "nia": 2.06,
+    "pantac": 0.78,
+    "vitb6": 397,
+    "fol": 172,
+    "folfd": 172,
+    "vitc": 4.5
+  },
+  "minerals": {
+    "nacl": 0.06,
+    "na": 24,
+    "cld": 47,
+    "k": 1640,
+    "ca": 106.5,
+    "mg": 170,
+    "p": 407,
+    "fe": 6.15,
+    "zn": 3.05,
+    "id": 1.772,
+    "cu": 958,
+    "mn": 1020,
+    "fd": 95,
+    "cr": 10
+  },
+  "carbohydrates": {
+    "cho": 40.3,
+    "mnsac": 0.3,
+    "glus": 0.2,
+    "frus": 0.1,
+    "disac": 2.1,
+    "sucs": 2.1,
+    "sugar": 2.4,
+    "olsac": 3.4,
+    "starch": 34.5
+  },
+  "fibers": {
+    "fibt": 24.9,
+    "fibins": 19.7,
+    "fibsol": 5.2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.12,
+    "f16_0": 0.106,
+    "f18_0": 0.014,
+    "fax": 0.521
+  },
+  "aminoAcids": {
+    "aae9": 9.33,
+    "ala": 0.988,
+    "arg": 1.46,
+    "asp": 2.85,
+    "cyste": 0.256,
+    "glu": 3.6,
+    "gly": 0.92,
+    "his": 0.656,
+    "ile": 1.04,
+    "leu": 1.88,
+    "lys": 1.62,
+    "met": 0.355,
+    "phe": 1.28,
+    "pro": 1,
+    "ser": 1.28,
+    "thr": 0.992,
+    "trp": 0.279,
+    "tyr": 0.664,
+    "val": 1.23
+  },
+  "otherNutrients": {
+    "nt": 3.7
+  },
+  "extra": {}
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Weißwein süß",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 89,
+    "water": 83.7,
+    "protein": 0.143,
+    "fat": null,
+    "carbs": 6.15,
+    "fiber": null,
+    "alcohol": 8.9862,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.005,
+    "tocpha": 0.005,
+    "tocphb": 0.003,
+    "niaeq": 0.05,
+    "nia": 0.05,
+    "pantac": 0.04,
+    "fol": 2.4,
+    "folfd": 2.4,
+    "vitc": 2.7
+  },
+  "minerals": {
+    "nacl": 0.0048,
+    "na": 1.9,
+    "cld": 5,
+    "k": 58,
+    "ca": 7.6,
+    "mg": 6.9,
+    "p": 17.1,
+    "s": 13,
+    "fe": 0.124,
+    "zn": 0.06,
+    "cu": 11.4,
+    "mn": 86,
+    "fd": 29,
+    "cr": 1.5,
+    "mo": 0.11
+  },
+  "carbohydrates": {
+    "cho": 6.15,
+    "mnsac": 6.15,
+    "glus": 2.741,
+    "frus": 3.409,
+    "sugar": 6.15
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.023
+  },
+  "extra": {}
+}

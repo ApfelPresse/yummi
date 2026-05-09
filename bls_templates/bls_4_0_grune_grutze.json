@@ -1,0 +1,112 @@
+{
+  "name": "Grüne Grütze",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 54,
+    "water": 86,
+    "protein": 0.5,
+    "fat": 0.1,
+    "carbs": 11.7,
+    "fiber": 1.4,
+    "alcohol": 0.003,
+    "sugarAlcohols": 0.57
+  },
+  "vitamins": {
+    "vita": 13,
+    "vitaa": 6,
+    "cartb": 55,
+    "carotpaxb": 40,
+    "vite": 0.42,
+    "tocpha": 0.42,
+    "tocphg": 0.025,
+    "toctra": 0.005,
+    "vitk": 8,
+    "vitk1": 8,
+    "thia": 0.025,
+    "ribf": 0.015,
+    "niaeq": 0.4,
+    "nia": 0.4,
+    "pantac": 0.17,
+    "vitb6": 30,
+    "biot": 2,
+    "fol": 10,
+    "folfd": 10,
+    "vitc": 19
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 13,
+    "k": 186,
+    "ca": 9,
+    "mg": 8,
+    "p": 17,
+    "fe": 0.2,
+    "zn": 0.1,
+    "id": 1,
+    "cu": 60,
+    "mn": 70,
+    "fd": 5,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 11.7,
+    "mnsac": 7.4,
+    "glus": 3.1,
+    "frus": 4.3,
+    "gals": 0.02,
+    "disac": 2.267,
+    "sucs": 2.267,
+    "sugar": 9.7,
+    "starch": 1.43
+  },
+  "fibers": {
+    "fibt": 1.4
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.57,
+    "mantl": 0.04,
+    "sortl": 0.53
+  },
+  "fattyAcids": {
+    "fasat": 0.009,
+    "f16_0": 0.008,
+    "f18_0": 0.001,
+    "f24_0": 0.0001,
+    "fams": 0.009,
+    "f18_1cn7": 0.0002,
+    "f18_1cn9": 0.009,
+    "fapu": 0.0001,
+    "fapun6": 0.0001,
+    "f20_2cn6": 0.0001
+  },
+  "aminoAcids": {
+    "aae9": 0.102,
+    "ala": 0.028,
+    "arg": 0.022,
+    "asp": 0.128,
+    "cyste": 0.005,
+    "glu": 0.077,
+    "gly": 0.015,
+    "his": 0.006,
+    "ile": 0.007,
+    "leu": 0.02,
+    "lys": 0.019,
+    "met": 0.004,
+    "phe": 0.009,
+    "pro": 0.011,
+    "ser": 0.023,
+    "thr": 0.015,
+    "trp": 0.003,
+    "tyr": 0.007,
+    "val": 0.019
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

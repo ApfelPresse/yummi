@@ -1,0 +1,77 @@
+{
+  "name": "Gelee-Früchte",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 331,
+    "water": 21.2,
+    "protein": 0.015,
+    "fat": null,
+    "carbs": 78.6,
+    "fiber": 0.048,
+    "alcohol": 0.005,
+    "sugarAlcohols": 0.155
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 2,
+    "carotpaxb": 7,
+    "vite": 0.012,
+    "tocpha": 0.012,
+    "ribf": 0.0007,
+    "niaeq": 0.031,
+    "nia": 0.031,
+    "pantac": 0.01,
+    "vitb6": 1,
+    "biot": 0.1
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 1,
+    "k": 15,
+    "ca": 1,
+    "mg": 1,
+    "p": 1.2,
+    "s": 0.1,
+    "fe": 0.1,
+    "mn": 10,
+    "mo": 0.1
+  },
+  "carbohydrates": {
+    "cho": 78.6,
+    "mnsac": 1.71,
+    "glus": 0.75,
+    "frus": 0.964,
+    "disac": 68.6,
+    "sucs": 63.578,
+    "mals": 5,
+    "sugar": 70.3,
+    "olsac": 8.1
+  },
+  "fibers": {
+    "fibt": 0.048
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.155,
+    "sortl": 0.155
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.003,
+    "ala": 0.001,
+    "asp": 0.004,
+    "glu": 0.001,
+    "leu": 0.001,
+    "lys": 0.001,
+    "ser": 0.001,
+    "val": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.002
+  },
+  "extra": {}
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Kohlrabi roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 28,
+    "water": 91.6,
+    "protein": 1.94,
+    "fat": 0.16,
+    "carbs": 3.88,
+    "fiber": 1.5,
+    "alcohol": null,
+    "sugarAlcohols": 0.14
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 9,
+    "carotpaxb": 2,
+    "vite": 0.0625,
+    "tocpha": 0.0625,
+    "tocphg": 0.0125,
+    "vitk": 7,
+    "vitk1": 7,
+    "thia": 0.048,
+    "ribf": 0.046,
+    "niaeq": 2,
+    "nia": 1.8,
+    "pantac": 0.1,
+    "vitb6": 71,
+    "biot": 3,
+    "fol": 70.2,
+    "folfd": 70.2,
+    "vitc": 63.3
+  },
+  "minerals": {
+    "nacl": 0.05,
+    "na": 20,
+    "cld": 37,
+    "k": 322,
+    "ca": 59,
+    "mg": 43,
+    "p": 49.7,
+    "fe": 0.2,
+    "zn": 0.17,
+    "id": 0.728,
+    "cu": 27,
+    "mn": 70,
+    "fd": 12,
+    "cr": 4,
+    "mo": 4
+  },
+  "carbohydrates": {
+    "cho": 3.88,
+    "mnsac": 2.618,
+    "glus": 1.385,
+    "frus": 1.233,
+    "disac": 1.086,
+    "sucs": 1.086,
+    "sugar": 3.704,
+    "olsac": 0.04
+  },
+  "fibers": {
+    "fibt": 1.5,
+    "fibhmw": 1.5,
+    "fibins": 1,
+    "fibsol": 0.5
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.14,
+    "sortl": 0.14
+  },
+  "fattyAcids": {
+    "fasat": 0.028,
+    "f14_0": 0.0002,
+    "f16_0": 0.0235,
+    "f18_0": 0.0034,
+    "f20_0": 0.001,
+    "fams": 0.0138,
+    "f16_1cn7": 0.0023,
+    "f18_1cn9": 0.0115,
+    "fapu": 0.071,
+    "fapun3": 0.047,
+    "f18_3cn3": 0.047,
+    "fapun6": 0.024,
+    "f18_2cn6": 0.024
+  },
+  "aminoAcids": {
+    "aae9": 0.455,
+    "arg": 0.12,
+    "his": 0.037,
+    "ile": 0.089,
+    "leu": 0.078,
+    "lys": 0.064,
+    "met": 0.016,
+    "phe": 0.045,
+    "thr": 0.056,
+    "trp": 0.012,
+    "val": 0.058
+  },
+  "otherNutrients": {
+    "nt": 0.31
+  },
+  "extra": {}
+}

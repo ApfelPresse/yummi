@@ -1,0 +1,103 @@
+{
+  "name": "Käsealternative, Basis Pflanzenfett, vegan",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 293,
+    "water": 53.1,
+    "protein": 0.156,
+    "fat": 23.043,
+    "carbs": 21.168,
+    "fiber": 0.252,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.01,
+    "tocpha": 0.01,
+    "tocphb": 0.01,
+    "tocphg": 0.01,
+    "tocphd": 0.01,
+    "toctra": 0.32,
+    "vitk": 0.3,
+    "vitk1": 0.3,
+    "thia": 0.002,
+    "ribf": 0.013,
+    "niaeq": 0.068,
+    "nia": 0.035,
+    "vitb6": 3,
+    "biot": 2
+  },
+  "minerals": {
+    "nacl": 2.152,
+    "na": 861,
+    "cld": 1305,
+    "k": 8,
+    "ca": 10,
+    "mg": 2,
+    "p": 3,
+    "s": 1,
+    "fe": 0.357,
+    "zn": 0.04,
+    "id": 1,
+    "cu": 20,
+    "mn": 30,
+    "mo": 0.1
+  },
+  "carbohydrates": {
+    "cho": 21.168,
+    "starch": 21.168
+  },
+  "fibers": {
+    "fibt": 0.252
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 20.2,
+    "f6_0": 0.13,
+    "f8_0": 1.65,
+    "f10_0": 1.27,
+    "f12_0": 10.4,
+    "f14_0": 4.2,
+    "f16_0": 1.82,
+    "f18_0": 0.7,
+    "f20_0": 0.02,
+    "f24_0": 0.01,
+    "fams": 1.2,
+    "f18_1cn7": 0.01,
+    "f18_1cn9": 1.18,
+    "f20_1cn9": 0.01,
+    "fapu": 0.21,
+    "fapun6": 0.21,
+    "f18_2cn6": 0.21,
+    "fax": 0.02
+  },
+  "aminoAcids": {
+    "aae9": 0.055,
+    "ala": 0.003,
+    "arg": 0.008,
+    "asp": 0.018,
+    "cyste": 0.003,
+    "glu": 0.015,
+    "gly": 0.003,
+    "his": 0.004,
+    "ile": 0.006,
+    "leu": 0.009,
+    "lys": 0.009,
+    "met": 0.002,
+    "phe": 0.007,
+    "pro": 0.003,
+    "ser": 0.004,
+    "thr": 0.006,
+    "trp": 0.002,
+    "tyr": 0.007,
+    "val": 0.01
+  },
+  "otherNutrients": {
+    "nt": 0.025
+  },
+  "extra": {}
+}

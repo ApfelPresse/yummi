@@ -1,0 +1,98 @@
+{
+  "name": "Austernpilz getrocknet, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 131,
+    "water": 54.3,
+    "protein": 13.46,
+    "fat": 0.895,
+    "carbs": 5.17,
+    "fiber": 24.858,
+    "alcohol": null,
+    "sugarAlcohols": 0.651
+  },
+  "vitamins": {
+    "vitd": 3.1,
+    "ergcal": 3.1,
+    "thia": 0.441,
+    "ribf": 0.881,
+    "niaeq": 33.613,
+    "nia": 30.513,
+    "pantac": 3.57,
+    "vitb6": 310,
+    "biot": 20.05,
+    "fol": 77,
+    "folfd": 77,
+    "vitc": 0.315
+  },
+  "minerals": {
+    "nacl": 0.055,
+    "na": 22,
+    "k": 767.8,
+    "ca": 52,
+    "mg": 44,
+    "p": 273,
+    "fe": 2.3,
+    "zn": 2.09,
+    "cu": 352,
+    "mn": 11070,
+    "cr": 1.2
+  },
+  "carbohydrates": {
+    "cho": 5.17,
+    "mnsac": 4.52,
+    "glus": 4.52,
+    "sugar": 4.52
+  },
+  "fibers": {
+    "fibt": 24.858,
+    "fibhmw": 24.858,
+    "fibins": 19.627,
+    "fibsol": 5.231
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.651,
+    "mantl": 0.651
+  },
+  "fattyAcids": {
+    "fasat": 0.1245,
+    "f14_0": 0.0038,
+    "f16_0": 0.1021,
+    "f18_0": 0.0186,
+    "fams": 0.0858,
+    "f16_1cn7": 0.0089,
+    "f18_1cn9": 0.0769,
+    "fapu": 0.3963,
+    "fapun6": 0.3963,
+    "f18_2cn6": 0.3963
+  },
+  "aminoAcids": {
+    "aae9": 4.48,
+    "ala": 1.061,
+    "arg": 0.808,
+    "asp": 1.309,
+    "cyste": 0.124,
+    "glu": 2.805,
+    "gly": 0.559,
+    "his": 0.31,
+    "ile": 0.497,
+    "leu": 0.746,
+    "lys": 0.559,
+    "met": 0.186,
+    "phe": 0.497,
+    "pro": 0.186,
+    "ser": 0.559,
+    "thr": 0.62,
+    "trp": 0.186,
+    "tyr": 0.373,
+    "val": 0.874
+  },
+  "otherNutrients": {
+    "nt": 2.4
+  },
+  "extra": {}
+}

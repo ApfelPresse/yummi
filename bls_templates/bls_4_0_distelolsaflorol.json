@@ -1,0 +1,64 @@
+{
+  "name": "Distelöl/Safloröl",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 21,
+    "vitaa": 10,
+    "cartb": 125,
+    "vite": 38.7,
+    "tocpha": 38.7,
+    "tocphg": 17.4,
+    "tocphd": 24,
+    "vitk": 7.4,
+    "vitk1": 7.4
+  },
+  "minerals": {
+    "nacl": 0.0041,
+    "na": 1.65,
+    "k": 0.678,
+    "ca": 0.4417,
+    "mg": 0.4455,
+    "p": 1.702,
+    "fe": 0.1156,
+    "zn": 0.0401,
+    "id": 0.01,
+    "cu": 2.499,
+    "mn": 1.364
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 9.18,
+    "f16_0": 6.35,
+    "f18_0": 2.36,
+    "f20_0": 0.47,
+    "fams": 10.81,
+    "f18_1cn9": 10.34,
+    "f20_1cn9": 0.47,
+    "fapu": 75.59,
+    "fapun3": 0.47,
+    "f18_3cn3": 0.47,
+    "fapun6": 75.12,
+    "f18_2cn6": 75.12
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 2.055
+  },
+  "extra": {}
+}

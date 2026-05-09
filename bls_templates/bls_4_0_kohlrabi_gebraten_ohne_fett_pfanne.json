@@ -1,0 +1,108 @@
+{
+  "name": "Kohlrabi gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 53,
+    "water": 84.1,
+    "protein": 3.593,
+    "fat": 0.296,
+    "carbs": 7.19,
+    "fiber": 2.8,
+    "alcohol": null,
+    "sugarAlcohols": 0.26
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 1,
+    "cartb": 15,
+    "carotpaxb": 3,
+    "vite": 0.1157,
+    "tocpha": 0.1157,
+    "tocphg": 0.0231,
+    "vitk": 13,
+    "vitk1": 13,
+    "thia": 0.08,
+    "ribf": 0.081,
+    "niaeq": 3.534,
+    "nia": 3.167,
+    "pantac": 0.167,
+    "vitb6": 118,
+    "biot": 5,
+    "fol": 91,
+    "folfd": 91,
+    "vitc": 93.778
+  },
+  "minerals": {
+    "nacl": 0.092,
+    "na": 37,
+    "cld": 69,
+    "k": 596,
+    "ca": 109,
+    "mg": 80,
+    "p": 92,
+    "fe": 0.4,
+    "zn": 0.31,
+    "id": 1.281,
+    "cu": 50,
+    "mn": 130,
+    "fd": 22,
+    "cr": 7,
+    "mo": 7
+  },
+  "carbohydrates": {
+    "cho": 7.19,
+    "mnsac": 4.848,
+    "glus": 2.565,
+    "frus": 2.283,
+    "disac": 2.011,
+    "sucs": 2.011,
+    "sugar": 6.859,
+    "olsac": 0.074
+  },
+  "fibers": {
+    "fibt": 2.8,
+    "fibhmw": 2.8,
+    "fibins": 1.9,
+    "fibsol": 0.9
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.26,
+    "sortl": 0.26
+  },
+  "fattyAcids": {
+    "fasat": 0.052,
+    "f14_0": 0.0004,
+    "f16_0": 0.0435,
+    "f18_0": 0.0062,
+    "f20_0": 0.002,
+    "fams": 0.0256,
+    "f16_1cn7": 0.0043,
+    "f18_1cn9": 0.0213,
+    "fapu": 0.131,
+    "fapun3": 0.087,
+    "f18_3cn3": 0.087,
+    "fapun6": 0.044,
+    "f18_2cn6": 0.044
+  },
+  "aminoAcids": {
+    "aae9": 0.843,
+    "arg": 0.222,
+    "his": 0.069,
+    "ile": 0.165,
+    "leu": 0.144,
+    "lys": 0.119,
+    "met": 0.03,
+    "phe": 0.083,
+    "thr": 0.104,
+    "trp": 0.022,
+    "val": 0.107
+  },
+  "otherNutrients": {
+    "nt": 0.574
+  },
+  "extra": {}
+}

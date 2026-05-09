@@ -1,0 +1,102 @@
+{
+  "name": "Moltebeere roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 43,
+    "water": 86.1,
+    "protein": 1,
+    "fat": 0.3,
+    "carbs": 5.2,
+    "fiber": 4.7,
+    "alcohol": null,
+    "sugarAlcohols": 0.003
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "cartb": 7.8,
+    "carotpaxb": 30,
+    "vite": 0.79,
+    "tocpha": 0.79,
+    "tocphb": 0.13,
+    "tocphg": 1.28,
+    "tocphd": 1.2,
+    "vitk": 9,
+    "vitk1": 9,
+    "thia": 0.01,
+    "ribf": 0.01,
+    "niaeq": 0.5,
+    "nia": 0.5,
+    "pantac": 0.73,
+    "vitb6": 90,
+    "biot": 1.6,
+    "fol": 44,
+    "folfd": 44,
+    "vitc": 24
+  },
+  "minerals": {
+    "nacl": 0.0012,
+    "na": 0.5,
+    "cld": 11,
+    "k": 172,
+    "ca": 13,
+    "mg": 18,
+    "p": 28,
+    "fe": 0.6,
+    "zn": 0.3,
+    "cu": 70,
+    "mn": 440,
+    "fd": 16,
+    "cr": 4,
+    "mo": 7.64
+  },
+  "carbohydrates": {
+    "cho": 5.2,
+    "mnsac": 5.1,
+    "glus": 2.6,
+    "frus": 2.5,
+    "gals": 0.0107,
+    "disac": 0.05,
+    "mals": 0.05,
+    "sugar": 5.2
+  },
+  "fibers": {
+    "fibt": 4.7,
+    "fibhmw": 4.7,
+    "fibins": 3.2,
+    "fibsol": 1.5
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.003,
+    "xyltl": 0.003
+  },
+  "fattyAcids": {
+    "fasat": 0.01,
+    "f16_0": 0.008,
+    "f18_0": 0.002,
+    "fams": 0.03,
+    "f18_1cn9": 0.03,
+    "fapu": 0.195,
+    "fapun3": 0.065,
+    "f18_3cn3": 0.065,
+    "fapun6": 0.13,
+    "f18_2cn6": 0.13
+  },
+  "aminoAcids": {
+    "aae9": 0.2,
+    "ala": 0.1,
+    "asp": 0.1,
+    "glu": 0.2,
+    "leu": 0.1,
+    "lys": 0.1,
+    "ser": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

@@ -1,0 +1,98 @@
+{
+  "name": "Lammkotelett natur, gebraten",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 291,
+    "water": 52.7,
+    "protein": 23.98,
+    "fat": 21.69,
+    "carbs": 0.03,
+    "fiber": 0.02,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 2,
+    "retol": 2,
+    "vite": 0.36,
+    "tocpha": 0.36,
+    "tocphg": 0.006,
+    "thia": 0.059,
+    "ribf": 0.177,
+    "niaeq": 11.71,
+    "nia": 6.08,
+    "pantac": 0.596,
+    "vitb6": 144,
+    "biot": 0.005,
+    "fol": 0.01,
+    "folfd": 0.01,
+    "vitb12": 1.07
+  },
+  "minerals": {
+    "nacl": 0.602,
+    "na": 241,
+    "cld": 287,
+    "k": 403,
+    "ca": 5,
+    "mg": 30,
+    "p": 252,
+    "fe": 2.02,
+    "zn": 2.9,
+    "cu": 170,
+    "mn": 20
+  },
+  "carbohydrates": {
+    "cho": 0.03,
+    "starch": 0.03
+  },
+  "fibers": {
+    "fibt": 0.02
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 7.92,
+    "f12_0": 0.099,
+    "f14_0": 0.85,
+    "f16_0": 4,
+    "f18_0": 2.97,
+    "fams": 6.74,
+    "f16_1cn7": 0.48,
+    "f18_1cn9": 6.26,
+    "fapu": 0.62,
+    "fapun3": 0.22,
+    "f18_3cn3": 0.22,
+    "fapun6": 0.4,
+    "f18_2cn6": 0.4
+  },
+  "aminoAcids": {
+    "aae9": 11.426,
+    "ala": 1.704,
+    "arg": 1.704,
+    "asp": 2.527,
+    "cyste": 0.338,
+    "glu": 5.086,
+    "gly": 1.69,
+    "his": 0.741,
+    "ile": 1.431,
+    "leu": 2.141,
+    "lys": 2.367,
+    "met": 0.66,
+    "phe": 1.078,
+    "pro": 1.207,
+    "ser": 1.223,
+    "thr": 1.287,
+    "trp": 0.338,
+    "tyr": 0.919,
+    "val": 1.383
+  },
+  "otherNutrients": {
+    "chorl": 94,
+    "nt": 3.84
+  },
+  "extra": {}
+}

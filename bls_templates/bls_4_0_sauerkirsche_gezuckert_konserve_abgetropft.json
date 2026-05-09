@@ -1,0 +1,92 @@
+{
+  "name": "Sauerkirsche gezuckert, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 52,
+    "water": 86.2,
+    "protein": 0.84,
+    "fat": 0.21,
+    "carbs": 11.06,
+    "fiber": 1.08,
+    "alcohol": null,
+    "sugarAlcohols": 0.96
+  },
+  "vitamins": {
+    "vita": 52,
+    "vitaa": 26,
+    "cartb": 310,
+    "vite": 0.74,
+    "tocpha": 0.74,
+    "tocphb": 0.073,
+    "tocphg": 0.034,
+    "niaeq": 0.22,
+    "nia": 0.14,
+    "pantac": 0.06,
+    "biot": 0.68,
+    "fol": 5.3,
+    "folfd": 5.3
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 0.8,
+    "k": 100.8,
+    "ca": 17.2,
+    "mg": 8.3,
+    "p": 12.8,
+    "fe": 0.17,
+    "zn": 0.04,
+    "cu": 90,
+    "mn": 59,
+    "cr": 0.4,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 11.06,
+    "mnsac": 9.76,
+    "glus": 5,
+    "frus": 4.76,
+    "disac": 0.34,
+    "sucs": 0.24,
+    "mals": 0.1,
+    "sugar": 10.1
+  },
+  "fibers": {
+    "fibt": 1.08,
+    "fibhmw": 1.08,
+    "fibins": 0.73,
+    "fibsol": 0.35
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.96,
+    "sortl": 0.72,
+    "xyltl": 0.24
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.181,
+    "ala": 0.029,
+    "arg": 0.02,
+    "asp": 0.258,
+    "cyste": 0.012,
+    "glu": 0.074,
+    "gly": 0.028,
+    "his": 0.013,
+    "ile": 0.02,
+    "leu": 0.035,
+    "lys": 0.029,
+    "phe": 0.023,
+    "pro": 0.034,
+    "ser": 0.03,
+    "thr": 0.026,
+    "tyr": 0.02,
+    "val": 0.025
+  },
+  "otherNutrients": {
+    "nt": 0.13
+  },
+  "extra": {}
+}

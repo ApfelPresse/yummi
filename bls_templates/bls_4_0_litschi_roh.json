@@ -1,0 +1,71 @@
+{
+  "name": "Litschi roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 83,
+    "water": 79.69,
+    "protein": 0.86,
+    "fat": 0.3,
+    "carbs": 18.4,
+    "fiber": 1.6,
+    "alcohol": null,
+    "sugarAlcohols": 0.53
+  },
+  "vitamins": {
+    "vitk": 0.4,
+    "vitk1": 0.4,
+    "thia": 0.05,
+    "ribf": 0.05,
+    "niaeq": 0.647,
+    "nia": 0.53,
+    "pantac": 0.055,
+    "vitb6": 40,
+    "vitc": 39.2
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 190,
+    "ca": 9.3,
+    "mg": 10,
+    "p": 33,
+    "fe": 0.35,
+    "zn": 0.21,
+    "cu": 200,
+    "mn": 110
+  },
+  "carbohydrates": {
+    "cho": 18.4,
+    "mnsac": 9.3,
+    "glus": 5.99,
+    "frus": 3.3,
+    "disac": 8.6,
+    "sucs": 8.6,
+    "sugar": 17.9
+  },
+  "fibers": {
+    "fibt": 1.6,
+    "fibhmw": 1.6,
+    "fibins": 0.985,
+    "fibsol": 0.615
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.53,
+    "sortl": 0.53
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.057,
+    "lys": 0.041,
+    "met": 0.009,
+    "trp": 0.007
+  },
+  "otherNutrients": {
+    "nt": 0.144
+  },
+  "extra": {}
+}

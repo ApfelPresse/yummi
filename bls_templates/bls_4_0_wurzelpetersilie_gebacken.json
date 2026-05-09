@@ -1,0 +1,110 @@
+{
+  "name": "Wurzelpetersilie gebacken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 89,
+    "water": 80.1,
+    "protein": 3.388,
+    "fat": 0.553,
+    "carbs": 16.2,
+    "fiber": 2.506,
+    "alcohol": null,
+    "sugarAlcohols": 0.965
+  },
+  "vitamins": {
+    "vita": 5,
+    "vitaa": 3,
+    "cartb": 32,
+    "vite": 1.035,
+    "tocpha": 1.035,
+    "vitk": 1,
+    "vitk1": 1,
+    "thia": 0.1,
+    "ribf": 0.096,
+    "niaeq": 2.738,
+    "nia": 2.188,
+    "pantac": 0.529,
+    "vitb6": 249,
+    "fol": 52,
+    "folfd": 52,
+    "vitc": 39.553
+  },
+  "minerals": {
+    "nacl": 0.035,
+    "na": 14,
+    "k": 661,
+    "ca": 46,
+    "mg": 31,
+    "p": 66.6,
+    "fe": 1,
+    "zn": 0.747,
+    "id": 0.447,
+    "cu": 141,
+    "mn": 353,
+    "fd": 12,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 16.2,
+    "mnsac": 1.435,
+    "glus": 0.659,
+    "frus": 0.776,
+    "disac": 5.682,
+    "sucs": 5.682,
+    "sugar": 7.117,
+    "olsac": 0.365,
+    "starch": 7.8
+  },
+  "fibers": {
+    "fibt": 2.506,
+    "fibins": 1.776,
+    "fibsol": 0.729
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.965,
+    "mantl": 0.965
+  },
+  "fattyAcids": {
+    "fasat": 0.089,
+    "f14_0": 0.0005,
+    "f16_0": 0.085,
+    "f18_0": 0.0025,
+    "f20_0": 0.0013,
+    "fams": 0.0375,
+    "f16_1cn7": 0.0013,
+    "f18_1cn9": 0.0335,
+    "f20_1cn9": 0.0027,
+    "fapu": 0.2965,
+    "fapun3": 0.0371,
+    "f18_3cn3": 0.0371,
+    "fapun6": 0.2594,
+    "f18_2cn6": 0.2594
+  },
+  "aminoAcids": {
+    "aae9": 0.779,
+    "ala": 0.115,
+    "arg": 0.122,
+    "asp": 0.354,
+    "cyste": 0.011,
+    "glu": 0.899,
+    "gly": 0.094,
+    "ile": 0.105,
+    "leu": 0.138,
+    "lys": 0.133,
+    "met": 0.034,
+    "phe": 0.08,
+    "pro": 0.339,
+    "thr": 0.094,
+    "trp": 0.033,
+    "tyr": 0.042,
+    "val": 0.162
+  },
+  "otherNutrients": {
+    "nt": 0.542
+  },
+  "extra": {}
+}

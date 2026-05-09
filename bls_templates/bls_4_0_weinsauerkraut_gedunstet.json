@@ -1,0 +1,111 @@
+{
+  "name": "Weinsauerkraut gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 22,
+    "water": 90.9,
+    "protein": 1.093,
+    "fat": 0.301,
+    "carbs": 0.99,
+    "fiber": 2.076,
+    "alcohol": 0.08,
+    "sugarAlcohols": 0.12
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 1,
+    "cartb": 16,
+    "vite": 0.028,
+    "tocpha": 0.028,
+    "tocphg": 0.0058,
+    "tocphd": 0.0029,
+    "vitk": 29.1,
+    "vitk1": 24.4,
+    "vitk2": 4.7,
+    "thia": 0.023,
+    "ribf": 0.05,
+    "niaeq": 0.157,
+    "nia": 0.157,
+    "pantac": 0.2,
+    "vitb6": 184,
+    "biot": 0.72,
+    "fol": 21.3,
+    "folfd": 21.3,
+    "vitb12": 0.17,
+    "vitc": 15.4
+  },
+  "minerals": {
+    "nacl": 1.155,
+    "na": 462,
+    "k": 209,
+    "ca": 43,
+    "mg": 14,
+    "p": 42,
+    "fe": 1.069,
+    "zn": 0.32,
+    "cu": 29,
+    "mn": 138,
+    "fd": 44,
+    "cr": 5,
+    "mo": 9.1
+  },
+  "carbohydrates": {
+    "cho": 0.99,
+    "mnsac": 0.63,
+    "glus": 0.42,
+    "frus": 0.21,
+    "disac": 0.136,
+    "sucs": 0.136,
+    "sugar": 0.77,
+    "starch": 0.1
+  },
+  "fibers": {
+    "fibt": 2.076,
+    "fibhmw": 2.076,
+    "fibins": 1.261,
+    "fibsol": 0.815
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.12,
+    "mantl": 0.12
+  },
+  "fattyAcids": {
+    "fasat": 0.07,
+    "f16_0": 0.053,
+    "f18_0": 0.017,
+    "fams": 0.118,
+    "f18_1cn9": 0.118,
+    "fapu": 0.062,
+    "fapun3": 0.011,
+    "f18_3cn3": 0.011,
+    "fapun6": 0.051,
+    "f18_2cn6": 0.051
+  },
+  "aminoAcids": {
+    "aae9": 0.157,
+    "ala": 0.066,
+    "arg": 0.028,
+    "asp": 0.041,
+    "cyste": 0.014,
+    "glu": 0.144,
+    "gly": 0.021,
+    "his": 0.01,
+    "ile": 0.026,
+    "leu": 0.03,
+    "lys": 0.024,
+    "phe": 0.021,
+    "pro": 0.03,
+    "ser": 0.029,
+    "thr": 0.021,
+    "tyr": 0.014,
+    "val": 0.025
+  },
+  "otherNutrients": {
+    "nt": 0.175
+  },
+  "extra": {}
+}

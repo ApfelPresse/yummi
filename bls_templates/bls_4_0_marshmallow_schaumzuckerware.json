@@ -1,0 +1,81 @@
+{
+  "name": "Marshmallow (Schaumzuckerware)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 373,
+    "water": 16.2,
+    "protein": 1.8,
+    "fat": 0.2,
+    "carbs": 84,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "niaeq": 0.078,
+    "nia": 0.078,
+    "pantac": 0.002
+  },
+  "minerals": {
+    "nacl": 0.062,
+    "na": 25,
+    "cld": 36,
+    "k": 3,
+    "ca": 3,
+    "mg": 2,
+    "p": 6,
+    "fe": 0.28,
+    "zn": 0.04,
+    "cu": 97,
+    "mn": 8
+  },
+  "carbohydrates": {
+    "cho": 84,
+    "mnsac": 14,
+    "glus": 11.8,
+    "frus": 2.2,
+    "disac": 51.8,
+    "sucs": 43.4,
+    "mals": 8.4,
+    "sugar": 65.8,
+    "olsac": 14.1,
+    "starch": 4.1
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.06,
+    "f14_0": 0.001,
+    "f16_0": 0.04,
+    "f18_0": 0.015,
+    "fax": 0.127
+  },
+  "aminoAcids": {
+    "aae9": 0.33,
+    "ala": 0.18,
+    "arg": 0.147,
+    "asp": 0.121,
+    "cyste": 0.002,
+    "glu": 0.208,
+    "gly": 0.416,
+    "his": 0.017,
+    "ile": 0.028,
+    "leu": 0.066,
+    "lys": 0.077,
+    "met": 0.015,
+    "phe": 0.042,
+    "pro": 0.275,
+    "ser": 0.061,
+    "thr": 0.035,
+    "tyr": 0.01,
+    "val": 0.05
+  },
+  "otherNutrients": {
+    "nt": 0.6
+  },
+  "extra": {}
+}

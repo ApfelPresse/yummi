@@ -1,0 +1,99 @@
+{
+  "name": "Apfel getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 242,
+    "water": 32.2,
+    "protein": 1.29,
+    "fat": null,
+    "carbs": 53.43,
+    "fiber": 9.28,
+    "alcohol": null,
+    "sugarAlcohols": 1.85
+  },
+  "vitamins": {
+    "vita": 7,
+    "vitaa": 3,
+    "cartb": 41,
+    "vite": 0.71,
+    "tocpha": 0.71,
+    "tocphb": 0.024,
+    "tocphg": 0.13,
+    "vitk": 3,
+    "vitk1": 3,
+    "thia": 0.03,
+    "ribf": 0.08,
+    "niaeq": 0.53,
+    "nia": 0.26,
+    "pantac": 0.16,
+    "vitb6": 105,
+    "biot": 1.45,
+    "fol": 4.4,
+    "folfd": 4.4,
+    "vitc": 8
+  },
+  "minerals": {
+    "nacl": 0.202,
+    "na": 80.8,
+    "k": 554.5,
+    "ca": 18,
+    "mg": 17.7,
+    "p": 40.2,
+    "s": 19,
+    "fe": 0.505,
+    "zn": 0.09,
+    "cu": 225,
+    "mn": 120,
+    "cr": 15.5,
+    "mo": 6.8
+  },
+  "carbohydrates": {
+    "cho": 53.43,
+    "mnsac": 41.85,
+    "glus": 12.55,
+    "frus": 29.3,
+    "disac": 9.73,
+    "sucs": 9.73,
+    "sugar": 51.58
+  },
+  "fibers": {
+    "fibt": 9.28,
+    "fibhmw": 9.28,
+    "fibins": 6.04,
+    "fibsol": 3.24
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.85,
+    "sortl": 1.85
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.287,
+    "ala": 0.054,
+    "arg": 0.038,
+    "asp": 0.466,
+    "cyste": 0.025,
+    "glu": 0.097,
+    "gly": 0.044,
+    "his": 0.016,
+    "ile": 0.031,
+    "leu": 0.057,
+    "lys": 0.044,
+    "met": 0.014,
+    "phe": 0.034,
+    "pro": 0.034,
+    "ser": 0.048,
+    "thr": 0.036,
+    "trp": 0.016,
+    "tyr": 0.025,
+    "val": 0.039
+  },
+  "otherNutrients": {
+    "nt": 0.21
+  },
+  "extra": {}
+}

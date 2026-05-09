@@ -1,0 +1,87 @@
+{
+  "name": "Okra gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 35,
+    "water": 85.03,
+    "protein": 2.283,
+    "fat": 0.217,
+    "carbs": 3.32,
+    "fiber": 5.326,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 64.205,
+    "vitaa": 32.103,
+    "cartb": 385.231,
+    "vitk": 34,
+    "vitk1": 34,
+    "thia": 0.068,
+    "ribf": 0.083,
+    "niaeq": 1.309,
+    "nia": 0.826,
+    "pantac": 0.24,
+    "vitb6": 200,
+    "vitc": 31.304
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "k": 216,
+    "ca": 70,
+    "mg": 40.8,
+    "p": 82,
+    "fe": 0.71,
+    "zn": 1.413,
+    "id": 5.8,
+    "cu": 15,
+    "mn": 152
+  },
+  "carbohydrates": {
+    "cho": 3.32,
+    "mnsac": 2.56,
+    "glus": 1.6,
+    "frus": 0.96,
+    "disac": 0.761,
+    "sucs": 0.761,
+    "sugar": 3.32
+  },
+  "fibers": {
+    "fibt": 5.326,
+    "fibhmw": 5.326,
+    "fibins": 4.946,
+    "fibsol": 0.38
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.65,
+    "ala": 0.093,
+    "arg": 0.11,
+    "asp": 0.326,
+    "cyste": 0.043,
+    "glu": 0.301,
+    "gly": 0.085,
+    "his": 0.047,
+    "ile": 0.074,
+    "leu": 0.12,
+    "lys": 0.101,
+    "met": 0.027,
+    "phe": 0.071,
+    "pro": 0.099,
+    "ser": 0.091,
+    "thr": 0.085,
+    "trp": 0.029,
+    "tyr": 0.048,
+    "val": 0.096
+  },
+  "otherNutrients": {
+    "nt": 0.365
+  },
+  "extra": {}
+}

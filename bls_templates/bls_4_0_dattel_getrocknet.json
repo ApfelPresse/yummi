@@ -1,0 +1,99 @@
+{
+  "name": "Dattel getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 356,
+    "water": 9.4,
+    "protein": 2.64,
+    "fat": 0.36,
+    "carbs": 79.3,
+    "fiber": 11.16,
+    "alcohol": null,
+    "sugarAlcohols": 0.375
+  },
+  "vitamins": {
+    "vita": 1,
+    "vitaa": 1,
+    "carotpaxb": 2,
+    "vite": 0.77,
+    "tocpha": 0.77,
+    "tocphg": 0.47,
+    "vitk": 2.7,
+    "vitk1": 2.7,
+    "thia": 0.1,
+    "ribf": 0.06,
+    "niaeq": 1.63,
+    "nia": 1.3,
+    "pantac": 0.29,
+    "vitb6": 210,
+    "biot": 1.6,
+    "fol": 7.4,
+    "folfd": 7.4,
+    "vitc": 3
+  },
+  "minerals": {
+    "nacl": 0.0118,
+    "na": 4.7,
+    "cld": 370,
+    "k": 704,
+    "ca": 50.6,
+    "mg": 51.2,
+    "p": 56.8,
+    "fe": 0.625,
+    "zn": 0.26,
+    "id": 1,
+    "cu": 200,
+    "mn": 290,
+    "cr": 2.4,
+    "mo": 7.2
+  },
+  "carbohydrates": {
+    "cho": 79.3,
+    "mnsac": 61.19,
+    "glus": 27.92,
+    "frus": 33.27,
+    "disac": 17.73,
+    "sucs": 17.73,
+    "sugar": 78.92
+  },
+  "fibers": {
+    "fibt": 11.16,
+    "fibhmw": 11.16,
+    "fibins": 9.64,
+    "fibsol": 1.52
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.375,
+    "sortl": 0.375
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.337,
+    "ala": 0.068,
+    "arg": 0.092,
+    "asp": 0.163,
+    "cyste": 0.052,
+    "glu": 0.233,
+    "gly": 0.084,
+    "his": 0.02,
+    "ile": 0.038,
+    "leu": 0.07,
+    "lys": 0.042,
+    "met": 0.017,
+    "phe": 0.04,
+    "pro": 0.112,
+    "ser": 0.046,
+    "thr": 0.038,
+    "trp": 0.02,
+    "tyr": 0.028,
+    "val": 0.052
+  },
+  "otherNutrients": {
+    "nt": 0.42
+  },
+  "extra": {}
+}

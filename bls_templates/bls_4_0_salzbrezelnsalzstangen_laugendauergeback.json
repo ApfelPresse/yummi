@@ -1,0 +1,111 @@
+{
+  "name": "Salzbrezeln/Salzstangen (Laugendauergebäck)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 389,
+    "water": 1.5,
+    "protein": 11.54,
+    "fat": 4.3,
+    "carbs": 73.72,
+    "fiber": 4.17,
+    "alcohol": null,
+    "sugarAlcohols": 0.026
+  },
+  "vitamins": {
+    "vite": 2.35,
+    "tocpha": 2.35,
+    "tocphb": 0.68,
+    "tocphg": 1.9,
+    "tocphd": 0.053,
+    "vitk": 3.651,
+    "vitk1": 2.635,
+    "vitk2": 1.016,
+    "thia": 0.086,
+    "niaeq": 4.745,
+    "nia": 2.745,
+    "pantac": 0.225,
+    "vitb6": 80,
+    "biot": 1.62,
+    "vitc": 1.185
+  },
+  "minerals": {
+    "nacl": 4.025,
+    "na": 1610,
+    "cld": 2275,
+    "k": 163.2,
+    "ca": 27.8,
+    "mg": 31.2,
+    "p": 116.5,
+    "s": 138,
+    "fe": 1,
+    "zn": 0.82,
+    "id": 2,
+    "cu": 135,
+    "mn": 725,
+    "cr": 2,
+    "mo": 18
+  },
+  "carbohydrates": {
+    "cho": 73.72,
+    "mnsac": 0.3,
+    "glus": 0.16,
+    "frus": 0.14,
+    "disac": 2.11,
+    "sucs": 0.4,
+    "mals": 1.71,
+    "sugar": 2.41,
+    "starch": 71.28
+  },
+  "fibers": {
+    "fibt": 4.17,
+    "fibhmw": 4.17,
+    "fibins": 1.09,
+    "fibsol": 3.08
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.026,
+    "sortl": 0.014,
+    "xyltl": 0.012
+  },
+  "fattyAcids": {
+    "fasat": 0.423,
+    "f16_0": 0.311,
+    "f18_0": 0.112,
+    "fams": 1.63,
+    "f18_1cn9": 1.63,
+    "fapu": 0.824,
+    "fapun3": 0.137,
+    "f18_3cn3": 0.137,
+    "fapun6": 0.687,
+    "f18_2cn6": 0.687
+  },
+  "aminoAcids": {
+    "aae9": 3.42,
+    "ala": 0.36,
+    "arg": 0.41,
+    "asp": 0.49,
+    "cyste": 0.22,
+    "glu": 4.19,
+    "gly": 0.43,
+    "his": 0.24,
+    "ile": 0.42,
+    "leu": 0.8,
+    "lys": 0.18,
+    "met": 0.14,
+    "phe": 0.72,
+    "pro": 1.35,
+    "ser": 0.56,
+    "thr": 0.31,
+    "trp": 0.12,
+    "tyr": 0.34,
+    "val": 0.49
+  },
+  "otherNutrients": {
+    "nt": 1.85
+  },
+  "extra": {}
+}

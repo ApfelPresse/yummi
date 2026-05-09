@@ -1,0 +1,109 @@
+{
+  "name": "Bohne grün, gebacken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 33,
+    "water": 88.8,
+    "protein": 2.633,
+    "fat": 0.282,
+    "carbs": 4.1,
+    "fiber": 2.224,
+    "alcohol": null,
+    "sugarAlcohols": 0.33
+  },
+  "vitamins": {
+    "vita": 76,
+    "vitaa": 38,
+    "cartb": 410,
+    "carotpaxb": 88,
+    "vite": 0.0735,
+    "tocpha": 0.0735,
+    "tocphg": 0.224,
+    "tocphd": 0.0088,
+    "vitk": 42,
+    "vitk1": 42,
+    "thia": 0.127,
+    "ribf": 0.101,
+    "niaeq": 1.427,
+    "nia": 0.894,
+    "pantac": 0.12,
+    "vitb6": 35.86,
+    "biot": 1,
+    "fol": 43,
+    "folfd": 43,
+    "vitc": 17.826
+  },
+  "minerals": {
+    "nacl": 0.0058,
+    "na": 2.33,
+    "cld": 15.16,
+    "k": 275,
+    "ca": 76,
+    "mg": 28,
+    "p": 42.133,
+    "fe": 0.918,
+    "zn": 0.38,
+    "id": 2,
+    "cu": 80,
+    "mn": 310,
+    "fd": 14,
+    "cr": 1,
+    "mo": 24
+  },
+  "carbohydrates": {
+    "cho": 4.1,
+    "mnsac": 2.53,
+    "glus": 1.11,
+    "frus": 1.42,
+    "disac": 0.134,
+    "sucs": 0.134,
+    "sugar": 2.66,
+    "starch": 1.1
+  },
+  "fibers": {
+    "fibt": 2.224,
+    "fibhmw": 2.224,
+    "fibins": 1.188,
+    "fibsol": 1.035
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.33,
+    "mantl": 0.13,
+    "sortl": 0.2
+  },
+  "fattyAcids": {
+    "fasat": 0.083,
+    "f16_0": 0.073,
+    "f18_0": 0.0104,
+    "fams": 0.008,
+    "f18_1cn9": 0.008,
+    "fapu": 0.135,
+    "fapun3": 0.073,
+    "f18_3cn3": 0.073,
+    "fapun6": 0.062,
+    "f18_2cn6": 0.062
+  },
+  "aminoAcids": {
+    "aae9": 0.937,
+    "arg": 0.118,
+    "cyste": 0.028,
+    "his": 0.058,
+    "ile": 0.129,
+    "leu": 0.165,
+    "lys": 0.165,
+    "met": 0.04,
+    "phe": 0.086,
+    "thr": 0.109,
+    "trp": 0.032,
+    "tyr": 0.059,
+    "val": 0.153
+  },
+  "otherNutrients": {
+    "nt": 0.421
+  },
+  "extra": {}
+}

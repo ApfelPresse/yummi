@@ -1,0 +1,82 @@
+{
+  "name": "Rotweinsauce süß",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 76,
+    "water": 83,
+    "protein": 0.008,
+    "fat": null,
+    "carbs": 12.9,
+    "fiber": 0.008,
+    "alcohol": 3.2,
+    "sugarAlcohols": 0.025
+  },
+  "vitamins": {
+    "vite": 0.014,
+    "tocpha": 0.014,
+    "tocphb": 0.004,
+    "ribf": 0.03,
+    "niaeq": 0.08,
+    "nia": 0.08,
+    "pantac": 0.04,
+    "fol": 1.7,
+    "folfd": 1.7,
+    "vitc": 0.6
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 91,
+    "ca": 7,
+    "mg": 9,
+    "p": 17,
+    "s": 10,
+    "fe": 0.28,
+    "zn": 0.07,
+    "cu": 10,
+    "mn": 100,
+    "cr": 1,
+    "mo": 0.2
+  },
+  "carbohydrates": {
+    "cho": 12.9,
+    "mnsac": 1.54,
+    "glus": 0.71,
+    "frus": 0.83,
+    "disac": 10.583,
+    "sucs": 10.583,
+    "sugar": 12.12,
+    "starch": 0.757
+  },
+  "fibers": {
+    "fibt": 0.008
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.025,
+    "sortl": 0.025
+  },
+  "fattyAcids": {
+    "fasat": 0.001,
+    "f16_0": 0.001,
+    "fapu": 0.003,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.002,
+    "f18_2cn6": 0.002
+  },
+  "aminoAcids": {
+    "ala": 0.001,
+    "asp": 0.001,
+    "glu": 0.001,
+    "gly": 0.001,
+    "pro": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.001
+  },
+  "extra": {}
+}

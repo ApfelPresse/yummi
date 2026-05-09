@@ -1,0 +1,100 @@
+{
+  "name": "Kapstachelbeersaft/Physalissaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 68,
+    "water": 86.609,
+    "protein": 2.07,
+    "fat": 0.88,
+    "carbs": 12.712,
+    "fiber": 0.246,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 156,
+    "vitaa": 78,
+    "cartb": 873,
+    "carotpaxb": 120,
+    "vitk": 2.6,
+    "vitk1": 2.6,
+    "thia": 0.048,
+    "ribf": 0.032,
+    "niaeq": 1.95,
+    "nia": 1.6,
+    "pantac": 0.11,
+    "fol": 5,
+    "folfd": 5,
+    "vitc": 16.8
+  },
+  "minerals": {
+    "nacl": 0.0035,
+    "na": 1.4,
+    "k": 160,
+    "ca": 12,
+    "mg": 8,
+    "p": 38,
+    "fe": 1.235,
+    "zn": 0.07,
+    "cu": 20,
+    "mn": 46
+  },
+  "carbohydrates": {
+    "cho": 12.712,
+    "mnsac": 11.7,
+    "glus": 6.52,
+    "frus": 5.18,
+    "disac": 1.012,
+    "sucs": 1.012,
+    "sugar": 12.712
+  },
+  "fibers": {
+    "fibt": 0.246,
+    "fibhmw": 0.246,
+    "fibins": 0.204,
+    "fibsol": 0.042
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.08,
+    "f16_0": 0.063,
+    "f18_0": 0.017,
+    "fams": 0.092,
+    "f16_1cn7": 0.006,
+    "f18_1cn9": 0.086,
+    "fapu": 0.469,
+    "fapun3": 0.12,
+    "f18_3cn3": 0.12,
+    "fapun6": 0.349,
+    "f18_2cn6": 0.349
+  },
+  "aminoAcids": {
+    "aae9": 0.189,
+    "ala": 0.053,
+    "arg": 0.162,
+    "asp": 0.301,
+    "cyste": 0.021,
+    "glu": 0.057,
+    "gly": 0.021,
+    "his": 0.021,
+    "ile": 0.021,
+    "leu": 0.021,
+    "lys": 0.021,
+    "met": 0.021,
+    "phe": 0.021,
+    "pro": 0.089,
+    "ser": 0.049,
+    "thr": 0.021,
+    "trp": 0.021,
+    "tyr": 0.021,
+    "val": 0.021
+  },
+  "otherNutrients": {
+    "nt": 0.331
+  },
+  "extra": {}
+}

@@ -1,0 +1,97 @@
+{
+  "name": "Reis parboiled, poliert, gekocht, gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 117,
+    "water": 64.9,
+    "protein": 2.851,
+    "fat": 0.34,
+    "carbs": 25.3,
+    "fiber": 0.5,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.01,
+    "tocpha": 0.01,
+    "tocphb": 0.01,
+    "tocphg": 0.06,
+    "toctra": 0.02,
+    "thia": 0.05,
+    "ribf": 0.01,
+    "niaeq": 1.011,
+    "nia": 0.394,
+    "pantac": 0.2,
+    "vitb6": 110,
+    "biot": 1,
+    "fol": 2,
+    "folfd": 2
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "k": 50,
+    "ca": 2,
+    "mg": 37,
+    "p": 60,
+    "fe": 0.283,
+    "zn": 0.684,
+    "id": 0.2,
+    "cu": 124,
+    "mn": 1056,
+    "fd": 18,
+    "cr": 1,
+    "mo": 15
+  },
+  "carbohydrates": {
+    "cho": 25.3,
+    "mnsac": 0.05,
+    "glus": 0.04,
+    "frus": 0.01,
+    "disac": 0.07,
+    "sucs": 0.07,
+    "sugar": 0.12,
+    "starch": 25.2
+  },
+  "fibers": {
+    "fibt": 0.5,
+    "fibins": 0.2,
+    "fibsol": 0.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.098,
+    "f16_0": 0.093,
+    "f18_0": 0.005,
+    "fax": 0.19
+  },
+  "aminoAcids": {
+    "aae9": 1,
+    "ala": 0.156,
+    "arg": 0.218,
+    "asp": 0.262,
+    "cyste": 0.043,
+    "glu": 0.4,
+    "gly": 0.124,
+    "his": 0.063,
+    "ile": 0.119,
+    "leu": 0.221,
+    "lys": 0.088,
+    "met": 0.065,
+    "phe": 0.144,
+    "pro": 0.147,
+    "ser": 0.133,
+    "thr": 0.094,
+    "trp": 0.037,
+    "tyr": 0.078,
+    "val": 0.17
+  },
+  "otherNutrients": {
+    "nt": 0.456
+  },
+  "extra": {}
+}

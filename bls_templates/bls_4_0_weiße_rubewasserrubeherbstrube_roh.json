@@ -1,0 +1,113 @@
+{
+  "name": "Weiße Rübe/Wasserrübe/Herbstrübe, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 40,
+    "water": 89.91,
+    "protein": 0.99,
+    "fat": 0.22,
+    "carbs": 6.58,
+    "fiber": 3.49,
+    "alcohol": null,
+    "sugarAlcohols": 0.22
+  },
+  "vitamins": {
+    "vita": 12,
+    "vitaa": 6,
+    "cartb": 72,
+    "vite": 0.5,
+    "tocpha": 0.5,
+    "vitk": 2,
+    "vitk1": 2,
+    "thia": 0.04,
+    "ribf": 0.051,
+    "niaeq": 0.837,
+    "nia": 0.67,
+    "pantac": 0.2,
+    "vitb6": 80,
+    "biot": 2,
+    "fol": 20,
+    "folfd": 20,
+    "vitc": 20
+  },
+  "minerals": {
+    "nacl": 0.145,
+    "na": 58,
+    "cld": 70,
+    "k": 269,
+    "ca": 44.6,
+    "mg": 13.7,
+    "p": 37.2,
+    "fe": 0.383,
+    "zn": 0.07,
+    "id": 7.5,
+    "cu": 56,
+    "mn": 68,
+    "fd": 10,
+    "cr": 1,
+    "mo": 10
+  },
+  "carbohydrates": {
+    "cho": 6.58,
+    "mnsac": 5.13,
+    "glus": 3.74,
+    "frus": 1.39,
+    "disac": 0.54,
+    "sucs": 0.54,
+    "sugar": 5.67,
+    "starch": 0.69
+  },
+  "fibers": {
+    "fibt": 3.49,
+    "fibhmw": 3.49,
+    "fibins": 3.1,
+    "fibsol": 0.39
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.22,
+    "sortl": 0.22
+  },
+  "fattyAcids": {
+    "fasat": 0.03,
+    "f14_0": 0.001,
+    "f16_0": 0.028,
+    "f18_0": 0.001,
+    "fams": 0.005,
+    "f16_1cn7": 0.004,
+    "f18_1cn9": 0.001,
+    "fapu": 0.133,
+    "fapun3": 0.095,
+    "f18_3cn3": 0.095,
+    "fapun6": 0.038,
+    "f18_2cn6": 0.038
+  },
+  "aminoAcids": {
+    "aae9": 0.257,
+    "ala": 0.034,
+    "arg": 0.056,
+    "asp": 0.097,
+    "cyste": 0.008,
+    "glu": 0.221,
+    "gly": 0.022,
+    "his": 0.02,
+    "ile": 0.018,
+    "leu": 0.052,
+    "lys": 0.051,
+    "met": 0.011,
+    "phe": 0.018,
+    "pro": 0.195,
+    "ser": 0.058,
+    "thr": 0.034,
+    "trp": 0.01,
+    "tyr": 0.035,
+    "val": 0.043
+  },
+  "otherNutrients": {
+    "nt": 0.158
+  },
+  "extra": {}
+}

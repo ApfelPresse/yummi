@@ -1,0 +1,62 @@
+{
+  "name": "Kokosöl",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.05,
+    "tocpha": 0.05,
+    "tocphb": 0.05,
+    "tocphg": 0.05,
+    "tocphd": 0.05,
+    "toctra": 1.37,
+    "vitk": 1.5,
+    "vitk1": 1.5
+  },
+  "minerals": {
+    "cld": 0.1,
+    "mg": 0.2,
+    "p": 0.9,
+    "fe": 0.02,
+    "cu": 2
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 87.8,
+    "f6_0": 0.55,
+    "f8_0": 7.18,
+    "f10_0": 5.53,
+    "f12_0": 45.21,
+    "f14_0": 18.26,
+    "f16_0": 7.91,
+    "f18_0": 3.03,
+    "f20_0": 0.08,
+    "f22_0": 0.02,
+    "f24_0": 0.03,
+    "fams": 5.19,
+    "f18_1cn7": 0.05,
+    "f18_1cn9": 5.11,
+    "f20_1cn9": 0.03,
+    "fapu": 0.9,
+    "fapun6": 0.9,
+    "f18_2cn6": 0.9,
+    "fax": 0.1
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

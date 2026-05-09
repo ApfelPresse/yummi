@@ -1,0 +1,85 @@
+{
+  "name": "Bambussprossen roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 17,
+    "water": 91,
+    "protein": 2.5,
+    "fat": 0.3,
+    "carbs": 0.96,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 14,
+    "thia": 0.13,
+    "ribf": 0.08,
+    "niaeq": 1.033,
+    "nia": 0.6,
+    "vitc": 6.5
+  },
+  "minerals": {
+    "nacl": 0.015,
+    "na": 6,
+    "k": 468,
+    "ca": 15,
+    "mg": 3,
+    "p": 53,
+    "fe": 0.7,
+    "zn": 1.1
+  },
+  "carbohydrates": {
+    "cho": 0.96,
+    "mnsac": 0.76,
+    "glus": 0.35,
+    "frus": 0.41,
+    "disac": 0.2,
+    "sucs": 0.2,
+    "sugar": 0.96
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.055,
+    "f16_0": 0.055,
+    "fams": 0.011,
+    "f18_1cn9": 0.011,
+    "fapu": 0.172,
+    "fapun3": 0.052,
+    "f18_3cn3": 0.052,
+    "fapun6": 0.12,
+    "f18_2cn6": 0.12
+  },
+  "aminoAcids": {
+    "aae9": 0.718,
+    "ala": 0.12,
+    "arg": 0.092,
+    "asp": 0.4,
+    "cyste": 0.021,
+    "glu": 0.24,
+    "gly": 0.084,
+    "his": 0.04,
+    "ile": 0.084,
+    "leu": 0.136,
+    "lys": 0.128,
+    "met": 0.028,
+    "phe": 0.088,
+    "pro": 0.212,
+    "ser": 0.124,
+    "thr": 0.084,
+    "trp": 0.026,
+    "tyr": 0.4,
+    "val": 0.104
+  },
+  "otherNutrients": {
+    "nt": 0.4
+  },
+  "extra": {}
+}

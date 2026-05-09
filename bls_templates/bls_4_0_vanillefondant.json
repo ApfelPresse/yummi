@@ -1,0 +1,85 @@
+{
+  "name": "Vanillefondant",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 390,
+    "water": 10,
+    "protein": 0.011,
+    "fat": 4.602,
+    "carbs": 85.3,
+    "fiber": 0.025,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.76,
+    "tocpha": 0.76,
+    "tocphg": 1.45,
+    "tocphd": 0.32,
+    "toctra": 0.66,
+    "niaeq": 0.001,
+    "nia": 0.001
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 2,
+    "k": 2,
+    "ca": 1,
+    "p": 1,
+    "s": 0.1,
+    "fe": 0.144,
+    "id": 0.1,
+    "mn": 33,
+    "fd": 1
+  },
+  "carbohydrates": {
+    "cho": 85.3,
+    "mnsac": 0.18,
+    "glus": 0.18,
+    "disac": 79.3,
+    "sucs": 77,
+    "mals": 2.3,
+    "sugar": 79.5,
+    "olsac": 3.7,
+    "starch": 2.148
+  },
+  "fibers": {
+    "fibt": 0.025
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 2.225,
+    "f14_0": 0.044,
+    "f16_0": 1.937,
+    "f18_0": 0.221,
+    "f20_0": 0.023,
+    "fams": 1.693,
+    "f16_1cn7": 0.023,
+    "f18_1cn9": 1.67,
+    "fapu": 0.466,
+    "fapun3": 0.023,
+    "f18_3cn3": 0.023,
+    "fapun6": 0.443,
+    "f18_2cn6": 0.443
+  },
+  "aminoAcids": {
+    "aae9": 0.002,
+    "ala": 0.001,
+    "asp": 0.001,
+    "glu": 0.002,
+    "leu": 0.001,
+    "pro": 0.001,
+    "ser": 0.001,
+    "val": 0.001
+  },
+  "otherNutrients": {
+    "chorl": 0.1,
+    "nt": 0.002
+  },
+  "extra": {}
+}

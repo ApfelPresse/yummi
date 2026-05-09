@@ -1,0 +1,45 @@
+{
+  "name": "Obstgeist",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 274,
+    "water": 62.1,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": 39.1,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.006,
+    "ribf": 0.004,
+    "niaeq": 0.013,
+    "nia": 0.013,
+    "vitb6": 1,
+    "biot": 1
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 14,
+    "k": 2,
+    "p": 4,
+    "fe": 0.04,
+    "zn": 0.04,
+    "id": 1.1,
+    "cu": 21,
+    "mn": 9
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

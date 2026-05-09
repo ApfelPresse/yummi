@@ -1,0 +1,90 @@
+{
+  "name": "Yamswurzel gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 140,
+    "water": 64.2,
+    "protein": 2.273,
+    "fat": 0.148,
+    "carbs": 29.2,
+    "fiber": 6.318,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 9,
+    "vitk": 2.6,
+    "vitk1": 2.6,
+    "thia": 0.082,
+    "ribf": 0.032,
+    "niaeq": 1.298,
+    "nia": 0.648,
+    "vitb6": 316,
+    "vitc": 9.091
+  },
+  "minerals": {
+    "nacl": 0.028,
+    "na": 11,
+    "k": 447,
+    "ca": 28,
+    "mg": 24,
+    "p": 50,
+    "fe": 1.023,
+    "zn": 0.125
+  },
+  "carbohydrates": {
+    "cho": 29.2,
+    "mnsac": 0.3,
+    "glus": 0.2,
+    "frus": 0.1,
+    "disac": 0.5,
+    "sucs": 0.5,
+    "sugar": 0.8,
+    "starch": 28.4
+  },
+  "fibers": {
+    "fibt": 6.318,
+    "fibhmw": 6.318,
+    "fibins": 3.761,
+    "fibsol": 2.557
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.052,
+    "f12_0": 0.002,
+    "f14_0": 0.001,
+    "f16_0": 0.047,
+    "f20_0": 0.0025,
+    "fams": 0.0691,
+    "f16_1cn7": 0.0027,
+    "f18_1cn9": 0.0664,
+    "fapu": 0.0014,
+    "fapun6": 0.0014,
+    "f18_2cn6": 0.0014
+  },
+  "aminoAcids": {
+    "aae9": 0.779,
+    "arg": 0.091,
+    "cyste": 0.035,
+    "his": 0.041,
+    "ile": 0.094,
+    "leu": 0.117,
+    "lys": 0.092,
+    "met": 0.039,
+    "phe": 0.11,
+    "thr": 0.094,
+    "trp": 0.039,
+    "tyr": 0.099,
+    "val": 0.153
+  },
+  "otherNutrients": {
+    "nt": 0.364
+  },
+  "extra": {}
+}

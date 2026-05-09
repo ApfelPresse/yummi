@@ -1,0 +1,100 @@
+{
+  "name": "Pfirsich-Maracujanektarschorle",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 22,
+    "water": 94,
+    "protein": 0.2,
+    "fat": null,
+    "carbs": 5.13,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": 0.22
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 4,
+    "cartb": 29,
+    "carotpaxb": 36,
+    "vite": 0.101,
+    "tocpha": 0.101,
+    "tocphg": 0.002,
+    "toctra": 0.004,
+    "vitk": 0.9,
+    "vitk1": 0.9,
+    "thia": 0.006,
+    "ribf": 0.008,
+    "niaeq": 0.228,
+    "nia": 0.228,
+    "pantac": 0.026,
+    "vitb6": 5,
+    "fol": 1,
+    "folfd": 1,
+    "vitc": 1.5
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 3,
+    "k": 46,
+    "ca": 8,
+    "mg": 4,
+    "p": 6,
+    "s": 1.3,
+    "fe": 0.081,
+    "zn": 0.04,
+    "id": 1,
+    "cu": 24,
+    "mn": 20,
+    "fd": 18,
+    "mo": 0.03
+  },
+  "carbohydrates": {
+    "cho": 5.13,
+    "mnsac": 1.28,
+    "glus": 0.64,
+    "frus": 0.64,
+    "disac": 3.633,
+    "sucs": 3.633,
+    "sugar": 4.91
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.22,
+    "mantl": 0.04,
+    "sortl": 0.18
+  },
+  "fattyAcids": {
+    "fasat": 0.002,
+    "f16_0": 0.002,
+    "fams": 0.006,
+    "f18_1cn7": 0.0001,
+    "f18_1cn9": 0.006,
+    "fapu": 0.008,
+    "fapun6": 0.008,
+    "f18_2cn6": 0.008
+  },
+  "aminoAcids": {
+    "aae9": 0.022,
+    "ala": 0.006,
+    "arg": 0.004,
+    "asp": 0.074,
+    "cyste": 0.001,
+    "glu": 0.012,
+    "gly": 0.002,
+    "leu": 0.006,
+    "lys": 0.006,
+    "pro": 0.001,
+    "ser": 0.007,
+    "thr": 0.005,
+    "val": 0.005
+  },
+  "otherNutrients": {
+    "nt": 0.036
+  },
+  "extra": {}
+}

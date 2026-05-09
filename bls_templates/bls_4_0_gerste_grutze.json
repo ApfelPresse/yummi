@@ -1,0 +1,102 @@
+{
+  "name": "Gerste Grütze",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 316,
+    "water": 13,
+    "protein": 8.502,
+    "fat": 1.5,
+    "carbs": 62.01,
+    "fiber": 10.3,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "cartb": 1,
+    "vite": 0.31,
+    "tocpha": 0.31,
+    "vitk": 2.2,
+    "vitk1": 2.2,
+    "thia": 0.2,
+    "ribf": 0.08,
+    "niaeq": 4.6,
+    "nia": 3.1,
+    "pantac": 0.49,
+    "vitb6": 290,
+    "biot": 8.61,
+    "fol": 19,
+    "folfd": 19
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 23,
+    "k": 160,
+    "ca": 16,
+    "mg": 66,
+    "p": 189,
+    "fe": 2,
+    "zn": 1.28,
+    "id": 2,
+    "cu": 120,
+    "mn": 1270,
+    "fd": 120,
+    "cr": 3.16,
+    "mo": 57.4
+  },
+  "carbohydrates": {
+    "cho": 62.01,
+    "mnsac": 0.2,
+    "glus": 0.1,
+    "frus": 0.1,
+    "disac": 1.51,
+    "sucs": 0.99,
+    "mals": 0.52,
+    "sugar": 1.71,
+    "starch": 60.3
+  },
+  "fibers": {
+    "fibt": 10.3,
+    "fibhmw": 10.3,
+    "fibins": 6.046,
+    "fibsol": 4.254
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.377,
+    "f14_0": 0.028,
+    "f16_0": 0.321,
+    "f18_0": 0.028,
+    "fams": 0.178,
+    "f16_1cn7": 0.014,
+    "f18_1cn9": 0.164,
+    "fapu": 0.9,
+    "fapun3": 0.079,
+    "f18_3cn3": 0.079,
+    "fapun6": 0.821,
+    "f18_2cn6": 0.821
+  },
+  "aminoAcids": {
+    "aae9": 2.62,
+    "arg": 0.36,
+    "cyste": 0.13,
+    "his": 0.14,
+    "ile": 0.37,
+    "leu": 0.6,
+    "lys": 0.19,
+    "met": 0.08,
+    "phe": 0.45,
+    "thr": 0.29,
+    "trp": 0.09,
+    "tyr": 0.29,
+    "val": 0.41
+  },
+  "otherNutrients": {
+    "nt": 1.36
+  },
+  "extra": {}
+}

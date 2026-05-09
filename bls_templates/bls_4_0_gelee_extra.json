@@ -1,0 +1,110 @@
+{
+  "name": "Gelee extra",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 230,
+    "water": 40.8,
+    "protein": 0.6,
+    "fat": 0.1,
+    "carbs": 55,
+    "fiber": 0.4,
+    "alcohol": 0.2,
+    "sugarAlcohols": 0.001
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 6,
+    "carotpaxb": 1,
+    "vite": 0.328,
+    "tocpha": 0.328,
+    "tocphb": 0.064,
+    "tocphg": 0.128,
+    "tocphd": 0.06,
+    "vitk": 4,
+    "vitk1": 4,
+    "thia": 0.013,
+    "ribf": 0.01,
+    "niaeq": 0.081,
+    "nia": 0.081,
+    "pantac": 0.021,
+    "vitb6": 15,
+    "biot": 1,
+    "fol": 2.5,
+    "folfd": 2.5,
+    "vitc": 8.532
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 6,
+    "k": 116,
+    "ca": 18,
+    "mg": 5,
+    "p": 11,
+    "fe": 0.363,
+    "zn": 0.07,
+    "cu": 31,
+    "mn": 80,
+    "fd": 9,
+    "cr": 1,
+    "mo": 4
+  },
+  "carbohydrates": {
+    "cho": 55,
+    "mnsac": 2.1,
+    "glus": 0.9,
+    "frus": 1.2,
+    "gals": 0.0047,
+    "disac": 52.88,
+    "sucs": 52.857,
+    "mals": 0.02,
+    "sugar": 55
+  },
+  "fibers": {
+    "fibt": 0.4
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.001,
+    "xyltl": 0.001
+  },
+  "fattyAcids": {
+    "fasat": 0.014,
+    "f16_0": 0.011,
+    "f18_0": 0.003,
+    "fams": 0.01,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.009,
+    "fapu": 0.025,
+    "fapun3": 0.011,
+    "f18_3cn3": 0.011,
+    "fapun6": 0.014,
+    "f18_2cn6": 0.014
+  },
+  "aminoAcids": {
+    "aae9": 0.111,
+    "ala": 0.053,
+    "arg": 0.025,
+    "asp": 0.087,
+    "cyste": 0.002,
+    "glu": 0.079,
+    "gly": 0.02,
+    "his": 0.01,
+    "ile": 0.006,
+    "leu": 0.024,
+    "lys": 0.021,
+    "phe": 0.015,
+    "pro": 0.013,
+    "ser": 0.03,
+    "thr": 0.016,
+    "tyr": 0.012,
+    "val": 0.019
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

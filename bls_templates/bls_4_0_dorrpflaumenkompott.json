@@ -1,0 +1,101 @@
+{
+  "name": "Dörrpflaumenkompott",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 99,
+    "water": 71,
+    "protein": 0.88,
+    "fat": null,
+    "carbs": 22,
+    "fiber": 2.35,
+    "alcohol": null,
+    "sugarAlcohols": 2.675
+  },
+  "vitamins": {
+    "vita": 12,
+    "vitaa": 6,
+    "cartb": 61,
+    "carotpaxb": 22,
+    "vite": 0.807,
+    "tocpha": 0.807,
+    "tocphb": 0.012,
+    "tocphg": 0.0538,
+    "tocphd": 0.0012,
+    "vitk": 0.54,
+    "vitk1": 0.54,
+    "thia": 0.01,
+    "ribf": 0.04,
+    "niaeq": 0.41,
+    "nia": 0.34,
+    "pantac": 0.06,
+    "vitb6": 87,
+    "biot": 0.25,
+    "fol": 0.1,
+    "folfd": 0.1,
+    "vitc": 1.077
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 7,
+    "k": 248.7,
+    "ca": 19,
+    "mg": 14,
+    "p": 25.1,
+    "s": 7,
+    "fe": 0.348,
+    "zn": 0.15,
+    "id": 0.9,
+    "cu": 101.5,
+    "mn": 175,
+    "cr": 0.8,
+    "mo": 0.6
+  },
+  "carbohydrates": {
+    "cho": 22,
+    "mnsac": 14.3,
+    "glus": 9.82,
+    "frus": 4.5,
+    "disac": 5.024,
+    "sucs": 5.024,
+    "sugar": 19.3
+  },
+  "fibers": {
+    "fibt": 2.35
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 2.675,
+    "sortl": 2.526,
+    "xyltl": 0.149
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.138,
+    "ala": 0.028,
+    "arg": 0.017,
+    "asp": 0.276,
+    "cyste": 0.007,
+    "glu": 0.042,
+    "gly": 0.021,
+    "his": 0.008,
+    "ile": 0.015,
+    "leu": 0.028,
+    "lys": 0.018,
+    "met": 0.005,
+    "phe": 0.021,
+    "pro": 0.047,
+    "ser": 0.023,
+    "thr": 0.018,
+    "trp": 0.004,
+    "tyr": 0.012,
+    "val": 0.021
+  },
+  "otherNutrients": {
+    "nt": 0.14
+  },
+  "extra": {}
+}

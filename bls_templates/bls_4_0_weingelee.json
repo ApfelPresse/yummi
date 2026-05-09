@@ -1,0 +1,104 @@
+{
+  "name": "Weingelee",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 87,
+    "water": 78.5,
+    "protein": 1.6,
+    "fat": null,
+    "carbs": 16.58,
+    "fiber": 0.01,
+    "alcohol": 1.67,
+    "sugarAlcohols": 0.005
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 3,
+    "carotpaxb": 1,
+    "vite": 0.059,
+    "tocpha": 0.059,
+    "thia": 0.003,
+    "ribf": 0.06,
+    "niaeq": 0.012,
+    "nia": 0.012,
+    "pantac": 0.26,
+    "vitb6": 4,
+    "fol": 2.5,
+    "folfd": 2.5,
+    "vitc": 6.4
+  },
+  "minerals": {
+    "nacl": 0.015,
+    "na": 6,
+    "cld": 1,
+    "k": 55,
+    "ca": 10,
+    "mg": 5,
+    "p": 12,
+    "s": 10,
+    "fe": 0.1,
+    "zn": 0.1,
+    "cu": 10,
+    "mn": 50,
+    "fd": 1,
+    "cr": 1,
+    "mo": 0.3
+  },
+  "carbohydrates": {
+    "cho": 16.58,
+    "mnsac": 0.32,
+    "glus": 0.17,
+    "frus": 0.15,
+    "disac": 16.251,
+    "sucs": 16.251,
+    "sugar": 16.57
+  },
+  "fibers": {
+    "fibt": 0.01
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.005,
+    "sortl": 0.005
+  },
+  "fattyAcids": {
+    "fasat": 0.009,
+    "f16_0": 0.008,
+    "f18_0": 0.0007,
+    "fams": 0.003,
+    "f16_1cn7": 0.0003,
+    "f18_1cn9": 0.003,
+    "fapu": 0.021,
+    "fapun3": 0.006,
+    "f18_3cn3": 0.006,
+    "fapun6": 0.015,
+    "f18_2cn6": 0.015
+  },
+  "aminoAcids": {
+    "aae9": 0.264,
+    "ala": 0.15,
+    "arg": 0.117,
+    "asp": 0.095,
+    "cyste": 0.001,
+    "glu": 0.163,
+    "gly": 0.385,
+    "his": 0.01,
+    "ile": 0.025,
+    "leu": 0.044,
+    "lys": 0.069,
+    "met": 0.012,
+    "phe": 0.033,
+    "pro": 0.226,
+    "ser": 0.056,
+    "thr": 0.029,
+    "tyr": 0.003,
+    "val": 0.042
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

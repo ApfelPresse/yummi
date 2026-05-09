@@ -1,0 +1,77 @@
+{
+  "name": "Bärlauch roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 26,
+    "water": 89.384,
+    "protein": 1.9,
+    "fat": 0.19,
+    "carbs": 2.934,
+    "fiber": 2.18,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 103,
+    "vitaa": 52,
+    "cartb": 620,
+    "vite": 0.35,
+    "tocpha": 0.35,
+    "vitk": 54,
+    "vitk1": 54,
+    "thia": 0.05,
+    "ribf": 0.06,
+    "niaeq": 0.5,
+    "nia": 0.5,
+    "pantac": 0.07,
+    "vitb6": 100,
+    "biot": 3,
+    "fol": 89,
+    "folfd": 89,
+    "vitc": 150
+  },
+  "minerals": {
+    "nacl": 0.03,
+    "na": 12,
+    "cld": 31,
+    "k": 336,
+    "ca": 76,
+    "mg": 22,
+    "p": 50,
+    "fe": 2.87,
+    "zn": 0.27,
+    "id": 1,
+    "cu": 80,
+    "mn": 320,
+    "fd": 10,
+    "cr": 1,
+    "mo": 5
+  },
+  "carbohydrates": {
+    "cho": 2.934,
+    "mnsac": 1.53,
+    "glus": 0.686,
+    "frus": 0.844,
+    "disac": 1.36,
+    "sucs": 1.36,
+    "sugar": 2.89,
+    "starch": 0.044
+  },
+  "fibers": {
+    "fibt": 2.18,
+    "fibhmw": 2.18,
+    "fibins": 1.26,
+    "fibsol": 0.92
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.3
+  },
+  "extra": {}
+}

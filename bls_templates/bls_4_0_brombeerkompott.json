@@ -1,0 +1,107 @@
+{
+  "name": "Brombeerkompott",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 80,
+    "water": 79.6,
+    "protein": 0.91,
+    "fat": 0.1,
+    "carbs": 18.6,
+    "fiber": 2.2,
+    "alcohol": null,
+    "sugarAlcohols": 3.34
+  },
+  "vitamins": {
+    "vita": 10,
+    "vitaa": 5,
+    "cartb": 55,
+    "carotpaxb": 11,
+    "vite": 1.004,
+    "tocpha": 1.004,
+    "tocphb": 0.028,
+    "tocphg": 0.996,
+    "tocphd": 0.596,
+    "vitk": 13.9,
+    "vitk1": 13.9,
+    "thia": 0.017,
+    "ribf": 0.028,
+    "niaeq": 0.27,
+    "nia": 0.253,
+    "pantac": 0.139,
+    "vitb6": 32,
+    "biot": 1.1,
+    "fol": 22,
+    "folfd": 22,
+    "vitc": 8.351
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 8,
+    "k": 108,
+    "ca": 12,
+    "mg": 12,
+    "p": 17,
+    "s": 0.3,
+    "fe": 0.4,
+    "zn": 0.13,
+    "id": 1,
+    "cu": 60,
+    "mn": 520,
+    "fd": 11,
+    "cr": 1,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 18.6,
+    "mnsac": 3.8,
+    "glus": 2.1,
+    "frus": 1.7,
+    "gals": 0.0075,
+    "disac": 11.5,
+    "sucs": 11.462,
+    "mals": 0.04,
+    "sugar": 15.3
+  },
+  "fibers": {
+    "fibt": 2.2
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 3.34,
+    "sortl": 3.34,
+    "xyltl": 0.002
+  },
+  "fattyAcids": {
+    "fapu": 0.1,
+    "fapun6": 0.1,
+    "f18_2cn6": 0.1
+  },
+  "aminoAcids": {
+    "aae9": 0.185,
+    "ala": 0.088,
+    "arg": 0.042,
+    "asp": 0.143,
+    "cyste": 0.004,
+    "glu": 0.129,
+    "gly": 0.033,
+    "his": 0.017,
+    "ile": 0.01,
+    "leu": 0.039,
+    "lys": 0.034,
+    "phe": 0.025,
+    "pro": 0.021,
+    "ser": 0.049,
+    "thr": 0.027,
+    "trp": 0.001,
+    "tyr": 0.02,
+    "val": 0.032
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

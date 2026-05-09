@@ -1,0 +1,108 @@
+{
+  "name": "Zuckermais tiefgefroren, gegrillt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 78,
+    "water": 73,
+    "protein": 3.5,
+    "fat": 1.47,
+    "carbs": 11.3,
+    "fiber": 3.3,
+    "alcohol": null,
+    "sugarAlcohols": 0.54
+  },
+  "vitamins": {
+    "vita": 5.4,
+    "vitaa": 2.7,
+    "cartb": 32.41,
+    "vite": 0.047,
+    "tocpha": 0.047,
+    "vitk": 0.6,
+    "vitk1": 0.6,
+    "thia": 0.145,
+    "ribf": 0.136,
+    "niaeq": 2.233,
+    "nia": 1.833,
+    "pantac": 0.899,
+    "vitb6": 218,
+    "biot": 0.6,
+    "fol": 11.2,
+    "folfd": 11.2,
+    "vitc": 9.261
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 8.7,
+    "k": 338.216,
+    "ca": 2.657,
+    "mg": 30.392,
+    "p": 99.119,
+    "fe": 0.419,
+    "zn": 0.71,
+    "cu": 98,
+    "mn": 250
+  },
+  "carbohydrates": {
+    "cho": 11.3,
+    "mnsac": 1.17,
+    "glus": 0.95,
+    "frus": 0.22,
+    "disac": 2.897,
+    "sucs": 2.574,
+    "mals": 0.323,
+    "sugar": 4.07,
+    "starch": 6.7
+  },
+  "fibers": {
+    "fibt": 3.3,
+    "fibhmw": 3.3,
+    "fibins": 2.5,
+    "fibsol": 0.9
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.54,
+    "sortl": 0.54
+  },
+  "fattyAcids": {
+    "fasat": 0.197,
+    "f16_0": 0.185,
+    "f18_0": 0.012,
+    "fams": 0.375,
+    "f18_1cn9": 0.375,
+    "fapu": 0.605,
+    "fapun3": 0.018,
+    "f18_3cn3": 0.018,
+    "fapun6": 0.587,
+    "f18_2cn6": 0.587
+  },
+  "aminoAcids": {
+    "aae9": 1.174,
+    "ala": 0.311,
+    "arg": 0.137,
+    "asp": 0.218,
+    "cyste": 0.061,
+    "glu": 0.568,
+    "gly": 0.126,
+    "his": 0.083,
+    "ile": 0.097,
+    "leu": 0.348,
+    "lys": 0.129,
+    "met": 0.073,
+    "phe": 0.141,
+    "pro": 0.254,
+    "ser": 0.157,
+    "thr": 0.12,
+    "trp": 0.024,
+    "tyr": 0.123,
+    "val": 0.159
+  },
+  "otherNutrients": {
+    "nt": 0.614
+  },
+  "extra": {}
+}

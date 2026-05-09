@@ -1,0 +1,88 @@
+{
+  "name": "Lagerbier hell",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 36,
+    "water": 90.6,
+    "protein": 0.4,
+    "fat": null,
+    "carbs": 2.283,
+    "fiber": null,
+    "alcohol": 3.61,
+    "sugarAlcohols": 0.002
+  },
+  "vitamins": {
+    "thia": 0.0062,
+    "ribf": 0.0335,
+    "niaeq": 0.93,
+    "nia": 0.88,
+    "pantac": 0.08,
+    "vitb6": 50,
+    "biot": 1,
+    "fol": 2.667,
+    "folfd": 2.667
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 35,
+    "k": 38,
+    "ca": 4,
+    "mg": 9,
+    "p": 28,
+    "s": 12.65,
+    "fe": 0.042,
+    "zn": 0.02,
+    "id": 0.7,
+    "cu": 40,
+    "mn": 29,
+    "fd": 50
+  },
+  "carbohydrates": {
+    "cho": 2.283,
+    "mnsac": 0.03,
+    "glus": 0.013,
+    "frus": 0.016,
+    "gals": 0.001,
+    "disac": 0.201,
+    "sucs": 0.013,
+    "mals": 0.188,
+    "sugar": 0.231,
+    "starch": 2.05
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.002,
+    "sortl": 0.002
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.084,
+    "ala": 0.01,
+    "arg": 0.011,
+    "asp": 0.013,
+    "cyste": 0.005,
+    "glu": 0.041,
+    "gly": 0.009,
+    "his": 0.006,
+    "ile": 0.01,
+    "leu": 0.018,
+    "lys": 0.008,
+    "met": 0.004,
+    "phe": 0.013,
+    "pro": 0.037,
+    "ser": 0.011,
+    "thr": 0.008,
+    "trp": 0.003,
+    "tyr": 0.006,
+    "val": 0.014
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

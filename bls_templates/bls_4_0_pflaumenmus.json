@@ -1,0 +1,103 @@
+{
+  "name": "Pflaumenmus",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 195,
+    "water": 42.8,
+    "protein": 0.94,
+    "fat": 0.2,
+    "carbs": 45.928,
+    "fiber": 1.66,
+    "alcohol": null,
+    "sugarAlcohols": 1.378
+  },
+  "vitamins": {
+    "vita": 20,
+    "vitaa": 10,
+    "cartb": 98,
+    "carotpaxb": 44,
+    "vite": 0.149,
+    "tocpha": 0.149,
+    "tocphg": 0.011,
+    "toctra": 0.011,
+    "vitk": 4,
+    "vitk1": 4,
+    "thia": 0.016,
+    "ribf": 0.033,
+    "niaeq": 0.277,
+    "nia": 0.277,
+    "pantac": 0.086,
+    "vitb6": 21,
+    "fol": 1,
+    "folfd": 1,
+    "vitc": 1.847
+  },
+  "minerals": {
+    "nacl": 0.035,
+    "na": 14,
+    "cld": 2,
+    "k": 137,
+    "ca": 5,
+    "mg": 4,
+    "p": 9,
+    "fe": 0.2,
+    "zn": 0.05,
+    "cu": 34,
+    "mn": 50,
+    "fd": 1,
+    "cr": 1,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 45.928,
+    "mnsac": 33.94,
+    "glus": 17.7,
+    "frus": 16.24,
+    "disac": 10.61,
+    "sucs": 10.52,
+    "mals": 0.09,
+    "sugar": 44.55
+  },
+  "fibers": {
+    "fibt": 1.66
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.378,
+    "sortl": 1.378
+  },
+  "fattyAcids": {
+    "fasat": 0.012,
+    "f16_0": 0.0091,
+    "f18_0": 0.003,
+    "fams": 0.0273,
+    "f16_1cn7": 0.0006,
+    "f18_1cn9": 0.0267,
+    "fapu": 0.041,
+    "fapun3": 0.016,
+    "f18_3cn3": 0.016,
+    "fapun6": 0.025,
+    "f18_2cn6": 0.025
+  },
+  "aminoAcids": {
+    "aae9": 0.021,
+    "ala": 0.009,
+    "arg": 0.002,
+    "asp": 0.111,
+    "cyste": 0.002,
+    "glu": 0.017,
+    "leu": 0.006,
+    "lys": 0.008,
+    "pro": 0.003,
+    "ser": 0.009,
+    "thr": 0.006,
+    "val": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.15
+  },
+  "extra": {}
+}

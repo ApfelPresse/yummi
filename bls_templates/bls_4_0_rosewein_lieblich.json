@@ -1,0 +1,53 @@
+{
+  "name": "Rosewein lieblich",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 72,
+    "water": 87.3,
+    "protein": 0.1,
+    "fat": null,
+    "carbs": 2.5,
+    "fiber": null,
+    "alcohol": 8.5,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "ribf": 0.01,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "pantac": 0.04,
+    "vitb6": 20
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 7,
+    "k": 75,
+    "ca": 12,
+    "mg": 7,
+    "p": 6,
+    "fe": 1,
+    "zn": 0.0211,
+    "cu": 20,
+    "mn": 100
+  },
+  "carbohydrates": {
+    "cho": 2.5,
+    "mnsac": 2.5,
+    "glus": 0.8,
+    "frus": 1.7,
+    "sugar": 2.5
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.01
+  },
+  "extra": {}
+}

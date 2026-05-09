@@ -1,0 +1,102 @@
+{
+  "name": "Weichweizen Grieß, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 39,
+    "water": 94.07,
+    "protein": 1.17,
+    "fat": 0.1,
+    "carbs": 8.04,
+    "fiber": 0.44,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.011,
+    "tocpha": 0.011,
+    "tocphb": 0.01,
+    "tocphg": 0.01,
+    "vitk": 0.032,
+    "vitk1": 0.032,
+    "thia": 0.009,
+    "ribf": 0.004,
+    "niaeq": 0.29,
+    "nia": 0.09,
+    "pantac": 0.02,
+    "vitb6": 9,
+    "biot": 0.05,
+    "fol": 1.1,
+    "folfd": 1.1
+  },
+  "minerals": {
+    "nacl": 0.0002,
+    "na": 0.1,
+    "cld": 6,
+    "k": 11.7,
+    "ca": 1.6,
+    "mg": 1.4,
+    "p": 7.7,
+    "s": 13,
+    "fe": 0.0594,
+    "zn": 0.0501,
+    "cu": 10.1,
+    "mn": 41.9
+  },
+  "carbohydrates": {
+    "cho": 8.04,
+    "mnsac": 0.0039,
+    "glus": 0.0027,
+    "frus": 0.0013,
+    "disac": 0.0792,
+    "sucs": 0.0086,
+    "mals": 0.0706,
+    "sugar": 0.0832,
+    "starch": 7.96
+  },
+  "fibers": {
+    "fibt": 0.44,
+    "fiblmw": 0.14,
+    "fibhmw": 0.3,
+    "fibhmws": 0.18,
+    "fibhmwi": 0.12
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.01,
+    "f16_0": 0.01,
+    "fams": 0.01,
+    "f18_1cn9": 0.01,
+    "fapu": 0.04,
+    "fapun6": 0.04,
+    "f18_2cn6": 0.04
+  },
+  "aminoAcids": {
+    "aae9": 0.333,
+    "ala": 0.033,
+    "arg": 0.042,
+    "asp": 0.046,
+    "cyste": 0.027,
+    "glu": 0.4,
+    "gly": 0.04,
+    "his": 0.025,
+    "ile": 0.04,
+    "leu": 0.077,
+    "lys": 0.025,
+    "met": 0.018,
+    "phe": 0.058,
+    "pro": 0.139,
+    "ser": 0.055,
+    "thr": 0.032,
+    "trp": 0.012,
+    "tyr": 0.032,
+    "val": 0.046
+  },
+  "otherNutrients": {
+    "nt": 0.19
+  },
+  "extra": {}
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Skyr, Frischkäse < 10 % Fett i. Tr.",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 64,
+    "water": 83.85,
+    "protein": 10.35,
+    "fat": 0.84,
+    "carbs": 3.19,
+    "fiber": 0.18,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 1.5,
+    "vitaa": 1.5,
+    "retol": 1.5,
+    "vite": 0.024,
+    "tocpha": 0.024,
+    "vitk": 1.55,
+    "vitk2": 1.55,
+    "thia": 0.04,
+    "ribf": 0.27,
+    "niaeq": 2.6,
+    "pantac": 0.36,
+    "vitb6": 54,
+    "biot": 2.45,
+    "fol": 12.5,
+    "folfd": 12.5
+  },
+  "minerals": {
+    "nacl": 0.0832,
+    "na": 33.3,
+    "cld": 110.5,
+    "k": 141.5,
+    "ca": 127.5,
+    "mg": 11.3,
+    "p": 152.5,
+    "fe": 0.041,
+    "zn": 0.46,
+    "id": 20.35,
+    "cu": 13,
+    "mn": 3.3,
+    "fd": 25,
+    "mo": 5.4
+  },
+  "carbohydrates": {
+    "cho": 3.19,
+    "disac": 3.14,
+    "lacs": 3.14,
+    "sugar": 3.14
+  },
+  "fibers": {
+    "fibt": 0.18,
+    "fibhmw": 0.18,
+    "fibsol": 0.18
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.47,
+    "f12_0": 0.03,
+    "f14_0": 0.072,
+    "f16_0": 0.26,
+    "f18_0": 0.082,
+    "f22_0": 0.026,
+    "fams": 0.27,
+    "f16_1cn7": 0.014,
+    "f18_1cn9": 0.26,
+    "fapu": 0.057,
+    "fapun6": 0.057,
+    "f18_2cn6": 0.057
+  },
+  "aminoAcids": {
+    "aae9": 5.543,
+    "ala": 0.414,
+    "arg": 0.407,
+    "asp": 0.928,
+    "cyste": 0.082,
+    "glu": 2.525,
+    "gly": 0.207,
+    "his": 0.324,
+    "ile": 0.616,
+    "leu": 1.28,
+    "lys": 0.982,
+    "met": 0.296,
+    "phe": 0.612,
+    "pro": 1.225,
+    "ser": 0.676,
+    "thr": 0.528,
+    "trp": 0.156,
+    "tyr": 0.602,
+    "val": 0.749
+  },
+  "otherNutrients": {
+    "chorl": 5.2,
+    "nt": 1.66
+  },
+  "extra": {}
+}

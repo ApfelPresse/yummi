@@ -1,0 +1,111 @@
+{
+  "name": "Sauerkraut abgetropft, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 18,
+    "water": 92.38,
+    "protein": 1.066,
+    "fat": 0.294,
+    "carbs": 0.94,
+    "fiber": 2.117,
+    "alcohol": 0.05,
+    "sugarAlcohols": 0.117
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 1,
+    "cartb": 17,
+    "vite": 0.031,
+    "tocpha": 0.031,
+    "tocphg": 0.0063,
+    "tocphd": 0.0032,
+    "vitk": 29.9,
+    "vitk1": 25.1,
+    "vitk2": 4.8,
+    "thia": 0.021,
+    "ribf": 0.04,
+    "niaeq": 0.134,
+    "nia": 0.134,
+    "pantac": 0.165,
+    "vitb6": 168,
+    "biot": 0.6,
+    "fol": 7,
+    "folfd": 7,
+    "vitb12": 0.22,
+    "vitc": 12.211
+  },
+  "minerals": {
+    "nacl": 1.015,
+    "na": 406,
+    "k": 151,
+    "ca": 44,
+    "mg": 11,
+    "p": 41,
+    "fe": 0.973,
+    "zn": 0.283,
+    "cu": 29,
+    "mn": 134,
+    "fd": 43,
+    "cr": 5,
+    "mo": 9
+  },
+  "carbohydrates": {
+    "cho": 0.94,
+    "mnsac": 0.597,
+    "glus": 0.398,
+    "frus": 0.199,
+    "disac": 0.133,
+    "sucs": 0.133,
+    "sugar": 0.73,
+    "starch": 0.09
+  },
+  "fibers": {
+    "fibt": 2.117,
+    "fibhmw": 2.117,
+    "fibins": 1.286,
+    "fibsol": 0.831
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.117,
+    "mantl": 0.117
+  },
+  "fattyAcids": {
+    "fasat": 0.068,
+    "f16_0": 0.052,
+    "f18_0": 0.016,
+    "fams": 0.115,
+    "f18_1cn9": 0.115,
+    "fapu": 0.06,
+    "fapun3": 0.01,
+    "f18_3cn3": 0.01,
+    "fapun6": 0.05,
+    "f18_2cn6": 0.05
+  },
+  "aminoAcids": {
+    "aae9": 0.153,
+    "ala": 0.064,
+    "arg": 0.027,
+    "asp": 0.04,
+    "cyste": 0.013,
+    "glu": 0.14,
+    "gly": 0.02,
+    "his": 0.009,
+    "ile": 0.026,
+    "leu": 0.029,
+    "lys": 0.024,
+    "phe": 0.02,
+    "pro": 0.029,
+    "ser": 0.028,
+    "thr": 0.02,
+    "tyr": 0.013,
+    "val": 0.025
+  },
+  "otherNutrients": {
+    "nt": 0.171
+  },
+  "extra": {}
+}

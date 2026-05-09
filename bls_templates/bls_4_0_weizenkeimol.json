@@ -1,0 +1,61 @@
+{
+  "name": "Weizenkeimöl",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 23,
+    "vitaa": 12,
+    "cartb": 140,
+    "vite": 141.88,
+    "tocpha": 141.88,
+    "tocphg": 26,
+    "tocphd": 27.1,
+    "toctra": 2.6,
+    "vitk": 24,
+    "vitk1": 24
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "k": 1,
+    "ca": 15,
+    "zn": 0.005
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 17.378,
+    "f16_0": 16.3818,
+    "f18_0": 0.8064,
+    "f20_0": 0.19,
+    "fams": 14.862,
+    "f16_1cn7": 0.19,
+    "f18_1cn9": 13.3818,
+    "f20_1cn9": 1.1,
+    "f22_1cn9": 0.19,
+    "fapu": 63.464,
+    "fapun3": 7.8,
+    "f18_3cn3": 7.8,
+    "fapun6": 55.6636,
+    "f18_2cn6": 55.6636
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 2.6
+  },
+  "extra": {}
+}

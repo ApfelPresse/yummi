@@ -1,0 +1,100 @@
+{
+  "name": "Zuckermais roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 67,
+    "water": 76,
+    "protein": 3.28,
+    "fat": 1.23,
+    "carbs": 9.4,
+    "fiber": 2.8,
+    "alcohol": null,
+    "sugarAlcohols": 0.45
+  },
+  "vitamins": {
+    "vita": 5.02,
+    "vitaa": 2.51,
+    "cartb": 30.14,
+    "vite": 0.04,
+    "tocpha": 0.04,
+    "vitk": 0.5,
+    "vitk1": 0.5,
+    "thia": 0.15,
+    "ribf": 0.12,
+    "niaeq": 1.967,
+    "nia": 1.7,
+    "pantac": 0.89,
+    "vitb6": 220,
+    "biot": 0.5,
+    "fol": 14.9,
+    "folfd": 14.9,
+    "vitc": 12
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 7.3,
+    "k": 288.864,
+    "ca": 2.224,
+    "mg": 27.062,
+    "p": 82.963,
+    "fe": 0.403,
+    "zn": 0.65,
+    "cu": 86,
+    "mn": 210
+  },
+  "carbohydrates": {
+    "cho": 9.4,
+    "mnsac": 0.97,
+    "glus": 0.79,
+    "frus": 0.18,
+    "disac": 2.425,
+    "sucs": 2.155,
+    "mals": 0.27,
+    "sugar": 3.4,
+    "starch": 5.6
+  },
+  "fibers": {
+    "fibt": 2.8,
+    "fibhmw": 2.8,
+    "fibins": 2.1,
+    "fibsol": 0.7
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.45,
+    "sortl": 0.45
+  },
+  "fattyAcids": {
+    "fasat": 0.165,
+    "f16_0": 0.155,
+    "f18_0": 0.01,
+    "fams": 0.314,
+    "f18_1cn9": 0.314,
+    "fapu": 0.506,
+    "fapun3": 0.015,
+    "f18_3cn3": 0.015,
+    "fapun6": 0.491,
+    "f18_2cn6": 0.491
+  },
+  "aminoAcids": {
+    "aae9": 1.317,
+    "arg": 0.16,
+    "his": 0.085,
+    "ile": 0.13,
+    "leu": 0.35,
+    "lys": 0.13,
+    "met": 0.056,
+    "phe": 0.2,
+    "thr": 0.13,
+    "trp": 0.016,
+    "val": 0.22
+  },
+  "otherNutrients": {
+    "nt": 0.525
+  },
+  "extra": {}
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Bitterlikör 11 % vol",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 150,
+    "water": 71.2,
+    "protein": null,
+    "fat": null,
+    "carbs": 25,
+    "fiber": null,
+    "alcohol": 8.7,
+    "sugarAlcohols": 0.005
+  },
+  "vitamins": {
+    "vitk": 0.019,
+    "vitk1": 0.019,
+    "thia": 0.064,
+    "pantac": 0.116,
+    "biot": 1.576,
+    "fol": 0.64,
+    "folfd": 0.64
+  },
+  "minerals": {
+    "nacl": 0.0038,
+    "na": 1.5,
+    "cld": 2.9,
+    "k": 33.7,
+    "ca": 5.4,
+    "mg": 4.7,
+    "p": 10.7,
+    "s": 15,
+    "fe": 0.099,
+    "zn": 0.03,
+    "cu": 5.2,
+    "mn": 42.1,
+    "fd": 14,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 25,
+    "mnsac": 25,
+    "glus": 12.5,
+    "frus": 12.5,
+    "sugar": 25
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.005,
+    "sortl": 0.005
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Preiselbeerkompott",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 128,
+    "water": 66.6,
+    "protein": 0.2895,
+    "fat": 0.223,
+    "carbs": 30.134,
+    "fiber": 1.217,
+    "alcohol": null,
+    "sugarAlcohols": 0.001
+  },
+  "vitamins": {
+    "vita": 1,
+    "vitaa": 1,
+    "cartb": 7,
+    "carotpaxb": 3,
+    "vite": 0.396,
+    "tocpha": 0.396,
+    "tocphg": 0.124,
+    "tocphd": 0.004,
+    "vitk": 4,
+    "vitk1": 4,
+    "thia": 0.005,
+    "ribf": 0.01,
+    "niaeq": 0.05,
+    "nia": 0.04,
+    "pantac": 0.08,
+    "vitb6": 5,
+    "biot": 0.6,
+    "fol": 0.8,
+    "folfd": 0.8,
+    "vitc": 3.537
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 3,
+    "k": 34,
+    "ca": 9,
+    "mg": 4,
+    "p": 4.2,
+    "s": 0.5,
+    "fe": 0.176,
+    "zn": 0.059,
+    "id": 0.14,
+    "cu": 28,
+    "mn": 1192,
+    "fd": 1,
+    "mo": 1.38
+  },
+  "carbohydrates": {
+    "cho": 30.134,
+    "mnsac": 2.514,
+    "glus": 1.276,
+    "frus": 1.233,
+    "gals": 0.0045,
+    "disac": 27.568,
+    "sucs": 27.568,
+    "sugar": 30.082,
+    "starch": 0.051
+  },
+  "fibers": {
+    "fibt": 1.217
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.001,
+    "xyltl": 0.001
+  },
+  "fattyAcids": {
+    "fasat": 0.044,
+    "f16_0": 0.036,
+    "f18_0": 0.008,
+    "fams": 0.032,
+    "f16_1cn7": 0.003,
+    "f18_1cn9": 0.029,
+    "fapu": 0.082,
+    "fapun3": 0.036,
+    "f18_3cn3": 0.036,
+    "fapun6": 0.046,
+    "f18_2cn6": 0.046
+  },
+  "aminoAcids": {
+    "aae9": 0.0827,
+    "ala": 0.0185,
+    "arg": 0.0451,
+    "asp": 0.0353,
+    "cyste": 0.0035,
+    "glu": 0.0556,
+    "gly": 0.0191,
+    "leu": 0.0249,
+    "lys": 0.0208,
+    "phe": 0.0046,
+    "pro": 0.0069,
+    "ser": 0.0173,
+    "thr": 0.0133,
+    "trp": 0.0006,
+    "tyr": 0.0017,
+    "val": 0.0185
+  },
+  "otherNutrients": {
+    "nt": 0.0463
+  },
+  "extra": {}
+}

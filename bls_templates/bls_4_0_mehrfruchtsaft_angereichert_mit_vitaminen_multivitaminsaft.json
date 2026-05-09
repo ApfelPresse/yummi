@@ -1,0 +1,112 @@
+{
+  "name": "Mehrfruchtsaft angereichert mit Vitaminen (Multivitaminsaft)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 48,
+    "water": 87,
+    "protein": 0.4,
+    "fat": 0.1,
+    "carbs": 10.61,
+    "fiber": 0.3,
+    "alcohol": 0.024,
+    "sugarAlcohols": 0.58
+  },
+  "vitamins": {
+    "vita": 34,
+    "vitaa": 17,
+    "cartb": 182.88,
+    "carotpaxb": 40,
+    "vitd": 0.75,
+    "ergcal": 0.75,
+    "vite": 4.11,
+    "tocpha": 4.11,
+    "toctra": 0.001,
+    "vitk": 0.3,
+    "vitk1": 0.3,
+    "thia": 1.0647,
+    "ribf": 0.6518,
+    "niaeq": 5.3,
+    "nia": 5.3,
+    "pantac": 1.87,
+    "vitb6": 1106.7,
+    "biot": 17.14,
+    "fol": 124,
+    "folfd": 7,
+    "folac": 68.57,
+    "vitb12": 0.81,
+    "vitc": 43.3
+  },
+  "minerals": {
+    "nacl": 0.0052,
+    "na": 2.1,
+    "cld": 7,
+    "k": 120,
+    "ca": 11,
+    "mg": 10,
+    "p": 11,
+    "fe": 0.2,
+    "zn": 0.1,
+    "id": 1,
+    "cu": 30,
+    "mn": 110,
+    "fd": 1,
+    "cr": 1,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 10.61,
+    "mnsac": 7.59,
+    "glus": 2.79,
+    "frus": 4.8,
+    "disac": 2.44,
+    "sucs": 2.44,
+    "sugar": 10.03
+  },
+  "fibers": {
+    "fibt": 0.3
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.58,
+    "sortl": 0.58
+  },
+  "fattyAcids": {
+    "fasat": 0.014,
+    "f16_0": 0.013,
+    "f18_0": 0.001,
+    "fams": 0.004,
+    "f16_1cn7": 0.003,
+    "f18_1cn7": 0.001,
+    "fapu": 0.01,
+    "fapun3": 0.01,
+    "f18_3cn3": 0.01
+  },
+  "aminoAcids": {
+    "aae9": 0.063,
+    "ala": 0.014,
+    "arg": 0.019,
+    "asp": 0.054,
+    "cyste": 0.003,
+    "glu": 0.036,
+    "gly": 0.009,
+    "his": 0.005,
+    "ile": 0.006,
+    "leu": 0.012,
+    "lys": 0.013,
+    "met": 0.002,
+    "phe": 0.007,
+    "pro": 0.02,
+    "ser": 0.011,
+    "thr": 0.007,
+    "trp": 0.002,
+    "tyr": 0.003,
+    "val": 0.009
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

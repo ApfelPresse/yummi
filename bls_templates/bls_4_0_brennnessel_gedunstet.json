@@ -1,0 +1,90 @@
+{
+  "name": "Brennnessel gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 49,
+    "water": 82.38,
+    "protein": 7.84,
+    "fat": 0.649,
+    "carbs": 1.392,
+    "fiber": 3.309,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk": 531,
+    "vitk1": 531,
+    "vitc": 279.862
+  },
+  "minerals": {
+    "k": 505,
+    "ca": 759,
+    "mg": 85,
+    "p": 147,
+    "fe": 4.383,
+    "zn": 1.085,
+    "cu": 255,
+    "mn": 1340
+  },
+  "carbohydrates": {
+    "cho": 1.392,
+    "mnsac": 0.564,
+    "glus": 0.262,
+    "frus": 0.302,
+    "disac": 0.337,
+    "sucs": 0.337,
+    "sugar": 0.901,
+    "starch": 0.491
+  },
+  "fibers": {
+    "fibt": 3.309,
+    "fibhmw": 3.309,
+    "fibins": 1.904,
+    "fibsol": 1.404
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.097,
+    "f12_0": 0.0016,
+    "f14_0": 0.001,
+    "f16_0": 0.085,
+    "f18_0": 0.0041,
+    "f20_0": 0.0052,
+    "fams": 0.017,
+    "f16_1cn7": 0.0047,
+    "f18_1cn9": 0.012,
+    "fapu": 0.373,
+    "fapun3": 0.193,
+    "f18_3cn3": 0.193,
+    "fapun6": 0.18,
+    "f18_2cn6": 0.18
+  },
+  "aminoAcids": {
+    "aae9": 2.33,
+    "ala": 0.341,
+    "arg": 0.382,
+    "asp": 0.569,
+    "cyste": 0.071,
+    "glu": 0.68,
+    "gly": 0.307,
+    "his": 0.107,
+    "ile": 0.263,
+    "leu": 0.504,
+    "lys": 0.441,
+    "met": 0.127,
+    "phe": 0.303,
+    "pro": 0.277,
+    "ser": 0.287,
+    "thr": 0.274,
+    "tyr": 0.249,
+    "val": 0.311
+  },
+  "otherNutrients": {
+    "nt": 1.254
+  },
+  "extra": {}
+}

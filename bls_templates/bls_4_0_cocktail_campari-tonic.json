@@ -1,0 +1,63 @@
+{
+  "name": "Cocktail, Campari-Tonic",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 47,
+    "water": 91.3,
+    "protein": null,
+    "fat": null,
+    "carbs": 6.3,
+    "fiber": null,
+    "alcohol": 3.1,
+    "sugarAlcohols": 0.004
+  },
+  "vitamins": {
+    "vite": 0.002,
+    "tocpha": 0.002,
+    "tocphb": 0.001,
+    "biot": 0.1,
+    "fol": 0.2,
+    "folfd": 0.2,
+    "vitc": 0.917
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 5,
+    "k": 9,
+    "ca": 5,
+    "mg": 1,
+    "p": 3,
+    "s": 5,
+    "fe": 0.05,
+    "zn": 0.03,
+    "id": 0.3,
+    "cu": 10,
+    "mn": 10,
+    "fd": 4,
+    "cr": 0.39,
+    "mo": 0.1
+  },
+  "carbohydrates": {
+    "cho": 6.3,
+    "mnsac": 3.1,
+    "glus": 1.6,
+    "frus": 1.5,
+    "disac": 3.2,
+    "sucs": 3.2,
+    "sugar": 6.3
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.004,
+    "sortl": 0.004
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

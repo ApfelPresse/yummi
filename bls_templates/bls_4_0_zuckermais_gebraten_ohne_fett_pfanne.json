@@ -1,0 +1,100 @@
+{
+  "name": "Zuckermais gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 77,
+    "water": 73,
+    "protein": 3.77,
+    "fat": 1.414,
+    "carbs": 10.8,
+    "fiber": 3.2,
+    "alcohol": null,
+    "sugarAlcohols": 0.52
+  },
+  "vitamins": {
+    "vita": 5.2,
+    "vitaa": 2.6,
+    "cartb": 31.18,
+    "vite": 0.046,
+    "tocpha": 0.046,
+    "vitk": 0.6,
+    "vitk1": 0.6,
+    "thia": 0.155,
+    "ribf": 0.131,
+    "niaeq": 2.156,
+    "nia": 1.856,
+    "pantac": 0.921,
+    "vitb6": 228,
+    "biot": 0.5,
+    "fol": 12,
+    "folfd": 12,
+    "vitc": 11.034
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 8.4,
+    "k": 332.028,
+    "ca": 2.556,
+    "mg": 31.106,
+    "p": 95.36,
+    "fe": 0.463,
+    "zn": 0.75,
+    "cu": 99,
+    "mn": 240
+  },
+  "carbohydrates": {
+    "cho": 10.8,
+    "mnsac": 1.12,
+    "glus": 0.91,
+    "frus": 0.21,
+    "disac": 2.787,
+    "sucs": 2.477,
+    "mals": 0.31,
+    "sugar": 3.91,
+    "starch": 6.4
+  },
+  "fibers": {
+    "fibt": 3.2,
+    "fibhmw": 3.2,
+    "fibins": 2.4,
+    "fibsol": 0.8
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.52,
+    "sortl": 0.52
+  },
+  "fattyAcids": {
+    "fasat": 0.189,
+    "f16_0": 0.178,
+    "f18_0": 0.011,
+    "fams": 0.361,
+    "f18_1cn9": 0.361,
+    "fapu": 0.581,
+    "fapun3": 0.017,
+    "f18_3cn3": 0.017,
+    "fapun6": 0.564,
+    "f18_2cn6": 0.564
+  },
+  "aminoAcids": {
+    "aae9": 1.512,
+    "arg": 0.184,
+    "his": 0.098,
+    "ile": 0.149,
+    "leu": 0.402,
+    "lys": 0.149,
+    "met": 0.064,
+    "phe": 0.23,
+    "thr": 0.149,
+    "trp": 0.018,
+    "val": 0.253
+  },
+  "otherNutrients": {
+    "nt": 0.603
+  },
+  "extra": {}
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Schweinefett/Schweineschmalz",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 220,
+    "vitaa": 220,
+    "retol": 220,
+    "vite": 1.6,
+    "tocpha": 1.6,
+    "vitk": 5,
+    "vitk1": 1,
+    "vitk2": 4
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 4,
+    "k": 1,
+    "p": 3,
+    "id": 5.8,
+    "cu": 10,
+    "mn": 1
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 38.736,
+    "f12_0": 0.096,
+    "f14_0": 1.34,
+    "f16_0": 24.1,
+    "f18_0": 13.2,
+    "fams": 43.712,
+    "f14_1cn5": 0.5,
+    "f16_1cn7": 2.967,
+    "f18_1cn9": 40.245,
+    "fapu": 12.055,
+    "fapun3": 1.005,
+    "f18_3cn3": 1.005,
+    "fapun6": 11.05,
+    "f18_2cn6": 9.35,
+    "f20_4cn6": 1.7
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 85
+  },
+  "extra": {}
+}

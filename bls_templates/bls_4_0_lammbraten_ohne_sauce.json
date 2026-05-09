@@ -1,0 +1,95 @@
+{
+  "name": "Lammbraten ohne Sauce",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 166,
+    "water": 64.9,
+    "protein": 26.77,
+    "fat": 6.55,
+    "carbs": 0.02,
+    "fiber": 0.01,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 51.2,
+    "vitaa": 51.2,
+    "retol": 51.2,
+    "vitd": 0.2,
+    "chocal": 0.2,
+    "vite": 0.25,
+    "tocpha": 0.25,
+    "tocphg": 0.004,
+    "thia": 0.1,
+    "ribf": 0.25,
+    "niaeq": 10.61,
+    "nia": 5.43,
+    "pantac": 0.81,
+    "vitb6": 140,
+    "biot": 1.3,
+    "fol": 14,
+    "folfd": 14,
+    "vitb12": 2.77
+  },
+  "minerals": {
+    "nacl": 0.645,
+    "na": 258,
+    "cld": 309,
+    "k": 313,
+    "ca": 20,
+    "mg": 29,
+    "p": 223,
+    "fe": 2.25,
+    "zn": 6.79,
+    "cu": 150,
+    "mn": 38,
+    "cr": 12
+  },
+  "carbohydrates": {
+    "cho": 0.02,
+    "starch": 0.02
+  },
+  "fibers": {
+    "fibt": 0.01
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 1.79,
+    "f10_0": 0.008,
+    "f12_0": 0.016,
+    "f14_0": 0.14,
+    "f16_0": 1.01,
+    "f18_0": 0.62,
+    "fax": 2.54
+  },
+  "aminoAcids": {
+    "aae9": 11.245,
+    "ala": 1.611,
+    "arg": 1.584,
+    "asp": 2.349,
+    "cyste": 0.319,
+    "glu": 3.878,
+    "gly": 1.303,
+    "his": 0.846,
+    "ile": 1.287,
+    "leu": 2.076,
+    "lys": 2.363,
+    "met": 0.685,
+    "phe": 1.087,
+    "pro": 1.119,
+    "ser": 0.993,
+    "thr": 1.142,
+    "trp": 0.311,
+    "tyr": 0.896,
+    "val": 1.448
+  },
+  "otherNutrients": {
+    "chorl": 87,
+    "nt": 4.28
+  },
+  "extra": {}
+}

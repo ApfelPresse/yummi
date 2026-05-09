@@ -1,0 +1,83 @@
+{
+  "name": "Pilsner Bier, 0,0 % vol",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 19,
+    "water": 90.51,
+    "protein": 0.413,
+    "fat": null,
+    "carbs": 4.4,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.003,
+    "ribf": 0.033,
+    "niaeq": 1.38,
+    "nia": 1.33,
+    "pantac": 0.0135,
+    "vitb6": 60,
+    "biot": 1.4,
+    "fol": 8.2,
+    "folfd": 8.2
+  },
+  "minerals": {
+    "nacl": 0.0038,
+    "na": 1.5,
+    "cld": 24.6,
+    "k": 52.5,
+    "ca": 5.1,
+    "mg": 8.4,
+    "p": 20.8,
+    "s": 10.91,
+    "fe": 0.0048,
+    "zn": 0.0009,
+    "id": 0.2958,
+    "cu": 5.3,
+    "mn": 10.8
+  },
+  "carbohydrates": {
+    "cho": 4.4,
+    "mnsac": 1.66,
+    "glus": 1.128,
+    "frus": 0.532,
+    "disac": 0.64,
+    "sucs": 0.128,
+    "mals": 0.512,
+    "sugar": 2.3,
+    "starch": 2.0658
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.085,
+    "ala": 0.01,
+    "arg": 0.011,
+    "asp": 0.013,
+    "cyste": 0.005,
+    "glu": 0.042,
+    "gly": 0.009,
+    "his": 0.006,
+    "ile": 0.01,
+    "leu": 0.019,
+    "lys": 0.008,
+    "met": 0.004,
+    "phe": 0.013,
+    "pro": 0.038,
+    "ser": 0.011,
+    "thr": 0.008,
+    "trp": 0.003,
+    "tyr": 0.006,
+    "val": 0.014
+  },
+  "otherNutrients": {
+    "nt": 0.067
+  },
+  "extra": {}
+}

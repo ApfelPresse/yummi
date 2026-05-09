@@ -1,0 +1,111 @@
+{
+  "name": "Sauerkraut abgetropft, gebacken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 26,
+    "water": 89.39,
+    "protein": 1.324,
+    "fat": 0.365,
+    "carbs": 1.17,
+    "fiber": 2.518,
+    "alcohol": 0.05,
+    "sugarAlcohols": 0.145
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 2,
+    "cartb": 19,
+    "vite": 0.034,
+    "tocpha": 0.034,
+    "tocphg": 0.0071,
+    "tocphd": 0.0035,
+    "vitk": 35.1,
+    "vitk1": 29.5,
+    "vitk2": 5.6,
+    "thia": 0.028,
+    "ribf": 0.056,
+    "niaeq": 0.19,
+    "nia": 0.19,
+    "pantac": 0.244,
+    "vitb6": 225,
+    "biot": 0.87,
+    "fol": 26.5,
+    "folfd": 26.5,
+    "vitb12": 0.23,
+    "vitc": 18.118
+  },
+  "minerals": {
+    "nacl": 1.4,
+    "na": 560,
+    "k": 252,
+    "ca": 52,
+    "mg": 16,
+    "p": 51,
+    "fe": 1.294,
+    "zn": 0.376,
+    "cu": 34,
+    "mn": 165,
+    "fd": 53,
+    "cr": 6,
+    "mo": 11.1
+  },
+  "carbohydrates": {
+    "cho": 1.17,
+    "mnsac": 0.741,
+    "glus": 0.494,
+    "frus": 0.247,
+    "disac": 0.165,
+    "sucs": 0.165,
+    "sugar": 0.906,
+    "starch": 0.12
+  },
+  "fibers": {
+    "fibt": 2.518,
+    "fibhmw": 2.518,
+    "fibins": 1.529,
+    "fibsol": 0.988
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.145,
+    "mantl": 0.145
+  },
+  "fattyAcids": {
+    "fasat": 0.085,
+    "f16_0": 0.065,
+    "f18_0": 0.02,
+    "fams": 0.142,
+    "f18_1cn9": 0.142,
+    "fapu": 0.075,
+    "fapun3": 0.013,
+    "f18_3cn3": 0.013,
+    "fapun6": 0.062,
+    "f18_2cn6": 0.062
+  },
+  "aminoAcids": {
+    "aae9": 0.19,
+    "ala": 0.08,
+    "arg": 0.034,
+    "asp": 0.049,
+    "cyste": 0.016,
+    "glu": 0.174,
+    "gly": 0.025,
+    "his": 0.012,
+    "ile": 0.032,
+    "leu": 0.036,
+    "lys": 0.029,
+    "phe": 0.025,
+    "pro": 0.036,
+    "ser": 0.035,
+    "thr": 0.025,
+    "tyr": 0.016,
+    "val": 0.031
+  },
+  "otherNutrients": {
+    "nt": 0.212
+  },
+  "extra": {}
+}

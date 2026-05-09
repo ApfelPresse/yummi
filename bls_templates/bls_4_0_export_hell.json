@@ -1,0 +1,82 @@
+{
+  "name": "Export hell",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 42,
+    "water": 91.68,
+    "protein": 0.485,
+    "fat": null,
+    "carbs": 2.238,
+    "fiber": null,
+    "alcohol": 4.394,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.003,
+    "ribf": 0.036,
+    "niaeq": 1.23,
+    "nia": 1.16,
+    "pantac": 0.0214,
+    "vitb6": 70,
+    "biot": 1.3,
+    "fol": 6.4,
+    "folfd": 6.4
+  },
+  "minerals": {
+    "nacl": 0.0035,
+    "na": 1.4,
+    "cld": 15.2,
+    "k": 55.2,
+    "ca": 7,
+    "mg": 10,
+    "p": 26.4,
+    "s": 12.65,
+    "fe": 0.0061,
+    "zn": 0.0017,
+    "id": 0.2625,
+    "cu": 5.4,
+    "mn": 11.7
+  },
+  "carbohydrates": {
+    "cho": 2.238,
+    "mnsac": 0.072,
+    "glus": 0.056,
+    "frus": 0.016,
+    "disac": 0.1,
+    "mals": 0.087,
+    "sugar": 0.172,
+    "starch": 2.0656
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.103,
+    "ala": 0.012,
+    "arg": 0.013,
+    "asp": 0.016,
+    "cyste": 0.006,
+    "glu": 0.05,
+    "gly": 0.011,
+    "his": 0.007,
+    "ile": 0.012,
+    "leu": 0.022,
+    "lys": 0.01,
+    "met": 0.005,
+    "phe": 0.016,
+    "pro": 0.045,
+    "ser": 0.013,
+    "thr": 0.01,
+    "trp": 0.004,
+    "tyr": 0.007,
+    "val": 0.017
+  },
+  "otherNutrients": {
+    "nt": 0.078
+  },
+  "extra": {}
+}

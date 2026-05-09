@@ -1,0 +1,109 @@
+{
+  "name": "Pfifferling getrocknet, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 126,
+    "water": 53.4,
+    "protein": 18.654,
+    "fat": 1.293,
+    "carbs": 2.629,
+    "fiber": 16.294,
+    "alcohol": null,
+    "sugarAlcohols": 1.861
+  },
+  "vitamins": {
+    "vita": 528,
+    "vitaa": 264,
+    "cartb": 3170,
+    "vitd": 42.4,
+    "ergcal": 42.4,
+    "thia": 0.054,
+    "ribf": 0.834,
+    "niaeq": 26.09,
+    "nia": 23.257,
+    "pantac": 3.5,
+    "vitb6": 152,
+    "fol": 3.24,
+    "folfd": 3.24,
+    "vitc": 3.689
+  },
+  "minerals": {
+    "nacl": 0.032,
+    "na": 13,
+    "k": 1598,
+    "ca": 18.1,
+    "mg": 48,
+    "p": 272,
+    "fe": 6.479,
+    "zn": 3.7,
+    "cu": 2060,
+    "mn": 1602,
+    "fd": 241,
+    "cr": 19,
+    "mo": 48
+  },
+  "carbohydrates": {
+    "cho": 2.629,
+    "mnsac": 0.768,
+    "glus": 0.434,
+    "frus": 0.334,
+    "sugar": 0.768
+  },
+  "fibers": {
+    "fibt": 16.294,
+    "fibhmw": 16.294,
+    "fibins": 12.866,
+    "fibsol": 3.428
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.861,
+    "mantl": 1.861
+  },
+  "fattyAcids": {
+    "fasat": 0.235,
+    "f4_0": 0.014,
+    "f10_0": 0.01,
+    "f14_0": 0.005,
+    "f15_0": 0.005,
+    "f16_0": 0.134,
+    "f17_0": 0.005,
+    "f18_0": 0.033,
+    "f20_0": 0.014,
+    "f22_0": 0.005,
+    "f24_0": 0.01,
+    "fams": 0.029,
+    "f14_1cn5": 0.005,
+    "f18_1cn9": 0.024,
+    "fapu": 0.649,
+    "fapun6": 0.649,
+    "f18_2cn6": 0.649,
+    "fax": 0.004
+  },
+  "aminoAcids": {
+    "aae9": 1.606,
+    "ala": 0.156,
+    "arg": 0.269,
+    "cyste": 0.425,
+    "gly": 0.124,
+    "his": 0.092,
+    "ile": 0.142,
+    "leu": 0.3065,
+    "lys": 0.138,
+    "met": 0.032,
+    "phe": 0.23,
+    "pro": 0.142,
+    "ser": 0.174,
+    "thr": 0.31,
+    "trp": 0.17,
+    "tyr": 0.2073,
+    "val": 0.186
+  },
+  "otherNutrients": {
+    "nt": 2.218
+  },
+  "extra": {}
+}

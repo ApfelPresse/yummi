@@ -1,0 +1,100 @@
+{
+  "name": "Cappuccino (Getränk) aus gesüßtem Instantpulver",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 31,
+    "water": 92.5,
+    "protein": 0.795,
+    "fat": 0.838,
+    "carbs": 4.65,
+    "fiber": 0.138,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "cartb": 2,
+    "thia": 0.009,
+    "ribf": 0.047,
+    "niaeq": 0.604,
+    "nia": 0.421,
+    "vitb6": 39,
+    "fol": 1.3,
+    "folfd": 1.3,
+    "vitb12": 0.07
+  },
+  "minerals": {
+    "nacl": 0.135,
+    "na": 54,
+    "cld": 52,
+    "k": 90,
+    "ca": 30,
+    "mg": 6.1,
+    "p": 33,
+    "s": 10,
+    "fe": 0.034,
+    "zn": 0.07,
+    "id": 4,
+    "mn": 16,
+    "fd": 4,
+    "mo": 0.04
+  },
+  "carbohydrates": {
+    "cho": 4.65,
+    "disac": 3.953,
+    "sucs": 2.561,
+    "lacs": 1.392,
+    "sugar": 3.953,
+    "olsac": 0.7
+  },
+  "fibers": {
+    "fibt": 0.138
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.815,
+    "f6_0": 0.007,
+    "f8_0": 0.075,
+    "f10_0": 0.054,
+    "f12_0": 0.391,
+    "f14_0": 0.142,
+    "f16_0": 0.072,
+    "f18_0": 0.073,
+    "f20_0": 0.001,
+    "fams": 0.011,
+    "f18_1cn9": 0.011,
+    "fapu": 0.003,
+    "fapun6": 0.003,
+    "f18_2cn6": 0.003,
+    "fax": 0.004
+  },
+  "aminoAcids": {
+    "aae9": 0.292,
+    "ala": 0.026,
+    "arg": 0.019,
+    "asp": 0.055,
+    "cyste": 0.008,
+    "glu": 0.154,
+    "gly": 0.018,
+    "his": 0.018,
+    "ile": 0.034,
+    "leu": 0.065,
+    "lys": 0.048,
+    "met": 0.014,
+    "phe": 0.032,
+    "pro": 0.06,
+    "ser": 0.032,
+    "thr": 0.028,
+    "trp": 0.011,
+    "tyr": 0.027,
+    "val": 0.042
+  },
+  "otherNutrients": {
+    "chorl": 0.48,
+    "nt": 0.127
+  },
+  "extra": {}
+}

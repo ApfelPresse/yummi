@@ -1,0 +1,111 @@
+{
+  "name": "Birne ungesüßt, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 35,
+    "water": 89.9,
+    "protein": 0.301,
+    "fat": 0.303,
+    "carbs": 7.01,
+    "fiber": 2.6,
+    "alcohol": 0.006,
+    "sugarAlcohols": 1.64
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 7,
+    "carotpaxb": 4,
+    "vite": 0.219,
+    "tocpha": 0.219,
+    "tocphb": 0.011,
+    "tocphg": 0.083,
+    "toctra": 0.126,
+    "vitk": 4.922,
+    "vitk1": 4.922,
+    "thia": 0.006,
+    "ribf": 0.019,
+    "niaeq": 0.082,
+    "nia": 0.082,
+    "pantac": 0.04,
+    "vitb6": 10.24,
+    "biot": 0.1,
+    "fol": 1,
+    "folfd": 1,
+    "vitc": 0.529
+  },
+  "minerals": {
+    "nacl": 0.0048,
+    "na": 1.9,
+    "cld": 4,
+    "k": 64,
+    "ca": 13,
+    "mg": 5,
+    "p": 9,
+    "s": 1.4,
+    "zn": 0.11,
+    "id": 2,
+    "cu": 87,
+    "mn": 50,
+    "fd": 11,
+    "cr": 2,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 7.01,
+    "mnsac": 4.6,
+    "glus": 1.43,
+    "frus": 3.16,
+    "gals": 0.0063,
+    "disac": 0.77,
+    "sucs": 0.77,
+    "sugar": 5.37
+  },
+  "fibers": {
+    "fibt": 2.6,
+    "fibhmw": 2.6,
+    "fibins": 1.9,
+    "fibsol": 0.6
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.64,
+    "sortl": 1.64
+  },
+  "fattyAcids": {
+    "fasat": 0.0405,
+    "f16_0": 0.0329,
+    "f18_0": 0.0076,
+    "fams": 0.0675,
+    "f16_1cn7": 0.0033,
+    "f18_1cn9": 0.0642,
+    "fapu": 0.132,
+    "fapun3": 0.0194,
+    "f18_3cn3": 0.0194,
+    "fapun6": 0.113,
+    "f18_2cn6": 0.113
+  },
+  "aminoAcids": {
+    "aae9": 0.07,
+    "ala": 0.014,
+    "arg": 0.007,
+    "asp": 0.083,
+    "glu": 0.028,
+    "his": 0.005,
+    "ile": 0.007,
+    "leu": 0.016,
+    "lys": 0.014,
+    "phe": 0.007,
+    "pro": 0.007,
+    "ser": 0.012,
+    "thr": 0.007,
+    "val": 0.014
+  },
+  "otherNutrients": {
+    "nt": 0.048
+  },
+  "extra": {}
+}

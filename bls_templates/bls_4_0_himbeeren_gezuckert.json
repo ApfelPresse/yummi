@@ -1,0 +1,112 @@
+{
+  "name": "Himbeeren gezuckert",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 65,
+    "water": 80.8,
+    "protein": 0.9,
+    "fat": 0.281,
+    "carbs": 11,
+    "fiber": 4.4,
+    "alcohol": null,
+    "sugarAlcohols": 0.003
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "cartb": 7.3,
+    "carotpaxb": 28,
+    "vite": 0.74,
+    "tocpha": 0.74,
+    "tocphb": 0.12,
+    "tocphg": 1.2,
+    "tocphd": 1.1,
+    "vitk": 8.4,
+    "vitk1": 8.4,
+    "thia": 0.01,
+    "ribf": 0.01,
+    "niaeq": 0.7,
+    "nia": 0.5,
+    "pantac": 0.68,
+    "vitb6": 80,
+    "biot": 1.5,
+    "fol": 41,
+    "folfd": 41,
+    "vitc": 22
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 10,
+    "k": 161,
+    "ca": 12,
+    "mg": 17,
+    "p": 26,
+    "fe": 0.6,
+    "zn": 0.28,
+    "id": 4.1,
+    "cu": 70,
+    "mn": 410,
+    "fd": 15,
+    "cr": 4,
+    "mo": 7.16
+  },
+  "carbohydrates": {
+    "cho": 11,
+    "mnsac": 4.7,
+    "glus": 2.4,
+    "frus": 2.3,
+    "gals": 0.01,
+    "disac": 6.3,
+    "sucs": 6.25,
+    "mals": 0.05,
+    "sugar": 11
+  },
+  "fibers": {
+    "fibt": 4.4
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.003,
+    "xyltl": 0.003
+  },
+  "fattyAcids": {
+    "fasat": 0.0095,
+    "f16_0": 0.0077,
+    "f18_0": 0.0018,
+    "fams": 0.028,
+    "f18_1cn9": 0.028,
+    "fapu": 0.183,
+    "fapun3": 0.061,
+    "f18_3cn3": 0.061,
+    "fapun6": 0.122,
+    "f18_2cn6": 0.122
+  },
+  "aminoAcids": {
+    "aae9": 0.276,
+    "ala": 0.083,
+    "arg": 0.05,
+    "asp": 0.117,
+    "cyste": 0.009,
+    "glu": 0.16,
+    "gly": 0.043,
+    "his": 0.021,
+    "ile": 0.024,
+    "leu": 0.053,
+    "lys": 0.052,
+    "phe": 0.035,
+    "pro": 0.031,
+    "ser": 0.058,
+    "thr": 0.037,
+    "trp": 0.011,
+    "tyr": 0.027,
+    "val": 0.043
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

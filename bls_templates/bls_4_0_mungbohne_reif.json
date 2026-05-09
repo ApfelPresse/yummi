@@ -1,0 +1,99 @@
+{
+  "name": "Mungbohne reif",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 292,
+    "water": 9.8,
+    "protein": 23.9,
+    "fat": 1.15,
+    "carbs": 38.7,
+    "fiber": 15.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "cartb": 24,
+    "vite": 1.9,
+    "tocpha": 1.9,
+    "vitk": 170,
+    "vitk1": 170,
+    "thia": 0.49,
+    "ribf": 0.25,
+    "niaeq": 6.2,
+    "nia": 2.2,
+    "pantac": 1.34,
+    "vitb6": 380,
+    "fol": 180,
+    "folfd": 180,
+    "vitc": 8.5
+  },
+  "minerals": {
+    "nacl": 0.035,
+    "na": 14,
+    "cld": 12,
+    "k": 1250,
+    "ca": 103,
+    "mg": 170,
+    "p": 374,
+    "fe": 6,
+    "zn": 2.7,
+    "id": 6.7,
+    "cu": 710,
+    "mn": 900,
+    "cr": 8.8
+  },
+  "carbohydrates": {
+    "cho": 38.7,
+    "mnsac": 0.5,
+    "glus": 0.2,
+    "frus": 0.3,
+    "disac": 1,
+    "sucs": 1,
+    "sugar": 1.5,
+    "starch": 37.2
+  },
+  "fibers": {
+    "fibt": 15.6,
+    "fibhmw": 15.6,
+    "fibins": 12.1,
+    "fibsol": 3.5
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.32,
+    "f16_0": 0.25,
+    "f18_0": 0.071,
+    "fax": 0.545
+  },
+  "aminoAcids": {
+    "aae9": 9.2,
+    "ala": 1.05,
+    "arg": 1.67,
+    "asp": 2.76,
+    "cyste": 0.21,
+    "glu": 4.26,
+    "gly": 0.954,
+    "his": 0.695,
+    "ile": 1.01,
+    "leu": 1.85,
+    "lys": 1.66,
+    "met": 0.286,
+    "phe": 1.44,
+    "pro": 1.1,
+    "ser": 1.18,
+    "thr": 0.782,
+    "trp": 0.24,
+    "tyr": 0.714,
+    "val": 1.24
+  },
+  "otherNutrients": {
+    "nt": 3.8
+  },
+  "extra": {}
+}

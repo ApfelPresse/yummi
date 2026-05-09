@@ -1,0 +1,101 @@
+{
+  "name": "Grapefruit gezuckert",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 74,
+    "water": 80.2,
+    "protein": 0.4,
+    "fat": 0.134,
+    "carbs": 16.5,
+    "fiber": 0.5,
+    "alcohol": 0.019,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 51,
+    "vitaa": 25,
+    "cartb": 264,
+    "carotpaxb": 80,
+    "vite": 0.2,
+    "tocpha": 0.2,
+    "tocphb": 0.002,
+    "tocphg": 0.002,
+    "tocphd": 0.002,
+    "thia": 0.06,
+    "ribf": 0.02,
+    "niaeq": 0.3,
+    "nia": 0.3,
+    "pantac": 0.28,
+    "vitb6": 20,
+    "biot": 0.6,
+    "fol": 17,
+    "folfd": 17,
+    "vitc": 36
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 11,
+    "k": 123,
+    "ca": 21,
+    "mg": 9,
+    "p": 16,
+    "fe": 0.12,
+    "zn": 0.05,
+    "id": 0.2,
+    "cu": 40,
+    "mn": 40,
+    "fd": 21,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 16.5,
+    "mnsac": 3.4,
+    "glus": 1.9,
+    "frus": 1.5,
+    "disac": 13.1,
+    "sucs": 13,
+    "mals": 0.07,
+    "sugar": 16.5
+  },
+  "fibers": {
+    "fibt": 0.5
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.0305,
+    "f16_0": 0.0272,
+    "f18_0": 0.0033,
+    "fams": 0.025,
+    "f16_1cn7": 0.0024,
+    "f18_1cn9": 0.023,
+    "fapu": 0.05,
+    "fapun3": 0.011,
+    "f18_3cn3": 0.011,
+    "fapun6": 0.0388,
+    "f18_2cn6": 0.0388
+  },
+  "aminoAcids": {
+    "aae9": 0.061,
+    "ala": 0.022,
+    "arg": 0.047,
+    "asp": 0.085,
+    "cyste": 0.006,
+    "glu": 0.047,
+    "gly": 0.003,
+    "leu": 0.018,
+    "lys": 0.021,
+    "pro": 0.049,
+    "ser": 0.026,
+    "thr": 0.012,
+    "val": 0.01
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

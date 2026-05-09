@@ -1,0 +1,45 @@
+{
+  "name": "Invertzuckercreme",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 331,
+    "water": 17.2,
+    "protein": 0.15,
+    "fat": null,
+    "carbs": 82.5,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.048,
+    "na": 19,
+    "cld": 2,
+    "k": 4.5,
+    "ca": 5.5,
+    "p": 0.3,
+    "mn": 10
+  },
+  "carbohydrates": {
+    "cho": 82.5,
+    "mnsac": 77.2,
+    "glus": 41.1,
+    "frus": 36.1,
+    "disac": 5.3,
+    "sucs": 5.3,
+    "sugar": 82.5
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.02
+  },
+  "extra": {}
+}

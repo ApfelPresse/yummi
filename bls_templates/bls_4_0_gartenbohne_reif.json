@@ -1,0 +1,96 @@
+{
+  "name": "Gartenbohne reif",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 344,
+    "water": 11.3,
+    "protein": 22.6185,
+    "fat": 1.6,
+    "carbs": 45.751,
+    "fiber": 23.24,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 67,
+    "vitaa": 33,
+    "cartb": 400,
+    "thia": 0.503,
+    "ribf": 0.177,
+    "niaeq": 5.803,
+    "nia": 1.97,
+    "pantac": 0.87,
+    "vitb6": 435,
+    "fol": 130,
+    "folfd": 130,
+    "vitc": 2.5
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 47,
+    "k": 1337,
+    "ca": 113,
+    "mg": 140,
+    "p": 414,
+    "fe": 6.46,
+    "zn": 2.52,
+    "id": 1.772,
+    "cu": 695,
+    "mn": 1510,
+    "fd": 95,
+    "cr": 5.86
+  },
+  "carbohydrates": {
+    "cho": 45.751,
+    "disac": 2.03,
+    "sucs": 2.03,
+    "sugar": 2.03,
+    "olsac": 4.737,
+    "starch": 38.9836
+  },
+  "fibers": {
+    "fibt": 23.24,
+    "fibhmw": 23.24,
+    "fibins": 18,
+    "fibsol": 5.24
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.251,
+    "f12_0": 0.004,
+    "f14_0": 0.002,
+    "f16_0": 0.213,
+    "f18_0": 0.032,
+    "fax": 0.968
+  },
+  "aminoAcids": {
+    "aae9": 10.99,
+    "ala": 0.74,
+    "arg": 1.49,
+    "asp": 2.45,
+    "cyste": 0.23,
+    "glu": 4.33,
+    "gly": 0.95,
+    "his": 0.7,
+    "ile": 1.49,
+    "leu": 2.26,
+    "lys": 1.87,
+    "met": 0.26,
+    "phe": 1.4,
+    "pro": 0.98,
+    "ser": 1.38,
+    "thr": 1.15,
+    "trp": 0.23,
+    "tyr": 0.97,
+    "val": 1.63
+  },
+  "otherNutrients": {
+    "nt": 3.619
+  },
+  "extra": {}
+}

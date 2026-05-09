@@ -1,0 +1,62 @@
+{
+  "name": "Rotwein lieblich",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 86,
+    "water": 85.9,
+    "protein": null,
+    "fat": null,
+    "carbs": 2.29,
+    "fiber": null,
+    "alcohol": 10.73,
+    "sugarAlcohols": 0.028
+  },
+  "vitamins": {
+    "vite": 0.012,
+    "tocpha": 0.012,
+    "tocphb": 0.005,
+    "ribf": 0.03,
+    "niaeq": 0.09,
+    "nia": 0.09,
+    "pantac": 0.05,
+    "biot": 0.3,
+    "fol": 1.9,
+    "folfd": 1.9,
+    "vitc": 0.4
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 98.6,
+    "ca": 7.2,
+    "mg": 9.5,
+    "p": 17.8,
+    "s": 14,
+    "fe": 0.283,
+    "zn": 0.08,
+    "cu": 14.4,
+    "mn": 124.3,
+    "cr": 1.4,
+    "mo": 0.3
+  },
+  "carbohydrates": {
+    "cho": 2.29,
+    "mnsac": 2.26,
+    "glus": 1.04,
+    "frus": 1.22,
+    "sugar": 2.26
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.028,
+    "sortl": 0.028
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

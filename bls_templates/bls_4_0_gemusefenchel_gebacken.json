@@ -1,0 +1,111 @@
+{
+  "name": "Gemüsefenchel gebacken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 32,
+    "water": 90.7,
+    "protein": 1.647,
+    "fat": 0.235,
+    "carbs": 4.04,
+    "fiber": 3.9,
+    "alcohol": null,
+    "sugarAlcohols": 0.54
+  },
+  "vitamins": {
+    "vita": 25,
+    "vitaa": 12,
+    "cartb": 148,
+    "carotpaxb": 1.1,
+    "vite": 0.07,
+    "tocpha": 0.07,
+    "tocphb": 0.006,
+    "tocphg": 0.006,
+    "tocphd": 0.006,
+    "toctra": 0.05,
+    "vitk": 73.9,
+    "vitk1": 73.9,
+    "thia": 0.035,
+    "ribf": 0.123,
+    "niaeq": 0.474,
+    "nia": 0.224,
+    "pantac": 0.31,
+    "vitb6": 62,
+    "biot": 0.1,
+    "fol": 30,
+    "folfd": 30,
+    "vitc": 7.941
+  },
+  "minerals": {
+    "nacl": 0.08,
+    "na": 32,
+    "cld": 247,
+    "k": 465,
+    "ca": 44.314,
+    "mg": 13.726,
+    "p": 60,
+    "fe": 0.86,
+    "zn": 0.259,
+    "id": 1,
+    "cu": 20,
+    "mn": 90,
+    "cr": 1,
+    "mo": 1.25
+  },
+  "carbohydrates": {
+    "cho": 4.04,
+    "mnsac": 3.44,
+    "glus": 2.65,
+    "frus": 0.79,
+    "disac": 0.06,
+    "mals": 0.06,
+    "sugar": 3.5
+  },
+  "fibers": {
+    "fibt": 3.9,
+    "fibhmw": 3.9,
+    "fibins": 2.9,
+    "fibsol": 0.9
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.54,
+    "mantl": 0.38,
+    "sortl": 0.16
+  },
+  "fattyAcids": {
+    "fasat": 0.051,
+    "f14_0": 0.002,
+    "f16_0": 0.034,
+    "f18_0": 0.015,
+    "fams": 0.061,
+    "f16_1cn7": 0.002,
+    "f18_1cn7": 0.005,
+    "f18_1cn9": 0.053,
+    "f20_1cn9": 0.001,
+    "fapu": 0.044,
+    "fapun3": 0.004,
+    "f18_3cn3": 0.004,
+    "fapun6": 0.04,
+    "f18_2cn6": 0.04,
+    "fax": 0.007
+  },
+  "aminoAcids": {
+    "aae9": 0.393,
+    "arg": 0.138,
+    "cyste": 0.008,
+    "his": 0.06,
+    "lys": 0.026,
+    "met": 0.019,
+    "phe": 0.094,
+    "trp": 0.015,
+    "tyr": 0.042,
+    "val": 0.179
+  },
+  "otherNutrients": {
+    "nt": 0.264
+  },
+  "extra": {}
+}

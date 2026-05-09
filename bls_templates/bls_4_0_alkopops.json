@@ -1,0 +1,50 @@
+{
+  "name": "Alkopops",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 66,
+    "water": 87.1,
+    "protein": null,
+    "fat": null,
+    "carbs": 8.93,
+    "fiber": null,
+    "alcohol": 4.3,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.001,
+    "ribf": 0.001
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 9,
+    "k": 1,
+    "ca": 1,
+    "p": 14,
+    "s": 1.6,
+    "zn": 0.001,
+    "mn": 2,
+    "fd": 26,
+    "mo": 0.03
+  },
+  "carbohydrates": {
+    "cho": 8.93,
+    "mnsac": 5.072,
+    "glus": 2.436,
+    "frus": 2.636,
+    "disac": 3.858,
+    "sucs": 3.858,
+    "sugar": 8.93
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

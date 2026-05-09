@@ -1,0 +1,45 @@
+{
+  "name": "Komprimate (Pastillen, Presslinge)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 404,
+    "water": 6.4,
+    "protein": null,
+    "fat": null,
+    "carbs": 93.6,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 1,
+    "k": 1.2,
+    "ca": 0.3,
+    "p": 0.2,
+    "fe": 0.094,
+    "mn": 6
+  },
+  "carbohydrates": {
+    "cho": 93.6,
+    "mnsac": 14.7,
+    "glus": 14.7,
+    "disac": 64.1,
+    "sucs": 55,
+    "mals": 9.1,
+    "sugar": 78.8,
+    "olsac": 14.8
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Sauerampfer gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 26,
+    "water": 88.69,
+    "protein": 3.394,
+    "fat": 0.383,
+    "carbs": 1.234,
+    "fiber": 2.074,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitc": 98.33
+  },
+  "minerals": {
+    "k": 305,
+    "ca": 62,
+    "mg": 35,
+    "p": 54,
+    "fe": 2.213,
+    "zn": 0.617,
+    "cu": 96,
+    "mn": 1011
+  },
+  "carbohydrates": {
+    "cho": 1.234,
+    "mnsac": 0.522,
+    "glus": 0.241,
+    "frus": 0.281,
+    "disac": 0.247,
+    "sucs": 0.247,
+    "sugar": 0.769,
+    "starch": 0.465
+  },
+  "fibers": {
+    "fibt": 2.074,
+    "fibhmw": 2.074,
+    "fibins": 1.319,
+    "fibsol": 0.755
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.038,
+    "f12_0": 0.0022,
+    "f14_0": 0.0003,
+    "f16_0": 0.033,
+    "f18_0": 0.0022,
+    "f20_0": 0.0003,
+    "fams": 0.019,
+    "f16_1cn7": 0.0063,
+    "f18_1cn9": 0.013,
+    "fapu": 0.201,
+    "fapun3": 0.139,
+    "f18_3cn3": 0.139,
+    "fapun6": 0.062,
+    "f18_2cn6": 0.062
+  },
+  "aminoAcids": {
+    "aae9": 1.008,
+    "ala": 0.148,
+    "arg": 0.165,
+    "asp": 0.247,
+    "cyste": 0.031,
+    "glu": 0.295,
+    "gly": 0.133,
+    "his": 0.047,
+    "ile": 0.114,
+    "leu": 0.218,
+    "lys": 0.191,
+    "met": 0.054,
+    "phe": 0.131,
+    "pro": 0.12,
+    "ser": 0.124,
+    "thr": 0.119,
+    "tyr": 0.107,
+    "val": 0.134
+  },
+  "otherNutrients": {
+    "nt": 0.543
+  },
+  "extra": {}
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Litschi gezuckert, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 68,
+    "water": 83.2,
+    "protein": 0.65,
+    "fat": 0.239,
+    "carbs": 15.3,
+    "fiber": 1.097,
+    "alcohol": null,
+    "sugarAlcohols": 0.21
+  },
+  "vitamins": {
+    "vitk": 0.3,
+    "vitk1": 0.3,
+    "thia": 0.01,
+    "ribf": 0.019,
+    "niaeq": 0.248,
+    "nia": 0.165,
+    "pantac": 0.017,
+    "vitb6": 10,
+    "vitc": 3.449
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 1,
+    "k": 74,
+    "ca": 10.6,
+    "mg": 7,
+    "p": 20,
+    "s": 1,
+    "fe": 0.251,
+    "zn": 0.176,
+    "id": 0.24,
+    "cu": 167,
+    "mn": 88,
+    "mo": 0.03
+  },
+  "carbohydrates": {
+    "cho": 15.3,
+    "mnsac": 3.8,
+    "glus": 2.44,
+    "frus": 1.4,
+    "disac": 11.297,
+    "sucs": 11.297,
+    "sugar": 15.1
+  },
+  "fibers": {
+    "fibt": 1.097,
+    "fibhmw": 1.097,
+    "fibins": 0.676,
+    "fibsol": 0.421
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.21,
+    "sortl": 0.21
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.043,
+    "lys": 0.031,
+    "met": 0.007,
+    "trp": 0.005
+  },
+  "otherNutrients": {
+    "nt": 0.11
+  },
+  "extra": {}
+}

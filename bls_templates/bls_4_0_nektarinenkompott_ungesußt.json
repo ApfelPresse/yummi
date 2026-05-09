@@ -1,0 +1,113 @@
+{
+  "name": "Nektarinenkompott ungesüßt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 32,
+    "water": 91,
+    "protein": 0.7,
+    "fat": 0.1,
+    "carbs": 6,
+    "fiber": 1.1,
+    "alcohol": null,
+    "sugarAlcohols": 0.65
+  },
+  "vitamins": {
+    "vita": 17,
+    "vitaa": 8,
+    "cartb": 81,
+    "carotpaxb": 41,
+    "vite": 0.36,
+    "tocpha": 0.36,
+    "tocphb": 0.02,
+    "tocphg": 0.01,
+    "tocphd": 0.12,
+    "vitk": 1.4,
+    "vitk1": 1.4,
+    "thia": 0.01,
+    "ribf": 0.02,
+    "niaeq": 0.6,
+    "nia": 0.6,
+    "pantac": 0.23,
+    "vitb6": 20,
+    "fol": 7,
+    "folfd": 7,
+    "vitc": 4
+  },
+  "minerals": {
+    "nacl": 0.0035,
+    "na": 1.4,
+    "cld": 6,
+    "k": 161,
+    "ca": 8,
+    "mg": 6,
+    "p": 16,
+    "s": 0.7,
+    "fe": 0.1,
+    "zn": 0.09,
+    "id": 0.5,
+    "cu": 60,
+    "mn": 40,
+    "fd": 7,
+    "mo": 0.01
+  },
+  "carbohydrates": {
+    "cho": 6,
+    "mnsac": 2,
+    "glus": 1.1,
+    "frus": 0.9,
+    "disac": 3.3,
+    "sucs": 3.3,
+    "mals": 0.03,
+    "sugar": 5.3
+  },
+  "fibers": {
+    "fibt": 1.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.65,
+    "sortl": 0.65
+  },
+  "fattyAcids": {
+    "fasat": 0.002,
+    "f14_0": 0.0001,
+    "f16_0": 0.002,
+    "f18_0": 0.0001,
+    "fams": 0.1,
+    "f16_1cn7": 0.0001,
+    "f18_1cn9": 0.1,
+    "fapu": 0.1,
+    "fapun3": 0.002,
+    "f18_3cn3": 0.002,
+    "fapun6": 0.1,
+    "f18_2cn6": 0.1
+  },
+  "aminoAcids": {
+    "aae9": 0.067,
+    "ala": 0.012,
+    "arg": 0.007,
+    "asp": 0.367,
+    "cyste": 0.003,
+    "glu": 0.024,
+    "gly": 0.009,
+    "his": 0.005,
+    "ile": 0.006,
+    "leu": 0.009,
+    "lys": 0.011,
+    "met": 0.004,
+    "phe": 0.014,
+    "pro": 0.01,
+    "ser": 0.012,
+    "thr": 0.006,
+    "trp": 0.003,
+    "tyr": 0.005,
+    "val": 0.009
+  },
+  "otherNutrients": {
+    "nt": 0.11
+  },
+  "extra": {}
+}

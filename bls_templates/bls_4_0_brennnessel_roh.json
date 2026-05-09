@@ -1,0 +1,90 @@
+{
+  "name": "Brennnessel roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 46,
+    "water": 83.315,
+    "protein": 7.37,
+    "fat": 0.61,
+    "carbs": 1.309,
+    "fiber": 3.11,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk": 499,
+    "vitk1": 499,
+    "vitc": 333
+  },
+  "minerals": {
+    "k": 475,
+    "ca": 713,
+    "mg": 80,
+    "p": 138,
+    "fe": 4.12,
+    "zn": 1.02,
+    "cu": 240,
+    "mn": 1260
+  },
+  "carbohydrates": {
+    "cho": 1.309,
+    "mnsac": 0.53,
+    "glus": 0.246,
+    "frus": 0.284,
+    "disac": 0.317,
+    "sucs": 0.317,
+    "sugar": 0.847,
+    "starch": 0.462
+  },
+  "fibers": {
+    "fibt": 3.11,
+    "fibhmw": 3.11,
+    "fibins": 1.79,
+    "fibsol": 1.32
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.091,
+    "f12_0": 0.0015,
+    "f14_0": 0.001,
+    "f16_0": 0.08,
+    "f18_0": 0.0039,
+    "f20_0": 0.0049,
+    "fams": 0.015,
+    "f16_1cn7": 0.0044,
+    "f18_1cn9": 0.011,
+    "fapu": 0.35,
+    "fapun3": 0.181,
+    "f18_3cn3": 0.181,
+    "fapun6": 0.169,
+    "f18_2cn6": 0.169
+  },
+  "aminoAcids": {
+    "aae9": 2.191,
+    "ala": 0.321,
+    "arg": 0.359,
+    "asp": 0.535,
+    "cyste": 0.067,
+    "glu": 0.639,
+    "gly": 0.289,
+    "his": 0.101,
+    "ile": 0.247,
+    "leu": 0.474,
+    "lys": 0.415,
+    "met": 0.119,
+    "phe": 0.285,
+    "pro": 0.26,
+    "ser": 0.27,
+    "thr": 0.258,
+    "tyr": 0.234,
+    "val": 0.292
+  },
+  "otherNutrients": {
+    "nt": 1.179
+  },
+  "extra": {}
+}

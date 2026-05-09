@@ -1,0 +1,112 @@
+{
+  "name": "Birnendicksaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 272,
+    "water": 26.55,
+    "protein": 1.165,
+    "fat": 1.001,
+    "carbs": 67.8,
+    "fiber": 1.3,
+    "alcohol": null,
+    "sugarAlcohols": 11.95
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 4,
+    "cartb": 39,
+    "carotpaxb": 19,
+    "vite": 0.906,
+    "tocpha": 0.906,
+    "tocphb": 0.043,
+    "tocphg": 0.345,
+    "toctra": 0.518,
+    "vitk": 19.523,
+    "vitk1": 19.523,
+    "thia": 0.074,
+    "ribf": 0.138,
+    "niaeq": 0.757,
+    "nia": 0.69,
+    "pantac": 0.26,
+    "vitb6": 113.64,
+    "biot": 0.9,
+    "fol": 7,
+    "folfd": 7,
+    "vitc": 9.526
+  },
+  "minerals": {
+    "nacl": 0.1052,
+    "na": 42.0652,
+    "cld": 9,
+    "k": 453,
+    "ca": 35.4426,
+    "mg": 20.32,
+    "p": 47,
+    "fe": 0.9,
+    "zn": 0.43,
+    "id": 4,
+    "cu": 125,
+    "mn": 130,
+    "fd": 43,
+    "cr": 4,
+    "mo": 19.8
+  },
+  "carbohydrates": {
+    "cho": 67.8,
+    "mnsac": 34.8,
+    "glus": 14.93,
+    "frus": 19.8,
+    "gals": 0.0457,
+    "disac": 20.97,
+    "sucs": 20.97,
+    "sugar": 55.8
+  },
+  "fibers": {
+    "fibt": 1.3
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 11.95,
+    "sortl": 11.95
+  },
+  "fattyAcids": {
+    "fasat": 0.1337,
+    "f16_0": 0.1087,
+    "f18_0": 0.025,
+    "fams": 0.2232,
+    "f16_1cn7": 0.0109,
+    "f18_1cn9": 0.2123,
+    "fapu": 0.435,
+    "fapun3": 0.0643,
+    "f18_3cn3": 0.0643,
+    "fapun6": 0.371,
+    "f18_2cn6": 0.371
+  },
+  "aminoAcids": {
+    "aae9": 0.29,
+    "ala": 0.054,
+    "arg": 0.027,
+    "asp": 0.331,
+    "cyste": 0.004,
+    "glu": 0.116,
+    "his": 0.022,
+    "ile": 0.027,
+    "leu": 0.063,
+    "lys": 0.058,
+    "met": 0.004,
+    "phe": 0.031,
+    "pro": 0.027,
+    "ser": 0.049,
+    "thr": 0.027,
+    "trp": 0.004,
+    "tyr": 0.004,
+    "val": 0.054
+  },
+  "otherNutrients": {
+    "nt": 0.193
+  },
+  "extra": {}
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Fondant mit Pfefferminzgeschmack",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 339,
+    "water": 14,
+    "protein": 0.7,
+    "fat": 3.1,
+    "carbs": 77,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.042,
+    "na": 17,
+    "cld": 2,
+    "k": 2,
+    "ca": 3,
+    "mn": 10
+  },
+  "carbohydrates": {
+    "cho": 77,
+    "disac": 76,
+    "sucs": 76,
+    "sugar": 76,
+    "starch": 1.43
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

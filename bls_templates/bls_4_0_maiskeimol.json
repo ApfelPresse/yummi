@@ -1,0 +1,60 @@
+{
+  "name": "Maiskeimöl",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 23,
+    "vitaa": 12,
+    "cartb": 140,
+    "vite": 25.69,
+    "tocpha": 25.69,
+    "tocphb": 0.61,
+    "tocphg": 3.1,
+    "tocphd": 0.04,
+    "vitk": 2.6,
+    "vitk1": 2.6
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "k": 1,
+    "ca": 15,
+    "fe": 0.03,
+    "zn": 0.005
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 13.186,
+    "f16_0": 10.8905,
+    "f18_0": 1.7952,
+    "f20_0": 0.5,
+    "fams": 26.005,
+    "f16_1cn7": 0.5,
+    "f18_1cn9": 25.5048,
+    "fapu": 56.489,
+    "fapun3": 0.96,
+    "f18_3cn3": 0.96,
+    "fapun6": 55.5286,
+    "f18_2cn6": 55.5286
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 1.9
+  },
+  "extra": {}
+}

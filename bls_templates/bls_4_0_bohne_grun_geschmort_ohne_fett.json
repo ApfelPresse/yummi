@@ -1,0 +1,109 @@
+{
+  "name": "Bohne grün, geschmort ohne Fett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 32,
+    "water": 89.2,
+    "protein": 2.518,
+    "fat": 0.27,
+    "carbs": 3.9,
+    "fiber": 2.148,
+    "alcohol": null,
+    "sugarAlcohols": 0.31
+  },
+  "vitamins": {
+    "vita": 70,
+    "vitaa": 35,
+    "cartb": 378,
+    "carotpaxb": 81,
+    "vite": 0.071,
+    "tocpha": 0.071,
+    "tocphg": 0.216,
+    "tocphd": 0.0085,
+    "vitk": 41,
+    "vitk1": 41,
+    "thia": 0.105,
+    "ribf": 0.101,
+    "niaeq": 1.291,
+    "nia": 0.791,
+    "pantac": 0.1,
+    "vitb6": 30.02,
+    "biot": 1,
+    "fol": 44,
+    "folfd": 44,
+    "vitc": 17.218
+  },
+  "minerals": {
+    "nacl": 0.0056,
+    "na": 2.23,
+    "cld": 14.643,
+    "k": 263,
+    "ca": 73,
+    "mg": 27,
+    "p": 40.697,
+    "fe": 0.886,
+    "zn": 0.36,
+    "id": 2,
+    "cu": 77,
+    "mn": 300,
+    "fd": 14,
+    "cr": 1,
+    "mo": 23
+  },
+  "carbohydrates": {
+    "cho": 3.9,
+    "mnsac": 2.45,
+    "glus": 1.07,
+    "frus": 1.38,
+    "disac": 0.13,
+    "sucs": 0.13,
+    "sugar": 2.58,
+    "starch": 1
+  },
+  "fibers": {
+    "fibt": 2.148,
+    "fibhmw": 2.148,
+    "fibins": 1.148,
+    "fibsol": 1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.31,
+    "mantl": 0.12,
+    "sortl": 0.19
+  },
+  "fattyAcids": {
+    "fasat": 0.08,
+    "f16_0": 0.07,
+    "f18_0": 0.0099,
+    "fams": 0.008,
+    "f18_1cn9": 0.008,
+    "fapu": 0.13,
+    "fapun3": 0.07,
+    "f18_3cn3": 0.07,
+    "fapun6": 0.06,
+    "f18_2cn6": 0.06
+  },
+  "aminoAcids": {
+    "aae9": 0.896,
+    "arg": 0.112,
+    "cyste": 0.027,
+    "his": 0.055,
+    "ile": 0.124,
+    "leu": 0.158,
+    "lys": 0.158,
+    "met": 0.038,
+    "phe": 0.082,
+    "thr": 0.105,
+    "trp": 0.03,
+    "tyr": 0.056,
+    "val": 0.146
+  },
+  "otherNutrients": {
+    "nt": 0.403
+  },
+  "extra": {}
+}

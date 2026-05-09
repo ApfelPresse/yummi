@@ -1,0 +1,76 @@
+{
+  "name": "Doppelbock",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 50,
+    "water": 91.79,
+    "protein": 0.503,
+    "fat": null,
+    "carbs": 2.131,
+    "fiber": null,
+    "alcohol": 5.63,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.004,
+    "ribf": 0.036,
+    "niaeq": 1.1,
+    "nia": 1,
+    "pantac": 0.0222,
+    "vitb6": 59,
+    "biot": 1.6,
+    "fol": 8.4,
+    "folfd": 8.4
+  },
+  "minerals": {
+    "nacl": 0.004,
+    "na": 1.6,
+    "cld": 14.4,
+    "k": 56.3,
+    "ca": 4.6,
+    "mg": 9.8,
+    "p": 27.1,
+    "s": 12.87,
+    "fe": 0.0122,
+    "zn": 0.0016,
+    "id": 0.2306,
+    "cu": 6.3,
+    "mn": 14.2
+  },
+  "carbohydrates": {
+    "cho": 2.131,
+    "starch": 2.131
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.165,
+    "ala": 0.028,
+    "arg": 0.019,
+    "asp": 0.034,
+    "cyste": 0.013,
+    "glu": 0.106,
+    "gly": 0.029,
+    "his": 0.014,
+    "ile": 0.023,
+    "leu": 0.023,
+    "lys": 0.019,
+    "met": 0.009,
+    "phe": 0.03,
+    "pro": 0.087,
+    "ser": 0.02,
+    "thr": 0.016,
+    "trp": 0.006,
+    "tyr": 0.015,
+    "val": 0.025
+  },
+  "otherNutrients": {
+    "nt": 0.08
+  },
+  "extra": {}
+}

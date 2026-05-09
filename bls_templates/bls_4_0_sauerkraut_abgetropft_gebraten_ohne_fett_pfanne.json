@@ -1,0 +1,111 @@
+{
+  "name": "Sauerkraut abgetropft, gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 42,
+    "water": 83.66,
+    "protein": 2.123,
+    "fat": 0.585,
+    "carbs": 1.87,
+    "fiber": 4.038,
+    "alcohol": 0.1,
+    "sugarAlcohols": 0.232
+  },
+  "vitamins": {
+    "vita": 5,
+    "vitaa": 3,
+    "cartb": 31,
+    "vite": 0.055,
+    "tocpha": 0.055,
+    "tocphg": 0.0113,
+    "tocphd": 0.0057,
+    "vitk": 56.5,
+    "vitk1": 47.4,
+    "vitk2": 9.1,
+    "thia": 0.046,
+    "ribf": 0.09,
+    "niaeq": 0.305,
+    "nia": 0.305,
+    "pantac": 0.391,
+    "vitb6": 357,
+    "biot": 1.39,
+    "fol": 41.3,
+    "folfd": 41.3,
+    "vitb12": 0.34,
+    "vitc": 30.566
+  },
+  "minerals": {
+    "nacl": 2.245,
+    "na": 898,
+    "k": 404,
+    "ca": 83,
+    "mg": 26,
+    "p": 81,
+    "fe": 2.075,
+    "zn": 0.604,
+    "cu": 55,
+    "mn": 264,
+    "fd": 85,
+    "cr": 9,
+    "mo": 17.7
+  },
+  "carbohydrates": {
+    "cho": 1.87,
+    "mnsac": 1.188,
+    "glus": 0.792,
+    "frus": 0.396,
+    "disac": 0.264,
+    "sucs": 0.264,
+    "sugar": 1.452,
+    "starch": 0.19
+  },
+  "fibers": {
+    "fibt": 4.038,
+    "fibhmw": 4.038,
+    "fibins": 2.453,
+    "fibsol": 1.585
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.232,
+    "mantl": 0.232
+  },
+  "fattyAcids": {
+    "fasat": 0.136,
+    "f16_0": 0.104,
+    "f18_0": 0.032,
+    "fams": 0.228,
+    "f18_1cn9": 0.228,
+    "fapu": 0.121,
+    "fapun3": 0.021,
+    "f18_3cn3": 0.021,
+    "fapun6": 0.1,
+    "f18_2cn6": 0.1
+  },
+  "aminoAcids": {
+    "aae9": 0.304,
+    "ala": 0.128,
+    "arg": 0.055,
+    "asp": 0.079,
+    "cyste": 0.026,
+    "glu": 0.279,
+    "gly": 0.04,
+    "his": 0.019,
+    "ile": 0.051,
+    "leu": 0.058,
+    "lys": 0.047,
+    "phe": 0.04,
+    "pro": 0.058,
+    "ser": 0.057,
+    "thr": 0.04,
+    "tyr": 0.026,
+    "val": 0.049
+  },
+  "otherNutrients": {
+    "nt": 0.34
+  },
+  "extra": {}
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Lakritze",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 311,
+    "water": 21.8,
+    "protein": 5.21,
+    "fat": 0.5,
+    "carbs": 70.64,
+    "fiber": 1.27,
+    "alcohol": null,
+    "sugarAlcohols": 0.019
+  },
+  "vitamins": {
+    "vita": 0.3,
+    "vitaa": 0.3,
+    "vite": 0.65,
+    "tocpha": 0.65,
+    "tocphb": 0.067,
+    "vitk": 1.34,
+    "vitk2": 1.34,
+    "thia": 0.06,
+    "niaeq": 0.65,
+    "nia": 0.22,
+    "pantac": 0.05,
+    "biot": 1.45,
+    "fol": 0.7,
+    "folfd": 0.7
+  },
+  "minerals": {
+    "nacl": 0.51,
+    "na": 204,
+    "k": 211,
+    "ca": 35.5,
+    "mg": 20,
+    "p": 28.6,
+    "s": 50,
+    "fe": 1.435,
+    "zn": 0.39,
+    "cu": 72.5,
+    "mn": 400,
+    "cr": 6.6,
+    "mo": 12
+  },
+  "carbohydrates": {
+    "cho": 70.64,
+    "mnsac": 11.34,
+    "glus": 7.58,
+    "frus": 3.76,
+    "disac": 38.36,
+    "sucs": 26.4,
+    "mals": 11.96,
+    "sugar": 49.7,
+    "starch": 20.92
+  },
+  "fibers": {
+    "fibt": 1.27,
+    "fibhmw": 1.27,
+    "fibins": 0.75,
+    "fibsol": 0.52
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.019,
+    "sortl": 0.01
+  },
+  "fattyAcids": {
+    "fasat": 0.122,
+    "f16_0": 0.082,
+    "f18_0": 0.04,
+    "fams": 0.18,
+    "f16_1cn7": 0.0039,
+    "f18_1cn9": 0.18,
+    "fapu": 0.043,
+    "fapun3": 0.0031,
+    "f18_3cn3": 0.0031,
+    "fapun6": 0.04,
+    "f18_2cn6": 0.04,
+    "fax": 0.0012
+  },
+  "aminoAcids": {
+    "aae9": 0.603,
+    "ala": 0.121,
+    "arg": 0.111,
+    "asp": 0.12,
+    "cyste": 0.03,
+    "glu": 0.612,
+    "gly": 0.226,
+    "his": 0.04,
+    "ile": 0.069,
+    "leu": 0.144,
+    "lys": 0.044,
+    "met": 0.031,
+    "phe": 0.097,
+    "pro": 0.268,
+    "ser": 0.1,
+    "thr": 0.062,
+    "trp": 0.026,
+    "tyr": 0.054,
+    "val": 0.09
+  },
+  "otherNutrients": {
+    "nt": 0.83
+  },
+  "extra": {}
+}

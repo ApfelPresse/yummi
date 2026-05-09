@@ -1,0 +1,108 @@
+{
+  "name": "Palmenherz gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 30,
+    "water": 70.6,
+    "protein": 2.6,
+    "fat": 0.2,
+    "carbs": 3.78,
+    "fiber": 1.4,
+    "alcohol": null,
+    "sugarAlcohols": 0.09
+  },
+  "vitamins": {
+    "cartb": 1,
+    "vite": 1.2,
+    "tocpha": 1.2,
+    "tocphb": 0.032,
+    "tocphg": 0.147,
+    "vitk": 98.4,
+    "vitk1": 98.4,
+    "thia": 0.03,
+    "ribf": 0.12,
+    "niaeq": 0.6,
+    "nia": 0.6,
+    "pantac": 0.457,
+    "vitb6": 550,
+    "biot": 1,
+    "fol": 13,
+    "folfd": 13,
+    "vitc": 5
+  },
+  "minerals": {
+    "nacl": 0.028,
+    "na": 11,
+    "cld": 36.09,
+    "k": 953,
+    "ca": 18,
+    "mg": 6,
+    "p": 133,
+    "fe": 1.33,
+    "zn": 2.94,
+    "id": 6,
+    "cu": 644,
+    "mn": 100,
+    "fd": 46,
+    "cr": 4
+  },
+  "carbohydrates": {
+    "cho": 3.78,
+    "mnsac": 3.35,
+    "glus": 1.56,
+    "frus": 1.79,
+    "disac": 0.2459,
+    "sucs": 0.2459,
+    "sugar": 3.6,
+    "starch": 0.086
+  },
+  "fibers": {
+    "fibt": 1.4,
+    "fibhmw": 1.4,
+    "fibins": 1.3,
+    "fibsol": 0.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.09,
+    "mantl": 0.09
+  },
+  "fattyAcids": {
+    "fasat": 0.038,
+    "f12_0": 0.001,
+    "f14_0": 0.001,
+    "f16_0": 0.032,
+    "f18_0": 0.004,
+    "fams": 0.005,
+    "f18_1cn9": 0.005,
+    "fapu": 0.084,
+    "fapun3": 0.012,
+    "f18_3cn3": 0.012,
+    "fapun6": 0.072,
+    "f18_2cn6": 0.072
+  },
+  "aminoAcids": {
+    "aae9": 0.6,
+    "ala": 0.1,
+    "arg": 0.1,
+    "asp": 0.4,
+    "glu": 0.3,
+    "gly": 0.1,
+    "ile": 0.1,
+    "leu": 0.1,
+    "lys": 0.1,
+    "phe": 0.1,
+    "pro": 0.2,
+    "ser": 0.1,
+    "thr": 0.1,
+    "tyr": 0.4,
+    "val": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.4
+  },
+  "extra": {}
+}

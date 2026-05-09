@@ -1,0 +1,75 @@
+{
+  "name": "Tortenguss klar (zubereitet mit Wasser und Zucker) für Gebäck/Torten",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 48,
+    "water": 87.9,
+    "protein": 0.015,
+    "fat": 0.003,
+    "carbs": 12.057,
+    "fiber": 0.033,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "niaeq": 0.001,
+    "nia": 0.001
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 2,
+    "k": 1,
+    "ca": 4,
+    "mg": 1,
+    "p": 1,
+    "s": 1.3,
+    "fe": 0.029,
+    "id": 0.4,
+    "mn": 34,
+    "fd": 1,
+    "mo": 0.03
+  },
+  "carbohydrates": {
+    "cho": 12.057,
+    "disac": 8.537,
+    "sucs": 8.537,
+    "sugar": 8.537,
+    "starch": 3.52
+  },
+  "fibers": {
+    "fibt": 0.033
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fams": 0.001,
+    "f18_1cn9": 0.001,
+    "fapu": 0.001,
+    "fapun6": 0.001,
+    "f18_2cn6": 0.001
+  },
+  "aminoAcids": {
+    "aae9": 0.006,
+    "ala": 0.001,
+    "arg": 0.001,
+    "asp": 0.001,
+    "glu": 0.003,
+    "gly": 0.001,
+    "ile": 0.001,
+    "leu": 0.002,
+    "phe": 0.001,
+    "pro": 0.002,
+    "ser": 0.001,
+    "thr": 0.001,
+    "tyr": 0.001,
+    "val": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.002
+  },
+  "extra": {}
+}

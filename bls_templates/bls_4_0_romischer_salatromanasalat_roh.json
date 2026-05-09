@@ -1,0 +1,100 @@
+{
+  "name": "Römischer Salat/Romanasalat, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 14,
+    "water": 94.3,
+    "protein": 1.2,
+    "fat": 0.13,
+    "carbs": 1.3,
+    "fiber": 1.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 481,
+    "vitaa": 240,
+    "cartb": 2886,
+    "vite": 0.13,
+    "tocpha": 0.13,
+    "tocphg": 0.36,
+    "tocphd": 0.01,
+    "toctra": 0.04,
+    "vitk": 103,
+    "vitk1": 103,
+    "thia": 0.0657,
+    "ribf": 0.0578,
+    "niaeq": 0.532,
+    "nia": 0.315,
+    "pantac": 0.109,
+    "vitb6": 73.8,
+    "biot": 2.46,
+    "fol": 56.6,
+    "folfd": 56.6,
+    "vitc": 10.68
+  },
+  "minerals": {
+    "nacl": 0.022,
+    "na": 9,
+    "k": 259,
+    "ca": 25,
+    "mg": 10.7,
+    "p": 29.2,
+    "fe": 0.5,
+    "zn": 0.21,
+    "id": 0.461,
+    "cu": 34,
+    "mn": 160,
+    "cr": 1,
+    "mo": 1.06
+  },
+  "carbohydrates": {
+    "cho": 1.3,
+    "mnsac": 1.3,
+    "glus": 0.46,
+    "frus": 0.8,
+    "disac": 0.0078,
+    "sucs": 0.0078,
+    "sugar": 1.3
+  },
+  "fibers": {
+    "fibt": 1.6,
+    "fibhmw": 1.6,
+    "fibhmws": 0.1,
+    "fibhmwi": 1.5
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.04,
+    "f16_0": 0.035,
+    "f18_0": 0.005
+  },
+  "aminoAcids": {
+    "aae9": 0.283,
+    "ala": 0.048,
+    "arg": 0.054,
+    "asp": 0.15,
+    "cyste": 0.007,
+    "glu": 0.175,
+    "gly": 0.037,
+    "his": 0.004,
+    "ile": 0.024,
+    "leu": 0.062,
+    "lys": 0.056,
+    "phe": 0.034,
+    "pro": 0.03,
+    "ser": 0.047,
+    "thr": 0.042,
+    "trp": 0.013,
+    "tyr": 0.012,
+    "val": 0.048
+  },
+  "otherNutrients": {
+    "nt": 0.196
+  },
+  "extra": {}
+}

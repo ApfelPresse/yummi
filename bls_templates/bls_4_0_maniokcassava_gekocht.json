@@ -1,0 +1,80 @@
+{
+  "name": "Maniok/Cassava, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 146,
+    "water": 63.2,
+    "protein": 1.032,
+    "fat": 0.23,
+    "carbs": 33.5,
+    "fiber": 2.92,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 5,
+    "vitaa": 2,
+    "cartb": 27,
+    "vitk": 2,
+    "vitk1": 2,
+    "thia": 0.051,
+    "ribf": 0.03,
+    "niaeq": 0.9,
+    "nia": 0.6,
+    "vitc": 23.684
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "k": 326,
+    "ca": 32.02,
+    "mg": 21,
+    "p": 38,
+    "fe": 1.17,
+    "zn": 0.55,
+    "cu": 160,
+    "mn": 600
+  },
+  "carbohydrates": {
+    "cho": 33.5,
+    "mnsac": 0.3,
+    "glus": 0.2,
+    "frus": 0.1,
+    "disac": 1.1,
+    "sucs": 1,
+    "mals": 0.1,
+    "sugar": 1.4,
+    "starch": 32.1
+  },
+  "fibers": {
+    "fibt": 2.92,
+    "fibhmw": 2.92,
+    "fibins": 2.223,
+    "fibsol": 0.697
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.356,
+    "arg": 0.041,
+    "cyste": 0.015,
+    "his": 0.019,
+    "ile": 0.043,
+    "leu": 0.054,
+    "lys": 0.041,
+    "met": 0.018,
+    "phe": 0.05,
+    "thr": 0.043,
+    "trp": 0.018,
+    "tyr": 0.045,
+    "val": 0.07
+  },
+  "otherNutrients": {
+    "nt": 0.165
+  },
+  "extra": {}
+}

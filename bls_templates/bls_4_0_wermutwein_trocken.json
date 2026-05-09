@@ -1,0 +1,66 @@
+{
+  "name": "Wermutwein trocken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 105,
+    "water": 82.1,
+    "protein": 0.1,
+    "fat": null,
+    "carbs": 3,
+    "fiber": null,
+    "alcohol": 13,
+    "sugarAlcohols": 0.028
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 5,
+    "vite": 0.004,
+    "tocpha": 0.004,
+    "ribf": 0.0226,
+    "pantac": 0.44,
+    "vitb6": 10,
+    "biot": 0.22,
+    "fol": 1.4,
+    "folfd": 1.4
+  },
+  "minerals": {
+    "nacl": 0.028,
+    "na": 11,
+    "cld": 7,
+    "k": 34,
+    "ca": 7,
+    "mg": 6,
+    "p": 6,
+    "s": 10,
+    "fe": 0.3,
+    "zn": 0.024,
+    "cu": 30,
+    "mn": 23,
+    "fd": 6,
+    "cr": 3
+  },
+  "carbohydrates": {
+    "cho": 3,
+    "mnsac": 2.3,
+    "glus": 1.1,
+    "frus": 1.2,
+    "disac": 0.7,
+    "sucs": 0.7,
+    "sugar": 3
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.028,
+    "sortl": 0.028
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.01
+  },
+  "extra": {}
+}

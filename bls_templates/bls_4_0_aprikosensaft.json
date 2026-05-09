@@ -1,0 +1,101 @@
+{
+  "name": "Aprikosensaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 49,
+    "water": 84,
+    "protein": 0.7,
+    "fat": 0.104,
+    "carbs": 10.8,
+    "fiber": 0.154,
+    "alcohol": null,
+    "sugarAlcohols": 0.72
+  },
+  "vitamins": {
+    "vita": 275,
+    "vitaa": 137,
+    "cartb": 1515,
+    "carotpaxb": 265,
+    "vite": 0.5,
+    "tocpha": 0.5,
+    "vitk": 3,
+    "vitk1": 3,
+    "thia": 0.086,
+    "ribf": 0.042,
+    "niaeq": 0.616,
+    "nia": 0.616,
+    "pantac": 0.232,
+    "vitb6": 56,
+    "fol": 6.5,
+    "folfd": 6.5,
+    "vitc": 5.64
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 1,
+    "k": 103.6,
+    "ca": 5.54,
+    "mg": 3.25,
+    "p": 21,
+    "fe": 0.245,
+    "zn": 0.0463,
+    "id": 0.5,
+    "cu": 23.5,
+    "mn": 18.7,
+    "fd": 10,
+    "cr": 2.652,
+    "mo": 1.52
+  },
+  "carbohydrates": {
+    "cho": 10.8,
+    "mnsac": 6.4,
+    "glus": 3.6,
+    "frus": 2.8,
+    "disac": 3.7,
+    "sucs": 3.7,
+    "sugar": 10.1
+  },
+  "fibers": {
+    "fibt": 0.154,
+    "fibhmw": 0.154,
+    "fibins": 0.083,
+    "fibsol": 0.071
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.72,
+    "sortl": 0.72
+  },
+  "fattyAcids": {
+    "fasat": 0.0083,
+    "f16_0": 0.0074,
+    "f18_0": 0.0009,
+    "fams": 0.051,
+    "f16_1cn7": 0.051,
+    "fapu": 0.023,
+    "fapun6": 0.023,
+    "f18_2cn6": 0.023
+  },
+  "aminoAcids": {
+    "aae9": 0.076,
+    "ala": 0.019,
+    "arg": 0.014,
+    "asp": 0.373,
+    "cyste": 0.005,
+    "glu": 0.038,
+    "leu": 0.022,
+    "lys": 0.021,
+    "pro": 0.014,
+    "ser": 0.022,
+    "thr": 0.017,
+    "val": 0.016
+  },
+  "otherNutrients": {
+    "nt": 0.115
+  },
+  "extra": {}
+}

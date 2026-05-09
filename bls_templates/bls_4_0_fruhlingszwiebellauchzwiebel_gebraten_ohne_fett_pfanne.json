@@ -1,0 +1,102 @@
+{
+  "name": "Frühlingszwiebel/Lauchzwiebel, gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 43,
+    "water": 83,
+    "protein": 3,
+    "fat": 0.3,
+    "carbs": 4.7,
+    "fiber": 4.1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 148,
+    "vitaa": 74,
+    "cartb": 886,
+    "vite": 0.56,
+    "tocpha": 0.56,
+    "vitk": 86,
+    "vitk1": 86,
+    "thia": 0.07,
+    "ribf": 0.09,
+    "niaeq": 1.3,
+    "nia": 0.8,
+    "pantac": 0.1,
+    "vitb6": 140,
+    "biot": 4,
+    "fol": 99,
+    "folfd": 99,
+    "vitc": 30
+  },
+  "minerals": {
+    "nacl": 0.048,
+    "na": 19,
+    "cld": 49,
+    "k": 425,
+    "ca": 89,
+    "mg": 25,
+    "p": 52,
+    "fe": 2.68,
+    "zn": 0.29,
+    "id": 2,
+    "cu": 70,
+    "mn": 410,
+    "fd": 16,
+    "cr": 2,
+    "mo": 8
+  },
+  "carbohydrates": {
+    "cho": 4.7,
+    "mnsac": 4.1,
+    "glus": 1.9,
+    "frus": 2.2,
+    "disac": 0.3,
+    "sucs": 0.3,
+    "sugar": 4.4,
+    "starch": 0.3
+  },
+  "fibers": {
+    "fibt": 4.1,
+    "fibhmw": 4.1,
+    "fibins": 2.1,
+    "fibsol": 2.1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.051,
+    "f14_0": 0.002,
+    "f16_0": 0.044,
+    "f18_0": 0.005,
+    "fax": 0.16
+  },
+  "aminoAcids": {
+    "aae9": 0.89,
+    "ala": 0.13,
+    "arg": 0.21,
+    "asp": 0.268,
+    "glu": 0.6,
+    "gly": 0.144,
+    "his": 0.051,
+    "ile": 0.122,
+    "leu": 0.173,
+    "lys": 0.144,
+    "met": 0.03,
+    "phe": 0.094,
+    "pro": 0.192,
+    "ser": 0.13,
+    "thr": 0.114,
+    "trp": 0.03,
+    "tyr": 0.084,
+    "val": 0.129
+  },
+  "otherNutrients": {
+    "nt": 0.48
+  },
+  "extra": {}
+}

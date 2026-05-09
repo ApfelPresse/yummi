@@ -1,0 +1,59 @@
+{
+  "name": "Gänsefett/Gänseschmalz",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 220,
+    "vitaa": 220,
+    "retol": 220,
+    "vite": 1.3,
+    "tocpha": 1.3,
+    "vitk": 5,
+    "vitk1": 1,
+    "vitk2": 4
+  },
+  "minerals": {
+    "nacl": 0.025,
+    "na": 10,
+    "k": 6,
+    "p": 7,
+    "fe": 0.32,
+    "mn": 1
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 27.68,
+    "f14_0": 0.48,
+    "f16_0": 21,
+    "f18_0": 6.2,
+    "fams": 57.5,
+    "f16_1cn7": 2.9,
+    "f18_1cn9": 54.5,
+    "f20_1cn9": 0.1,
+    "fapu": 10.79,
+    "fapun3": 1.19,
+    "f18_3cn3": 1.19,
+    "fapun6": 9.6,
+    "f18_2cn6": 9.6
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 107
+  },
+  "extra": {}
+}

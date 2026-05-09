@@ -1,0 +1,45 @@
+{
+  "name": "Branntweinessig",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 25,
+    "water": 94.8,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": 0.084,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 1.49,
+    "vitaa": 0.74,
+    "cartb": 8.94
+  },
+  "minerals": {
+    "nacl": 0.208,
+    "na": 83,
+    "cld": 2.4,
+    "k": 161,
+    "ca": 9.9,
+    "mg": 1,
+    "p": 4,
+    "fe": 0.03,
+    "zn": 0.01,
+    "cu": 6,
+    "mn": 55,
+    "cr": 3,
+    "mo": 0.18
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Honig",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 305,
+    "water": 17.5,
+    "protein": 0.4,
+    "fat": null,
+    "carbs": 74.091,
+    "fiber": null,
+    "alcohol": 0.004,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.003,
+    "ribf": 0.24,
+    "niaeq": 0.681,
+    "nia": 0.681,
+    "pantac": 0.07,
+    "vitb6": 157.7,
+    "vitc": 0.389
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "k": 67,
+    "ca": 5,
+    "mg": 4,
+    "p": 4.933,
+    "fe": 0.3,
+    "zn": 0.2,
+    "id": 0.5,
+    "cu": 18,
+    "mn": 220,
+    "fd": 7,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 74.091,
+    "mnsac": 67.99,
+    "glus": 29.723,
+    "frus": 38.267,
+    "disac": 2.774,
+    "sucs": 0.197,
+    "mals": 2.577,
+    "sugar": 70.764,
+    "olsac": 3.327
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.064
+  },
+  "extra": {}
+}

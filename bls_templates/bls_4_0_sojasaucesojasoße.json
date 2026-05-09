@@ -1,0 +1,109 @@
+{
+  "name": "Sojasauce/Sojasoße",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 66,
+    "water": 70,
+    "protein": 6.3,
+    "fat": 0.88,
+    "carbs": 5.47,
+    "fiber": 1.14,
+    "alcohol": 1.02,
+    "sugarAlcohols": 0.042
+  },
+  "vitamins": {
+    "vitk": 0.055,
+    "vitk2": 0.005,
+    "thia": 0.05,
+    "ribf": 0.8,
+    "niaeq": 2.302,
+    "nia": 2.135,
+    "pantac": 0.228,
+    "vitb6": 307,
+    "biot": 12.05,
+    "vitb12": 0.29,
+    "vitc": 7.85
+  },
+  "minerals": {
+    "nacl": 11.5325,
+    "na": 4613,
+    "cld": 7905,
+    "k": 278.5,
+    "ca": 17.2,
+    "mg": 38.8,
+    "p": 140,
+    "fe": 1.08,
+    "zn": 0.48,
+    "id": 3.5,
+    "cu": 7,
+    "mn": 570,
+    "cr": 2.8,
+    "mo": 24.5
+  },
+  "carbohydrates": {
+    "cho": 5.47,
+    "mnsac": 1.04,
+    "glus": 0.84,
+    "frus": 0.2,
+    "disac": 3.85,
+    "sucs": 3.85,
+    "sugar": 4.89,
+    "starch": 0.54
+  },
+  "fibers": {
+    "fibt": 1.14,
+    "fibhmw": 1.14,
+    "fibins": 0.4,
+    "fibsol": 0.74
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.042,
+    "sortl": 0.023,
+    "xyltl": 0.019
+  },
+  "fattyAcids": {
+    "fasat": 0.34,
+    "f14_0": 0.012,
+    "f16_0": 0.22,
+    "f17_0": 0.011,
+    "f18_0": 0.071,
+    "f20_0": 0.017,
+    "f22_0": 0.0064,
+    "fams": 0.31,
+    "f16_1cn7": 0.014,
+    "f18_1cn9": 0.3,
+    "fapu": 0.16,
+    "fapun3": 0.017,
+    "f18_3cn3": 0.017,
+    "fapun6": 0.15,
+    "f18_2cn6": 0.14,
+    "f18_3cn6": 0.0057
+  },
+  "aminoAcids": {
+    "aae9": 2.08,
+    "ala": 0.38,
+    "arg": 0.29,
+    "asp": 0.49,
+    "glu": 1.38,
+    "gly": 0.25,
+    "his": 0.13,
+    "ile": 0.3,
+    "leu": 0.43,
+    "lys": 0.36,
+    "met": 0.05,
+    "phe": 0.26,
+    "pro": 0.38,
+    "ser": 0.3,
+    "thr": 0.23,
+    "tyr": 0.06,
+    "val": 0.31
+  },
+  "otherNutrients": {
+    "nt": 1.01
+  },
+  "extra": {}
+}

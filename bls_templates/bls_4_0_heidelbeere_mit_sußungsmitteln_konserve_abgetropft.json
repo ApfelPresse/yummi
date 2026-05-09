@@ -1,0 +1,110 @@
+{
+  "name": "Heidelbeere mit Süßungsmitteln, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 20,
+    "water": 96,
+    "protein": 0.3,
+    "fat": 0.318,
+    "carbs": 2.61,
+    "fiber": 2.1,
+    "alcohol": null,
+    "sugarAlcohols": 0.001
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 1,
+    "cartb": 16,
+    "carotpaxb": 3,
+    "vite": 0.641,
+    "tocpha": 0.641,
+    "tocphg": 0.156,
+    "tocphd": 0.006,
+    "vitk": 9,
+    "vitk1": 9,
+    "thia": 0.006,
+    "ribf": 0.01,
+    "niaeq": 0.062,
+    "nia": 0.062,
+    "vitb6": 1.07,
+    "biot": 0.4,
+    "fol": 1,
+    "folfd": 1,
+    "vitc": 1.281
+  },
+  "minerals": {
+    "nacl": 0.02,
+    "na": 8,
+    "cld": 4,
+    "k": 20,
+    "ca": 10,
+    "mg": 3,
+    "p": 5,
+    "s": 1.5,
+    "fe": 0.31,
+    "zn": 0.079,
+    "id": 1,
+    "cu": 41,
+    "mn": 1060,
+    "fd": 1,
+    "mo": 1.76
+  },
+  "carbohydrates": {
+    "cho": 2.61,
+    "mnsac": 2.61,
+    "glus": 1.052,
+    "frus": 1.56,
+    "gals": 0.0029,
+    "sugar": 2.61
+  },
+  "fibers": {
+    "fibt": 2.1,
+    "fibhmw": 2.1,
+    "fibins": 1.6,
+    "fibsol": 0.7
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.001,
+    "xyltl": 0.001
+  },
+  "fattyAcids": {
+    "fasat": 0.0295,
+    "f16_0": 0.0203,
+    "f18_0": 0.0058,
+    "f20_0": 0.0034,
+    "fams": 0.0531,
+    "f18_1cn9": 0.0513,
+    "f20_1cn9": 0.0017,
+    "fapu": 0.2122,
+    "fapun3": 0.0974,
+    "f18_3cn3": 0.0974,
+    "fapun6": 0.1148,
+    "f18_2cn6": 0.1148,
+    "fax": 0.002
+  },
+  "aminoAcids": {
+    "aae9": 0.072,
+    "ala": 0.016,
+    "arg": 0.039,
+    "asp": 0.031,
+    "cyste": 0.003,
+    "glu": 0.049,
+    "gly": 0.016,
+    "leu": 0.022,
+    "lys": 0.018,
+    "phe": 0.004,
+    "pro": 0.005,
+    "ser": 0.015,
+    "thr": 0.012,
+    "tyr": 0.001,
+    "val": 0.016
+  },
+  "otherNutrients": {
+    "nt": 0.08
+  },
+  "extra": {}
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Sorbit Pulver (E 420)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 235,
+    "water": 0.42,
+    "protein": null,
+    "fat": null,
+    "carbs": 98,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": 98
+  },
+  "vitamins": {},
+  "minerals": {},
+  "carbohydrates": {
+    "cho": 98
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 98,
+    "mantl": 0.5,
+    "sortl": 98
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

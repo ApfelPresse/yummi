@@ -1,0 +1,108 @@
+{
+  "name": "Brombeere gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 52,
+    "water": 86.6,
+    "protein": 1.37,
+    "fat": 0.2,
+    "carbs": 10.8,
+    "fiber": 3.4,
+    "alcohol": null,
+    "sugarAlcohols": 5.01
+  },
+  "vitamins": {
+    "vita": 17,
+    "vitaa": 8,
+    "cartb": 92,
+    "carotpaxb": 18,
+    "vite": 1.505,
+    "tocpha": 1.505,
+    "tocphb": 0.042,
+    "tocphg": 1.495,
+    "tocphd": 0.895,
+    "vitk": 20.8,
+    "vitk1": 20.8,
+    "thia": 0.025,
+    "ribf": 0.037,
+    "niaeq": 0.375,
+    "nia": 0.358,
+    "pantac": 0.19,
+    "vitb6": 46,
+    "biot": 1.5,
+    "fol": 22,
+    "folfd": 22,
+    "vitc": 12.884
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 12,
+    "k": 154,
+    "ca": 17,
+    "mg": 18,
+    "p": 25,
+    "fe": 0.6,
+    "zn": 0.19,
+    "id": 1,
+    "cu": 90,
+    "mn": 780,
+    "fd": 17,
+    "cr": 1,
+    "mo": 3
+  },
+  "carbohydrates": {
+    "cho": 10.8,
+    "mnsac": 5.7,
+    "glus": 3.2,
+    "frus": 2.5,
+    "gals": 0.0113,
+    "disac": 0.05,
+    "mals": 0.05,
+    "sugar": 5.8
+  },
+  "fibers": {
+    "fibt": 3.4,
+    "fibhmw": 3.4,
+    "fibins": 2.3,
+    "fibsol": 1.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 5.01,
+    "sortl": 5.01,
+    "xyltl": 0.003
+  },
+  "fattyAcids": {
+    "fapu": 0.1,
+    "fapun6": 0.1,
+    "f18_2cn6": 0.1
+  },
+  "aminoAcids": {
+    "aae9": 0.276,
+    "ala": 0.132,
+    "arg": 0.063,
+    "asp": 0.215,
+    "cyste": 0.005,
+    "glu": 0.194,
+    "gly": 0.049,
+    "his": 0.025,
+    "ile": 0.015,
+    "leu": 0.059,
+    "lys": 0.051,
+    "phe": 0.038,
+    "pro": 0.032,
+    "ser": 0.074,
+    "thr": 0.04,
+    "trp": 0.001,
+    "tyr": 0.029,
+    "val": 0.047
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

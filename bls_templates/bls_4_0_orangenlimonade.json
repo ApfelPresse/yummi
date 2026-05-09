@@ -1,0 +1,57 @@
+{
+  "name": "Orangenlimonade",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 33,
+    "water": 91.06,
+    "protein": null,
+    "fat": null,
+    "carbs": 8.35,
+    "fiber": null,
+    "alcohol": 0.002,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 22,
+    "vitaa": 11,
+    "cartb": 104,
+    "carotpaxb": 59,
+    "vitc": 6.56
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 3.3,
+    "k": 5,
+    "ca": 2,
+    "mg": 1,
+    "p": 0.011,
+    "s": 1.8,
+    "fe": 0.006,
+    "zn": 0.001,
+    "id": 0.1,
+    "cu": 1.8,
+    "mn": 0.1,
+    "fd": 30,
+    "mo": 0.04
+  },
+  "carbohydrates": {
+    "cho": 8.35,
+    "mnsac": 3.92,
+    "glus": 2.1,
+    "frus": 1.82,
+    "disac": 4.43,
+    "sucs": 4.43,
+    "sugar": 8.35
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

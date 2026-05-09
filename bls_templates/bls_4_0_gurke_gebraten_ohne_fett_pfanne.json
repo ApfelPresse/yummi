@@ -1,0 +1,103 @@
+{
+  "name": "Gurke gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 28,
+    "water": 93.6,
+    "protein": 1.8,
+    "fat": 0.339,
+    "carbs": 3.33,
+    "fiber": 1.5,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 36,
+    "vitaa": 18,
+    "cartb": 194,
+    "carotpaxb": 43,
+    "vite": 0.051,
+    "tocpha": 0.051,
+    "tocphb": 0.017,
+    "tocphg": 0.068,
+    "toctra": 0.136,
+    "vitk": 54,
+    "vitk1": 54,
+    "thia": 0.061,
+    "ribf": 0.032,
+    "niaeq": 0.439,
+    "nia": 0.322,
+    "pantac": 0.49,
+    "vitb6": 12.55,
+    "biot": 1.2,
+    "fol": 15,
+    "folfd": 15,
+    "vitc": 10.847
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 63,
+    "k": 307,
+    "ca": 32,
+    "mg": 20,
+    "p": 26.246,
+    "fe": 0.386,
+    "zn": 0.2,
+    "id": 3,
+    "cu": 53,
+    "mn": 170,
+    "fd": 19
+  },
+  "carbohydrates": {
+    "cho": 3.33,
+    "mnsac": 3.33,
+    "glus": 1.81,
+    "frus": 1.51,
+    "gals": 0.0098,
+    "sugar": 3.33
+  },
+  "fibers": {
+    "fibt": 1.5,
+    "fibhmw": 1.5,
+    "fibins": 1.4,
+    "fibsol": 0.2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.113,
+    "f12_0": 0.0005,
+    "f14_0": 0.0022,
+    "f16_0": 0.1,
+    "f18_0": 0.01,
+    "fams": 0.008,
+    "f16_1cn7": 0.0005,
+    "f18_1cn9": 0.008,
+    "fapu": 0.149,
+    "fapun3": 0.071,
+    "f18_3cn3": 0.071,
+    "fapun6": 0.078,
+    "f18_2cn6": 0.078
+  },
+  "aminoAcids": {
+    "aae9": 0.236,
+    "arg": 0.076,
+    "his": 0.014,
+    "ile": 0.032,
+    "leu": 0.042,
+    "lys": 0.044,
+    "met": 0.01,
+    "phe": 0.024,
+    "thr": 0.027,
+    "trp": 0.007,
+    "val": 0.036
+  },
+  "otherNutrients": {
+    "nt": 0.288
+  },
+  "extra": {}
+}

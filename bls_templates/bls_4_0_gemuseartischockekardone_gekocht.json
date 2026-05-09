@@ -1,0 +1,87 @@
+{
+  "name": "Gemüseartischocke/Kardone, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 22,
+    "water": 93.1,
+    "protein": 0.9,
+    "fat": 0.1,
+    "carbs": 3.27,
+    "fiber": 2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 53,
+    "vitaa": 26,
+    "cartb": 124,
+    "carotpaxb": 383,
+    "vite": 0.257,
+    "tocpha": 0.257,
+    "tocphb": 0.0084,
+    "tocphg": 0.23,
+    "tocphd": 0.0051,
+    "vitk": 19.7,
+    "vitk1": 19.7,
+    "thia": 0.02,
+    "ribf": 0.03,
+    "niaeq": 0.3,
+    "nia": 0.3,
+    "pantac": 0.26,
+    "vitb6": 71.39,
+    "biot": 0.1,
+    "fol": 103,
+    "folfd": 103,
+    "vitc": 2
+  },
+  "minerals": {
+    "nacl": 0.43,
+    "na": 172,
+    "cld": 50,
+    "k": 270,
+    "ca": 90,
+    "mg": 34,
+    "p": 28,
+    "fe": 0.7,
+    "zn": 0.17,
+    "id": 0.11,
+    "cu": 136,
+    "mn": 472,
+    "fd": 93
+  },
+  "carbohydrates": {
+    "cho": 3.27,
+    "mnsac": 2.88,
+    "glus": 2.66,
+    "frus": 0.22,
+    "disac": 0.17,
+    "sucs": 0.17,
+    "sugar": 3.05,
+    "starch": 0.221
+  },
+  "fibers": {
+    "fibt": 2,
+    "fibhmw": 2,
+    "fibins": 1.5,
+    "fibsol": 0.5
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.013,
+    "f16_0": 0.011,
+    "f18_0": 0.002,
+    "fax": 0.072
+  },
+  "aminoAcids": {
+    "asp": 0.1,
+    "glu": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

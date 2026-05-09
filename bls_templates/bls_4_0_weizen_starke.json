@@ -1,0 +1,88 @@
+{
+  "name": "Weizen Stärke",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 335,
+    "water": 12.3,
+    "protein": 0.431,
+    "fat": 0.14,
+    "carbs": 82.5,
+    "fiber": 1.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "ribf": 0.008,
+    "niaeq": 0.097,
+    "nia": 0.03,
+    "vitb6": 5,
+    "biot": 6
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 6,
+    "k": 16,
+    "mg": 2,
+    "p": 30,
+    "zn": 0.06,
+    "id": 2.5,
+    "cu": 50,
+    "mn": 1000,
+    "fd": 43
+  },
+  "carbohydrates": {
+    "cho": 82.5,
+    "starch": 82.5
+  },
+  "fibers": {
+    "fibt": 1.2,
+    "fiblmw": 0.204,
+    "fibhmws": 0.525,
+    "fibhmwi": 0.469
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.017,
+    "f16_0": 0.016,
+    "f18_0": 0.001,
+    "fams": 0.015,
+    "f18_1cn7": 0.001,
+    "f18_1cn9": 0.014,
+    "fapu": 0.066,
+    "fapun3": 0.004,
+    "f18_3cn3": 0.004,
+    "fapun6": 0.062,
+    "f18_2cn6": 0.062,
+    "fax": 0.001
+  },
+  "aminoAcids": {
+    "aae9": 0.12,
+    "ala": 0.012,
+    "arg": 0.016,
+    "asp": 0.017,
+    "cyste": 0.01,
+    "glu": 0.149,
+    "gly": 0.015,
+    "his": 0.009,
+    "ile": 0.015,
+    "leu": 0.028,
+    "lys": 0.009,
+    "met": 0.007,
+    "phe": 0.02,
+    "pro": 0.051,
+    "ser": 0.021,
+    "thr": 0.011,
+    "trp": 0.004,
+    "tyr": 0.011,
+    "val": 0.017
+  },
+  "otherNutrients": {
+    "nt": 0.069
+  },
+  "extra": {}
+}

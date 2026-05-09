@@ -1,0 +1,63 @@
+{
+  "name": "Espresso (Getränk) mit Zucker",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 43,
+    "water": 87.9,
+    "protein": 0.4,
+    "fat": null,
+    "carbs": 10.072,
+    "fiber": 0.376,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.0051,
+    "tocpha": 0.0051,
+    "tocphb": 0.007,
+    "vitk": 0.055,
+    "vitk1": 0.045,
+    "vitk2": 0.01,
+    "ribf": 0.079,
+    "niaeq": 2.34,
+    "nia": 2.34,
+    "pantac": 0.025,
+    "vitb6": 2,
+    "vitc": 0.1
+  },
+  "minerals": {
+    "nacl": 0.018,
+    "na": 7,
+    "cld": 5,
+    "k": 52,
+    "ca": 5,
+    "mg": 37,
+    "p": 6,
+    "s": 5,
+    "fe": 0.07,
+    "zn": 0.04,
+    "id": 2,
+    "cu": 40,
+    "mn": 50
+  },
+  "carbohydrates": {
+    "cho": 10.072,
+    "disac": 10.072,
+    "sucs": 10.072,
+    "sugar": 10.072
+  },
+  "fibers": {
+    "fibt": 0.376
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "glu": 0.1
+  },
+  "otherNutrients": {},
+  "extra": {}
+}

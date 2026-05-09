@@ -1,0 +1,100 @@
+{
+  "name": "Mangostanesaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 58,
+    "water": 84.161,
+    "protein": 0.54,
+    "fat": 0.48,
+    "carbs": 12.712,
+    "fiber": 0.14,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 36,
+    "vitaa": 18,
+    "cartb": 153,
+    "carotpaxb": 120,
+    "vitk": 2.6,
+    "vitk1": 2.6,
+    "thia": 0.04,
+    "ribf": 0.012,
+    "niaeq": 0.083,
+    "pantac": 0.11,
+    "fol": 5,
+    "folfd": 5,
+    "vitc": 1.62
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "k": 160,
+    "ca": 15,
+    "mg": 8,
+    "p": 11,
+    "fe": 0.38,
+    "zn": 0.07,
+    "cu": 20,
+    "mn": 46
+  },
+  "carbohydrates": {
+    "cho": 12.712,
+    "mnsac": 11.7,
+    "glus": 6.52,
+    "frus": 5.18,
+    "disac": 1.012,
+    "sucs": 1.012,
+    "sugar": 12.712
+  },
+  "fibers": {
+    "fibt": 0.14,
+    "fibhmw": 0.14,
+    "fibins": 0.081,
+    "fibsol": 0.059
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.143,
+    "f14_0": 0.024,
+    "f16_0": 0.112,
+    "f18_0": 0.007,
+    "fams": 0.134,
+    "f16_1cn7": 0.07,
+    "f18_1cn9": 0.064,
+    "fapu": 0.106,
+    "fapun3": 0.086,
+    "f18_3cn3": 0.086,
+    "fapun6": 0.02,
+    "f18_2cn6": 0.02
+  },
+  "aminoAcids": {
+    "aae9": 0.124,
+    "ala": 0.029,
+    "arg": 0.014,
+    "asp": 0.057,
+    "cyste": 0.005,
+    "glu": 0.101,
+    "gly": 0.022,
+    "his": 0.007,
+    "ile": 0.014,
+    "leu": 0.022,
+    "lys": 0.029,
+    "met": 0.005,
+    "phe": 0.014,
+    "pro": 0.014,
+    "ser": 0.022,
+    "thr": 0.014,
+    "trp": 0.005,
+    "tyr": 0.007,
+    "val": 0.014
+  },
+  "otherNutrients": {
+    "nt": 0.086
+  },
+  "extra": {}
+}

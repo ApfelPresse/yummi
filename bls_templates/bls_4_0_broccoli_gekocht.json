@@ -1,0 +1,110 @@
+{
+  "name": "Broccoli gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 33,
+    "water": 92.177,
+    "protein": 3.3,
+    "fat": 0.5,
+    "carbs": 2.5,
+    "fiber": 2.73,
+    "alcohol": null,
+    "sugarAlcohols": 0.3
+  },
+  "vitamins": {
+    "vita": 50,
+    "vitaa": 25,
+    "cartb": 277.3659,
+    "carotpaxb": 47,
+    "vite": 2.002,
+    "tocpha": 2.002,
+    "tocphg": 0.36,
+    "vitk": 154,
+    "vitk1": 154,
+    "thia": 0.04,
+    "ribf": 0.06,
+    "niaeq": 1.017,
+    "nia": 0.5,
+    "pantac": 0.28,
+    "vitb6": 74.51,
+    "biot": 3.5,
+    "fol": 41,
+    "folfd": 41,
+    "vitc": 90
+  },
+  "minerals": {
+    "nacl": 0.015,
+    "na": 6,
+    "cld": 64,
+    "k": 212,
+    "ca": 35,
+    "mg": 14,
+    "p": 65,
+    "fe": 0.6,
+    "zn": 0.4,
+    "id": 2,
+    "cu": 32,
+    "mn": 208,
+    "fd": 8,
+    "cr": 1,
+    "mo": 3.76
+  },
+  "carbohydrates": {
+    "cho": 2.5,
+    "mnsac": 1.6,
+    "glus": 0.8,
+    "frus": 0.8,
+    "sugar": 1.6,
+    "starch": 0.636
+  },
+  "fibers": {
+    "fibt": 2.73,
+    "fibhmw": 2.73,
+    "fibins": 2.23,
+    "fibsol": 0.5
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.3,
+    "sortl": 0.3
+  },
+  "fattyAcids": {
+    "fasat": 0.0981,
+    "f8_0": 0.0006,
+    "f12_0": 0.0004,
+    "f14_0": 0.0045,
+    "f16_0": 0.0771,
+    "f18_0": 0.0106,
+    "f20_0": 0.0026,
+    "f22_0": 0.0023,
+    "fams": 0.0309,
+    "f18_1cn7": 0.0234,
+    "f18_1cn9": 0.0075,
+    "fapu": 0.2137,
+    "fapun3": 0.1465,
+    "f18_3cn3": 0.1465,
+    "fapun6": 0.0672,
+    "f18_2cn6": 0.0672,
+    "fax": 0.0031
+  },
+  "aminoAcids": {
+    "aae9": 0.825,
+    "arg": 0.157,
+    "his": 0.052,
+    "ile": 0.107,
+    "leu": 0.132,
+    "lys": 0.124,
+    "met": 0.041,
+    "phe": 0.099,
+    "thr": 0.099,
+    "trp": 0.031,
+    "val": 0.14
+  },
+  "otherNutrients": {
+    "nt": 0.528
+  },
+  "extra": {}
+}

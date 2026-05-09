@@ -1,0 +1,63 @@
+{
+  "name": "Rind Blut, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 72,
+    "water": 80.5,
+    "protein": 17.8,
+    "fat": 0.13,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 21,
+    "vitaa": 21,
+    "retol": 21,
+    "thia": 0.09,
+    "ribf": 0.03,
+    "niaeq": 0.85,
+    "nia": 0.85
+  },
+  "minerals": {
+    "nacl": 0.825,
+    "na": 330,
+    "cld": 304,
+    "k": 63,
+    "ca": 6,
+    "mg": 3.2,
+    "p": 59,
+    "fe": 47,
+    "zn": 0.35,
+    "cu": 90,
+    "mn": 8
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 14.02,
+    "arg": 1.25,
+    "cyste": 0.18,
+    "his": 1.92,
+    "ile": 0.4,
+    "leu": 2.8,
+    "lys": 3.27,
+    "met": 0.78,
+    "phe": 1.44,
+    "thr": 1.28,
+    "tyr": 0.77,
+    "val": 2.13
+  },
+  "otherNutrients": {
+    "chorl": 190,
+    "nt": 2.848
+  },
+  "extra": {}
+}

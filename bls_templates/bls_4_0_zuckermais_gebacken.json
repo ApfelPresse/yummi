@@ -1,0 +1,100 @@
+{
+  "name": "Zuckermais gebacken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 79,
+    "water": 73,
+    "protein": 3.859,
+    "fat": 1.447,
+    "carbs": 11.1,
+    "fiber": 3.3,
+    "alcohol": null,
+    "sugarAlcohols": 0.53
+  },
+  "vitamins": {
+    "vita": 5.32,
+    "vitaa": 2.66,
+    "cartb": 31.91,
+    "vite": 0.047,
+    "tocpha": 0.047,
+    "vitk": 0.6,
+    "vitk1": 0.6,
+    "thia": 0.159,
+    "ribf": 0.134,
+    "niaeq": 2.217,
+    "nia": 1.9,
+    "pantac": 0.942,
+    "vitb6": 233,
+    "biot": 0.5,
+    "fol": 12.3,
+    "folfd": 12.3,
+    "vitc": 11.294
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 8.6,
+    "k": 339.84,
+    "ca": 2.616,
+    "mg": 31.838,
+    "p": 97.604,
+    "fe": 0.474,
+    "zn": 0.76,
+    "cu": 101,
+    "mn": 250
+  },
+  "carbohydrates": {
+    "cho": 11.1,
+    "mnsac": 1.14,
+    "glus": 0.93,
+    "frus": 0.21,
+    "disac": 2.853,
+    "sucs": 2.535,
+    "mals": 0.318,
+    "sugar": 3.99,
+    "starch": 6.6
+  },
+  "fibers": {
+    "fibt": 3.3,
+    "fibhmw": 3.3,
+    "fibins": 2.5,
+    "fibsol": 0.8
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.53,
+    "sortl": 0.53
+  },
+  "fattyAcids": {
+    "fasat": 0.194,
+    "f16_0": 0.182,
+    "f18_0": 0.012,
+    "fams": 0.369,
+    "f18_1cn9": 0.369,
+    "fapu": 0.596,
+    "fapun3": 0.018,
+    "f18_3cn3": 0.018,
+    "fapun6": 0.578,
+    "f18_2cn6": 0.578
+  },
+  "aminoAcids": {
+    "aae9": 1.55,
+    "arg": 0.188,
+    "his": 0.1,
+    "ile": 0.153,
+    "leu": 0.412,
+    "lys": 0.153,
+    "met": 0.066,
+    "phe": 0.235,
+    "thr": 0.153,
+    "trp": 0.019,
+    "val": 0.259
+  },
+  "otherNutrients": {
+    "nt": 0.618
+  },
+  "extra": {}
+}

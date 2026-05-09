@@ -1,0 +1,95 @@
+{
+  "name": "Augenbohne reif",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 319,
+    "water": 12,
+    "protein": 23.5,
+    "fat": 1.26,
+    "carbs": 45.751,
+    "fiber": 10.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 5,
+    "vitaa": 2,
+    "cartb": 30,
+    "thia": 0.853,
+    "ribf": 0.226,
+    "niaeq": 6.91,
+    "nia": 2.08,
+    "pantac": 1.5,
+    "vitb6": 357,
+    "fol": 126,
+    "folfd": 126,
+    "vitc": 1.5
+  },
+  "minerals": {
+    "nacl": 0.04,
+    "na": 16,
+    "cld": 47,
+    "k": 1110,
+    "ca": 110,
+    "mg": 184,
+    "p": 424,
+    "fe": 8.27,
+    "zn": 3.37,
+    "id": 1.772,
+    "cu": 845,
+    "mn": 1530,
+    "fd": 95,
+    "cr": 5.86
+  },
+  "carbohydrates": {
+    "cho": 45.751,
+    "disac": 2.03,
+    "sucs": 2.03,
+    "sugar": 2.03,
+    "olsac": 4.737,
+    "starch": 38.9836
+  },
+  "fibers": {
+    "fibt": 10.6,
+    "fibhmw": 10.6,
+    "fibins": 8.2,
+    "fibsol": 2.4
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.31,
+    "f14_0": 0.003,
+    "f16_0": 0.254,
+    "f18_0": 0.053,
+    "fax": 0.84
+  },
+  "aminoAcids": {
+    "aae9": 9.1,
+    "ala": 1.07,
+    "arg": 1.63,
+    "asp": 2.84,
+    "cyste": 0.26,
+    "glu": 4.45,
+    "gly": 0.971,
+    "his": 0.73,
+    "ile": 0.956,
+    "leu": 1.8,
+    "lys": 1.59,
+    "met": 0.335,
+    "phe": 1.37,
+    "pro": 1.06,
+    "ser": 1.18,
+    "thr": 0.895,
+    "trp": 0.29,
+    "tyr": 0.76,
+    "val": 1.12
+  },
+  "otherNutrients": {
+    "nt": 3.8
+  },
+  "extra": {}
+}

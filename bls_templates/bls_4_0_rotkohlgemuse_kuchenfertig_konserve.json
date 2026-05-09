@@ -1,0 +1,109 @@
+{
+  "name": "Rotkohlgemüse (küchenfertig) Konserve",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 56,
+    "water": 84.2,
+    "protein": 1.3,
+    "fat": 0.15,
+    "carbs": 10.29,
+    "fiber": 3.21,
+    "alcohol": null,
+    "sugarAlcohols": 0.01
+  },
+  "vitamins": {
+    "vita": 1,
+    "vitaa": 1,
+    "vite": 0.044,
+    "tocpha": 0.044,
+    "tocphg": 0.01,
+    "vitk": 5.62,
+    "vitk1": 5.62,
+    "thia": 0.05,
+    "ribf": 0.11,
+    "niaeq": 0.34,
+    "nia": 0.26,
+    "pantac": 0.12,
+    "vitb6": 74,
+    "fol": 32.1,
+    "folfd": 32.1,
+    "vitc": 20
+  },
+  "minerals": {
+    "nacl": 1.0688,
+    "na": 427.5,
+    "k": 240.5,
+    "ca": 46,
+    "mg": 11.6,
+    "p": 31,
+    "fe": 0.345,
+    "zn": 0.13,
+    "cu": 15.5,
+    "mn": 160,
+    "cr": 1.6,
+    "mo": 5.2
+  },
+  "carbohydrates": {
+    "cho": 10.29,
+    "mnsac": 5.7,
+    "glus": 3.24,
+    "frus": 2.46,
+    "disac": 4.04,
+    "sucs": 4.04,
+    "sugar": 9.74,
+    "starch": 0.54
+  },
+  "fibers": {
+    "fibt": 3.21,
+    "fibhmw": 3.21,
+    "fibins": 1.44,
+    "fibsol": 1.77
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.01,
+    "sortl": 0.01
+  },
+  "fattyAcids": {
+    "fasat": 0.033,
+    "f16_0": 0.021,
+    "f18_0": 0.012,
+    "fams": 0.04,
+    "f16_1cn7": 0.0026,
+    "f18_1cn9": 0.035,
+    "f22_1cn9": 0.0026,
+    "fapu": 0.029,
+    "fapun3": 0.0019,
+    "f18_3cn3": 0.0019,
+    "fapun6": 0.027,
+    "f18_2cn6": 0.027,
+    "fax": 0.002
+  },
+  "aminoAcids": {
+    "aae9": 0.224,
+    "ala": 0.056,
+    "arg": 0.086,
+    "asp": 0.079,
+    "cyste": 0.01,
+    "glu": 0.234,
+    "gly": 0.043,
+    "his": 0.018,
+    "ile": 0.028,
+    "leu": 0.032,
+    "lys": 0.028,
+    "met": 0.02,
+    "phe": 0.025,
+    "pro": 0.05,
+    "ser": 0.056,
+    "thr": 0.03,
+    "tyr": 0.024,
+    "val": 0.038
+  },
+  "otherNutrients": {
+    "nt": 0.21
+  },
+  "extra": {}
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Limette roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 28,
+    "water": 90,
+    "protein": 0.5,
+    "fat": 0.2,
+    "carbs": 1.9,
+    "fiber": 1.29,
+    "alcohol": 0.021,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 10,
+    "carotpaxb": 8,
+    "vite": 0.725,
+    "tocpha": 0.725,
+    "vitk": 0.2,
+    "vitk1": 0.2,
+    "thia": 0.028,
+    "ribf": 0.02,
+    "niaeq": 0.253,
+    "nia": 0.17,
+    "pantac": 0.27,
+    "vitb6": 60,
+    "biot": 1,
+    "fol": 6.3,
+    "folfd": 6.3,
+    "vitc": 43.5
+  },
+  "minerals": {
+    "nacl": 0.0055,
+    "na": 2.2,
+    "cld": 4.5,
+    "k": 135,
+    "ca": 13,
+    "mg": 6.7,
+    "p": 11,
+    "fe": 0.138,
+    "zn": 0.0777,
+    "id": 1.6,
+    "cu": 47.2,
+    "mn": 35.3,
+    "fd": 10,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 1.9,
+    "mnsac": 1.6,
+    "glus": 0.8,
+    "frus": 0.8,
+    "disac": 0.3,
+    "sucs": 0.3,
+    "sugar": 1.9
+  },
+  "fibers": {
+    "fibt": 1.29,
+    "fibins": 0.86,
+    "fibsol": 0.43
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fapu": 0.1,
+    "fapun6": 0.1,
+    "f18_2cn6": 0.1
+  },
+  "aminoAcids": {
+    "aae9": 0.045,
+    "ala": 0.013,
+    "arg": 0.039,
+    "asp": 0.073,
+    "cyste": 0.005,
+    "glu": 0.014,
+    "gly": 0.005,
+    "his": 0.005,
+    "ile": 0.005,
+    "leu": 0.005,
+    "lys": 0.005,
+    "met": 0.005,
+    "phe": 0.005,
+    "pro": 0.022,
+    "ser": 0.012,
+    "thr": 0.005,
+    "trp": 0.005,
+    "tyr": 0.005,
+    "val": 0.005
+  },
+  "otherNutrients": {
+    "nt": 0.08
+  },
+  "extra": {}
+}

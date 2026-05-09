@@ -1,0 +1,85 @@
+{
+  "name": "Cocktail, Hugo",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 38,
+    "water": 95,
+    "protein": null,
+    "fat": null,
+    "carbs": 2.56,
+    "fiber": null,
+    "alcohol": 3.86,
+    "sugarAlcohols": 0.003
+  },
+  "vitamins": {
+    "cartb": 1,
+    "vite": 0.03,
+    "tocpha": 0.03,
+    "tocphg": 0.01,
+    "thia": 0.036,
+    "pantac": 0.07,
+    "biot": 1,
+    "fol": 1,
+    "folfd": 1,
+    "vitc": 1.343
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 3,
+    "k": 23,
+    "ca": 8,
+    "mg": 4,
+    "p": 6,
+    "s": 9,
+    "fe": 0.1,
+    "zn": 0.02,
+    "cu": 10,
+    "mn": 30,
+    "fd": 16,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 2.56,
+    "mnsac": 1.01,
+    "glus": 0.5,
+    "frus": 0.51,
+    "gals": 0.0001,
+    "disac": 1.555,
+    "sucs": 1.555,
+    "sugar": 2.56
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.003,
+    "sortl": 0.003
+  },
+  "fattyAcids": {
+    "fapu": 0.001,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001
+  },
+  "aminoAcids": {
+    "aae9": 0.005,
+    "ala": 0.002,
+    "arg": 0.001,
+    "asp": 0.003,
+    "glu": 0.003,
+    "gly": 0.001,
+    "leu": 0.001,
+    "lys": 0.001,
+    "phe": 0.001,
+    "pro": 0.001,
+    "ser": 0.001,
+    "thr": 0.001,
+    "val": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.003
+  },
+  "extra": {}
+}

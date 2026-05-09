@@ -1,0 +1,41 @@
+{
+  "name": "Speisesalz/Siedesalz/Tafelsalz",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": null,
+    "water": 0.1,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 95.3625,
+    "na": 38145,
+    "cld": 57885,
+    "k": 140,
+    "ca": 51.9,
+    "mg": 4.825,
+    "p": 6.695,
+    "zn": 0.086,
+    "id": 11,
+    "cu": 20,
+    "mn": 98,
+    "cr": 5,
+    "mo": 2.5
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

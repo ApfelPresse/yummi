@@ -1,0 +1,96 @@
+{
+  "name": "Japanische Wollmispel/Loquat, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 48,
+    "water": 87,
+    "protein": 0.55,
+    "fat": 0.2,
+    "carbs": 9.8,
+    "fiber": 2.07,
+    "alcohol": 0.019,
+    "sugarAlcohols": 0.6
+  },
+  "vitamins": {
+    "vita": 134,
+    "vitaa": 67,
+    "cartb": 800,
+    "carotpaxb": 5,
+    "vite": 0.172,
+    "tocpha": 0.172,
+    "tocphb": 0.003,
+    "tocphg": 0.006,
+    "tocphd": 0.002,
+    "vitk": 5,
+    "vitk1": 5,
+    "thia": 0.02,
+    "ribf": 0.03,
+    "niaeq": 0.2,
+    "nia": 0.2,
+    "pantac": 0.1,
+    "vitb6": 57.61,
+    "biot": 1.1,
+    "fol": 5,
+    "folfd": 5,
+    "vitc": 4
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 2.2,
+    "k": 263,
+    "ca": 19,
+    "mg": 10,
+    "p": 23,
+    "fe": 0.3,
+    "zn": 0.03,
+    "id": 2,
+    "cu": 35,
+    "mn": 50,
+    "fd": 9,
+    "cr": 1,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 9.8,
+    "mnsac": 5.48,
+    "glus": 2.28,
+    "frus": 3.2,
+    "disac": 3.1,
+    "sucs": 3.1,
+    "sugar": 8.58,
+    "starch": 0.6
+  },
+  "fibers": {
+    "fibt": 2.07,
+    "fibhmw": 2.07,
+    "fibins": 1.58,
+    "fibsol": 0.49
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.6,
+    "sortl": 0.6
+  },
+  "fattyAcids": {
+    "fasat": 0.043,
+    "f14_0": 0.0011,
+    "f16_0": 0.037,
+    "f18_0": 0.0045,
+    "fams": 0.0091,
+    "f18_1cn9": 0.0091,
+    "fapu": 0.104,
+    "fapun3": 0.015,
+    "f18_3cn3": 0.015,
+    "fapun6": 0.089,
+    "f18_2cn6": 0.089
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.088
+  },
+  "extra": {}
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Sherry cream",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 141,
+    "water": 72.5,
+    "protein": 0.1,
+    "fat": null,
+    "carbs": 13.4,
+    "fiber": null,
+    "alcohol": 12.2,
+    "sugarAlcohols": 0.026
+  },
+  "vitamins": {
+    "vite": 0.011,
+    "tocpha": 0.011,
+    "tocphb": 0.005,
+    "ribf": 0.01,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "pantac": 0.02,
+    "vitb6": 20,
+    "biot": 0.9,
+    "fol": 1.7,
+    "folfd": 1.7
+  },
+  "minerals": {
+    "nacl": 0.062,
+    "na": 25,
+    "cld": 9,
+    "k": 51,
+    "ca": 7,
+    "mg": 5,
+    "p": 22,
+    "s": 13,
+    "fe": 0.37,
+    "zn": 0.193,
+    "cu": 50,
+    "mn": 20,
+    "cr": 2.76,
+    "mo": 0.3
+  },
+  "carbohydrates": {
+    "cho": 13.4,
+    "mnsac": 13.4,
+    "glus": 6.8,
+    "frus": 6.6,
+    "sugar": 13.4
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.026,
+    "sortl": 0.026
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.02
+  },
+  "extra": {}
+}

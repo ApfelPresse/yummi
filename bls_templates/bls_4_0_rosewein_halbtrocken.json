@@ -1,0 +1,53 @@
+{
+  "name": "Rosewein halbtrocken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 65,
+    "water": 88.5,
+    "protein": 0.1,
+    "fat": null,
+    "carbs": 1.17,
+    "fiber": null,
+    "alcohol": 8.6,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "ribf": 0.01,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "pantac": 0.04,
+    "vitb6": 20
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 7,
+    "k": 76,
+    "ca": 12,
+    "mg": 7,
+    "p": 6,
+    "fe": 1.01,
+    "zn": 0.0214,
+    "cu": 20,
+    "mn": 100
+  },
+  "carbohydrates": {
+    "cho": 1.17,
+    "mnsac": 1.2,
+    "glus": 0.4,
+    "frus": 0.8,
+    "sugar": 1.17
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.01
+  },
+  "extra": {}
+}

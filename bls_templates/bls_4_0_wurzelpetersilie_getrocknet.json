@@ -1,0 +1,110 @@
+{
+  "name": "Wurzelpetersilie getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 339,
+    "water": 9.4,
+    "protein": 12.852,
+    "fat": 2.097,
+    "carbs": 61.5,
+    "fiber": 9.505,
+    "alcohol": null,
+    "sugarAlcohols": 3.659
+  },
+  "vitamins": {
+    "vita": 11,
+    "vitaa": 6,
+    "cartb": 67,
+    "vite": 3.927,
+    "tocpha": 3.927,
+    "vitk": 4,
+    "vitk1": 4,
+    "thia": 0.312,
+    "ribf": 0.345,
+    "niaeq": 10.65,
+    "nia": 8.033,
+    "pantac": 2.008,
+    "vitb6": 924,
+    "fol": 132,
+    "folfd": 132,
+    "vitc": 36.593
+  },
+  "minerals": {
+    "nacl": 0.135,
+    "na": 54,
+    "k": 2508,
+    "ca": 174,
+    "mg": 116,
+    "p": 252.6,
+    "fe": 3.793,
+    "zn": 2.834,
+    "id": 1.785,
+    "cu": 536,
+    "mn": 1339,
+    "fd": 45,
+    "cr": 4
+  },
+  "carbohydrates": {
+    "cho": 61.5,
+    "mnsac": 5.444,
+    "glus": 2.499,
+    "frus": 2.945,
+    "disac": 21.554,
+    "sucs": 21.554,
+    "sugar": 26.998,
+    "olsac": 1.383,
+    "starch": 29.5
+  },
+  "fibers": {
+    "fibt": 9.505,
+    "fibins": 6.738,
+    "fibsol": 2.767
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 3.659,
+    "mantl": 3.659
+  },
+  "fattyAcids": {
+    "fasat": 0.337,
+    "f14_0": 0.0018,
+    "f16_0": 0.321,
+    "f18_0": 0.0094,
+    "f20_0": 0.0049,
+    "fams": 0.1424,
+    "f16_1cn7": 0.0049,
+    "f18_1cn9": 0.1272,
+    "f20_1cn9": 0.0103,
+    "fapu": 1.1246,
+    "fapun3": 0.1406,
+    "f18_3cn3": 0.1406,
+    "fapun6": 0.984,
+    "f18_2cn6": 0.984
+  },
+  "aminoAcids": {
+    "aae9": 3.713,
+    "ala": 0.55,
+    "arg": 0.583,
+    "asp": 1.689,
+    "cyste": 0.05,
+    "glu": 4.286,
+    "gly": 0.449,
+    "ile": 0.499,
+    "leu": 0.656,
+    "lys": 0.634,
+    "met": 0.163,
+    "phe": 0.381,
+    "pro": 1.616,
+    "thr": 0.449,
+    "trp": 0.157,
+    "tyr": 0.202,
+    "val": 0.774
+  },
+  "otherNutrients": {
+    "nt": 2.586
+  },
+  "extra": {}
+}

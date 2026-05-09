@@ -1,0 +1,46 @@
+{
+  "name": "Brause mit Zucker und Süßungsmitteln",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 15,
+    "water": 96.751,
+    "protein": null,
+    "fat": null,
+    "carbs": 3.5,
+    "fiber": null,
+    "alcohol": 0.002,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.025,
+    "na": 10,
+    "cld": 0.9,
+    "ca": 2,
+    "p": 0.7,
+    "s": 0.5,
+    "fe": 0.002,
+    "zn": 0.005,
+    "cu": 2.7,
+    "mn": 70.4
+  },
+  "carbohydrates": {
+    "cho": 3.5,
+    "mnsac": 0.585,
+    "glus": 0.302,
+    "frus": 0.283,
+    "disac": 2.915,
+    "sucs": 2.915,
+    "sugar": 3.5
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

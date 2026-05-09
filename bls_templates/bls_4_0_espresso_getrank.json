@@ -1,0 +1,61 @@
+{
+  "name": "Espresso (Getränk)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 2,
+    "water": 97.8,
+    "protein": 0.4,
+    "fat": null,
+    "carbs": null,
+    "fiber": 0.418,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.0057,
+    "tocpha": 0.0057,
+    "tocphb": 0.0078,
+    "vitk": 0.061,
+    "vitk1": 0.05,
+    "vitk2": 0.011,
+    "ribf": 0.088,
+    "niaeq": 2.6,
+    "nia": 2.6,
+    "pantac": 0.028,
+    "vitb6": 2,
+    "vitc": 0.1
+  },
+  "minerals": {
+    "nacl": 0.018,
+    "na": 7,
+    "cld": 5.1,
+    "k": 58,
+    "ca": 6,
+    "mg": 41,
+    "p": 7,
+    "s": 6,
+    "fe": 0.06,
+    "zn": 0.05,
+    "id": 2,
+    "cu": 50,
+    "mn": 50
+  },
+  "carbohydrates": {},
+  "fibers": {
+    "fibt": 0.418,
+    "fibhmw": 0.418,
+    "fibins": 0.02,
+    "fibsol": 0.398
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "glu": 0.1
+  },
+  "otherNutrients": {},
+  "extra": {}
+}

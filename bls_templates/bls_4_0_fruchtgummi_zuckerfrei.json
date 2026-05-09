@@ -1,0 +1,94 @@
+{
+  "name": "Fruchtgummi zuckerfrei",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 220,
+    "water": 13,
+    "protein": 7.7,
+    "fat": null,
+    "carbs": 77,
+    "fiber": 0.005,
+    "alcohol": null,
+    "sugarAlcohols": 77
+  },
+  "vitamins": {
+    "vite": 0.001,
+    "tocpha": 0.001,
+    "niaeq": 0.002,
+    "nia": 0.002,
+    "vitb6": 1
+  },
+  "minerals": {
+    "nacl": 0.038,
+    "na": 15,
+    "k": 116,
+    "ca": 119,
+    "mg": 40,
+    "p": 1,
+    "s": 0.2,
+    "fe": 1,
+    "zn": 0.1,
+    "id": 1,
+    "mo": 0.01
+  },
+  "carbohydrates": {
+    "cho": 77,
+    "mnsac": 0.084,
+    "glus": 0.022,
+    "frus": 0.062,
+    "disac": 0.011,
+    "sucs": 0.011,
+    "sugar": 0.095,
+    "starch": 0.172
+  },
+  "fibers": {
+    "fibt": 0.005
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 77,
+    "mantl": 0.2,
+    "sortl": 38,
+    "xyltl": 39
+  },
+  "fattyAcids": {
+    "fasat": 0.003,
+    "f16_0": 0.002,
+    "f17_0": 0.0001,
+    "f18_0": 0.001,
+    "fams": 0.005,
+    "f14_1cn5": 0.0001,
+    "f16_1cn7": 0.0005,
+    "f18_1cn9": 0.004,
+    "fapu": 0.0001,
+    "fapun6": 0.0001,
+    "f20_4cn6": 0.0001,
+    "fax": 0.0001
+  },
+  "aminoAcids": {
+    "aae9": 1.336,
+    "ala": 0.776,
+    "arg": 0.601,
+    "asp": 0.463,
+    "glu": 0.826,
+    "gly": 2.002,
+    "his": 0.051,
+    "ile": 0.123,
+    "leu": 0.225,
+    "lys": 0.35,
+    "met": 0.061,
+    "phe": 0.163,
+    "pro": 1.179,
+    "ser": 0.288,
+    "thr": 0.15,
+    "tyr": 0.01,
+    "val": 0.213
+  },
+  "otherNutrients": {
+    "nt": 1.2
+  },
+  "extra": {}
+}

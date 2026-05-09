@@ -1,0 +1,99 @@
+{
+  "name": "Schalotte geschmort ohne Fett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 41,
+    "water": 87.1,
+    "protein": 2.5,
+    "fat": 0.1,
+    "carbs": 4,
+    "fiber": 6.7804,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.05,
+    "tocpha": 0.05,
+    "toctra": 0.15,
+    "vitk": 0.5,
+    "vitk1": 0.5,
+    "thia": 0.05,
+    "ribf": 0.05,
+    "niaeq": 0.9,
+    "nia": 0.4,
+    "pantac": 0.21,
+    "vitb6": 260,
+    "biot": 1,
+    "fol": 53.24,
+    "folfd": 53.24,
+    "vitc": 10
+  },
+  "minerals": {
+    "nacl": 0.035,
+    "na": 14,
+    "cld": 32,
+    "k": 318,
+    "ca": 37,
+    "mg": 15,
+    "p": 69,
+    "fe": 1.2,
+    "zn": 0.5,
+    "id": 2,
+    "cu": 90,
+    "mn": 250,
+    "fd": 52,
+    "cr": 1,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 4,
+    "mnsac": 2.1,
+    "glus": 1,
+    "frus": 1.1,
+    "disac": 1.9,
+    "sucs": 1.5,
+    "mals": 0.4,
+    "sugar": 4
+  },
+  "fibers": {
+    "fibt": 6.7804,
+    "fibhmw": 6.7804,
+    "fibins": 3.3902,
+    "fibsol": 3.3902
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.02,
+    "f16_0": 0.019,
+    "f18_0": 0.001,
+    "fax": 0.066
+  },
+  "aminoAcids": {
+    "aae9": 0.95,
+    "ala": 0.14,
+    "arg": 0.224,
+    "asp": 0.286,
+    "glu": 0.64,
+    "gly": 0.153,
+    "his": 0.053,
+    "ile": 0.131,
+    "leu": 0.184,
+    "lys": 0.155,
+    "met": 0.033,
+    "phe": 0.1,
+    "pro": 0.204,
+    "ser": 0.14,
+    "thr": 0.121,
+    "trp": 0.032,
+    "tyr": 0.089,
+    "val": 0.14
+  },
+  "otherNutrients": {
+    "nt": 0.4
+  },
+  "extra": {}
+}

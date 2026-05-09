@@ -1,0 +1,67 @@
+{
+  "name": "Bitterlikör/Kräuterlikör/Gewürzlikör",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 282,
+    "water": 52.1,
+    "protein": 0.1,
+    "fat": null,
+    "carbs": 28.78,
+    "fiber": null,
+    "alcohol": 23.6,
+    "sugarAlcohols": 0.029
+  },
+  "vitamins": {
+    "vite": 0.012,
+    "tocpha": 0.012,
+    "tocphb": 0.005,
+    "ribf": 0.01,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "pantac": 0.02,
+    "vitb6": 20,
+    "biot": 1,
+    "fol": 1.9,
+    "folfd": 1.9
+  },
+  "minerals": {
+    "nacl": 0.068,
+    "na": 27,
+    "cld": 10,
+    "k": 55,
+    "ca": 8,
+    "mg": 5,
+    "p": 24,
+    "s": 14,
+    "fe": 0.4,
+    "zn": 0.211,
+    "cu": 50,
+    "mn": 20,
+    "cr": 3.02,
+    "mo": 0.3
+  },
+  "carbohydrates": {
+    "cho": 28.78,
+    "mnsac": 11.2,
+    "glus": 5.7,
+    "frus": 5.5,
+    "disac": 17.5,
+    "sucs": 17.5,
+    "sugar": 28.75
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.029,
+    "sortl": 0.028
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.02
+  },
+  "extra": {}
+}

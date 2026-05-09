@@ -1,0 +1,59 @@
+{
+  "name": "Kaffee (Getränk) aus Instantpulver",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 2,
+    "water": 98.4,
+    "protein": 0.33,
+    "fat": null,
+    "carbs": null,
+    "fiber": 0.1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk": 9.012,
+    "vitk1": 9.007,
+    "vitk2": 0.005,
+    "niaeq": 0.577,
+    "nia": 0.41,
+    "pantac": 0.143,
+    "fol": 0.33,
+    "folfd": 0.33
+  },
+  "minerals": {
+    "nacl": 0.0212,
+    "na": 8.5,
+    "cld": 8.7,
+    "k": 58.2,
+    "ca": 13.4,
+    "mg": 6.2,
+    "p": 5,
+    "s": 5,
+    "fe": 0.046,
+    "zn": 0.01,
+    "id": 2,
+    "cu": 36,
+    "mn": 36,
+    "cr": 0.23
+  },
+  "carbohydrates": {},
+  "fibers": {
+    "fibt": 0.1,
+    "fibhmw": 0.1,
+    "fibsol": 0.1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.033
+  },
+  "otherNutrients": {
+    "nt": 0.05
+  },
+  "extra": {}
+}

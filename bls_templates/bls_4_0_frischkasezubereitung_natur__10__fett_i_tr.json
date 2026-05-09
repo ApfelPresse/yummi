@@ -1,0 +1,91 @@
+{
+  "name": "Frischkäsezubereitung Natur < 10 % Fett i. Tr.",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 64,
+    "water": 83.5,
+    "protein": 11.9,
+    "fat": 0.2,
+    "carbs": 3,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 1.8,
+    "vitaa": 1.8,
+    "retol": 1.8,
+    "vitk": 2.7,
+    "vitk2": 2.7,
+    "thia": 0.03,
+    "ribf": 0.23,
+    "niaeq": 3.4,
+    "nia": 0.1,
+    "pantac": 0.41,
+    "vitb6": 40,
+    "biot": 4.5,
+    "fol": 26,
+    "folfd": 26,
+    "vitb12": 0.7,
+    "vitc": 4.247
+  },
+  "minerals": {
+    "nacl": 0.5,
+    "na": 200,
+    "cld": 150,
+    "k": 120,
+    "ca": 100,
+    "mg": 10,
+    "p": 170,
+    "s": 154,
+    "fe": 0.07,
+    "zn": 0.5,
+    "id": 14,
+    "cu": 26,
+    "mn": 4,
+    "fd": 17,
+    "cr": 0.141,
+    "mo": 8.1
+  },
+  "carbohydrates": {
+    "cho": 3,
+    "disac": 3,
+    "lacs": 3,
+    "sugar": 3
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.1,
+    "f16_0": 0.1
+  },
+  "aminoAcids": {
+    "aae9": 5.8,
+    "ala": 0.4,
+    "arg": 0.5,
+    "asp": 1,
+    "cyste": 0.1,
+    "glu": 2.6,
+    "gly": 0.3,
+    "his": 0.4,
+    "ile": 0.6,
+    "leu": 1.2,
+    "lys": 1.1,
+    "met": 0.3,
+    "phe": 0.6,
+    "pro": 1.2,
+    "ser": 0.7,
+    "thr": 0.6,
+    "trp": 0.2,
+    "tyr": 0.6,
+    "val": 0.8
+  },
+  "otherNutrients": {
+    "nt": 1.9
+  },
+  "extra": {}
+}

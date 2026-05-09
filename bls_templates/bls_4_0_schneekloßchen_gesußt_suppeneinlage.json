@@ -1,0 +1,97 @@
+{
+  "name": "Schneeklößchen gesüßt, Suppeneinlage",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 175,
+    "water": 55.1,
+    "protein": 7.2,
+    "fat": null,
+    "carbs": 36.445,
+    "fiber": 0.002,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.015,
+    "tocpha": 0.015,
+    "vitk": 1,
+    "vitk2": 1,
+    "thia": 0.012,
+    "ribf": 0.258,
+    "niaeq": 1.91,
+    "nia": 0.027,
+    "pantac": 0.17,
+    "vitb6": 21,
+    "biot": 3,
+    "fol": 5,
+    "folfd": 5,
+    "vitb12": 0.19,
+    "vitc": 0.845
+  },
+  "minerals": {
+    "nacl": 0.34,
+    "na": 136,
+    "cld": 114,
+    "k": 111,
+    "ca": 5,
+    "mg": 9,
+    "p": 16,
+    "fe": 0.077,
+    "zn": 0.01,
+    "id": 2,
+    "cu": 16,
+    "mn": 30
+  },
+  "carbohydrates": {
+    "cho": 36.445,
+    "mnsac": 0.32,
+    "glus": 0.308,
+    "frus": 0.012,
+    "disac": 36.125,
+    "sucs": 36.125,
+    "sugar": 36.445
+  },
+  "fibers": {
+    "fibt": 0.002
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.002,
+    "f16_0": 0.002,
+    "f18_0": 0.0001,
+    "fapu": 0.004,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.003,
+    "f18_2cn6": 0.003
+  },
+  "aminoAcids": {
+    "aae9": 3.799,
+    "ala": 0.507,
+    "arg": 0.46,
+    "asp": 0.884,
+    "cyste": 0.188,
+    "glu": 0.992,
+    "gly": 0.295,
+    "his": 0.188,
+    "ile": 0.46,
+    "leu": 0.683,
+    "lys": 0.577,
+    "met": 0.318,
+    "phe": 0.483,
+    "pro": 0.295,
+    "ser": 0.554,
+    "thr": 0.353,
+    "trp": 0.113,
+    "tyr": 0.318,
+    "val": 0.624
+  },
+  "otherNutrients": {
+    "nt": 1.252
+  },
+  "extra": {}
+}

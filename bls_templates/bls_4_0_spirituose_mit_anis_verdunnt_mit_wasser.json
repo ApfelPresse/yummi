@@ -1,0 +1,45 @@
+{
+  "name": "Spirituose mit Anis, verdünnt mit Wasser",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 116,
+    "water": 82.2,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": 16.52,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.004,
+    "niaeq": 0.02,
+    "nia": 0.02
+  },
+  "minerals": {
+    "nacl": 0.003,
+    "na": 1.2,
+    "cld": 1.3,
+    "k": 1.5,
+    "ca": 3.4,
+    "mg": 0.6,
+    "p": 3,
+    "s": 0.9,
+    "zn": 0.036,
+    "id": 1,
+    "cu": 10.9,
+    "mn": 4,
+    "mo": 0.02
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Wirsing gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 32,
+    "water": 89.8,
+    "protein": 2.452,
+    "fat": 0.282,
+    "carbs": 3.6,
+    "fiber": 2.6,
+    "alcohol": null,
+    "sugarAlcohols": 0.11
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 4,
+    "cartb": 46,
+    "vite": 2.451,
+    "tocpha": 2.451,
+    "tocphg": 0.039,
+    "vitk": 67.5,
+    "vitk1": 67.5,
+    "thia": 0.042,
+    "ribf": 0.05,
+    "niaeq": 0.714,
+    "nia": 0.247,
+    "pantac": 0.144,
+    "vitb6": 116,
+    "fol": 89,
+    "folfd": 89,
+    "vitc": 25.368
+  },
+  "minerals": {
+    "nacl": 0.02,
+    "na": 8,
+    "cld": 26,
+    "k": 174,
+    "ca": 59.815,
+    "mg": 10,
+    "p": 48,
+    "fe": 0.475,
+    "zn": 0.29,
+    "id": 2.1,
+    "cu": 45,
+    "mn": 230
+  },
+  "carbohydrates": {
+    "cho": 3.6,
+    "mnsac": 2.5,
+    "glus": 1.6,
+    "frus": 0.86,
+    "disac": 0.633,
+    "sucs": 0.633,
+    "sugar": 3.1,
+    "starch": 0.432
+  },
+  "fibers": {
+    "fibt": 2.6,
+    "fibhmw": 2.6,
+    "fibins": 1.6,
+    "fibsol": 0.9
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.11,
+    "sortl": 0.11
+  },
+  "fattyAcids": {
+    "fasat": 0.05,
+    "f14_0": 0.001,
+    "f16_0": 0.044,
+    "f18_0": 0.004,
+    "f20_0": 0.001,
+    "fams": 0.008,
+    "f16_1cn7": 0.004,
+    "f18_1cn9": 0.004,
+    "fapu": 0.17,
+    "fapun3": 0.13,
+    "f18_3cn3": 0.13,
+    "fapun6": 0.04,
+    "f18_2cn6": 0.04
+  },
+  "aminoAcids": {
+    "aae9": 0.757,
+    "arg": 0.132,
+    "his": 0.041,
+    "ile": 0.088,
+    "leu": 0.168,
+    "lys": 0.081,
+    "met": 0.024,
+    "phe": 0.106,
+    "thr": 0.097,
+    "trp": 0.028,
+    "val": 0.124
+  },
+  "otherNutrients": {
+    "nt": 0.393
+  },
+  "extra": {}
+}

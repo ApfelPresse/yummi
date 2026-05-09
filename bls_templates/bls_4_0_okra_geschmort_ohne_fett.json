@@ -1,0 +1,87 @@
+{
+  "name": "Okra geschmort ohne Fett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 35,
+    "water": 84.91,
+    "protein": 2.285,
+    "fat": 0.218,
+    "carbs": 3.36,
+    "fiber": 5.385,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 62.026,
+    "vitaa": 31.013,
+    "cartb": 372.155,
+    "vitk": 34.4,
+    "vitk1": 34.4,
+    "thia": 0.059,
+    "ribf": 0.087,
+    "niaeq": 1.248,
+    "nia": 0.765,
+    "pantac": 0.223,
+    "vitb6": 200,
+    "vitc": 31.648
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "k": 216,
+    "ca": 70,
+    "mg": 41.2,
+    "p": 82,
+    "fe": 0.718,
+    "zn": 1.414,
+    "id": 5.8,
+    "cu": 15,
+    "mn": 154
+  },
+  "carbohydrates": {
+    "cho": 3.36,
+    "mnsac": 2.59,
+    "glus": 1.62,
+    "frus": 0.97,
+    "disac": 0.769,
+    "sucs": 0.769,
+    "sugar": 3.36
+  },
+  "fibers": {
+    "fibt": 5.385,
+    "fibhmw": 5.385,
+    "fibins": 5,
+    "fibsol": 0.385
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.65,
+    "ala": 0.094,
+    "arg": 0.11,
+    "asp": 0.326,
+    "cyste": 0.044,
+    "glu": 0.301,
+    "gly": 0.085,
+    "his": 0.047,
+    "ile": 0.074,
+    "leu": 0.12,
+    "lys": 0.101,
+    "met": 0.027,
+    "phe": 0.071,
+    "pro": 0.099,
+    "ser": 0.091,
+    "thr": 0.085,
+    "trp": 0.029,
+    "tyr": 0.048,
+    "val": 0.096
+  },
+  "otherNutrients": {
+    "nt": 0.366
+  },
+  "extra": {}
+}

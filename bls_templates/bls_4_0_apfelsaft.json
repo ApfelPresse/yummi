@@ -1,0 +1,89 @@
+{
+  "name": "Apfelsaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 44,
+    "water": 88.05,
+    "protein": 0.097,
+    "fat": null,
+    "carbs": 10.585,
+    "fiber": 0.31,
+    "alcohol": 0.031,
+    "sugarAlcohols": 1
+  },
+  "vitamins": {
+    "vita": 6,
+    "vitaa": 3,
+    "cartb": 14,
+    "carotpaxb": 43,
+    "vite": 0.08,
+    "tocpha": 0.08,
+    "vitk": 0.1,
+    "vitk1": 0.1,
+    "thia": 0.003,
+    "ribf": 0.0045,
+    "niaeq": 0.2,
+    "nia": 0.2,
+    "pantac": 0.05,
+    "vitb6": 9,
+    "biot": 0.9
+  },
+  "minerals": {
+    "nacl": 0.015,
+    "na": 6,
+    "k": 91,
+    "ca": 5,
+    "mg": 4,
+    "p": 6.74,
+    "fe": 0.2,
+    "zn": 0.03,
+    "id": 2,
+    "cu": 20,
+    "mn": 40,
+    "cr": 1,
+    "mo": 0.65
+  },
+  "carbohydrates": {
+    "cho": 10.585,
+    "mnsac": 8.45,
+    "glus": 2.215,
+    "frus": 6.235,
+    "disac": 1.135,
+    "sucs": 1.135,
+    "sugar": 9.585
+  },
+  "fibers": {
+    "fibt": 0.31,
+    "fibins": 0.03,
+    "fibsol": 0.28
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1,
+    "sortl": 1
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.023,
+    "ala": 0.004,
+    "arg": 0.002,
+    "asp": 0.027,
+    "glu": 0.009,
+    "his": 0.002,
+    "ile": 0.002,
+    "leu": 0.005,
+    "lys": 0.005,
+    "phe": 0.003,
+    "pro": 0.002,
+    "ser": 0.004,
+    "thr": 0.002,
+    "val": 0.004
+  },
+  "otherNutrients": {
+    "nt": 0.016
+  },
+  "extra": {}
+}

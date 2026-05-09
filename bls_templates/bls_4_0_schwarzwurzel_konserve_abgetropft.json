@@ -1,0 +1,109 @@
+{
+  "name": "Schwarzwurzel Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 38,
+    "water": 86,
+    "protein": 1.062,
+    "fat": 0.327,
+    "carbs": 4.6,
+    "fiber": 4,
+    "alcohol": null,
+    "sugarAlcohols": 0.046
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 14,
+    "vite": 0.84,
+    "tocpha": 0.84,
+    "vitk": 2,
+    "vitk1": 2,
+    "thia": 0.024,
+    "ribf": 0.019,
+    "niaeq": 0.419,
+    "nia": 0.102,
+    "pantac": 0.141,
+    "vitb6": 29,
+    "fol": 7,
+    "folfd": 7,
+    "vitc": 0.681
+  },
+  "minerals": {
+    "nacl": 0.53,
+    "na": 212,
+    "cld": 457,
+    "k": 113,
+    "ca": 39,
+    "mg": 14,
+    "p": 44,
+    "s": 1,
+    "fe": 1.79,
+    "zn": 0.143,
+    "id": 1,
+    "cu": 230,
+    "mn": 292,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 4.6,
+    "mnsac": 0.098,
+    "glus": 0.048,
+    "frus": 0.05,
+    "disac": 1.332,
+    "sucs": 1.332,
+    "sugar": 1.43,
+    "olsac": 1.751,
+    "starch": 1.4
+  },
+  "fibers": {
+    "fibt": 4,
+    "fibins": 5.3,
+    "fibsol": 1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.046,
+    "mantl": 0.046
+  },
+  "fattyAcids": {
+    "fasat": 0.038,
+    "f14_0": 0.001,
+    "f15_0": 0.001,
+    "f16_0": 0.025,
+    "f17_0": 0.001,
+    "f18_0": 0.003,
+    "f20_0": 0.001,
+    "f22_0": 0.003,
+    "f24_0": 0.003,
+    "fams": 0.004,
+    "f18_1cn9": 0.004,
+    "fapu": 0.191,
+    "fapun3": 0.14,
+    "f18_3cn3": 0.14,
+    "fapun6": 0.051,
+    "f18_2cn6": 0.05,
+    "f18_3cn6": 0.001,
+    "fax": 0.001
+  },
+  "aminoAcids": {
+    "aae9": 0.301,
+    "arg": 0.079,
+    "his": 0.018,
+    "ile": 0.065,
+    "leu": 0.047,
+    "lys": 0.042,
+    "met": 0.007,
+    "phe": 0.025,
+    "thr": 0.03,
+    "trp": 0.019,
+    "val": 0.048
+  },
+  "otherNutrients": {
+    "nt": 0.17
+  },
+  "extra": {}
+}

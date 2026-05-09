@@ -1,0 +1,70 @@
+{
+  "name": "Cocktail, Caipirinha",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 92,
+    "water": 83,
+    "protein": 0.014,
+    "fat": null,
+    "carbs": 6.11,
+    "fiber": 0.004,
+    "alcohol": 9.6,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.023,
+    "tocpha": 0.023,
+    "thia": 0.004,
+    "ribf": 0.001,
+    "niaeq": 0.006,
+    "nia": 0.006,
+    "pantac": 0.007,
+    "vitb6": 2,
+    "fol": 0.1,
+    "folfd": 0.1,
+    "vitc": 1.162
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 1.7,
+    "k": 10,
+    "ca": 7,
+    "mg": 2,
+    "p": 3,
+    "s": 1.1,
+    "fe": 0.1,
+    "zn": 0.022,
+    "id": 1,
+    "cu": 20,
+    "mn": 7,
+    "mo": 0.02
+  },
+  "carbohydrates": {
+    "cho": 6.11,
+    "mnsac": 0.04,
+    "glus": 0.02,
+    "frus": 0.02,
+    "disac": 6.07,
+    "sucs": 6.07,
+    "sugar": 6.11
+  },
+  "fibers": {
+    "fibt": 0.004
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "arg": 0.001,
+    "asp": 0.002,
+    "pro": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.002
+  },
+  "extra": {}
+}

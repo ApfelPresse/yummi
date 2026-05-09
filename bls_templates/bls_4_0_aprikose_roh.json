@@ -1,0 +1,99 @@
+{
+  "name": "Aprikose roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 42,
+    "water": 84.61,
+    "protein": 0.8,
+    "fat": 0.13,
+    "carbs": 8.22,
+    "fiber": 1.54,
+    "alcohol": null,
+    "sugarAlcohols": 0.8
+  },
+  "vitamins": {
+    "vita": 282,
+    "vitaa": 141,
+    "cartb": 1562,
+    "carotpaxb": 265,
+    "vite": 0.5,
+    "tocpha": 0.5,
+    "vitk": 3,
+    "vitk1": 3,
+    "thia": 0.107,
+    "ribf": 0.053,
+    "niaeq": 0.77,
+    "nia": 0.77,
+    "pantac": 0.29,
+    "vitb6": 70,
+    "fol": 10.8,
+    "folfd": 10.8,
+    "vitc": 9.4
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 1,
+    "k": 362,
+    "ca": 21.9,
+    "mg": 20,
+    "p": 21,
+    "fe": 0.612,
+    "zn": 0.21,
+    "id": 0.5,
+    "cu": 82,
+    "mn": 211,
+    "fd": 10
+  },
+  "carbohydrates": {
+    "cho": 8.22,
+    "mnsac": 2.875,
+    "glus": 1.94,
+    "frus": 0.935,
+    "disac": 4.545,
+    "sucs": 4.545,
+    "sugar": 7.42
+  },
+  "fibers": {
+    "fibt": 1.54,
+    "fibhmw": 1.54,
+    "fibins": 0.83,
+    "fibsol": 0.71
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.8,
+    "sortl": 0.8
+  },
+  "fattyAcids": {
+    "fasat": 0.0103,
+    "f16_0": 0.0092,
+    "f18_0": 0.0011,
+    "fams": 0.064,
+    "f16_1cn7": 0.064,
+    "fapu": 0.029,
+    "fapun6": 0.029,
+    "f18_2cn6": 0.029
+  },
+  "aminoAcids": {
+    "aae9": 0.084,
+    "ala": 0.021,
+    "arg": 0.015,
+    "asp": 0.414,
+    "cyste": 0.006,
+    "glu": 0.042,
+    "leu": 0.024,
+    "lys": 0.023,
+    "pro": 0.015,
+    "ser": 0.025,
+    "thr": 0.019,
+    "val": 0.018
+  },
+  "otherNutrients": {
+    "nt": 0.128
+  },
+  "extra": {}
+}

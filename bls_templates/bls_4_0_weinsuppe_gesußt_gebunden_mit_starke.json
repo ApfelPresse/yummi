@@ -1,0 +1,94 @@
+{
+  "name": "Weinsuppe gesüßt, gebunden mit Stärke",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 35,
+    "water": 91.5,
+    "protein": 0.066,
+    "fat": null,
+    "carbs": 5.97,
+    "fiber": 0.026,
+    "alcohol": 1.42,
+    "sugarAlcohols": 0.004
+  },
+  "vitamins": {
+    "cartb": 3,
+    "vite": 0.01,
+    "tocpha": 0.01,
+    "ribf": 0.05,
+    "niaeq": 0.003,
+    "nia": 0.003,
+    "pantac": 0.21,
+    "vitb6": 1,
+    "fol": 1.9,
+    "folfd": 1.9,
+    "vitc": 3.3
+  },
+  "minerals": {
+    "nacl": 0.03,
+    "na": 12,
+    "cld": 14,
+    "k": 39,
+    "ca": 7,
+    "mg": 4,
+    "p": 10,
+    "fe": 0.083,
+    "zn": 0.04,
+    "cu": 10,
+    "mn": 60,
+    "mo": 0.3
+  },
+  "carbohydrates": {
+    "cho": 5.97,
+    "mnsac": 0.18,
+    "glus": 0.1,
+    "frus": 0.08,
+    "disac": 3.115,
+    "sucs": 3.115,
+    "sugar": 3.3,
+    "starch": 2.669
+  },
+  "fibers": {
+    "fibt": 0.026
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.004,
+    "sortl": 0.004
+  },
+  "fattyAcids": {
+    "fasat": 0.002,
+    "f16_0": 0.002,
+    "fams": 0.001,
+    "f18_1cn9": 0.001,
+    "fapu": 0.004,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.003,
+    "f18_2cn6": 0.003
+  },
+  "aminoAcids": {
+    "aae9": 0.007,
+    "ala": 0.001,
+    "arg": 0.001,
+    "asp": 0.002,
+    "glu": 0.003,
+    "gly": 0.001,
+    "ile": 0.001,
+    "leu": 0.002,
+    "lys": 0.001,
+    "phe": 0.001,
+    "pro": 0.002,
+    "ser": 0.001,
+    "thr": 0.001,
+    "tyr": 0.001,
+    "val": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.011
+  },
+  "extra": {}
+}

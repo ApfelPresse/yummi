@@ -1,0 +1,83 @@
+{
+  "name": "Shiitakepilz gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 48,
+    "water": 83.4,
+    "protein": 4.1,
+    "fat": 0.3,
+    "carbs": 3.9,
+    "fiber": 6.84,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.001,
+    "ribf": 0.34,
+    "niaeq": 4.57,
+    "nia": 4.27,
+    "vitb6": 240,
+    "biot": 8.93,
+    "fol": 14.2,
+    "folfd": 14.2
+  },
+  "minerals": {
+    "nacl": 0.0041,
+    "na": 1.64,
+    "k": 398.36,
+    "ca": 1.64,
+    "mg": 23.11,
+    "p": 124.59,
+    "fe": 0.23,
+    "zn": 1.25,
+    "cu": 80,
+    "mn": 280
+  },
+  "carbohydrates": {
+    "cho": 3.9,
+    "mnsac": 3.9,
+    "glus": 3.9,
+    "sugar": 3.9
+  },
+  "fibers": {
+    "fibt": 6.84,
+    "fibhmw": 6.84,
+    "fibins": 5.39,
+    "fibsol": 1.44
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fapu": 0.2,
+    "fapun6": 0.2,
+    "f18_2cn6": 0.2
+  },
+  "aminoAcids": {
+    "aae9": 1.219,
+    "ala": 0.17,
+    "arg": 0.208,
+    "asp": 0.311,
+    "cyste": 0.039,
+    "glu": 0.582,
+    "gly": 0.149,
+    "his": 0.092,
+    "ile": 0.13,
+    "leu": 0.218,
+    "lys": 0.2,
+    "met": 0.048,
+    "phe": 0.149,
+    "pro": 0.148,
+    "ser": 0.169,
+    "thr": 0.161,
+    "trp": 0.018,
+    "tyr": 0.434,
+    "val": 0.203
+  },
+  "otherNutrients": {
+    "nt": 0.7
+  },
+  "extra": {}
+}

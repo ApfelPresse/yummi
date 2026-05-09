@@ -1,0 +1,113 @@
+{
+  "name": "Himbeerkompott zuckerreduziert",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 56,
+    "water": 83.5,
+    "protein": 0.9,
+    "fat": 0.259,
+    "carbs": 9,
+    "fiber": 4.1,
+    "alcohol": null,
+    "sugarAlcohols": 0.003
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 5,
+    "carotpaxb": 19,
+    "vite": 0.68,
+    "tocpha": 0.68,
+    "tocphb": 0.11,
+    "tocphg": 1.1,
+    "tocphd": 1,
+    "vitk": 7.8,
+    "vitk1": 7.8,
+    "thia": 0.01,
+    "ribf": 0.01,
+    "niaeq": 0.6,
+    "nia": 0.4,
+    "pantac": 0.57,
+    "vitb6": 70,
+    "biot": 1.4,
+    "fol": 27,
+    "folfd": 27,
+    "vitc": 14
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 10,
+    "k": 149,
+    "ca": 12,
+    "mg": 16,
+    "p": 24,
+    "s": 0.2,
+    "fe": 0.5,
+    "zn": 0.26,
+    "id": 3.3,
+    "cu": 60,
+    "mn": 380,
+    "fd": 14,
+    "cr": 3,
+    "mo": 6.6
+  },
+  "carbohydrates": {
+    "cho": 9,
+    "mnsac": 4.4,
+    "glus": 2.2,
+    "frus": 2.2,
+    "gals": 0.0092,
+    "disac": 4.55,
+    "sucs": 4.51,
+    "mals": 0.04,
+    "sugar": 9
+  },
+  "fibers": {
+    "fibt": 4.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.003,
+    "xyltl": 0.003
+  },
+  "fattyAcids": {
+    "fasat": 0.0087,
+    "f16_0": 0.0071,
+    "f18_0": 0.0016,
+    "fams": 0.026,
+    "f18_1cn9": 0.026,
+    "fapu": 0.168,
+    "fapun3": 0.056,
+    "f18_3cn3": 0.056,
+    "fapun6": 0.112,
+    "f18_2cn6": 0.112
+  },
+  "aminoAcids": {
+    "aae9": 0.253,
+    "ala": 0.077,
+    "arg": 0.046,
+    "asp": 0.108,
+    "cyste": 0.009,
+    "glu": 0.148,
+    "gly": 0.04,
+    "his": 0.019,
+    "ile": 0.022,
+    "leu": 0.049,
+    "lys": 0.047,
+    "phe": 0.032,
+    "pro": 0.028,
+    "ser": 0.053,
+    "thr": 0.034,
+    "trp": 0.01,
+    "tyr": 0.025,
+    "val": 0.04
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

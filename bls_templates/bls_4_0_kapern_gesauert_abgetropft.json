@@ -1,0 +1,82 @@
+{
+  "name": "Kapern gesäuert, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 22,
+    "water": 85.2,
+    "protein": 2.12,
+    "fat": 0.42,
+    "carbs": null,
+    "fiber": 2.4,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 44,
+    "vitaa": 22,
+    "cartb": 266,
+    "vite": 1.02,
+    "tocpha": 1.02,
+    "tocphg": 0.34,
+    "vitk": 2.64,
+    "vitk2": 2.64,
+    "ribf": 0.14,
+    "niaeq": 0.737,
+    "nia": 0.07,
+    "pantac": 0.09,
+    "biot": 1.4,
+    "fol": 8.55,
+    "folfd": 8.55
+  },
+  "minerals": {
+    "nacl": 6.95,
+    "na": 2780,
+    "cld": 3910,
+    "k": 26,
+    "ca": 46.4,
+    "mg": 16.8,
+    "p": 10,
+    "fe": 0.86,
+    "zn": 0.32,
+    "id": 6,
+    "cu": 144,
+    "mn": 78,
+    "fd": 75,
+    "cr": 1.1,
+    "mo": 2.8
+  },
+  "carbohydrates": {},
+  "fibers": {
+    "fibt": 2.4,
+    "fibhmw": 2.4,
+    "fibins": 2.4
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.85,
+    "ala": 0.12,
+    "arg": 0.12,
+    "asp": 0.22,
+    "glu": 0.24,
+    "gly": 0.11,
+    "his": 0.05,
+    "ile": 0.1,
+    "leu": 0.18,
+    "lys": 0.14,
+    "phe": 0.12,
+    "pro": 0.1,
+    "ser": 0.1,
+    "thr": 0.09,
+    "tyr": 0.09,
+    "val": 0.13
+  },
+  "otherNutrients": {
+    "nt": 0.339
+  },
+  "extra": {}
+}

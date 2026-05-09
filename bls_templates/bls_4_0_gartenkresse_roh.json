@@ -1,0 +1,91 @@
+{
+  "name": "Gartenkresse roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 31,
+    "water": 87.255,
+    "protein": 4.2,
+    "fat": 0.7,
+    "carbs": 0.23,
+    "fiber": 3.52,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 453,
+    "vitaa": 227,
+    "cartb": 2720,
+    "vite": 0.522,
+    "tocpha": 0.522,
+    "tocphg": 0.014,
+    "vitk": 542,
+    "vitk1": 542,
+    "thia": 0.15,
+    "ribf": 0.19,
+    "niaeq": 2.883,
+    "nia": 1.75,
+    "vitb6": 300,
+    "vitc": 59
+  },
+  "minerals": {
+    "nacl": 0.0316,
+    "na": 12.63,
+    "k": 165.58,
+    "ca": 166,
+    "mg": 37,
+    "p": 38,
+    "fe": 3.298,
+    "zn": 0.496,
+    "cu": 43,
+    "mn": 541,
+    "fd": 24
+  },
+  "carbohydrates": {
+    "cho": 0.23,
+    "mnsac": 0.23,
+    "glus": 0.16,
+    "frus": 0.07,
+    "sugar": 0.23
+  },
+  "fibers": {
+    "fibt": 3.52,
+    "fibhmw": 3.52,
+    "fibins": 2.04,
+    "fibsol": 1.48
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.093,
+    "f16_0": 0.087,
+    "f18_0": 0.006,
+    "fams": 0.014,
+    "f16_1cn7": 0.01,
+    "f18_1cn9": 0.004,
+    "fapu": 0.386,
+    "fapun3": 0.29,
+    "f18_3cn3": 0.29,
+    "fapun6": 0.096,
+    "f18_2cn6": 0.096
+  },
+  "aminoAcids": {
+    "aae9": 1.246,
+    "arg": 0.131,
+    "his": 0.084,
+    "ile": 0.189,
+    "leu": 0.315,
+    "lys": 0.024,
+    "phe": 0.152,
+    "thr": 0.207,
+    "trp": 0.068,
+    "tyr": 0.089,
+    "val": 0.207
+  },
+  "otherNutrients": {
+    "nt": 0.672
+  },
+  "extra": {}
+}

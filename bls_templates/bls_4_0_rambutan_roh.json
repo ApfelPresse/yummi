@@ -1,0 +1,83 @@
+{
+  "name": "Rambutan roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 63,
+    "water": 82,
+    "protein": 1,
+    "fat": 0.1,
+    "carbs": 13.7,
+    "fiber": 1.5,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk": 0.4,
+    "vitk1": 0.4,
+    "thia": 0.01,
+    "ribf": 0.06,
+    "niaeq": 0.567,
+    "nia": 0.4,
+    "pantac": 0.055,
+    "vitb6": 40,
+    "vitc": 53
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "k": 64,
+    "ca": 20,
+    "mg": 10,
+    "p": 15,
+    "fe": 1.9,
+    "zn": 0.21,
+    "cu": 200,
+    "mn": 110
+  },
+  "carbohydrates": {
+    "cho": 13.7,
+    "mnsac": 5.1,
+    "glus": 3.56,
+    "frus": 1.54,
+    "disac": 8.6,
+    "sucs": 8.6,
+    "sugar": 13.7
+  },
+  "fibers": {
+    "fibt": 1.5,
+    "fibhmw": 1.5,
+    "fibins": 1.167,
+    "fibsol": 0.333
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.234,
+    "ala": 0.054,
+    "arg": 0.027,
+    "asp": 0.106,
+    "cyste": 0.01,
+    "glu": 0.186,
+    "gly": 0.039,
+    "his": 0.013,
+    "ile": 0.027,
+    "leu": 0.039,
+    "lys": 0.054,
+    "met": 0.01,
+    "phe": 0.027,
+    "pro": 0.027,
+    "ser": 0.039,
+    "thr": 0.027,
+    "trp": 0.01,
+    "tyr": 0.013,
+    "val": 0.027
+  },
+  "otherNutrients": {
+    "nt": 0.16
+  },
+  "extra": {}
+}

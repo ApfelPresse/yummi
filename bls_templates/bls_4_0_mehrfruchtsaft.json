@@ -1,0 +1,108 @@
+{
+  "name": "Mehrfruchtsaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 48,
+    "water": 87,
+    "protein": 0.4,
+    "fat": 0.1,
+    "carbs": 10.73,
+    "fiber": 0.3,
+    "alcohol": 0.03,
+    "sugarAlcohols": 0.58
+  },
+  "vitamins": {
+    "vita": 14,
+    "vitaa": 7,
+    "cartb": 61,
+    "carotpaxb": 40,
+    "vite": 0.15,
+    "tocpha": 0.15,
+    "toctra": 0.001,
+    "vitk": 0.3,
+    "vitk1": 0.3,
+    "thia": 0.0272,
+    "ribf": 0.0086,
+    "niaeq": 0.4,
+    "nia": 0.4,
+    "pantac": 0.12,
+    "vitb6": 36.9,
+    "biot": 1,
+    "fol": 7,
+    "folfd": 7,
+    "vitc": 27.5
+  },
+  "minerals": {
+    "nacl": 0.006,
+    "na": 2.4,
+    "cld": 7,
+    "k": 120,
+    "ca": 11,
+    "mg": 10,
+    "p": 11,
+    "fe": 0.2,
+    "zn": 0.1,
+    "id": 1,
+    "cu": 30,
+    "mn": 110,
+    "fd": 1,
+    "cr": 1,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 10.73,
+    "mnsac": 7.89,
+    "glus": 3.1,
+    "frus": 4.79,
+    "disac": 2.26,
+    "sucs": 2.26,
+    "sugar": 10.15
+  },
+  "fibers": {
+    "fibt": 0.3
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.58,
+    "sortl": 0.58
+  },
+  "fattyAcids": {
+    "fasat": 0.014,
+    "f16_0": 0.013,
+    "f18_0": 0.001,
+    "fams": 0.004,
+    "f16_1cn7": 0.003,
+    "f18_1cn7": 0.001,
+    "fapu": 0.01,
+    "fapun3": 0.01,
+    "f18_3cn3": 0.01
+  },
+  "aminoAcids": {
+    "aae9": 0.063,
+    "ala": 0.014,
+    "arg": 0.019,
+    "asp": 0.054,
+    "cyste": 0.003,
+    "glu": 0.036,
+    "gly": 0.009,
+    "his": 0.005,
+    "ile": 0.006,
+    "leu": 0.012,
+    "lys": 0.013,
+    "met": 0.002,
+    "phe": 0.007,
+    "pro": 0.02,
+    "ser": 0.011,
+    "thr": 0.007,
+    "trp": 0.002,
+    "tyr": 0.003,
+    "val": 0.009
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Wermutwein süß",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 140,
+    "water": 72.3,
+    "protein": 0.1,
+    "fat": null,
+    "carbs": 14.6,
+    "fiber": null,
+    "alcohol": 11.4,
+    "sugarAlcohols": 0.025
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 4,
+    "vite": 0.004,
+    "tocpha": 0.004,
+    "ribf": 0.0199,
+    "pantac": 0.39,
+    "vitb6": 10,
+    "biot": 0.19,
+    "fol": 1.2,
+    "folfd": 1.2
+  },
+  "minerals": {
+    "nacl": 0.025,
+    "na": 10,
+    "cld": 6,
+    "k": 30,
+    "ca": 6,
+    "mg": 5,
+    "p": 5,
+    "s": 10,
+    "fe": 0.26,
+    "zn": 0.0211,
+    "cu": 30,
+    "mn": 20.3,
+    "fd": 5,
+    "cr": 2.64
+  },
+  "carbohydrates": {
+    "cho": 14.6,
+    "mnsac": 11.2,
+    "glus": 5.4,
+    "frus": 5.8,
+    "disac": 3.4,
+    "sucs": 3.4,
+    "sugar": 14.6
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.025,
+    "sortl": 0.025
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.01
+  },
+  "extra": {}
+}

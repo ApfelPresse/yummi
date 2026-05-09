@@ -1,0 +1,92 @@
+{
+  "name": "Yamswurzel gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 120,
+    "water": 67.9,
+    "protein": 1.6,
+    "fat": 0.2,
+    "carbs": 26.8,
+    "fiber": 2.3,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 9,
+    "vitk": 2.4,
+    "vitk1": 2.4,
+    "thia": 0.076,
+    "ribf": 0.03,
+    "niaeq": 1.183,
+    "nia": 0.6,
+    "vitb6": 293,
+    "biot": 0.3,
+    "vitc": 7.895
+  },
+  "minerals": {
+    "nacl": 0.0012,
+    "k": 271,
+    "ca": 3,
+    "mg": 16,
+    "p": 34,
+    "fe": 0.34,
+    "zn": 0.31,
+    "id": 0.9,
+    "cu": 150,
+    "mn": 40
+  },
+  "carbohydrates": {
+    "cho": 26.8,
+    "mnsac": 0.1,
+    "disac": 1.8,
+    "sucs": 1.8,
+    "mals": 0.05,
+    "sugar": 1.9,
+    "starch": 24.9
+  },
+  "fibers": {
+    "fibt": 2.3,
+    "fibhmw": 5.619,
+    "fibins": 3.345,
+    "fibsol": 2.274
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.046,
+    "f12_0": 0.0018,
+    "f14_0": 0.001,
+    "f16_0": 0.041,
+    "f20_0": 0.0022,
+    "fams": 0.0608,
+    "f16_1cn7": 0.0024,
+    "f18_1cn9": 0.0584,
+    "fapu": 0.0012,
+    "fapun6": 0.0012,
+    "f18_2cn6": 0.0012
+  },
+  "aminoAcids": {
+    "aae9": 0.708,
+    "arg": 0.083,
+    "cyste": 0.032,
+    "his": 0.037,
+    "ile": 0.086,
+    "leu": 0.106,
+    "lys": 0.084,
+    "met": 0.035,
+    "phe": 0.1,
+    "thr": 0.086,
+    "trp": 0.035,
+    "tyr": 0.09,
+    "val": 0.139
+  },
+  "otherNutrients": {
+    "nt": 0.3
+  },
+  "extra": {}
+}

@@ -1,0 +1,90 @@
+{
+  "name": "Okra Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 13,
+    "water": 95,
+    "protein": 1.2,
+    "fat": 0.1,
+    "carbs": 0.6,
+    "fiber": 2.3,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 32.864,
+    "vitaa": 16.432,
+    "cartb": 197.182,
+    "vitk": 20.5,
+    "vitk1": 20.5,
+    "thia": 0.019,
+    "ribf": 0.019,
+    "niaeq": 0.434,
+    "nia": 0.184,
+    "pantac": 0.061,
+    "biot": 0.9,
+    "vitc": 4.255
+  },
+  "minerals": {
+    "nacl": 0.532,
+    "na": 213,
+    "cld": 435,
+    "k": 95,
+    "ca": 67,
+    "mg": 25,
+    "p": 32,
+    "s": 1,
+    "fe": 0.21,
+    "zn": 0.22,
+    "id": 3,
+    "cu": 60,
+    "mn": 210
+  },
+  "carbohydrates": {
+    "cho": 0.6,
+    "mnsac": 0.4,
+    "glus": 0.2,
+    "frus": 0.2,
+    "disac": 0.2,
+    "sucs": 0.2,
+    "mals": 0.02,
+    "sugar": 0.6
+  },
+  "fibers": {
+    "fibt": 2.3,
+    "fibhmw": 3.082,
+    "fibins": 2.862,
+    "fibsol": 0.22
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.35,
+    "ala": 0.05,
+    "arg": 0.06,
+    "asp": 0.176,
+    "cyste": 0.024,
+    "glu": 0.163,
+    "gly": 0.046,
+    "his": 0.025,
+    "ile": 0.04,
+    "leu": 0.065,
+    "lys": 0.055,
+    "met": 0.014,
+    "phe": 0.039,
+    "pro": 0.053,
+    "ser": 0.05,
+    "thr": 0.046,
+    "trp": 0.015,
+    "tyr": 0.026,
+    "val": 0.051
+  },
+  "otherNutrients": {
+    "nt": 0.3
+  },
+  "extra": {}
+}

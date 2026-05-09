@@ -1,0 +1,79 @@
+{
+  "name": "Hammel Hirn, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 126,
+    "water": 77.665,
+    "protein": 12.182,
+    "fat": 8.565,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 8,
+    "retol": 8,
+    "thia": 0.113,
+    "ribf": 0.162,
+    "niaeq": 4.682,
+    "nia": 1.882,
+    "pantac": 1.224,
+    "vitb6": 140,
+    "fol": 2,
+    "folfd": 2,
+    "vitb12": 5.2,
+    "vitc": 14.306
+  },
+  "minerals": {
+    "nacl": 0.198,
+    "na": 79,
+    "k": 192,
+    "ca": 5.1,
+    "mg": 11.2,
+    "p": 287,
+    "fe": 4.471,
+    "zn": 1.38,
+    "cu": 270,
+    "mn": 52
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 2.166,
+    "f14_0": 0.04,
+    "f16_0": 1.058,
+    "f18_0": 1.068,
+    "fams": 0.12,
+    "f20_1cn9": 0.12,
+    "fapu": 0.619,
+    "fapun3": 0.619,
+    "f22_5cn3": 0.13,
+    "f22_6cn3": 0.489,
+    "fax": 1.597
+  },
+  "aminoAcids": {
+    "aae9": 5.6,
+    "arg": 0.682,
+    "his": 0.346,
+    "ile": 0.637,
+    "leu": 1.118,
+    "lys": 1.129,
+    "met": 0.302,
+    "phe": 0.648,
+    "thr": 0.581,
+    "trp": 0.168,
+    "val": 0.671
+  },
+  "otherNutrients": {
+    "chorl": 2588,
+    "nt": 1.949
+  },
+  "extra": {}
+}

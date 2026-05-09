@@ -1,0 +1,62 @@
+{
+  "name": "Sherry dry",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 101,
+    "water": 83.7,
+    "protein": 0.1,
+    "fat": null,
+    "carbs": 0.08,
+    "fiber": null,
+    "alcohol": 14.1,
+    "sugarAlcohols": 0.03
+  },
+  "vitamins": {
+    "vite": 0.013,
+    "tocpha": 0.013,
+    "tocphb": 0.005,
+    "ribf": 0.01,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "pantac": 0.02,
+    "vitb6": 20,
+    "biot": 1.1,
+    "fol": 2,
+    "folfd": 2
+  },
+  "minerals": {
+    "nacl": 0.072,
+    "na": 29,
+    "cld": 11,
+    "k": 58,
+    "ca": 8,
+    "mg": 5,
+    "p": 25,
+    "s": 15,
+    "fe": 0.42,
+    "zn": 0.223,
+    "cu": 50,
+    "mn": 20,
+    "cr": 3.19,
+    "mo": 0.3
+  },
+  "carbohydrates": {
+    "cho": 0.08,
+    "sugar": 0.05
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.03,
+    "sortl": 0.03
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.02
+  },
+  "extra": {}
+}

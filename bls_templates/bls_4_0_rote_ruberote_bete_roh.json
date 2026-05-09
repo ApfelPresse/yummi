@@ -1,0 +1,97 @@
+{
+  "name": "Rote Rübe/Rote Bete, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 43,
+    "water": 86.767,
+    "protein": 2.063,
+    "fat": 0.1,
+    "carbs": 7.22,
+    "fiber": 2.5,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 10,
+    "carotpaxb": 7,
+    "vite": 0.043,
+    "tocpha": 0.043,
+    "vitk": 0.2,
+    "vitk1": 0.2,
+    "thia": 0.04,
+    "ribf": 0.05,
+    "niaeq": 0.4,
+    "nia": 0.2,
+    "pantac": 0.13,
+    "vitb6": 48,
+    "fol": 66,
+    "folfd": 66,
+    "vitc": 6
+  },
+  "minerals": {
+    "nacl": 0.142,
+    "na": 57,
+    "cld": 82,
+    "k": 349,
+    "ca": 17,
+    "mg": 24,
+    "p": 42,
+    "fe": 0.4,
+    "zn": 0.31,
+    "id": 0.4,
+    "cu": 86,
+    "mn": 370,
+    "fd": 12,
+    "cr": 4
+  },
+  "carbohydrates": {
+    "cho": 7.22,
+    "mnsac": 0.54,
+    "glus": 0.4,
+    "frus": 0.14,
+    "disac": 6.68,
+    "sucs": 6.68,
+    "sugar": 7.22
+  },
+  "fibers": {
+    "fibt": 2.5,
+    "fibhmw": 2.5,
+    "fibins": 2,
+    "fibsol": 0.5
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.02,
+    "f16_0": 0.02,
+    "fams": 0.0099,
+    "f18_1cn9": 0.0099,
+    "fapu": 0.04,
+    "fapun3": 0.0041,
+    "f18_3cn3": 0.0041,
+    "fapun6": 0.04,
+    "f18_2cn6": 0.04
+  },
+  "aminoAcids": {
+    "aae9": 0.329,
+    "arg": 0.027,
+    "his": 0.021,
+    "ile": 0.049,
+    "leu": 0.053,
+    "lys": 0.082,
+    "met": 0.005,
+    "phe": 0.026,
+    "thr": 0.033,
+    "trp": 0.013,
+    "val": 0.047
+  },
+  "otherNutrients": {
+    "nt": 0.33
+  },
+  "extra": {}
+}

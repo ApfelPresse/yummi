@@ -1,0 +1,110 @@
+{
+  "name": "Schwein Rohschinken, mit Fettrand, Rohpökelware, geräuchert",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 270,
+    "water": 53.2,
+    "protein": 24.05,
+    "fat": 18.85,
+    "carbs": 0.14,
+    "fiber": 0.03,
+    "alcohol": null,
+    "sugarAlcohols": 0.006
+  },
+  "vitamins": {
+    "vita": 3.4,
+    "vitaa": 3.4,
+    "retol": 3.4,
+    "vite": 0.74,
+    "tocpha": 0.74,
+    "vitk": 12.908,
+    "vitk2": 12.908,
+    "thia": 1.013,
+    "ribf": 0.166,
+    "niaeq": 6.531,
+    "nia": 1.948,
+    "pantac": 0.514,
+    "vitb6": 403,
+    "biot": 2.985,
+    "fol": 0.74,
+    "folfd": 0.74,
+    "vitb12": 0.293
+  },
+  "minerals": {
+    "nacl": 4.6375,
+    "na": 1855,
+    "cld": 1535,
+    "k": 490.5,
+    "ca": 4.7,
+    "mg": 29.8,
+    "p": 236,
+    "s": 264,
+    "fe": 0.704,
+    "zn": 1.77,
+    "cu": 71,
+    "mn": 12.7,
+    "cr": 7.5,
+    "mo": 0.9
+  },
+  "carbohydrates": {
+    "cho": 0.14,
+    "mnsac": 0.13,
+    "glus": 0.13,
+    "sugar": 0.13
+  },
+  "fibers": {
+    "fibt": 0.03,
+    "fibhmw": 0.03
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.006
+  },
+  "fattyAcids": {
+    "fasat": 6.738,
+    "f14_0": 0.2285,
+    "f16_0": 4.078,
+    "f17_0": 0.0532,
+    "f18_0": 2.226,
+    "f20_0": 0.0578,
+    "f22_0": 0.0947,
+    "fams": 8.131,
+    "f16_1cn7": 0.4251,
+    "f18_1cn9": 7.666,
+    "f22_1cn9": 0.0402,
+    "fapu": 1.907,
+    "fapun3": 0.149,
+    "f18_3cn3": 0.149,
+    "fapun6": 1.758,
+    "f18_2cn6": 1.758
+  },
+  "aminoAcids": {
+    "aae9": 9.393,
+    "ala": 1.277,
+    "arg": 1.366,
+    "asp": 2.027,
+    "cyste": 0.245,
+    "glu": 3.433,
+    "gly": 1.085,
+    "his": 0.895,
+    "ile": 1.04,
+    "leu": 1.755,
+    "lys": 1.95,
+    "met": 0.529,
+    "phe": 0.865,
+    "pro": 0.911,
+    "ser": 0.864,
+    "thr": 0.98,
+    "trp": 0.275,
+    "tyr": 0.754,
+    "val": 1.104
+  },
+  "otherNutrients": {
+    "chorl": 72.1,
+    "nt": 3.85
+  },
+  "extra": {}
+}

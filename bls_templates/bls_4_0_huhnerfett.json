@@ -1,0 +1,58 @@
+{
+  "name": "Hühnerfett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 220,
+    "vitaa": 220,
+    "retol": 220,
+    "vite": 1.3,
+    "tocpha": 1.3,
+    "vitk": 5,
+    "vitk1": 1,
+    "vitk2": 4
+  },
+  "minerals": {
+    "nacl": 0.025,
+    "na": 10,
+    "k": 6,
+    "p": 7,
+    "fe": 0.32,
+    "mn": 1
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 29.118,
+    "f14_0": 0.728,
+    "f16_0": 19.69,
+    "f18_0": 8.7,
+    "fams": 41.655,
+    "f16_1cn7": 4.705,
+    "f18_1cn9": 36.95,
+    "fapu": 28.04,
+    "fapun3": 1.705,
+    "f18_3cn3": 1.705,
+    "fapun6": 26.335,
+    "f18_2cn6": 26.335
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 107
+  },
+  "extra": {}
+}

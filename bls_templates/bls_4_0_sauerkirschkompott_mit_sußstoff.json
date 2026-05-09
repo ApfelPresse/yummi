@@ -1,0 +1,113 @@
+{
+  "name": "Sauerkirschkompott mit Süßstoff",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 57,
+    "water": 87,
+    "protein": 0.746,
+    "fat": 0.414,
+    "carbs": 11.381,
+    "fiber": 0.9,
+    "alcohol": null,
+    "sugarAlcohols": 0.828
+  },
+  "vitamins": {
+    "vita": 65,
+    "vitaa": 33,
+    "cartb": 275,
+    "carotpaxb": 234,
+    "vite": 0.108,
+    "tocpha": 0.108,
+    "tocphg": 0.017,
+    "toctra": 0.017,
+    "vitk": 6,
+    "vitk1": 6,
+    "thia": 0.033,
+    "ribf": 0.044,
+    "niaeq": 0.348,
+    "nia": 0.281,
+    "pantac": 0.122,
+    "vitb6": 33,
+    "fol": 29.1,
+    "folfd": 29.1,
+    "vitc": 7.153
+  },
+  "minerals": {
+    "nacl": 0.025,
+    "na": 10,
+    "cld": 18,
+    "k": 100,
+    "ca": 9,
+    "mg": 6.8,
+    "p": 16,
+    "s": 0.6,
+    "fe": 0.6312,
+    "zn": 0.075,
+    "id": 1,
+    "cu": 61.7,
+    "mn": 50.9,
+    "fd": 2,
+    "cr": 2,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 11.381,
+    "mnsac": 8.837,
+    "glus": 5.447,
+    "frus": 3.39,
+    "disac": 1.716,
+    "sucs": 1.575,
+    "mals": 0.141,
+    "sugar": 10.553
+  },
+  "fibers": {
+    "fibt": 0.9
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.828,
+    "sortl": 0.828
+  },
+  "fattyAcids": {
+    "fasat": 0.092,
+    "f14_0": 0.0027,
+    "f16_0": 0.066,
+    "f18_0": 0.023,
+    "fams": 0.113,
+    "f16_1cn7": 0.0013,
+    "f18_1cn9": 0.112,
+    "fapu": 0.123,
+    "fapun3": 0.06,
+    "f18_3cn3": 0.06,
+    "fapun6": 0.063,
+    "f18_2cn6": 0.063
+  },
+  "aminoAcids": {
+    "aae9": 0.163,
+    "ala": 0.026,
+    "arg": 0.018,
+    "asp": 0.229,
+    "cyste": 0.011,
+    "glu": 0.065,
+    "gly": 0.025,
+    "his": 0.012,
+    "ile": 0.018,
+    "leu": 0.032,
+    "lys": 0.026,
+    "met": 0.004,
+    "phe": 0.021,
+    "pro": 0.03,
+    "ser": 0.027,
+    "thr": 0.023,
+    "trp": 0.004,
+    "tyr": 0.018,
+    "val": 0.023
+  },
+  "otherNutrients": {
+    "nt": 0.119
+  },
+  "extra": {}
+}

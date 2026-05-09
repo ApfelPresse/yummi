@@ -1,0 +1,101 @@
+{
+  "name": "Feige roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 52,
+    "water": 80.2,
+    "protein": 1.3,
+    "fat": 0.5,
+    "carbs": 9.6,
+    "fiber": 2.02,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 4,
+    "cartb": 48,
+    "vitk": 4.7,
+    "vitk1": 4.7,
+    "thia": 0.046,
+    "ribf": 0.05,
+    "niaeq": 0.677,
+    "nia": 0.427,
+    "pantac": 0.3,
+    "vitb6": 110,
+    "fol": 6.7,
+    "folfd": 6.7,
+    "vitc": 2.74
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 18,
+    "k": 250,
+    "ca": 54,
+    "mg": 20,
+    "p": 32,
+    "fe": 0.6,
+    "zn": 0.36,
+    "id": 1.1,
+    "cu": 85,
+    "mn": 43,
+    "fd": 20
+  },
+  "carbohydrates": {
+    "cho": 9.6,
+    "mnsac": 9.3,
+    "glus": 5.2,
+    "frus": 4.1,
+    "disac": 0.3,
+    "sucs": 0.3,
+    "sugar": 9.6
+  },
+  "fibers": {
+    "fibt": 2.02,
+    "fibhmw": 2.02,
+    "fibins": 1.39,
+    "fibsol": 0.63
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.089,
+    "f14_0": 0.0032,
+    "f16_0": 0.068,
+    "f18_0": 0.018,
+    "fams": 0.098,
+    "f18_1cn9": 0.098,
+    "fapu": 0.214,
+    "fapun6": 0.214,
+    "f18_2cn6": 0.214
+  },
+  "aminoAcids": {
+    "aae9": 0.318,
+    "ala": 0.055,
+    "arg": 0.074,
+    "asp": 0.164,
+    "cyste": 0.016,
+    "glu": 0.203,
+    "gly": 0.057,
+    "his": 0.02,
+    "ile": 0.04,
+    "leu": 0.068,
+    "lys": 0.032,
+    "met": 0.009,
+    "phe": 0.043,
+    "pro": 0.113,
+    "ser": 0.055,
+    "thr": 0.04,
+    "trp": 0.015,
+    "tyr": 0.026,
+    "val": 0.051
+  },
+  "otherNutrients": {
+    "nt": 0.208
+  },
+  "extra": {}
+}

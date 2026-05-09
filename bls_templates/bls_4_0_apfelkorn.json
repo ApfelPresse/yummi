@@ -1,0 +1,87 @@
+{
+  "name": "Apfelkorn",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 127,
+    "water": 77.3,
+    "protein": 0.06,
+    "fat": null,
+    "carbs": 6.537,
+    "fiber": 0.191,
+    "alcohol": 14.28,
+    "sugarAlcohols": 0.618
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "cartb": 9,
+    "carotpaxb": 27,
+    "vite": 0.049,
+    "tocpha": 0.049,
+    "vitk": 0.1,
+    "vitk1": 0.1,
+    "thia": 0.005,
+    "ribf": 0.003,
+    "niaeq": 0.14,
+    "nia": 0.14,
+    "pantac": 0.03,
+    "vitb6": 6,
+    "biot": 0.6
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "k": 57,
+    "ca": 4,
+    "mg": 3,
+    "p": 6,
+    "fe": 0.1,
+    "zn": 0.05,
+    "id": 2,
+    "cu": 20,
+    "mn": 30,
+    "cr": 1,
+    "mo": 0.4
+  },
+  "carbohydrates": {
+    "cho": 6.537,
+    "mnsac": 5.218,
+    "glus": 1.368,
+    "frus": 3.85,
+    "disac": 0.701,
+    "sucs": 0.701,
+    "sugar": 5.919
+  },
+  "fibers": {
+    "fibt": 0.191
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.618,
+    "sortl": 0.618
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.013,
+    "ala": 0.002,
+    "arg": 0.001,
+    "asp": 0.017,
+    "glu": 0.006,
+    "his": 0.001,
+    "ile": 0.001,
+    "leu": 0.003,
+    "lys": 0.003,
+    "phe": 0.002,
+    "pro": 0.001,
+    "ser": 0.002,
+    "thr": 0.001,
+    "val": 0.002
+  },
+  "otherNutrients": {
+    "nt": 0.01
+  },
+  "extra": {}
+}

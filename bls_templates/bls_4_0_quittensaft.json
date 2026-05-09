@@ -1,0 +1,106 @@
+{
+  "name": "Quittensaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 38,
+    "water": 89.5,
+    "protein": 0.378,
+    "fat": 0.4,
+    "carbs": 7.3,
+    "fiber": 0.592,
+    "alcohol": null,
+    "sugarAlcohols": 0.5
+  },
+  "vitamins": {
+    "vita": 6,
+    "vitaa": 3,
+    "cartb": 32,
+    "carotpaxb": 5,
+    "vite": 0.172,
+    "tocpha": 0.172,
+    "tocphb": 0.003,
+    "tocphg": 0.006,
+    "tocphd": 0.002,
+    "vitk": 5,
+    "vitk1": 5,
+    "thia": 0.024,
+    "ribf": 0.024,
+    "niaeq": 0.16,
+    "nia": 0.16,
+    "pantac": 0.1,
+    "vitb6": 46.09,
+    "biot": 0.9,
+    "fol": 3,
+    "folfd": 3,
+    "vitc": 7.8
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 1.7,
+    "k": 156,
+    "ca": 10.3,
+    "mg": 8,
+    "p": 10.32,
+    "fe": 0.57,
+    "zn": 0.2,
+    "id": 2,
+    "cu": 91,
+    "mn": 20,
+    "fd": 6,
+    "cr": 1,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 7.3,
+    "mnsac": 5.703,
+    "glus": 1.014,
+    "frus": 4.689,
+    "disac": 0.576,
+    "sucs": 0.576,
+    "sugar": 6.279,
+    "starch": 0.54
+  },
+  "fibers": {
+    "fibt": 0.592,
+    "fibhmw": 0.592,
+    "fibins": 0.451,
+    "fibsol": 0.141
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.5,
+    "sortl": 0.5
+  },
+  "fattyAcids": {
+    "fasat": 0.03,
+    "f16_0": 0.023,
+    "f18_0": 0.0067,
+    "fams": 0.12,
+    "f18_1cn9": 0.12,
+    "fapu": 0.163,
+    "fapun6": 0.163,
+    "f18_2cn6": 0.163
+  },
+  "aminoAcids": {
+    "aae9": 0.04,
+    "ala": 0.01,
+    "arg": 0.007,
+    "asp": 0.195,
+    "cyste": 0.003,
+    "glu": 0.02,
+    "leu": 0.012,
+    "lys": 0.011,
+    "pro": 0.007,
+    "ser": 0.012,
+    "thr": 0.009,
+    "val": 0.008
+  },
+  "otherNutrients": {
+    "nt": 0.06
+  },
+  "extra": {}
+}

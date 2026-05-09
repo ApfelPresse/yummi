@@ -1,0 +1,113 @@
+{
+  "name": "Batate/Süßkartoffel, frittiert, gesalzen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 300,
+    "water": 34.5,
+    "protein": 2.833,
+    "fat": 11.525,
+    "carbs": 43.8,
+    "fiber": 5.458,
+    "alcohol": null,
+    "sugarAlcohols": 0.47
+  },
+  "vitamins": {
+    "vita": 1830,
+    "vitaa": 915,
+    "cartb": 10974,
+    "carotpaxb": 10,
+    "vite": 0.87,
+    "tocpha": 0.87,
+    "tocphb": 0.001,
+    "tocphg": 0.768,
+    "tocphd": 0.026,
+    "vitk": 15,
+    "vitk1": 15,
+    "thia": 0.089,
+    "ribf": 0.083,
+    "niaeq": 1.808,
+    "nia": 0.991,
+    "pantac": 1.299,
+    "vitb6": 446,
+    "biot": 6,
+    "fol": 65,
+    "folfd": 65,
+    "vitc": 41.72
+  },
+  "minerals": {
+    "nacl": 0.772,
+    "na": 309,
+    "cld": 582,
+    "k": 627,
+    "ca": 39.5,
+    "mg": 31.9,
+    "p": 68.4,
+    "fe": 1.166,
+    "zn": 0.405,
+    "id": 4,
+    "cu": 230,
+    "mn": 418
+  },
+  "carbohydrates": {
+    "cho": 43.8,
+    "mnsac": 2.12,
+    "glus": 1.86,
+    "frus": 0.26,
+    "disac": 7.4,
+    "sucs": 5.521,
+    "mals": 1.9,
+    "sugar": 9.5,
+    "starch": 33.828
+  },
+  "fibers": {
+    "fibt": 5.458
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.47,
+    "mantl": 0.47
+  },
+  "fattyAcids": {
+    "fasat": 0.74,
+    "f16_0": 0.45,
+    "f17_0": 0.01,
+    "f18_0": 0.18,
+    "f20_0": 0.06,
+    "f22_0": 0.03,
+    "f24_0": 0.01,
+    "fams": 5.91,
+    "f16_1cn7": 0.02,
+    "f18_1cn9": 5.73,
+    "f20_1cn9": 0.13,
+    "f22_1cn9": 0.03,
+    "fapu": 2.8,
+    "fapun3": 0.87,
+    "f18_3cn3": 0.87,
+    "fapun6": 1.93,
+    "f18_2cn6": 1.93,
+    "fax": 0.32
+  },
+  "aminoAcids": {
+    "aae9": 0.973,
+    "arg": 0.113,
+    "cyste": 0.043,
+    "his": 0.05,
+    "ile": 0.118,
+    "leu": 0.146,
+    "lys": 0.115,
+    "met": 0.049,
+    "phe": 0.137,
+    "thr": 0.118,
+    "trp": 0.049,
+    "tyr": 0.123,
+    "val": 0.191
+  },
+  "otherNutrients": {
+    "chorl": 0.215,
+    "nt": 0.454
+  },
+  "extra": {}
+}

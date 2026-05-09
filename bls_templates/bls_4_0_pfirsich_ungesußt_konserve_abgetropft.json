@@ -1,0 +1,109 @@
+{
+  "name": "Pfirsich ungesüßt, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 19,
+    "water": 93.7,
+    "protein": 0.5,
+    "fat": 0.094,
+    "carbs": 3.46,
+    "fiber": 1.1,
+    "alcohol": null,
+    "sugarAlcohols": 0.44
+  },
+  "vitamins": {
+    "vita": 15,
+    "vitaa": 7,
+    "cartb": 51,
+    "carotpaxb": 77,
+    "vite": 0.36,
+    "tocpha": 0.36,
+    "tocphg": 0.009,
+    "toctra": 0.017,
+    "vitk": 3.3,
+    "vitk1": 3.3,
+    "thia": 0.005,
+    "ribf": 0.02,
+    "niaeq": 0.509,
+    "nia": 0.509,
+    "pantac": 0.046,
+    "vitb6": 8,
+    "biot": 1,
+    "fol": 1,
+    "folfd": 1,
+    "vitc": 1.246
+  },
+  "minerals": {
+    "nacl": 0.0035,
+    "na": 1.4,
+    "cld": 3.8,
+    "k": 103,
+    "ca": 9,
+    "mg": 7,
+    "p": 14,
+    "s": 1.1,
+    "fe": 0.191,
+    "zn": 0.11,
+    "id": 1,
+    "cu": 41,
+    "mn": 50,
+    "fd": 11,
+    "mo": 0.03
+  },
+  "carbohydrates": {
+    "cho": 3.46,
+    "mnsac": 2.01,
+    "glus": 0.99,
+    "frus": 1.02,
+    "disac": 1.014,
+    "sucs": 1.014,
+    "sugar": 3.02
+  },
+  "fibers": {
+    "fibt": 1.1,
+    "fibhmw": 1.1,
+    "fibins": 0.6,
+    "fibsol": 0.6
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.44,
+    "mantl": 0.07,
+    "sortl": 0.37
+  },
+  "fattyAcids": {
+    "fasat": 0.009,
+    "f16_0": 0.0076,
+    "f18_0": 0.001,
+    "fams": 0.029,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.028,
+    "fapu": 0.038,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.037,
+    "f18_2cn6": 0.037
+  },
+  "aminoAcids": {
+    "aae9": 0.07,
+    "ala": 0.019,
+    "arg": 0.012,
+    "asp": 0.276,
+    "cyste": 0.003,
+    "glu": 0.039,
+    "gly": 0.008,
+    "leu": 0.019,
+    "lys": 0.019,
+    "pro": 0.003,
+    "ser": 0.024,
+    "thr": 0.016,
+    "val": 0.016
+  },
+  "otherNutrients": {
+    "nt": 0.126
+  },
+  "extra": {}
+}

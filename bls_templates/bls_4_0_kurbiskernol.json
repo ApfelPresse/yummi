@@ -1,0 +1,56 @@
+{
+  "name": "Kürbiskernöl",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk": 112,
+    "vitk1": 112
+  },
+  "minerals": {
+    "nacl": 0.0011,
+    "na": 0.4432,
+    "k": 1.5438,
+    "ca": 0.8301,
+    "mg": 2.0965,
+    "fe": 0.1522,
+    "zn": 0.0053,
+    "cu": 41,
+    "mn": 11,
+    "cr": 1.6,
+    "mo": 8.7
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 16.6,
+    "f16_0": 11.17,
+    "f18_0": 5.43,
+    "fams": 28.01,
+    "f16_1cn7": 0.48,
+    "f18_1cn9": 27.53,
+    "fapu": 49.66,
+    "fapun3": 0.48,
+    "f18_3cn3": 0.48,
+    "fapun6": 49.18,
+    "f18_2cn6": 49.18
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 2.6
+  },
+  "extra": {}
+}

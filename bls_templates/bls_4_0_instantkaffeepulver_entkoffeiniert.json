@@ -1,0 +1,67 @@
+{
+  "name": "Instantkaffeepulver entkoffeiniert",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 150,
+    "water": 4.2,
+    "protein": 19.5,
+    "fat": 1.2,
+    "carbs": 4.1,
+    "fiber": 22.3,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk": 1.9,
+    "vitk1": 1.9,
+    "thia": 0.008,
+    "ribf": 0.092,
+    "niaeq": 35.1,
+    "nia": 25.1,
+    "pantac": 0.248,
+    "vitb6": 30
+  },
+  "minerals": {
+    "nacl": 0.12,
+    "na": 48,
+    "cld": 65,
+    "k": 3540,
+    "ca": 156,
+    "mg": 368,
+    "p": 286,
+    "fe": 3.8,
+    "zn": 0.7,
+    "cu": 102,
+    "mn": 1220,
+    "fd": 130,
+    "cr": 23
+  },
+  "carbohydrates": {
+    "cho": 4.1,
+    "starch": 4.1
+  },
+  "fibers": {
+    "fibt": 22.3,
+    "fibsol": 22.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 2,
+    "asp": 0.7,
+    "glu": 2.8,
+    "gly": 0.6,
+    "leu": 0.6,
+    "phe": 0.8,
+    "pro": 0.6,
+    "trp": 0.6
+  },
+  "otherNutrients": {
+    "nt": 1.792
+  },
+  "extra": {}
+}

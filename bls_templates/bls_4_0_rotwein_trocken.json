@@ -1,0 +1,60 @@
+{
+  "name": "Rotwein trocken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 70,
+    "water": 87.8,
+    "protein": 0.22,
+    "fat": null,
+    "carbs": 0.7,
+    "fiber": null,
+    "alcohol": 9.2,
+    "sugarAlcohols": 0.028
+  },
+  "vitamins": {
+    "vita": 1,
+    "ribf": 0.0226,
+    "niaeq": 0.48,
+    "nia": 0.48,
+    "pantac": 0.44,
+    "fol": 1.4,
+    "folfd": 1.4
+  },
+  "minerals": {
+    "nacl": 0.004,
+    "na": 1.6,
+    "cld": 9.9,
+    "k": 101.5,
+    "ca": 6.2,
+    "mg": 8.2,
+    "p": 19.4,
+    "fe": 0.25,
+    "zn": 0.08,
+    "cu": 14,
+    "mn": 86.5,
+    "fd": 6,
+    "cr": 1.4
+  },
+  "carbohydrates": {
+    "cho": 0.7,
+    "mnsac": 0.67,
+    "glus": 0.5,
+    "frus": 0.17,
+    "sugar": 0.67
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.028,
+    "sortl": 0.028
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.035
+  },
+  "extra": {}
+}

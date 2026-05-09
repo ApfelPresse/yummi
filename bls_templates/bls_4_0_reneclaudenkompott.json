@@ -1,0 +1,97 @@
+{
+  "name": "Reneclaudenkompott",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 75,
+    "water": 78.5,
+    "protein": 0.6,
+    "fat": null,
+    "carbs": 17.5,
+    "fiber": 1.618,
+    "alcohol": null,
+    "sugarAlcohols": 1.877
+  },
+  "vitamins": {
+    "vita": 21,
+    "vitaa": 11,
+    "cartb": 127,
+    "vite": 0.204,
+    "tocpha": 0.204,
+    "tocphg": 0.014,
+    "toctra": 0.014,
+    "vitk": 5,
+    "vitk1": 5,
+    "thia": 0.01,
+    "ribf": 0.01,
+    "niaeq": 0.4,
+    "nia": 0.3,
+    "pantac": 0.14,
+    "vitb6": 30,
+    "fol": 6,
+    "folfd": 6,
+    "vitc": 3
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 1,
+    "k": 193,
+    "ca": 12,
+    "mg": 7,
+    "p": 17,
+    "s": 0.4,
+    "fe": 0.42,
+    "zn": 0.1,
+    "id": 0.13,
+    "cu": 60,
+    "mn": 60,
+    "fd": 1,
+    "cr": 1,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 17.5,
+    "mnsac": 5.2,
+    "glus": 3.3,
+    "frus": 1.9,
+    "disac": 10.4,
+    "sucs": 10.4,
+    "sugar": 15.6
+  },
+  "fibers": {
+    "fibt": 1.618
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.877,
+    "sortl": 1.877
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.08,
+    "ala": 0.02,
+    "arg": 0.01,
+    "asp": 0.19,
+    "cyste": 0.01,
+    "glu": 0.03,
+    "gly": 0.01,
+    "his": 0.01,
+    "ile": 0.01,
+    "leu": 0.02,
+    "lys": 0.01,
+    "phe": 0.01,
+    "pro": 0.03,
+    "ser": 0.01,
+    "thr": 0.01,
+    "trp": 0.004,
+    "tyr": 0.01,
+    "val": 0.01
+  },
+  "otherNutrients": {
+    "nt": 0.09
+  },
+  "extra": {}
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Stielmus/Rübstiel, gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 27,
+    "water": 88.9,
+    "protein": 2.2,
+    "fat": 0.4,
+    "carbs": 1.21,
+    "fiber": 4.8,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 623,
+    "vitaa": 311,
+    "cartb": 3725,
+    "carotpaxb": 23,
+    "vite": 4.27,
+    "tocpha": 4.27,
+    "tocphg": 0.24,
+    "vitk": 193,
+    "vitk1": 193,
+    "thia": 0.09,
+    "ribf": 0.1,
+    "niaeq": 1.6,
+    "nia": 0.9,
+    "pantac": 0.51,
+    "vitb6": 353,
+    "biot": 1.7,
+    "fol": 203,
+    "folfd": 203,
+    "vitc": 72
+  },
+  "minerals": {
+    "nacl": 0.15,
+    "na": 60,
+    "k": 442,
+    "ca": 284,
+    "mg": 46,
+    "p": 63,
+    "fe": 1.6,
+    "zn": 0.28,
+    "cu": 330,
+    "mn": 696,
+    "cr": 3
+  },
+  "carbohydrates": {
+    "cho": 1.21,
+    "mnsac": 1.21,
+    "glus": 0.78,
+    "frus": 0.43,
+    "sugar": 1.21
+  },
+  "fibers": {
+    "fibt": 4.8,
+    "fibhmw": 4.8,
+    "fibins": 4.2,
+    "fibsol": 0.6
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.1,
+    "f8_0": 0.001,
+    "f10_0": 0.003,
+    "f12_0": 0.003,
+    "f14_0": 0.004,
+    "f16_0": 0.081,
+    "f18_0": 0.01,
+    "fax": 0.207
+  },
+  "aminoAcids": {
+    "aae9": 1.021,
+    "ala": 0.154,
+    "arg": 0.14,
+    "asp": 0.236,
+    "cyste": 0.025,
+    "glu": 0.304,
+    "gly": 0.13,
+    "his": 0.054,
+    "ile": 0.116,
+    "leu": 0.204,
+    "lys": 0.146,
+    "met": 0.051,
+    "phe": 0.137,
+    "pro": 0.106,
+    "ser": 0.091,
+    "thr": 0.122,
+    "trp": 0.039,
+    "tyr": 0.087,
+    "val": 0.152
+  },
+  "otherNutrients": {
+    "nt": 0.3
+  },
+  "extra": {}
+}

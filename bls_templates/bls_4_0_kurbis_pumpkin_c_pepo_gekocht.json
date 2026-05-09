@@ -1,0 +1,101 @@
+{
+  "name": "Kürbis Pumpkin (C. pepo) gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 38,
+    "water": 96.25,
+    "protein": 1.151,
+    "fat": 0.136,
+    "carbs": 6.08,
+    "fiber": 3.709,
+    "alcohol": null,
+    "sugarAlcohols": 0.008
+  },
+  "vitamins": {
+    "vita": 103,
+    "vitaa": 51,
+    "cartb": 609.831,
+    "carotpaxb": 15,
+    "vite": 1.163,
+    "tocpha": 1.163,
+    "vitk": 4,
+    "vitk1": 4,
+    "thia": 0.036,
+    "ribf": 0.049,
+    "niaeq": 0.645,
+    "nia": 0.378,
+    "pantac": 0.326,
+    "vitb6": 83,
+    "biot": 0.2,
+    "fol": 33,
+    "folfd": 33,
+    "vitc": 9.07
+  },
+  "minerals": {
+    "nacl": 0.0019,
+    "na": 0.777,
+    "cld": 19,
+    "k": 77,
+    "ca": 10.632,
+    "mg": 9.2,
+    "p": 46,
+    "fe": 0.106,
+    "zn": 0.129,
+    "id": 1.4,
+    "cu": 88,
+    "mn": 69
+  },
+  "carbohydrates": {
+    "cho": 6.08,
+    "mnsac": 4.22,
+    "glus": 2.58,
+    "frus": 1.64,
+    "disac": 1.115,
+    "sucs": 1.115,
+    "sugar": 5.34,
+    "starch": 0.733
+  },
+  "fibers": {
+    "fibt": 3.709,
+    "fibhmw": 3.709,
+    "fibins": 2.595,
+    "fibsol": 1.114
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.008,
+    "xyltl": 0.008
+  },
+  "fattyAcids": {
+    "fasat": 0.036,
+    "f16_0": 0.036,
+    "fams": 0.002,
+    "f18_1cn9": 0.002,
+    "fapu": 0.067,
+    "fapun3": 0.043,
+    "f18_3cn3": 0.043,
+    "fapun6": 0.024,
+    "f18_2cn6": 0.024
+  },
+  "aminoAcids": {
+    "aae9": 0.302,
+    "arg": 0.041,
+    "his": 0.018,
+    "ile": 0.042,
+    "leu": 0.061,
+    "lys": 0.055,
+    "met": 0.01,
+    "phe": 0.03,
+    "thr": 0.027,
+    "trp": 0.016,
+    "tyr": 0.016,
+    "val": 0.043
+  },
+  "otherNutrients": {
+    "nt": 0.184
+  },
+  "extra": {}
+}

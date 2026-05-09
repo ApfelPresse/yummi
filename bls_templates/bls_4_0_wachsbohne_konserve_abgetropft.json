@@ -1,0 +1,101 @@
+{
+  "name": "Wachsbohne Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 17,
+    "water": 93.1,
+    "protein": 1.4,
+    "fat": 0.1,
+    "carbs": 2,
+    "fiber": 1.406,
+    "alcohol": null,
+    "sugarAlcohols": 0.16
+  },
+  "vitamins": {
+    "vita": 11,
+    "vitaa": 5,
+    "cartb": 32.5,
+    "carotpaxb": 65,
+    "vite": 0.388,
+    "tocpha": 0.388,
+    "tocphg": 0.163,
+    "tocphd": 0.0065,
+    "vitk": 28,
+    "vitk1": 28,
+    "thia": 0.0206,
+    "ribf": 0.048,
+    "niaeq": 0.563,
+    "nia": 0.246,
+    "pantac": 0.03,
+    "vitb6": 15.4,
+    "fol": 16.5,
+    "folfd": 16.5,
+    "vitc": 3.8
+  },
+  "minerals": {
+    "nacl": 0.5285,
+    "na": 211.4,
+    "cld": 443,
+    "k": 58,
+    "ca": 33.5,
+    "mg": 6,
+    "p": 21.515,
+    "s": 1,
+    "fe": 0.48,
+    "zn": 0.16,
+    "cu": 40,
+    "mn": 170,
+    "mo": 12
+  },
+  "carbohydrates": {
+    "cho": 2,
+    "mnsac": 1.26,
+    "glus": 0.55,
+    "frus": 0.71,
+    "disac": 0.066,
+    "sucs": 0.066,
+    "sugar": 1.33,
+    "starch": 0.5
+  },
+  "fibers": {
+    "fibt": 1.406,
+    "fibhmw": 1.406,
+    "fibins": 1.089,
+    "fibsol": 0.318
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.16,
+    "mantl": 0.06,
+    "sortl": 0.1
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.456,
+    "ala": 0.058,
+    "arg": 0.054,
+    "asp": 0.234,
+    "cyste": 0.006,
+    "glu": 0.152,
+    "gly": 0.044,
+    "his": 0.024,
+    "ile": 0.057,
+    "leu": 0.082,
+    "lys": 0.078,
+    "met": 0.019,
+    "phe": 0.04,
+    "pro": 0.042,
+    "ser": 0.115,
+    "thr": 0.064,
+    "trp": 0.019,
+    "tyr": 0.032,
+    "val": 0.073
+  },
+  "otherNutrients": {
+    "nt": 0.234
+  },
+  "extra": {}
+}

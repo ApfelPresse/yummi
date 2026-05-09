@@ -1,0 +1,108 @@
+{
+  "name": "Weingelee mit Ananas",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 79,
+    "water": 80.8,
+    "protein": 1.2,
+    "fat": null,
+    "carbs": 15.75,
+    "fiber": 0.42,
+    "alcohol": 1.13,
+    "sugarAlcohols": 0.003
+  },
+  "vitamins": {
+    "vita": 1,
+    "vitaa": 1,
+    "cartb": 8,
+    "carotpaxb": 1,
+    "vite": 0.063,
+    "tocpha": 0.063,
+    "tocphg": 0.0065,
+    "thia": 0.03,
+    "ribf": 0.04,
+    "niaeq": 0.09,
+    "nia": 0.06,
+    "pantac": 0.2,
+    "vitb6": 31,
+    "biot": 0.15,
+    "fol": 4.2,
+    "folfd": 4.2,
+    "vitc": 9.2
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 2,
+    "k": 65,
+    "ca": 10,
+    "mg": 7,
+    "p": 10,
+    "s": 10,
+    "fe": 0.1,
+    "zn": 0.1,
+    "cu": 21,
+    "mn": 510,
+    "fd": 1,
+    "cr": 2,
+    "mo": 0.9
+  },
+  "carbohydrates": {
+    "cho": 15.75,
+    "mnsac": 3.3,
+    "glus": 1.46,
+    "frus": 1.84,
+    "disac": 12.45,
+    "sucs": 12.45,
+    "sugar": 15.75
+  },
+  "fibers": {
+    "fibt": 0.42
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.003,
+    "sortl": 0.003
+  },
+  "fattyAcids": {
+    "fasat": 0.006,
+    "f16_0": 0.005,
+    "f18_0": 0.0005,
+    "fams": 0.002,
+    "f16_1cn7": 0.0002,
+    "f18_1cn9": 0.002,
+    "fapu": 0.014,
+    "fapun3": 0.004,
+    "f18_3cn3": 0.004,
+    "fapun6": 0.01,
+    "f18_2cn6": 0.01
+  },
+  "aminoAcids": {
+    "aae9": 0.217,
+    "ala": 0.108,
+    "arg": 0.084,
+    "asp": 0.085,
+    "cyste": 0.005,
+    "glu": 0.124,
+    "gly": 0.268,
+    "his": 0.008,
+    "ile": 0.022,
+    "leu": 0.037,
+    "lys": 0.053,
+    "met": 0.01,
+    "phe": 0.027,
+    "pro": 0.159,
+    "ser": 0.046,
+    "thr": 0.024,
+    "trp": 0.002,
+    "tyr": 0.008,
+    "val": 0.034
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

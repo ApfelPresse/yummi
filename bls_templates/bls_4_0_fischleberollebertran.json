@@ -1,0 +1,71 @@
+{
+  "name": "Fischleberöl/Lebertran",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 17667,
+    "vitaa": 17667,
+    "retol": 17667,
+    "vitd": 111,
+    "chocal": 111,
+    "vite": 28.8333,
+    "tocpha": 28.8333,
+    "vitk": 1.1,
+    "vitk1": 1.1
+  },
+  "minerals": {
+    "na": 0.01,
+    "cld": 100,
+    "ca": 0.58,
+    "fe": 0.037,
+    "zn": 0.03,
+    "id": 400,
+    "cu": 4,
+    "mn": 1
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 19.064,
+    "f14_0": 3.454,
+    "f16_0": 12.33,
+    "f18_0": 2.556,
+    "f20_0": 0.191,
+    "f22_0": 0.283,
+    "f24_0": 0.25,
+    "fams": 39.099,
+    "f14_1cn5": 0.151,
+    "f16_1cn7": 9.532,
+    "f18_1cn9": 29.416,
+    "fapu": 33.612,
+    "fapun3": 29.219,
+    "f18_3cn3": 2.789,
+    "f18_4cn3": 2.566,
+    "f20_5cn3": 11.091,
+    "f22_5cn3": 0.825,
+    "f22_6cn3": 11.948,
+    "fapun6": 4.393,
+    "f18_2cn6": 3.723,
+    "f20_2cn6": 0.67,
+    "fax": 3.826
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 570
+  },
+  "extra": {}
+}

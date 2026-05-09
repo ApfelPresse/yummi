@@ -1,0 +1,113 @@
+{
+  "name": "Mirabelle mit Süßungsmitteln, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 35,
+    "water": 92,
+    "protein": 0.594,
+    "fat": 0.17,
+    "carbs": 7.266,
+    "fiber": 1.1,
+    "alcohol": null,
+    "sugarAlcohols": 1.13
+  },
+  "vitamins": {
+    "vita": 25,
+    "vitaa": 12,
+    "cartb": 109,
+    "carotpaxb": 76,
+    "vite": 0.24,
+    "tocpha": 0.24,
+    "tocphg": 0.017,
+    "toctra": 0.017,
+    "vitk": 6,
+    "vitk1": 6,
+    "thia": 0.013,
+    "ribf": 0.016,
+    "niaeq": 0.249,
+    "nia": 0.199,
+    "pantac": 0.059,
+    "vitb6": 11,
+    "vitc": 0.673
+  },
+  "minerals": {
+    "nacl": 0.02,
+    "na": 8,
+    "cld": 3.5,
+    "k": 90,
+    "ca": 13,
+    "mg": 11,
+    "p": 22,
+    "s": 1.1,
+    "fe": 0.35,
+    "zn": 0.07,
+    "id": 1,
+    "cu": 59,
+    "mn": 70,
+    "fd": 1,
+    "cr": 1,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 7.266,
+    "mnsac": 4.07,
+    "glus": 2.208,
+    "frus": 1.862,
+    "disac": 2.066,
+    "sucs": 1.992,
+    "mals": 0.074,
+    "sugar": 6.136
+  },
+  "fibers": {
+    "fibt": 1.1,
+    "fibhmw": 1.1,
+    "fibins": 0.6,
+    "fibsol": 0.6
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.13,
+    "sortl": 1.13
+  },
+  "fattyAcids": {
+    "fasat": 0.023,
+    "f16_0": 0.018,
+    "f18_0": 0.005,
+    "fams": 0.051,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.05,
+    "fapu": 0.077,
+    "fapun3": 0.031,
+    "f18_3cn3": 0.031,
+    "fapun6": 0.046,
+    "f18_2cn6": 0.046
+  },
+  "aminoAcids": {
+    "aae9": 0.092,
+    "ala": 0.019,
+    "arg": 0.011,
+    "asp": 0.186,
+    "cyste": 0.004,
+    "glu": 0.028,
+    "gly": 0.014,
+    "his": 0.004,
+    "ile": 0.01,
+    "leu": 0.019,
+    "lys": 0.012,
+    "met": 0.003,
+    "phe": 0.015,
+    "pro": 0.031,
+    "ser": 0.016,
+    "thr": 0.012,
+    "trp": 0.003,
+    "tyr": 0.008,
+    "val": 0.014
+  },
+  "otherNutrients": {
+    "nt": 0.095
+  },
+  "extra": {}
+}

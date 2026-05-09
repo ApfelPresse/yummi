@@ -1,0 +1,76 @@
+{
+  "name": "Kaffeeersatz (Getränk) mit Alkohol",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 20,
+    "water": 96,
+    "protein": 0.07,
+    "fat": 0.002,
+    "carbs": 0.904,
+    "fiber": 0.507,
+    "alcohol": 2.11,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "niaeq": 0.2,
+    "nia": 0.2,
+    "vitb6": 10,
+    "fol": 0.4,
+    "folfd": 0.4
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 2.4,
+    "k": 15.4,
+    "ca": 5.7,
+    "mg": 6,
+    "p": 6,
+    "s": 1.7,
+    "fe": 0.02,
+    "zn": 0.0095,
+    "id": 1,
+    "cu": 13,
+    "mn": 10,
+    "mo": 0.04
+  },
+  "carbohydrates": {
+    "cho": 0.904,
+    "mnsac": 0.044,
+    "glus": 0.009,
+    "frus": 0.035,
+    "disac": 0.089,
+    "sucs": 0.009,
+    "mals": 0.08,
+    "sugar": 0.133,
+    "starch": 0.771
+  },
+  "fibers": {
+    "fibt": 0.507
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.024,
+    "arg": 0.003,
+    "cyste": 0.001,
+    "his": 0.001,
+    "ile": 0.003,
+    "leu": 0.005,
+    "lys": 0.002,
+    "met": 0.001,
+    "phe": 0.004,
+    "thr": 0.003,
+    "trp": 0.001,
+    "tyr": 0.003,
+    "val": 0.004
+  },
+  "otherNutrients": {
+    "nt": 0.011
+  },
+  "extra": {}
+}

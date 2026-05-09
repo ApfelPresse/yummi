@@ -1,0 +1,54 @@
+{
+  "name": "Kaffee (Getränk) entkoffeiniert",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": null,
+    "water": 98.2,
+    "protein": 0.12,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.02,
+    "tocpha": 0.02,
+    "tocphb": 0.005,
+    "vitk": 0.061,
+    "vitk1": 0.05,
+    "vitk2": 0.011,
+    "niaeq": 0.697,
+    "nia": 0.697,
+    "pantac": 0.086,
+    "fol": 0.29,
+    "folfd": 0.29
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 8.2,
+    "k": 109,
+    "ca": 7,
+    "mg": 8.3,
+    "p": 6.2,
+    "s": 6,
+    "fe": 0.02,
+    "zn": 0.01,
+    "cu": 20.5,
+    "mn": 68.5
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.01
+  },
+  "extra": {}
+}

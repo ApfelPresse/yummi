@@ -1,0 +1,79 @@
+{
+  "name": "Karambole/Sternfrucht, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 27,
+    "water": 91.2,
+    "protein": 1.2,
+    "fat": 0.5,
+    "carbs": 3.5,
+    "fiber": 1.9,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 6.31,
+    "vitaa": 3.155,
+    "cartb": 37.857,
+    "thia": 0.05,
+    "ribf": 0.03,
+    "niaeq": 0.467,
+    "nia": 0.4,
+    "pantac": 0.39,
+    "vitc": 33.533
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 184,
+    "ca": 6,
+    "mg": 10,
+    "p": 16,
+    "fe": 0.9
+  },
+  "carbohydrates": {
+    "cho": 3.5,
+    "mnsac": 2.8,
+    "glus": 1.6,
+    "frus": 1.2,
+    "disac": 0.7,
+    "sucs": 0.7,
+    "sugar": 3.5
+  },
+  "fibers": {
+    "fibt": 1.9,
+    "fibhmw": 1.9,
+    "fibins": 1.573,
+    "fibsol": 0.327
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.288,
+    "ala": 0.053,
+    "arg": 0.027,
+    "asp": 0.329,
+    "cyste": 0.004,
+    "glu": 0.116,
+    "his": 0.022,
+    "ile": 0.027,
+    "leu": 0.062,
+    "lys": 0.058,
+    "met": 0.004,
+    "phe": 0.031,
+    "pro": 0.027,
+    "ser": 0.049,
+    "thr": 0.027,
+    "trp": 0.004,
+    "tyr": 0.004,
+    "val": 0.053
+  },
+  "otherNutrients": {
+    "nt": 0.192
+  },
+  "extra": {}
+}

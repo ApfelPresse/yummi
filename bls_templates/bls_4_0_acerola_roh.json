@@ -1,0 +1,70 @@
+{
+  "name": "Acerola roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 16,
+    "water": 89.2,
+    "protein": 0.21,
+    "fat": 0.23,
+    "carbs": 2.66,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 28,
+    "vitaa": 14,
+    "cartb": 170,
+    "thia": 0.02,
+    "ribf": 0.073,
+    "niaeq": 0.41,
+    "nia": 0.41,
+    "pantac": 0.33,
+    "vitb6": 9,
+    "biot": 2,
+    "vitc": 1690
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 10,
+    "k": 83,
+    "ca": 11.7,
+    "mg": 12,
+    "p": 17.1,
+    "fe": 0.24,
+    "zn": 0.1
+  },
+  "carbohydrates": {
+    "cho": 2.66,
+    "mnsac": 2.66,
+    "glus": 1.2,
+    "frus": 1.46,
+    "sugar": 2.66
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.05,
+    "f14_0": 0.001,
+    "f16_0": 0.037,
+    "f18_0": 0.012,
+    "fams": 0.063,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.062,
+    "fapu": 0.069,
+    "fapun3": 0.034,
+    "f18_3cn3": 0.034,
+    "fapun6": 0.035,
+    "f18_2cn6": 0.035
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.034
+  },
+  "extra": {}
+}

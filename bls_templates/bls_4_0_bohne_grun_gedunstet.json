@@ -1,0 +1,109 @@
+{
+  "name": "Bohne grün, gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 30,
+    "water": 91.167,
+    "protein": 2.381,
+    "fat": 0.255,
+    "carbs": 3.7,
+    "fiber": 2.011,
+    "alcohol": null,
+    "sugarAlcohols": 0.3
+  },
+  "vitamins": {
+    "vita": 68,
+    "vitaa": 34,
+    "cartb": 371,
+    "carotpaxb": 79,
+    "vite": 0.0665,
+    "tocpha": 0.0665,
+    "tocphg": 0.202,
+    "tocphd": 0.008,
+    "vitk": 38,
+    "vitk1": 38,
+    "thia": 0.115,
+    "ribf": 0.091,
+    "niaeq": 1.292,
+    "nia": 0.809,
+    "pantac": 0.11,
+    "vitb6": 32.43,
+    "biot": 1,
+    "fol": 48,
+    "folfd": 48,
+    "vitc": 16.119
+  },
+  "minerals": {
+    "nacl": 0.0053,
+    "na": 2.11,
+    "cld": 13.709,
+    "k": 249,
+    "ca": 69,
+    "mg": 26,
+    "p": 38.099,
+    "fe": 0.83,
+    "zn": 0.34,
+    "id": 2,
+    "cu": 72,
+    "mn": 280,
+    "fd": 13,
+    "cr": 1,
+    "mo": 21
+  },
+  "carbohydrates": {
+    "cho": 3.7,
+    "mnsac": 2.29,
+    "glus": 1,
+    "frus": 1.29,
+    "disac": 0.121,
+    "sucs": 0.121,
+    "sugar": 2.41,
+    "starch": 1
+  },
+  "fibers": {
+    "fibt": 2.011,
+    "fibhmw": 2.011,
+    "fibins": 1.074,
+    "fibsol": 0.936
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.3,
+    "mantl": 0.12,
+    "sortl": 0.18
+  },
+  "fattyAcids": {
+    "fasat": 0.075,
+    "f16_0": 0.066,
+    "f18_0": 0.0094,
+    "fams": 0.007,
+    "f18_1cn9": 0.007,
+    "fapu": 0.122,
+    "fapun3": 0.066,
+    "f18_3cn3": 0.066,
+    "fapun6": 0.056,
+    "f18_2cn6": 0.056
+  },
+  "aminoAcids": {
+    "aae9": 0.847,
+    "arg": 0.106,
+    "cyste": 0.026,
+    "his": 0.052,
+    "ile": 0.117,
+    "leu": 0.149,
+    "lys": 0.149,
+    "met": 0.036,
+    "phe": 0.078,
+    "thr": 0.099,
+    "trp": 0.029,
+    "tyr": 0.053,
+    "val": 0.138
+  },
+  "otherNutrients": {
+    "nt": 0.381
+  },
+  "extra": {}
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Weißkohl geschmort ohne Fett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 57,
+    "water": 84,
+    "protein": 2.443,
+    "fat": 0.336,
+    "carbs": 8.1,
+    "fiber": 5.4,
+    "alcohol": null,
+    "sugarAlcohols": 0.25
+  },
+  "vitamins": {
+    "vita": 12,
+    "vitaa": 6,
+    "cartb": 64,
+    "carotpaxb": 14,
+    "vite": 0.523,
+    "tocpha": 0.523,
+    "tocphg": 0.004,
+    "toctra": 0.071,
+    "vitk": 161,
+    "vitk1": 161,
+    "thia": 0.32,
+    "ribf": 0.04,
+    "niaeq": 0.5,
+    "nia": 0.5,
+    "pantac": 0.31,
+    "vitb6": 113.21,
+    "biot": 0.2,
+    "fol": 65,
+    "folfd": 65,
+    "vitc": 67.793
+  },
+  "minerals": {
+    "nacl": 0.022,
+    "na": 9,
+    "cld": 66,
+    "k": 449,
+    "ca": 78,
+    "mg": 21,
+    "p": 63.468,
+    "fe": 0.557,
+    "zn": 0.28,
+    "id": 3,
+    "cu": 41,
+    "mn": 340,
+    "fd": 21,
+    "cr": 0.9,
+    "mo": 7
+  },
+  "carbohydrates": {
+    "cho": 8.1,
+    "mnsac": 7.5,
+    "glus": 4.16,
+    "frus": 3.34,
+    "disac": 0.354,
+    "sucs": 0.354,
+    "sugar": 7.85
+  },
+  "fibers": {
+    "fibt": 5.4,
+    "fibhmw": 5.4,
+    "fibins": 3.9,
+    "fibsol": 1.4
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.25,
+    "sortl": 0.25
+  },
+  "fattyAcids": {
+    "fasat": 0.0591,
+    "f14_0": 0.0009,
+    "f16_0": 0.0522,
+    "f18_0": 0.0051,
+    "f20_0": 0.0009,
+    "fams": 0.0085,
+    "f16_1cn7": 0.0048,
+    "f18_1cn9": 0.0037,
+    "fapu": 0.201,
+    "fapun3": 0.154,
+    "f18_3cn3": 0.154,
+    "fapun6": 0.0468,
+    "f18_2cn6": 0.0468
+  },
+  "aminoAcids": {
+    "aae9": 0.544,
+    "arg": 0.177,
+    "cyste": 0.048,
+    "his": 0.044,
+    "ile": 0.069,
+    "leu": 0.099,
+    "lys": 0.115,
+    "met": 0.023,
+    "phe": 0.053,
+    "thr": 0.067,
+    "val": 0.074
+  },
+  "otherNutrients": {
+    "nt": 0.391
+  },
+  "extra": {}
+}

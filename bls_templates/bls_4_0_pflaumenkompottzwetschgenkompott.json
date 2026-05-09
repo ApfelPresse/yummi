@@ -1,0 +1,105 @@
+{
+  "name": "Pflaumenkompott/Zwetschgenkompott",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 66,
+    "water": 82.7,
+    "protein": 0.21,
+    "fat": 0.121,
+    "carbs": 15.57,
+    "fiber": 1.2,
+    "alcohol": null,
+    "sugarAlcohols": 1.863
+  },
+  "vitamins": {
+    "vita": 27,
+    "vitaa": 14,
+    "cartb": 133,
+    "carotpaxb": 59,
+    "vite": 0.202,
+    "tocpha": 0.202,
+    "tocphg": 0.014,
+    "toctra": 0.014,
+    "vitk": 5,
+    "vitk1": 5,
+    "thia": 0.025,
+    "ribf": 0.032,
+    "niaeq": 0.375,
+    "nia": 0.375,
+    "pantac": 0.116,
+    "vitb6": 29,
+    "fol": 1,
+    "folfd": 1,
+    "vitc": 2.498
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 2,
+    "k": 123,
+    "ca": 7,
+    "mg": 5,
+    "p": 11,
+    "s": 0.5,
+    "fe": 0.2,
+    "zn": 0.06,
+    "id": 1,
+    "cu": 47,
+    "mn": 60,
+    "fd": 1,
+    "cr": 1,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 15.57,
+    "mnsac": 4.08,
+    "glus": 2.52,
+    "frus": 1.56,
+    "disac": 9.63,
+    "sucs": 9.51,
+    "mals": 0.121,
+    "sugar": 13.71
+  },
+  "fibers": {
+    "fibt": 1.2
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.863,
+    "sortl": 1.863
+  },
+  "fattyAcids": {
+    "fasat": 0.016,
+    "f16_0": 0.0123,
+    "f18_0": 0.004,
+    "fams": 0.0368,
+    "f16_1cn7": 0.0008,
+    "f18_1cn9": 0.036,
+    "fapu": 0.056,
+    "fapun3": 0.022,
+    "f18_3cn3": 0.022,
+    "fapun6": 0.034,
+    "f18_2cn6": 0.034
+  },
+  "aminoAcids": {
+    "aae9": 0.029,
+    "ala": 0.012,
+    "arg": 0.003,
+    "asp": 0.15,
+    "cyste": 0.002,
+    "glu": 0.023,
+    "leu": 0.008,
+    "lys": 0.011,
+    "pro": 0.004,
+    "ser": 0.012,
+    "thr": 0.009,
+    "val": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.071
+  },
+  "extra": {}
+}

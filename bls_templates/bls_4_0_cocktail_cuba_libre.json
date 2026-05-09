@@ -1,0 +1,82 @@
+{
+  "name": "Cocktail, Cuba Libre",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 52,
+    "water": 90.2,
+    "protein": 0.012,
+    "fat": null,
+    "carbs": 5.435,
+    "fiber": 0.002,
+    "alcohol": 4.2,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.014,
+    "tocpha": 0.014,
+    "thia": 0.002,
+    "niaeq": 0.003,
+    "nia": 0.003,
+    "pantac": 0.004,
+    "vitb6": 1,
+    "fol": 0.1,
+    "folfd": 0.1,
+    "vitc": 0.758
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 6,
+    "k": 3,
+    "ca": 2,
+    "mg": 0.5,
+    "p": 9,
+    "s": 1.5,
+    "fe": 0.02,
+    "zn": 0.01,
+    "cu": 10,
+    "fd": 16,
+    "mo": 0.03
+  },
+  "carbohydrates": {
+    "cho": 5.435,
+    "mnsac": 3.091,
+    "glus": 1.485,
+    "frus": 1.606,
+    "disac": 2.344,
+    "sucs": 2.344,
+    "sugar": 5.435
+  },
+  "fibers": {
+    "fibt": 0.002
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.002,
+    "f16_0": 0.002,
+    "f18_0": 0.0001,
+    "fapu": 0.004,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.003,
+    "f18_2cn6": 0.003
+  },
+  "aminoAcids": {
+    "aae9": 0.001,
+    "ala": 0.001,
+    "arg": 0.001,
+    "asp": 0.002,
+    "glu": 0.001,
+    "gly": 0.001,
+    "lys": 0.001,
+    "pro": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.002
+  },
+  "extra": {}
+}

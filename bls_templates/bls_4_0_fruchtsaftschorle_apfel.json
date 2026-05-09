@@ -1,0 +1,90 @@
+{
+  "name": "Fruchtsaftschorle Apfel",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 26,
+    "water": 93.1,
+    "protein": 0.056,
+    "fat": null,
+    "carbs": 6.139,
+    "fiber": 0.18,
+    "alcohol": 0.018,
+    "sugarAlcohols": 0.58
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 2,
+    "cartb": 8,
+    "carotpaxb": 25,
+    "vite": 0.046,
+    "tocpha": 0.046,
+    "vitk": 0.1,
+    "vitk1": 0.1,
+    "thia": 0.002,
+    "ribf": 0.0026,
+    "niaeq": 0.116,
+    "nia": 0.116,
+    "pantac": 0.03,
+    "vitb6": 5,
+    "biot": 0.5
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 1.4,
+    "k": 53,
+    "ca": 7,
+    "mg": 4,
+    "p": 3.91,
+    "s": 0.8,
+    "fe": 0.1,
+    "zn": 0.02,
+    "id": 1,
+    "cu": 10,
+    "mn": 20,
+    "fd": 13,
+    "cr": 1,
+    "mo": 0.39
+  },
+  "carbohydrates": {
+    "cho": 6.139,
+    "mnsac": 4.901,
+    "glus": 1.285,
+    "frus": 3.616,
+    "disac": 0.658,
+    "sucs": 0.658,
+    "sugar": 5.559
+  },
+  "fibers": {
+    "fibt": 0.18
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.58,
+    "sortl": 0.58
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.013,
+    "ala": 0.002,
+    "arg": 0.001,
+    "asp": 0.016,
+    "glu": 0.005,
+    "his": 0.001,
+    "ile": 0.001,
+    "leu": 0.003,
+    "lys": 0.003,
+    "phe": 0.002,
+    "pro": 0.001,
+    "ser": 0.002,
+    "thr": 0.001,
+    "val": 0.002
+  },
+  "otherNutrients": {
+    "nt": 0.009
+  },
+  "extra": {}
+}

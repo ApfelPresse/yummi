@@ -1,0 +1,81 @@
+{
+  "name": "Hammel Herz, geschmort ohne Fett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 213,
+    "water": 54.9,
+    "protein": 30.113,
+    "fat": 10.3,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 8,
+    "retol": 8,
+    "vite": 0.98,
+    "tocpha": 0.98,
+    "tocphb": 0.15,
+    "tocphg": 0.15,
+    "tocphd": 0.15,
+    "thia": 0.234,
+    "ribf": 1.055,
+    "niaeq": 10.741,
+    "nia": 4.774,
+    "pantac": 2.83,
+    "vitb6": 190,
+    "biot": 5,
+    "fol": 2,
+    "folfd": 2,
+    "vitb12": 5.9,
+    "vitc": 10
+  },
+  "minerals": {
+    "nacl": 0.335,
+    "na": 134,
+    "cld": 264,
+    "k": 257,
+    "ca": 6,
+    "mg": 20,
+    "p": 242,
+    "fe": 11.509,
+    "zn": 4,
+    "id": 1.2,
+    "cu": 807,
+    "mn": 94,
+    "fd": 28
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 3.9,
+    "f14_0": 0.3,
+    "f16_0": 1.5,
+    "f18_0": 2.1,
+    "fax": 3.5
+  },
+  "aminoAcids": {
+    "aae9": 13.012,
+    "his": 0.753,
+    "ile": 1.506,
+    "leu": 2.742,
+    "lys": 2.563,
+    "met": 0.663,
+    "phe": 1.416,
+    "thr": 1.362,
+    "trp": 0.358,
+    "val": 1.649
+  },
+  "otherNutrients": {
+    "chorl": 245,
+    "nt": 4.818
+  },
+  "extra": {}
+}

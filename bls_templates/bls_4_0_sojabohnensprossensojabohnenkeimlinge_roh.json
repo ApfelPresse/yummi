@@ -1,0 +1,94 @@
+{
+  "name": "Sojabohnensprossen/Sojabohnenkeimlinge, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 40,
+    "water": 95.95,
+    "protein": 6.306,
+    "fat": 1.025,
+    "carbs": 0.3,
+    "fiber": 2.38,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "cartb": 25,
+    "vitk": 70.6,
+    "vitk1": 70.6,
+    "thia": 0.157,
+    "ribf": 0.163,
+    "niaeq": 2.8,
+    "nia": 1.533,
+    "pantac": 1.44,
+    "vitb6": 160,
+    "fol": 86.04,
+    "folfd": 86.04,
+    "vitc": 19.625
+  },
+  "minerals": {
+    "nacl": 0.075,
+    "na": 30,
+    "k": 235,
+    "ca": 32,
+    "mg": 18.5,
+    "p": 74.667,
+    "fe": 0.897,
+    "zn": 0.96,
+    "cu": 230,
+    "mn": 170
+  },
+  "carbohydrates": {
+    "cho": 0.3,
+    "mnsac": 0.3,
+    "glus": 0.1,
+    "frus": 0.2,
+    "sugar": 0.3
+  },
+  "fibers": {
+    "fibt": 2.38,
+    "fibhmw": 2.38,
+    "fibins": 1.53,
+    "fibsol": 0.85
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.119,
+    "f14_0": 0.001,
+    "f16_0": 0.086,
+    "f18_0": 0.032,
+    "fams": 0.002,
+    "f20_1cn9": 0.002,
+    "fax": 0.673
+  },
+  "aminoAcids": {
+    "aae9": 2.235,
+    "ala": 0.283,
+    "arg": 0.504,
+    "asp": 0.733,
+    "cyste": 0.057,
+    "glu": 1.179,
+    "gly": 0.262,
+    "his": 0.169,
+    "ile": 0.276,
+    "leu": 0.449,
+    "lys": 0.376,
+    "met": 0.076,
+    "phe": 0.284,
+    "pro": 0.294,
+    "ser": 0.35,
+    "thr": 0.25,
+    "trp": 0.076,
+    "tyr": 0.225,
+    "val": 0.279
+  },
+  "otherNutrients": {
+    "nt": 1.009
+  },
+  "extra": {}
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Radler (Pilsner Bier mit Zitronenlimonade)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 38,
+    "water": 91.74,
+    "protein": 0.211,
+    "fat": null,
+    "carbs": 5.744,
+    "fiber": null,
+    "alcohol": 1.941,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.002,
+    "ribf": 0.017,
+    "niaeq": 0.71,
+    "nia": 0.68,
+    "pantac": 0.0069,
+    "vitb6": 30,
+    "biot": 0.7,
+    "fol": 4.2,
+    "folfd": 4.2
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 13,
+    "k": 26.8,
+    "ca": 4,
+    "mg": 4.3,
+    "p": 11,
+    "s": 5.8,
+    "fe": 0.003,
+    "zn": 0.003,
+    "id": 0.1511,
+    "cu": 4,
+    "mn": 38.6
+  },
+  "carbohydrates": {
+    "cho": 5.744,
+    "mnsac": 0.814,
+    "glus": 0.426,
+    "frus": 0.388,
+    "disac": 3.875,
+    "sucs": 3.863,
+    "mals": 0.012,
+    "sugar": 4.689,
+    "starch": 1.0552
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.046,
+    "ala": 0.006,
+    "arg": 0.006,
+    "asp": 0.007,
+    "cyste": 0.002,
+    "glu": 0.022,
+    "gly": 0.004,
+    "his": 0.003,
+    "ile": 0.006,
+    "leu": 0.01,
+    "lys": 0.004,
+    "met": 0.002,
+    "phe": 0.007,
+    "pro": 0.02,
+    "ser": 0.006,
+    "thr": 0.004,
+    "trp": 0.002,
+    "tyr": 0.003,
+    "val": 0.008
+  },
+  "otherNutrients": {
+    "nt": 0.034
+  },
+  "extra": {}
+}

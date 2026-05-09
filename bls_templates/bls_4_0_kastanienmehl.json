@@ -1,0 +1,94 @@
+{
+  "name": "Kastanienmehl",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 359,
+    "water": 5.52,
+    "protein": 4.995,
+    "fat": 3.244,
+    "carbs": 70.354,
+    "fiber": 14.293,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 2,
+    "cartb": 20,
+    "vite": 0.854,
+    "tocpha": 0.854,
+    "thia": 0.239,
+    "ribf": 0.323,
+    "niaeq": 2.187,
+    "nia": 1.337,
+    "pantac": 0.768,
+    "vitb6": 538,
+    "biot": 3,
+    "vitc": 9.221
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 22,
+    "k": 2001.1,
+    "ca": 74.5,
+    "mg": 145,
+    "p": 312,
+    "fe": 2.82,
+    "zn": 1.5,
+    "id": 0.2,
+    "cu": 850,
+    "mn": 5500,
+    "cr": 39.6,
+    "mo": 5.16
+  },
+  "carbohydrates": {
+    "cho": 70.354,
+    "disac": 23.736,
+    "sucs": 23.736,
+    "sugar": 23.736,
+    "starch": 46.618
+  },
+  "fibers": {
+    "fibt": 14.293,
+    "fibhmw": 14.293,
+    "fibins": 13.678,
+    "fibsol": 0.615
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.487,
+    "f16_0": 0.453,
+    "f18_0": 0.034,
+    "fams": 1.728,
+    "f16_1cn7": 0.022,
+    "f18_1cn9": 1.675,
+    "f20_1cn9": 0.031,
+    "fapu": 0.856,
+    "fapun3": 0.084,
+    "f18_3cn3": 0.084,
+    "fapun6": 0.772,
+    "f18_2cn6": 0.772
+  },
+  "aminoAcids": {
+    "aae9": 1.217,
+    "arg": 0.343,
+    "cyste": 0.051,
+    "his": 0.137,
+    "lys": 0.257,
+    "met": 0.069,
+    "phe": 0.189,
+    "thr": 0.24,
+    "trp": 0.051,
+    "tyr": 0.24,
+    "val": 0.274
+  },
+  "otherNutrients": {
+    "nt": 0.802
+  },
+  "extra": {}
+}

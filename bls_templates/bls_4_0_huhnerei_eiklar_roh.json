@@ -1,0 +1,81 @@
+{
+  "name": "Hühnerei Eiklar, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 42,
+    "water": 88,
+    "protein": 9.9,
+    "fat": 0.03,
+    "carbs": 0.41,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk": 1,
+    "vitk2": 1,
+    "thia": 0.02,
+    "ribf": 0.42,
+    "niaeq": 2.64,
+    "nia": 0.04,
+    "pantac": 0.28,
+    "vitb6": 33,
+    "biot": 5.6,
+    "fol": 9,
+    "folfd": 9,
+    "vitb12": 0.33,
+    "vitc": 0.3
+  },
+  "minerals": {
+    "nacl": 0.462,
+    "na": 185,
+    "cld": 159,
+    "k": 149,
+    "ca": 6,
+    "mg": 12,
+    "p": 21,
+    "fe": 0.01,
+    "zn": 0.01,
+    "id": 3,
+    "cu": 20,
+    "mn": 40
+  },
+  "carbohydrates": {
+    "cho": 0.41,
+    "mnsac": 0.41,
+    "glus": 0.41,
+    "sugar": 0.41
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 5.249,
+    "ala": 0.7,
+    "arg": 0.635,
+    "asp": 1.22,
+    "cyste": 0.26,
+    "glu": 1.37,
+    "gly": 0.407,
+    "his": 0.26,
+    "ile": 0.635,
+    "leu": 0.944,
+    "lys": 0.797,
+    "met": 0.439,
+    "phe": 0.667,
+    "pro": 0.407,
+    "ser": 0.765,
+    "thr": 0.488,
+    "trp": 0.156,
+    "tyr": 0.439,
+    "val": 0.863
+  },
+  "otherNutrients": {
+    "nt": 1.728
+  },
+  "extra": {}
+}

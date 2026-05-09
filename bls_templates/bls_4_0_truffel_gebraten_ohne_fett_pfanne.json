@@ -1,0 +1,95 @@
+{
+  "name": "Trüffel gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 120,
+    "water": 57.7,
+    "protein": 13.587,
+    "fat": 0.836,
+    "carbs": 1,
+    "fiber": 27.115,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitd": 5.1,
+    "ergcal": 5.1,
+    "vite": 0.082,
+    "tocpha": 0.082,
+    "thia": 0.192,
+    "ribf": 0.093,
+    "niaeq": 0.55,
+    "pantac": 0.65,
+    "vitb6": 210,
+    "fol": 7.3,
+    "folfd": 7.3,
+    "vitc": 6.557
+  },
+  "minerals": {
+    "nacl": 0.315,
+    "na": 126,
+    "cld": 45.4,
+    "k": 862,
+    "ca": 39,
+    "mg": 39,
+    "p": 102,
+    "fe": 5.738,
+    "mn": 738
+  },
+  "carbohydrates": {
+    "cho": 1,
+    "mnsac": 1,
+    "glus": 1,
+    "sugar": 1
+  },
+  "fibers": {
+    "fibt": 27.115,
+    "fibhmw": 27.115,
+    "fibins": 21.407,
+    "fibsol": 5.708
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.148,
+    "f4_0": 0.008,
+    "f8_0": 0.002,
+    "f10_0": 0.007,
+    "f14_0": 0.003,
+    "f15_0": 0.002,
+    "f16_0": 0.085,
+    "f17_0": 0.002,
+    "f18_0": 0.021,
+    "f20_0": 0.008,
+    "f22_0": 0.005,
+    "f24_0": 0.005,
+    "fams": 0.018,
+    "f14_1cn5": 0.003,
+    "f18_1cn9": 0.015,
+    "fapu": 0.418,
+    "fapun6": 0.418,
+    "f18_2cn6": 0.418,
+    "fax": 0.005
+  },
+  "aminoAcids": {
+    "aae9": 3.262,
+    "arg": 1.066,
+    "cyste": 0.246,
+    "his": 0.164,
+    "ile": 0.262,
+    "leu": 0.656,
+    "lys": 0.803,
+    "phe": 0.311,
+    "thr": 0.623,
+    "trp": 0.033,
+    "tyr": 0.295,
+    "val": 0.41
+  },
+  "otherNutrients": {
+    "nt": 2.174
+  },
+  "extra": {}
+}

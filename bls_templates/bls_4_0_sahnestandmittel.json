@@ -1,0 +1,43 @@
+{
+  "name": "Sahnestandmittel",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 369,
+    "water": 9,
+    "protein": 0.067,
+    "fat": 0.045,
+    "carbs": 92.057,
+    "fiber": 0.201,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.208,
+    "na": 83,
+    "k": 2.5,
+    "ca": 55,
+    "mg": 1.61,
+    "p": 50.1,
+    "fe": 0.0001
+  },
+  "carbohydrates": {
+    "cho": 92.057,
+    "mnsac": 54.62,
+    "glus": 54.62,
+    "sugar": 54.62,
+    "starch": 37.437
+  },
+  "fibers": {
+    "fibt": 0.201
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

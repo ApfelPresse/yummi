@@ -1,0 +1,59 @@
+{
+  "name": "Qualitätsschaumwein, Sekt, herb/brut",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 69,
+    "water": 94.4,
+    "protein": null,
+    "fat": null,
+    "carbs": 0.63,
+    "fiber": null,
+    "alcohol": 9.38,
+    "sugarAlcohols": 0.007
+  },
+  "vitamins": {
+    "vitk": 0.025,
+    "vitk1": 0.025,
+    "thia": 0.085,
+    "pantac": 0.154,
+    "biot": 2.089,
+    "fol": 0.84,
+    "folfd": 0.84
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 3.9,
+    "k": 44.6,
+    "ca": 7.2,
+    "mg": 6.3,
+    "p": 14.2,
+    "s": 20,
+    "fe": 0.132,
+    "zn": 0.04,
+    "cu": 6.9,
+    "mn": 55.8,
+    "fd": 18,
+    "cr": 1.3
+  },
+  "carbohydrates": {
+    "cho": 0.63,
+    "mnsac": 0.62,
+    "glus": 0.31,
+    "frus": 0.31,
+    "sugar": 0.62
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.007,
+    "sortl": 0.007
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

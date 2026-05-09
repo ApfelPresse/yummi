@@ -1,0 +1,87 @@
+{
+  "name": "Mais Stärke",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 348,
+    "water": 12.6,
+    "protein": 0.431,
+    "fat": 0.08,
+    "carbs": 85.9,
+    "fiber": 1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "ribf": 0.008,
+    "niaeq": 0.08,
+    "nia": 0.03,
+    "vitb6": 5,
+    "biot": 6
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 6,
+    "k": 7,
+    "ca": 10,
+    "mg": 2,
+    "p": 30,
+    "fe": 0.5,
+    "zn": 0.06,
+    "id": 2.5,
+    "cu": 50,
+    "mn": 1000,
+    "fd": 43
+  },
+  "carbohydrates": {
+    "cho": 85.9,
+    "starch": 85.9
+  },
+  "fibers": {
+    "fibt": 1,
+    "fibins": 0.776,
+    "fibsol": 0.224
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.01,
+    "f16_0": 0.008,
+    "f18_0": 0.002,
+    "fams": 0.025,
+    "f18_1cn9": 0.025,
+    "fapu": 0.041,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.04,
+    "f18_2cn6": 0.04
+  },
+  "aminoAcids": {
+    "aae9": 0.169,
+    "ala": 0.035,
+    "arg": 0.019,
+    "asp": 0.029,
+    "cyste": 0.009,
+    "glu": 0.088,
+    "gly": 0.018,
+    "his": 0.012,
+    "ile": 0.018,
+    "leu": 0.054,
+    "lys": 0.014,
+    "met": 0.009,
+    "phe": 0.02,
+    "pro": 0.046,
+    "ser": 0.026,
+    "thr": 0.017,
+    "trp": 0.003,
+    "tyr": 0.018,
+    "val": 0.022
+  },
+  "otherNutrients": {
+    "nt": 0.069
+  },
+  "extra": {}
+}

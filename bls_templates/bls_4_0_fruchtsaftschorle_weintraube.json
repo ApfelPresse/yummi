@@ -1,0 +1,90 @@
+{
+  "name": "Fruchtsaftschorle Weintraube",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 40,
+    "water": 91,
+    "protein": 0.122,
+    "fat": null,
+    "carbs": 9.483,
+    "fiber": 0.18,
+    "alcohol": 0.049,
+    "sugarAlcohols": 0.58
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "carotpaxb": 25,
+    "vite": 0.046,
+    "tocpha": 0.046,
+    "thia": 0.001,
+    "ribf": 0.003,
+    "niaeq": 0.121,
+    "nia": 0.104,
+    "pantac": 0.028,
+    "vitb6": 12.5,
+    "biot": 1
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 3.3,
+    "k": 55,
+    "ca": 11,
+    "mg": 5,
+    "p": 7,
+    "s": 0.8,
+    "fe": 0.09,
+    "zn": 0.023,
+    "id": 1,
+    "cu": 6,
+    "mn": 91,
+    "fd": 18,
+    "cr": 1,
+    "mo": 0.3
+  },
+  "carbohydrates": {
+    "cho": 9.483,
+    "mnsac": 8.903,
+    "glus": 4.382,
+    "frus": 4.521,
+    "sugar": 8.903
+  },
+  "fibers": {
+    "fibt": 0.18
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.58,
+    "sortl": 0.58
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.024,
+    "ala": 0.005,
+    "arg": 0.009,
+    "asp": 0.015,
+    "cyste": 0.002,
+    "glu": 0.027,
+    "gly": 0.003,
+    "his": 0.005,
+    "ile": 0.001,
+    "leu": 0.002,
+    "lys": 0.003,
+    "met": 0.004,
+    "phe": 0.002,
+    "pro": 0.004,
+    "ser": 0.006,
+    "thr": 0.003,
+    "trp": 0.001,
+    "tyr": 0.002,
+    "val": 0.003
+  },
+  "otherNutrients": {
+    "nt": 0.02
+  },
+  "extra": {}
+}

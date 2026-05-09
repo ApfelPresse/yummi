@@ -1,0 +1,108 @@
+{
+  "name": "Feinkostsauce/Grillsauce, Mayonnaise-Basis",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 274,
+    "water": 59,
+    "protein": 1.1,
+    "fat": 24.58,
+    "carbs": 11.15,
+    "fiber": 0.64,
+    "alcohol": null,
+    "sugarAlcohols": 0.004
+  },
+  "vitamins": {
+    "vita": 72,
+    "vitaa": 49,
+    "retol": 27,
+    "cartb": 270,
+    "vite": 6.9,
+    "tocpha": 6.9,
+    "tocphb": 0.08,
+    "tocphg": 3.05,
+    "tocphd": 0.0985,
+    "vitk": 12.5,
+    "vitk2": 12.5,
+    "thia": 0.01,
+    "ribf": 0.48,
+    "niaeq": 0.2,
+    "nia": 0.1,
+    "pantac": 0.14,
+    "biot": 1.4,
+    "fol": 17.4,
+    "folfd": 17.4
+  },
+  "minerals": {
+    "nacl": 1.3925,
+    "na": 557,
+    "k": 78.6,
+    "ca": 16.6,
+    "mg": 5.6,
+    "p": 22.7,
+    "fe": 0.3,
+    "zn": 0.1,
+    "cu": 24,
+    "mn": 73,
+    "cr": 5.7,
+    "mo": 2.8
+  },
+  "carbohydrates": {
+    "cho": 11.15,
+    "mnsac": 4.58,
+    "glus": 2.44,
+    "frus": 2.14,
+    "disac": 4.31,
+    "sucs": 4.31,
+    "sugar": 8.89,
+    "starch": 2.26
+  },
+  "fibers": {
+    "fibt": 0.64,
+    "fibhmw": 0.64,
+    "fibsol": 0.64
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.004
+  },
+  "fattyAcids": {
+    "fasat": 7.954,
+    "f14_0": 0.6126,
+    "f16_0": 4.626,
+    "f18_0": 2.715,
+    "fams": 11.07,
+    "f18_1cn9": 11.07,
+    "fapu": 4.568,
+    "fapun3": 0.7178,
+    "f18_3cn3": 0.7178,
+    "fapun6": 3.85,
+    "f18_2cn6": 3.85
+  },
+  "aminoAcids": {
+    "aae9": 0.24,
+    "ala": 0.04,
+    "arg": 0.061,
+    "asp": 0.084,
+    "cyste": 0.012,
+    "glu": 0.142,
+    "gly": 0.032,
+    "his": 0.022,
+    "ile": 0.036,
+    "leu": 0.038,
+    "lys": 0.034,
+    "met": 0.022,
+    "phe": 0.022,
+    "ser": 0.024,
+    "thr": 0.034,
+    "tyr": 0.026,
+    "val": 0.027
+  },
+  "otherNutrients": {
+    "chorl": 14.6,
+    "nt": 0.18
+  },
+  "extra": {}
+}

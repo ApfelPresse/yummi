@@ -1,0 +1,112 @@
+{
+  "name": "Kürbis Hokkaido (C. maxima) gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 30,
+    "water": 84.712,
+    "protein": 1.4,
+    "fat": 0.2,
+    "carbs": 5.298,
+    "fiber": 0.806,
+    "alcohol": null,
+    "sugarAlcohols": 0.008
+  },
+  "vitamins": {
+    "vita": 533,
+    "vitaa": 267,
+    "cartb": 2500,
+    "carotpaxb": 1400,
+    "vite": 1.111,
+    "tocpha": 1.111,
+    "vitk": 4,
+    "vitk1": 4,
+    "thia": 0.065,
+    "ribf": 0.043,
+    "niaeq": 1.206,
+    "nia": 1.156,
+    "pantac": 0.311,
+    "vitb6": 79,
+    "biot": 0.3,
+    "fol": 31,
+    "folfd": 31,
+    "vitc": 10.111
+  },
+  "minerals": {
+    "nacl": 0.015,
+    "na": 6,
+    "cld": 76.8,
+    "k": 226,
+    "ca": 33.4,
+    "mg": 11.3,
+    "p": 37.3,
+    "fe": 0.407,
+    "zn": 0.23,
+    "id": 1.3,
+    "cu": 49.1,
+    "mn": 49.4,
+    "cr": 2.6
+  },
+  "carbohydrates": {
+    "cho": 5.298,
+    "mnsac": 2.77,
+    "glus": 1.37,
+    "frus": 1.4,
+    "disac": 1.82,
+    "sucs": 1.82,
+    "sugar": 4.59,
+    "starch": 0.7
+  },
+  "fibers": {
+    "fibt": 0.806,
+    "fibhmw": 0.806,
+    "fibins": 0.775,
+    "fibsol": 0.031
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.008,
+    "xyltl": 0.008
+  },
+  "fattyAcids": {
+    "fasat": 0.047,
+    "f12_0": 0.001,
+    "f16_0": 0.041,
+    "f18_0": 0.005,
+    "fams": 0.018,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.017,
+    "fapu": 0.097,
+    "fapun3": 0.061,
+    "f18_3cn3": 0.061,
+    "fapun6": 0.036,
+    "f18_2cn6": 0.036
+  },
+  "aminoAcids": {
+    "aae9": 0.302,
+    "ala": 0.158,
+    "arg": 0.048,
+    "asp": 0.227,
+    "cyste": 0.003,
+    "glu": 0.348,
+    "gly": 0.043,
+    "his": 0.025,
+    "ile": 0.035,
+    "leu": 0.048,
+    "lys": 0.05,
+    "met": 0.02,
+    "phe": 0.038,
+    "pro": 0.032,
+    "ser": 0.07,
+    "thr": 0.028,
+    "trp": 0.003,
+    "tyr": 0.023,
+    "val": 0.055
+  },
+  "otherNutrients": {
+    "nt": 0.224
+  },
+  "extra": {}
+}

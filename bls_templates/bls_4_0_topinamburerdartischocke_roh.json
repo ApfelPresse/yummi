@@ -1,0 +1,83 @@
+{
+  "name": "Topinambur/Erdartischocke, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 55,
+    "water": 83.4,
+    "protein": 2.44,
+    "fat": 0.41,
+    "carbs": 4,
+    "fiber": 12.07,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 12,
+    "vitk": 0.1,
+    "vitk1": 0.1,
+    "thia": 0.2,
+    "ribf": 0.06,
+    "niaeq": 2,
+    "nia": 1.3,
+    "vitc": 4
+  },
+  "minerals": {
+    "k": 533,
+    "ca": 15,
+    "mg": 18.6,
+    "p": 78,
+    "fe": 2,
+    "zn": 0.23,
+    "cu": 170,
+    "mn": 30
+  },
+  "carbohydrates": {
+    "cho": 4,
+    "disac": 4,
+    "sucs": 4,
+    "sugar": 4
+  },
+  "fibers": {
+    "fibt": 12.07,
+    "fibins": 8.556,
+    "fibsol": 3.514
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.095,
+    "f16_0": 0.09,
+    "f18_0": 0.0051,
+    "fams": 0.0077,
+    "f18_1cn9": 0.0077,
+    "fapu": 0.209,
+    "fapun3": 0.043,
+    "f18_3cn3": 0.043,
+    "fapun6": 0.166,
+    "f18_2cn6": 0.166
+  },
+  "aminoAcids": {
+    "aae9": 0.839,
+    "arg": 0.097,
+    "cyste": 0.037,
+    "his": 0.043,
+    "ile": 0.102,
+    "leu": 0.126,
+    "lys": 0.099,
+    "met": 0.042,
+    "phe": 0.118,
+    "thr": 0.102,
+    "trp": 0.042,
+    "tyr": 0.106,
+    "val": 0.165
+  },
+  "otherNutrients": {
+    "nt": 0.39
+  },
+  "extra": {}
+}

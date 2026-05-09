@@ -1,0 +1,101 @@
+{
+  "name": "Gerste Schrot, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 51,
+    "water": 86.4,
+    "protein": 1.749,
+    "fat": 0.317,
+    "carbs": 9.5,
+    "fiber": 1.4,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.049,
+    "tocpha": 0.049,
+    "vitk": 0.3,
+    "vitk1": 0.3,
+    "thia": 0.013,
+    "ribf": 0.004,
+    "niaeq": 0.958,
+    "nia": 0.625,
+    "pantac": 0.086,
+    "vitb6": 67,
+    "biot": 1.12,
+    "fol": 7,
+    "folfd": 7
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 4,
+    "k": 58,
+    "ca": 5.4,
+    "mg": 17,
+    "p": 51,
+    "fe": 0.788,
+    "zn": 0.42,
+    "id": 1,
+    "cu": 77,
+    "mn": 270,
+    "fd": 19,
+    "cr": 0.5,
+    "mo": 9.1
+  },
+  "carbohydrates": {
+    "cho": 9.5,
+    "mnsac": 0.03,
+    "glus": 0.015,
+    "frus": 0.015,
+    "disac": 0.227,
+    "sucs": 0.149,
+    "mals": 0.078,
+    "sugar": 0.257,
+    "starch": 9.2
+  },
+  "fibers": {
+    "fibt": 1.4,
+    "fibhmw": 1.4,
+    "fibins": 0.8,
+    "fibsol": 0.6
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.08,
+    "f14_0": 0.006,
+    "f16_0": 0.068,
+    "f18_0": 0.006,
+    "fams": 0.038,
+    "f16_1cn7": 0.003,
+    "f18_1cn9": 0.035,
+    "fapu": 0.19,
+    "fapun3": 0.017,
+    "f18_3cn3": 0.017,
+    "fapun6": 0.173,
+    "f18_2cn6": 0.173
+  },
+  "aminoAcids": {
+    "aae9": 0.525,
+    "arg": 0.082,
+    "cyste": 0.034,
+    "his": 0.03,
+    "ile": 0.069,
+    "leu": 0.111,
+    "lys": 0.054,
+    "met": 0.024,
+    "phe": 0.082,
+    "thr": 0.054,
+    "trp": 0.02,
+    "tyr": 0.057,
+    "val": 0.081
+  },
+  "otherNutrients": {
+    "nt": 0.268
+  },
+  "extra": {}
+}

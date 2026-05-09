@@ -1,0 +1,61 @@
+{
+  "name": "Melasse",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 229,
+    "water": 25.2,
+    "protein": 1.2,
+    "fat": 0.1,
+    "carbs": 55.9,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.041,
+    "ribf": 0.002,
+    "niaeq": 0.93,
+    "nia": 0.93,
+    "pantac": 0.804,
+    "vitb6": 670
+  },
+  "minerals": {
+    "nacl": 0.27,
+    "na": 108,
+    "cld": 434,
+    "k": 1610,
+    "ca": 378,
+    "mg": 211,
+    "p": 30,
+    "fe": 9.36,
+    "zn": 0.5,
+    "cu": 630,
+    "mn": 2100
+  },
+  "carbohydrates": {
+    "cho": 55.9,
+    "mnsac": 24.5,
+    "glus": 11.7,
+    "frus": 12.8,
+    "disac": 31.4,
+    "sucs": 31.4,
+    "sugar": 55.9
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.02,
+    "f16_0": 0.018,
+    "f18_0": 0.002,
+    "fax": 0.082
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.19
+  },
+  "extra": {}
+}

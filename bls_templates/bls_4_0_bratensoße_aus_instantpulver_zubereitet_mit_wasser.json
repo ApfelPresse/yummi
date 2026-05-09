@@ -1,0 +1,113 @@
+{
+  "name": "Bratensoße aus Instantpulver, zubereitet mit Wasser",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 10,
+    "water": 97,
+    "protein": 0.225,
+    "fat": 0.247,
+    "carbs": 1.731,
+    "fiber": 0.061,
+    "alcohol": null,
+    "sugarAlcohols": 0.002
+  },
+  "vitamins": {
+    "vita": 1,
+    "vitaa": 1,
+    "cartb": 7,
+    "vite": 0.03,
+    "tocpha": 0.03,
+    "tocphg": 0.01,
+    "thia": 0.088,
+    "ribf": 0.009,
+    "niaeq": 0.11,
+    "nia": 0.093,
+    "pantac": 0.02,
+    "vitb6": 6,
+    "biot": 0.17,
+    "fol": 1.7,
+    "folfd": 1.7
+  },
+  "minerals": {
+    "nacl": 0.648,
+    "na": 259,
+    "cld": 237,
+    "k": 10,
+    "ca": 5.2,
+    "mg": 1.3,
+    "p": 4,
+    "s": 5,
+    "fe": 0.034,
+    "zn": 0.018,
+    "id": 5,
+    "cu": 10,
+    "mn": 8,
+    "fd": 2,
+    "cr": 0.2,
+    "mo": 0.1
+  },
+  "carbohydrates": {
+    "cho": 1.731,
+    "mnsac": 0.087,
+    "glus": 0.07,
+    "frus": 0.017,
+    "disac": 0.499,
+    "sucs": 0.111,
+    "mals": 0.179,
+    "lacs": 0.209,
+    "sugar": 0.586,
+    "starch": 1.143
+  },
+  "fibers": {
+    "fibt": 0.061
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.002,
+    "mantl": 0.002
+  },
+  "fattyAcids": {
+    "fasat": 0.153,
+    "f12_0": 0.001,
+    "f14_0": 0.003,
+    "f16_0": 0.121,
+    "f18_0": 0.027,
+    "f20_0": 0.001,
+    "fams": 0.069,
+    "f18_1cn9": 0.069,
+    "fapu": 0.02,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.019,
+    "f18_2cn6": 0.019,
+    "fax": 0.004
+  },
+  "aminoAcids": {
+    "aae9": 0.04,
+    "ala": 0.007,
+    "arg": 0.006,
+    "asp": 0.01,
+    "cyste": 0.003,
+    "glu": 0.147,
+    "gly": 0.006,
+    "his": 0.003,
+    "ile": 0.005,
+    "leu": 0.008,
+    "lys": 0.005,
+    "met": 0.001,
+    "phe": 0.006,
+    "pro": 0.009,
+    "ser": 0.006,
+    "thr": 0.004,
+    "trp": 0.001,
+    "tyr": 0.004,
+    "val": 0.007
+  },
+  "otherNutrients": {
+    "nt": 0.036
+  },
+  "extra": {}
+}

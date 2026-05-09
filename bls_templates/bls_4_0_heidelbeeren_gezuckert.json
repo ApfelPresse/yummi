@@ -1,0 +1,111 @@
+{
+  "name": "Heidelbeeren gezuckert",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 82,
+    "water": 81.1,
+    "protein": 0.5,
+    "fat": 0.562,
+    "carbs": 15.35,
+    "fiber": 4.6,
+    "alcohol": null,
+    "sugarAlcohols": 0.002
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 4,
+    "cartb": 45,
+    "carotpaxb": 8,
+    "vite": 1.139,
+    "tocpha": 1.139,
+    "tocphg": 0.277,
+    "tocphd": 0.009,
+    "vitk": 15,
+    "vitk1": 15,
+    "thia": 0.038,
+    "ribf": 0.038,
+    "niaeq": 0.298,
+    "nia": 0.281,
+    "pantac": 0.2,
+    "vitb6": 6.35,
+    "biot": 1.4,
+    "fol": 11,
+    "folfd": 11,
+    "vitc": 20.625
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 5,
+    "k": 79,
+    "ca": 10,
+    "mg": 6,
+    "p": 12,
+    "fe": 0.674,
+    "zn": 0.131,
+    "id": 2,
+    "cu": 68,
+    "mn": 1890,
+    "fd": 2,
+    "cr": 1,
+    "mo": 3.04
+  },
+  "carbohydrates": {
+    "cho": 15.35,
+    "mnsac": 9.1,
+    "glus": 3.656,
+    "frus": 5.43,
+    "gals": 0.01,
+    "disac": 6.25,
+    "sucs": 6.25,
+    "sugar": 15.35
+  },
+  "fibers": {
+    "fibt": 4.6
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.002,
+    "xyltl": 0.002
+  },
+  "fattyAcids": {
+    "fasat": 0.0523,
+    "f16_0": 0.036,
+    "f18_0": 0.0103,
+    "f20_0": 0.006,
+    "fams": 0.0941,
+    "f18_1cn9": 0.0911,
+    "f20_1cn9": 0.0031,
+    "fapu": 0.3763,
+    "fapun3": 0.1727,
+    "f18_3cn3": 0.1727,
+    "fapun6": 0.2036,
+    "f18_2cn6": 0.2036,
+    "fax": 0.0035
+  },
+  "aminoAcids": {
+    "aae9": 0.135,
+    "ala": 0.03,
+    "arg": 0.073,
+    "asp": 0.057,
+    "cyste": 0.006,
+    "glu": 0.09,
+    "gly": 0.031,
+    "leu": 0.04,
+    "lys": 0.034,
+    "phe": 0.008,
+    "pro": 0.011,
+    "ser": 0.028,
+    "thr": 0.022,
+    "trp": 0.001,
+    "tyr": 0.003,
+    "val": 0.03
+  },
+  "otherNutrients": {
+    "nt": 0.147
+  },
+  "extra": {}
+}

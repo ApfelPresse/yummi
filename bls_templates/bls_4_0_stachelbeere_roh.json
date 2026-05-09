@@ -1,0 +1,113 @@
+{
+  "name": "Stachelbeere roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 50,
+    "water": 87.15,
+    "protein": 0.875,
+    "fat": 0.15,
+    "carbs": 9.836,
+    "fiber": 2.95,
+    "alcohol": null,
+    "sugarAlcohols": 2.61
+  },
+  "vitamins": {
+    "vita": 14,
+    "vitaa": 7,
+    "cartb": 78,
+    "carotpaxb": 8,
+    "vite": 0.61,
+    "tocpha": 0.61,
+    "tocphg": 0.02,
+    "toctra": 0.02,
+    "vitk": 7,
+    "vitk1": 7,
+    "thia": 0.016,
+    "ribf": 0.018,
+    "niaeq": 0.417,
+    "nia": 0.25,
+    "pantac": 0.2,
+    "vitb6": 15,
+    "biot": 1,
+    "fol": 19.3,
+    "folfd": 19.3,
+    "vitc": 35
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 0.9,
+    "k": 200,
+    "ca": 29,
+    "mg": 10,
+    "p": 30,
+    "fe": 0.37,
+    "zn": 0.15,
+    "id": 1,
+    "cu": 106,
+    "mn": 150,
+    "fd": 11,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 9.836,
+    "mnsac": 6.346,
+    "glus": 3.016,
+    "frus": 3.33,
+    "disac": 0.88,
+    "sucs": 0.71,
+    "mals": 0.17,
+    "sugar": 7.226
+  },
+  "fibers": {
+    "fibt": 2.95,
+    "fibhmw": 2.95,
+    "fibins": 2.613,
+    "fibsol": 0.337
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 2.61,
+    "sortl": 2.61
+  },
+  "fattyAcids": {
+    "fasat": 0.0137,
+    "f16_0": 0.0108,
+    "f18_0": 0.0029,
+    "fams": 0.016,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.0146,
+    "fapu": 0.08,
+    "fapun3": 0.0205,
+    "f18_3cn3": 0.0205,
+    "fapun6": 0.0595,
+    "f18_2cn6": 0.0595
+  },
+  "aminoAcids": {
+    "aae9": 0.256,
+    "ala": 0.078,
+    "arg": 0.046,
+    "asp": 0.109,
+    "cyste": 0.009,
+    "glu": 0.15,
+    "gly": 0.04,
+    "his": 0.019,
+    "ile": 0.023,
+    "leu": 0.05,
+    "lys": 0.048,
+    "phe": 0.032,
+    "pro": 0.029,
+    "ser": 0.054,
+    "thr": 0.034,
+    "trp": 0.01,
+    "tyr": 0.025,
+    "val": 0.04
+  },
+  "otherNutrients": {
+    "nt": 0.14
+  },
+  "extra": {}
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Aprikosenglasur/Aprikotur, für Gebäck/Torten",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 196,
+    "water": 50.5,
+    "protein": 0.2,
+    "fat": 0.1,
+    "carbs": 47.7,
+    "fiber": 0.5,
+    "alcohol": null,
+    "sugarAlcohols": 0.015
+  },
+  "vitamins": {
+    "cartb": 1,
+    "vite": 0.103,
+    "tocpha": 0.103,
+    "tocphb": 0.03,
+    "tocphg": 0.02,
+    "tocphd": 0.01,
+    "toctra": 0.002,
+    "vitk": 1,
+    "vitk1": 1,
+    "thia": 0.005,
+    "ribf": 0.005,
+    "niaeq": 0.193,
+    "nia": 0.126,
+    "pantac": 0.09,
+    "vitb6": 7,
+    "fol": 6,
+    "folfd": 6,
+    "vitc": 8.787
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 4,
+    "k": 49,
+    "ca": 6,
+    "mg": 4,
+    "p": 7,
+    "s": 0.4,
+    "fe": 0.185,
+    "zn": 0.03,
+    "id": 0.2,
+    "cu": 14,
+    "mn": 90,
+    "fd": 4,
+    "mo": 1.7
+  },
+  "carbohydrates": {
+    "cho": 47.7,
+    "mnsac": 1.5,
+    "glus": 0.7,
+    "frus": 0.8,
+    "gals": 0.0026,
+    "disac": 46.211,
+    "sucs": 46.211,
+    "sugar": 47.7
+  },
+  "fibers": {
+    "fibt": 0.5
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.015,
+    "sortl": 0.008,
+    "xyltl": 0.007
+  },
+  "fattyAcids": {
+    "fasat": 0.013,
+    "f14_0": 0.0001,
+    "f16_0": 0.011,
+    "f18_0": 0.0015,
+    "fams": 0.017,
+    "f16_1cn7": 0.0004,
+    "f18_1cn9": 0.017,
+    "fapu": 0.07,
+    "fapun3": 0.029,
+    "f18_3cn3": 0.029,
+    "fapun6": 0.041,
+    "f18_2cn6": 0.041
+  },
+  "aminoAcids": {
+    "aae9": 0.057,
+    "ala": 0.013,
+    "arg": 0.011,
+    "asp": 0.052,
+    "cyste": 0.002,
+    "glu": 0.035,
+    "gly": 0.011,
+    "his": 0.004,
+    "ile": 0.006,
+    "leu": 0.012,
+    "lys": 0.01,
+    "phe": 0.007,
+    "pro": 0.009,
+    "ser": 0.009,
+    "thr": 0.007,
+    "trp": 0.004,
+    "tyr": 0.008,
+    "val": 0.007
+  },
+  "otherNutrients": {
+    "nt": 0.005
+  },
+  "extra": {}
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Feinkostsauce/Grillsauce, Tomaten-Basis",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 102,
+    "water": 73.8,
+    "protein": 1.46,
+    "fat": 0.56,
+    "carbs": 21.36,
+    "fiber": 0.72,
+    "alcohol": null,
+    "sugarAlcohols": 0.003
+  },
+  "vitamins": {
+    "vita": 42,
+    "vitaa": 21,
+    "cartb": 250,
+    "vite": 0.32,
+    "tocpha": 0.32,
+    "tocphg": 0.013,
+    "vitk": 2.54,
+    "vitk2": 2.54,
+    "thia": 0.05,
+    "niaeq": 0.64,
+    "nia": 0.56,
+    "pantac": 0.06,
+    "vitb6": 76,
+    "biot": 1.7,
+    "fol": 1.7,
+    "folfd": 1.7,
+    "vitb12": 0.05,
+    "vitc": 2.2
+  },
+  "minerals": {
+    "nacl": 1.9912,
+    "na": 796.5,
+    "cld": 1310,
+    "k": 235,
+    "ca": 16.4,
+    "mg": 11.1,
+    "p": 21.4,
+    "s": 170,
+    "fe": 0.485,
+    "zn": 0.1,
+    "cu": 53,
+    "mn": 110,
+    "fd": 33,
+    "cr": 9,
+    "mo": 4
+  },
+  "carbohydrates": {
+    "cho": 21.36,
+    "mnsac": 18.42,
+    "glus": 9.94,
+    "frus": 8.48,
+    "disac": 0.62,
+    "sucs": 0.62,
+    "sugar": 19.04,
+    "starch": 2.32
+  },
+  "fibers": {
+    "fibt": 0.72,
+    "fibhmw": 0.72,
+    "fibsol": 0.72
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.003
+  },
+  "fattyAcids": {
+    "fasat": 0.076,
+    "f12_0": 0.0005,
+    "f14_0": 0.003,
+    "f16_0": 0.032,
+    "f18_0": 0.04,
+    "fams": 0.17,
+    "f16_1cn7": 0.0011,
+    "f18_1cn9": 0.17,
+    "fapu": 0.14,
+    "fapun3": 0.023,
+    "f18_3cn3": 0.023,
+    "fapun6": 0.12,
+    "f18_2cn6": 0.12
+  },
+  "aminoAcids": {
+    "aae9": 0.107,
+    "ala": 0.032,
+    "arg": 0.032,
+    "asp": 0.124,
+    "glu": 0.29,
+    "gly": 0.037,
+    "ile": 0.014,
+    "leu": 0.016,
+    "lys": 0.014,
+    "phe": 0.022,
+    "ser": 0.021,
+    "thr": 0.016,
+    "tyr": 0.015,
+    "val": 0.01
+  },
+  "otherNutrients": {
+    "nt": 0.23
+  },
+  "extra": {}
+}

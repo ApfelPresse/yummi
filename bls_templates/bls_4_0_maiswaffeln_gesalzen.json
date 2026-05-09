@@ -1,0 +1,100 @@
+{
+  "name": "Maiswaffeln gesalzen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 389,
+    "water": 5.2,
+    "protein": 7.98,
+    "fat": 3.93,
+    "carbs": 79.4,
+    "fiber": 2.22,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 9,
+    "vitaa": 5,
+    "cartb": 55,
+    "vite": 0.14,
+    "tocpha": 0.14,
+    "tocphg": 0.29,
+    "ribf": 0.1,
+    "niaeq": 0.7,
+    "nia": 0.12,
+    "pantac": 0.12,
+    "vitb6": 55,
+    "biot": 1.05,
+    "fol": 4.9,
+    "folfd": 4.9
+  },
+  "minerals": {
+    "nacl": 0.2612,
+    "na": 104.5,
+    "k": 103.5,
+    "ca": 1.9,
+    "mg": 16.1,
+    "p": 55.4,
+    "s": 94,
+    "fe": 0.31,
+    "zn": 0.26,
+    "cu": 47,
+    "mn": 69.5,
+    "cr": 2.8,
+    "mo": 14
+  },
+  "carbohydrates": {
+    "cho": 79.4,
+    "starch": 79.4
+  },
+  "fibers": {
+    "fibt": 2.22,
+    "fibhmw": 2.22,
+    "fibins": 1.82,
+    "fibsol": 0.4
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.516,
+    "f16_0": 0.407,
+    "f18_0": 0.0707,
+    "f22_0": 0.0385,
+    "fams": 1.16,
+    "f18_1cn9": 1.14,
+    "f22_1cn9": 0.0195,
+    "fapu": 1.67,
+    "fapun3": 0.0339,
+    "f18_3cn3": 0.0339,
+    "fapun6": 1.64,
+    "f18_2cn6": 1.64,
+    "fax": 0.0296
+  },
+  "aminoAcids": {
+    "aae9": 2.829,
+    "ala": 0.612,
+    "arg": 0.228,
+    "asp": 0.401,
+    "cyste": 0.128,
+    "glu": 1.45,
+    "gly": 0.214,
+    "his": 0.194,
+    "ile": 0.26,
+    "leu": 1.115,
+    "lys": 0.066,
+    "met": 0.168,
+    "phe": 0.397,
+    "pro": 0.75,
+    "ser": 0.356,
+    "thr": 0.262,
+    "trp": 0.035,
+    "tyr": 0.328,
+    "val": 0.332
+  },
+  "otherNutrients": {
+    "nt": 1.28
+  },
+  "extra": {}
+}

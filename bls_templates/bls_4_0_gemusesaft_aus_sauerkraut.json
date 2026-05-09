@@ -1,0 +1,111 @@
+{
+  "name": "Gemüsesaft aus Sauerkraut",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 18,
+    "water": 93.03,
+    "protein": 0.956,
+    "fat": 0.248,
+    "carbs": 0.79,
+    "fiber": 0.214,
+    "alcohol": 0.256,
+    "sugarAlcohols": 0.098
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 1,
+    "cartb": 16,
+    "vite": 0.029,
+    "tocpha": 0.029,
+    "tocphg": 0.006,
+    "tocphd": 0.003,
+    "vitk": 29.9,
+    "vitk1": 25.1,
+    "vitk2": 4.8,
+    "thia": 0.014,
+    "ribf": 0.035,
+    "niaeq": 0.128,
+    "nia": 0.128,
+    "pantac": 0.161,
+    "vitb6": 105,
+    "biot": 0.7,
+    "fol": 12.5,
+    "folfd": 12.5,
+    "vitb12": 0.26,
+    "vitc": 8
+  },
+  "minerals": {
+    "nacl": 1.07,
+    "na": 428,
+    "k": 193,
+    "ca": 42,
+    "mg": 13,
+    "p": 41,
+    "fe": 0.99,
+    "zn": 0.304,
+    "cu": 28,
+    "mn": 133,
+    "fd": 43,
+    "cr": 5,
+    "mo": 8.9
+  },
+  "carbohydrates": {
+    "cho": 0.79,
+    "mnsac": 0.504,
+    "glus": 0.336,
+    "frus": 0.168,
+    "disac": 0.112,
+    "sucs": 0.112,
+    "sugar": 0.616,
+    "starch": 0.08
+  },
+  "fibers": {
+    "fibt": 0.214,
+    "fibhmw": 0.214,
+    "fibins": 0.13,
+    "fibsol": 0.084
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.098,
+    "mantl": 0.098
+  },
+  "fattyAcids": {
+    "fasat": 0.058,
+    "f16_0": 0.044,
+    "f18_0": 0.014,
+    "fams": 0.097,
+    "f18_1cn9": 0.097,
+    "fapu": 0.051,
+    "fapun3": 0.009,
+    "f18_3cn3": 0.009,
+    "fapun6": 0.042,
+    "f18_2cn6": 0.042
+  },
+  "aminoAcids": {
+    "aae9": 0.136,
+    "ala": 0.058,
+    "arg": 0.025,
+    "asp": 0.036,
+    "cyste": 0.012,
+    "glu": 0.126,
+    "gly": 0.018,
+    "his": 0.008,
+    "ile": 0.023,
+    "leu": 0.026,
+    "lys": 0.021,
+    "phe": 0.018,
+    "pro": 0.026,
+    "ser": 0.026,
+    "thr": 0.018,
+    "tyr": 0.012,
+    "val": 0.022
+  },
+  "otherNutrients": {
+    "nt": 0.153
+  },
+  "extra": {}
+}

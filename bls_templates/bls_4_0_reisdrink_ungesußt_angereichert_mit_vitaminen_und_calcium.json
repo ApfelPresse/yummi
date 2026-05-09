@@ -1,0 +1,71 @@
+{
+  "name": "Reisdrink ungesüßt, angereichert mit Vitaminen und Calcium",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 59,
+    "water": 88.8,
+    "protein": null,
+    "fat": 1.04,
+    "carbs": 12.31,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitd": 0.75,
+    "ergcal": 0.75,
+    "vite": 0.49,
+    "tocpha": 0.49,
+    "tocphb": 0.016,
+    "tocphd": 0.003,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "pantac": 0.06,
+    "vitb12": 0.38,
+    "vitc": 0.5
+  },
+  "minerals": {
+    "nacl": 0.0975,
+    "na": 39,
+    "k": 11.4,
+    "ca": 120,
+    "mg": 2.2,
+    "p": 5.2,
+    "s": 4,
+    "fe": 0.012,
+    "zn": 0.04,
+    "cu": 1.8,
+    "mn": 16.5,
+    "mo": 4.5
+  },
+  "carbohydrates": {
+    "cho": 12.31,
+    "mnsac": 2.88,
+    "glus": 2.88,
+    "disac": 3.7,
+    "mals": 3.7,
+    "sugar": 6.58,
+    "starch": 5.73
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.24,
+    "f16_0": 0.19,
+    "f18_0": 0.05,
+    "fams": 0.28,
+    "f18_1cn9": 0.28,
+    "fapu": 0.44,
+    "fapun6": 0.44,
+    "f18_2cn6": 0.44
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 0.5
+  },
+  "extra": {}
+}

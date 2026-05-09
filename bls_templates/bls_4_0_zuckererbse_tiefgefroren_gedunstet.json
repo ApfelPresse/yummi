@@ -1,0 +1,93 @@
+{
+  "name": "Zuckererbse tiefgefroren, gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 43,
+    "water": 87,
+    "protein": 4.3,
+    "fat": 0.2,
+    "carbs": 5,
+    "fiber": 2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 51,
+    "vitaa": 26,
+    "cartb": 298,
+    "carotpaxb": 21,
+    "vite": 0.4,
+    "tocpha": 0.4,
+    "vitk": 59,
+    "vitk1": 59,
+    "thia": 0.17,
+    "ribf": 0.06,
+    "niaeq": 1,
+    "nia": 1,
+    "vitb6": 80,
+    "fol": 30,
+    "folfd": 30,
+    "vitc": 37
+  },
+  "minerals": {
+    "nacl": 0.042,
+    "na": 17,
+    "k": 102,
+    "ca": 96,
+    "mg": 16,
+    "p": 73,
+    "fe": 0.604,
+    "zn": 0.308,
+    "id": 2,
+    "cu": 110
+  },
+  "carbohydrates": {
+    "cho": 5,
+    "mnsac": 2.75,
+    "glus": 2.42,
+    "frus": 0.33,
+    "disac": 0.875,
+    "sucs": 0.76,
+    "mals": 0.115,
+    "sugar": 3.62,
+    "starch": 1.4
+  },
+  "fibers": {
+    "fibt": 2,
+    "fibhmw": 2,
+    "fibins": 1,
+    "fibsol": 1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fapu": 0.1,
+    "fapun6": 0.1,
+    "f18_2cn6": 0.1
+  },
+  "aminoAcids": {
+    "aae9": 1,
+    "ala": 0.1,
+    "arg": 0.3,
+    "asp": 0.4,
+    "glu": 0.9,
+    "gly": 0.2,
+    "his": 0.1,
+    "ile": 0.1,
+    "leu": 0.2,
+    "lys": 0.2,
+    "phe": 0.2,
+    "pro": 0.1,
+    "ser": 0.2,
+    "thr": 0.1,
+    "tyr": 0.1,
+    "val": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.8
+  },
+  "extra": {}
+}

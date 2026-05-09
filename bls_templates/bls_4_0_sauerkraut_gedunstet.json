@@ -1,0 +1,110 @@
+{
+  "name": "Sauerkraut gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 29,
+    "water": 93.2,
+    "protein": 0.76,
+    "fat": 1.05,
+    "carbs": 1.68,
+    "fiber": 2.6,
+    "alcohol": 0.06,
+    "sugarAlcohols": 0.078
+  },
+  "vitamins": {
+    "cartb": 1,
+    "vite": 0.138,
+    "tocpha": 0.138,
+    "tocphg": 0.224,
+    "tocphd": 0.009,
+    "toctra": 0.003,
+    "vitk": 7,
+    "vitk1": 7,
+    "thia": 0.02,
+    "ribf": 0.09,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "pantac": 0.04,
+    "vitb6": 82,
+    "fol": 8,
+    "folfd": 8,
+    "vitb12": 0.12,
+    "vitc": 16
+  },
+  "minerals": {
+    "nacl": 0.72,
+    "na": 288,
+    "cld": 59,
+    "k": 124,
+    "ca": 37,
+    "mg": 6,
+    "p": 17.1,
+    "s": 1,
+    "fe": 0.225,
+    "zn": 0.1,
+    "cu": 20,
+    "mn": 70,
+    "cr": 2,
+    "mo": 6
+  },
+  "carbohydrates": {
+    "cho": 1.68,
+    "mnsac": 1.32,
+    "glus": 1.1,
+    "frus": 0.22,
+    "disac": 0.21,
+    "sucs": 0.21,
+    "mals": 0.001,
+    "sugar": 1.53,
+    "starch": 0.07
+  },
+  "fibers": {
+    "fibt": 2.6
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.078,
+    "mantl": 0.078
+  },
+  "fattyAcids": {
+    "fasat": 0.11,
+    "f16_0": 0.08,
+    "f18_0": 0.03,
+    "fams": 0.55,
+    "f18_1cn9": 0.54,
+    "f20_1cn9": 0.01,
+    "fapu": 0.27,
+    "fapun3": 0.08,
+    "f18_3cn3": 0.08,
+    "fapun6": 0.19,
+    "f18_2cn6": 0.19,
+    "fax": 0.02
+  },
+  "aminoAcids": {
+    "aae9": 0.112,
+    "ala": 0.044,
+    "arg": 0.024,
+    "asp": 0.027,
+    "cyste": 0.009,
+    "glu": 0.096,
+    "gly": 0.014,
+    "his": 0.007,
+    "ile": 0.018,
+    "leu": 0.021,
+    "lys": 0.018,
+    "phe": 0.015,
+    "pro": 0.02,
+    "ser": 0.02,
+    "thr": 0.015,
+    "tyr": 0.01,
+    "val": 0.018
+  },
+  "otherNutrients": {
+    "chorl": 0.016,
+    "nt": 0.12
+  },
+  "extra": {}
+}

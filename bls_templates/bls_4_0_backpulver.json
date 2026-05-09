@@ -1,0 +1,42 @@
+{
+  "name": "Backpulver",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 88,
+    "water": 4,
+    "protein": 0.09,
+    "fat": 0.124,
+    "carbs": 21.6,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 29.5,
+    "na": 11800,
+    "cld": 11,
+    "k": 0.32,
+    "ca": 17.68,
+    "mg": 2.508,
+    "p": 9175,
+    "fe": 0.911,
+    "zn": 0.12,
+    "cu": 3,
+    "mn": 10
+  },
+  "carbohydrates": {
+    "cho": 21.6,
+    "starch": 21.6
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Aprikosensauce von frischen Früchten",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 54,
+    "water": 84,
+    "protein": 0.5,
+    "fat": 0.1,
+    "carbs": 11.759,
+    "fiber": 0.995,
+    "alcohol": null,
+    "sugarAlcohols": 0.511
+  },
+  "vitamins": {
+    "vita": 135,
+    "vitaa": 68,
+    "cartb": 749,
+    "carotpaxb": 127,
+    "vite": 0.342,
+    "tocpha": 0.342,
+    "vitk": 2,
+    "vitk1": 2,
+    "thia": 0.056,
+    "ribf": 0.034,
+    "niaeq": 0.448,
+    "nia": 0.448,
+    "pantac": 0.174,
+    "vitb6": 42,
+    "fol": 4.9,
+    "folfd": 4.9,
+    "vitc": 5.434
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 2,
+    "k": 236,
+    "ca": 16,
+    "mg": 13,
+    "p": 14,
+    "s": 0.5,
+    "fe": 0.407,
+    "zn": 0.14,
+    "id": 0.5,
+    "cu": 60,
+    "mn": 140,
+    "fd": 7,
+    "mo": 0.01
+  },
+  "carbohydrates": {
+    "cho": 11.759,
+    "mnsac": 1.883,
+    "glus": 1.262,
+    "frus": 0.621,
+    "disac": 8.558,
+    "sucs": 8.558,
+    "sugar": 10.441,
+    "starch": 0.807
+  },
+  "fibers": {
+    "fibt": 0.995
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.511,
+    "sortl": 0.511
+  },
+  "fattyAcids": {
+    "fasat": 0.01,
+    "f14_0": 0.0001,
+    "f16_0": 0.009,
+    "f18_0": 0.001,
+    "fams": 0.042,
+    "f16_1cn7": 0.041,
+    "f18_1cn9": 0.001,
+    "fapu": 0.026,
+    "fapun3": 0.002,
+    "f18_3cn3": 0.002,
+    "fapun6": 0.024,
+    "f18_2cn6": 0.024
+  },
+  "aminoAcids": {
+    "aae9": 0.059,
+    "ala": 0.015,
+    "arg": 0.011,
+    "asp": 0.268,
+    "cyste": 0.004,
+    "glu": 0.03,
+    "gly": 0.002,
+    "ile": 0.001,
+    "leu": 0.016,
+    "lys": 0.016,
+    "phe": 0.001,
+    "pro": 0.011,
+    "ser": 0.017,
+    "thr": 0.013,
+    "tyr": 0.001,
+    "val": 0.012
+  },
+  "otherNutrients": {
+    "nt": 0.086
+  },
+  "extra": {}
+}

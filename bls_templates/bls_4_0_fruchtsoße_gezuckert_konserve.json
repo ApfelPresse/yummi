@@ -1,0 +1,113 @@
+{
+  "name": "Fruchtsoße gezuckert, Konserve",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 177,
+    "water": 54.9,
+    "protein": 0.5,
+    "fat": 0.3,
+    "carbs": 41.7,
+    "fiber": 1.5,
+    "alcohol": null,
+    "sugarAlcohols": 0.039
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 4,
+    "vite": 0.181,
+    "tocpha": 0.181,
+    "tocphb": 0.09,
+    "tocphg": 0.053,
+    "tocphd": 0.026,
+    "toctra": 0.007,
+    "vitk": 2.6,
+    "vitk1": 2.6,
+    "thia": 0.011,
+    "ribf": 0.013,
+    "niaeq": 0.522,
+    "nia": 0.355,
+    "pantac": 0.22,
+    "vitb6": 14.62,
+    "biot": 0.8,
+    "fol": 31,
+    "folfd": 31,
+    "vitc": 26.187
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 7,
+    "k": 121,
+    "ca": 11,
+    "mg": 9,
+    "p": 16.8,
+    "fe": 0.356,
+    "zn": 0.07,
+    "id": 1,
+    "cu": 30,
+    "mn": 230,
+    "fd": 11,
+    "cr": 1,
+    "mo": 4.6
+  },
+  "carbohydrates": {
+    "cho": 41.7,
+    "mnsac": 3.6,
+    "glus": 1.7,
+    "frus": 1.9,
+    "gals": 0.007,
+    "disac": 38.084,
+    "sucs": 38.084,
+    "sugar": 41.7
+  },
+  "fibers": {
+    "fibt": 1.5
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.039,
+    "sortl": 0.021,
+    "xyltl": 0.018
+  },
+  "fattyAcids": {
+    "fasat": 0.0206,
+    "f16_0": 0.0174,
+    "f18_0": 0.0032,
+    "fams": 0.0414,
+    "f16_1cn7": 0.0009,
+    "f18_1cn9": 0.0405,
+    "fapu": 0.157,
+    "fapun3": 0.0688,
+    "f18_3cn3": 0.0688,
+    "fapun6": 0.088,
+    "f18_2cn6": 0.088
+  },
+  "aminoAcids": {
+    "aae9": 0.134,
+    "ala": 0.029,
+    "arg": 0.024,
+    "asp": 0.126,
+    "cyste": 0.005,
+    "glu": 0.083,
+    "gly": 0.022,
+    "his": 0.011,
+    "ile": 0.012,
+    "leu": 0.029,
+    "lys": 0.022,
+    "met": 0.001,
+    "phe": 0.016,
+    "pro": 0.018,
+    "ser": 0.022,
+    "thr": 0.017,
+    "trp": 0.01,
+    "tyr": 0.019,
+    "val": 0.016
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

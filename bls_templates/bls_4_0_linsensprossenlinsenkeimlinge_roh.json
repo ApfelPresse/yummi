@@ -1,0 +1,86 @@
+{
+  "name": "Linsensprossen/Linsenkeimlinge, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 29,
+    "water": 90.7,
+    "protein": 4.65,
+    "fat": 0.39,
+    "carbs": 0.3,
+    "fiber": 2.8,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 16,
+    "vitaa": 8,
+    "cartb": 96,
+    "vitk": 30.5,
+    "vitk1": 30.5,
+    "thia": 0.1,
+    "ribf": 0.12,
+    "niaeq": 1.687,
+    "nia": 0.92,
+    "pantac": 0.6,
+    "vitb6": 150,
+    "fol": 84,
+    "folfd": 84,
+    "vitc": 25.75
+  },
+  "minerals": {
+    "nacl": 0.015,
+    "na": 6,
+    "k": 114,
+    "ca": 5.5,
+    "mg": 15,
+    "p": 88,
+    "fe": 1.04,
+    "zn": 0.89,
+    "cu": 220,
+    "mn": 130
+  },
+  "carbohydrates": {
+    "cho": 0.3,
+    "mnsac": 0.3,
+    "glus": 0.1,
+    "frus": 0.2,
+    "sugar": 0.3
+  },
+  "fibers": {
+    "fibt": 2.8,
+    "fibhmw": 2.8,
+    "fibins": 1.8,
+    "fibsol": 1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 1.653,
+    "ala": 0.189,
+    "arg": 0.385,
+    "asp": 0.524,
+    "cyste": 0.064,
+    "glu": 0.71,
+    "gly": 0.191,
+    "his": 0.111,
+    "ile": 0.208,
+    "leu": 0.359,
+    "lys": 0.304,
+    "met": 0.036,
+    "phe": 0.189,
+    "pro": 0.209,
+    "ser": 0.204,
+    "thr": 0.173,
+    "trp": 0.046,
+    "tyr": 0.163,
+    "val": 0.227
+  },
+  "otherNutrients": {
+    "nt": 0.744
+  },
+  "extra": {}
+}

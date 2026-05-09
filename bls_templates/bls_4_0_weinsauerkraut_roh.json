@@ -1,0 +1,108 @@
+{
+  "name": "Weinsauerkraut roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 23,
+    "water": 90.7,
+    "protein": 1.104,
+    "fat": 0.304,
+    "carbs": 0.99,
+    "fiber": 2.097,
+    "alcohol": 0.26,
+    "sugarAlcohols": 0.121
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 1,
+    "cartb": 18,
+    "vite": 0.028,
+    "tocpha": 0.028,
+    "tocphg": 0.0059,
+    "tocphd": 0.0029,
+    "vitk": 29.3,
+    "vitk1": 24.6,
+    "vitk2": 4.7,
+    "thia": 0.026,
+    "ribf": 0.05,
+    "niaeq": 0.167,
+    "nia": 0.167,
+    "pantac": 0.23,
+    "vitb6": 206,
+    "biot": 0.81,
+    "fol": 30.7,
+    "folfd": 30.7,
+    "vitb12": 0.25,
+    "vitc": 19.7
+  },
+  "minerals": {
+    "nacl": 1.168,
+    "na": 467,
+    "k": 211,
+    "ca": 43,
+    "mg": 14,
+    "p": 42,
+    "fe": 1.08,
+    "zn": 0.32,
+    "cu": 29,
+    "mn": 139,
+    "fd": 44,
+    "cr": 5,
+    "mo": 9.2
+  },
+  "carbohydrates": {
+    "cho": 0.99,
+    "mnsac": 0.63,
+    "glus": 0.42,
+    "frus": 0.21,
+    "disac": 0.137,
+    "sucs": 0.137,
+    "sugar": 0.77,
+    "starch": 0.1
+  },
+  "fibers": {
+    "fibt": 2.097
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.121,
+    "mantl": 0.121
+  },
+  "fattyAcids": {
+    "fasat": 0.071,
+    "f16_0": 0.054,
+    "f18_0": 0.017,
+    "fams": 0.119,
+    "f18_1cn9": 0.119,
+    "fapu": 0.063,
+    "fapun3": 0.011,
+    "f18_3cn3": 0.011,
+    "fapun6": 0.052,
+    "f18_2cn6": 0.052
+  },
+  "aminoAcids": {
+    "aae9": 0.157,
+    "ala": 0.067,
+    "arg": 0.028,
+    "asp": 0.041,
+    "cyste": 0.014,
+    "glu": 0.145,
+    "gly": 0.021,
+    "his": 0.01,
+    "ile": 0.026,
+    "leu": 0.03,
+    "lys": 0.024,
+    "phe": 0.021,
+    "pro": 0.03,
+    "ser": 0.029,
+    "thr": 0.021,
+    "tyr": 0.014,
+    "val": 0.025
+  },
+  "otherNutrients": {
+    "nt": 0.177
+  },
+  "extra": {}
+}

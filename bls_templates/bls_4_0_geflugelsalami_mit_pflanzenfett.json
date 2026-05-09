@@ -1,0 +1,112 @@
+{
+  "name": "Geflügelsalami mit Pflanzenfett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 307,
+    "water": 50.3,
+    "protein": 20.35,
+    "fat": 24.35,
+    "carbs": 0.009,
+    "fiber": 0.48,
+    "alcohol": null,
+    "sugarAlcohols": 0.009
+  },
+  "vitamins": {
+    "vita": 33,
+    "vitaa": 28,
+    "retol": 24,
+    "cartb": 52,
+    "vite": 2,
+    "tocpha": 2,
+    "tocphb": 0.047,
+    "tocphg": 0.195,
+    "vitk": 44.765,
+    "vitk1": 1.54,
+    "vitk2": 43.225,
+    "thia": 0.579,
+    "ribf": 0.252,
+    "niaeq": 12.423,
+    "nia": 8.09,
+    "pantac": 0.745,
+    "vitb6": 398,
+    "biot": 3.34,
+    "fol": 23.2,
+    "folfd": 23.2,
+    "vitb12": 1.85,
+    "vitc": 33.45
+  },
+  "minerals": {
+    "nacl": 3.7875,
+    "na": 1515,
+    "cld": 2380,
+    "k": 341,
+    "ca": 23.8,
+    "mg": 23.6,
+    "s": 270,
+    "fe": 1.43,
+    "zn": 3.04,
+    "cu": 94.5,
+    "mn": 315,
+    "cr": 8.8,
+    "mo": 3.3
+  },
+  "carbohydrates": {
+    "cho": 0.009
+  },
+  "fibers": {
+    "fibt": 0.48,
+    "fibhmw": 0.48,
+    "fibins": 0.32,
+    "fibsol": 0.16
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.009
+  },
+  "fattyAcids": {
+    "fasat": 9.334,
+    "f12_0": 0.0559,
+    "f14_0": 0.211,
+    "f16_0": 7.418,
+    "f18_0": 1.513,
+    "f20_0": 0.0648,
+    "f22_0": 0.0716,
+    "fams": 8.291,
+    "f16_1cn7": 0.4718,
+    "f18_1cn9": 7.819,
+    "fapu": 3.561,
+    "fapun3": 0.2279,
+    "f18_3cn3": 0.2279,
+    "fapun6": 3.333,
+    "f18_2cn6": 3.333
+  },
+  "aminoAcids": {
+    "aae9": 8.07,
+    "ala": 1.19,
+    "arg": 1.2,
+    "asp": 1.83,
+    "cyste": 0.22,
+    "glu": 3.21,
+    "gly": 1.01,
+    "his": 0.54,
+    "ile": 0.93,
+    "leu": 1.57,
+    "lys": 1.78,
+    "met": 0.47,
+    "phe": 0.78,
+    "pro": 0.85,
+    "ser": 0.8,
+    "thr": 0.87,
+    "trp": 0.26,
+    "tyr": 0.59,
+    "val": 0.87
+  },
+  "otherNutrients": {
+    "chorl": 78.8,
+    "nt": 3.26
+  },
+  "extra": {}
+}

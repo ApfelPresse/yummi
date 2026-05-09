@@ -1,0 +1,106 @@
+{
+  "name": "Rosenkohl tiefgefroren, gebacken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 53,
+    "water": 78.5,
+    "protein": 5.816,
+    "fat": 0.445,
+    "carbs": 2.96,
+    "fiber": 5.8,
+    "alcohol": null,
+    "sugarAlcohols": 0.25
+  },
+  "vitamins": {
+    "vita": 137,
+    "vitaa": 69,
+    "cartb": 746,
+    "carotpaxb": 156,
+    "vite": 1.085,
+    "tocpha": 1.085,
+    "tocphg": 0.052,
+    "vitk": 244,
+    "vitk1": 244,
+    "thia": 0.119,
+    "ribf": 0.15,
+    "niaeq": 1.849,
+    "nia": 0.749,
+    "pantac": 1.12,
+    "vitb6": 337,
+    "biot": 0.2,
+    "fol": 91,
+    "folfd": 91,
+    "vitc": 78.792
+  },
+  "minerals": {
+    "nacl": 0.03,
+    "na": 12,
+    "cld": 33,
+    "k": 615.522,
+    "ca": 45,
+    "mg": 26,
+    "p": 109.3,
+    "fe": 0.926,
+    "zn": 0.38,
+    "id": 0.9,
+    "cu": 44,
+    "mn": 270
+  },
+  "carbohydrates": {
+    "cho": 2.96,
+    "mnsac": 0.62,
+    "glus": 0.54,
+    "frus": 0.08,
+    "disac": 1.449,
+    "sucs": 1.449,
+    "sugar": 2.07,
+    "starch": 0.64
+  },
+  "fibers": {
+    "fibt": 5.8,
+    "fibhmw": 5.8,
+    "fibins": 4.4,
+    "fibsol": 1.4
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.25,
+    "sortl": 0.25
+  },
+  "fattyAcids": {
+    "fasat": 0.0668,
+    "f14_0": 0.0019,
+    "f16_0": 0.0555,
+    "f18_0": 0.0036,
+    "f20_0": 0.0058,
+    "fams": 0.0104,
+    "f16_1cn7": 0.0019,
+    "f18_1cn9": 0.0071,
+    "f20_1cn9": 0.0014,
+    "fapu": 0.254,
+    "fapun3": 0.204,
+    "f18_3cn3": 0.204,
+    "fapun6": 0.0504,
+    "f18_2cn6": 0.0504
+  },
+  "aminoAcids": {
+    "aae9": 1.883,
+    "arg": 0.366,
+    "his": 0.144,
+    "ile": 0.274,
+    "leu": 0.301,
+    "lys": 0.327,
+    "met": 0.052,
+    "phe": 0.196,
+    "thr": 0.209,
+    "trp": 0.066,
+    "val": 0.314
+  },
+  "otherNutrients": {
+    "nt": 0.931
+  },
+  "extra": {}
+}

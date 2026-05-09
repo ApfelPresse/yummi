@@ -1,0 +1,68 @@
+{
+  "name": "Cola-Misch-Getränk Orange",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 36,
+    "water": 91.5,
+    "protein": 0.015,
+    "fat": null,
+    "carbs": 9,
+    "fiber": 0.005,
+    "alcohol": 0.002,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "carotpaxb": 1,
+    "vite": 0.005,
+    "tocpha": 0.005,
+    "thia": 0.001,
+    "niaeq": 0.007,
+    "nia": 0.007,
+    "vitb6": 1,
+    "vitc": 0.812
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 10,
+    "k": 4,
+    "ca": 1,
+    "p": 15,
+    "s": 1.8,
+    "cu": 2,
+    "fd": 30,
+    "mo": 0.05
+  },
+  "carbohydrates": {
+    "cho": 9,
+    "mnsac": 5.11,
+    "glus": 2.455,
+    "frus": 2.655,
+    "disac": 3.89,
+    "sucs": 3.89,
+    "sugar": 9
+  },
+  "fibers": {
+    "fibt": 0.005
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fapu": 0.001,
+    "fapun6": 0.001,
+    "f18_2cn6": 0.001
+  },
+  "aminoAcids": {
+    "arg": 0.001,
+    "asp": 0.001,
+    "glu": 0.001,
+    "pro": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.002
+  },
+  "extra": {}
+}

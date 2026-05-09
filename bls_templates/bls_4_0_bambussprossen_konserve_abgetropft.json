@@ -1,0 +1,88 @@
+{
+  "name": "Bambussprossen Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 11,
+    "water": 94.3,
+    "protein": 1.723,
+    "fat": 0.206,
+    "carbs": 0.559,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 1,
+    "vitaa": 1,
+    "cartb": 8,
+    "thia": 0.027,
+    "ribf": 0.023,
+    "niaeq": 0.462,
+    "nia": 0.162,
+    "vitc": 0.801
+  },
+  "minerals": {
+    "nacl": 0.495,
+    "na": 198,
+    "cld": 404,
+    "k": 110,
+    "ca": 14,
+    "mg": 1,
+    "p": 33,
+    "s": 1,
+    "fe": 0.304,
+    "zn": 0.6,
+    "mn": 1
+  },
+  "carbohydrates": {
+    "cho": 0.559,
+    "mnsac": 0.442,
+    "glus": 0.203,
+    "frus": 0.239,
+    "disac": 0.117,
+    "sucs": 0.117,
+    "sugar": 0.559
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.039,
+    "f16_0": 0.039,
+    "fams": 0.008,
+    "f18_1cn9": 0.008,
+    "fapu": 0.118,
+    "fapun3": 0.036,
+    "f18_3cn3": 0.036,
+    "fapun6": 0.082,
+    "f18_2cn6": 0.082
+  },
+  "aminoAcids": {
+    "aae9": 0.494,
+    "ala": 0.082,
+    "arg": 0.064,
+    "asp": 0.275,
+    "cyste": 0.014,
+    "glu": 0.165,
+    "gly": 0.058,
+    "his": 0.028,
+    "ile": 0.058,
+    "leu": 0.094,
+    "lys": 0.087,
+    "met": 0.019,
+    "phe": 0.06,
+    "pro": 0.147,
+    "ser": 0.085,
+    "thr": 0.058,
+    "trp": 0.018,
+    "tyr": 0.275,
+    "val": 0.072
+  },
+  "otherNutrients": {
+    "nt": 0.275
+  },
+  "extra": {}
+}

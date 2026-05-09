@@ -1,0 +1,64 @@
+{
+  "name": "Sesamöl",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 23,
+    "vitaa": 12,
+    "cartb": 140,
+    "vite": 0.37,
+    "tocpha": 0.37,
+    "tocphb": 0.61,
+    "tocphg": 3.1,
+    "tocphd": 0.04,
+    "vitk": 15.5,
+    "vitk1": 15.5
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "k": 1,
+    "ca": 15,
+    "fe": 0.03,
+    "zn": 0.005
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 14.8,
+    "f16_0": 8.4,
+    "f17_0": 0.1,
+    "f18_0": 5.5,
+    "f20_0": 0.7,
+    "f22_0": 0.1,
+    "fams": 40.4,
+    "f18_1cn7": 1.6,
+    "f18_1cn9": 38.5,
+    "f20_1cn9": 0.3,
+    "fapu": 40.4,
+    "fapun3": 0.4,
+    "f18_3cn3": 0.4,
+    "fapun6": 40,
+    "f18_2cn6": 40,
+    "fax": 0.3
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 1.4
+  },
+  "extra": {}
+}

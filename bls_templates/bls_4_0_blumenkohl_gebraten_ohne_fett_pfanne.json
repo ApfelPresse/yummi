@@ -1,0 +1,112 @@
+{
+  "name": "Blumenkohl gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 71,
+    "water": 79.7,
+    "protein": 4.848,
+    "fat": 0.56,
+    "carbs": 10.65,
+    "fiber": 5.8,
+    "alcohol": null,
+    "sugarAlcohols": 5.97
+  },
+  "vitamins": {
+    "vita": 5,
+    "vitaa": 3,
+    "cartb": 29,
+    "carotpaxb": 7,
+    "vite": 0.16,
+    "tocpha": 0.16,
+    "tocphg": 0.4,
+    "toctra": 0.12,
+    "vitk": 42,
+    "vitk1": 42,
+    "thia": 0.097,
+    "ribf": 0.171,
+    "niaeq": 2.273,
+    "nia": 1.14,
+    "pantac": 1.87,
+    "vitb6": 170.69,
+    "biot": 3.1,
+    "fol": 106,
+    "folfd": 106,
+    "vitc": 102.4
+  },
+  "minerals": {
+    "nacl": 0.06,
+    "na": 24,
+    "cld": 38,
+    "k": 560,
+    "ca": 48,
+    "mg": 28,
+    "p": 98,
+    "fe": 0.82,
+    "zn": 0.62,
+    "id": 1.3,
+    "cu": 70,
+    "mn": 320,
+    "fd": 18,
+    "cr": 1,
+    "mo": 12.6
+  },
+  "carbohydrates": {
+    "cho": 10.65,
+    "mnsac": 3.64,
+    "glus": 1.7,
+    "frus": 1.94,
+    "disac": 0.68,
+    "sucs": 0.68,
+    "sugar": 4.32,
+    "starch": 0.364
+  },
+  "fibers": {
+    "fibt": 5.8,
+    "fibhmw": 5.8,
+    "fibins": 4.8,
+    "fibsol": 1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 5.97,
+    "mantl": 5.92,
+    "xyltl": 0.052
+  },
+  "fattyAcids": {
+    "fasat": 0.085,
+    "f14_0": 0.001,
+    "f16_0": 0.078,
+    "f18_0": 0.0036,
+    "f20_0": 0.0022,
+    "fams": 0.0134,
+    "f16_1cn7": 0.0076,
+    "f18_1cn9": 0.0036,
+    "f20_1cn9": 0.0022,
+    "fapu": 0.276,
+    "fapun3": 0.218,
+    "f18_3cn3": 0.218,
+    "fapun6": 0.058,
+    "f18_2cn6": 0.058
+  },
+  "aminoAcids": {
+    "aae9": 1.776,
+    "arg": 0.22,
+    "his": 0.098,
+    "ile": 0.22,
+    "leu": 0.34,
+    "lys": 0.28,
+    "met": 0.096,
+    "phe": 0.154,
+    "thr": 0.22,
+    "trp": 0.068,
+    "tyr": 0.07,
+    "val": 0.3
+  },
+  "otherNutrients": {
+    "nt": 0.776
+  },
+  "extra": {}
+}

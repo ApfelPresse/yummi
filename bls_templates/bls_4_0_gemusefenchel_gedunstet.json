@@ -1,0 +1,111 @@
+{
+  "name": "Gemüsefenchel gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 26,
+    "water": 92.6,
+    "protein": 1.373,
+    "fat": 0.196,
+    "carbs": 3.37,
+    "fiber": 3.2,
+    "alcohol": null,
+    "sugarAlcohols": 0.45
+  },
+  "vitamins": {
+    "vita": 21,
+    "vitaa": 10,
+    "cartb": 124,
+    "carotpaxb": 0.9,
+    "vite": 0.06,
+    "tocpha": 0.06,
+    "tocphb": 0.005,
+    "tocphg": 0.005,
+    "tocphd": 0.005,
+    "toctra": 0.04,
+    "vitk": 61.6,
+    "vitk1": 61.6,
+    "thia": 0.029,
+    "ribf": 0.102,
+    "niaeq": 0.403,
+    "nia": 0.186,
+    "pantac": 0.26,
+    "vitb6": 52,
+    "biot": 0.1,
+    "fol": 25,
+    "folfd": 25,
+    "vitc": 7.059
+  },
+  "minerals": {
+    "nacl": 0.065,
+    "na": 26,
+    "cld": 206,
+    "k": 387,
+    "ca": 36.928,
+    "mg": 11.438,
+    "p": 50,
+    "fe": 0.72,
+    "zn": 0.216,
+    "id": 1,
+    "cu": 20,
+    "mn": 80,
+    "cr": 1,
+    "mo": 1.04
+  },
+  "carbohydrates": {
+    "cho": 3.37,
+    "mnsac": 2.87,
+    "glus": 2.21,
+    "frus": 0.66,
+    "disac": 0.05,
+    "mals": 0.05,
+    "sugar": 2.92
+  },
+  "fibers": {
+    "fibt": 3.2,
+    "fibhmw": 3.2,
+    "fibins": 2.5,
+    "fibsol": 0.8
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.45,
+    "mantl": 0.31,
+    "sortl": 0.14
+  },
+  "fattyAcids": {
+    "fasat": 0.043,
+    "f14_0": 0.002,
+    "f16_0": 0.028,
+    "f18_0": 0.013,
+    "fams": 0.051,
+    "f16_1cn7": 0.002,
+    "f18_1cn7": 0.004,
+    "f18_1cn9": 0.044,
+    "f20_1cn9": 0.001,
+    "fapu": 0.036,
+    "fapun3": 0.003,
+    "f18_3cn3": 0.003,
+    "fapun6": 0.033,
+    "f18_2cn6": 0.033,
+    "fax": 0.006
+  },
+  "aminoAcids": {
+    "aae9": 0.328,
+    "arg": 0.115,
+    "cyste": 0.007,
+    "his": 0.05,
+    "lys": 0.022,
+    "met": 0.016,
+    "phe": 0.078,
+    "trp": 0.013,
+    "tyr": 0.035,
+    "val": 0.149
+  },
+  "otherNutrients": {
+    "nt": 0.22
+  },
+  "extra": {}
+}

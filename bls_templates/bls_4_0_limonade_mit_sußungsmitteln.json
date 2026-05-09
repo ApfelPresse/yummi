@@ -1,0 +1,46 @@
+{
+  "name": "Limonade mit Süßungsmitteln",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 1,
+    "water": 100.16,
+    "protein": null,
+    "fat": null,
+    "carbs": 0.1,
+    "fiber": null,
+    "alcohol": 0.002,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.025,
+    "na": 10,
+    "cld": 0.9,
+    "ca": 2,
+    "p": 0.8,
+    "s": 0.6,
+    "fe": 0.002,
+    "zn": 0.006,
+    "cu": 2.8,
+    "mn": 72.9
+  },
+  "carbohydrates": {
+    "cho": 0.1,
+    "mnsac": 0.017,
+    "glus": 0.009,
+    "frus": 0.008,
+    "disac": 0.083,
+    "sucs": 0.083,
+    "sugar": 0.1
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

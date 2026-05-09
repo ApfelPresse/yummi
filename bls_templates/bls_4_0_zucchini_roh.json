@@ -1,0 +1,93 @@
+{
+  "name": "Zucchini roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 22,
+    "water": 95.7,
+    "protein": 1.3,
+    "fat": 0.287,
+    "carbs": 3,
+    "fiber": 1.1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 35,
+    "vitaa": 17,
+    "cartb": 200,
+    "carotpaxb": 20,
+    "vite": 0.31,
+    "tocpha": 0.31,
+    "vitk": 32,
+    "vitk1": 32,
+    "thia": 0.03,
+    "ribf": 0.02,
+    "niaeq": 0.408,
+    "nia": 0.408,
+    "pantac": 0.172,
+    "vitb6": 60,
+    "biot": 3.5,
+    "fol": 42,
+    "folfd": 42,
+    "vitc": 17.6
+  },
+  "minerals": {
+    "nacl": 0.0027,
+    "na": 1.08,
+    "cld": 24.2,
+    "k": 257.64,
+    "ca": 20.4,
+    "mg": 28.61,
+    "p": 44.99,
+    "fe": 0.4,
+    "zn": 0.24,
+    "id": 2.56,
+    "cu": 60,
+    "mn": 90,
+    "cr": 2
+  },
+  "carbohydrates": {
+    "cho": 3,
+    "mnsac": 2,
+    "glus": 1,
+    "frus": 1,
+    "disac": 0.05,
+    "sugar": 2,
+    "starch": 1
+  },
+  "fibers": {
+    "fibt": 1.1,
+    "fibhmw": 1.1,
+    "fibins": 0.8,
+    "fibsol": 0.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.068,
+    "f12_0": 0.0018,
+    "f16_0": 0.059,
+    "f18_0": 0.0074,
+    "fams": 0.026,
+    "f16_1cn7": 0.0018,
+    "f18_1cn9": 0.024,
+    "fapu": 0.139,
+    "fapun3": 0.087,
+    "f18_3cn3": 0.087,
+    "fapun6": 0.052,
+    "f18_2cn6": 0.052
+  },
+  "aminoAcids": {
+    "ala": 0.1,
+    "asp": 0.2,
+    "glu": 0.3,
+    "ser": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

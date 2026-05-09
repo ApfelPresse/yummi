@@ -1,0 +1,103 @@
+{
+  "name": "Gurke geschmort ohne Fett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 18,
+    "water": 96.5,
+    "protein": 1.155,
+    "fat": 0.218,
+    "carbs": 2.17,
+    "fiber": 1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 22,
+    "vitaa": 11,
+    "cartb": 120,
+    "carotpaxb": 26,
+    "vite": 0.033,
+    "tocpha": 0.033,
+    "tocphb": 0.011,
+    "tocphg": 0.044,
+    "toctra": 0.088,
+    "vitk": 35,
+    "vitk1": 35,
+    "thia": 0.034,
+    "ribf": 0.022,
+    "niaeq": 0.258,
+    "nia": 0.191,
+    "pantac": 0.29,
+    "vitb6": 7.05,
+    "biot": 0.8,
+    "fol": 11,
+    "folfd": 11,
+    "vitc": 7.033
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 41,
+    "k": 197,
+    "ca": 21,
+    "mg": 13,
+    "p": 17.016,
+    "fe": 0.251,
+    "zn": 0.13,
+    "id": 2,
+    "cu": 34,
+    "mn": 110,
+    "fd": 12
+  },
+  "carbohydrates": {
+    "cho": 2.17,
+    "mnsac": 2.17,
+    "glus": 1.18,
+    "frus": 0.98,
+    "gals": 0.0063,
+    "sugar": 2.17
+  },
+  "fibers": {
+    "fibt": 1,
+    "fibhmw": 1,
+    "fibins": 0.9,
+    "fibsol": 0.1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.073,
+    "f12_0": 0.0003,
+    "f14_0": 0.0014,
+    "f16_0": 0.064,
+    "f18_0": 0.007,
+    "fams": 0.005,
+    "f16_1cn7": 0.0003,
+    "f18_1cn9": 0.005,
+    "fapu": 0.096,
+    "fapun3": 0.046,
+    "f18_3cn3": 0.046,
+    "fapun6": 0.05,
+    "f18_2cn6": 0.05
+  },
+  "aminoAcids": {
+    "aae9": 0.151,
+    "arg": 0.049,
+    "his": 0.009,
+    "ile": 0.021,
+    "leu": 0.027,
+    "lys": 0.028,
+    "met": 0.007,
+    "phe": 0.015,
+    "thr": 0.017,
+    "trp": 0.004,
+    "val": 0.023
+  },
+  "otherNutrients": {
+    "nt": 0.185
+  },
+  "extra": {}
+}

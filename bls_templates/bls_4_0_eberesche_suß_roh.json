@@ -1,0 +1,105 @@
+{
+  "name": "Eberesche süß, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 73,
+    "water": 71.7,
+    "protein": 1.3,
+    "fat": 1.2,
+    "carbs": 12.7,
+    "fiber": 6,
+    "alcohol": null,
+    "sugarAlcohols": 8.5
+  },
+  "vitamins": {
+    "vita": 6,
+    "vitaa": 3,
+    "cartb": 31,
+    "carotpaxb": 5,
+    "vite": 0.5,
+    "tocpha": 0.5,
+    "tocphb": 0.003,
+    "tocphg": 0.006,
+    "tocphd": 0.002,
+    "vitk": 5,
+    "vitk1": 5,
+    "thia": 0.011,
+    "ribf": 0.04,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "pantac": 0.1,
+    "vitb6": 60,
+    "biot": 1.1,
+    "fol": 5,
+    "folfd": 5,
+    "vitc": 78.8
+  },
+  "minerals": {
+    "nacl": 0.0015,
+    "na": 0.6,
+    "cld": 5,
+    "k": 247,
+    "ca": 48,
+    "mg": 22,
+    "p": 36,
+    "fe": 1,
+    "zn": 0.2,
+    "id": 1,
+    "cu": 90,
+    "mn": 1600,
+    "fd": 30,
+    "cr": 3,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 12.7,
+    "mnsac": 4,
+    "glus": 2.1,
+    "frus": 1.9,
+    "disac": 0.075,
+    "sucs": 0.075,
+    "sugar": 4.1,
+    "starch": 0.1
+  },
+  "fibers": {
+    "fibt": 6,
+    "fibhmw": 6,
+    "fibins": 5.1,
+    "fibsol": 0.9
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 8.5,
+    "sortl": 8.5
+  },
+  "fattyAcids": {
+    "fasat": 0.1,
+    "f16_0": 0.1,
+    "fams": 0.1,
+    "f18_1cn9": 0.1,
+    "fapu": 0.8,
+    "fapun3": 0.4,
+    "f18_3cn3": 0.4,
+    "fapun6": 0.4,
+    "f18_2cn6": 0.4
+  },
+  "aminoAcids": {
+    "aae9": 0.3,
+    "ala": 0.1,
+    "arg": 0.1,
+    "asp": 0.2,
+    "glu": 0.2,
+    "gly": 0.1,
+    "leu": 0.1,
+    "lys": 0.1,
+    "ser": 0.1,
+    "val": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

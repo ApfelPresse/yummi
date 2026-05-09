@@ -1,0 +1,87 @@
+{
+  "name": "Fruchtsaftgetränk Apfel",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 33,
+    "water": 91.4,
+    "protein": 0.029,
+    "fat": null,
+    "carbs": 8.174,
+    "fiber": 0.093,
+    "alcohol": 0.009,
+    "sugarAlcohols": 0.3
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 4,
+    "carotpaxb": 13,
+    "vite": 0.024,
+    "tocpha": 0.024,
+    "thia": 0.001,
+    "ribf": 0.0014,
+    "niaeq": 0.06,
+    "nia": 0.06,
+    "pantac": 0.02,
+    "vitb6": 3,
+    "biot": 0.3
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 2,
+    "k": 28,
+    "ca": 8,
+    "mg": 3,
+    "p": 2,
+    "s": 1.2,
+    "fe": 0.1,
+    "zn": 0.01,
+    "id": 1,
+    "cu": 10,
+    "mn": 10,
+    "fd": 20,
+    "mo": 0.22
+  },
+  "carbohydrates": {
+    "cho": 8.174,
+    "mnsac": 2.534,
+    "glus": 0.664,
+    "frus": 1.87,
+    "disac": 5.34,
+    "sucs": 5.34,
+    "sugar": 7.874
+  },
+  "fibers": {
+    "fibt": 0.093
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.3,
+    "sortl": 0.3
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.009,
+    "ala": 0.001,
+    "arg": 0.001,
+    "asp": 0.008,
+    "glu": 0.003,
+    "his": 0.001,
+    "ile": 0.001,
+    "leu": 0.002,
+    "lys": 0.002,
+    "phe": 0.001,
+    "pro": 0.001,
+    "ser": 0.001,
+    "thr": 0.001,
+    "val": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.005
+  },
+  "extra": {}
+}

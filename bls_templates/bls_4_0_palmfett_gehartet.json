@@ -1,0 +1,62 @@
+{
+  "name": "Palmfett gehärtet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 6.98,
+    "tocpha": 6.98,
+    "tocphb": 0.05,
+    "tocphg": 0.2,
+    "tocphd": 0.05,
+    "toctra": 6.74,
+    "vitk": 1.5,
+    "vitk1": 1.5
+  },
+  "minerals": {
+    "cld": 0.1,
+    "mg": 0.2,
+    "p": 0.9,
+    "fe": 0.02,
+    "cu": 2
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 52.2,
+    "f6_0": 0.009,
+    "f8_0": 0.02,
+    "f10_0": 0.03,
+    "f12_0": 0.46,
+    "f14_0": 0.932,
+    "f16_0": 40,
+    "f18_0": 10.2,
+    "f20_0": 0.4,
+    "f22_0": 0.08,
+    "f24_0": 0.08,
+    "fams": 27.1,
+    "f18_1cn7": 0.942,
+    "f18_1cn9": 26.1,
+    "f20_1cn9": 0.09,
+    "fapu": 1.04,
+    "fapun6": 1.04,
+    "f18_2cn6": 1.04,
+    "fax": 13.7
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

@@ -1,0 +1,113 @@
+{
+  "name": "Selleriepüree",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 23,
+    "water": 93,
+    "protein": 1.11,
+    "fat": 0.6,
+    "carbs": 1.9,
+    "fiber": 2.3,
+    "alcohol": null,
+    "sugarAlcohols": 0.12
+  },
+  "vitamins": {
+    "vita": 11,
+    "vitaa": 8,
+    "retol": 4,
+    "cartb": 44,
+    "vite": 0.3,
+    "tocpha": 0.3,
+    "vitk": 23,
+    "vitk1": 22,
+    "vitk2": 0.53,
+    "thia": 0.03,
+    "ribf": 0.05,
+    "niaeq": 0.8,
+    "nia": 0.6,
+    "pantac": 0.3,
+    "vitb6": 100,
+    "fol": 28,
+    "folfd": 28,
+    "vitb12": 0.02,
+    "vitc": 6
+  },
+  "minerals": {
+    "nacl": 0.55,
+    "na": 220,
+    "cld": 190,
+    "k": 290,
+    "ca": 30,
+    "mg": 10,
+    "p": 40,
+    "s": 1,
+    "fe": 0.3,
+    "zn": 0.25,
+    "id": 2,
+    "cu": 70,
+    "mn": 110,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 1.9,
+    "mnsac": 0.34,
+    "glus": 0.23,
+    "frus": 0.08,
+    "gals": 0.03,
+    "disac": 1.2,
+    "sucs": 1.09,
+    "lacs": 0.1,
+    "sugar": 1.5,
+    "starch": 0.241
+  },
+  "fibers": {
+    "fibt": 2.3
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.12,
+    "sortl": 0.12
+  },
+  "fattyAcids": {
+    "fasat": 0.2,
+    "f10_0": 0.001,
+    "f16_0": 0.2,
+    "fams": 0.1,
+    "f16_1cn7": 0.0001,
+    "f18_1cn9": 0.1,
+    "fapu": 0.12,
+    "fapun3": 0.011,
+    "f18_3cn3": 0.011,
+    "fapun6": 0.11,
+    "f18_2cn6": 0.11
+  },
+  "aminoAcids": {
+    "aae9": 0.32,
+    "ala": 0.06,
+    "arg": 0.03,
+    "asp": 0.11,
+    "cyste": 0.002,
+    "glu": 0.22,
+    "gly": 0.03,
+    "his": 0.02,
+    "ile": 0.04,
+    "leu": 0.06,
+    "lys": 0.06,
+    "met": 0.01,
+    "phe": 0.04,
+    "pro": 0.04,
+    "ser": 0.04,
+    "thr": 0.03,
+    "trp": 0.01,
+    "tyr": 0.02,
+    "val": 0.05
+  },
+  "otherNutrients": {
+    "chorl": 1,
+    "nt": 0.2
+  },
+  "extra": {}
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Schnittlauch getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 169,
+    "water": 2,
+    "protein": 21.2,
+    "fat": 3.5,
+    "carbs": null,
+    "fiber": 26.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk": 1720,
+    "vitk1": 1720,
+    "thia": 0.9,
+    "ribf": 1.5,
+    "niaeq": 9.8,
+    "nia": 5.9,
+    "pantac": 2.11,
+    "vitb6": 2000,
+    "fol": 108,
+    "folfd": 108,
+    "vitc": 660
+  },
+  "minerals": {
+    "nacl": 0.175,
+    "na": 70,
+    "k": 2960,
+    "ca": 813,
+    "mg": 640,
+    "p": 518,
+    "fe": 20,
+    "zn": 5.12,
+    "cu": 686,
+    "mn": 1350
+  },
+  "carbohydrates": {},
+  "fibers": {
+    "fibt": 26.2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.591,
+    "f14_0": 0.017,
+    "f16_0": 0.528,
+    "f18_0": 0.046
+  },
+  "aminoAcids": {
+    "aae9": 6.5,
+    "ala": 0.957,
+    "arg": 1.53,
+    "asp": 1.96,
+    "glu": 4.39,
+    "gly": 1.05,
+    "his": 0.366,
+    "ile": 0.899,
+    "leu": 1.26,
+    "lys": 1.06,
+    "met": 0.231,
+    "phe": 0.682,
+    "pro": 1.4,
+    "ser": 0.957,
+    "thr": 0.831,
+    "trp": 0.237,
+    "tyr": 0.614,
+    "val": 0.936
+  },
+  "otherNutrients": {
+    "nt": 3.4
+  },
+  "extra": {}
+}

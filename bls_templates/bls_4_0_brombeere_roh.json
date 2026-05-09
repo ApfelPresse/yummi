@@ -1,0 +1,108 @@
+{
+  "name": "Brombeere roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 49,
+    "water": 87.5,
+    "protein": 1.3,
+    "fat": 0.2,
+    "carbs": 10.2,
+    "fiber": 3.2,
+    "alcohol": null,
+    "sugarAlcohols": 4.76
+  },
+  "vitamins": {
+    "vita": 19,
+    "vitaa": 10,
+    "cartb": 105,
+    "carotpaxb": 21,
+    "vite": 1.43,
+    "tocpha": 1.43,
+    "tocphb": 0.04,
+    "tocphg": 1.42,
+    "tocphd": 0.85,
+    "vitk": 19.8,
+    "vitk1": 19.8,
+    "thia": 0.03,
+    "ribf": 0.04,
+    "niaeq": 0.417,
+    "nia": 0.4,
+    "pantac": 0.22,
+    "vitb6": 50,
+    "biot": 1.6,
+    "fol": 44,
+    "folfd": 44,
+    "vitc": 17
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 11,
+    "k": 154,
+    "ca": 16,
+    "mg": 17,
+    "p": 24,
+    "fe": 0.6,
+    "zn": 0.18,
+    "id": 1,
+    "cu": 90,
+    "mn": 740,
+    "fd": 16,
+    "cr": 1,
+    "mo": 3
+  },
+  "carbohydrates": {
+    "cho": 10.2,
+    "mnsac": 5.4,
+    "glus": 3,
+    "frus": 2.4,
+    "gals": 0.0107,
+    "disac": 0.05,
+    "mals": 0.05,
+    "sugar": 5.4
+  },
+  "fibers": {
+    "fibt": 3.2,
+    "fibhmw": 3.2,
+    "fibins": 2.2,
+    "fibsol": 1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 4.76,
+    "sortl": 4.76,
+    "xyltl": 0.003
+  },
+  "fattyAcids": {
+    "fapu": 0.1,
+    "fapun6": 0.1,
+    "f18_2cn6": 0.1
+  },
+  "aminoAcids": {
+    "aae9": 0.262,
+    "ala": 0.125,
+    "arg": 0.06,
+    "asp": 0.204,
+    "cyste": 0.005,
+    "glu": 0.184,
+    "gly": 0.047,
+    "his": 0.024,
+    "ile": 0.014,
+    "leu": 0.056,
+    "lys": 0.048,
+    "phe": 0.036,
+    "pro": 0.03,
+    "ser": 0.07,
+    "thr": 0.038,
+    "trp": 0.001,
+    "tyr": 0.028,
+    "val": 0.045
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

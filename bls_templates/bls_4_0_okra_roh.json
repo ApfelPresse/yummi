@@ -1,0 +1,87 @@
+{
+  "name": "Okra roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 32,
+    "water": 86,
+    "protein": 2.1,
+    "fat": 0.2,
+    "carbs": 3.05,
+    "fiber": 4.9,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 65.632,
+    "vitaa": 32.816,
+    "cartb": 393.792,
+    "vitk": 31.3,
+    "vitk1": 31.3,
+    "thia": 0.07,
+    "ribf": 0.08,
+    "niaeq": 1.25,
+    "nia": 0.8,
+    "pantac": 0.245,
+    "vitb6": 200,
+    "vitc": 36
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "k": 199,
+    "ca": 64,
+    "mg": 37.5,
+    "p": 75,
+    "fe": 0.653,
+    "zn": 1.3,
+    "id": 5.6,
+    "cu": 14,
+    "mn": 140
+  },
+  "carbohydrates": {
+    "cho": 3.05,
+    "mnsac": 2.35,
+    "glus": 1.47,
+    "frus": 0.88,
+    "disac": 0.7,
+    "sucs": 0.7,
+    "sugar": 3.05
+  },
+  "fibers": {
+    "fibt": 4.9,
+    "fibhmw": 4.9,
+    "fibins": 4.55,
+    "fibsol": 0.35
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.597,
+    "ala": 0.086,
+    "arg": 0.101,
+    "asp": 0.3,
+    "cyste": 0.04,
+    "glu": 0.277,
+    "gly": 0.078,
+    "his": 0.043,
+    "ile": 0.068,
+    "leu": 0.11,
+    "lys": 0.093,
+    "met": 0.025,
+    "phe": 0.065,
+    "pro": 0.091,
+    "ser": 0.084,
+    "thr": 0.078,
+    "trp": 0.027,
+    "tyr": 0.044,
+    "val": 0.088
+  },
+  "otherNutrients": {
+    "nt": 0.336
+  },
+  "extra": {}
+}

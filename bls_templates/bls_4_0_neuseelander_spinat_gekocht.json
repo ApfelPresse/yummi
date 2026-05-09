@@ -1,0 +1,94 @@
+{
+  "name": "Neuseeländer Spinat gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 18,
+    "water": 93.3,
+    "protein": 1.8,
+    "fat": 0.2,
+    "carbs": 1.11,
+    "fiber": 2.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 929,
+    "vitaa": 464,
+    "cartb": 5379,
+    "carotpaxb": 386,
+    "vite": 3.953,
+    "tocpha": 3.953,
+    "tocphb": 0.0083,
+    "tocphg": 0.227,
+    "tocphd": 0.0051,
+    "vitk": 608,
+    "vitk1": 608,
+    "thia": 0.04,
+    "ribf": 0.14,
+    "niaeq": 0.5,
+    "nia": 0.5,
+    "pantac": 0.291,
+    "vitb6": 308,
+    "biot": 0.1,
+    "fol": 11,
+    "folfd": 11,
+    "vitc": 20
+  },
+  "minerals": {
+    "nacl": 0.382,
+    "na": 153,
+    "cld": 66,
+    "k": 130,
+    "ca": 73,
+    "mg": 43,
+    "p": 33,
+    "fe": 0.9,
+    "zn": 0.45,
+    "id": 4,
+    "cu": 118,
+    "mn": 784,
+    "fd": 92
+  },
+  "carbohydrates": {
+    "cho": 1.11,
+    "mnsac": 0.43,
+    "glus": 0.17,
+    "frus": 0.26,
+    "disac": 0.463,
+    "sucs": 0.463,
+    "sugar": 0.89,
+    "starch": 0.218
+  },
+  "fibers": {
+    "fibt": 2.2,
+    "fibhmw": 2.2,
+    "fibins": 1.6,
+    "fibsol": 0.6
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.036,
+    "f14_0": 0.005,
+    "f16_0": 0.029,
+    "f18_0": 0.002,
+    "fax": 0.102
+  },
+  "aminoAcids": {
+    "aae9": 0.6,
+    "arg": 0.1,
+    "ile": 0.1,
+    "leu": 0.1,
+    "lys": 0.1,
+    "phe": 0.1,
+    "thr": 0.1,
+    "val": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

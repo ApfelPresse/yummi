@@ -1,0 +1,99 @@
+{
+  "name": "Schalotte gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 53,
+    "water": 83.1,
+    "protein": 3.2,
+    "fat": 0.2,
+    "carbs": 5.1,
+    "fiber": 8.61,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.063,
+    "tocpha": 0.063,
+    "toctra": 0.19,
+    "vitk": 0.6,
+    "vitk1": 0.6,
+    "thia": 0.07,
+    "ribf": 0.06,
+    "niaeq": 1.3,
+    "nia": 0.6,
+    "pantac": 0.29,
+    "vitb6": 390,
+    "biot": 1.3,
+    "fol": 63.96,
+    "folfd": 63.96,
+    "vitc": 13
+  },
+  "minerals": {
+    "nacl": 0.042,
+    "na": 17,
+    "cld": 41,
+    "k": 408,
+    "ca": 48,
+    "mg": 19,
+    "p": 87,
+    "fe": 1.6,
+    "zn": 0.6,
+    "id": 3,
+    "cu": 110,
+    "mn": 320,
+    "fd": 67,
+    "cr": 2,
+    "mo": 3
+  },
+  "carbohydrates": {
+    "cho": 5.1,
+    "mnsac": 2.7,
+    "glus": 1.3,
+    "frus": 1.4,
+    "disac": 2.4,
+    "sucs": 1.9,
+    "mals": 0.5,
+    "sugar": 5.1
+  },
+  "fibers": {
+    "fibt": 8.61,
+    "fibhmw": 8.61,
+    "fibins": 4.3051,
+    "fibsol": 4.3051
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.026,
+    "f16_0": 0.024,
+    "f18_0": 0.002,
+    "fax": 0.084
+  },
+  "aminoAcids": {
+    "aae9": 1.21,
+    "ala": 0.179,
+    "arg": 0.287,
+    "asp": 0.367,
+    "glu": 0.821,
+    "gly": 0.197,
+    "his": 0.068,
+    "ile": 0.168,
+    "leu": 0.237,
+    "lys": 0.198,
+    "met": 0.043,
+    "phe": 0.129,
+    "pro": 0.262,
+    "ser": 0.179,
+    "thr": 0.156,
+    "trp": 0.041,
+    "tyr": 0.114,
+    "val": 0.17
+  },
+  "otherNutrients": {
+    "nt": 0.5
+  },
+  "extra": {}
+}

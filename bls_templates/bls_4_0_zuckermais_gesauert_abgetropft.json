@@ -1,0 +1,102 @@
+{
+  "name": "Zuckermais gesäuert, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 67,
+    "water": 78,
+    "protein": 2.563,
+    "fat": 0.962,
+    "carbs": 10.1,
+    "fiber": 2.4,
+    "alcohol": 0.018,
+    "sugarAlcohols": 0.28
+  },
+  "vitamins": {
+    "vita": 3.8,
+    "vitaa": 1.9,
+    "cartb": 22.79,
+    "vite": 0.038,
+    "tocpha": 0.038,
+    "vitk": 0.5,
+    "vitk1": 0.5,
+    "thia": 0.051,
+    "ribf": 0.045,
+    "niaeq": 0.807,
+    "nia": 0.59,
+    "pantac": 0.379,
+    "vitb6": 68,
+    "biot": 0.3,
+    "fol": 2.2,
+    "folfd": 2.2,
+    "vitc": 2.844
+  },
+  "minerals": {
+    "nacl": 1.19,
+    "na": 476,
+    "cld": 837,
+    "k": 98,
+    "ca": 7.3,
+    "mg": 11,
+    "p": 59,
+    "s": 2,
+    "fe": 0.21,
+    "zn": 0.37,
+    "cu": 70,
+    "mn": 160,
+    "mo": 0.2
+  },
+  "carbohydrates": {
+    "cho": 10.1,
+    "mnsac": 0.62,
+    "glus": 0.51,
+    "frus": 0.11,
+    "disac": 5.73,
+    "sucs": 5.556,
+    "mals": 0.174,
+    "sugar": 6.35,
+    "starch": 3.5
+  },
+  "fibers": {
+    "fibt": 2.4,
+    "fibhmw": 2.4,
+    "fibins": 1.7,
+    "fibsol": 0.7
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.28,
+    "sortl": 0.28
+  },
+  "fattyAcids": {
+    "fasat": 0.129,
+    "f16_0": 0.121,
+    "f18_0": 0.008,
+    "fams": 0.245,
+    "f18_1cn9": 0.245,
+    "fapu": 0.396,
+    "fapun3": 0.011,
+    "f18_3cn3": 0.011,
+    "fapun6": 0.385,
+    "f18_2cn6": 0.385
+  },
+  "aminoAcids": {
+    "aae9": 1.029,
+    "arg": 0.124,
+    "his": 0.067,
+    "ile": 0.101,
+    "leu": 0.273,
+    "lys": 0.101,
+    "met": 0.044,
+    "phe": 0.157,
+    "thr": 0.101,
+    "trp": 0.013,
+    "val": 0.172
+  },
+  "otherNutrients": {
+    "nt": 0.411
+  },
+  "extra": {}
+}

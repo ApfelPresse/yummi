@@ -1,0 +1,65 @@
+{
+  "name": "Nearwater/Aqua Plus Getränk, aromatisiert, ungesüßt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": null,
+    "water": 99.9,
+    "protein": 0.008,
+    "fat": null,
+    "carbs": null,
+    "fiber": 0.002,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.009,
+    "tocpha": 0.009,
+    "niaeq": 0.002,
+    "nia": 0.002,
+    "pantac": 0.003,
+    "vitb6": 1,
+    "vitc": 0.487
+  },
+  "minerals": {
+    "nacl": 0.0068,
+    "na": 2.7,
+    "cld": 3.3,
+    "k": 2,
+    "ca": 10,
+    "mg": 3.4,
+    "s": 1.8,
+    "fe": 0.002,
+    "id": 0.5,
+    "cu": 3,
+    "fd": 30,
+    "mo": 0.04
+  },
+  "carbohydrates": {},
+  "fibers": {
+    "fibt": 0.002
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.001,
+    "f16_0": 0.001,
+    "f18_0": 0.0001,
+    "fapu": 0.003,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.002,
+    "f18_2cn6": 0.002
+  },
+  "aminoAcids": {
+    "asp": 0.001,
+    "glu": 0.001,
+    "gly": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.001
+  },
+  "extra": {}
+}

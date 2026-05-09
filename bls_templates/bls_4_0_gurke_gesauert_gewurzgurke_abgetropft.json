@@ -1,0 +1,92 @@
+{
+  "name": "Gurke gesäuert (Gewürzgurke) abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 33,
+    "water": 90.6,
+    "protein": 0.9,
+    "fat": null,
+    "carbs": 5.52,
+    "fiber": 0.88,
+    "alcohol": null,
+    "sugarAlcohols": 0.028
+  },
+  "vitamins": {
+    "vita": 38,
+    "vitaa": 19,
+    "cartb": 230,
+    "vite": 0.31,
+    "tocpha": 0.31,
+    "tocphb": 0.013,
+    "tocphg": 0.13,
+    "tocphd": 0.01,
+    "vitk": 2.64,
+    "vitk2": 2.64,
+    "thia": 0.04,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "pantac": 0.09,
+    "biot": 1.4,
+    "fol": 14.6,
+    "folfd": 14.6
+  },
+  "minerals": {
+    "nacl": 1.135,
+    "na": 454,
+    "cld": 1185,
+    "k": 126.5,
+    "ca": 22,
+    "mg": 11.2,
+    "p": 22.3,
+    "fe": 0.25,
+    "zn": 0.1,
+    "cu": 31.5,
+    "mn": 73,
+    "cr": 1.1,
+    "mo": 2.8
+  },
+  "carbohydrates": {
+    "cho": 5.52,
+    "mnsac": 3.09,
+    "glus": 1.64,
+    "frus": 1.45,
+    "disac": 2.4,
+    "sucs": 2.4,
+    "sugar": 5.49
+  },
+  "fibers": {
+    "fibt": 0.88,
+    "fibhmw": 0.88,
+    "fibins": 0.68,
+    "fibsol": 0.2
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.028,
+    "mantl": 0.028
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.218,
+    "ala": 0.043,
+    "arg": 0.042,
+    "asp": 0.056,
+    "glu": 0.101,
+    "gly": 0.031,
+    "ile": 0.032,
+    "leu": 0.05,
+    "lys": 0.04,
+    "phe": 0.033,
+    "ser": 0.036,
+    "thr": 0.025,
+    "tyr": 0.024,
+    "val": 0.03
+  },
+  "otherNutrients": {
+    "nt": 0.14
+  },
+  "extra": {}
+}

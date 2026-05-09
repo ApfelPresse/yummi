@@ -1,0 +1,39 @@
+{
+  "name": "Wodka",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 225,
+    "water": 66.6,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": 32.1,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.005,
+    "ribf": 0.007
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "k": 1,
+    "p": 5,
+    "fe": 0.01,
+    "zn": 0.002,
+    "id": 1,
+    "cu": 10
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

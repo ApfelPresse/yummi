@@ -1,0 +1,103 @@
+{
+  "name": "Gurke roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 16,
+    "water": 97,
+    "protein": 1.062,
+    "fat": 0.2,
+    "carbs": 1.97,
+    "fiber": 0.9,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 24,
+    "vitaa": 12,
+    "cartb": 127,
+    "carotpaxb": 28,
+    "vite": 0.03,
+    "tocpha": 0.03,
+    "tocphb": 0.01,
+    "tocphg": 0.04,
+    "toctra": 0.08,
+    "vitk": 32,
+    "vitk1": 32,
+    "thia": 0.04,
+    "ribf": 0.02,
+    "niaeq": 0.267,
+    "nia": 0.2,
+    "pantac": 0.32,
+    "vitb6": 8.23,
+    "biot": 0.8,
+    "fol": 13,
+    "folfd": 13,
+    "vitc": 8
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 37,
+    "k": 181,
+    "ca": 19,
+    "mg": 12,
+    "p": 15.485,
+    "fe": 0.228,
+    "zn": 0.12,
+    "id": 2,
+    "cu": 31,
+    "mn": 100,
+    "fd": 11
+  },
+  "carbohydrates": {
+    "cho": 1.97,
+    "mnsac": 1.97,
+    "glus": 1.07,
+    "frus": 0.89,
+    "gals": 0.0058,
+    "sugar": 1.97
+  },
+  "fibers": {
+    "fibt": 0.9,
+    "fibhmw": 0.9,
+    "fibins": 0.8,
+    "fibsol": 0.1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.067,
+    "f12_0": 0.0003,
+    "f14_0": 0.0013,
+    "f16_0": 0.059,
+    "f18_0": 0.006,
+    "fams": 0.005,
+    "f16_1cn7": 0.0003,
+    "f18_1cn9": 0.005,
+    "fapu": 0.088,
+    "fapun3": 0.042,
+    "f18_3cn3": 0.042,
+    "fapun6": 0.046,
+    "f18_2cn6": 0.046
+  },
+  "aminoAcids": {
+    "aae9": 0.139,
+    "arg": 0.045,
+    "his": 0.008,
+    "ile": 0.019,
+    "leu": 0.025,
+    "lys": 0.026,
+    "met": 0.006,
+    "phe": 0.014,
+    "thr": 0.016,
+    "trp": 0.004,
+    "val": 0.021
+  },
+  "otherNutrients": {
+    "nt": 0.17
+  },
+  "extra": {}
+}

@@ -1,0 +1,108 @@
+{
+  "name": "Brombeere getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 305,
+    "water": 3.88,
+    "protein": 8.02,
+    "fat": 1.2,
+    "carbs": 63.1,
+    "fiber": 19.7,
+    "alcohol": null,
+    "sugarAlcohols": 29.4
+  },
+  "vitamins": {
+    "vita": 65,
+    "vitaa": 32,
+    "cartb": 324,
+    "carotpaxb": 130,
+    "vite": 8.825,
+    "tocpha": 8.825,
+    "tocphb": 0.247,
+    "tocphg": 8.764,
+    "tocphd": 5.246,
+    "vitk": 122.2,
+    "vitk1": 122.2,
+    "thia": 0.13,
+    "ribf": 0.222,
+    "niaeq": 2.355,
+    "nia": 2.222,
+    "pantac": 1.222,
+    "vitb6": 278,
+    "biot": 8.9,
+    "fol": 136,
+    "folfd": 136,
+    "vitc": 20.984
+  },
+  "minerals": {
+    "nacl": 0.015,
+    "na": 6,
+    "cld": 68,
+    "k": 950,
+    "ca": 99,
+    "mg": 105,
+    "p": 148,
+    "fe": 3.7,
+    "zn": 1.11,
+    "id": 6,
+    "cu": 560,
+    "mn": 4570,
+    "fd": 99,
+    "cr": 6,
+    "mo": 19
+  },
+  "carbohydrates": {
+    "cho": 63.1,
+    "mnsac": 33.4,
+    "glus": 18.5,
+    "frus": 14.8,
+    "gals": 0.066,
+    "disac": 0.31,
+    "mals": 0.31,
+    "sugar": 33.7
+  },
+  "fibers": {
+    "fibt": 19.7,
+    "fibhmw": 19.7,
+    "fibins": 13.6,
+    "fibsol": 6.2
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 29.4,
+    "sortl": 29.38,
+    "xyltl": 0.019
+  },
+  "fattyAcids": {
+    "fapu": 0.6,
+    "fapun6": 0.6,
+    "f18_2cn6": 0.6
+  },
+  "aminoAcids": {
+    "aae9": 2.016,
+    "ala": 0.961,
+    "arg": 0.461,
+    "asp": 1.569,
+    "cyste": 0.038,
+    "glu": 1.415,
+    "gly": 0.361,
+    "his": 0.185,
+    "ile": 0.108,
+    "leu": 0.431,
+    "lys": 0.369,
+    "phe": 0.277,
+    "pro": 0.231,
+    "ser": 0.538,
+    "thr": 0.292,
+    "trp": 0.008,
+    "tyr": 0.215,
+    "val": 0.346
+  },
+  "otherNutrients": {
+    "nt": 1.5
+  },
+  "extra": {}
+}

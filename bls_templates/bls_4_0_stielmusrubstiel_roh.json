@@ -1,0 +1,101 @@
+{
+  "name": "Stielmus/Rübstiel, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 18,
+    "water": 92.5,
+    "protein": 1.5,
+    "fat": 0.3,
+    "carbs": 0.81,
+    "fiber": 3.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 464,
+    "vitaa": 232,
+    "cartb": 2773,
+    "carotpaxb": 17,
+    "vite": 2.86,
+    "tocpha": 2.86,
+    "tocphg": 0.16,
+    "vitk": 129,
+    "vitk1": 129,
+    "thia": 0.07,
+    "ribf": 0.1,
+    "niaeq": 1,
+    "nia": 0.6,
+    "pantac": 0.38,
+    "vitb6": 263,
+    "biot": 1.3,
+    "fol": 194,
+    "folfd": 194,
+    "vitc": 60
+  },
+  "minerals": {
+    "nacl": 0.1,
+    "na": 40,
+    "k": 296,
+    "ca": 190,
+    "mg": 31,
+    "p": 42,
+    "fe": 1.1,
+    "zn": 0.19,
+    "cu": 220,
+    "mn": 466,
+    "cr": 2
+  },
+  "carbohydrates": {
+    "cho": 0.81,
+    "mnsac": 0.81,
+    "glus": 0.52,
+    "frus": 0.29,
+    "sugar": 0.81
+  },
+  "fibers": {
+    "fibt": 3.2,
+    "fibhmw": 3.2,
+    "fibins": 2.8,
+    "fibsol": 0.4
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.07,
+    "f8_0": 0.001,
+    "f10_0": 0.002,
+    "f12_0": 0.002,
+    "f14_0": 0.003,
+    "f16_0": 0.054,
+    "f18_0": 0.01,
+    "fax": 0.139
+  },
+  "aminoAcids": {
+    "aae9": 0.685,
+    "ala": 0.103,
+    "arg": 0.094,
+    "asp": 0.158,
+    "cyste": 0.017,
+    "glu": 0.204,
+    "gly": 0.09,
+    "his": 0.036,
+    "ile": 0.078,
+    "leu": 0.137,
+    "lys": 0.098,
+    "met": 0.034,
+    "phe": 0.092,
+    "pro": 0.071,
+    "ser": 0.061,
+    "thr": 0.082,
+    "trp": 0.026,
+    "tyr": 0.058,
+    "val": 0.102
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

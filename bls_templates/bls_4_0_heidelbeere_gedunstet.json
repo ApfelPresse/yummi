@@ -1,0 +1,112 @@
+{
+  "name": "Heidelbeere gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 64,
+    "water": 85.6,
+    "protein": 0.5,
+    "fat": 0.632,
+    "carbs": 10.21,
+    "fiber": 5.2,
+    "alcohol": null,
+    "sugarAlcohols": 0.002
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 4,
+    "cartb": 42,
+    "carotpaxb": 7,
+    "vite": 1.279,
+    "tocpha": 1.279,
+    "tocphg": 0.311,
+    "tocphd": 0.011,
+    "vitk": 17,
+    "vitk1": 17,
+    "thia": 0.033,
+    "ribf": 0.037,
+    "niaeq": 0.285,
+    "nia": 0.268,
+    "pantac": 0.2,
+    "vitb6": 6.2,
+    "biot": 1.4,
+    "fol": 6,
+    "folfd": 6,
+    "vitc": 16.674
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 5,
+    "k": 84,
+    "ca": 11,
+    "mg": 6,
+    "p": 14,
+    "fe": 0.745,
+    "zn": 0.147,
+    "id": 2,
+    "cu": 73,
+    "mn": 2130,
+    "fd": 2,
+    "cr": 1,
+    "mo": 3.41
+  },
+  "carbohydrates": {
+    "cho": 10.21,
+    "mnsac": 10.21,
+    "glus": 4.105,
+    "frus": 6.09,
+    "gals": 0.0113,
+    "sugar": 10.21
+  },
+  "fibers": {
+    "fibt": 5.2,
+    "fibhmw": 5.2,
+    "fibins": 3.7,
+    "fibsol": 1.5
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.002,
+    "xyltl": 0.002
+  },
+  "fattyAcids": {
+    "fasat": 0.0587,
+    "f16_0": 0.0404,
+    "f18_0": 0.0116,
+    "f20_0": 0.0068,
+    "fams": 0.1057,
+    "f18_1cn9": 0.1022,
+    "f20_1cn9": 0.0034,
+    "fapu": 0.4225,
+    "fapun3": 0.1939,
+    "f18_3cn3": 0.1939,
+    "fapun6": 0.2286,
+    "f18_2cn6": 0.2286,
+    "fax": 0.0039
+  },
+  "aminoAcids": {
+    "aae9": 0.15,
+    "ala": 0.034,
+    "arg": 0.082,
+    "asp": 0.064,
+    "cyste": 0.006,
+    "glu": 0.101,
+    "gly": 0.035,
+    "leu": 0.045,
+    "lys": 0.038,
+    "phe": 0.008,
+    "pro": 0.013,
+    "ser": 0.032,
+    "thr": 0.024,
+    "trp": 0.001,
+    "tyr": 0.003,
+    "val": 0.034
+  },
+  "otherNutrients": {
+    "nt": 0.165
+  },
+  "extra": {}
+}

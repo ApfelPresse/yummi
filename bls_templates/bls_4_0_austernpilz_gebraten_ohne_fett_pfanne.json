@@ -1,0 +1,98 @@
+{
+  "name": "Austernpilz gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 52,
+    "water": 82.32,
+    "protein": 5.43,
+    "fat": 0.361,
+    "carbs": 2.08,
+    "fiber": 9.59,
+    "alcohol": null,
+    "sugarAlcohols": 0.262
+  },
+  "vitamins": {
+    "vitd": 1.1,
+    "ergcal": 1.1,
+    "thia": 0.282,
+    "ribf": 0.444,
+    "niaeq": 16.724,
+    "nia": 15.574,
+    "pantac": 1.9,
+    "vitb6": 150,
+    "biot": 10.39,
+    "fol": 71,
+    "folfd": 71,
+    "vitc": 0.787
+  },
+  "minerals": {
+    "nacl": 0.025,
+    "na": 10,
+    "k": 415.6,
+    "ca": 20,
+    "mg": 21,
+    "p": 110,
+    "fe": 1,
+    "zn": 0.9,
+    "cu": 134,
+    "mn": 4410,
+    "cr": 0.5
+  },
+  "carbohydrates": {
+    "cho": 2.08,
+    "mnsac": 1.82,
+    "glus": 1.82,
+    "sugar": 1.82
+  },
+  "fibers": {
+    "fibt": 9.59,
+    "fibhmw": 9.59,
+    "fibins": 7.572,
+    "fibsol": 2.018
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.262,
+    "mantl": 0.262
+  },
+  "fattyAcids": {
+    "fasat": 0.0501,
+    "f14_0": 0.0015,
+    "f16_0": 0.0411,
+    "f18_0": 0.0075,
+    "fams": 0.0346,
+    "f16_1cn7": 0.0036,
+    "f18_1cn9": 0.031,
+    "fapu": 0.1597,
+    "fapun6": 0.1597,
+    "f18_2cn6": 0.1597
+  },
+  "aminoAcids": {
+    "aae9": 1.65,
+    "ala": 0.392,
+    "arg": 0.298,
+    "asp": 0.484,
+    "cyste": 0.046,
+    "glu": 1.036,
+    "gly": 0.207,
+    "his": 0.11,
+    "ile": 0.184,
+    "leu": 0.275,
+    "lys": 0.207,
+    "met": 0.069,
+    "phe": 0.184,
+    "pro": 0.069,
+    "ser": 0.207,
+    "thr": 0.23,
+    "trp": 0.069,
+    "tyr": 0.138,
+    "val": 0.323
+  },
+  "otherNutrients": {
+    "nt": 0.89
+  },
+  "extra": {}
+}

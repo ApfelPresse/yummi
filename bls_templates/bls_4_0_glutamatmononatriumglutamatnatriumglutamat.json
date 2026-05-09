@@ -1,0 +1,34 @@
+{
+  "name": "Glutamat/Mononatriumglutamat/Natriumglutamat",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": null,
+    "water": null,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 34,
+    "na": 13600
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "glu": 86.4
+  },
+  "otherNutrients": {
+    "nt": 8.3
+  },
+  "extra": {}
+}

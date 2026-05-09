@@ -1,0 +1,57 @@
+{
+  "name": "Rotwein halbtrocken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 84,
+    "water": 86.4,
+    "protein": null,
+    "fat": null,
+    "carbs": 1.77,
+    "fiber": null,
+    "alcohol": 10.79,
+    "sugarAlcohols": 0.028
+  },
+  "vitamins": {
+    "vite": 0.012,
+    "tocpha": 0.012,
+    "niaeq": 0.09,
+    "nia": 0.09,
+    "pantac": 0.05,
+    "fol": 1.9,
+    "folfd": 1.9
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 99.1,
+    "ca": 7.2,
+    "mg": 9.6,
+    "p": 17.9,
+    "fe": 0.285,
+    "zn": 0.08,
+    "cu": 14.5,
+    "mn": 125,
+    "cr": 1.4,
+    "mo": 0.3
+  },
+  "carbohydrates": {
+    "cho": 1.77,
+    "mnsac": 1.74,
+    "glus": 0.8,
+    "frus": 0.94,
+    "sugar": 1.74
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.028,
+    "sortl": 0.028
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Apfelpektin getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 186,
+    "water": 2.1,
+    "protein": 1.5,
+    "fat": null,
+    "carbs": 32,
+    "fiber": 24,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {},
+  "carbohydrates": {
+    "cho": 32,
+    "mnsac": 32,
+    "glus": 13,
+    "frus": 19,
+    "sugar": 32
+  },
+  "fibers": {
+    "fibt": 24
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

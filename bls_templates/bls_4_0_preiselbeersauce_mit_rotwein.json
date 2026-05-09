@@ -1,0 +1,110 @@
+{
+  "name": "Preiselbeersauce mit Rotwein",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 145,
+    "water": 64.4,
+    "protein": 0.476,
+    "fat": 0.289,
+    "carbs": 32.46,
+    "fiber": 0.854,
+    "alcohol": 1.08,
+    "sugarAlcohols": 0.01
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 3,
+    "carotpaxb": 1,
+    "vite": 0.323,
+    "tocpha": 0.323,
+    "tocphb": 0.001,
+    "tocphg": 0.101,
+    "tocphd": 0.004,
+    "vitk": 3,
+    "vitk1": 3,
+    "thia": 0.001,
+    "ribf": 0.01,
+    "niaeq": 0.04,
+    "nia": 0.04,
+    "pantac": 0.04,
+    "vitb6": 1,
+    "fol": 0.7,
+    "folfd": 0.7,
+    "vitc": 0.4
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 3,
+    "k": 78,
+    "ca": 12,
+    "mg": 9,
+    "p": 15,
+    "s": 4,
+    "fe": 0.224,
+    "zn": 0.08,
+    "id": 0.2,
+    "cu": 30,
+    "mn": 996,
+    "fd": 1,
+    "cr": 0.4,
+    "mo": 1.2
+  },
+  "carbohydrates": {
+    "cho": 32.46,
+    "mnsac": 23.8,
+    "glus": 11.74,
+    "frus": 12.06,
+    "gals": 0.0019,
+    "disac": 7.734,
+    "sucs": 7.734,
+    "sugar": 31.53,
+    "starch": 0.925
+  },
+  "fibers": {
+    "fibt": 0.854
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.01,
+    "sortl": 0.009,
+    "xyltl": 0.001
+  },
+  "fattyAcids": {
+    "fasat": 0.035,
+    "f16_0": 0.029,
+    "f18_0": 0.006,
+    "fams": 0.027,
+    "f16_1cn7": 0.003,
+    "f18_1cn9": 0.024,
+    "fapu": 0.067,
+    "fapun3": 0.029,
+    "f18_3cn3": 0.029,
+    "fapun6": 0.038,
+    "f18_2cn6": 0.038
+  },
+  "aminoAcids": {
+    "aae9": 0.065,
+    "ala": 0.015,
+    "arg": 0.035,
+    "asp": 0.028,
+    "cyste": 0.003,
+    "glu": 0.044,
+    "gly": 0.015,
+    "leu": 0.02,
+    "lys": 0.016,
+    "phe": 0.004,
+    "pro": 0.006,
+    "ser": 0.014,
+    "thr": 0.01,
+    "tyr": 0.001,
+    "val": 0.015
+  },
+  "otherNutrients": {
+    "nt": 0.076
+  },
+  "extra": {}
+}

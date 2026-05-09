@@ -1,0 +1,46 @@
+{
+  "name": "Brause",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 37,
+    "water": 91.237,
+    "protein": null,
+    "fat": null,
+    "carbs": 9,
+    "fiber": null,
+    "alcohol": 0.002,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.022,
+    "na": 9,
+    "cld": 0.8,
+    "ca": 2,
+    "p": 0.7,
+    "s": 0.5,
+    "fe": 0.002,
+    "zn": 0.005,
+    "cu": 2.5,
+    "mn": 66.4
+  },
+  "carbohydrates": {
+    "cho": 9,
+    "mnsac": 1.505,
+    "glus": 0.777,
+    "frus": 0.728,
+    "disac": 7.495,
+    "sucs": 7.495,
+    "sugar": 9
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

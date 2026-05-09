@@ -1,0 +1,39 @@
+{
+  "name": "Xylit Pulver (E 967)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 238,
+    "water": 0.4,
+    "protein": null,
+    "fat": null,
+    "carbs": 99,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": 99
+  },
+  "vitamins": {},
+  "minerals": {
+    "k": 290,
+    "ca": 270,
+    "mg": 100,
+    "p": 2.4,
+    "fe": 2.4,
+    "zn": 0.1
+  },
+  "carbohydrates": {
+    "cho": 99
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 99,
+    "xyltl": 99
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

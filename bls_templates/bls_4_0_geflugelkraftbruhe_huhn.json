@@ -1,0 +1,50 @@
+{
+  "name": "Geflügelkraftbrühe (Huhn)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 5,
+    "water": 98,
+    "protein": 0.5,
+    "fat": 0.3,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "cartb": 1,
+    "vite": 0.02,
+    "tocpha": 0.02,
+    "thia": 0.01,
+    "ribf": 0.03,
+    "niaeq": 0.2,
+    "nia": 0.2,
+    "vitb12": 0.1
+  },
+  "minerals": {
+    "nacl": 0.85,
+    "na": 340,
+    "k": 11,
+    "ca": 4,
+    "mg": 1,
+    "p": 4,
+    "fe": 0.1,
+    "zn": 0.04,
+    "id": 0.3,
+    "cu": 15,
+    "mn": 15
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.05
+  },
+  "extra": {}
+}

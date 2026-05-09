@@ -1,0 +1,90 @@
+{
+  "name": "Brennnessel gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 43,
+    "water": 84.961,
+    "protein": 6.768,
+    "fat": 0.56,
+    "carbs": 1.202,
+    "fiber": 2.983,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk": 484,
+    "vitk1": 484,
+    "vitc": 197.082
+  },
+  "minerals": {
+    "k": 325,
+    "ca": 691,
+    "mg": 61,
+    "p": 127,
+    "fe": 3.531,
+    "zn": 0.874,
+    "cu": 233,
+    "mn": 1170
+  },
+  "carbohydrates": {
+    "cho": 1.202,
+    "mnsac": 0.487,
+    "glus": 0.226,
+    "frus": 0.261,
+    "disac": 0.291,
+    "sucs": 0.291,
+    "sugar": 0.778,
+    "starch": 0.424
+  },
+  "fibers": {
+    "fibt": 2.983,
+    "fibhmw": 2.983,
+    "fibins": 1.717,
+    "fibsol": 1.266
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.083,
+    "f12_0": 0.0014,
+    "f14_0": 0.0009,
+    "f16_0": 0.073,
+    "f18_0": 0.0036,
+    "f20_0": 0.0045,
+    "fams": 0.014,
+    "f16_1cn7": 0.004,
+    "f18_1cn9": 0.01,
+    "fapu": 0.321,
+    "fapun3": 0.166,
+    "f18_3cn3": 0.166,
+    "fapun6": 0.155,
+    "f18_2cn6": 0.155
+  },
+  "aminoAcids": {
+    "aae9": 2.012,
+    "ala": 0.295,
+    "arg": 0.33,
+    "asp": 0.491,
+    "cyste": 0.062,
+    "glu": 0.587,
+    "gly": 0.265,
+    "his": 0.093,
+    "ile": 0.227,
+    "leu": 0.435,
+    "lys": 0.381,
+    "met": 0.109,
+    "phe": 0.262,
+    "pro": 0.239,
+    "ser": 0.248,
+    "thr": 0.237,
+    "tyr": 0.215,
+    "val": 0.268
+  },
+  "otherNutrients": {
+    "nt": 1.083
+  },
+  "extra": {}
+}

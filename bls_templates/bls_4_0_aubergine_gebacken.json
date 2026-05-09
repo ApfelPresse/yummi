@@ -1,0 +1,109 @@
+{
+  "name": "Aubergine gebacken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 22,
+    "water": 92.1,
+    "protein": 0.671,
+    "fat": 0.212,
+    "carbs": 3.56,
+    "fiber": 1.6,
+    "alcohol": null,
+    "sugarAlcohols": 0.13
+  },
+  "vitamins": {
+    "vita": 7.63,
+    "vitaa": 3.82,
+    "cartb": 45.79,
+    "vite": 0.035,
+    "tocpha": 0.035,
+    "vitk": 1,
+    "vitk1": 1,
+    "thia": 0.04,
+    "ribf": 0.05,
+    "niaeq": 0.804,
+    "nia": 0.671,
+    "pantac": 0.244,
+    "vitb6": 72,
+    "biot": 2,
+    "fol": 34,
+    "folfd": 34,
+    "vitc": 3.849
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 65,
+    "k": 206,
+    "ca": 9,
+    "mg": 14.7,
+    "p": 25.2,
+    "fe": 0.235,
+    "zn": 0.13,
+    "id": 0.9,
+    "cu": 45,
+    "mn": 176
+  },
+  "carbohydrates": {
+    "cho": 3.56,
+    "mnsac": 2.92,
+    "glus": 1.93,
+    "frus": 0.99,
+    "disac": 0.247,
+    "sucs": 0.129,
+    "mals": 0.118,
+    "sugar": 3.17,
+    "starch": 0.259
+  },
+  "fibers": {
+    "fibt": 1.6,
+    "fibhmw": 1.6,
+    "fibins": 1.5,
+    "fibsol": 0.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.13,
+    "sortl": 0.13
+  },
+  "fattyAcids": {
+    "fasat": 0.046,
+    "f16_0": 0.034,
+    "f18_0": 0.012,
+    "fams": 0.022,
+    "f16_1cn7": 0.0027,
+    "f18_1cn9": 0.019,
+    "fapu": 0.103,
+    "fapun3": 0.018,
+    "f18_3cn3": 0.018,
+    "fapun6": 0.085,
+    "f18_2cn6": 0.085
+  },
+  "aminoAcids": {
+    "aae9": 0.313,
+    "ala": 0.035,
+    "arg": 0.045,
+    "asp": 0.118,
+    "cyste": 0.007,
+    "glu": 0.135,
+    "gly": 0.031,
+    "his": 0.012,
+    "ile": 0.038,
+    "leu": 0.069,
+    "lys": 0.045,
+    "met": 0.005,
+    "phe": 0.032,
+    "pro": 0.019,
+    "ser": 0.035,
+    "thr": 0.04,
+    "trp": 0.008,
+    "val": 0.064
+  },
+  "otherNutrients": {
+    "nt": 0.107
+  },
+  "extra": {}
+}

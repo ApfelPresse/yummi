@@ -1,0 +1,65 @@
+{
+  "name": "Sherry sweet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 211,
+    "water": 53,
+    "protein": 0.1,
+    "fat": null,
+    "carbs": 36.7,
+    "fiber": null,
+    "alcohol": 8.9,
+    "sugarAlcohols": 0.019
+  },
+  "vitamins": {
+    "vite": 0.008,
+    "tocpha": 0.008,
+    "tocphb": 0.003,
+    "ribf": 0.01,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "pantac": 0.01,
+    "vitb6": 10,
+    "biot": 0.7,
+    "fol": 1.3,
+    "folfd": 1.3
+  },
+  "minerals": {
+    "nacl": 0.045,
+    "na": 18,
+    "cld": 7,
+    "k": 37,
+    "ca": 5,
+    "mg": 3,
+    "p": 16,
+    "s": 9,
+    "fe": 0.27,
+    "zn": 0.141,
+    "cu": 30,
+    "mn": 10,
+    "cr": 2.02,
+    "mo": 0.2
+  },
+  "carbohydrates": {
+    "cho": 36.7,
+    "mnsac": 36.7,
+    "glus": 18.7,
+    "frus": 18,
+    "sugar": 36.7
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.019,
+    "sortl": 0.019
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.01
+  },
+  "extra": {}
+}

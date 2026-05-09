@@ -1,0 +1,109 @@
+{
+  "name": "Zuckermais Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 79,
+    "water": 80.2,
+    "protein": 2.71,
+    "fat": 1.94,
+    "carbs": 10.84,
+    "fiber": 3.59,
+    "alcohol": null,
+    "sugarAlcohols": 0.095
+  },
+  "vitamins": {
+    "vita": 7,
+    "vitaa": 3,
+    "cartb": 19,
+    "carotpaxb": 41,
+    "vite": 0.13,
+    "tocpha": 0.13,
+    "tocphg": 0.34,
+    "thia": 0.04,
+    "ribf": 0.11,
+    "niaeq": 1.57,
+    "nia": 1.2,
+    "pantac": 0.17,
+    "vitb6": 89,
+    "biot": 0.76,
+    "fol": 55.1,
+    "folfd": 55.1
+  },
+  "minerals": {
+    "nacl": 0.3725,
+    "na": 149,
+    "k": 188,
+    "ca": 2.9,
+    "mg": 18,
+    "p": 56.4,
+    "fe": 0.26,
+    "zn": 0.3,
+    "cu": 33.5,
+    "mn": 92.5,
+    "cr": 0.6,
+    "mo": 2.4
+  },
+  "carbohydrates": {
+    "cho": 10.84,
+    "mnsac": 0.76,
+    "glus": 0.3,
+    "frus": 0.46,
+    "disac": 5.46,
+    "sucs": 5.46,
+    "sugar": 6.22,
+    "starch": 4.52
+  },
+  "fibers": {
+    "fibt": 3.59,
+    "fibhmw": 3.59,
+    "fibins": 2.61,
+    "fibsol": 0.98
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.095,
+    "sortl": 0.095
+  },
+  "fattyAcids": {
+    "fasat": 0.384,
+    "f16_0": 0.302,
+    "f18_0": 0.0636,
+    "f22_0": 0.018,
+    "fams": 0.676,
+    "f18_1cn9": 0.676,
+    "fapu": 0.696,
+    "fapun3": 0.0164,
+    "f18_3cn3": 0.0164,
+    "fapun6": 0.68,
+    "f18_2cn6": 0.68,
+    "fax": 0.0178
+  },
+  "aminoAcids": {
+    "aae9": 0.973,
+    "ala": 0.292,
+    "arg": 0.106,
+    "asp": 0.156,
+    "cyste": 0.038,
+    "glu": 0.485,
+    "gly": 0.106,
+    "his": 0.063,
+    "ile": 0.084,
+    "leu": 0.303,
+    "lys": 0.08,
+    "met": 0.075,
+    "phe": 0.119,
+    "pro": 0.224,
+    "ser": 0.132,
+    "thr": 0.098,
+    "trp": 0.022,
+    "tyr": 0.11,
+    "val": 0.129
+  },
+  "otherNutrients": {
+    "nt": 0.43
+  },
+  "extra": {}
+}

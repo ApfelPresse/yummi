@@ -1,0 +1,110 @@
+{
+  "name": "Cocktail, Touch Down",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 82,
+    "water": 83,
+    "protein": 0.3,
+    "fat": 0.1,
+    "carbs": 7.8,
+    "fiber": 0.1,
+    "alcohol": 6.6,
+    "sugarAlcohols": 0.002
+  },
+  "vitamins": {
+    "vita": 15,
+    "vitaa": 7,
+    "cartb": 83,
+    "carotpaxb": 14,
+    "vite": 0.1,
+    "tocpha": 0.1,
+    "tocphg": 0.01,
+    "thia": 0.011,
+    "ribf": 0.04,
+    "niaeq": 0.6,
+    "nia": 0.6,
+    "pantac": 0.08,
+    "vitb6": 10,
+    "fol": 6,
+    "folfd": 6,
+    "vitc": 13.294
+  },
+  "minerals": {
+    "nacl": 0.02,
+    "na": 8,
+    "cld": 2,
+    "k": 84,
+    "ca": 12,
+    "p": 10,
+    "s": 2,
+    "fe": 0.1,
+    "zn": 0.04,
+    "id": 1,
+    "cu": 10,
+    "mn": 10,
+    "fd": 1,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 7.8,
+    "mnsac": 3.2,
+    "glus": 1.7,
+    "frus": 1.5,
+    "gals": 0.0002,
+    "disac": 4.6,
+    "sucs": 4.6,
+    "sugar": 7.8
+  },
+  "fibers": {
+    "fibt": 0.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.002,
+    "sortl": 0.002
+  },
+  "fattyAcids": {
+    "fasat": 0.021,
+    "f14_0": 0.0002,
+    "f16_0": 0.019,
+    "f18_0": 0.002,
+    "fams": 0.014,
+    "f16_1cn7": 0.002,
+    "f18_1cn7": 0.005,
+    "f18_1cn9": 0.007,
+    "fapu": 0.045,
+    "fapun3": 0.019,
+    "f18_3cn3": 0.019,
+    "fapun6": 0.026,
+    "f18_2cn6": 0.025,
+    "f20_2cn6": 0.001
+  },
+  "aminoAcids": {
+    "aae9": 0.072,
+    "ala": 0.018,
+    "arg": 0.01,
+    "asp": 0.035,
+    "cyste": 0.003,
+    "glu": 0.054,
+    "gly": 0.015,
+    "his": 0.004,
+    "ile": 0.008,
+    "leu": 0.012,
+    "lys": 0.016,
+    "met": 0.003,
+    "phe": 0.009,
+    "pro": 0.009,
+    "ser": 0.012,
+    "thr": 0.008,
+    "trp": 0.003,
+    "tyr": 0.005,
+    "val": 0.009
+  },
+  "otherNutrients": {
+    "nt": 0.05
+  },
+  "extra": {}
+}

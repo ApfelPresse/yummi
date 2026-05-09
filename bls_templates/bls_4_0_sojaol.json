@@ -1,0 +1,54 @@
+{
+  "name": "Sojaöl",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 9.53,
+    "tocpha": 9.53,
+    "tocphb": 0.61,
+    "tocphg": 3.1,
+    "tocphd": 0.04,
+    "vitk": 188,
+    "vitk1": 188
+  },
+  "minerals": {
+    "fe": 0.1,
+    "zn": 0.0041,
+    "cu": 10
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 14.7,
+    "f16_0": 10.55,
+    "f18_0": 3.65,
+    "f20_0": 0.5,
+    "fams": 19.05,
+    "f16_1cn7": 0.5,
+    "f18_1cn9": 18.55,
+    "fapu": 60.55,
+    "fapun3": 7.7,
+    "f18_3cn3": 7.7,
+    "fapun6": 52.85,
+    "f18_2cn6": 52.85
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 1.6
+  },
+  "extra": {}
+}

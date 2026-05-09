@@ -1,0 +1,73 @@
+{
+  "name": "Kalte Ente (Bowle aus Wein und Sekt)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 74,
+    "water": 89.7,
+    "protein": 0.1,
+    "fat": null,
+    "carbs": 1.55,
+    "fiber": null,
+    "alcohol": 9.38,
+    "sugarAlcohols": 0.002
+  },
+  "vitamins": {
+    "vite": 0.003,
+    "tocpha": 0.003,
+    "tocphb": 0.002,
+    "vitk": 0.008,
+    "vitk1": 0.008,
+    "thia": 0.028,
+    "niaeq": 0.08,
+    "nia": 0.03,
+    "pantac": 0.08,
+    "biot": 0.687,
+    "fol": 1.9,
+    "folfd": 1.9,
+    "vitc": 1.9
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 5,
+    "k": 55.3,
+    "ca": 7.7,
+    "mg": 6.9,
+    "p": 16.7,
+    "s": 16,
+    "fe": 0.13,
+    "zn": 0.05,
+    "cu": 10.3,
+    "mn": 78.7,
+    "fd": 26,
+    "cr": 1.5,
+    "mo": 0.08
+  },
+  "carbohydrates": {
+    "cho": 1.55,
+    "mnsac": 1.55,
+    "glus": 0.73,
+    "frus": 0.82,
+    "sugar": 1.55
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.002,
+    "sortl": 0.002
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.0033,
+    "glu": 0.005,
+    "pro": 0.016,
+    "trp": 0.0033
+  },
+  "otherNutrients": {
+    "nt": 0.016
+  },
+  "extra": {}
+}

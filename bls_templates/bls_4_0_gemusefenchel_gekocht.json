@@ -1,0 +1,111 @@
+{
+  "name": "Gemüsefenchel gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 27,
+    "water": 92.6,
+    "protein": 1.4,
+    "fat": 0.2,
+    "carbs": 3.43,
+    "fiber": 3.4,
+    "alcohol": null,
+    "sugarAlcohols": 0.46
+  },
+  "vitamins": {
+    "vita": 24,
+    "vitaa": 12,
+    "cartb": 143,
+    "carotpaxb": 1,
+    "vite": 0.07,
+    "tocpha": 0.07,
+    "tocphb": 0.006,
+    "tocphg": 0.006,
+    "tocphd": 0.006,
+    "toctra": 0.04,
+    "vitk": 62.8,
+    "vitk1": 62.8,
+    "thia": 0.023,
+    "ribf": 0.079,
+    "niaeq": 0.361,
+    "nia": 0.144,
+    "pantac": 0.23,
+    "vitb6": 43,
+    "biot": 0.1,
+    "fol": 21,
+    "folfd": 21,
+    "vitc": 5.8
+  },
+  "minerals": {
+    "nacl": 0.055,
+    "na": 22,
+    "cld": 215,
+    "k": 219,
+    "ca": 39.76,
+    "mg": 7.778,
+    "p": 51,
+    "fe": 0.61,
+    "zn": 0.183,
+    "id": 1,
+    "cu": 20,
+    "mn": 80,
+    "cr": 1,
+    "mo": 1.08
+  },
+  "carbohydrates": {
+    "cho": 3.43,
+    "mnsac": 2.92,
+    "glus": 2.25,
+    "frus": 0.67,
+    "disac": 0.05,
+    "mals": 0.05,
+    "sugar": 2.97
+  },
+  "fibers": {
+    "fibt": 3.4,
+    "fibhmw": 3.4,
+    "fibins": 2.6,
+    "fibsol": 0.8
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.46,
+    "mantl": 0.32,
+    "sortl": 0.14
+  },
+  "fattyAcids": {
+    "fasat": 0.044,
+    "f14_0": 0.002,
+    "f16_0": 0.029,
+    "f18_0": 0.013,
+    "fams": 0.052,
+    "f16_1cn7": 0.002,
+    "f18_1cn7": 0.004,
+    "f18_1cn9": 0.045,
+    "f20_1cn9": 0.001,
+    "fapu": 0.037,
+    "fapun3": 0.003,
+    "f18_3cn3": 0.003,
+    "fapun6": 0.034,
+    "f18_2cn6": 0.034,
+    "fax": 0.006
+  },
+  "aminoAcids": {
+    "aae9": 0.334,
+    "arg": 0.117,
+    "cyste": 0.007,
+    "his": 0.051,
+    "lys": 0.022,
+    "met": 0.016,
+    "phe": 0.08,
+    "trp": 0.013,
+    "tyr": 0.036,
+    "val": 0.152
+  },
+  "otherNutrients": {
+    "nt": 0.224
+  },
+  "extra": {}
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Korinthe (Weinbeere getrocknet)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 309,
+    "water": 13.8,
+    "protein": 2.2,
+    "fat": 1,
+    "carbs": 67.512,
+    "fiber": 5.4,
+    "alcohol": null,
+    "sugarAlcohols": 0.892
+  },
+  "vitamins": {
+    "carotpaxb": 2,
+    "vite": 0.29,
+    "tocpha": 0.29,
+    "tocphb": 0.04,
+    "tocphg": 0.08,
+    "tocphd": 0.002,
+    "toctra": 0.01,
+    "vitk": 4,
+    "vitk1": 4,
+    "thia": 0.11,
+    "ribf": 0.01,
+    "niaeq": 0.9,
+    "nia": 0.7,
+    "pantac": 0.09,
+    "vitb6": 200,
+    "biot": 11,
+    "fol": 49.4,
+    "folfd": 49.4,
+    "vitc": 1
+  },
+  "minerals": {
+    "nacl": 0.0249,
+    "na": 9.96,
+    "cld": 28.1,
+    "k": 837.9,
+    "ca": 69.8,
+    "mg": 34.8,
+    "p": 101,
+    "s": 34,
+    "fe": 1.88,
+    "zn": 0.31,
+    "id": 3,
+    "cu": 451,
+    "mn": 500,
+    "fd": 62,
+    "cr": 10,
+    "mo": 3.62
+  },
+  "carbohydrates": {
+    "cho": 67.512,
+    "mnsac": 65.5,
+    "glus": 32.5,
+    "frus": 33,
+    "disac": 1.12,
+    "sucs": 0.4,
+    "mals": 0.72,
+    "sugar": 66.62
+  },
+  "fibers": {
+    "fibt": 5.4,
+    "fibhmw": 5.4,
+    "fibins": 3.8,
+    "fibsol": 1.6
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.892,
+    "sortl": 0.892
+  },
+  "fattyAcids": {
+    "fasat": 0.2,
+    "f16_0": 0.2,
+    "fapu": 0.5,
+    "fapun3": 0.1,
+    "f18_3cn3": 0.1,
+    "fapun6": 0.4,
+    "f18_2cn6": 0.4
+  },
+  "aminoAcids": {
+    "aae9": 0.445,
+    "ala": 0.097,
+    "arg": 0.162,
+    "asp": 0.272,
+    "cyste": 0.036,
+    "glu": 0.485,
+    "gly": 0.065,
+    "his": 0.081,
+    "ile": 0.016,
+    "leu": 0.045,
+    "lys": 0.049,
+    "met": 0.074,
+    "phe": 0.045,
+    "pro": 0.074,
+    "ser": 0.104,
+    "thr": 0.061,
+    "trp": 0.013,
+    "tyr": 0.039,
+    "val": 0.061
+  },
+  "otherNutrients": {
+    "nt": 0.352
+  },
+  "extra": {}
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Sauerampfer roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 25,
+    "water": 89.166,
+    "protein": 3.19,
+    "fat": 0.36,
+    "carbs": 1.16,
+    "fiber": 1.95,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitc": 117
+  },
+  "minerals": {
+    "k": 287,
+    "ca": 58,
+    "mg": 33,
+    "p": 51,
+    "fe": 2.08,
+    "zn": 0.58,
+    "cu": 90,
+    "mn": 950
+  },
+  "carbohydrates": {
+    "cho": 1.16,
+    "mnsac": 0.491,
+    "glus": 0.227,
+    "frus": 0.264,
+    "disac": 0.232,
+    "sucs": 0.232,
+    "sugar": 0.723,
+    "starch": 0.437
+  },
+  "fibers": {
+    "fibt": 1.95,
+    "fibhmw": 1.95,
+    "fibins": 1.24,
+    "fibsol": 0.71
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.036,
+    "f12_0": 0.0021,
+    "f14_0": 0.0003,
+    "f16_0": 0.031,
+    "f18_0": 0.0021,
+    "f20_0": 0.0003,
+    "fams": 0.018,
+    "f16_1cn7": 0.0059,
+    "f18_1cn9": 0.012,
+    "fapu": 0.189,
+    "fapun3": 0.131,
+    "f18_3cn3": 0.131,
+    "fapun6": 0.058,
+    "f18_2cn6": 0.058
+  },
+  "aminoAcids": {
+    "aae9": 0.948,
+    "ala": 0.139,
+    "arg": 0.155,
+    "asp": 0.232,
+    "cyste": 0.029,
+    "glu": 0.277,
+    "gly": 0.125,
+    "his": 0.044,
+    "ile": 0.107,
+    "leu": 0.205,
+    "lys": 0.18,
+    "met": 0.051,
+    "phe": 0.123,
+    "pro": 0.113,
+    "ser": 0.117,
+    "thr": 0.112,
+    "tyr": 0.101,
+    "val": 0.126
+  },
+  "otherNutrients": {
+    "nt": 0.51
+  },
+  "extra": {}
+}

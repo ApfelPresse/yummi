@@ -1,0 +1,112 @@
+{
+  "name": "Weißkraut gedünstet (mit Fett und Salz)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 58,
+    "water": 89,
+    "protein": 1.009,
+    "fat": 3.71,
+    "carbs": 3.83,
+    "fiber": 2.2,
+    "alcohol": 0.001,
+    "sugarAlcohols": 0.1
+  },
+  "vitamins": {
+    "vita": 6,
+    "vitaa": 3,
+    "cartb": 31,
+    "carotpaxb": 6,
+    "vite": 0.744,
+    "tocpha": 0.744,
+    "tocphb": 0.002,
+    "tocphg": 0.992,
+    "tocphd": 0.033,
+    "toctra": 0.032,
+    "vitk": 68,
+    "vitk1": 68,
+    "thia": 0.15,
+    "ribf": 0.01,
+    "niaeq": 0.2,
+    "nia": 0.2,
+    "pantac": 0.13,
+    "vitb6": 54,
+    "fol": 24,
+    "folfd": 24,
+    "vitc": 20.2
+  },
+  "minerals": {
+    "nacl": 0.23,
+    "na": 92,
+    "cld": 158,
+    "k": 189,
+    "ca": 34,
+    "mg": 9,
+    "p": 26,
+    "s": 1,
+    "fe": 0.3,
+    "zn": 0.12,
+    "id": 2,
+    "cu": 20,
+    "mn": 140,
+    "mo": 3
+  },
+  "carbohydrates": {
+    "cho": 3.83,
+    "mnsac": 3.09,
+    "glus": 1.72,
+    "frus": 1.37,
+    "disac": 0.638,
+    "sucs": 0.637,
+    "mals": 0.001,
+    "sugar": 3.73
+  },
+  "fibers": {
+    "fibt": 2.2
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.1,
+    "sortl": 0.1
+  },
+  "fattyAcids": {
+    "fasat": 0.27,
+    "f16_0": 0.18,
+    "f18_0": 0.06,
+    "f20_0": 0.02,
+    "f22_0": 0.01,
+    "fams": 2.06,
+    "f16_1cn7": 0.01,
+    "f18_1cn9": 2,
+    "f20_1cn9": 0.04,
+    "f22_1cn9": 0.01,
+    "fapu": 1.05,
+    "fapun3": 0.36,
+    "f18_3cn3": 0.36,
+    "fapun6": 0.69,
+    "f18_2cn6": 0.69,
+    "fax": 0.11
+  },
+  "aminoAcids": {
+    "aae9": 0.224,
+    "arg": 0.075,
+    "cyste": 0.019,
+    "his": 0.018,
+    "ile": 0.028,
+    "leu": 0.04,
+    "lys": 0.048,
+    "met": 0.01,
+    "phe": 0.022,
+    "thr": 0.027,
+    "trp": 0.001,
+    "tyr": 0.001,
+    "val": 0.03
+  },
+  "otherNutrients": {
+    "chorl": 0.074,
+    "nt": 0.161
+  },
+  "extra": {}
+}

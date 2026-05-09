@@ -1,0 +1,75 @@
+{
+  "name": "Glasnudeln aus Mungbohnenstärke, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 92,
+    "water": 74.62,
+    "protein": 0.07,
+    "fat": 0.01,
+    "carbs": 22.236,
+    "fiber": 1.57,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "ribf": 0.65,
+    "niaeq": 0.023,
+    "nia": 0.006,
+    "biot": 2
+  },
+  "minerals": {
+    "nacl": 0.0092,
+    "na": 3.69,
+    "cld": 2,
+    "k": 1.37,
+    "ca": 13.03,
+    "mg": 2.72,
+    "p": 5.51,
+    "fe": 0.2509,
+    "zn": 0.2132,
+    "id": 3.94,
+    "cu": 5.25,
+    "mn": 75.29,
+    "fd": 12
+  },
+  "carbohydrates": {
+    "cho": 22.236,
+    "starch": 22.236
+  },
+  "fibers": {
+    "fibt": 1.57,
+    "fibhmw": 0.728,
+    "fibins": 0.389,
+    "fibsol": 0.339
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.025,
+    "ala": 0.003,
+    "arg": 0.005,
+    "asp": 0.007,
+    "glu": 0.011,
+    "gly": 0.002,
+    "his": 0.002,
+    "ile": 0.003,
+    "leu": 0.005,
+    "lys": 0.004,
+    "met": 0.001,
+    "phe": 0.004,
+    "pro": 0.003,
+    "ser": 0.003,
+    "thr": 0.002,
+    "trp": 0.001,
+    "tyr": 0.002,
+    "val": 0.003
+  },
+  "otherNutrients": {
+    "nt": 0.011
+  },
+  "extra": {}
+}

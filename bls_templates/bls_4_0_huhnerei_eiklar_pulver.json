@@ -1,0 +1,76 @@
+{
+  "name": "Hühnerei Eiklar, Pulver",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 338,
+    "water": 9.02,
+    "protein": 81.1,
+    "fat": 0.12,
+    "carbs": 3.1,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.037,
+    "ribf": 2.05,
+    "niaeq": 17.4,
+    "nia": 0.7,
+    "pantac": 1.96,
+    "vitb6": 24,
+    "biot": 57,
+    "fol": 96,
+    "folfd": 96,
+    "vitb12": 0.53
+  },
+  "minerals": {
+    "nacl": 3.55,
+    "na": 1420,
+    "k": 1070,
+    "ca": 84,
+    "mg": 72,
+    "p": 110,
+    "fe": 0.9,
+    "zn": 0.15,
+    "id": 26,
+    "mn": 287
+  },
+  "carbohydrates": {
+    "cho": 3.1,
+    "mnsac": 3.1,
+    "glus": 3.1,
+    "sugar": 3.1
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 36.1,
+    "ala": 4.7,
+    "arg": 4.4,
+    "asp": 8.2,
+    "cyste": 2.1,
+    "glu": 10.8,
+    "gly": 2.8,
+    "his": 1.8,
+    "ile": 4.6,
+    "leu": 6.8,
+    "lys": 5.5,
+    "met": 2.8,
+    "phe": 4.7,
+    "pro": 3.1,
+    "ser": 5.6,
+    "thr": 3.7,
+    "trp": 1,
+    "tyr": 3.1,
+    "val": 5.2
+  },
+  "otherNutrients": {
+    "nt": 12.368
+  },
+  "extra": {}
+}

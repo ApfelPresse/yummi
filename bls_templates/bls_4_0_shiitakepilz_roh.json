@@ -1,0 +1,83 @@
+{
+  "name": "Shiitakepilz roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 30,
+    "water": 89.74,
+    "protein": 2.5,
+    "fat": 0.2,
+    "carbs": 2.38,
+    "fiber": 4.17,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.001,
+    "ribf": 0.22,
+    "niaeq": 2.92,
+    "nia": 2.74,
+    "vitb6": 160,
+    "biot": 6.05,
+    "fol": 12.4,
+    "folfd": 12.4
+  },
+  "minerals": {
+    "nacl": 0.0025,
+    "na": 1,
+    "k": 243,
+    "ca": 1,
+    "mg": 14.1,
+    "p": 76,
+    "fe": 0.14,
+    "zn": 0.76,
+    "cu": 50,
+    "mn": 170
+  },
+  "carbohydrates": {
+    "cho": 2.38,
+    "mnsac": 2.38,
+    "glus": 2.38,
+    "sugar": 2.38
+  },
+  "fibers": {
+    "fibt": 4.17,
+    "fibhmw": 4.17,
+    "fibins": 3.29,
+    "fibsol": 0.88
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fapu": 0.1,
+    "fapun6": 0.1,
+    "f18_2cn6": 0.1
+  },
+  "aminoAcids": {
+    "aae9": 0.743,
+    "ala": 0.104,
+    "arg": 0.127,
+    "asp": 0.19,
+    "cyste": 0.024,
+    "glu": 0.355,
+    "gly": 0.091,
+    "his": 0.056,
+    "ile": 0.079,
+    "leu": 0.133,
+    "lys": 0.122,
+    "met": 0.029,
+    "phe": 0.091,
+    "pro": 0.09,
+    "ser": 0.103,
+    "thr": 0.098,
+    "trp": 0.011,
+    "tyr": 0.265,
+    "val": 0.124
+  },
+  "otherNutrients": {
+    "nt": 0.4
+  },
+  "extra": {}
+}

@@ -1,0 +1,106 @@
+{
+  "name": "Pfirsichkompott",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 58,
+    "water": 83.4,
+    "protein": 0.6,
+    "fat": 0.092,
+    "carbs": 12.96,
+    "fiber": 1.4,
+    "alcohol": null,
+    "sugarAlcohols": 0.86
+  },
+  "vitamins": {
+    "vita": 15,
+    "vitaa": 8,
+    "cartb": 57,
+    "carotpaxb": 71,
+    "vite": 0.356,
+    "tocpha": 0.356,
+    "tocphg": 0.008,
+    "toctra": 0.017,
+    "vitk": 3.2,
+    "vitk1": 3.2,
+    "thia": 0.018,
+    "ribf": 0.029,
+    "niaeq": 0.774,
+    "nia": 0.774,
+    "pantac": 0.106,
+    "vitb6": 20,
+    "biot": 2,
+    "fol": 5,
+    "folfd": 5,
+    "vitc": 5.853
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 3,
+    "k": 166,
+    "ca": 6,
+    "mg": 7,
+    "p": 17,
+    "s": 0.4,
+    "fe": 0.239,
+    "zn": 0.11,
+    "id": 1,
+    "cu": 72,
+    "mn": 60,
+    "fd": 10,
+    "mo": 0.01
+  },
+  "carbohydrates": {
+    "cho": 12.96,
+    "mnsac": 3.9,
+    "glus": 1.92,
+    "frus": 1.98,
+    "disac": 8.201,
+    "sucs": 8.201,
+    "sugar": 12.1
+  },
+  "fibers": {
+    "fibt": 1.4
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.86,
+    "mantl": 0.14,
+    "sortl": 0.72
+  },
+  "fattyAcids": {
+    "fasat": 0.008,
+    "f16_0": 0.0074,
+    "f18_0": 0.001,
+    "fams": 0.028,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.027,
+    "fapu": 0.037,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.036,
+    "f18_2cn6": 0.036
+  },
+  "aminoAcids": {
+    "aae9": 0.074,
+    "ala": 0.02,
+    "arg": 0.013,
+    "asp": 0.283,
+    "cyste": 0.004,
+    "glu": 0.04,
+    "gly": 0.008,
+    "leu": 0.02,
+    "lys": 0.02,
+    "pro": 0.003,
+    "ser": 0.026,
+    "thr": 0.017,
+    "val": 0.017
+  },
+  "otherNutrients": {
+    "nt": 0.129
+  },
+  "extra": {}
+}

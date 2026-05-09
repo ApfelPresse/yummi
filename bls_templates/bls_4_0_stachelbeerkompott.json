@@ -1,0 +1,112 @@
+{
+  "name": "Stachelbeerkompott",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 94,
+    "water": 76.1,
+    "protein": 0.63,
+    "fat": 0.108,
+    "carbs": 21.467,
+    "fiber": 2.123,
+    "alcohol": null,
+    "sugarAlcohols": 1.878
+  },
+  "vitamins": {
+    "vita": 7,
+    "vitaa": 4,
+    "cartb": 42,
+    "carotpaxb": 4,
+    "vite": 0.439,
+    "tocpha": 0.439,
+    "tocphg": 0.014,
+    "toctra": 0.014,
+    "vitk": 5,
+    "vitk1": 5,
+    "thia": 0.009,
+    "ribf": 0.013,
+    "niaeq": 0.279,
+    "nia": 0.162,
+    "pantac": 0.13,
+    "vitb6": 10,
+    "biot": 1,
+    "fol": 9.7,
+    "folfd": 9.7,
+    "vitc": 17.628
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 1,
+    "k": 144,
+    "ca": 22,
+    "mg": 7,
+    "p": 22,
+    "s": 0.4,
+    "fe": 0.287,
+    "zn": 0.11,
+    "id": 1,
+    "cu": 77,
+    "mn": 110,
+    "fd": 8,
+    "cr": 1,
+    "mo": 0.01
+  },
+  "carbohydrates": {
+    "cho": 21.467,
+    "mnsac": 4.566,
+    "glus": 2.17,
+    "frus": 2.396,
+    "disac": 15.023,
+    "sucs": 14.901,
+    "mals": 0.122,
+    "sugar": 19.589
+  },
+  "fibers": {
+    "fibt": 2.123
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.878,
+    "sortl": 1.878
+  },
+  "fattyAcids": {
+    "fasat": 0.0099,
+    "f16_0": 0.0078,
+    "f18_0": 0.0021,
+    "fams": 0.011,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.0105,
+    "fapu": 0.0576,
+    "fapun3": 0.0148,
+    "f18_3cn3": 0.0148,
+    "fapun6": 0.0428,
+    "f18_2cn6": 0.0428
+  },
+  "aminoAcids": {
+    "aae9": 0.185,
+    "ala": 0.056,
+    "arg": 0.033,
+    "asp": 0.078,
+    "cyste": 0.006,
+    "glu": 0.108,
+    "gly": 0.029,
+    "his": 0.014,
+    "ile": 0.017,
+    "leu": 0.036,
+    "lys": 0.035,
+    "phe": 0.023,
+    "pro": 0.021,
+    "ser": 0.039,
+    "thr": 0.024,
+    "trp": 0.007,
+    "tyr": 0.018,
+    "val": 0.029
+  },
+  "otherNutrients": {
+    "nt": 0.101
+  },
+  "extra": {}
+}

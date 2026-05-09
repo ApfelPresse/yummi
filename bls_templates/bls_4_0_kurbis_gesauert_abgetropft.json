@@ -1,0 +1,103 @@
+{
+  "name": "Kürbis gesäuert, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 112,
+    "water": 73.8,
+    "protein": 1.042,
+    "fat": 0.123,
+    "carbs": 24.22,
+    "fiber": 3.449,
+    "alcohol": 0.018,
+    "sugarAlcohols": 0.006
+  },
+  "vitamins": {
+    "vita": 84,
+    "vitaa": 42,
+    "cartb": 495.56,
+    "carotpaxb": 15,
+    "vite": 1.164,
+    "tocpha": 1.164,
+    "vitk": 4,
+    "vitk1": 4,
+    "thia": 0.02,
+    "ribf": 0.03,
+    "niaeq": 0.46,
+    "nia": 0.21,
+    "pantac": 0.206,
+    "vitb6": 42,
+    "biot": 0.1,
+    "fol": 10,
+    "folfd": 10,
+    "vitc": 3.445
+  },
+  "minerals": {
+    "nacl": 0.438,
+    "na": 175,
+    "cld": 307,
+    "k": 64,
+    "ca": 14,
+    "mg": 7,
+    "p": 38,
+    "fe": 0.1,
+    "zn": 0.11,
+    "id": 1,
+    "cu": 70,
+    "mn": 60
+  },
+  "carbohydrates": {
+    "cho": 24.22,
+    "mnsac": 4.14,
+    "glus": 2.38,
+    "frus": 1.76,
+    "disac": 19.518,
+    "sucs": 19.483,
+    "mals": 0.035,
+    "sugar": 23.66,
+    "olsac": 0.013,
+    "starch": 0.543
+  },
+  "fibers": {
+    "fibt": 3.449,
+    "fibhmw": 3.449,
+    "fibins": 2.413,
+    "fibsol": 1.037
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.006,
+    "xyltl": 0.006
+  },
+  "fattyAcids": {
+    "fasat": 0.033,
+    "f16_0": 0.033,
+    "fams": 0.002,
+    "f18_1cn9": 0.002,
+    "fapu": 0.06,
+    "fapun3": 0.039,
+    "f18_3cn3": 0.039,
+    "fapun6": 0.021,
+    "f18_2cn6": 0.021
+  },
+  "aminoAcids": {
+    "aae9": 0.274,
+    "arg": 0.038,
+    "his": 0.016,
+    "ile": 0.038,
+    "leu": 0.056,
+    "lys": 0.049,
+    "met": 0.01,
+    "phe": 0.026,
+    "thr": 0.025,
+    "trp": 0.015,
+    "tyr": 0.015,
+    "val": 0.039
+  },
+  "otherNutrients": {
+    "nt": 0.167
+  },
+  "extra": {}
+}

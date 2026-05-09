@@ -1,0 +1,69 @@
+{
+  "name": "Traubenkernöl",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 900,
+    "water": null,
+    "protein": null,
+    "fat": 100,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 21,
+    "vitaa": 10,
+    "cartb": 125,
+    "vite": 28.8,
+    "tocpha": 28.8,
+    "tocphb": 0.063,
+    "tocphg": 36.623,
+    "tocphd": 1.232,
+    "vitk": 280,
+    "vitk1": 280
+  },
+  "minerals": {
+    "nacl": 0.0041,
+    "na": 1.65,
+    "k": 0.678,
+    "ca": 0.4417,
+    "mg": 0.4455,
+    "p": 1.702,
+    "fe": 0.1156,
+    "zn": 0.024,
+    "id": 0.01,
+    "cu": 2.499,
+    "mn": 1.364
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 11.3,
+    "f16_0": 6.9,
+    "f17_0": 0.1,
+    "f18_0": 3.9,
+    "f20_0": 0.3,
+    "f22_0": 0.1,
+    "fams": 19.7,
+    "f18_1cn7": 1,
+    "f18_1cn9": 18.4,
+    "f20_1cn9": 0.3,
+    "fapu": 63.7,
+    "fapun3": 0.4,
+    "f18_3cn3": 0.4,
+    "fapun6": 63.3,
+    "f18_2cn6": 63.3,
+    "fax": 0.7
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "chorl": 0.52
+  },
+  "extra": {}
+}

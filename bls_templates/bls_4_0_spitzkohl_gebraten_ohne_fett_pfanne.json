@@ -1,0 +1,109 @@
+{
+  "name": "Spitzkohl gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 58,
+    "water": 83.8,
+    "protein": 2.28,
+    "fat": 0.34,
+    "carbs": 8.56,
+    "fiber": 5.7,
+    "alcohol": null,
+    "sugarAlcohols": 0.26
+  },
+  "vitamins": {
+    "vita": 13,
+    "vitaa": 7,
+    "cartb": 71,
+    "carotpaxb": 15,
+    "vite": 0.553,
+    "tocpha": 0.553,
+    "tocphg": 0.004,
+    "toctra": 0.075,
+    "vitk": 170,
+    "vitk1": 170,
+    "thia": 0.08,
+    "ribf": 0.05,
+    "niaeq": 0.9,
+    "nia": 0.5,
+    "pantac": 0.24,
+    "vitb6": 161,
+    "biot": 0.2,
+    "fol": 75,
+    "folfd": 75,
+    "vitc": 69
+  },
+  "minerals": {
+    "nacl": 0.085,
+    "na": 34,
+    "cld": 70,
+    "k": 464,
+    "ca": 89,
+    "mg": 28,
+    "p": 43,
+    "fe": 1.06,
+    "zn": 0.34,
+    "id": 4,
+    "cu": 43,
+    "mn": 300,
+    "fd": 23,
+    "cr": 0.9,
+    "mo": 15.55
+  },
+  "carbohydrates": {
+    "cho": 8.56,
+    "mnsac": 7.93,
+    "glus": 4.4,
+    "frus": 3.53,
+    "disac": 0.374,
+    "sucs": 0.374,
+    "sugar": 8.3
+  },
+  "fibers": {
+    "fibt": 5.7,
+    "fibhmw": 5.7,
+    "fibins": 4.2,
+    "fibsol": 1.5
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.26,
+    "sortl": 0.26
+  },
+  "fattyAcids": {
+    "fasat": 0.042,
+    "f12_0": 0.002,
+    "f14_0": 0.002,
+    "f16_0": 0.036,
+    "f18_0": 0.002,
+    "fax": 0.177
+  },
+  "aminoAcids": {
+    "aae9": 0.686,
+    "ala": 0.079,
+    "arg": 0.13,
+    "asp": 0.225,
+    "cyste": 0.02,
+    "glu": 0.51,
+    "gly": 0.051,
+    "his": 0.047,
+    "ile": 0.115,
+    "leu": 0.119,
+    "lys": 0.108,
+    "met": 0.023,
+    "phe": 0.074,
+    "pro": 0.449,
+    "ser": 0.134,
+    "thr": 0.079,
+    "trp": 0.023,
+    "tyr": 0.04,
+    "val": 0.098
+  },
+  "otherNutrients": {
+    "nt": 0.36
+  },
+  "extra": {}
+}

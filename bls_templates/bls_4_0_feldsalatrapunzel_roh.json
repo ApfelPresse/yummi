@@ -1,0 +1,100 @@
+{
+  "name": "Feldsalat/Rapunzel, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 18,
+    "water": 92.667,
+    "protein": 1.9,
+    "fat": 0.36,
+    "carbs": 0.808,
+    "fiber": 1.8,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 534,
+    "vitaa": 267,
+    "cartb": 2732,
+    "carotpaxb": 940,
+    "vite": 0.458,
+    "tocpha": 0.458,
+    "tocphg": 0.031,
+    "vitk": 116,
+    "vitk1": 116,
+    "thia": 0.065,
+    "ribf": 0.08,
+    "niaeq": 0.713,
+    "nia": 0.38,
+    "vitb6": 250,
+    "fol": 108,
+    "folfd": 108,
+    "vitc": 35
+  },
+  "minerals": {
+    "nacl": 0.0251,
+    "na": 10.06,
+    "k": 441,
+    "ca": 59.2,
+    "mg": 39.5,
+    "p": 49,
+    "fe": 1.84,
+    "zn": 0.32,
+    "cu": 126,
+    "mn": 500,
+    "cr": 5
+  },
+  "carbohydrates": {
+    "cho": 0.808,
+    "mnsac": 0.619,
+    "glus": 0.391,
+    "frus": 0.228,
+    "disac": 0.181,
+    "sucs": 0.181,
+    "sugar": 0.8,
+    "starch": 0.008
+  },
+  "fibers": {
+    "fibt": 1.8,
+    "fibhmw": 1.8,
+    "fibins": 1.4,
+    "fibsol": 0.4
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.017,
+    "f16_0": 0.0043,
+    "f18_0": 0.0038,
+    "f20_0": 0.0028,
+    "f22_0": 0.003,
+    "f24_0": 0.0033,
+    "fams": 0.008,
+    "f16_1cn7": 0.0063,
+    "f18_1cn9": 0.002,
+    "fapu": 0.175,
+    "fapun3": 0.145,
+    "f18_3cn3": 0.145,
+    "fapun6": 0.03,
+    "f18_2cn6": 0.03
+  },
+  "aminoAcids": {
+    "aae9": 0.737,
+    "arg": 0.088,
+    "his": 0.035,
+    "ile": 0.13,
+    "leu": 0.14,
+    "lys": 0.11,
+    "met": 0.011,
+    "phe": 0.096,
+    "thr": 0.085,
+    "trp": 0.02,
+    "val": 0.11
+  },
+  "otherNutrients": {
+    "nt": 0.304
+  },
+  "extra": {}
+}

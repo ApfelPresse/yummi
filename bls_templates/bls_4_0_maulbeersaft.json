@@ -1,0 +1,103 @@
+{
+  "name": "Maulbeersaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 44,
+    "water": 89,
+    "protein": 1.23,
+    "fat": 0.31,
+    "carbs": 7.3,
+    "fiber": 0.2,
+    "alcohol": null,
+    "sugarAlcohols": 0.003
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 14,
+    "vite": 0.79,
+    "tocpha": 0.79,
+    "tocphb": 0.13,
+    "tocphg": 1.28,
+    "tocphd": 1.2,
+    "vitk": 9,
+    "vitk1": 9,
+    "thia": 0.02,
+    "ribf": 0.06,
+    "niaeq": 0.8,
+    "nia": 0.6,
+    "pantac": 0.19,
+    "vitb6": 50,
+    "biot": 1.5,
+    "fol": 12,
+    "folfd": 12,
+    "vitc": 21.8
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 4,
+    "k": 193,
+    "ca": 38,
+    "mg": 16,
+    "p": 42,
+    "fe": 1.63,
+    "zn": 0.2,
+    "id": 0.21,
+    "cu": 60,
+    "mn": 880,
+    "fd": 16,
+    "cr": 4,
+    "mo": 7.56
+  },
+  "carbohydrates": {
+    "cho": 7.3,
+    "mnsac": 7.3,
+    "glus": 3.4,
+    "frus": 3.9,
+    "gals": 0.0096,
+    "sugar": 7.3
+  },
+  "fibers": {
+    "fibt": 0.2,
+    "fibhmw": 0.2,
+    "fibins": 0.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.003,
+    "xyltl": 0.003
+  },
+  "fattyAcids": {
+    "fasat": 0.02,
+    "f16_0": 0.005,
+    "f18_0": 0.02,
+    "fax": 0.198
+  },
+  "aminoAcids": {
+    "aae9": 0.26,
+    "ala": 0.12,
+    "arg": 0.05,
+    "asp": 0.19,
+    "glu": 0.17,
+    "gly": 0.04,
+    "his": 0.03,
+    "ile": 0.01,
+    "leu": 0.05,
+    "lys": 0.04,
+    "phe": 0.04,
+    "pro": 0.03,
+    "ser": 0.06,
+    "thr": 0.04,
+    "trp": 0.011,
+    "tyr": 0.03,
+    "val": 0.04
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Apfeldicksaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 302,
+    "water": 17.6,
+    "protein": 0.665,
+    "fat": null,
+    "carbs": 72.619,
+    "fiber": 2.127,
+    "alcohol": null,
+    "sugarAlcohols": 6.861
+  },
+  "vitamins": {
+    "vita": 37,
+    "vitaa": 18,
+    "cartb": 86,
+    "carotpaxb": 266,
+    "vite": 0.549,
+    "tocpha": 0.549,
+    "vitk": 0.7,
+    "vitk1": 0.7,
+    "thia": 0.019,
+    "ribf": 0.0309,
+    "niaeq": 1.372,
+    "nia": 1.372,
+    "pantac": 0.34,
+    "vitb6": 62,
+    "biot": 6.2
+  },
+  "minerals": {
+    "nacl": 0.102,
+    "na": 41,
+    "k": 624,
+    "ca": 34,
+    "mg": 27,
+    "p": 46.24,
+    "fe": 1.4,
+    "zn": 0.21,
+    "id": 14,
+    "cu": 140,
+    "mn": 270,
+    "cr": 7,
+    "mo": 4.46
+  },
+  "carbohydrates": {
+    "cho": 72.619,
+    "mnsac": 57.971,
+    "glus": 15.196,
+    "frus": 42.775,
+    "disac": 7.787,
+    "sucs": 7.787,
+    "sugar": 65.758
+  },
+  "fibers": {
+    "fibt": 2.127,
+    "fibins": 0.206,
+    "fibsol": 1.921
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 6.861,
+    "sortl": 6.861
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.159,
+    "ala": 0.028,
+    "arg": 0.014,
+    "asp": 0.186,
+    "glu": 0.062,
+    "his": 0.014,
+    "ile": 0.014,
+    "leu": 0.034,
+    "lys": 0.034,
+    "phe": 0.021,
+    "pro": 0.014,
+    "ser": 0.028,
+    "thr": 0.014,
+    "val": 0.028
+  },
+  "otherNutrients": {
+    "nt": 0.11
+  },
+  "extra": {}
+}

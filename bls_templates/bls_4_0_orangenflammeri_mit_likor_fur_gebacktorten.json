@@ -1,0 +1,103 @@
+{
+  "name": "Orangenflammeri mit Likör, für Gebäck/Torten",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 111,
+    "water": 73.8,
+    "protein": 0.3,
+    "fat": 0.003,
+    "carbs": 25.1,
+    "fiber": 0.135,
+    "alcohol": 1.1,
+    "sugarAlcohols": 0.004
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 4,
+    "carotpaxb": 13,
+    "vite": 0.027,
+    "tocpha": 0.027,
+    "tocphb": 0.001,
+    "vitk": 0.02,
+    "vitk1": 0.02,
+    "thia": 0.022,
+    "niaeq": 0.2,
+    "nia": 0.2,
+    "pantac": 0.06,
+    "vitb6": 10,
+    "biot": 1,
+    "fol": 6,
+    "folfd": 6,
+    "vitc": 12.659
+  },
+  "minerals": {
+    "nacl": 0.068,
+    "na": 27,
+    "cld": 29,
+    "k": 59,
+    "ca": 10,
+    "p": 10,
+    "s": 2,
+    "fe": 0.1,
+    "zn": 0.04,
+    "id": 1,
+    "cu": 20,
+    "mn": 50,
+    "cr": 1,
+    "mo": 0.3
+  },
+  "carbohydrates": {
+    "cho": 25.1,
+    "mnsac": 3.6,
+    "glus": 1.8,
+    "frus": 1.8,
+    "disac": 17.4,
+    "sucs": 17.4,
+    "sugar": 21,
+    "starch": 4.122
+  },
+  "fibers": {
+    "fibt": 0.135
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.004,
+    "sortl": 0.004
+  },
+  "fattyAcids": {
+    "fams": 0.001,
+    "f18_1cn9": 0.001,
+    "fapu": 0.002,
+    "fapun6": 0.002,
+    "f18_2cn6": 0.002
+  },
+  "aminoAcids": {
+    "aae9": 0.029,
+    "ala": 0.007,
+    "arg": 0.016,
+    "asp": 0.025,
+    "cyste": 0.002,
+    "glu": 0.014,
+    "gly": 0.004,
+    "his": 0.002,
+    "ile": 0.003,
+    "leu": 0.006,
+    "lys": 0.004,
+    "met": 0.002,
+    "phe": 0.004,
+    "pro": 0.016,
+    "ser": 0.005,
+    "thr": 0.003,
+    "trp": 0.001,
+    "tyr": 0.002,
+    "val": 0.004
+  },
+  "otherNutrients": {
+    "nt": 0.05
+  },
+  "extra": {}
+}

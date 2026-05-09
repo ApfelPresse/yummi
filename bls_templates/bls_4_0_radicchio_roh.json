@@ -1,0 +1,86 @@
+{
+  "name": "Radicchio roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 20,
+    "water": 93.1,
+    "protein": 1.4,
+    "fat": 0.25,
+    "carbs": 2.6,
+    "fiber": 0.9,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.1,
+    "tocpha": 0.1,
+    "vitk": 255,
+    "vitk1": 255,
+    "thia": 0.02,
+    "ribf": 0.02,
+    "niaeq": 0.688,
+    "nia": 0.255,
+    "pantac": 0.269,
+    "vitb6": 57,
+    "fol": 62,
+    "folfd": 62,
+    "vitc": 6
+  },
+  "minerals": {
+    "nacl": 0.055,
+    "na": 22,
+    "k": 302,
+    "ca": 19,
+    "mg": 13,
+    "p": 40,
+    "fe": 0.57,
+    "zn": 0.62,
+    "cu": 341,
+    "mn": 138
+  },
+  "carbohydrates": {
+    "cho": 2.6,
+    "mnsac": 1.41,
+    "glus": 0.77,
+    "frus": 0.64,
+    "disac": 0.2,
+    "sucs": 0.2,
+    "sugar": 1.6,
+    "starch": 1
+  },
+  "fibers": {
+    "fibt": 0.9,
+    "fibhmw": 0.9,
+    "fibins": 0.6,
+    "fibsol": 0.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.058,
+    "f14_0": 0.003,
+    "f16_0": 0.052,
+    "f18_0": 0.003,
+    "fax": 0.114
+  },
+  "aminoAcids": {
+    "aae9": 0.4,
+    "arg": 0.105,
+    "his": 0.024,
+    "ile": 0.085,
+    "leu": 0.062,
+    "lys": 0.056,
+    "met": 0.008,
+    "phe": 0.034,
+    "thr": 0.04,
+    "trp": 0.026,
+    "val": 0.065
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

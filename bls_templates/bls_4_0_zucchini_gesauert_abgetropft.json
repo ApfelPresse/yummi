@@ -1,0 +1,98 @@
+{
+  "name": "Zucchini gesäuert, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 34,
+    "water": 91,
+    "protein": 1.1,
+    "fat": 0.3,
+    "carbs": 5.5,
+    "fiber": 0.7,
+    "alcohol": 0.018,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 30,
+    "vitaa": 15,
+    "cartb": 170,
+    "carotpaxb": 20,
+    "vite": 0.45,
+    "tocpha": 0.45,
+    "tocphb": 0.07,
+    "tocphg": 0.35,
+    "tocphd": 0.27,
+    "vitk": 33,
+    "vitk1": 33,
+    "thia": 0.02,
+    "ribf": 0.01,
+    "niaeq": 0.2,
+    "nia": 0.2,
+    "pantac": 0.14,
+    "vitb6": 20,
+    "biot": 0.4,
+    "fol": 6,
+    "folfd": 6,
+    "vitc": 5.028
+  },
+  "minerals": {
+    "nacl": 1.188,
+    "na": 475,
+    "cld": 863,
+    "k": 152,
+    "ca": 24,
+    "mg": 11,
+    "p": 29,
+    "s": 2,
+    "fe": 0.27,
+    "zn": 0.17,
+    "id": 4,
+    "cu": 70,
+    "mn": 200,
+    "cr": 2
+  },
+  "carbohydrates": {
+    "cho": 5.5,
+    "mnsac": 1.2,
+    "glus": 0.3,
+    "frus": 0.9,
+    "disac": 4.3,
+    "sucs": 4.3,
+    "mals": 0.04,
+    "sugar": 5.5
+  },
+  "fibers": {
+    "fibt": 0.7,
+    "fibhmw": 1.2,
+    "fibins": 0.8,
+    "fibsol": 0.3
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.064,
+    "f12_0": 0.0016,
+    "f16_0": 0.056,
+    "f18_0": 0.0069,
+    "fams": 0.025,
+    "f16_1cn7": 0.0016,
+    "f18_1cn9": 0.023,
+    "fapu": 0.131,
+    "fapun3": 0.082,
+    "f18_3cn3": 0.082,
+    "fapun6": 0.049,
+    "f18_2cn6": 0.049
+  },
+  "aminoAcids": {
+    "ala": 0.2,
+    "asp": 0.2,
+    "glu": 0.3,
+    "ser": 0.2
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

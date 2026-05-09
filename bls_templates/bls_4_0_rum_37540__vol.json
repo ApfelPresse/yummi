@@ -1,0 +1,39 @@
+{
+  "name": "Rum 37,5/40 % vol",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 214,
+    "water": 66.6,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": 30.6,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.008
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "k": 2,
+    "p": 5,
+    "fe": 0.12,
+    "zn": 0.06,
+    "id": 1,
+    "cu": 60,
+    "mn": 18
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

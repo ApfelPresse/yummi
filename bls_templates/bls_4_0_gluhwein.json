@@ -1,0 +1,103 @@
+{
+  "name": "Glühwein",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 96,
+    "water": 80.7,
+    "protein": 0.242,
+    "fat": null,
+    "carbs": 8.21,
+    "fiber": 0.071,
+    "alcohol": 8.5,
+    "sugarAlcohols": 0.026
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 5,
+    "vite": 0.044,
+    "tocpha": 0.044,
+    "thia": 0.003,
+    "ribf": 0.022,
+    "niaeq": 0.45,
+    "nia": 0.45,
+    "pantac": 0.42,
+    "vitb6": 3,
+    "fol": 1.6,
+    "folfd": 1.6,
+    "vitc": 3.3
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 10,
+    "k": 105,
+    "ca": 8,
+    "mg": 8,
+    "p": 19,
+    "s": 10,
+    "fe": 0.252,
+    "zn": 0.08,
+    "id": 0.1,
+    "cu": 16,
+    "mn": 80,
+    "fd": 6,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 8.21,
+    "mnsac": 0.77,
+    "glus": 0.54,
+    "frus": 0.23,
+    "disac": 7.41,
+    "sucs": 7.41,
+    "sugar": 8.18
+  },
+  "fibers": {
+    "fibt": 0.071
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.026,
+    "sortl": 0.026
+  },
+  "fattyAcids": {
+    "fasat": 0.008,
+    "f14_0": 0.0002,
+    "f16_0": 0.007,
+    "f18_0": 0.0004,
+    "fams": 0.002,
+    "f16_1cn7": 0.0002,
+    "f18_1cn9": 0.002,
+    "fapu": 0.017,
+    "fapun3": 0.005,
+    "f18_3cn3": 0.005,
+    "fapun6": 0.012,
+    "f18_2cn6": 0.012
+  },
+  "aminoAcids": {
+    "aae9": 0.009,
+    "ala": 0.002,
+    "arg": 0.002,
+    "asp": 0.005,
+    "glu": 0.004,
+    "gly": 0.004,
+    "his": 0.001,
+    "ile": 0.001,
+    "leu": 0.001,
+    "lys": 0.002,
+    "met": 0.001,
+    "phe": 0.001,
+    "pro": 0.002,
+    "ser": 0.001,
+    "thr": 0.001,
+    "tyr": 0.001,
+    "val": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.039
+  },
+  "extra": {}
+}

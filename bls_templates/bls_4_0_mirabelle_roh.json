@@ -1,0 +1,112 @@
+{
+  "name": "Mirabelle roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 74,
+    "water": 82.4,
+    "protein": 0.73,
+    "fat": 0.2,
+    "carbs": 16.78,
+    "fiber": 1.7,
+    "alcohol": null,
+    "sugarAlcohols": 2.61
+  },
+  "vitamins": {
+    "vita": 43,
+    "vitaa": 21,
+    "cartb": 200,
+    "carotpaxb": 111,
+    "vite": 0.283,
+    "tocpha": 0.283,
+    "tocphg": 0.02,
+    "toctra": 0.02,
+    "vitk": 7,
+    "vitk1": 7,
+    "thia": 0.06,
+    "ribf": 0.04,
+    "niaeq": 0.667,
+    "nia": 0.6,
+    "pantac": 0.18,
+    "vitb6": 45,
+    "fol": 2,
+    "folfd": 2,
+    "vitc": 7.2
+  },
+  "minerals": {
+    "cld": 2.45,
+    "k": 230,
+    "ca": 12,
+    "mg": 15,
+    "p": 33,
+    "fe": 0.5,
+    "zn": 0.09,
+    "id": 1,
+    "cu": 65,
+    "mn": 80,
+    "fd": 2,
+    "cr": 2,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 16.78,
+    "mnsac": 9.4,
+    "glus": 5.1,
+    "frus": 4.3,
+    "disac": 4.77,
+    "sucs": 4.6,
+    "mals": 0.17,
+    "sugar": 14.17
+  },
+  "fibers": {
+    "fibt": 1.7,
+    "fibhmw": 1.7,
+    "fibins": 0.9,
+    "fibsol": 0.8
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 2.61,
+    "sortl": 2.61
+  },
+  "fattyAcids": {
+    "fasat": 0.026,
+    "f16_0": 0.02,
+    "f18_0": 0.006,
+    "fams": 0.06,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.059,
+    "fapu": 0.091,
+    "fapun3": 0.036,
+    "f18_3cn3": 0.036,
+    "fapun6": 0.055,
+    "f18_2cn6": 0.055
+  },
+  "aminoAcids": {
+    "aae9": 0.114,
+    "ala": 0.023,
+    "arg": 0.014,
+    "asp": 0.229,
+    "cyste": 0.006,
+    "glu": 0.034,
+    "gly": 0.017,
+    "his": 0.006,
+    "ile": 0.012,
+    "leu": 0.023,
+    "lys": 0.015,
+    "met": 0.004,
+    "phe": 0.018,
+    "pro": 0.039,
+    "ser": 0.019,
+    "thr": 0.015,
+    "trp": 0.004,
+    "tyr": 0.01,
+    "val": 0.017
+  },
+  "otherNutrients": {
+    "nt": 0.117
+  },
+  "extra": {}
+}

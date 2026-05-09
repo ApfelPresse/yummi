@@ -1,0 +1,102 @@
+{
+  "name": "Gemüsesaft aus Gurke",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 12,
+    "water": 98.4,
+    "protein": 0.903,
+    "fat": 0.16,
+    "carbs": 1.57,
+    "fiber": 0.1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 21,
+    "vitaa": 11,
+    "cartb": 114,
+    "carotpaxb": 28,
+    "vite": 0.03,
+    "tocpha": 0.03,
+    "tocphb": 0.01,
+    "tocphg": 0.04,
+    "toctra": 0.08,
+    "vitk": 32,
+    "vitk1": 32,
+    "thia": 0.02,
+    "ribf": 0.014,
+    "niaeq": 0.2,
+    "nia": 0.15,
+    "pantac": 0.22,
+    "vitb6": 4.12,
+    "biot": 0.7,
+    "fol": 5,
+    "folfd": 5,
+    "vitc": 3.2
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 35,
+    "k": 163,
+    "ca": 18,
+    "mg": 11,
+    "p": 14.711,
+    "fe": 0.205,
+    "zn": 0.11,
+    "id": 2,
+    "cu": 29,
+    "mn": 100,
+    "fd": 10
+  },
+  "carbohydrates": {
+    "cho": 1.57,
+    "mnsac": 1.57,
+    "glus": 0.86,
+    "frus": 0.71,
+    "gals": 0.0046,
+    "sugar": 1.57
+  },
+  "fibers": {
+    "fibt": 0.1,
+    "fibhmw": 0.1,
+    "fibins": 0.1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.053,
+    "f12_0": 0.0002,
+    "f14_0": 0.001,
+    "f16_0": 0.047,
+    "f18_0": 0.005,
+    "fams": 0.004,
+    "f16_1cn7": 0.0002,
+    "f18_1cn9": 0.004,
+    "fapu": 0.071,
+    "fapun3": 0.034,
+    "f18_3cn3": 0.034,
+    "fapun6": 0.037,
+    "f18_2cn6": 0.037
+  },
+  "aminoAcids": {
+    "aae9": 0.118,
+    "arg": 0.038,
+    "his": 0.007,
+    "ile": 0.016,
+    "leu": 0.021,
+    "lys": 0.022,
+    "met": 0.005,
+    "phe": 0.012,
+    "thr": 0.014,
+    "trp": 0.003,
+    "val": 0.018
+  },
+  "otherNutrients": {
+    "nt": 0.144
+  },
+  "extra": {}
+}

@@ -1,0 +1,103 @@
+{
+  "name": "Wirsing geschmort ohne Fett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 65,
+    "water": 79.5,
+    "protein": 4.913,
+    "fat": 0.566,
+    "carbs": 7.3,
+    "fiber": 5,
+    "alcohol": null,
+    "sugarAlcohols": 0.23
+  },
+  "vitamins": {
+    "vita": 13,
+    "vitaa": 6,
+    "cartb": 77,
+    "vite": 4.464,
+    "tocpha": 4.464,
+    "tocphg": 0.071,
+    "vitk": 122.9,
+    "vitk1": 122.9,
+    "thia": 0.081,
+    "ribf": 0.113,
+    "niaeq": 1.464,
+    "nia": 0.514,
+    "pantac": 0.311,
+    "vitb6": 217,
+    "fol": 215,
+    "folfd": 215,
+    "vitc": 72.479
+  },
+  "minerals": {
+    "nacl": 0.04,
+    "na": 16,
+    "cld": 52,
+    "k": 417,
+    "ca": 113.535,
+    "mg": 21,
+    "p": 99.3,
+    "fe": 0.982,
+    "zn": 0.6,
+    "id": 4.4,
+    "cu": 86,
+    "mn": 460
+  },
+  "carbohydrates": {
+    "cho": 7.3,
+    "mnsac": 4.9,
+    "glus": 3.2,
+    "frus": 1.73,
+    "disac": 1.28,
+    "sucs": 1.28,
+    "sugar": 6.2,
+    "starch": 0.875
+  },
+  "fibers": {
+    "fibt": 5,
+    "fibhmw": 5,
+    "fibins": 3.2,
+    "fibsol": 1.8
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.23,
+    "sortl": 0.23
+  },
+  "fattyAcids": {
+    "fasat": 0.101,
+    "f14_0": 0.002,
+    "f16_0": 0.088,
+    "f18_0": 0.009,
+    "f20_0": 0.002,
+    "fams": 0.016,
+    "f16_1cn7": 0.009,
+    "f18_1cn9": 0.007,
+    "fapu": 0.34,
+    "fapun3": 0.26,
+    "f18_3cn3": 0.26,
+    "fapun6": 0.08,
+    "f18_2cn6": 0.08
+  },
+  "aminoAcids": {
+    "aae9": 1.518,
+    "arg": 0.265,
+    "his": 0.083,
+    "ile": 0.177,
+    "leu": 0.336,
+    "lys": 0.163,
+    "met": 0.048,
+    "phe": 0.212,
+    "thr": 0.194,
+    "trp": 0.057,
+    "val": 0.248
+  },
+  "otherNutrients": {
+    "nt": 0.787
+  },
+  "extra": {}
+}

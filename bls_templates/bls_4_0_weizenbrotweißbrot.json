@@ -1,0 +1,112 @@
+{
+  "name": "Weizenbrot/Weißbrot",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 272,
+    "water": 31.4,
+    "protein": 8.69,
+    "fat": 2.97,
+    "carbs": 50.54,
+    "fiber": 4,
+    "alcohol": null,
+    "sugarAlcohols": 0.009
+  },
+  "vitamins": {
+    "vita": 1,
+    "vite": 0.585,
+    "tocpha": 0.585,
+    "tocphb": 0.175,
+    "tocphg": 0.305,
+    "vitk": 0.628,
+    "vitk1": 0.628,
+    "thia": 0.171,
+    "ribf": 0.059,
+    "niaeq": 2.472,
+    "nia": 0.96,
+    "pantac": 0.207,
+    "vitb6": 92,
+    "biot": 1.89,
+    "fol": 19,
+    "folfd": 19,
+    "vitc": 1.052
+  },
+  "minerals": {
+    "nacl": 1.4205,
+    "na": 568.2,
+    "cld": 1002.5,
+    "k": 139.5,
+    "ca": 24,
+    "mg": 21.8,
+    "p": 88.9,
+    "s": 81,
+    "fe": 0.865,
+    "zn": 0.67,
+    "id": 5.8,
+    "cu": 110,
+    "mn": 555,
+    "fd": 106,
+    "cr": 2,
+    "mo": 16.5
+  },
+  "carbohydrates": {
+    "cho": 50.54,
+    "mnsac": 0.91,
+    "glus": 0.33,
+    "frus": 0.58,
+    "disac": 3.06,
+    "mals": 3.06,
+    "sugar": 3.97,
+    "starch": 46.56
+  },
+  "fibers": {
+    "fibt": 4,
+    "fibhmw": 4,
+    "fibins": 2.08,
+    "fibsol": 1.92
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.009
+  },
+  "fattyAcids": {
+    "fasat": 0.685,
+    "f14_0": 0.088,
+    "f16_0": 0.48,
+    "f18_0": 0.117,
+    "fams": 0.837,
+    "f18_1cn9": 0.837,
+    "fapu": 0.468,
+    "fapun3": 0.0585,
+    "f18_3cn3": 0.0585,
+    "fapun6": 0.41,
+    "f18_2cn6": 0.41
+  },
+  "aminoAcids": {
+    "aae9": 2.561,
+    "ala": 0.27,
+    "arg": 0.33,
+    "asp": 0.37,
+    "cyste": 0.18,
+    "glu": 2.94,
+    "gly": 0.32,
+    "his": 0.18,
+    "ile": 0.31,
+    "leu": 0.58,
+    "lys": 0.18,
+    "met": 0.12,
+    "phe": 0.51,
+    "pro": 0.9,
+    "ser": 0.41,
+    "thr": 0.24,
+    "trp": 0.0907,
+    "tyr": 0.27,
+    "val": 0.35
+  },
+  "otherNutrients": {
+    "nt": 1.39
+  },
+  "extra": {}
+}

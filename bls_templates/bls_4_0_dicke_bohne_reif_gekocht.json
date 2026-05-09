@@ -1,0 +1,99 @@
+{
+  "name": "Dicke Bohne reif, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 118,
+    "water": 70.2,
+    "protein": 9,
+    "fat": 1,
+    "carbs": 12.9,
+    "fiber": 9,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 22,
+    "vitaa": 11,
+    "cartb": 130,
+    "carotpaxb": 2,
+    "thia": 0.15,
+    "ribf": 0.14,
+    "niaeq": 3.1,
+    "nia": 1.7,
+    "pantac": 0.96,
+    "vitb6": 130,
+    "biot": 1.5,
+    "fol": 66,
+    "folfd": 66,
+    "vitc": 2
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 24,
+    "k": 413,
+    "ca": 35,
+    "mg": 41,
+    "p": 162,
+    "fe": 1.82,
+    "zn": 1.13,
+    "id": 0.411,
+    "cu": 420,
+    "mn": 480,
+    "fd": 34,
+    "cr": 2.09
+  },
+  "carbohydrates": {
+    "cho": 12.9,
+    "mnsac": 0.1,
+    "disac": 1,
+    "sucs": 1,
+    "sugar": 1.1,
+    "olsac": 1.607,
+    "starch": 10.2
+  },
+  "fibers": {
+    "fibt": 9,
+    "fibhmw": 5.4,
+    "fibins": 4.1,
+    "fibsol": 1.2
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.086,
+    "f12_0": 0.001,
+    "f14_0": 0.001,
+    "f16_0": 0.073,
+    "f18_0": 0.011,
+    "fax": 0.331
+  },
+  "aminoAcids": {
+    "aae9": 3.2,
+    "ala": 0.37,
+    "arg": 0.84,
+    "asp": 1.02,
+    "cyste": 0.117,
+    "glu": 1.55,
+    "gly": 0.4,
+    "his": 0.232,
+    "ile": 0.37,
+    "leu": 0.69,
+    "lys": 0.58,
+    "met": 0.075,
+    "phe": 0.4,
+    "pro": 0.4,
+    "ser": 0.4,
+    "thr": 0.325,
+    "trp": 0.086,
+    "tyr": 0.289,
+    "val": 0.41
+  },
+  "otherNutrients": {
+    "nt": 1
+  },
+  "extra": {}
+}

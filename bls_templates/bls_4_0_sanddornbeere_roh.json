@@ -1,0 +1,98 @@
+{
+  "name": "Sanddornbeere roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 51,
+    "water": 83.7,
+    "protein": 1.42,
+    "fat": 3.2,
+    "carbs": 2.4,
+    "fiber": 3.6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 250,
+    "vitaa": 125,
+    "cartb": 1500,
+    "vite": 3.05,
+    "tocpha": 3.05,
+    "thia": 0.034,
+    "ribf": 0.21,
+    "niaeq": 0.277,
+    "nia": 0.26,
+    "pantac": 0.15,
+    "vitb6": 110,
+    "biot": 3,
+    "fol": 39,
+    "folfd": 39,
+    "vitc": 450
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 0.39,
+    "k": 160,
+    "ca": 8,
+    "mg": 10,
+    "p": 14.3,
+    "fe": 0.36,
+    "zn": 0.21,
+    "cu": 80,
+    "mn": 200
+  },
+  "carbohydrates": {
+    "cho": 2.4,
+    "mnsac": 2,
+    "glus": 1.7,
+    "frus": 0.3,
+    "disac": 0.29,
+    "sucs": 0.29,
+    "sugar": 2.3,
+    "starch": 0.1
+  },
+  "fibers": {
+    "fibt": 3.6
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.3,
+    "f16_0": 0.2,
+    "f18_0": 0.1,
+    "fams": 0.5,
+    "f18_1cn9": 0.5,
+    "fapu": 0.34,
+    "fapun3": 0.09,
+    "f18_3cn3": 0.09,
+    "fapun6": 0.25,
+    "f18_2cn6": 0.25
+  },
+  "aminoAcids": {
+    "aae9": 0.284,
+    "ala": 0.137,
+    "arg": 0.066,
+    "asp": 0.223,
+    "cyste": 0.005,
+    "glu": 0.201,
+    "gly": 0.051,
+    "his": 0.026,
+    "ile": 0.015,
+    "leu": 0.061,
+    "lys": 0.052,
+    "phe": 0.039,
+    "pro": 0.033,
+    "ser": 0.076,
+    "thr": 0.041,
+    "trp": 0.001,
+    "tyr": 0.031,
+    "val": 0.049
+  },
+  "otherNutrients": {
+    "nt": 0.227
+  },
+  "extra": {}
+}

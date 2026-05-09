@@ -1,0 +1,77 @@
+{
+  "name": "Hammelfett/Hammeltalg",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 747,
+    "water": 14.7,
+    "protein": 3.85,
+    "fat": 81.3,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 220,
+    "vitaa": 220,
+    "retol": 220,
+    "vite": 1.3,
+    "tocpha": 1.3,
+    "vitk": 5,
+    "vitk1": 1,
+    "vitk2": 4,
+    "niaeq": 1.433
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 4,
+    "p": 7,
+    "fe": 0.32,
+    "mn": 1
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 42.8,
+    "f14_0": 1.9,
+    "f16_0": 18.7,
+    "f18_0": 22.2,
+    "fams": 32.3,
+    "f18_1cn9": 32.3,
+    "fapu": 3.34,
+    "fapun6": 3.34,
+    "f18_2cn6": 3.34
+  },
+  "aminoAcids": {
+    "aae9": 1.236,
+    "ala": 0.24,
+    "arg": 0.209,
+    "asp": 0.277,
+    "cyste": 0.028,
+    "glu": 0.296,
+    "gly": 0.48,
+    "his": 0.099,
+    "ile": 0.117,
+    "leu": 0.228,
+    "lys": 0.259,
+    "met": 0.034,
+    "phe": 0.142,
+    "pro": 0.419,
+    "ser": 0.142,
+    "thr": 0.105,
+    "trp": 0.086,
+    "tyr": 0.08,
+    "val": 0.166
+  },
+  "otherNutrients": {
+    "chorl": 110,
+    "nt": 0.616
+  },
+  "extra": {}
+}

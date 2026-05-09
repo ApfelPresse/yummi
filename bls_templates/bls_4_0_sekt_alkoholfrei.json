@@ -1,0 +1,59 @@
+{
+  "name": "Sekt alkoholfrei",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 22,
+    "water": 90.2,
+    "protein": null,
+    "fat": null,
+    "carbs": 5.2,
+    "fiber": null,
+    "alcohol": 0.05,
+    "sugarAlcohols": 0.007
+  },
+  "vitamins": {
+    "vitk": 0.024,
+    "vitk1": 0.024,
+    "thia": 0.081,
+    "pantac": 0.147,
+    "biot": 1.996,
+    "fol": 0.8,
+    "folfd": 0.8
+  },
+  "minerals": {
+    "nacl": 0.0048,
+    "na": 1.9,
+    "cld": 3.7,
+    "k": 42.6,
+    "ca": 6.9,
+    "mg": 6,
+    "p": 13.6,
+    "s": 19,
+    "fe": 0.126,
+    "zn": 0.04,
+    "cu": 6.6,
+    "mn": 53.3,
+    "fd": 17,
+    "cr": 1.3
+  },
+  "carbohydrates": {
+    "cho": 5.2,
+    "mnsac": 5.2,
+    "glus": 2.6,
+    "frus": 2.6,
+    "sugar": 5.2
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.007,
+    "sortl": 0.007
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

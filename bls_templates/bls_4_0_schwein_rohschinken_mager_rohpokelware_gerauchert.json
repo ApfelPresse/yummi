@@ -1,0 +1,109 @@
+{
+  "name": "Schwein Rohschinken, mager, Rohpökelware, geräuchert",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 138,
+    "water": 62.4,
+    "protein": 28.45,
+    "fat": 2.02,
+    "carbs": 0.12,
+    "fiber": 0.03,
+    "alcohol": null,
+    "sugarAlcohols": 0.006
+  },
+  "vitamins": {
+    "vita": 1,
+    "vitaa": 1,
+    "retol": 1,
+    "vite": 0.62,
+    "tocpha": 0.62,
+    "vitk": 7.71,
+    "vitk2": 7.66,
+    "thia": 0.942,
+    "ribf": 0.213,
+    "niaeq": 8.084,
+    "nia": 2.151,
+    "pantac": 0.568,
+    "vitb6": 381,
+    "biot": 2.94,
+    "fol": 1.1,
+    "folfd": 1.1,
+    "vitb12": 0.309
+  },
+  "minerals": {
+    "nacl": 5.55,
+    "na": 2220,
+    "cld": 1420,
+    "k": 564.5,
+    "ca": 5,
+    "mg": 35.8,
+    "p": 289.5,
+    "s": 298,
+    "fe": 0.998,
+    "zn": 2.82,
+    "cu": 84.3,
+    "mn": 16.3,
+    "cr": 7.7,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 0.12,
+    "mnsac": 0.11,
+    "glus": 0.11,
+    "sugar": 0.11
+  },
+  "fibers": {
+    "fibt": 0.03,
+    "fibhmw": 0.03
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.006
+  },
+  "fattyAcids": {
+    "fasat": 0.7,
+    "f14_0": 0.0265,
+    "f16_0": 0.437,
+    "f18_0": 0.217,
+    "f20_0": 0.0061,
+    "f22_0": 0.0139,
+    "fams": 0.945,
+    "f16_1cn7": 0.0664,
+    "f18_1cn9": 0.874,
+    "f22_1cn9": 0.0044,
+    "fapu": 0.192,
+    "fapun3": 0.0084,
+    "f18_3cn3": 0.0084,
+    "fapun6": 0.184,
+    "f18_2cn6": 0.184
+  },
+  "aminoAcids": {
+    "aae9": 11.517,
+    "ala": 1.513,
+    "arg": 1.649,
+    "asp": 2.472,
+    "cyste": 0.299,
+    "glu": 4.181,
+    "gly": 1.176,
+    "his": 1.102,
+    "ile": 1.266,
+    "leu": 2.15,
+    "lys": 2.4,
+    "met": 0.646,
+    "phe": 1.067,
+    "pro": 0.991,
+    "ser": 1.034,
+    "thr": 1.211,
+    "trp": 0.356,
+    "tyr": 0.914,
+    "val": 1.319
+  },
+  "otherNutrients": {
+    "chorl": 65.05,
+    "nt": 4.55
+  },
+  "extra": {}
+}

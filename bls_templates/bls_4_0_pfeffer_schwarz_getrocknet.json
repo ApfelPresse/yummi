@@ -1,0 +1,92 @@
+{
+  "name": "Pfeffer schwarz, getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 304,
+    "water": 9.9,
+    "protein": 10.92,
+    "fat": 2.77,
+    "carbs": 46.07,
+    "fiber": 25.5,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 104,
+    "vitaa": 52,
+    "cartb": 625,
+    "vite": 2.2,
+    "tocpha": 2.2,
+    "tocphb": 0.035,
+    "tocphg": 10,
+    "tocphd": 0.053,
+    "vitk": 280.5,
+    "vitk1": 280.5,
+    "thia": 0.128,
+    "ribf": 0.317,
+    "niaeq": 3.365,
+    "nia": 3.365,
+    "pantac": 1.624,
+    "vitb6": 238,
+    "biot": 8.115,
+    "fol": 23.3,
+    "folfd": 23.3
+  },
+  "minerals": {
+    "nacl": 0.032,
+    "na": 12.8,
+    "cld": 275,
+    "k": 1620.8,
+    "ca": 405.9,
+    "mg": 178.3,
+    "s": 123,
+    "fe": 11.3,
+    "zn": 0.94,
+    "cu": 740,
+    "mn": 6020,
+    "fd": 34.2,
+    "cr": 75,
+    "mo": 54
+  },
+  "carbohydrates": {
+    "cho": 46.07,
+    "mnsac": 0.67,
+    "glus": 0.29,
+    "frus": 0.38,
+    "sugar": 0.67,
+    "starch": 45.4
+  },
+  "fibers": {
+    "fibt": 25.5,
+    "fibhmw": 25.5,
+    "fibins": 21.95,
+    "fibsol": 3.55
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.781,
+    "f14_0": 0.0625,
+    "f16_0": 0.384,
+    "f18_0": 0.166,
+    "f20_0": 0.145,
+    "f22_0": 0.0238,
+    "fams": 0.608,
+    "f16_1cn7": 0.125,
+    "f18_1cn9": 0.471,
+    "f22_1cn9": 0.0115,
+    "fapu": 0.551,
+    "fapun3": 0.0303,
+    "f18_3cn3": 0.0303,
+    "fapun6": 0.521,
+    "f18_2cn6": 0.521
+  },
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 1.75
+  },
+  "extra": {}
+}

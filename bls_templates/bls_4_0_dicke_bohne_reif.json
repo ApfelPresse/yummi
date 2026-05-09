@@ -1,0 +1,99 @@
+{
+  "name": "Dicke Bohne reif",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 349,
+    "water": 11.4,
+    "protein": 27,
+    "fat": 1.53,
+    "carbs": 46.7,
+    "fiber": 15,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 67,
+    "vitaa": 33,
+    "cartb": 400,
+    "thia": 0.555,
+    "ribf": 0.333,
+    "niaeq": 6.95,
+    "nia": 2.83,
+    "pantac": 0.976,
+    "vitb6": 366,
+    "fol": 96,
+    "folfd": 96,
+    "vitc": 1.4
+  },
+  "minerals": {
+    "nacl": 0.032,
+    "na": 13,
+    "cld": 47,
+    "k": 1060,
+    "ca": 103,
+    "mg": 192,
+    "p": 421,
+    "fe": 6.7,
+    "zn": 3.14,
+    "id": 1.772,
+    "cu": 824,
+    "mn": 1630,
+    "fd": 95,
+    "cr": 5.86
+  },
+  "carbohydrates": {
+    "cho": 46.7,
+    "mnsac": 0.81,
+    "glus": 0.39,
+    "frus": 0.423,
+    "disac": 4.133,
+    "sucs": 4.133,
+    "sugar": 4.94,
+    "olsac": 4.737,
+    "starch": 37
+  },
+  "fibers": {
+    "fibt": 15,
+    "fibhmw": 15,
+    "fibins": 11.6,
+    "fibsol": 3.4
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.241,
+    "f12_0": 0.004,
+    "f14_0": 0.002,
+    "f16_0": 0.204,
+    "f18_0": 0.031,
+    "fax": 0.926
+  },
+  "aminoAcids": {
+    "aae9": 9,
+    "ala": 1.07,
+    "arg": 2.41,
+    "asp": 2.92,
+    "cyste": 0.334,
+    "glu": 4.44,
+    "gly": 1.1,
+    "his": 0.664,
+    "ile": 1.05,
+    "leu": 1.96,
+    "lys": 1.67,
+    "met": 0.213,
+    "phe": 1.1,
+    "pro": 1.1,
+    "ser": 1.2,
+    "thr": 0.928,
+    "trp": 0.247,
+    "tyr": 0.827,
+    "val": 1.16
+  },
+  "otherNutrients": {
+    "nt": 4.2
+  },
+  "extra": {}
+}

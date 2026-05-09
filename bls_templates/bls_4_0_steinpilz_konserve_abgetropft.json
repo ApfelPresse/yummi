@@ -1,0 +1,112 @@
+{
+  "name": "Steinpilz Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 57,
+    "water": 82,
+    "protein": 6.442,
+    "fat": 0.471,
+    "carbs": 3.69,
+    "fiber": 8.328,
+    "alcohol": null,
+    "sugarAlcohols": 3.09
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 11,
+    "vitd": 4.5,
+    "ergcal": 4.5,
+    "vite": 0.056,
+    "tocpha": 0.056,
+    "tocphb": 0.015,
+    "tocphg": 0.027,
+    "tocphd": 0.027,
+    "toctra": 0.096,
+    "thia": 0.014,
+    "ribf": 0.252,
+    "niaeq": 6.488,
+    "nia": 2.321,
+    "pantac": 1.358,
+    "vitb6": 22.71,
+    "biot": 9,
+    "fol": 6,
+    "folfd": 6,
+    "vitc": 0.965
+  },
+  "minerals": {
+    "nacl": 0.722,
+    "na": 289,
+    "cld": 525,
+    "k": 186,
+    "ca": 10,
+    "mg": 10,
+    "p": 97,
+    "s": 2,
+    "fe": 1.007,
+    "zn": 0.64,
+    "id": 5,
+    "cu": 340,
+    "mn": 118,
+    "cr": 16,
+    "mo": 4.1
+  },
+  "carbohydrates": {
+    "cho": 3.69,
+    "mnsac": 0.598,
+    "glus": 0.304,
+    "frus": 0.294,
+    "sugar": 0.598
+  },
+  "fibers": {
+    "fibt": 8.328,
+    "fibhmw": 8.328,
+    "fibins": 6.576,
+    "fibsol": 1.753
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 3.09,
+    "mantl": 2.97,
+    "sortl": 0.12
+  },
+  "fattyAcids": {
+    "fasat": 0.082,
+    "f4_0": 0.005,
+    "f10_0": 0.003,
+    "f14_0": 0.003,
+    "f16_0": 0.049,
+    "f18_0": 0.011,
+    "f20_0": 0.005,
+    "f22_0": 0.003,
+    "f24_0": 0.003,
+    "fams": 0.008,
+    "f18_1cn9": 0.008,
+    "fapu": 0.236,
+    "fapun6": 0.236,
+    "f18_2cn6": 0.236,
+    "fax": 0.003
+  },
+  "aminoAcids": {
+    "aae9": 1.33,
+    "arg": 0.311,
+    "cyste": 0.345,
+    "his": 0.262,
+    "ile": 0.036,
+    "leu": 0.144,
+    "lys": 0.226,
+    "met": 0.069,
+    "phe": 0.119,
+    "thr": 0.131,
+    "trp": 0.25,
+    "tyr": 0.144,
+    "val": 0.093
+  },
+  "otherNutrients": {
+    "nt": 1.031
+  },
+  "extra": {}
+}

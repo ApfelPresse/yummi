@@ -1,0 +1,95 @@
+{
+  "name": "Kartoffelstärke (Kartoffelmehl)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 338,
+    "water": 15.5,
+    "protein": 0.614,
+    "fat": 0.1,
+    "carbs": 83.1,
+    "fiber": 1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.006,
+    "ribf": 0.007,
+    "niaeq": 0.273,
+    "nia": 0.14,
+    "vitb6": 10,
+    "biot": 6
+  },
+  "minerals": {
+    "nacl": 0.02,
+    "na": 8,
+    "cld": 4.75,
+    "k": 15,
+    "ca": 35,
+    "mg": 6,
+    "p": 6.67,
+    "fe": 1.8,
+    "zn": 0.15,
+    "id": 1,
+    "cu": 130,
+    "mn": 100,
+    "fd": 43
+  },
+  "carbohydrates": {
+    "cho": 83.1,
+    "starch": 83.1
+  },
+  "fibers": {
+    "fibt": 1,
+    "fibins": 0.916,
+    "fibsol": 0.084
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.034,
+    "f8_0": 0.001,
+    "f10_0": 0.001,
+    "f12_0": 0.002,
+    "f14_0": 0.003,
+    "f16_0": 0.022,
+    "f18_0": 0.005,
+    "fams": 0.016,
+    "f16_1cn7": 0.001,
+    "f18_1cn7": 0.001,
+    "f18_1cn9": 0.014,
+    "fapu": 0.013,
+    "fapun3": 0.003,
+    "f18_3cn3": 0.003,
+    "fapun6": 0.01,
+    "f18_2cn6": 0.01,
+    "fax": 0.006
+  },
+  "aminoAcids": {
+    "aae9": 0.226,
+    "ala": 0.025,
+    "arg": 0.041,
+    "asp": 0.143,
+    "cyste": 0.012,
+    "glu": 0.119,
+    "gly": 0.026,
+    "his": 0.017,
+    "ile": 0.023,
+    "leu": 0.038,
+    "lys": 0.048,
+    "met": 0.005,
+    "phe": 0.028,
+    "pro": 0.025,
+    "ser": 0.028,
+    "thr": 0.025,
+    "trp": 0.008,
+    "tyr": 0.03,
+    "val": 0.034
+  },
+  "otherNutrients": {
+    "nt": 0.098
+  },
+  "extra": {}
+}

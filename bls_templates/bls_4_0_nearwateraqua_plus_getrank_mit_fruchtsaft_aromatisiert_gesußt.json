@@ -1,0 +1,80 @@
+{
+  "name": "Nearwater/Aqua Plus Getränk, mit Fruchtsaft, aromatisiert, gesüßt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 18,
+    "water": 95.6,
+    "protein": 0.008,
+    "fat": 0.007,
+    "carbs": 4.4,
+    "fiber": null,
+    "alcohol": 0.002,
+    "sugarAlcohols": 0.08
+  },
+  "vitamins": {
+    "vite": 0.006,
+    "tocpha": 0.006,
+    "tocphg": 0.002,
+    "toctra": 0.004,
+    "vitk": 0.136,
+    "vitk1": 0.136,
+    "thia": 0.001,
+    "ribf": 0.001,
+    "niaeq": 0.005,
+    "nia": 0.005,
+    "vitb6": 0.79,
+    "vitc": 0.083
+  },
+  "minerals": {
+    "nacl": 0.007,
+    "na": 2.8,
+    "cld": 3,
+    "k": 4,
+    "ca": 10,
+    "mg": 3.2,
+    "s": 1.7,
+    "cu": 3,
+    "fd": 28,
+    "mo": 0.2
+  },
+  "carbohydrates": {
+    "cho": 4.4,
+    "mnsac": 4.2,
+    "glus": 0.09,
+    "frus": 4.1,
+    "gals": 0.0003,
+    "disac": 0.13,
+    "sucs": 0.13,
+    "sugar": 4.3
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.08,
+    "sortl": 0.08
+  },
+  "fattyAcids": {
+    "fasat": 0.001,
+    "f16_0": 0.0008,
+    "f18_0": 0.0002,
+    "fams": 0.0016,
+    "f16_1cn7": 0.0001,
+    "f18_1cn9": 0.0015,
+    "fapu": 0.003,
+    "fapun3": 0.0004,
+    "f18_3cn3": 0.0004,
+    "fapun6": 0.003,
+    "f18_2cn6": 0.003
+  },
+  "aminoAcids": {
+    "asp": 0.002,
+    "glu": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.001
+  },
+  "extra": {}
+}

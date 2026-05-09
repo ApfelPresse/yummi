@@ -1,0 +1,104 @@
+{
+  "name": "Punschsauce",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 87,
+    "water": 79.8,
+    "protein": 0.077,
+    "fat": null,
+    "carbs": 15.9,
+    "fiber": 0.033,
+    "alcohol": 3,
+    "sugarAlcohols": 0.018
+  },
+  "vitamins": {
+    "cartb": 1,
+    "carotpaxb": 3,
+    "vite": 0.034,
+    "tocpha": 0.034,
+    "tocphb": 0.003,
+    "thia": 0.006,
+    "ribf": 0.02,
+    "niaeq": 0.09,
+    "nia": 0.09,
+    "pantac": 0.05,
+    "vitb6": 3,
+    "fol": 2,
+    "folfd": 2,
+    "vitc": 4
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 81,
+    "ca": 7,
+    "mg": 10,
+    "p": 14,
+    "s": 7,
+    "fe": 0.2,
+    "zn": 0.06,
+    "cu": 20,
+    "mn": 80,
+    "fd": 1,
+    "cr": 1,
+    "mo": 0.2
+  },
+  "carbohydrates": {
+    "cho": 15.9,
+    "mnsac": 1.53,
+    "glus": 0.71,
+    "frus": 0.82,
+    "disac": 13.241,
+    "sucs": 13.241,
+    "sugar": 14.77,
+    "starch": 1.11
+  },
+  "fibers": {
+    "fibt": 0.033
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.018,
+    "sortl": 0.018
+  },
+  "fattyAcids": {
+    "fasat": 0.003,
+    "f14_0": 0.0001,
+    "f16_0": 0.003,
+    "fams": 0.001,
+    "f16_1cn7": 0.0001,
+    "f18_1cn9": 0.001,
+    "fapu": 0.008,
+    "fapun3": 0.002,
+    "f18_3cn3": 0.002,
+    "fapun6": 0.006,
+    "f18_2cn6": 0.006
+  },
+  "aminoAcids": {
+    "aae9": 0.011,
+    "ala": 0.003,
+    "arg": 0.005,
+    "asp": 0.008,
+    "cyste": 0.001,
+    "glu": 0.006,
+    "gly": 0.003,
+    "his": 0.001,
+    "ile": 0.001,
+    "leu": 0.002,
+    "lys": 0.002,
+    "met": 0.001,
+    "phe": 0.001,
+    "pro": 0.004,
+    "ser": 0.002,
+    "thr": 0.001,
+    "tyr": 0.001,
+    "val": 0.002
+  },
+  "otherNutrients": {
+    "nt": 0.012
+  },
+  "extra": {}
+}

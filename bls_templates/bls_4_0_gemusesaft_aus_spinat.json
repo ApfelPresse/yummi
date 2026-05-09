@@ -1,0 +1,103 @@
+{
+  "name": "Gemüsesaft aus Spinat",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 10,
+    "water": 95.4,
+    "protein": 1.4,
+    "fat": 0.24,
+    "carbs": 0.44,
+    "fiber": 0.2,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 670,
+    "vitaa": 335,
+    "cartb": 3863,
+    "carotpaxb": 308,
+    "vite": 2.965,
+    "tocpha": 2.965,
+    "tocphb": 0.0062,
+    "tocphg": 0.17,
+    "tocphd": 0.0038,
+    "vitk": 456,
+    "vitk1": 456,
+    "thia": 0.052,
+    "ribf": 0.094,
+    "niaeq": 1.333,
+    "nia": 0.75,
+    "pantac": 0.2,
+    "vitb6": 40.64,
+    "biot": 0.1,
+    "fol": 61,
+    "folfd": 61,
+    "vitc": 29
+  },
+  "minerals": {
+    "nacl": 0.182,
+    "na": 73,
+    "cld": 51,
+    "k": 412,
+    "ca": 1,
+    "mg": 65,
+    "p": 43.9,
+    "fe": 1.9,
+    "zn": 0.68,
+    "id": 4,
+    "cu": 104,
+    "mn": 800,
+    "fd": 71,
+    "cr": 10
+  },
+  "carbohydrates": {
+    "cho": 0.44,
+    "mnsac": 0.29,
+    "glus": 0.11,
+    "frus": 0.18,
+    "sugar": 0.29,
+    "starch": 0.146
+  },
+  "fibers": {
+    "fibt": 0.2,
+    "fibhmw": 0.2,
+    "fibins": 0.1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.024,
+    "f16_0": 0.023,
+    "f18_0": 0.001,
+    "fams": 0.012,
+    "f16_1cn7": 0.0041,
+    "f18_1cn9": 0.008,
+    "fapu": 0.129,
+    "fapun3": 0.107,
+    "f18_3cn3": 0.107,
+    "fapun6": 0.022,
+    "f18_2cn6": 0.022
+  },
+  "aminoAcids": {
+    "aae9": 0.824,
+    "arg": 0.11,
+    "cyste": 0.032,
+    "his": 0.045,
+    "ile": 0.102,
+    "leu": 0.162,
+    "lys": 0.136,
+    "met": 0.037,
+    "phe": 0.094,
+    "thr": 0.094,
+    "trp": 0.035,
+    "tyr": 0.068,
+    "val": 0.119
+  },
+  "otherNutrients": {
+    "nt": 0.224
+  },
+  "extra": {}
+}

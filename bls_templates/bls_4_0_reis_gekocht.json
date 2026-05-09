@@ -1,0 +1,102 @@
+{
+  "name": "Reis gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 112,
+    "water": 72,
+    "protein": 2.535,
+    "fat": 0.188,
+    "carbs": 24.6,
+    "fiber": 0.8,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.018,
+    "tocpha": 0.018,
+    "tocphb": 0.002,
+    "tocphg": 0.025,
+    "tocphd": 0.002,
+    "toctra": 0.024,
+    "thia": 0.028,
+    "ribf": 0.001,
+    "niaeq": 0.842,
+    "nia": 0.359,
+    "pantac": 0.159,
+    "vitb6": 11,
+    "biot": 1,
+    "fol": 2.7,
+    "folfd": 2.7
+  },
+  "minerals": {
+    "nacl": 0.252,
+    "na": 100.8,
+    "cld": 146,
+    "k": 27.3,
+    "ca": 1.8,
+    "mg": 13.63,
+    "p": 36.3,
+    "fe": 0.0932,
+    "zn": 1,
+    "id": 2,
+    "cu": 80,
+    "mn": 236,
+    "cr": 1,
+    "mo": 10
+  },
+  "carbohydrates": {
+    "cho": 24.6,
+    "mnsac": 0.05,
+    "glus": 0.04,
+    "frus": 0.01,
+    "disac": 0.048,
+    "sucs": 0.048,
+    "sugar": 0.1,
+    "starch": 24.5
+  },
+  "fibers": {
+    "fibt": 0.8
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.04,
+    "f16_0": 0.036,
+    "f18_0": 0.004,
+    "fams": 0.068,
+    "f18_1cn9": 0.068,
+    "fapu": 0.071,
+    "fapun3": 0.004,
+    "f18_3cn3": 0.004,
+    "fapun6": 0.067,
+    "f18_2cn6": 0.067
+  },
+  "aminoAcids": {
+    "aae9": 0.921,
+    "ala": 0.16,
+    "arg": 0.182,
+    "asp": 0.249,
+    "cyste": 0.035,
+    "glu": 0.505,
+    "gly": 0.131,
+    "his": 0.054,
+    "ile": 0.109,
+    "leu": 0.211,
+    "lys": 0.093,
+    "met": 0.054,
+    "phe": 0.125,
+    "pro": 0.134,
+    "ser": 0.131,
+    "thr": 0.089,
+    "trp": 0.029,
+    "tyr": 0.083,
+    "val": 0.157
+  },
+  "otherNutrients": {
+    "nt": 0.46
+  },
+  "extra": {}
+}

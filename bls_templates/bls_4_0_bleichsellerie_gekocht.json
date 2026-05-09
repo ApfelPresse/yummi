@@ -1,0 +1,94 @@
+{
+  "name": "Bleichsellerie gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 17,
+    "water": 97.1,
+    "protein": 1.227,
+    "fat": 0.1,
+    "carbs": 1.5,
+    "fiber": 2.698,
+    "alcohol": null,
+    "sugarAlcohols": 0.112
+  },
+  "vitamins": {
+    "vita": 505,
+    "vitaa": 253,
+    "cartb": 3032,
+    "carotpaxb": 1,
+    "vite": 0.07,
+    "tocpha": 0.07,
+    "tocphb": 0.006,
+    "tocphg": 0.006,
+    "tocphd": 0.006,
+    "toctra": 0.05,
+    "vitk": 30,
+    "vitk1": 30,
+    "thia": 0.02,
+    "ribf": 0.01,
+    "niaeq": 0.4,
+    "nia": 0.2,
+    "pantac": 0.23,
+    "vitb6": 10,
+    "biot": 0.1,
+    "fol": 6,
+    "folfd": 6,
+    "vitc": 4.614
+  },
+  "minerals": {
+    "nacl": 0.165,
+    "na": 66,
+    "cld": 220,
+    "k": 160,
+    "ca": 43,
+    "mg": 5,
+    "p": 22,
+    "fe": 0.1,
+    "zn": 0.09,
+    "id": 1,
+    "cu": 20,
+    "mn": 80,
+    "cr": 1,
+    "mo": 1.11
+  },
+  "carbohydrates": {
+    "cho": 1.5,
+    "mnsac": 1.4,
+    "glus": 1,
+    "frus": 0.4,
+    "disac": 0.05,
+    "mals": 0.05,
+    "sugar": 1.4
+  },
+  "fibers": {
+    "fibt": 2.698,
+    "fibhmw": 2.698,
+    "fibins": 1.655,
+    "fibsol": 1.043
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.112,
+    "mantl": 0.112
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.293,
+    "arg": 0.102,
+    "cyste": 0.006,
+    "his": 0.045,
+    "lys": 0.019,
+    "met": 0.014,
+    "phe": 0.071,
+    "trp": 0.011,
+    "tyr": 0.032,
+    "val": 0.133
+  },
+  "otherNutrients": {
+    "nt": 0.01
+  },
+  "extra": {}
+}

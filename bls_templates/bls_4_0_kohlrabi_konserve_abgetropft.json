@@ -1,0 +1,107 @@
+{
+  "name": "Kohlrabi Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 18,
+    "water": 94.1,
+    "protein": 1.34,
+    "fat": 0.111,
+    "carbs": 2.27,
+    "fiber": 1.1,
+    "alcohol": null,
+    "sugarAlcohols": 0.09
+  },
+  "vitamins": {
+    "vita": 1,
+    "vitaa": 1,
+    "cartb": 6,
+    "carotpaxb": 2,
+    "vite": 0.0532,
+    "tocpha": 0.0532,
+    "tocphg": 0.0106,
+    "vitk": 6,
+    "vitk1": 6,
+    "thia": 0.01,
+    "ribf": 0.013,
+    "niaeq": 0.62,
+    "nia": 0.487,
+    "pantac": 0.029,
+    "vitb6": 13,
+    "biot": 1,
+    "fol": 6,
+    "folfd": 6,
+    "vitc": 7.828
+  },
+  "minerals": {
+    "nacl": 0.548,
+    "na": 219,
+    "cld": 458,
+    "k": 77,
+    "ca": 45,
+    "mg": 16,
+    "p": 30.9,
+    "s": 1,
+    "fe": 0.1,
+    "zn": 0.09,
+    "id": 1,
+    "cu": 10,
+    "mn": 40,
+    "cr": 3,
+    "mo": 3
+  },
+  "carbohydrates": {
+    "cho": 2.27,
+    "mnsac": 1.526,
+    "glus": 0.807,
+    "frus": 0.719,
+    "disac": 0.634,
+    "sucs": 0.634,
+    "sugar": 2.16,
+    "olsac": 0.023
+  },
+  "fibers": {
+    "fibt": 1.1,
+    "fibhmw": 1.1,
+    "fibins": 0.7,
+    "fibsol": 0.4
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.09,
+    "sortl": 0.09
+  },
+  "fattyAcids": {
+    "fasat": 0.0186,
+    "f14_0": 0.0001,
+    "f16_0": 0.0162,
+    "f18_0": 0.0023,
+    "fams": 0.0094,
+    "f16_1cn7": 0.0015,
+    "f18_1cn9": 0.0079,
+    "fapu": 0.049,
+    "fapun3": 0.032,
+    "f18_3cn3": 0.032,
+    "fapun6": 0.017,
+    "f18_2cn6": 0.017
+  },
+  "aminoAcids": {
+    "aae9": 0.312,
+    "arg": 0.083,
+    "his": 0.025,
+    "ile": 0.061,
+    "leu": 0.054,
+    "lys": 0.044,
+    "met": 0.011,
+    "phe": 0.03,
+    "thr": 0.039,
+    "trp": 0.008,
+    "val": 0.04
+  },
+  "otherNutrients": {
+    "nt": 0.215
+  },
+  "extra": {}
+}

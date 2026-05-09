@@ -27,6 +27,7 @@ import json
 # ─── Zutaten-Liste ────────────────────────────────────────────────────────────
 
 INGREDIENTS = [
+    "Sonnenblumenöl",
     "Agavendicksaft",
     "Ahornsirup",
     "AONORI",

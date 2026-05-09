@@ -1,0 +1,94 @@
+{
+  "name": "Bleichsellerie geschmort ohne Fett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 18,
+    "water": 94.4,
+    "protein": 1.305,
+    "fat": 0.1,
+    "carbs": 1.7,
+    "fiber": 2.805,
+    "alcohol": null,
+    "sugarAlcohols": 0.121
+  },
+  "vitamins": {
+    "vita": 457,
+    "vitaa": 228,
+    "cartb": 2741,
+    "carotpaxb": 0.9,
+    "vite": 0.07,
+    "tocpha": 0.07,
+    "tocphb": 0.005,
+    "tocphg": 0.005,
+    "tocphd": 0.005,
+    "toctra": 0.04,
+    "vitk": 32,
+    "vitk1": 32,
+    "thia": 0.03,
+    "ribf": 0.02,
+    "niaeq": 0.5,
+    "nia": 0.3,
+    "pantac": 0.26,
+    "vitb6": 20,
+    "biot": 0.1,
+    "fol": 9,
+    "folfd": 9,
+    "vitc": 6.154
+  },
+  "minerals": {
+    "nacl": 0.212,
+    "na": 85,
+    "cld": 231,
+    "k": 306,
+    "ca": 44,
+    "mg": 9,
+    "p": 24,
+    "fe": 0.13,
+    "zn": 0.11,
+    "id": 1,
+    "cu": 20,
+    "mn": 90,
+    "cr": 1,
+    "mo": 1.16
+  },
+  "carbohydrates": {
+    "cho": 1.7,
+    "mnsac": 1.5,
+    "glus": 1.1,
+    "frus": 0.4,
+    "disac": 0.05,
+    "mals": 0.05,
+    "sugar": 1.6
+  },
+  "fibers": {
+    "fibt": 2.805,
+    "fibhmw": 2.805,
+    "fibins": 1.721,
+    "fibsol": 1.085
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.121,
+    "mantl": 0.121
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.312,
+    "arg": 0.109,
+    "cyste": 0.007,
+    "his": 0.048,
+    "lys": 0.021,
+    "met": 0.015,
+    "phe": 0.075,
+    "trp": 0.012,
+    "tyr": 0.034,
+    "val": 0.141
+  },
+  "otherNutrients": {
+    "nt": 0.01
+  },
+  "extra": {}
+}

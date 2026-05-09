@@ -1,0 +1,83 @@
+{
+  "name": "Topinambur/Erdartischocke, gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 62,
+    "water": 80.5,
+    "protein": 2.773,
+    "fat": 0.466,
+    "carbs": 4.545,
+    "fiber": 13.716,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 12,
+    "vitk": 0.1,
+    "vitk1": 0.1,
+    "thia": 0.205,
+    "ribf": 0.065,
+    "niaeq": 2.203,
+    "nia": 1.403,
+    "vitc": 3.864
+  },
+  "minerals": {
+    "k": 606,
+    "ca": 17,
+    "mg": 21.1,
+    "p": 89,
+    "fe": 2.27,
+    "zn": 0.261,
+    "cu": 193,
+    "mn": 34
+  },
+  "carbohydrates": {
+    "cho": 4.545,
+    "disac": 4.545,
+    "sucs": 4.545,
+    "sugar": 4.545
+  },
+  "fibers": {
+    "fibt": 13.716,
+    "fibins": 9.723,
+    "fibsol": 3.993
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.108,
+    "f16_0": 0.102,
+    "f18_0": 0.0058,
+    "fams": 0.0088,
+    "f18_1cn9": 0.0088,
+    "fapu": 0.238,
+    "fapun3": 0.049,
+    "f18_3cn3": 0.049,
+    "fapun6": 0.189,
+    "f18_2cn6": 0.189
+  },
+  "aminoAcids": {
+    "aae9": 0.954,
+    "arg": 0.11,
+    "cyste": 0.042,
+    "his": 0.049,
+    "ile": 0.116,
+    "leu": 0.143,
+    "lys": 0.112,
+    "met": 0.048,
+    "phe": 0.134,
+    "thr": 0.116,
+    "trp": 0.048,
+    "tyr": 0.12,
+    "val": 0.188
+  },
+  "otherNutrients": {
+    "nt": 0.443
+  },
+  "extra": {}
+}

@@ -1,0 +1,107 @@
+{
+  "name": "Bohne grün, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 21,
+    "water": 90.267,
+    "protein": 1.662,
+    "fat": 0.138,
+    "carbs": 2.1,
+    "fiber": 2.72,
+    "alcohol": null,
+    "sugarAlcohols": 0.16
+  },
+  "vitamins": {
+    "vita": 51,
+    "vitaa": 25,
+    "cartb": 277,
+    "carotpaxb": 55,
+    "vite": 0.077,
+    "tocpha": 0.077,
+    "tocphg": 0.163,
+    "vitk": 28,
+    "vitk1": 28,
+    "thia": 0.079,
+    "ribf": 0.056,
+    "niaeq": 0.935,
+    "nia": 0.452,
+    "pantac": 0.097,
+    "vitb6": 25,
+    "biot": 0.3,
+    "fol": 28,
+    "folfd": 28,
+    "vitc": 0.2
+  },
+  "minerals": {
+    "nacl": 0.67,
+    "na": 268,
+    "cld": 425,
+    "k": 139,
+    "ca": 47,
+    "mg": 18,
+    "p": 32,
+    "s": 1,
+    "fe": 1.6,
+    "zn": 0.234,
+    "id": 1.9,
+    "cu": 272,
+    "mn": 235,
+    "mo": 12
+  },
+  "carbohydrates": {
+    "cho": 2.1,
+    "mnsac": 1.009,
+    "glus": 0.4,
+    "frus": 0.609,
+    "disac": 0.283,
+    "sucs": 0.283,
+    "sugar": 1.292,
+    "starch": 0.652
+  },
+  "fibers": {
+    "fibt": 2.72,
+    "fibhmw": 2.72,
+    "fibins": 1.96,
+    "fibsol": 0.76
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.16,
+    "mantl": 0.06,
+    "sortl": 0.1
+  },
+  "fattyAcids": {
+    "fasat": 0.049,
+    "f16_0": 0.043,
+    "f18_0": 0.0061,
+    "fams": 0.006,
+    "f18_1cn9": 0.006,
+    "fapu": 0.08,
+    "fapun3": 0.043,
+    "f18_3cn3": 0.043,
+    "fapun6": 0.037,
+    "f18_2cn6": 0.037
+  },
+  "aminoAcids": {
+    "aae9": 0.577,
+    "arg": 0.071,
+    "cyste": 0.014,
+    "his": 0.04,
+    "ile": 0.062,
+    "leu": 0.115,
+    "lys": 0.091,
+    "met": 0.022,
+    "phe": 0.071,
+    "thr": 0.065,
+    "trp": 0.029,
+    "tyr": 0.057,
+    "val": 0.082
+  },
+  "otherNutrients": {
+    "nt": 0.266
+  },
+  "extra": {}
+}

@@ -1,0 +1,112 @@
+{
+  "name": "Heidelbeere roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 61,
+    "water": 86.5,
+    "protein": 0.5,
+    "fat": 0.6,
+    "carbs": 9.7,
+    "fiber": 4.9,
+    "alcohol": null,
+    "sugarAlcohols": 0.002
+  },
+  "vitamins": {
+    "vita": 9,
+    "vitaa": 4,
+    "cartb": 48,
+    "carotpaxb": 8,
+    "vite": 1.215,
+    "tocpha": 1.215,
+    "tocphg": 0.295,
+    "tocphd": 0.01,
+    "vitk": 16,
+    "vitk1": 16,
+    "thia": 0.04,
+    "ribf": 0.04,
+    "niaeq": 0.317,
+    "nia": 0.3,
+    "pantac": 0.2,
+    "vitb6": 6.77,
+    "biot": 1.5,
+    "fol": 12,
+    "folfd": 12,
+    "vitc": 22
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 5,
+    "k": 84,
+    "ca": 11,
+    "mg": 6,
+    "p": 13,
+    "fe": 0.708,
+    "zn": 0.14,
+    "id": 2,
+    "cu": 73,
+    "mn": 2020,
+    "fd": 2,
+    "cr": 1,
+    "mo": 3.24
+  },
+  "carbohydrates": {
+    "cho": 9.7,
+    "mnsac": 9.7,
+    "glus": 3.9,
+    "frus": 5.79,
+    "gals": 0.0107,
+    "sugar": 9.7
+  },
+  "fibers": {
+    "fibt": 4.9,
+    "fibhmw": 4.9,
+    "fibins": 3.5,
+    "fibsol": 1.4
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.002,
+    "xyltl": 0.002
+  },
+  "fattyAcids": {
+    "fasat": 0.0558,
+    "f16_0": 0.0384,
+    "f18_0": 0.011,
+    "f20_0": 0.0064,
+    "fams": 0.1004,
+    "f18_1cn9": 0.0971,
+    "f20_1cn9": 0.0033,
+    "fapu": 0.4014,
+    "fapun3": 0.1842,
+    "f18_3cn3": 0.1842,
+    "fapun6": 0.2172,
+    "f18_2cn6": 0.2172,
+    "fax": 0.0037
+  },
+  "aminoAcids": {
+    "aae9": 0.143,
+    "ala": 0.032,
+    "arg": 0.078,
+    "asp": 0.061,
+    "cyste": 0.006,
+    "glu": 0.096,
+    "gly": 0.033,
+    "leu": 0.043,
+    "lys": 0.036,
+    "phe": 0.008,
+    "pro": 0.012,
+    "ser": 0.03,
+    "thr": 0.023,
+    "trp": 0.001,
+    "tyr": 0.003,
+    "val": 0.032
+  },
+  "otherNutrients": {
+    "nt": 0.157
+  },
+  "extra": {}
+}

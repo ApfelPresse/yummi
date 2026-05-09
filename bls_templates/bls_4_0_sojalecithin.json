@@ -1,0 +1,48 @@
+{
+  "name": "Sojalecithin",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 760,
+    "water": 1,
+    "protein": null,
+    "fat": 83,
+    "carbs": 3.2,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "k": 875,
+    "ca": 125,
+    "mg": 115,
+    "fe": 2.5
+  },
+  "carbohydrates": {
+    "cho": 3.2,
+    "disac": 3.2,
+    "sucs": 3.2,
+    "sugar": 3.2
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 11.67,
+    "f16_0": 9.21,
+    "f18_0": 2.46,
+    "fams": 7.03,
+    "f18_1cn9": 7.03,
+    "fapu": 34.4,
+    "fapun3": 4.01,
+    "f18_3cn3": 4.01,
+    "fapun6": 30.4,
+    "f18_2cn6": 30.4
+  },
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

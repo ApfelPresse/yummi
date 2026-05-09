@@ -1,0 +1,97 @@
+{
+  "name": "Miso/Sojabohnenpaste",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 174,
+    "water": 44.9,
+    "protein": 10.6,
+    "fat": 10.5,
+    "carbs": 6.2,
+    "fiber": 6,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "cartb": 24,
+    "vite": 1.1,
+    "tocpha": 1.1,
+    "vitk": 6.6,
+    "vitk1": 6.6,
+    "thia": 0.04,
+    "ribf": 0.12,
+    "niaeq": 3.8,
+    "nia": 1.2,
+    "vitb6": 130,
+    "fol": 44,
+    "folfd": 44
+  },
+  "minerals": {
+    "nacl": 10.75,
+    "na": 4300,
+    "k": 930,
+    "ca": 150,
+    "mg": 230,
+    "p": 250,
+    "fe": 6.8,
+    "zn": 2,
+    "id": 31
+  },
+  "carbohydrates": {
+    "cho": 6.2,
+    "mnsac": 6,
+    "frus": 6,
+    "disac": 0.2,
+    "mals": 0.2,
+    "sugar": 6.2
+  },
+  "fibers": {
+    "fibt": 6,
+    "fibins": 2.1,
+    "fibsol": 3.9
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 1.6,
+    "f16_0": 1.1,
+    "f17_0": 0.01,
+    "f18_0": 0.4,
+    "f22_0": 0.05,
+    "fams": 1.8,
+    "f18_1cn9": 1.8,
+    "fapu": 6.3,
+    "fapun3": 1,
+    "f18_3cn3": 1,
+    "fapun6": 5.3,
+    "f18_2cn6": 5.3
+  },
+  "aminoAcids": {
+    "aae9": 3.84,
+    "ala": 0.5,
+    "arg": 0.784,
+    "asp": 1.17,
+    "glu": 1.92,
+    "gly": 0.447,
+    "his": 0.243,
+    "ile": 0.508,
+    "leu": 0.82,
+    "lys": 0.478,
+    "met": 0.129,
+    "phe": 0.486,
+    "pro": 0.619,
+    "ser": 0.601,
+    "thr": 0.479,
+    "trp": 0.155,
+    "tyr": 0.352,
+    "val": 0.547
+  },
+  "otherNutrients": {
+    "nt": 1.7
+  },
+  "extra": {}
+}

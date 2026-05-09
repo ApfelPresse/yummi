@@ -1,0 +1,80 @@
+{
+  "name": "Jackfrucht roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 78,
+    "water": 74.55,
+    "protein": 1.1,
+    "fat": 0.45,
+    "carbs": 15.31,
+    "fiber": 4.15,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 4,
+    "cartb": 45,
+    "thia": 0.03,
+    "ribf": 0.11,
+    "niaeq": 0.65,
+    "nia": 0.6,
+    "vitc": 9
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 407,
+    "ca": 27,
+    "mg": 29,
+    "p": 38,
+    "fe": 0.6
+  },
+  "carbohydrates": {
+    "cho": 15.31,
+    "mnsac": 7.7,
+    "glus": 6,
+    "frus": 1.7,
+    "disac": 6.9,
+    "sucs": 6.9,
+    "sugar": 14.6,
+    "starch": 0.71
+  },
+  "fibers": {
+    "fibt": 4.15,
+    "fibhmw": 4.15,
+    "fibins": 3.228,
+    "fibsol": 0.922
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.239,
+    "ala": 0.124,
+    "arg": 0.038,
+    "asp": 0.178,
+    "cyste": 0.003,
+    "glu": 0.274,
+    "gly": 0.034,
+    "his": 0.02,
+    "ile": 0.028,
+    "leu": 0.038,
+    "lys": 0.039,
+    "met": 0.016,
+    "phe": 0.03,
+    "pro": 0.025,
+    "ser": 0.055,
+    "thr": 0.022,
+    "trp": 0.003,
+    "tyr": 0.018,
+    "val": 0.043
+  },
+  "otherNutrients": {
+    "nt": 0.176
+  },
+  "extra": {}
+}

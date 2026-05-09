@@ -1,0 +1,108 @@
+{
+  "name": "Weißkohl gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 35,
+    "water": 91,
+    "protein": 1.502,
+    "fat": 0.207,
+    "carbs": 4.93,
+    "fiber": 3.3,
+    "alcohol": null,
+    "sugarAlcohols": 0.15
+  },
+  "vitamins": {
+    "vita": 8,
+    "vitaa": 4,
+    "cartb": 41,
+    "carotpaxb": 9,
+    "vite": 0.318,
+    "tocpha": 0.318,
+    "tocphg": 0.002,
+    "toctra": 0.043,
+    "vitk": 98,
+    "vitk1": 98,
+    "thia": 0.22,
+    "ribf": 0.02,
+    "niaeq": 0.3,
+    "nia": 0.3,
+    "pantac": 0.21,
+    "vitb6": 79.51,
+    "biot": 0.1,
+    "fol": 37,
+    "folfd": 37,
+    "vitc": 30.949
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 40,
+    "k": 276,
+    "ca": 48,
+    "mg": 13,
+    "p": 38.633,
+    "fe": 0.339,
+    "zn": 0.17,
+    "id": 2,
+    "cu": 25,
+    "mn": 210,
+    "fd": 13,
+    "cr": 0.5,
+    "mo": 4
+  },
+  "carbohydrates": {
+    "cho": 4.93,
+    "mnsac": 4.56,
+    "glus": 2.53,
+    "frus": 2.03,
+    "disac": 0.215,
+    "sucs": 0.215,
+    "sugar": 4.78
+  },
+  "fibers": {
+    "fibt": 3.3,
+    "fibhmw": 3.3,
+    "fibins": 2.4,
+    "fibsol": 0.9
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.15,
+    "sortl": 0.15
+  },
+  "fattyAcids": {
+    "fasat": 0.0363,
+    "f14_0": 0.0005,
+    "f16_0": 0.0321,
+    "f18_0": 0.0032,
+    "f20_0": 0.0005,
+    "fams": 0.0052,
+    "f16_1cn7": 0.0029,
+    "f18_1cn9": 0.0023,
+    "fapu": 0.124,
+    "fapun3": 0.095,
+    "f18_3cn3": 0.095,
+    "fapun6": 0.0288,
+    "f18_2cn6": 0.0288
+  },
+  "aminoAcids": {
+    "aae9": 0.335,
+    "arg": 0.109,
+    "cyste": 0.029,
+    "his": 0.027,
+    "ile": 0.042,
+    "leu": 0.061,
+    "lys": 0.071,
+    "met": 0.014,
+    "phe": 0.033,
+    "thr": 0.041,
+    "val": 0.046
+  },
+  "otherNutrients": {
+    "nt": 0.24
+  },
+  "extra": {}
+}

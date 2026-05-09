@@ -1,0 +1,61 @@
+{
+  "name": "Bockbier",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 49,
+    "water": 91.64,
+    "protein": 0.9,
+    "fat": null,
+    "carbs": 2.1275,
+    "fiber": null,
+    "alcohol": 5.32,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.02,
+    "ribf": 0.06,
+    "niaeq": 0.8,
+    "nia": 0.8,
+    "pantac": 0.15,
+    "vitb6": 70,
+    "biot": 1.6,
+    "fol": 18,
+    "folfd": 18
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 14.4,
+    "k": 63,
+    "ca": 6,
+    "mg": 10,
+    "p": 25,
+    "s": 15,
+    "fe": 0.02,
+    "zn": 0.01,
+    "id": 0.2302,
+    "cu": 8,
+    "mn": 20,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 2.1275,
+    "starch": 2.1275
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "asp": 0.1,
+    "glu": 0.2,
+    "pro": 0.2
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

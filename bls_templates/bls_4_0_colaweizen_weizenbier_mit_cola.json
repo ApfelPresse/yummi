@@ -1,0 +1,88 @@
+{
+  "name": "Colaweizen (Weizenbier mit Cola)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 41,
+    "water": 90.94,
+    "protein": 0.307,
+    "fat": null,
+    "carbs": 6.377,
+    "fiber": null,
+    "alcohol": 2.09,
+    "sugarAlcohols": 0.001
+  },
+  "vitamins": {
+    "thia": 0.005,
+    "ribf": 0.019,
+    "niaeq": 1.13,
+    "nia": 1.06,
+    "pantac": 0.0213,
+    "vitb6": 25,
+    "biot": 0.6,
+    "fol": 4.4,
+    "folfd": 4.4
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 14,
+    "k": 28,
+    "ca": 3,
+    "mg": 4.6,
+    "p": 21,
+    "s": 6.7,
+    "fe": 0.007,
+    "zn": 0.002,
+    "id": 0.2703,
+    "cu": 3,
+    "mn": 11,
+    "fd": 31,
+    "mo": 0.02
+  },
+  "carbohydrates": {
+    "cho": 6.377,
+    "mnsac": 2.948,
+    "glus": 1.422,
+    "frus": 1.526,
+    "disac": 2.241,
+    "sucs": 2.228,
+    "mals": 0.013,
+    "sugar": 5.189,
+    "starch": 1.1867
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.001,
+    "sortl": 0.001
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.089,
+    "ala": 0.012,
+    "arg": 0.01,
+    "asp": 0.014,
+    "cyste": 0.009,
+    "glu": 0.096,
+    "gly": 0.014,
+    "his": 0.008,
+    "ile": 0.012,
+    "leu": 0.014,
+    "lys": 0.01,
+    "met": 0.005,
+    "phe": 0.016,
+    "pro": 0.048,
+    "ser": 0.014,
+    "thr": 0.008,
+    "trp": 0.004,
+    "tyr": 0.008,
+    "val": 0.012
+  },
+  "otherNutrients": {
+    "nt": 0.049
+  },
+  "extra": {}
+}

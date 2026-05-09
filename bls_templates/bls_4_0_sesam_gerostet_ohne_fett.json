@@ -1,0 +1,102 @@
+{
+  "name": "Sesam geröstet ohne Fett",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 575,
+    "water": 4.078,
+    "protein": 20.896,
+    "fat": 51.429,
+    "carbs": 1.448,
+    "fiber": 11.408,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.26,
+    "tocpha": 0.26,
+    "tocphg": 23.28,
+    "tocphd": 0.3,
+    "vitk": 2.88,
+    "vitk1": 2.88,
+    "thia": 0.685,
+    "ribf": 0.242,
+    "niaeq": 9.215,
+    "nia": 4.382,
+    "pantac": 0.21,
+    "vitb6": 766,
+    "biot": 13,
+    "fol": 97,
+    "folfd": 97
+  },
+  "minerals": {
+    "nacl": 0.11,
+    "na": 44,
+    "k": 467,
+    "ca": 799,
+    "mg": 354,
+    "p": 496,
+    "fe": 10.204,
+    "zn": 6.07,
+    "cu": 1690,
+    "mn": 1850,
+    "cr": 12
+  },
+  "carbohydrates": {
+    "cho": 1.448,
+    "mnsac": 0.612,
+    "gals": 0.612,
+    "disac": 0.612,
+    "sucs": 0.612,
+    "sugar": 1.224,
+    "starch": 0.224
+  },
+  "fibers": {
+    "fibt": 11.408,
+    "fibhmw": 11.408,
+    "fibins": 8.122,
+    "fibsol": 3.286
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 7.704,
+    "f16_0": 5.816,
+    "f18_0": 1.633,
+    "f20_0": 0.255,
+    "fams": 20.306,
+    "f18_1cn9": 20.306,
+    "fapu": 19.766,
+    "fapun3": 0.684,
+    "f18_3cn3": 0.684,
+    "fapun6": 19.082,
+    "f18_2cn6": 19.082
+  },
+  "aminoAcids": {
+    "aae9": 7.8,
+    "ala": 1.13,
+    "arg": 2.2,
+    "asp": 1.37,
+    "cyste": 0.26,
+    "glu": 3.73,
+    "gly": 1.48,
+    "his": 0.49,
+    "ile": 0.93,
+    "leu": 1.54,
+    "lys": 0.64,
+    "met": 0.64,
+    "phe": 1.25,
+    "pro": 1.13,
+    "ser": 0.99,
+    "thr": 0.91,
+    "trp": 0.29,
+    "tyr": 0.72,
+    "val": 1.11
+  },
+  "otherNutrients": {
+    "nt": 3.343
+  },
+  "extra": {}
+}

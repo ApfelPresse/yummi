@@ -1,0 +1,107 @@
+{
+  "name": "Knollensellerie roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 30,
+    "water": 90.433,
+    "protein": 1.55,
+    "fat": 0.33,
+    "carbs": 2.77,
+    "fiber": 4.2,
+    "alcohol": null,
+    "sugarAlcohols": 0.22
+  },
+  "vitamins": {
+    "vite": 0.5,
+    "tocpha": 0.5,
+    "vitk": 41,
+    "vitk1": 41,
+    "thia": 0.036,
+    "ribf": 0.07,
+    "niaeq": 1.1,
+    "nia": 0.9,
+    "pantac": 0.51,
+    "vitb6": 200,
+    "biot": 0.1,
+    "fol": 76,
+    "folfd": 76,
+    "vitc": 8.25
+  },
+  "minerals": {
+    "nacl": 0.192,
+    "na": 77,
+    "cld": 150,
+    "k": 508,
+    "ca": 41,
+    "mg": 15,
+    "p": 69,
+    "fe": 0.53,
+    "zn": 0.4,
+    "id": 2.4,
+    "cu": 119,
+    "mn": 200,
+    "fd": 10,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 2.77,
+    "mnsac": 0.4,
+    "glus": 0.3,
+    "frus": 0.1,
+    "disac": 1.71,
+    "sucs": 1.71,
+    "sugar": 2.11,
+    "starch": 0.44
+  },
+  "fibers": {
+    "fibt": 4.2,
+    "fibhmw": 4.2,
+    "fibins": 3.6,
+    "fibsol": 0.6
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.22,
+    "sortl": 0.22
+  },
+  "fattyAcids": {
+    "fasat": 0.066,
+    "f16_0": 0.063,
+    "f18_0": 0.0035,
+    "fams": 0.013,
+    "f18_1cn9": 0.013,
+    "fapu": 0.173,
+    "fapun3": 0.017,
+    "f18_3cn3": 0.017,
+    "fapun6": 0.156,
+    "f18_2cn6": 0.156
+  },
+  "aminoAcids": {
+    "aae9": 0.415,
+    "ala": 0.086,
+    "arg": 0.044,
+    "asp": 0.164,
+    "cyste": 0.004,
+    "glu": 0.283,
+    "gly": 0.047,
+    "his": 0.024,
+    "ile": 0.048,
+    "leu": 0.075,
+    "lys": 0.074,
+    "met": 0.018,
+    "phe": 0.047,
+    "pro": 0.04,
+    "ser": 0.049,
+    "thr": 0.044,
+    "trp": 0.012,
+    "tyr": 0.025,
+    "val": 0.073
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

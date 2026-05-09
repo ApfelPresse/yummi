@@ -1,0 +1,103 @@
+{
+  "name": "Gurke gebacken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 20,
+    "water": 96.1,
+    "protein": 1.249,
+    "fat": 0.235,
+    "carbs": 2.32,
+    "fiber": 1.1,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 25,
+    "vitaa": 12,
+    "cartb": 134,
+    "carotpaxb": 30,
+    "vite": 0.035,
+    "tocpha": 0.035,
+    "tocphb": 0.012,
+    "tocphg": 0.047,
+    "toctra": 0.094,
+    "vitk": 38,
+    "vitk1": 38,
+    "thia": 0.042,
+    "ribf": 0.022,
+    "niaeq": 0.307,
+    "nia": 0.224,
+    "pantac": 0.34,
+    "vitb6": 8.71,
+    "biot": 0.8,
+    "fol": 11,
+    "folfd": 11,
+    "vitc": 7.529
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 44,
+    "k": 213,
+    "ca": 22,
+    "mg": 14,
+    "p": 18.218,
+    "fe": 0.268,
+    "zn": 0.14,
+    "id": 2,
+    "cu": 36,
+    "mn": 120,
+    "fd": 13
+  },
+  "carbohydrates": {
+    "cho": 2.32,
+    "mnsac": 2.32,
+    "glus": 1.26,
+    "frus": 1.05,
+    "gals": 0.0068,
+    "sugar": 2.32
+  },
+  "fibers": {
+    "fibt": 1.1,
+    "fibhmw": 1.1,
+    "fibins": 0.9,
+    "fibsol": 0.1
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.078,
+    "f12_0": 0.0004,
+    "f14_0": 0.0015,
+    "f16_0": 0.069,
+    "f18_0": 0.007,
+    "fams": 0.006,
+    "f16_1cn7": 0.0004,
+    "f18_1cn9": 0.006,
+    "fapu": 0.103,
+    "fapun3": 0.049,
+    "f18_3cn3": 0.049,
+    "fapun6": 0.054,
+    "f18_2cn6": 0.054
+  },
+  "aminoAcids": {
+    "aae9": 0.163,
+    "arg": 0.053,
+    "his": 0.009,
+    "ile": 0.022,
+    "leu": 0.029,
+    "lys": 0.031,
+    "met": 0.007,
+    "phe": 0.016,
+    "thr": 0.019,
+    "trp": 0.005,
+    "val": 0.025
+  },
+  "otherNutrients": {
+    "nt": 0.2
+  },
+  "extra": {}
+}

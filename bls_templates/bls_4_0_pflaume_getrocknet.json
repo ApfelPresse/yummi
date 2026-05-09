@@ -1,0 +1,101 @@
+{
+  "name": "Pflaume getrocknet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 205,
+    "water": 37.2,
+    "protein": 2.29,
+    "fat": null,
+    "carbs": 44.2,
+    "fiber": 6.12,
+    "alcohol": null,
+    "sugarAlcohols": 6.958
+  },
+  "vitamins": {
+    "vita": 42,
+    "vitaa": 21,
+    "cartb": 210,
+    "carotpaxb": 78,
+    "vite": 2.1,
+    "tocpha": 2.1,
+    "tocphb": 0.03,
+    "tocphg": 0.14,
+    "vitk": 1.4,
+    "vitk1": 1.4,
+    "thia": 0.03,
+    "ribf": 0.11,
+    "niaeq": 1.16,
+    "nia": 0.98,
+    "pantac": 0.16,
+    "vitb6": 250,
+    "biot": 0.64,
+    "fol": 0.7,
+    "folfd": 0.7,
+    "vitc": 4
+  },
+  "minerals": {
+    "nacl": 0.0045,
+    "na": 1.8,
+    "cld": 14,
+    "k": 718,
+    "ca": 42.2,
+    "mg": 34.8,
+    "p": 65.2,
+    "s": 16,
+    "fe": 0.885,
+    "zn": 0.38,
+    "id": 1.8,
+    "cu": 290,
+    "mn": 455,
+    "cr": 2.2,
+    "mo": 1.4
+  },
+  "carbohydrates": {
+    "cho": 44.2,
+    "mnsac": 37.2,
+    "glus": 25.55,
+    "frus": 11.7,
+    "sugar": 37.2
+  },
+  "fibers": {
+    "fibt": 6.12,
+    "fibhmw": 6.12,
+    "fibins": 3.24,
+    "fibsol": 2.88
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 6.958,
+    "sortl": 6.57,
+    "xyltl": 0.388
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.357,
+    "ala": 0.073,
+    "arg": 0.044,
+    "asp": 0.719,
+    "cyste": 0.018,
+    "glu": 0.108,
+    "gly": 0.054,
+    "his": 0.02,
+    "ile": 0.038,
+    "leu": 0.072,
+    "lys": 0.047,
+    "met": 0.012,
+    "phe": 0.055,
+    "pro": 0.122,
+    "ser": 0.06,
+    "thr": 0.048,
+    "trp": 0.011,
+    "tyr": 0.032,
+    "val": 0.054
+  },
+  "otherNutrients": {
+    "nt": 0.37
+  },
+  "extra": {}
+}

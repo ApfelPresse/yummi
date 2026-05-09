@@ -1,0 +1,106 @@
+{
+  "name": "Quitte gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 44,
+    "water": 86.2,
+    "protein": 0.411,
+    "fat": 0.515,
+    "carbs": 6.7,
+    "fiber": 4.882,
+    "alcohol": null,
+    "sugarAlcohols": 0.5
+  },
+  "vitamins": {
+    "vita": 5,
+    "vitaa": 2,
+    "cartb": 26,
+    "carotpaxb": 4,
+    "vite": 0.177,
+    "tocpha": 0.177,
+    "tocphb": 0.003,
+    "tocphg": 0.006,
+    "tocphd": 0.002,
+    "vitk": 5,
+    "vitk1": 5,
+    "thia": 0.02,
+    "ribf": 0.025,
+    "niaeq": 0.165,
+    "nia": 0.165,
+    "pantac": 0.1,
+    "vitb6": 41.57,
+    "biot": 1.1,
+    "fol": 3,
+    "folfd": 3,
+    "vitc": 5.361
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 1.8,
+    "k": 113,
+    "ca": 10.1,
+    "mg": 6.8,
+    "p": 8.68,
+    "fe": 0.557,
+    "zn": 0.206,
+    "id": 2,
+    "cu": 94,
+    "mn": 21,
+    "fd": 6,
+    "cr": 1,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 6.7,
+    "mnsac": 5.226,
+    "glus": 0.929,
+    "frus": 4.297,
+    "disac": 0.528,
+    "sucs": 0.528,
+    "sugar": 5.754,
+    "starch": 0.495
+  },
+  "fibers": {
+    "fibt": 4.882,
+    "fibhmw": 4.882,
+    "fibins": 3.72,
+    "fibsol": 1.163
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.5,
+    "sortl": 0.5
+  },
+  "fattyAcids": {
+    "fasat": 0.039,
+    "f16_0": 0.03,
+    "f18_0": 0.0087,
+    "fams": 0.155,
+    "f18_1cn9": 0.155,
+    "fapu": 0.21,
+    "fapun6": 0.21,
+    "f18_2cn6": 0.21
+  },
+  "aminoAcids": {
+    "aae9": 0.044,
+    "ala": 0.011,
+    "arg": 0.008,
+    "asp": 0.213,
+    "cyste": 0.003,
+    "glu": 0.022,
+    "leu": 0.013,
+    "lys": 0.012,
+    "pro": 0.008,
+    "ser": 0.013,
+    "thr": 0.01,
+    "val": 0.009
+  },
+  "otherNutrients": {
+    "nt": 0.066
+  },
+  "extra": {}
+}

@@ -1,0 +1,87 @@
+{
+  "name": "Hefeweizen/Weizenbier, 0,0 % vol",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 26,
+    "water": 88.66,
+    "protein": 0.478,
+    "fat": null,
+    "carbs": 5.9,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": 0.002
+  },
+  "vitamins": {
+    "thia": 0.005,
+    "ribf": 0.031,
+    "niaeq": 1.67,
+    "nia": 1.57,
+    "pantac": 0.0827,
+    "vitb6": 45,
+    "biot": 1.1,
+    "fol": 7.3,
+    "folfd": 7.3
+  },
+  "minerals": {
+    "nacl": 0.0032,
+    "na": 1.3,
+    "cld": 18.4,
+    "k": 50.2,
+    "ca": 6.4,
+    "mg": 8.4,
+    "p": 25,
+    "s": 7.29,
+    "fe": 0.0096,
+    "zn": 0.0012,
+    "id": 0.5714,
+    "cu": 4.1,
+    "mn": 20.4,
+    "fd": 31
+  },
+  "carbohydrates": {
+    "cho": 5.9,
+    "mnsac": 2.793,
+    "glus": 2.048,
+    "frus": 0.745,
+    "disac": 0.807,
+    "sucs": 0.248,
+    "mals": 0.559,
+    "sugar": 3.6,
+    "starch": 2.2886
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.002,
+    "sortl": 0.002
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.134,
+    "ala": 0.019,
+    "arg": 0.015,
+    "asp": 0.023,
+    "cyste": 0.014,
+    "glu": 0.149,
+    "gly": 0.023,
+    "his": 0.011,
+    "ile": 0.018,
+    "leu": 0.022,
+    "lys": 0.015,
+    "met": 0.008,
+    "phe": 0.024,
+    "pro": 0.075,
+    "ser": 0.022,
+    "thr": 0.012,
+    "trp": 0.006,
+    "tyr": 0.012,
+    "val": 0.018
+  },
+  "otherNutrients": {
+    "nt": 0.076
+  },
+  "extra": {}
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Cocktail, Sex on the Beach",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 73,
+    "water": 86.3,
+    "protein": 0.3,
+    "fat": 0.093,
+    "carbs": 6.6,
+    "fiber": 0.131,
+    "alcohol": 6.1,
+    "sugarAlcohols": 0.003
+  },
+  "vitamins": {
+    "vita": 2,
+    "vitaa": 1,
+    "cartb": 8,
+    "carotpaxb": 11,
+    "vite": 0.224,
+    "tocpha": 0.224,
+    "tocphg": 0.064,
+    "tocphd": 0.002,
+    "vitk": 2,
+    "vitk1": 2,
+    "thia": 0.018,
+    "ribf": 0.01,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "pantac": 0.08,
+    "vitb6": 10,
+    "biot": 0.5,
+    "fol": 5,
+    "folfd": 5,
+    "vitc": 10.295
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 3,
+    "k": 51,
+    "ca": 11,
+    "p": 9,
+    "s": 2,
+    "fe": 0.1,
+    "zn": 0.06,
+    "cu": 30,
+    "mn": 610,
+    "cr": 1,
+    "mo": 0.9
+  },
+  "carbohydrates": {
+    "cho": 6.6,
+    "mnsac": 3.6,
+    "glus": 1.8,
+    "frus": 1.8,
+    "gals": 0.0021,
+    "disac": 3,
+    "sucs": 3,
+    "sugar": 6.6,
+    "starch": 0.024
+  },
+  "fibers": {
+    "fibt": 0.131
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.003,
+    "sortl": 0.003
+  },
+  "fattyAcids": {
+    "fasat": 0.018,
+    "f16_0": 0.015,
+    "f18_0": 0.003,
+    "fams": 0.013,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.012,
+    "fapu": 0.034,
+    "fapun3": 0.015,
+    "f18_3cn3": 0.015,
+    "fapun6": 0.019,
+    "f18_2cn6": 0.019
+  },
+  "aminoAcids": {
+    "aae9": 0.052,
+    "ala": 0.012,
+    "arg": 0.031,
+    "asp": 0.032,
+    "cyste": 0.0026,
+    "glu": 0.033,
+    "gly": 0.0109,
+    "his": 0.0007,
+    "ile": 0.0014,
+    "leu": 0.014,
+    "lys": 0.0117,
+    "met": 0.0007,
+    "phe": 0.0038,
+    "pro": 0.012,
+    "ser": 0.011,
+    "thr": 0.0079,
+    "trp": 0.0008,
+    "tyr": 0.0015,
+    "val": 0.0108
+  },
+  "otherNutrients": {
+    "nt": 0.05
+  },
+  "extra": {}
+}

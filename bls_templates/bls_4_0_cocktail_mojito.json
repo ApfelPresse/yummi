@@ -1,0 +1,75 @@
+{
+  "name": "Cocktail, Mojito",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 52,
+    "water": 90,
+    "protein": 0.031,
+    "fat": null,
+    "carbs": 3.498,
+    "fiber": 0.009,
+    "alcohol": 5.2,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "cartb": 1,
+    "vite": 0.049,
+    "tocpha": 0.049,
+    "thia": 0.003,
+    "ribf": 0.001,
+    "niaeq": 0.009,
+    "nia": 0.009,
+    "pantac": 0.015,
+    "vitb6": 3,
+    "fol": 0.3,
+    "folfd": 0.3,
+    "vitc": 2.422
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 3,
+    "k": 8,
+    "ca": 7,
+    "mg": 2.1,
+    "p": 2,
+    "s": 1.3,
+    "fe": 0.04,
+    "zn": 0.016,
+    "id": 1,
+    "cu": 10,
+    "mn": 6,
+    "fd": 13,
+    "mo": 0.03
+  },
+  "carbohydrates": {
+    "cho": 3.498,
+    "mnsac": 0.086,
+    "glus": 0.043,
+    "frus": 0.043,
+    "disac": 3.412,
+    "sucs": 3.412,
+    "sugar": 3.498
+  },
+  "fibers": {
+    "fibt": 0.009
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "ala": 0.001,
+    "arg": 0.002,
+    "asp": 0.004,
+    "glu": 0.001,
+    "pro": 0.001,
+    "ser": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.005
+  },
+  "extra": {}
+}

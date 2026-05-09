@@ -1,0 +1,92 @@
+{
+  "name": "Kokosmilch/Kokosnussmilch",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 227,
+    "water": 68,
+    "protein": 2.774,
+    "fat": 21.9,
+    "carbs": 2.1,
+    "fiber": 4.9979,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.42,
+    "tocpha": 0.42,
+    "thia": 0.037,
+    "ribf": 0.005,
+    "niaeq": 0.611,
+    "nia": 0.228,
+    "pantac": 0.12,
+    "vitb6": 36,
+    "fol": 6,
+    "folfd": 6,
+    "vitc": 1.2
+  },
+  "minerals": {
+    "nacl": 0.055,
+    "na": 22,
+    "cld": 74,
+    "k": 156.7,
+    "ca": 8.7,
+    "mg": 23.2,
+    "p": 14.5,
+    "s": 0.7,
+    "fe": 0.348,
+    "zn": 0.3,
+    "id": 0.9,
+    "cu": 185,
+    "mn": 468,
+    "mo": 0.02
+  },
+  "carbohydrates": {
+    "cho": 2.1,
+    "disac": 2.1,
+    "sucs": 2.1,
+    "sugar": 2.1
+  },
+  "fibers": {
+    "fibt": 4.9979
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 19.104,
+    "f8_0": 1.68,
+    "f10_0": 1.32,
+    "f12_0": 9.72,
+    "f14_0": 3.66,
+    "f16_0": 1.86,
+    "f18_0": 0.66,
+    "f20_0": 0.204,
+    "fams": 1.338,
+    "f16_1cn7": 0.078,
+    "f18_1cn9": 1.26,
+    "fapu": 0.408,
+    "fapun6": 0.408,
+    "f18_2cn6": 0.408
+  },
+  "aminoAcids": {
+    "aae9": 0.822,
+    "arg": 0.294,
+    "cyste": 0.043,
+    "his": 0.043,
+    "ile": 0.12,
+    "leu": 0.186,
+    "lys": 0.09,
+    "met": 0.042,
+    "phe": 0.108,
+    "thr": 0.078,
+    "trp": 0.023,
+    "tyr": 0.072,
+    "val": 0.132
+  },
+  "otherNutrients": {
+    "nt": 0.444
+  },
+  "extra": {}
+}

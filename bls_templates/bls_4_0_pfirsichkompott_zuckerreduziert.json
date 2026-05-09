@@ -1,0 +1,106 @@
+{
+  "name": "Pfirsichkompott zuckerreduziert",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 47,
+    "water": 86,
+    "protein": 0.6,
+    "fat": 0.095,
+    "carbs": 10.16,
+    "fiber": 1.5,
+    "alcohol": null,
+    "sugarAlcohols": 0.89
+  },
+  "vitamins": {
+    "vita": 16,
+    "vitaa": 8,
+    "cartb": 59,
+    "carotpaxb": 74,
+    "vite": 0.368,
+    "tocpha": 0.368,
+    "tocphg": 0.009,
+    "toctra": 0.017,
+    "vitk": 3.3,
+    "vitk1": 3.3,
+    "thia": 0.018,
+    "ribf": 0.03,
+    "niaeq": 0.8,
+    "nia": 0.8,
+    "pantac": 0.109,
+    "vitb6": 20,
+    "biot": 2,
+    "fol": 5,
+    "folfd": 5,
+    "vitc": 6.045
+  },
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 3,
+    "k": 171,
+    "ca": 6,
+    "mg": 8,
+    "p": 17,
+    "s": 0.4,
+    "fe": 0.242,
+    "zn": 0.12,
+    "id": 1,
+    "cu": 74,
+    "mn": 60,
+    "fd": 11,
+    "mo": 0.01
+  },
+  "carbohydrates": {
+    "cho": 10.16,
+    "mnsac": 4.02,
+    "glus": 1.98,
+    "frus": 2.04,
+    "disac": 5.247,
+    "sucs": 5.247,
+    "sugar": 9.27
+  },
+  "fibers": {
+    "fibt": 1.5
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.89,
+    "mantl": 0.15,
+    "sortl": 0.74
+  },
+  "fattyAcids": {
+    "fasat": 0.009,
+    "f16_0": 0.0076,
+    "f18_0": 0.001,
+    "fams": 0.029,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.028,
+    "fapu": 0.038,
+    "fapun3": 0.001,
+    "f18_3cn3": 0.001,
+    "fapun6": 0.037,
+    "f18_2cn6": 0.037
+  },
+  "aminoAcids": {
+    "aae9": 0.074,
+    "ala": 0.02,
+    "arg": 0.014,
+    "asp": 0.292,
+    "cyste": 0.004,
+    "glu": 0.042,
+    "gly": 0.009,
+    "leu": 0.02,
+    "lys": 0.02,
+    "pro": 0.003,
+    "ser": 0.027,
+    "thr": 0.017,
+    "val": 0.017
+  },
+  "otherNutrients": {
+    "nt": 0.133
+  },
+  "extra": {}
+}

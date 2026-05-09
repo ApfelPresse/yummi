@@ -1,0 +1,111 @@
+{
+  "name": "Gemüsefenchel gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 51,
+    "water": 84.1,
+    "protein": 2.642,
+    "fat": 0.377,
+    "carbs": 6.46,
+    "fiber": 6.2,
+    "alcohol": null,
+    "sugarAlcohols": 0.86
+  },
+  "vitamins": {
+    "vita": 40,
+    "vitaa": 20,
+    "cartb": 238,
+    "carotpaxb": 1.7,
+    "vite": 0.11,
+    "tocpha": 0.11,
+    "tocphb": 0.009,
+    "tocphg": 0.009,
+    "tocphd": 0.009,
+    "toctra": 0.08,
+    "vitk": 118.5,
+    "vitk1": 118.5,
+    "thia": 0.056,
+    "ribf": 0.197,
+    "niaeq": 0.775,
+    "nia": 0.358,
+    "pantac": 0.49,
+    "vitb6": 100,
+    "biot": 0.2,
+    "fol": 49,
+    "folfd": 49,
+    "vitc": 13.585
+  },
+  "minerals": {
+    "nacl": 0.128,
+    "na": 51,
+    "cld": 396,
+    "k": 745,
+    "ca": 71.07,
+    "mg": 22.013,
+    "p": 96,
+    "fe": 1.38,
+    "zn": 0.415,
+    "id": 2,
+    "cu": 40,
+    "mn": 150,
+    "cr": 2,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 6.46,
+    "mnsac": 5.51,
+    "glus": 4.25,
+    "frus": 1.26,
+    "disac": 0.09,
+    "mals": 0.09,
+    "sugar": 5.6
+  },
+  "fibers": {
+    "fibt": 6.2,
+    "fibhmw": 6.2,
+    "fibins": 4.7,
+    "fibsol": 1.5
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.86,
+    "mantl": 0.6,
+    "sortl": 0.26
+  },
+  "fattyAcids": {
+    "fasat": 0.084,
+    "f14_0": 0.004,
+    "f16_0": 0.055,
+    "f18_0": 0.025,
+    "fams": 0.099,
+    "f16_1cn7": 0.004,
+    "f18_1cn7": 0.008,
+    "f18_1cn9": 0.085,
+    "f20_1cn9": 0.002,
+    "fapu": 0.07,
+    "fapun3": 0.006,
+    "f18_3cn3": 0.006,
+    "fapun6": 0.064,
+    "f18_2cn6": 0.064,
+    "fax": 0.011
+  },
+  "aminoAcids": {
+    "aae9": 0.631,
+    "arg": 0.221,
+    "cyste": 0.013,
+    "his": 0.096,
+    "lys": 0.042,
+    "met": 0.03,
+    "phe": 0.151,
+    "trp": 0.025,
+    "tyr": 0.068,
+    "val": 0.287
+  },
+  "otherNutrients": {
+    "nt": 0.423
+  },
+  "extra": {}
+}

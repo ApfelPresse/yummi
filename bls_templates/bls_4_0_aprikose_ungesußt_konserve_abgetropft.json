@@ -1,0 +1,101 @@
+{
+  "name": "Aprikose ungesüßt, Konserve, abgetropft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 23,
+    "water": 92,
+    "protein": 0.7,
+    "fat": 0.113,
+    "carbs": 3.623,
+    "fiber": 1.143,
+    "alcohol": null,
+    "sugarAlcohols": 0.352
+  },
+  "vitamins": {
+    "vita": 160,
+    "vitaa": 80,
+    "cartb": 867,
+    "carotpaxb": 184,
+    "vite": 0.431,
+    "tocpha": 0.431,
+    "vitk": 3,
+    "vitk1": 3,
+    "thia": 0.024,
+    "ribf": 0.03,
+    "niaeq": 0.388,
+    "nia": 0.388,
+    "pantac": 0.097,
+    "vitb6": 23,
+    "fol": 1.5,
+    "folfd": 1.5,
+    "vitc": 1.372
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 3,
+    "k": 191,
+    "ca": 22,
+    "mg": 13,
+    "p": 15,
+    "s": 1.1,
+    "fe": 0.432,
+    "zn": 0.19,
+    "id": 0.7,
+    "cu": 39,
+    "mn": 180,
+    "fd": 8,
+    "mo": 0.03
+  },
+  "carbohydrates": {
+    "cho": 3.623,
+    "mnsac": 1.267,
+    "glus": 0.855,
+    "frus": 0.412,
+    "disac": 2.004,
+    "sucs": 2.004,
+    "sugar": 3.271
+  },
+  "fibers": {
+    "fibt": 1.143,
+    "fibhmw": 1.143,
+    "fibins": 0.616,
+    "fibsol": 0.527
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.352,
+    "sortl": 0.352
+  },
+  "fattyAcids": {
+    "fasat": 0.009,
+    "f16_0": 0.008,
+    "f18_0": 0.001,
+    "fams": 0.056,
+    "f16_1cn7": 0.056,
+    "fapu": 0.024,
+    "fapun6": 0.024,
+    "f18_2cn6": 0.024
+  },
+  "aminoAcids": {
+    "aae9": 0.07,
+    "ala": 0.018,
+    "arg": 0.012,
+    "asp": 0.343,
+    "cyste": 0.004,
+    "glu": 0.034,
+    "leu": 0.02,
+    "lys": 0.019,
+    "pro": 0.012,
+    "ser": 0.02,
+    "thr": 0.016,
+    "val": 0.015
+  },
+  "otherNutrients": {
+    "nt": 0.106
+  },
+  "extra": {}
+}

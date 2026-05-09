@@ -1,0 +1,53 @@
+{
+  "name": "Rosewein süß",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 78,
+    "water": 85.2,
+    "protein": 0.1,
+    "fat": null,
+    "carbs": 4.85,
+    "fiber": null,
+    "alcohol": 8.3,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "ribf": 0.01,
+    "niaeq": 0.1,
+    "nia": 0.1,
+    "pantac": 0.04,
+    "vitb6": 20
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 7,
+    "k": 73,
+    "ca": 12,
+    "mg": 7,
+    "p": 6,
+    "fe": 0.98,
+    "zn": 0.0206,
+    "cu": 20,
+    "mn": 100
+  },
+  "carbohydrates": {
+    "cho": 4.85,
+    "mnsac": 4.8,
+    "glus": 1.6,
+    "frus": 3.3,
+    "sugar": 4.85
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.01
+  },
+  "extra": {}
+}

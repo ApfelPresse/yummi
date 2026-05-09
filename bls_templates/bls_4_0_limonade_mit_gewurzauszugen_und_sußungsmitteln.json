@@ -1,0 +1,39 @@
+{
+  "name": "Limonade mit Gewürzauszügen und Süßungsmitteln",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 2,
+    "water": 100.53,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": 0.124,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.002,
+    "na": 1,
+    "cld": 0.9,
+    "ca": 2,
+    "p": 0.8,
+    "s": 0.5,
+    "fe": 0.003,
+    "zn": 0.003,
+    "id": 0.1,
+    "cu": 2.7,
+    "mn": 72.6
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

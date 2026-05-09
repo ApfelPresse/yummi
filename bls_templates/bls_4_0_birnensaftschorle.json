@@ -1,0 +1,107 @@
+{
+  "name": "Birnensaftschorle",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 32,
+    "water": 91.9,
+    "protein": 0.135,
+    "fat": 0.116,
+    "carbs": 7.8,
+    "fiber": 0.2,
+    "alcohol": 0.028,
+    "sugarAlcohols": 1.38
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 5,
+    "carotpaxb": 2,
+    "vite": 0.105,
+    "tocpha": 0.105,
+    "tocphb": 0.005,
+    "tocphg": 0.04,
+    "toctra": 0.06,
+    "vitk": 2.262,
+    "vitk1": 2.262,
+    "thia": 0.01,
+    "ribf": 0.016,
+    "niaeq": 0.08,
+    "nia": 0.08,
+    "pantac": 0.03,
+    "vitb6": 13.17,
+    "biot": 0.1,
+    "fol": 1,
+    "folfd": 1,
+    "vitc": 1.38
+  },
+  "minerals": {
+    "nacl": 0.0155,
+    "na": 6.2,
+    "cld": 3,
+    "k": 53,
+    "ca": 9,
+    "mg": 4,
+    "p": 6,
+    "s": 0.9,
+    "fe": 0.1,
+    "zn": 0.05,
+    "id": 1,
+    "cu": 15,
+    "mn": 20,
+    "fd": 20,
+    "mo": 2.3
+  },
+  "carbohydrates": {
+    "cho": 7.8,
+    "mnsac": 4,
+    "glus": 1.73,
+    "frus": 2.3,
+    "gals": 0.0053,
+    "disac": 2.43,
+    "sucs": 2.43,
+    "sugar": 6.4
+  },
+  "fibers": {
+    "fibt": 0.2
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 1.38,
+    "sortl": 1.38
+  },
+  "fattyAcids": {
+    "fasat": 0.0155,
+    "f16_0": 0.0126,
+    "f18_0": 0.0029,
+    "fams": 0.0259,
+    "f16_1cn7": 0.0013,
+    "f18_1cn9": 0.0246,
+    "fapu": 0.05,
+    "fapun3": 0.0074,
+    "f18_3cn3": 0.0074,
+    "fapun6": 0.043,
+    "f18_2cn6": 0.043
+  },
+  "aminoAcids": {
+    "aae9": 0.031,
+    "ala": 0.006,
+    "arg": 0.003,
+    "asp": 0.037,
+    "glu": 0.013,
+    "his": 0.002,
+    "ile": 0.003,
+    "leu": 0.007,
+    "lys": 0.006,
+    "phe": 0.004,
+    "pro": 0.003,
+    "ser": 0.006,
+    "thr": 0.003,
+    "val": 0.006
+  },
+  "otherNutrients": {
+    "nt": 0.022
+  },
+  "extra": {}
+}

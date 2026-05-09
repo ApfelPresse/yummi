@@ -1,0 +1,89 @@
+{
+  "name": "Kartoffelpüree, zubereitet aus Instantpulver und Wasser",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 42,
+    "water": 87.7,
+    "protein": 0.953,
+    "fat": 0.06,
+    "carbs": 9.101,
+    "fiber": 0.779,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.001,
+    "ribf": 0.001,
+    "niaeq": 0.168,
+    "nia": 0.018,
+    "vitb6": 1,
+    "biot": 1
+  },
+  "minerals": {
+    "nacl": 0.352,
+    "na": 141,
+    "cld": 187,
+    "k": 176,
+    "ca": 9,
+    "mg": 10,
+    "p": 40,
+    "s": 1,
+    "fe": 0.232,
+    "zn": 0.1,
+    "cu": 30,
+    "mn": 13
+  },
+  "carbohydrates": {
+    "cho": 9.101,
+    "starch": 9.101
+  },
+  "fibers": {
+    "fibt": 0.779
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.02,
+    "f8_0": 0.001,
+    "f12_0": 0.001,
+    "f14_0": 0.002,
+    "f16_0": 0.013,
+    "f18_0": 0.003,
+    "fams": 0.008,
+    "f18_1cn9": 0.008,
+    "fapu": 0.008,
+    "fapun3": 0.002,
+    "f18_3cn3": 0.002,
+    "fapun6": 0.006,
+    "f18_2cn6": 0.006,
+    "fax": 0.004
+  },
+  "aminoAcids": {
+    "aae9": 0.426,
+    "ala": 0.045,
+    "arg": 0.079,
+    "asp": 0.236,
+    "cyste": 0.018,
+    "glu": 0.243,
+    "gly": 0.044,
+    "his": 0.037,
+    "ile": 0.042,
+    "leu": 0.076,
+    "lys": 0.089,
+    "met": 0.01,
+    "phe": 0.054,
+    "pro": 0.061,
+    "ser": 0.059,
+    "thr": 0.046,
+    "trp": 0.009,
+    "tyr": 0.064,
+    "val": 0.063
+  },
+  "otherNutrients": {
+    "nt": 0.152
+  },
+  "extra": {}
+}

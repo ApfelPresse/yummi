@@ -1,0 +1,68 @@
+{
+  "name": "Export dunkel",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 27,
+    "water": 91.1,
+    "protein": 0.4,
+    "fat": null,
+    "carbs": 0.172,
+    "fiber": null,
+    "alcohol": 3.5,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 0.9,
+    "vitaa": 0.4,
+    "cartb": 5.4,
+    "thia": 0.0148,
+    "ribf": 0.0331,
+    "niaeq": 0.88,
+    "nia": 0.88,
+    "pantac": 0.08,
+    "vitb6": 50,
+    "biot": 1,
+    "fol": 6.4,
+    "folfd": 6.4
+  },
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 15.2,
+    "k": 50,
+    "ca": 3,
+    "mg": 10,
+    "p": 25,
+    "s": 12.65,
+    "fe": 0.0061,
+    "zn": 0.0017,
+    "id": 0.2625,
+    "cu": 5.4,
+    "mn": 11.7
+  },
+  "carbohydrates": {
+    "cho": 0.172,
+    "mnsac": 0.072,
+    "glus": 0.056,
+    "frus": 0.016,
+    "disac": 0.1,
+    "sucs": 0.013,
+    "mals": 0.087,
+    "sugar": 0.172
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "glu": 0.1,
+    "pro": 0.1
+  },
+  "otherNutrients": {
+    "nt": 0.1
+  },
+  "extra": {}
+}

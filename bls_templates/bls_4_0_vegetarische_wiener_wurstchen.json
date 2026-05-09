@@ -1,0 +1,110 @@
+{
+  "name": "Vegetarische Wiener Würstchen",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 248,
+    "water": 53.6,
+    "protein": 21.6,
+    "fat": 15.07,
+    "carbs": 5.45,
+    "fiber": 1.8,
+    "alcohol": null,
+    "sugarAlcohols": 0.003
+  },
+  "vitamins": {
+    "vita": 25,
+    "vitaa": 12,
+    "cartb": 150,
+    "vite": 7,
+    "tocpha": 7,
+    "tocphb": 0.29,
+    "tocphg": 1.8,
+    "tocphd": 0.25,
+    "thia": 0.08,
+    "ribf": 0.13,
+    "niaeq": 4.86,
+    "nia": 0.38,
+    "pantac": 0.14,
+    "vitb6": 55,
+    "biot": 1,
+    "fol": 16.5,
+    "folfd": 16.5
+  },
+  "minerals": {
+    "nacl": 1.7688,
+    "na": 707.5,
+    "k": 125.5,
+    "ca": 91,
+    "mg": 58,
+    "p": 166.5,
+    "s": 246,
+    "fe": 2.02,
+    "zn": 1.46,
+    "cu": 255,
+    "mn": 960,
+    "cr": 5.2,
+    "mo": 33
+  },
+  "carbohydrates": {
+    "cho": 5.45,
+    "mnsac": 1.2,
+    "glus": 0.66,
+    "frus": 0.54,
+    "disac": 2.01,
+    "sucs": 1.89,
+    "mals": 0.12,
+    "sugar": 3.21,
+    "starch": 2.24
+  },
+  "fibers": {
+    "fibt": 1.8,
+    "fibhmw": 1.8,
+    "fibins": 1.54,
+    "fibsol": 0.26
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.003
+  },
+  "fattyAcids": {
+    "fasat": 1.876,
+    "f16_0": 1.199,
+    "f18_0": 0.5186,
+    "f22_0": 0.1587,
+    "fams": 6.023,
+    "f18_1cn9": 6.023,
+    "fapu": 6.115,
+    "fapun3": 0.1971,
+    "f18_3cn3": 0.1971,
+    "fapun6": 5.918,
+    "f18_2cn6": 5.918
+  },
+  "aminoAcids": {
+    "aae9": 7.901,
+    "ala": 0.762,
+    "arg": 1.17,
+    "asp": 1.37,
+    "cyste": 0.386,
+    "glu": 6.92,
+    "gly": 0.85,
+    "his": 0.553,
+    "ile": 0.948,
+    "leu": 1.965,
+    "lys": 0.728,
+    "met": 0.298,
+    "phe": 1.3,
+    "pro": 2.55,
+    "ser": 1.255,
+    "thr": 0.75,
+    "trp": 0.269,
+    "tyr": 0.887,
+    "val": 1.09
+  },
+  "otherNutrients": {
+    "nt": 3.46
+  },
+  "extra": {}
+}

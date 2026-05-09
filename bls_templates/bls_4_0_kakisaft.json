@@ -1,0 +1,97 @@
+{
+  "name": "Kakisaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 56,
+    "water": 85.7,
+    "protein": 0.6,
+    "fat": 0.24,
+    "carbs": 12.712,
+    "fiber": 0.246,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 36,
+    "vitaa": 18,
+    "cartb": 153,
+    "carotpaxb": 120,
+    "vitk": 2.6,
+    "vitk1": 2.6,
+    "thia": 0.019,
+    "ribf": 0.024,
+    "niaeq": 0.367,
+    "nia": 0.184,
+    "pantac": 0.11,
+    "fol": 5,
+    "folfd": 5,
+    "vitc": 9.6
+  },
+  "minerals": {
+    "nacl": 0.0035,
+    "na": 1.4,
+    "k": 160,
+    "ca": 11,
+    "mg": 8,
+    "p": 24,
+    "fe": 0.352,
+    "zn": 0.07,
+    "cu": 20,
+    "mn": 46
+  },
+  "carbohydrates": {
+    "cho": 12.712,
+    "mnsac": 11.7,
+    "glus": 6.52,
+    "frus": 5.18,
+    "disac": 1.012,
+    "sucs": 1.012,
+    "sugar": 12.712
+  },
+  "fibers": {
+    "fibt": 0.246,
+    "fibhmw": 0.246,
+    "fibins": 0.17,
+    "fibsol": 0.076
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.039,
+    "f16_0": 0.039,
+    "fams": 0.075,
+    "f16_1cn7": 0.029,
+    "f18_1cn9": 0.046,
+    "fapu": 0.05,
+    "fapun6": 0.05,
+    "f18_2cn6": 0.05
+  },
+  "aminoAcids": {
+    "aae9": 0.221,
+    "ala": 0.03,
+    "arg": 0.026,
+    "asp": 0.058,
+    "cyste": 0.014,
+    "glu": 0.078,
+    "gly": 0.026,
+    "his": 0.013,
+    "ile": 0.026,
+    "leu": 0.043,
+    "lys": 0.034,
+    "met": 0.005,
+    "phe": 0.027,
+    "pro": 0.022,
+    "ser": 0.022,
+    "thr": 0.031,
+    "trp": 0.011,
+    "tyr": 0.016,
+    "val": 0.031
+  },
+  "otherNutrients": {
+    "nt": 0.092
+  },
+  "extra": {}
+}

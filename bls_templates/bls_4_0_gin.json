@@ -1,0 +1,44 @@
+{
+  "name": "Gin",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 246,
+    "water": 64.3,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": 35.14,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.008,
+    "ribf": 0.001,
+    "niaeq": 0.05,
+    "nia": 0.05
+  },
+  "minerals": {
+    "nacl": 0.0003,
+    "na": 0.14,
+    "k": 2.8,
+    "ca": 1.5,
+    "mg": 0.25,
+    "p": 5,
+    "fe": 0.01,
+    "zn": 0.05,
+    "id": 1,
+    "cu": 1,
+    "mn": 8
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

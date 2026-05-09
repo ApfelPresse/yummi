@@ -1,0 +1,103 @@
+{
+  "name": "Wirsing gebraten ohne Fett (Pfanne)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 69,
+    "water": 78.3,
+    "protein": 5.243,
+    "fat": 0.604,
+    "carbs": 7.8,
+    "fiber": 5.3,
+    "alcohol": null,
+    "sugarAlcohols": 0.25
+  },
+  "vitamins": {
+    "vita": 14,
+    "vitaa": 7,
+    "cartb": 85,
+    "vite": 4.717,
+    "tocpha": 4.717,
+    "tocphg": 0.075,
+    "vitk": 129.8,
+    "vitk1": 129.8,
+    "thia": 0.1,
+    "ribf": 0.115,
+    "niaeq": 1.593,
+    "nia": 0.593,
+    "pantac": 0.357,
+    "vitb6": 265,
+    "fol": 215,
+    "folfd": 215,
+    "vitc": 76.581
+  },
+  "minerals": {
+    "nacl": 0.042,
+    "na": 17,
+    "cld": 55,
+    "k": 445,
+    "ca": 121.174,
+    "mg": 23,
+    "p": 104.9,
+    "fe": 1.038,
+    "zn": 0.64,
+    "id": 4.7,
+    "cu": 91,
+    "mn": 490
+  },
+  "carbohydrates": {
+    "cho": 7.8,
+    "mnsac": 5.2,
+    "glus": 3.4,
+    "frus": 1.83,
+    "disac": 1.353,
+    "sucs": 1.353,
+    "sugar": 6.6,
+    "starch": 0.925
+  },
+  "fibers": {
+    "fibt": 5.3,
+    "fibhmw": 5.3,
+    "fibins": 3.4,
+    "fibsol": 1.9
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.25,
+    "sortl": 0.25
+  },
+  "fattyAcids": {
+    "fasat": 0.107,
+    "f14_0": 0.002,
+    "f16_0": 0.094,
+    "f18_0": 0.009,
+    "f20_0": 0.002,
+    "fams": 0.017,
+    "f16_1cn7": 0.009,
+    "f18_1cn9": 0.008,
+    "fapu": 0.362,
+    "fapun3": 0.277,
+    "f18_3cn3": 0.277,
+    "fapun6": 0.085,
+    "f18_2cn6": 0.085
+  },
+  "aminoAcids": {
+    "aae9": 1.619,
+    "arg": 0.283,
+    "his": 0.089,
+    "ile": 0.189,
+    "leu": 0.358,
+    "lys": 0.174,
+    "met": 0.051,
+    "phe": 0.226,
+    "thr": 0.208,
+    "trp": 0.06,
+    "val": 0.264
+  },
+  "otherNutrients": {
+    "nt": 0.84
+  },
+  "extra": {}
+}

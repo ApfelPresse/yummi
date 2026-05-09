@@ -1,0 +1,107 @@
+{
+  "name": "Pflaume gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 57,
+    "water": 84.5,
+    "protein": 0.35,
+    "fat": 0.2,
+    "carbs": 12.6,
+    "fiber": 2,
+    "alcohol": null,
+    "sugarAlcohols": 3.071
+  },
+  "vitamins": {
+    "vita": 49,
+    "vitaa": 25,
+    "cartb": 242,
+    "carotpaxb": 108,
+    "vite": 0.333,
+    "tocpha": 0.333,
+    "tocphg": 0.024,
+    "toctra": 0.024,
+    "vitk": 8,
+    "vitk1": 8,
+    "thia": 0.04,
+    "ribf": 0.047,
+    "niaeq": 0.583,
+    "nia": 0.583,
+    "pantac": 0.174,
+    "vitb6": 46,
+    "fol": 1,
+    "folfd": 1,
+    "vitc": 4.235
+  },
+  "minerals": {
+    "nacl": 0.0022,
+    "na": 0.9,
+    "cld": 1.8,
+    "k": 192,
+    "ca": 9,
+    "mg": 8,
+    "p": 19,
+    "fe": 0.2,
+    "zn": 0.11,
+    "id": 1,
+    "cu": 73,
+    "mn": 90,
+    "fd": 2,
+    "cr": 2,
+    "mo": 2
+  },
+  "carbohydrates": {
+    "cho": 12.6,
+    "mnsac": 6.73,
+    "glus": 4.15,
+    "frus": 2.58,
+    "disac": 2.8,
+    "sucs": 2.6,
+    "mals": 0.2,
+    "sugar": 9.53
+  },
+  "fibers": {
+    "fibt": 2,
+    "fibhmw": 2,
+    "fibins": 1.1,
+    "fibsol": 0.9
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 3.071,
+    "sortl": 3.071
+  },
+  "fattyAcids": {
+    "fasat": 0.026,
+    "f16_0": 0.0203,
+    "f18_0": 0.006,
+    "fams": 0.0607,
+    "f16_1cn7": 0.0013,
+    "f18_1cn9": 0.0594,
+    "fapu": 0.091,
+    "fapun3": 0.036,
+    "f18_3cn3": 0.036,
+    "fapun6": 0.055,
+    "f18_2cn6": 0.055
+  },
+  "aminoAcids": {
+    "aae9": 0.047,
+    "ala": 0.02,
+    "arg": 0.005,
+    "asp": 0.247,
+    "cyste": 0.004,
+    "glu": 0.038,
+    "leu": 0.013,
+    "lys": 0.018,
+    "pro": 0.007,
+    "ser": 0.02,
+    "thr": 0.014,
+    "val": 0.002
+  },
+  "otherNutrients": {
+    "nt": 0.118
+  },
+  "extra": {}
+}

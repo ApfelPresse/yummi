@@ -1,0 +1,44 @@
+{
+  "name": "Kräutertee (Getränk) mit Zucker",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 7,
+    "water": 98.1,
+    "protein": null,
+    "fat": null,
+    "carbs": 1.861,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "k": 8.4,
+    "ca": 6.9,
+    "mg": 2.03,
+    "p": 0.4,
+    "fe": 0.007,
+    "zn": 0.0104,
+    "id": 0.4,
+    "cu": 9,
+    "mn": 43
+  },
+  "carbohydrates": {
+    "cho": 1.861,
+    "disac": 1.861,
+    "sucs": 1.861,
+    "sugar": 1.861
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

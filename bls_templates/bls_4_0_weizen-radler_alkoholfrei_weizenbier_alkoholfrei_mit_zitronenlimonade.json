@@ -1,0 +1,87 @@
+{
+  "name": "Weizen-Radler, alkoholfrei (Weizenbier, alkoholfrei, mit Zitronenlimonade)",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 30,
+    "water": 90.4,
+    "protein": 0.242,
+    "fat": null,
+    "carbs": 6.996,
+    "fiber": null,
+    "alcohol": 0.126,
+    "sugarAlcohols": 0.001
+  },
+  "vitamins": {
+    "thia": 0.002,
+    "ribf": 0.016,
+    "niaeq": 0.85,
+    "nia": 0.8,
+    "pantac": 0.0418,
+    "vitb6": 23,
+    "biot": 0.6,
+    "fol": 3.7,
+    "folfd": 3.7
+  },
+  "minerals": {
+    "nacl": 0.012,
+    "na": 5,
+    "cld": 9.8,
+    "k": 25.4,
+    "ca": 4,
+    "mg": 4.2,
+    "p": 13,
+    "s": 3.9,
+    "fe": 0.006,
+    "zn": 0.003,
+    "id": 0.2892,
+    "cu": 3.3,
+    "mn": 43.4,
+    "fd": 16
+  },
+  "carbohydrates": {
+    "cho": 6.996,
+    "mnsac": 1.707,
+    "glus": 1.083,
+    "frus": 0.624,
+    "disac": 4.129,
+    "sucs": 3.943,
+    "mals": 0.186,
+    "sugar": 5.836,
+    "starch": 1.1586
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.001,
+    "sortl": 0.001
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.068,
+    "ala": 0.01,
+    "arg": 0.008,
+    "asp": 0.012,
+    "cyste": 0.008,
+    "glu": 0.076,
+    "gly": 0.012,
+    "his": 0.006,
+    "ile": 0.009,
+    "leu": 0.011,
+    "lys": 0.008,
+    "met": 0.004,
+    "phe": 0.012,
+    "pro": 0.038,
+    "ser": 0.011,
+    "thr": 0.006,
+    "trp": 0.003,
+    "tyr": 0.006,
+    "val": 0.009
+  },
+  "otherNutrients": {
+    "nt": 0.038
+  },
+  "extra": {}
+}

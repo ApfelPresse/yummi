@@ -1,0 +1,78 @@
+{
+  "name": "Kaffeeersatzpulver",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 279,
+    "water": 3.12,
+    "protein": 3.97,
+    "fat": 0.08,
+    "carbs": 51.25,
+    "fiber": 28.7,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "thia": 0.04,
+    "ribf": 0.12,
+    "niaeq": 10.8,
+    "nia": 10.1,
+    "vitb6": 280,
+    "fol": 19.1,
+    "folfd": 19.1
+  },
+  "minerals": {
+    "nacl": 0.2312,
+    "na": 92.5,
+    "k": 853.5,
+    "ca": 42.8,
+    "mg": 244,
+    "p": 307.7,
+    "fe": 1.2465,
+    "zn": 0.4143,
+    "id": 4.34,
+    "cu": 43.2,
+    "mn": 542.5
+  },
+  "carbohydrates": {
+    "cho": 51.25,
+    "mnsac": 2.55,
+    "glus": 0.54,
+    "frus": 2.01,
+    "disac": 5.07,
+    "sucs": 0.52,
+    "mals": 4.55,
+    "sugar": 7.62,
+    "starch": 43.63
+  },
+  "fibers": {
+    "fibt": 28.7,
+    "fibhmw": 28.7,
+    "fibins": 16.847,
+    "fibsol": 11.853
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 1.223,
+    "arg": 0.168,
+    "cyste": 0.061,
+    "his": 0.066,
+    "ile": 0.173,
+    "leu": 0.28,
+    "lys": 0.089,
+    "met": 0.037,
+    "phe": 0.21,
+    "thr": 0.135,
+    "trp": 0.042,
+    "tyr": 0.135,
+    "val": 0.191
+  },
+  "otherNutrients": {
+    "nt": 0.635
+  },
+  "extra": {}
+}

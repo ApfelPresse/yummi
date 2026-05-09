@@ -1,0 +1,71 @@
+{
+  "name": "Litschisaft",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 72,
+    "water": 83.1,
+    "protein": 0.77,
+    "fat": 0.24,
+    "carbs": 16.6,
+    "fiber": 0.16,
+    "alcohol": null,
+    "sugarAlcohols": 0.48
+  },
+  "vitamins": {
+    "vitk": 0.4,
+    "vitk1": 0.4,
+    "thia": 0.04,
+    "ribf": 0.04,
+    "niaeq": 0.524,
+    "nia": 0.424,
+    "pantac": 0.044,
+    "vitb6": 30,
+    "vitc": 23.52
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 162,
+    "ca": 9.3,
+    "mg": 10,
+    "p": 32,
+    "fe": 0.332,
+    "zn": 0.21,
+    "cu": 200,
+    "mn": 108
+  },
+  "carbohydrates": {
+    "cho": 16.6,
+    "mnsac": 8.4,
+    "glus": 5.39,
+    "frus": 3,
+    "disac": 7.74,
+    "sucs": 7.74,
+    "sugar": 16.1
+  },
+  "fibers": {
+    "fibt": 0.16,
+    "fibhmw": 0.16,
+    "fibins": 0.098,
+    "fibsol": 0.062
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.48,
+    "sortl": 0.48
+  },
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.051,
+    "lys": 0.037,
+    "met": 0.008,
+    "trp": 0.006
+  },
+  "otherNutrients": {
+    "nt": 0.13
+  },
+  "extra": {}
+}

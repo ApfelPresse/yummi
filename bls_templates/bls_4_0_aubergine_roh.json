@@ -1,0 +1,109 @@
+{
+  "name": "Aubergine roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 19,
+    "water": 93.108,
+    "protein": 0.57,
+    "fat": 0.18,
+    "carbs": 3.02,
+    "fiber": 1.4,
+    "alcohol": null,
+    "sugarAlcohols": 0.11
+  },
+  "vitamins": {
+    "vita": 7.21,
+    "vitaa": 3.6,
+    "cartb": 43.25,
+    "vite": 0.03,
+    "tocpha": 0.03,
+    "vitk": 1,
+    "vitk1": 1,
+    "thia": 0.038,
+    "ribf": 0.045,
+    "niaeq": 0.717,
+    "nia": 0.6,
+    "pantac": 0.23,
+    "vitb6": 68,
+    "biot": 1.9,
+    "fol": 41,
+    "folfd": 41,
+    "vitc": 4.09
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "cld": 55,
+    "k": 175,
+    "ca": 8,
+    "mg": 12.5,
+    "p": 21.4,
+    "fe": 0.2,
+    "zn": 0.11,
+    "id": 0.8,
+    "cu": 38,
+    "mn": 150
+  },
+  "carbohydrates": {
+    "cho": 3.02,
+    "mnsac": 2.48,
+    "glus": 1.64,
+    "frus": 0.84,
+    "disac": 0.21,
+    "sucs": 0.11,
+    "mals": 0.1,
+    "sugar": 2.69,
+    "starch": 0.22
+  },
+  "fibers": {
+    "fibt": 1.4,
+    "fibhmw": 1.4,
+    "fibins": 1.3,
+    "fibsol": 0.1
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.11,
+    "sortl": 0.11
+  },
+  "fattyAcids": {
+    "fasat": 0.039,
+    "f16_0": 0.029,
+    "f18_0": 0.01,
+    "fams": 0.018,
+    "f16_1cn7": 0.0023,
+    "f18_1cn9": 0.016,
+    "fapu": 0.087,
+    "fapun3": 0.015,
+    "f18_3cn3": 0.015,
+    "fapun6": 0.072,
+    "f18_2cn6": 0.072
+  },
+  "aminoAcids": {
+    "aae9": 0.265,
+    "ala": 0.03,
+    "arg": 0.038,
+    "asp": 0.1,
+    "cyste": 0.006,
+    "glu": 0.115,
+    "gly": 0.026,
+    "his": 0.01,
+    "ile": 0.032,
+    "leu": 0.059,
+    "lys": 0.038,
+    "met": 0.004,
+    "phe": 0.027,
+    "pro": 0.016,
+    "ser": 0.03,
+    "thr": 0.034,
+    "trp": 0.007,
+    "val": 0.054
+  },
+  "otherNutrients": {
+    "nt": 0.091
+  },
+  "extra": {}
+}

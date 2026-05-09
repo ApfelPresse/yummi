@@ -1,0 +1,110 @@
+{
+  "name": "Chayote gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 34,
+    "water": 93.39,
+    "protein": 0.76,
+    "fat": 0.098,
+    "carbs": 5.69,
+    "fiber": 3.467,
+    "alcohol": null,
+    "sugarAlcohols": 0.008
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "cartb": 15,
+    "carotpaxb": 14,
+    "vite": 1.087,
+    "tocpha": 1.087,
+    "vitk": 4,
+    "vitk1": 4,
+    "thia": 0.021,
+    "ribf": 0.025,
+    "niaeq": 0.501,
+    "nia": 0.318,
+    "pantac": 0.304,
+    "vitb6": 78,
+    "biot": 0.2,
+    "fol": 30,
+    "folfd": 30,
+    "vitc": 12.011
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 18,
+    "k": 59,
+    "ca": 13.9,
+    "mg": 8.6,
+    "p": 14,
+    "fe": 0.326,
+    "zn": 0.121,
+    "id": 1.3,
+    "cu": 83,
+    "mn": 65
+  },
+  "carbohydrates": {
+    "cho": 5.69,
+    "mnsac": 3.96,
+    "glus": 2.42,
+    "frus": 1.54,
+    "disac": 1.042,
+    "sucs": 1.042,
+    "sugar": 5,
+    "starch": 0.685
+  },
+  "fibers": {
+    "fibt": 3.467,
+    "fibhmw": 3.467,
+    "fibins": 2.522,
+    "fibsol": 0.945
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.008,
+    "xyltl": 0.008
+  },
+  "fattyAcids": {
+    "fasat": 0.025,
+    "f12_0": 0.001,
+    "f16_0": 0.021,
+    "f18_0": 0.003,
+    "fams": 0.009,
+    "f16_1cn7": 0.001,
+    "f18_1cn9": 0.008,
+    "fapu": 0.047,
+    "fapun3": 0.029,
+    "f18_3cn3": 0.029,
+    "fapun6": 0.018,
+    "f18_2cn6": 0.018
+  },
+  "aminoAcids": {
+    "aae9": 0.33,
+    "ala": 0.05,
+    "arg": 0.034,
+    "asp": 0.09,
+    "glu": 0.122,
+    "gly": 0.04,
+    "his": 0.015,
+    "ile": 0.043,
+    "leu": 0.075,
+    "lys": 0.038,
+    "met": 0.001,
+    "phe": 0.046,
+    "pro": 0.043,
+    "ser": 0.046,
+    "thr": 0.04,
+    "trp": 0.011,
+    "tyr": 0.031,
+    "val": 0.062
+  },
+  "otherNutrients": {
+    "nt": 0.12
+  },
+  "extra": {}
+}

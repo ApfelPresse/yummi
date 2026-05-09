@@ -1,0 +1,94 @@
+{
+  "name": "Edelkastanie/Marone, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 197,
+    "water": 48.502,
+    "protein": 2.779,
+    "fat": 1.843,
+    "carbs": 38.316,
+    "fiber": 8.203,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 4,
+    "vitaa": 2,
+    "cartb": 23,
+    "vite": 0.465,
+    "tocpha": 0.465,
+    "thia": 0.17,
+    "ribf": 0.2,
+    "niaeq": 1.293,
+    "nia": 0.826,
+    "pantac": 0.3,
+    "vitb6": 332,
+    "biot": 2,
+    "vitc": 21.6
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 13,
+    "k": 1171.9,
+    "ca": 43.6,
+    "mg": 84.9,
+    "p": 182.7,
+    "fe": 1.65,
+    "zn": 0.88,
+    "id": 0.1,
+    "cu": 500,
+    "mn": 3100,
+    "cr": 22.5,
+    "mo": 2.93
+  },
+  "carbohydrates": {
+    "cho": 38.316,
+    "disac": 12.927,
+    "sucs": 12.927,
+    "sugar": 12.927,
+    "starch": 25.389
+  },
+  "fibers": {
+    "fibt": 8.203,
+    "fibhmw": 8.203,
+    "fibins": 7.85,
+    "fibsol": 0.353
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.276,
+    "f16_0": 0.257,
+    "f18_0": 0.019,
+    "fams": 0.982,
+    "f16_1cn7": 0.013,
+    "f18_1cn9": 0.952,
+    "f20_1cn9": 0.017,
+    "fapu": 0.486,
+    "fapun3": 0.048,
+    "f18_3cn3": 0.048,
+    "fapun6": 0.438,
+    "f18_2cn6": 0.438
+  },
+  "aminoAcids": {
+    "aae9": 0.673,
+    "arg": 0.19,
+    "cyste": 0.028,
+    "his": 0.076,
+    "lys": 0.142,
+    "met": 0.038,
+    "phe": 0.104,
+    "thr": 0.133,
+    "trp": 0.028,
+    "tyr": 0.133,
+    "val": 0.152
+  },
+  "otherNutrients": {
+    "nt": 0.445
+  },
+  "extra": {}
+}

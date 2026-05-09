@@ -1,0 +1,47 @@
+{
+  "name": "Nearwater/Aqua Plus Getränk, aromatisiert, mit Zucker und Süßungsmitteln",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 14,
+    "water": 96,
+    "protein": null,
+    "fat": null,
+    "carbs": 3.6,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.008,
+    "na": 3,
+    "cld": 3.2,
+    "ca": 10,
+    "mg": 3.2,
+    "p": 0.0106,
+    "s": 1.7,
+    "fe": 0.0001,
+    "zn": 0.0012,
+    "id": 0.43,
+    "cu": 1.7,
+    "mn": 0.1,
+    "fd": 29,
+    "mo": 0.04
+  },
+  "carbohydrates": {
+    "cho": 3.6,
+    "mnsac": 3.6,
+    "frus": 3.6,
+    "sugar": 3.6
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

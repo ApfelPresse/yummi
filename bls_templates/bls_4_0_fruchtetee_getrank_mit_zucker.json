@@ -1,0 +1,44 @@
+{
+  "name": "Früchtetee (Getränk) mit Zucker",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 7,
+    "water": 98.1,
+    "protein": null,
+    "fat": null,
+    "carbs": 1.861,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {},
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 15,
+    "ca": 10,
+    "mg": 3.1,
+    "p": 0.8,
+    "fe": 0.027,
+    "zn": 0.0321,
+    "id": 0.35,
+    "cu": 5.1,
+    "mn": 344
+  },
+  "carbohydrates": {
+    "cho": 1.861,
+    "disac": 1.861,
+    "sucs": 1.861,
+    "sugar": 1.861
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

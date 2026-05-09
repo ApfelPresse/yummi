@@ -1,0 +1,40 @@
+{
+  "name": "Schwarztee (Getränk) mit Alkohol",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 15,
+    "water": 97.19,
+    "protein": null,
+    "fat": null,
+    "carbs": null,
+    "fiber": null,
+    "alcohol": 2.11,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk": 0.2,
+    "vitk1": 0.2
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "k": 11.1,
+    "ca": 5,
+    "mg": 1.42,
+    "p": 1,
+    "zn": 0.0175,
+    "cu": 17,
+    "mn": 149
+  },
+  "carbohydrates": {},
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {},
+  "extra": {}
+}

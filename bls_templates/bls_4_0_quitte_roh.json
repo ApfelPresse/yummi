@@ -1,0 +1,106 @@
+{
+  "name": "Quitte roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 53,
+    "water": 83.1,
+    "protein": 0.42,
+    "fat": 0.5,
+    "carbs": 8.2,
+    "fiber": 5.92,
+    "alcohol": null,
+    "sugarAlcohols": 0.6
+  },
+  "vitamins": {
+    "vita": 6,
+    "vitaa": 3,
+    "cartb": 33,
+    "carotpaxb": 5,
+    "vite": 0.172,
+    "tocpha": 0.172,
+    "tocphb": 0.003,
+    "tocphg": 0.006,
+    "tocphd": 0.002,
+    "vitk": 5,
+    "vitk1": 5,
+    "thia": 0.03,
+    "ribf": 0.03,
+    "niaeq": 0.2,
+    "nia": 0.2,
+    "pantac": 0.1,
+    "vitb6": 57.61,
+    "biot": 1.1,
+    "fol": 5,
+    "folfd": 5,
+    "vitc": 13
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 1.7,
+    "k": 183,
+    "ca": 10.3,
+    "mg": 8.2,
+    "p": 10.53,
+    "fe": 0.6,
+    "zn": 0.2,
+    "id": 2,
+    "cu": 91,
+    "mn": 20,
+    "fd": 6,
+    "cr": 1,
+    "mo": 1
+  },
+  "carbohydrates": {
+    "cho": 8.2,
+    "mnsac": 6.337,
+    "glus": 1.127,
+    "frus": 5.21,
+    "disac": 0.64,
+    "sucs": 0.64,
+    "sugar": 6.977,
+    "starch": 0.6
+  },
+  "fibers": {
+    "fibt": 5.92,
+    "fibhmw": 5.92,
+    "fibins": 4.51,
+    "fibsol": 1.41
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.6,
+    "sortl": 0.6
+  },
+  "fattyAcids": {
+    "fasat": 0.037,
+    "f16_0": 0.029,
+    "f18_0": 0.0084,
+    "fams": 0.15,
+    "f18_1cn9": 0.15,
+    "fapu": 0.204,
+    "fapun6": 0.204,
+    "f18_2cn6": 0.204
+  },
+  "aminoAcids": {
+    "aae9": 0.044,
+    "ala": 0.011,
+    "arg": 0.008,
+    "asp": 0.217,
+    "cyste": 0.003,
+    "glu": 0.022,
+    "leu": 0.013,
+    "lys": 0.012,
+    "pro": 0.008,
+    "ser": 0.013,
+    "thr": 0.01,
+    "val": 0.009
+  },
+  "otherNutrients": {
+    "nt": 0.067
+  },
+  "extra": {}
+}

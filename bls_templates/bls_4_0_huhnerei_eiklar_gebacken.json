@@ -1,0 +1,81 @@
+{
+  "name": "Hühnerei Eiklar, gebacken",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 49,
+    "water": 86,
+    "protein": 11.7,
+    "fat": 0.036,
+    "carbs": 0.494,
+    "fiber": null,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vitk": 1,
+    "vitk2": 1,
+    "thia": 0.02,
+    "ribf": 0.44,
+    "niaeq": 3.113,
+    "nia": 0.046,
+    "pantac": 0.25,
+    "vitb6": 33,
+    "biot": 6.1,
+    "fol": 7,
+    "folfd": 7,
+    "vitb12": 0.36,
+    "vitc": 0.325
+  },
+  "minerals": {
+    "nacl": 0.558,
+    "na": 223,
+    "cld": 192,
+    "k": 180,
+    "ca": 7,
+    "mg": 14,
+    "p": 25,
+    "fe": 0.012,
+    "zn": 0.012,
+    "id": 3,
+    "cu": 24,
+    "mn": 48
+  },
+  "carbohydrates": {
+    "cho": 0.494,
+    "mnsac": 0.494,
+    "glus": 0.494,
+    "sugar": 0.494
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 6.198,
+    "ala": 0.827,
+    "arg": 0.75,
+    "asp": 1.44,
+    "cyste": 0.307,
+    "glu": 1.618,
+    "gly": 0.481,
+    "his": 0.307,
+    "ile": 0.75,
+    "leu": 1.115,
+    "lys": 0.941,
+    "met": 0.518,
+    "phe": 0.788,
+    "pro": 0.481,
+    "ser": 0.903,
+    "thr": 0.576,
+    "trp": 0.184,
+    "tyr": 0.518,
+    "val": 1.019
+  },
+  "otherNutrients": {
+    "nt": 2.04
+  },
+  "extra": {}
+}

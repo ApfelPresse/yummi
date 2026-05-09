@@ -1,0 +1,107 @@
+{
+  "name": "Knollensellerie gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 26,
+    "water": 91.9,
+    "protein": 1.368,
+    "fat": 0.291,
+    "carbs": 2.44,
+    "fiber": 3.8,
+    "alcohol": null,
+    "sugarAlcohols": 0.19
+  },
+  "vitamins": {
+    "vite": 0.49,
+    "tocpha": 0.49,
+    "vitk": 40,
+    "vitk1": 40,
+    "thia": 0.028,
+    "ribf": 0.056,
+    "niaeq": 0.898,
+    "nia": 0.715,
+    "pantac": 0.3,
+    "vitb6": 165,
+    "biot": 0.1,
+    "fol": 44,
+    "folfd": 44,
+    "vitc": 4.772
+  },
+  "minerals": {
+    "nacl": 0.155,
+    "na": 62,
+    "cld": 135,
+    "k": 374,
+    "ca": 38,
+    "mg": 12,
+    "p": 61,
+    "fe": 0.457,
+    "zn": 0.35,
+    "id": 2,
+    "cu": 111,
+    "mn": 180,
+    "fd": 9,
+    "cr": 1
+  },
+  "carbohydrates": {
+    "cho": 2.44,
+    "mnsac": 0.353,
+    "glus": 0.265,
+    "frus": 0.088,
+    "disac": 1.509,
+    "sucs": 1.509,
+    "sugar": 1.862,
+    "starch": 0.388
+  },
+  "fibers": {
+    "fibt": 3.8,
+    "fibhmw": 3.8,
+    "fibins": 3.3,
+    "fibsol": 0.5
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.19,
+    "sortl": 0.19
+  },
+  "fattyAcids": {
+    "fasat": 0.059,
+    "f16_0": 0.056,
+    "f18_0": 0.0031,
+    "fams": 0.011,
+    "f18_1cn9": 0.011,
+    "fapu": 0.153,
+    "fapun3": 0.015,
+    "f18_3cn3": 0.015,
+    "fapun6": 0.138,
+    "f18_2cn6": 0.138
+  },
+  "aminoAcids": {
+    "aae9": 0.365,
+    "ala": 0.076,
+    "arg": 0.039,
+    "asp": 0.145,
+    "cyste": 0.004,
+    "glu": 0.25,
+    "gly": 0.041,
+    "his": 0.021,
+    "ile": 0.042,
+    "leu": 0.066,
+    "lys": 0.065,
+    "met": 0.016,
+    "phe": 0.041,
+    "pro": 0.035,
+    "ser": 0.043,
+    "thr": 0.039,
+    "trp": 0.011,
+    "tyr": 0.022,
+    "val": 0.064
+  },
+  "otherNutrients": {
+    "nt": 0.176
+  },
+  "extra": {}
+}

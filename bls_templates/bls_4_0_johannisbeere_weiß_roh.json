@@ -1,0 +1,110 @@
+{
+  "name": "Johannisbeere weiß, roh",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 45,
+    "water": 83.8,
+    "protein": 1.1,
+    "fat": 0.2,
+    "carbs": 6.1,
+    "fiber": 3.5,
+    "alcohol": null,
+    "sugarAlcohols": 0.003
+  },
+  "vitamins": {
+    "carotpaxb": 2,
+    "vite": 0.82,
+    "tocpha": 0.82,
+    "tocphb": 0.16,
+    "tocphg": 0.32,
+    "tocphd": 0.15,
+    "vitk": 11,
+    "vitk1": 11,
+    "thia": 0.08,
+    "ribf": 0.02,
+    "niaeq": 0.2,
+    "nia": 0.2,
+    "pantac": 0.06,
+    "vitb6": 45,
+    "biot": 3,
+    "fol": 11.4,
+    "folfd": 11.4,
+    "vitc": 35
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 10,
+    "k": 279,
+    "ca": 26,
+    "mg": 11,
+    "p": 26,
+    "fe": 0.94,
+    "zn": 0.2,
+    "id": 1,
+    "cu": 140,
+    "mn": 200,
+    "fd": 23,
+    "cr": 2,
+    "mo": 10
+  },
+  "carbohydrates": {
+    "cho": 6.1,
+    "mnsac": 5.4,
+    "glus": 2.8,
+    "frus": 2.6,
+    "gals": 0.0107,
+    "disac": 0.7,
+    "sucs": 0.7,
+    "sugar": 6.1
+  },
+  "fibers": {
+    "fibt": 3.5,
+    "fibhmw": 3.5,
+    "fibins": 3.1,
+    "fibsol": 0.4
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.003,
+    "xyltl": 0.003
+  },
+  "fattyAcids": {
+    "fasat": 0.039,
+    "f16_0": 0.032,
+    "f18_0": 0.007,
+    "fams": 0.029,
+    "f16_1cn7": 0.003,
+    "f18_1cn9": 0.026,
+    "fapu": 0.073,
+    "fapun3": 0.032,
+    "f18_3cn3": 0.032,
+    "fapun6": 0.041,
+    "f18_2cn6": 0.041
+  },
+  "aminoAcids": {
+    "aae9": 0.22,
+    "ala": 0.11,
+    "arg": 0.05,
+    "asp": 0.17,
+    "glu": 0.16,
+    "gly": 0.04,
+    "his": 0.02,
+    "ile": 0.01,
+    "leu": 0.05,
+    "lys": 0.04,
+    "phe": 0.03,
+    "pro": 0.03,
+    "ser": 0.06,
+    "thr": 0.03,
+    "tyr": 0.02,
+    "val": 0.04
+  },
+  "otherNutrients": {
+    "nt": 0.16
+  },
+  "extra": {}
+}

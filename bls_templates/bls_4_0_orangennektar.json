@@ -1,0 +1,93 @@
+{
+  "name": "Orangennektar",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 38,
+    "water": 90.1,
+    "protein": 0.375,
+    "fat": null,
+    "carbs": 8.551,
+    "fiber": 0.155,
+    "alcohol": 0.006,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 3,
+    "vitaa": 2,
+    "cartb": 7,
+    "carotpaxb": 22,
+    "vite": 0.04,
+    "tocpha": 0.04,
+    "vitk": 0.03,
+    "vitk1": 0.03,
+    "thia": 0.034,
+    "ribf": 0.004,
+    "niaeq": 0.218,
+    "nia": 0.2,
+    "pantac": 0.08,
+    "vitb6": 13.8,
+    "biot": 0.4,
+    "fol": 10,
+    "folfd": 10,
+    "vitc": 19.95
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 1,
+    "k": 69,
+    "ca": 12,
+    "mg": 10,
+    "p": 8,
+    "s": 0.8,
+    "fe": 0.1,
+    "zn": 0.02,
+    "id": 1,
+    "cu": 13,
+    "mn": 10,
+    "mo": 0.38
+  },
+  "carbohydrates": {
+    "cho": 8.551,
+    "mnsac": 2.316,
+    "glus": 1.128,
+    "frus": 1.188,
+    "disac": 6.235,
+    "sucs": 6.235,
+    "sugar": 8.551
+  },
+  "fibers": {
+    "fibt": 0.155
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {},
+  "aminoAcids": {
+    "aae9": 0.031,
+    "ala": 0.008,
+    "arg": 0.022,
+    "asp": 0.034,
+    "cyste": 0.0022,
+    "glu": 0.016,
+    "gly": 0.0044,
+    "his": 0.0016,
+    "ile": 0.0033,
+    "leu": 0.006,
+    "lys": 0.0044,
+    "met": 0.0016,
+    "phe": 0.0038,
+    "pro": 0.02,
+    "ser": 0.006,
+    "thr": 0.0038,
+    "trp": 0.0011,
+    "tyr": 0.0016,
+    "val": 0.005
+  },
+  "otherNutrients": {
+    "nt": 0.06
+  },
+  "extra": {}
+}

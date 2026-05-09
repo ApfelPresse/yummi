@@ -1,0 +1,102 @@
+{
+  "name": "Sesam",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 565,
+    "water": 5.2,
+    "protein": 20.896,
+    "fat": 50.4,
+    "carbs": 1.42,
+    "fiber": 11.18,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vite": 0.25,
+    "tocpha": 0.25,
+    "tocphg": 22.81,
+    "tocphd": 0.29,
+    "vitk": 2.82,
+    "vitk1": 2.82,
+    "thia": 0.79,
+    "ribf": 0.25,
+    "niaeq": 9.353,
+    "nia": 4.52,
+    "pantac": 0.23,
+    "vitb6": 790,
+    "biot": 14,
+    "fol": 119,
+    "folfd": 119
+  },
+  "minerals": {
+    "nacl": 0.112,
+    "na": 45,
+    "k": 458,
+    "ca": 783,
+    "mg": 347,
+    "p": 607,
+    "fe": 10,
+    "zn": 5.95,
+    "cu": 1656,
+    "mn": 1810,
+    "cr": 12
+  },
+  "carbohydrates": {
+    "cho": 1.42,
+    "mnsac": 0.6,
+    "gals": 0.6,
+    "disac": 0.6,
+    "sucs": 0.6,
+    "sugar": 1.2,
+    "starch": 0.22
+  },
+  "fibers": {
+    "fibt": 11.18,
+    "fibhmw": 11.18,
+    "fibins": 7.96,
+    "fibsol": 3.22
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 7.55,
+    "f16_0": 5.7,
+    "f18_0": 1.6,
+    "f20_0": 0.25,
+    "fams": 19.9,
+    "f18_1cn9": 19.9,
+    "fapu": 19.37,
+    "fapun3": 0.67,
+    "f18_3cn3": 0.67,
+    "fapun6": 18.7,
+    "f18_2cn6": 18.7
+  },
+  "aminoAcids": {
+    "aae9": 7.8,
+    "ala": 1.13,
+    "arg": 2.2,
+    "asp": 1.37,
+    "cyste": 0.26,
+    "glu": 3.73,
+    "gly": 1.48,
+    "his": 0.49,
+    "ile": 0.93,
+    "leu": 1.54,
+    "lys": 0.64,
+    "met": 0.64,
+    "phe": 1.25,
+    "pro": 1.13,
+    "ser": 0.99,
+    "thr": 0.91,
+    "trp": 0.29,
+    "tyr": 0.72,
+    "val": 1.11
+  },
+  "otherNutrients": {
+    "nt": 3.343
+  },
+  "extra": {}
+}

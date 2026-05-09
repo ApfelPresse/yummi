@@ -1,0 +1,106 @@
+{
+  "name": "Aprikosenkaltschale gebunden mit Stärke",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 48,
+    "water": 84,
+    "protein": 0.8,
+    "fat": 0.1,
+    "carbs": 9.87,
+    "fiber": 1.445,
+    "alcohol": null,
+    "sugarAlcohols": 0.743
+  },
+  "vitamins": {
+    "vita": 197,
+    "vitaa": 98,
+    "cartb": 1088,
+    "carotpaxb": 185,
+    "vite": 0.482,
+    "tocpha": 0.482,
+    "vitk": 3,
+    "vitk1": 3,
+    "thia": 0.08,
+    "ribf": 0.05,
+    "niaeq": 0.647,
+    "nia": 0.647,
+    "pantac": 0.248,
+    "vitb6": 60,
+    "fol": 7.1,
+    "folfd": 7.1,
+    "vitc": 7.09
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 1,
+    "k": 340,
+    "ca": 22,
+    "mg": 19,
+    "p": 20,
+    "s": 0.2,
+    "fe": 0.579,
+    "zn": 0.2,
+    "id": 0.5,
+    "cu": 80,
+    "mn": 210,
+    "fd": 10
+  },
+  "carbohydrates": {
+    "cho": 9.87,
+    "mnsac": 2.706,
+    "glus": 1.819,
+    "frus": 0.887,
+    "disac": 5.133,
+    "sucs": 5.133,
+    "sugar": 7.839,
+    "starch": 1.288
+  },
+  "fibers": {
+    "fibt": 1.445
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.743,
+    "sortl": 0.743
+  },
+  "fattyAcids": {
+    "fasat": 0.012,
+    "f14_0": 0.0001,
+    "f16_0": 0.011,
+    "f18_0": 0.001,
+    "fams": 0.06,
+    "f16_1cn7": 0.059,
+    "f18_1cn9": 0.001,
+    "fapu": 0.034,
+    "fapun3": 0.002,
+    "f18_3cn3": 0.002,
+    "fapun6": 0.032,
+    "f18_2cn6": 0.032
+  },
+  "aminoAcids": {
+    "aae9": 0.083,
+    "ala": 0.021,
+    "arg": 0.015,
+    "asp": 0.387,
+    "cyste": 0.006,
+    "glu": 0.042,
+    "gly": 0.002,
+    "ile": 0.001,
+    "leu": 0.023,
+    "lys": 0.022,
+    "phe": 0.001,
+    "pro": 0.015,
+    "ser": 0.024,
+    "thr": 0.018,
+    "tyr": 0.001,
+    "val": 0.018
+  },
+  "otherNutrients": {
+    "nt": 0.122
+  },
+  "extra": {}
+}

@@ -1,0 +1,109 @@
+{
+  "name": "Pfifferling gedünstet",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 37,
+    "water": 83.213,
+    "protein": 5.507,
+    "fat": 0.382,
+    "carbs": 0.776,
+    "fiber": 4.606,
+    "alcohol": null,
+    "sugarAlcohols": 0.549
+  },
+  "vitamins": {
+    "vita": 305,
+    "vitaa": 153,
+    "cartb": 1831,
+    "vitd": 11.3,
+    "ergcal": 11.3,
+    "thia": 0.025,
+    "ribf": 0.308,
+    "niaeq": 9.83,
+    "nia": 8.697,
+    "pantac": 1.37,
+    "vitb6": 53,
+    "fol": 2.19,
+    "folfd": 2.19,
+    "vitc": 6.761
+  },
+  "minerals": {
+    "nacl": 0.01,
+    "na": 4,
+    "k": 634,
+    "ca": 5.1,
+    "mg": 17,
+    "p": 80,
+    "fe": 2.049,
+    "zn": 1.17,
+    "cu": 576,
+    "mn": 468,
+    "fd": 70,
+    "cr": 6,
+    "mo": 14
+  },
+  "carbohydrates": {
+    "cho": 0.776,
+    "mnsac": 0.227,
+    "glus": 0.128,
+    "frus": 0.099,
+    "sugar": 0.227
+  },
+  "fibers": {
+    "fibt": 4.606,
+    "fibhmw": 4.606,
+    "fibins": 3.637,
+    "fibsol": 0.969
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.549,
+    "mantl": 0.549
+  },
+  "fattyAcids": {
+    "fasat": 0.067,
+    "f4_0": 0.004,
+    "f10_0": 0.003,
+    "f14_0": 0.001,
+    "f15_0": 0.001,
+    "f16_0": 0.039,
+    "f17_0": 0.001,
+    "f18_0": 0.01,
+    "f20_0": 0.004,
+    "f22_0": 0.001,
+    "f24_0": 0.003,
+    "fams": 0.008,
+    "f14_1cn5": 0.001,
+    "f18_1cn9": 0.007,
+    "fapu": 0.192,
+    "fapun6": 0.192,
+    "f18_2cn6": 0.192,
+    "fax": 0.001
+  },
+  "aminoAcids": {
+    "aae9": 0.64,
+    "ala": 0.062,
+    "arg": 0.107,
+    "cyste": 0.169,
+    "gly": 0.049,
+    "his": 0.037,
+    "ile": 0.056,
+    "leu": 0.1218,
+    "lys": 0.055,
+    "met": 0.013,
+    "phe": 0.092,
+    "pro": 0.056,
+    "ser": 0.069,
+    "thr": 0.1232,
+    "trp": 0.068,
+    "tyr": 0.0824,
+    "val": 0.0739
+  },
+  "otherNutrients": {
+    "nt": 0.882
+  },
+  "extra": {}
+}

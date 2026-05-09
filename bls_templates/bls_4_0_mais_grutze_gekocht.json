@@ -1,0 +1,102 @@
+{
+  "name": "Mais Grütze, gekocht",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 52,
+    "water": 83.449,
+    "protein": 1.375,
+    "fat": 0.448,
+    "carbs": 9.974,
+    "fiber": 1.495,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 5,
+    "vitaa": 2,
+    "cartb": 30,
+    "vite": 0.238,
+    "tocpha": 0.238,
+    "thia": 0.051,
+    "ribf": 0.019,
+    "niaeq": 0.456,
+    "nia": 0.273,
+    "pantac": 0.079,
+    "vitb6": 8,
+    "biot": 1,
+    "fol": 1.2,
+    "folfd": 1.2
+  },
+  "minerals": {
+    "cld": 2,
+    "k": 17,
+    "ca": 3,
+    "mg": 7,
+    "p": 39,
+    "fe": 0.343,
+    "zn": 0.11,
+    "id": 0.4,
+    "cu": 12,
+    "mn": 30,
+    "fd": 7
+  },
+  "carbohydrates": {
+    "cho": 9.974,
+    "mnsac": 0.03,
+    "glus": 0.016,
+    "frus": 0.014,
+    "disac": 0.19,
+    "sucs": 0.19,
+    "sugar": 0.22,
+    "starch": 9.754
+  },
+  "fibers": {
+    "fibt": 1.495,
+    "fibins": 1.16,
+    "fibsol": 0.335
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.057,
+    "f16_0": 0.044,
+    "f18_0": 0.011,
+    "f20_0": 0.002,
+    "fams": 0.14,
+    "f16_1cn7": 0.002,
+    "f18_1cn9": 0.138,
+    "fapu": 0.228,
+    "fapun3": 0.004,
+    "f18_3cn3": 0.004,
+    "fapun6": 0.224,
+    "f18_2cn6": 0.224
+  },
+  "aminoAcids": {
+    "aae9": 0.541,
+    "ala": 0.111,
+    "arg": 0.059,
+    "asp": 0.092,
+    "cyste": 0.03,
+    "glu": 0.28,
+    "gly": 0.057,
+    "his": 0.037,
+    "ile": 0.057,
+    "leu": 0.172,
+    "lys": 0.045,
+    "met": 0.027,
+    "phe": 0.065,
+    "pro": 0.148,
+    "ser": 0.083,
+    "thr": 0.056,
+    "trp": 0.011,
+    "tyr": 0.057,
+    "val": 0.071
+  },
+  "otherNutrients": {
+    "nt": 0.22
+  },
+  "extra": {}
+}

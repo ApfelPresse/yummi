@@ -1,0 +1,101 @@
+{
+  "name": "Rotweinpunsch",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 85,
+    "water": 84,
+    "protein": 0.2,
+    "fat": null,
+    "carbs": 5.13,
+    "fiber": 0.023,
+    "alcohol": 8.8,
+    "sugarAlcohols": 0.017
+  },
+  "vitamins": {
+    "vita": 1,
+    "cartb": 4,
+    "carotpaxb": 3,
+    "vite": 0.026,
+    "tocpha": 0.026,
+    "thia": 0.006,
+    "ribf": 0.015,
+    "niaeq": 0.32,
+    "nia": 0.32,
+    "pantac": 0.29,
+    "vitb6": 3,
+    "fol": 2,
+    "folfd": 2,
+    "vitc": 3.9
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 6,
+    "k": 77,
+    "ca": 7,
+    "mg": 10,
+    "p": 14,
+    "s": 10,
+    "fe": 0.2,
+    "zn": 0.06,
+    "cu": 20,
+    "mn": 90,
+    "fd": 4,
+    "cr": 1,
+    "mo": 0.05
+  },
+  "carbohydrates": {
+    "cho": 5.13,
+    "mnsac": 0.75,
+    "glus": 0.47,
+    "frus": 0.28,
+    "disac": 4.361,
+    "sucs": 4.361,
+    "sugar": 5.11
+  },
+  "fibers": {
+    "fibt": 0.023
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.017,
+    "sortl": 0.017
+  },
+  "fattyAcids": {
+    "fasat": 0.002,
+    "f14_0": 0.0001,
+    "f16_0": 0.002,
+    "f18_0": 0.0001,
+    "fams": 0.001,
+    "f16_1cn7": 0.0001,
+    "f18_1cn9": 0.001,
+    "fapu": 0.006,
+    "fapun3": 0.002,
+    "f18_3cn3": 0.002,
+    "fapun6": 0.004,
+    "f18_2cn6": 0.004
+  },
+  "aminoAcids": {
+    "aae9": 0.006,
+    "ala": 0.002,
+    "arg": 0.004,
+    "asp": 0.007,
+    "glu": 0.004,
+    "gly": 0.002,
+    "ile": 0.001,
+    "leu": 0.001,
+    "lys": 0.001,
+    "phe": 0.001,
+    "pro": 0.003,
+    "ser": 0.001,
+    "thr": 0.001,
+    "val": 0.001
+  },
+  "otherNutrients": {
+    "nt": 0.032
+  },
+  "extra": {}
+}

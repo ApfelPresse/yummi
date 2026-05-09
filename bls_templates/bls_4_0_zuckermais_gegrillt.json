@@ -1,0 +1,100 @@
+{
+  "name": "Zuckermais gegrillt",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 72,
+    "water": 75,
+    "protein": 3.456,
+    "fat": 1.323,
+    "carbs": 10.1,
+    "fiber": 3,
+    "alcohol": null,
+    "sugarAlcohols": 0.48
+  },
+  "vitamins": {
+    "vita": 4.86,
+    "vitaa": 2.43,
+    "cartb": 29.17,
+    "vite": 0.043,
+    "tocpha": 0.043,
+    "vitk": 0.5,
+    "vitk1": 0.5,
+    "thia": 0.145,
+    "ribf": 0.123,
+    "niaeq": 2.02,
+    "nia": 1.737,
+    "pantac": 0.852,
+    "vitb6": 218,
+    "biot": 0.5,
+    "fol": 11.2,
+    "folfd": 11.2,
+    "vitc": 10.968
+  },
+  "minerals": {
+    "nacl": 0.005,
+    "na": 2,
+    "cld": 7.8,
+    "k": 304.394,
+    "ca": 2.391,
+    "mg": 29.099,
+    "p": 89.208,
+    "fe": 0.433,
+    "zn": 0.7,
+    "cu": 92,
+    "mn": 230
+  },
+  "carbohydrates": {
+    "cho": 10.1,
+    "mnsac": 1.04,
+    "glus": 0.85,
+    "frus": 0.19,
+    "disac": 2.607,
+    "sucs": 2.317,
+    "mals": 0.29,
+    "sugar": 3.65,
+    "starch": 6
+  },
+  "fibers": {
+    "fibt": 3,
+    "fibhmw": 3,
+    "fibins": 2.3,
+    "fibsol": 0.8
+  },
+  "sugarAlcoholsDetail": {
+    "polyl": 0.48,
+    "sortl": 0.48
+  },
+  "fattyAcids": {
+    "fasat": 0.178,
+    "f16_0": 0.167,
+    "f18_0": 0.011,
+    "fams": 0.338,
+    "f18_1cn9": 0.338,
+    "fapu": 0.544,
+    "fapun3": 0.016,
+    "f18_3cn3": 0.016,
+    "fapun6": 0.528,
+    "f18_2cn6": 0.528
+  },
+  "aminoAcids": {
+    "aae9": 1.389,
+    "arg": 0.169,
+    "his": 0.09,
+    "ile": 0.137,
+    "leu": 0.369,
+    "lys": 0.137,
+    "met": 0.059,
+    "phe": 0.211,
+    "thr": 0.137,
+    "trp": 0.017,
+    "val": 0.232
+  },
+  "otherNutrients": {
+    "nt": 0.553
+  },
+  "extra": {}
+}

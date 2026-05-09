@@ -1,0 +1,65 @@
+{
+  "name": "Weißwein-Schorle mit Mineralwasser",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 33,
+    "water": 94.4,
+    "protein": 0.051,
+    "fat": null,
+    "carbs": 0.16,
+    "fiber": null,
+    "alcohol": 4.43,
+    "sugarAlcohols": 0.004
+  },
+  "vitamins": {
+    "cartb": 3,
+    "vite": 0.002,
+    "tocpha": 0.002,
+    "ribf": 0.05,
+    "pantac": 0.23,
+    "biot": 0.06,
+    "fol": 1.8,
+    "folfd": 1.8,
+    "vitc": 2.7
+  },
+  "minerals": {
+    "nacl": 0.0058,
+    "na": 2.3,
+    "cld": 1.6,
+    "k": 35.6,
+    "ca": 9,
+    "mg": 5.1,
+    "p": 8.9,
+    "s": 10,
+    "fe": 0.061,
+    "zn": 0.04,
+    "id": 0.22,
+    "cu": 4.6,
+    "mn": 46.5,
+    "fd": 15,
+    "cr": 0.6,
+    "mo": 0.3
+  },
+  "carbohydrates": {
+    "cho": 0.16,
+    "mnsac": 0.16,
+    "glus": 0.09,
+    "frus": 0.07,
+    "sugar": 0.16
+  },
+  "fibers": {},
+  "sugarAlcoholsDetail": {
+    "polyl": 0.004,
+    "sortl": 0.004
+  },
+  "fattyAcids": {},
+  "aminoAcids": {},
+  "otherNutrients": {
+    "nt": 0.008
+  },
+  "extra": {}
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Schweineschnitzel natur, gebraten",
+  "referenceAmount": 100,
+  "unit": "g",
+  "category": "",
+  "notes": "",
+  "source": "BLS 4.0",
+  "macros": {
+    "kcal": 156,
+    "water": 63.2,
+    "protein": 32.37,
+    "fat": 2.92,
+    "carbs": 0.03,
+    "fiber": 0.02,
+    "alcohol": null,
+    "sugarAlcohols": null
+  },
+  "vitamins": {
+    "vita": 3.2,
+    "vitaa": 3.2,
+    "retol": 3.2,
+    "vite": 0.578,
+    "tocpha": 0.578,
+    "tocphg": 0.007,
+    "tocphd": 0.001,
+    "vitk": 3.74,
+    "vitk2": 3.74,
+    "thia": 0.614,
+    "ribf": 0.248,
+    "niaeq": 12.234,
+    "nia": 4.951,
+    "pantac": 0.836,
+    "vitb6": 359,
+    "biot": 7,
+    "fol": 11.9,
+    "folfd": 11.9,
+    "vitb12": 1.2
+  },
+  "minerals": {
+    "nacl": 0.512,
+    "na": 205,
+    "cld": 185,
+    "k": 270,
+    "ca": 13,
+    "mg": 28,
+    "p": 224,
+    "fe": 2.616,
+    "zn": 3.99,
+    "cu": 110,
+    "mn": 65,
+    "fd": 100
+  },
+  "carbohydrates": {
+    "cho": 0.03,
+    "starch": 0.03
+  },
+  "fibers": {
+    "fibt": 0.02
+  },
+  "sugarAlcoholsDetail": {},
+  "fattyAcids": {
+    "fasat": 0.88,
+    "f14_0": 0.03,
+    "f16_0": 0.58,
+    "f18_0": 0.27,
+    "fams": 1.13,
+    "f16_1cn7": 0.1,
+    "f18_1cn9": 1.03,
+    "fapu": 0.17,
+    "fapun3": 0.03,
+    "f18_3cn3": 0.03,
+    "fapun6": 0.14,
+    "f18_2cn6": 0.14
+  },
+  "aminoAcids": {
+    "aae9": 15.847,
+    "ala": 2.26,
+    "arg": 2.245,
+    "asp": 3.572,
+    "cyste": 0.437,
+    "glu": 5.759,
+    "gly": 2.099,
+    "his": 1.458,
+    "ile": 1.866,
+    "leu": 2.406,
+    "lys": 3.237,
+    "met": 1.064,
+    "phe": 1.443,
+    "pro": 1.779,
+    "ser": 1.647,
+    "thr": 1.837,
+    "trp": 0.437,
+    "tyr": 1.327,
+    "val": 2.099
+  },
+  "otherNutrients": {
+    "chorl": 74.6,
+    "nt": 5.18
+  },
+  "extra": {}
+}
