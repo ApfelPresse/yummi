@@ -10,6 +10,7 @@ const MEAL_PLAN_REFERENCE_SELECTIONS_KEY = "meal_plan_reference_selections_v1";
 const MEAL_PLAN_WEIGHT_KG_KEY = "meal_plan_weight_kg_v1";
 const MEAL_PLAN_SELECTED_PAL_KEY = "meal_plan_selected_pal_v1";
 const MEAL_PLAN_DAY_COLLAPSE_KEY = "meal_plan_day_collapse_v1";
+const MEAL_PLAN_PORTION_OVERRIDES_KEY = "meal_plan_portion_overrides_v1";
 
 function formatDateLabel(date, prefix) {
   const weekday = new Intl.DateTimeFormat("de-DE", { weekday: "long" }).format(date);
@@ -42,11 +43,11 @@ function getNutritionValues(aggregated) {
     : Object.values(aggregated?.fibers || {}).reduce((sum, val) => sum + (Number(val) || 0), 0);
 
   return {
-    protein: roundValue(macros.protein),
-    carbs: roundValue(carbTotal),
-    fibers: roundValue(fiberTotal),
-    kcal: roundValue(macros.kcal),
-    fat: roundValue(macros.fat),
+    protein: Number(macros.protein || 0),
+    carbs: Number(carbTotal || 0),
+    fibers: Number(fiberTotal || 0),
+    kcal: Number(macros.kcal || 0),
+    fat: Number(macros.fat || 0),
     iron: Number(aggregated?.minerals?.fe || 0)
   };
 }
@@ -74,35 +75,71 @@ function getExtraNutrients(aggregated) {
   };
 }
 
-async function renderPlanCard(recipe) {
-  const imageUrl = await getRecipeImageUrl(recipe.id);
-  const aggregated = await aggregateRecipeNutrition(recipe, null);
-  const nutrition = getNutritionValues(aggregated);
-  nutrition.extra = getExtraNutrients(aggregated);
+function scaleNutrition(baseNutrition, factor) {
+  const scaled = {
+    protein: toNumber(baseNutrition.protein) * factor,
+    carbs: toNumber(baseNutrition.carbs) * factor,
+    fibers: toNumber(baseNutrition.fibers) * factor,
+    kcal: toNumber(baseNutrition.kcal) * factor,
+    fat: toNumber(baseNutrition.fat) * factor,
+    iron: toNumber(baseNutrition.iron) * factor,
+    extra: {}
+  };
 
-  return {
-    nutrition,
-    html: `
-    <article class="px-4 py-4 border-b border-black/20 meal-plan-card" draggable="true" data-recipe-id="${escapeHtml(recipe.id)}">
-      <div class="grid grid-cols-[minmax(0,1fr)_1.15fr] gap-4 items-start">
-        <a href="recipe.html?id=${encodeURIComponent(recipe.id)}" class="block bg-white rounded-2xl shadow-sm hover:shadow-md transition overflow-hidden border border-gray-200">
+  for (const [key, value] of Object.entries(baseNutrition.extra || {})) {
+    scaled.extra[key] = toNumber(value) * factor;
+  }
+
+  return scaled;
+}
+
+function buildServingsOptions(baseServings) {
+  const max = Math.max(1, Math.round(baseServings * 2));
+  const options = [];
+  for (let i = 1; i <= max * 2; i += 1) {
+    const value = i / 2;
+    options.push(value);
+  }
+  return options;
+}
+
+function renderPlanCardHtml(payload, selectedServings) {
+  const { recipe, imageUrl, baseServings, hasBaseServings, scaledNutrition } = payload;
+  const options = buildServingsOptions(baseServings).map((value) => {
+    const selected = Math.abs(value - selectedServings) < 0.001 ? "selected" : "";
+    const label = Number.isInteger(value) ? `${value}` : value.toFixed(1);
+    return `<option value="${value}" ${selected}>${label}</option>`;
+  }).join("");
+
+  return `
+    <article class="px-4 py-5 border-b border-black/20 meal-plan-card" draggable="true" data-recipe-id="${escapeHtml(recipe.id)}">
+      <div class="grid grid-cols-[minmax(0,1fr)_1.15fr] gap-5 items-start bg-white rounded-2xl shadow-sm border border-gray-200 p-4">
+        <div class="block rounded-2xl overflow-hidden border border-gray-200">
           <div class="relative">
-            <img src="${imageUrl}" alt="${escapeHtml(recipe.title || recipe.id)}" class="w-full h-40 object-cover" />
+            <img src="${imageUrl}" alt="${escapeHtml(recipe.title || recipe.id)}" class="w-full h-44 object-cover" />
             <span class="absolute top-2 left-2 px-2 py-1 rounded-full text-xs font-medium bg-white/90 text-gray-700">${escapeHtml(recipe.category || "Rezept")}</span>
           </div>
           <div class="p-4">
             <h3 class="text-lg font-semibold leading-snug line-clamp-2">${escapeHtml(recipe.title || "Ohne Titel")}</h3>
+            <a href="recipe.html?id=${encodeURIComponent(recipe.id)}" class="inline-flex mt-3 px-3 py-1.5 rounded-lg bg-gray-900 text-white hover:bg-gray-800 text-sm">zum Rezept</a>
           </div>
-        </a>
+        </div>
 
         <div class="pt-1">
+          <div class="mb-3">
+            <label class="text-xs text-gray-600 block mb-1" for="servings-${escapeHtml(recipe.id)}">Portionen gegessen</label>
+            <select id="servings-${escapeHtml(recipe.id)}" class="w-full rounded-md border border-gray-300 bg-white px-2 py-1 text-sm js-serving-select" data-recipe-id="${escapeHtml(recipe.id)}">
+              ${options}
+            </select>
+            <p class="text-[11px] text-gray-500 mt-1">Rezeptbasis für ${hasBaseServings ? roundValue(baseServings) : "?"} Portionen</p>
+          </div>
           <p class="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-2">Nährwerte</p>
           <div class="space-y-1.5 text-sm text-gray-700 leading-snug">
-            <p><span class="font-medium text-gray-900">Protein:</span> ${nutrition.protein} g</p>
-            <p><span class="font-medium text-gray-900">Kohlenhydrate:</span> ${nutrition.carbs} g</p>
-            <p><span class="font-medium text-gray-900">Ballaststoffe:</span> ${nutrition.fibers} g</p>
-            <p><span class="font-medium text-gray-900">Kalorien:</span> ${nutrition.kcal} kcal</p>
-            <p><span class="font-medium text-gray-900">Fett:</span> ${nutrition.fat} g</p>
+            <p><span class="font-medium text-gray-900">Protein:</span> ${roundValue(scaledNutrition.protein)} g</p>
+            <p><span class="font-medium text-gray-900">Kohlenhydrate:</span> ${roundValue(scaledNutrition.carbs)} g</p>
+            <p><span class="font-medium text-gray-900">Ballaststoffe:</span> ${roundValue(scaledNutrition.fibers)} g</p>
+            <p><span class="font-medium text-gray-900">Kalorien:</span> ${roundValue(scaledNutrition.kcal)} kcal</p>
+            <p><span class="font-medium text-gray-900">Fett:</span> ${roundValue(scaledNutrition.fat)} g</p>
           </div>
           <button type="button" class="mt-3 text-xs font-medium text-red-700 hover:text-red-800 js-remove-from-plan" data-recipe-id="${escapeHtml(recipe.id)}">
             Aus Essensplan entfernen
@@ -110,7 +147,24 @@ async function renderPlanCard(recipe) {
         </div>
       </div>
     </article>
-  `
+  `;
+}
+
+async function renderPlanCard(recipe) {
+  const imageUrl = await getRecipeImageUrl(recipe.id);
+  const aggregated = await aggregateRecipeNutrition(recipe, null);
+  const baseNutrition = getNutritionValues(aggregated);
+  baseNutrition.extra = getExtraNutrients(aggregated);
+  const rawServings = Number(recipe?.meta?.servings);
+  const hasBaseServings = Number.isFinite(rawServings) && rawServings > 0;
+  const baseServings = hasBaseServings ? rawServings : 1;
+
+  return {
+    recipe,
+    imageUrl,
+    baseNutrition,
+    baseServings,
+    hasBaseServings
   };
 }
 
@@ -481,6 +535,20 @@ function saveSelectedPalLabel(value) {
   localStorage.setItem(MEAL_PLAN_SELECTED_PAL_KEY, value);
 }
 
+function loadPortionOverrides() {
+  try {
+    const raw = localStorage.getItem(MEAL_PLAN_PORTION_OVERRIDES_KEY);
+    const parsed = raw ? JSON.parse(raw) : {};
+    return parsed && typeof parsed === "object" ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+function savePortionOverrides(overrides) {
+  localStorage.setItem(MEAL_PLAN_PORTION_OVERRIDES_KEY, JSON.stringify(overrides || {}));
+}
+
 function parseNumericReferenceValue(referenceValue) {
   const match = String(referenceValue || "").match(/\d+(?:[.,]\d+)?/);
   if (!match) return null;
@@ -708,7 +776,7 @@ function buildPlanState(selectedRecipes, dayKeys) {
   return { assignments };
 }
 
-function setupDragAndDrop({ root, assignments, dayKeys, recipesById, selectedIds, renderAll }) {
+function setupDragAndDrop({ root, assignments, dayKeys, recipesById, selectedIds, portionOverrides, renderAll }) {
   let draggedRecipeId = null;
   let activeTouchCard = null;
   let touchDragStarted = false;
@@ -846,6 +914,18 @@ function setupDragAndDrop({ root, assignments, dayKeys, recipesById, selectedIds
       renderAll();
     });
   });
+
+  root.querySelectorAll(".js-serving-select").forEach((select) => {
+    select.addEventListener("change", () => {
+      const recipeId = select.dataset.recipeId;
+      if (!recipeId) return;
+      const servings = Number(select.value);
+      if (!Number.isFinite(servings) || servings <= 0) return;
+      portionOverrides[recipeId] = servings;
+      savePortionOverrides(portionOverrides);
+      renderAll();
+    });
+  });
 }
 
 function setupDayToggles(root) {
@@ -932,8 +1012,8 @@ async function boot() {
 
   const recipesById = new Map(selectedRecipes.map((recipe) => [recipe.id, recipe]));
   const cardsAndNutrition = await Promise.all(selectedRecipes.map(async (recipe) => [recipe.id, await renderPlanCard(recipe)]));
-  const cardHtmlById = new Map(cardsAndNutrition.map(([id, payload]) => [id, payload.html]));
-  const nutritionByRecipeId = new Map(cardsAndNutrition.map(([id, payload]) => [id, payload.nutrition]));
+  const cardPayloadById = new Map(cardsAndNutrition);
+  const portionOverrides = loadPortionOverrides();
   const { assignments } = buildPlanState(selectedRecipes, dayKeys);
 
   const renderAll = () => {
@@ -941,6 +1021,15 @@ async function boot() {
 
     const dayNutritionByKey = new Map();
     const weekTotals = { protein: 0, carbs: 0, fibers: 0, kcal: 0, fat: 0, iron: 0 };
+    const nutritionByRecipeId = new Map();
+
+    for (const [recipeId, payload] of cardPayloadById.entries()) {
+      const baseServings = Math.max(1, Number(payload.baseServings) || 1);
+      const selectedServings = Math.max(0.5, Number(portionOverrides[recipeId]) || baseServings);
+      const factor = selectedServings / baseServings;
+      const scaledNutrition = scaleNutrition(payload.baseNutrition, factor);
+      nutritionByRecipeId.set(recipeId, scaledNutrition);
+    }
 
     for (const day of days) {
       const dayRecipeIds = assignments[day.dayKey] || [];
@@ -956,7 +1045,15 @@ async function boot() {
     const weekSummaryHtml = renderWeekNutritionSummary(weekTotals);
     const daySectionsHtml = days.map((day) => {
       const dayRecipeIds = assignments[day.dayKey] || [];
-      const cards = dayRecipeIds.map((id) => cardHtmlById.get(id)).filter(Boolean).join("");
+      const cards = dayRecipeIds.map((id) => {
+        const payload = cardPayloadById.get(id);
+        if (!payload) return "";
+        const baseServings = Math.max(1, Number(payload.baseServings) || 1);
+        const selectedServings = Math.max(0.5, Number(portionOverrides[id]) || baseServings);
+        const factor = selectedServings / baseServings;
+        const scaledNutrition = scaleNutrition(payload.baseNutrition, factor);
+        return renderPlanCardHtml({ ...payload, scaledNutrition }, selectedServings);
+      }).join("");
       const daySummary = renderDayNutritionSummaryWithReferences(dayNutritionByKey.get(day.dayKey), getSelectedReferences(), getSelectedEnergyContext());
       return renderDaySection(day.title, day.dayKey, cards, daySummary);
     }).join("");
@@ -964,7 +1061,7 @@ async function boot() {
     root.innerHTML = weekSummaryHtml + daySectionsHtml;
 
     setupDayToggles(root);
-    setupDragAndDrop({ root, assignments, dayKeys, recipesById, selectedIds, renderAll });
+    setupDragAndDrop({ root, assignments, dayKeys, recipesById, selectedIds, portionOverrides, renderAll });
   };
 
   rerenderPlan = renderAll;
