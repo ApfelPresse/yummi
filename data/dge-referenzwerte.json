@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "source": {
+    "file": "DGE-Referenzwerte.xlsx",
+    "sheet": "Referenzwerte"
+  },
+  "dimensions": {
+    "populationGroups": [
+      "25 bis unter 51 Jahre"
+    ],
+    "sexes": [
+      "Weiblich"
+    ]
+  },
+  "entries": [
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Alkohol", "referenceValue": "-", "unit": "", "label": "Alkohol - -" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Ballaststoffe", "referenceValue": "≥30", "unit": "g/Tag", "label": "Ballaststoffe - ≥30 g/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Biotin", "referenceValue": "40", "unit": "µg/Tag", "label": "Biotin - 40 µg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Calcium", "referenceValue": "1000", "unit": "mg/Tag", "label": "Calcium - 1000 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Chlorid", "referenceValue": "2300", "unit": "mg/Tag", "label": "Chlorid - 2300 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Chrom", "referenceValue": "30-100", "unit": "µg/Tag", "label": "Chrom - 30-100 µg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Einfach ungesättigte Fettsäuren", "referenceValue": ">10", "unit": "% der Energie", "label": "Einfach ungesättigte Fettsäuren - >10 % der Energie" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Eisen", "referenceValue": "Prämenopausal 16 Postmenopausal 14", "unit": "mg/Tag", "label": "Eisen - Prämenopausal 16 Postmenopausal 14 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Energie bei PAL 1,4", "referenceValue": "1800", "unit": "kcal/Tag", "label": "Energie bei PAL 1,4 - 1800 kcal/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Energie bei PAL 1,6", "referenceValue": "2100", "unit": "kcal/Tag", "label": "Energie bei PAL 1,6 - 2100 kcal/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Energie bei PAL 1,8", "referenceValue": "2400", "unit": "kcal/Tag", "label": "Energie bei PAL 1,8 - 2400 kcal/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "EPA_DHA", "referenceValue": "250", "unit": "mg/Tag", "label": "EPA_DHA - 250 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Fluorid", "referenceValue": "3,0", "unit": "mg/Tag", "label": "Fluorid - 3,0 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Folat", "referenceValue": "300", "unit": "µg/Tag", "label": "Folat - 300 µg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Gesamtfett", "referenceValue": "30", "unit": "% der Energie", "label": "Gesamtfett - 30 % der Energie" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Gesättigte Fettsäuren", "referenceValue": "max. 10", "unit": "% der Energie", "label": "Gesättigte Fettsäuren - max. 10 % der Energie" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Jod", "referenceValue": "150", "unit": "µg/Tag", "label": "Jod - 150 µg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Kalium", "referenceValue": "4000", "unit": "mg/Tag", "label": "Kalium - 4000 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Kohlenhydrate", "referenceValue": ">50", "unit": "% der Energie", "label": "Kohlenhydrate - >50 % der Energie" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Kupfer", "referenceValue": "1,0-1,5", "unit": "mg/Tag", "label": "Kupfer - 1,0-1,5 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Linolsäure", "referenceValue": "2,5", "unit": "% der Energie", "label": "Linolsäure - 2,5 % der Energie" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Magnesium", "referenceValue": "300", "unit": "mg/Tag", "label": "Magnesium - 300 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Mangan", "referenceValue": "2,0-5,0", "unit": "mg/Tag", "label": "Mangan - 2,0-5,0 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Mehrfach ungesättigte Fettsäuren", "referenceValue": "7-10", "unit": "% der Energie", "label": "Mehrfach ungesättigte Fettsäuren - 7-10 % der Energie" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Molybdän", "referenceValue": "50-100", "unit": "µg/Tag", "label": "Molybdän - 50-100 µg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Natrium", "referenceValue": "1500", "unit": "mg/Tag", "label": "Natrium - 1500 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Niacin", "referenceValue": "12", "unit": "mg/Tag", "label": "Niacin - 12 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Pantothensäure", "referenceValue": "5", "unit": "mg/Tag", "label": "Pantothensäure - 5 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Phosphor", "referenceValue": "550", "unit": "mg/Tag", "label": "Phosphor - 550 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Protein", "referenceValue": "0,8", "unit": "g/kg KG/Tag", "label": "Protein - 0,8 g/kg KG/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Riboflavin", "referenceValue": "1,1", "unit": "mg/Tag", "label": "Riboflavin - 1,1 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Selen", "referenceValue": "60", "unit": "µg/Tag", "label": "Selen - 60 µg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Thiamin", "referenceValue": "1,0", "unit": "mg/Tag", "label": "Thiamin - 1,0 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Vitamin A", "referenceValue": "700", "unit": "µg-RAE/Tag", "label": "Vitamin A - 700 µg-RAE/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Vitamin B12 (Cobalamine)", "referenceValue": "4,0", "unit": "µg/Tag", "label": "Vitamin B12 (Cobalamine) - 4,0 µg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Vitamin B6", "referenceValue": "1,4", "unit": "mg/Tag", "label": "Vitamin B6 - 1,4 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Vitamin C", "referenceValue": "95", "unit": "mg/Tag", "label": "Vitamin C - 95 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Vitamin D", "referenceValue": "20", "unit": "µg/Tag", "label": "Vitamin D - 20 µg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Vitamin E", "referenceValue": "8", "unit": "mg/Tag", "label": "Vitamin E - 8 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Vitamin K", "referenceValue": "60", "unit": "µg/Tag", "label": "Vitamin K - 60 µg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Wasser", "referenceValue": "1410", "unit": "ml/Tag", "label": "Wasser - 1410 ml/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Zink bei niedriger Phytatzufuhr", "referenceValue": "7", "unit": "mg/Tag", "label": "Zink bei niedriger Phytatzufuhr - 7 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Zink bei hoher Phytatzufuhr", "referenceValue": "10", "unit": "mg/Tag", "label": "Zink bei hoher Phytatzufuhr - 10 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "Zink bei mittlerer Phytatzufuhr", "referenceValue": "8", "unit": "mg/Tag", "label": "Zink bei mittlerer Phytatzufuhr - 8 mg/Tag" },
+    { "populationGroup": "25 bis unter 51 Jahre", "sex": "Weiblich", "nutrient": "α-Linolensäure", "referenceValue": "0,5", "unit": "% der Energie", "label": "α-Linolensäure - 0,5 % der Energie" }
+  ]
+}

@@ -4,6 +4,8 @@ import { escapeHtml, getRecipeImageUrl } from "../core/shared.js";
 import { aggregateRecipeNutrition } from "../recipes/nutrition-aggregator.js";
 
 const MEAL_PLAN_DAY_ASSIGNMENTS_KEY = "meal_plan_day_assignments_v1";
+const DGE_REFERENCES_URL = "./data/dge-referenzwerte.json";
+const MEAL_PLAN_REFERENCE_SELECTIONS_KEY = "meal_plan_reference_selections_v1";
 
 function formatDateLabel(date, prefix) {
   const weekday = new Intl.DateTimeFormat("de-DE", { weekday: "long" }).format(date);
@@ -102,6 +104,15 @@ function sumDayNutrition(recipeIds, nutritionByRecipeId) {
 }
 
 function renderDayNutritionSummary(dayNutrition) {
+  return renderDayNutritionSummaryWithReferences(dayNutrition, []);
+}
+
+function renderDayNutritionSummaryWithReferences(dayNutrition, selectedReferences) {
+  const referenceLines = (selectedReferences || []).map((entry) => {
+    const text = `${entry.nutrient}: ${entry.referenceValue}${entry.unit ? ` ${entry.unit}` : ""}`;
+    return `<p>${escapeHtml(text)}</p>`;
+  }).join("");
+
   return `
     <div class="px-4 py-3 border-b border-black/20 bg-white/60">
       <div class="text-sm font-semibold text-gray-800 mb-1">Nährstoffsumme (Tag)</div>
@@ -112,6 +123,10 @@ function renderDayNutritionSummary(dayNutrition) {
         <p>Kalorien: ${roundValue(dayNutrition.kcal)} kcal</p>
         <p>Fett: ${roundValue(dayNutrition.fat)} g</p>
       </div>
+      ${referenceLines
+        ? `<div class="mt-3 pt-2 border-t border-black/10"><div class="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-1">Ausgewählte Referenzwerte</div><div class="space-y-1 text-xs text-gray-700">${referenceLines}</div></div>`
+        : ""
+      }
     </div>
   `;
 }
@@ -165,6 +180,128 @@ function loadAssignments() {
 
 function saveAssignments(assignments) {
   localStorage.setItem(MEAL_PLAN_DAY_ASSIGNMENTS_KEY, JSON.stringify(assignments));
+}
+
+function loadReferenceSelections() {
+  try {
+    const raw = localStorage.getItem(MEAL_PLAN_REFERENCE_SELECTIONS_KEY);
+    if (!raw) return [];
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveReferenceSelections(selectionKeys) {
+  localStorage.setItem(MEAL_PLAN_REFERENCE_SELECTIONS_KEY, JSON.stringify(Array.from(new Set(selectionKeys || []))));
+}
+
+function fillSelect(selectEl, options, placeholder) {
+  if (!selectEl) return;
+  const opts = options.map((option) => `<option value="${escapeHtml(option)}">${escapeHtml(option)}</option>`).join("");
+  selectEl.innerHTML = `<option value="">${escapeHtml(placeholder)}</option>${opts}`;
+}
+
+function setupReferenceDropdowns(entries, onSelectionChange = () => {}) {
+  const populationGroupSelect = document.getElementById("populationGroupSelect");
+  const sexSelect = document.getElementById("sexSelect");
+  const nutrientMultiSelect = document.getElementById("referenceNutrientMultiSelect");
+  if (!populationGroupSelect || !sexSelect || !nutrientMultiSelect) {
+    return {
+      getSelectedReferences: () => []
+    };
+  }
+
+  nutrientMultiSelect.innerHTML = `
+    <button id="referenceDropdownButton" type="button" class="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-left flex items-center justify-between">
+      <span id="referenceDropdownLabel">Referenzwerte auswählen</span>
+      <span class="text-gray-500">▾</span>
+    </button>
+    <div id="referenceDropdownPanel" class="hidden absolute z-20 mt-1 w-full max-h-64 overflow-y-auto rounded-lg border border-gray-300 bg-white shadow-lg"></div>
+  `;
+
+  const dropdownButton = document.getElementById("referenceDropdownButton");
+  const dropdownLabel = document.getElementById("referenceDropdownLabel");
+  const dropdownPanel = document.getElementById("referenceDropdownPanel");
+
+  const selectedKeys = new Set(loadReferenceSelections());
+  let selectedReferenceEntries = [];
+
+  const makeEntryKey = (entry) => `${entry.populationGroup}__${entry.sex}__${entry.nutrient}__${entry.referenceValue}__${entry.unit}`;
+
+  const populationGroups = Array.from(new Set(entries.map((entry) => entry.populationGroup).filter(Boolean))).sort((a, b) => a.localeCompare(b, "de"));
+  const sexes = Array.from(new Set(entries.map((entry) => entry.sex).filter(Boolean))).sort((a, b) => a.localeCompare(b, "de"));
+  fillSelect(populationGroupSelect, populationGroups, "Bevölkerungsgruppe wählen");
+  fillSelect(sexSelect, sexes, "Geschlecht wählen");
+
+  if (populationGroups.length === 1) populationGroupSelect.value = populationGroups[0];
+  if (sexes.length === 1) sexSelect.value = sexes[0];
+
+  const updateDropdownLabel = () => {
+    if (!dropdownLabel) return;
+    if (!selectedReferenceEntries.length) {
+      dropdownLabel.textContent = "Referenzwerte auswählen";
+      return;
+    }
+    dropdownLabel.textContent = `${selectedReferenceEntries.length} Referenzwert(e) ausgewählt`;
+  };
+
+  const refreshNutrients = () => {
+    const pg = populationGroupSelect.value;
+    const sex = sexSelect.value;
+    const filtered = entries.filter((entry) => (!pg || entry.populationGroup === pg) && (!sex || entry.sex === sex));
+
+    const filteredKeys = new Set(filtered.map(makeEntryKey));
+    for (const key of Array.from(selectedKeys)) {
+      if (!filteredKeys.has(key)) selectedKeys.delete(key);
+    }
+
+    if (dropdownPanel) {
+      dropdownPanel.innerHTML = filtered.map((entry) => {
+        const entryKey = makeEntryKey(entry);
+        const checked = selectedKeys.has(entryKey) ? "checked" : "";
+        const line = entry.label || `${entry.nutrient} - ${entry.referenceValue}${entry.unit ? ` ${entry.unit}` : ""}`;
+        return `<label class="flex items-start gap-2 px-3 py-2 hover:bg-gray-50 border-b border-gray-100 last:border-b-0"><input type="checkbox" class="mt-0.5 js-reference-checkbox" data-reference-key="${escapeHtml(entryKey)}" ${checked} /><span class="text-sm text-gray-800">${escapeHtml(line)}</span></label>`;
+      }).join("") || '<div class="px-3 py-2 text-sm text-gray-500">Keine Referenzwerte gefunden</div>';
+    }
+
+    selectedReferenceEntries = filtered.filter((entry) => selectedKeys.has(makeEntryKey(entry)));
+    saveReferenceSelections(Array.from(selectedKeys));
+    updateDropdownLabel();
+    onSelectionChange();
+  };
+
+  if (dropdownButton && dropdownPanel) {
+    dropdownButton.addEventListener("click", () => {
+      dropdownPanel.classList.toggle("hidden");
+    });
+
+    dropdownPanel.addEventListener("change", (event) => {
+      const target = event.target;
+      if (!(target instanceof HTMLInputElement)) return;
+      if (!target.classList.contains("js-reference-checkbox")) return;
+      const key = target.dataset.referenceKey;
+      if (!key) return;
+      if (target.checked) selectedKeys.add(key);
+      else selectedKeys.delete(key);
+      refreshNutrients();
+    });
+
+    document.addEventListener("click", (event) => {
+      if (!nutrientMultiSelect.contains(event.target)) {
+        dropdownPanel.classList.add("hidden");
+      }
+    });
+  }
+
+  populationGroupSelect.addEventListener("change", refreshNutrients);
+  sexSelect.addEventListener("change", refreshNutrients);
+  refreshNutrients();
+
+  return {
+    getSelectedReferences: () => selectedReferenceEntries
+  };
 }
 
 function buildPlanState(selectedRecipes, dayKeys) {
@@ -354,13 +491,26 @@ async function boot() {
     });
   }
   const dayKeys = days.map((day) => day.dayKey);
+  let getSelectedReferences = () => [];
+  let rerenderPlan = () => {};
+
+  try {
+    const response = await fetch(DGE_REFERENCES_URL);
+    if (response.ok) {
+      const payload = await response.json();
+      const refUi = setupReferenceDropdowns(Array.isArray(payload.entries) ? payload.entries : [], () => rerenderPlan());
+      getSelectedReferences = refUi.getSelectedReferences;
+    }
+  } catch {
+    // Optionales Feature; bei Fehler bleibt die Seite nutzbar.
+  }
 
   todayHeadline.textContent = "Diese Woche";
 
   const renderEmptyWeek = () => {
     const zero = { protein: 0, carbs: 0, fibers: 0, kcal: 0, fat: 0 };
     root.innerHTML = renderWeekNutritionSummary(zero)
-      + days.map((day) => renderDaySection(day.title, day.dayKey, "", renderDayNutritionSummary(zero))).join("");
+      + days.map((day) => renderDaySection(day.title, day.dayKey, "", renderDayNutritionSummaryWithReferences(zero, getSelectedReferences()))).join("");
   };
 
   if (!selectedIds.size) {
@@ -405,7 +555,7 @@ async function boot() {
     const daySectionsHtml = days.map((day) => {
       const dayRecipeIds = assignments[day.dayKey] || [];
       const cards = dayRecipeIds.map((id) => cardHtmlById.get(id)).filter(Boolean).join("");
-      const daySummary = renderDayNutritionSummary(dayNutritionByKey.get(day.dayKey));
+      const daySummary = renderDayNutritionSummaryWithReferences(dayNutritionByKey.get(day.dayKey), getSelectedReferences());
       return renderDaySection(day.title, day.dayKey, cards, daySummary);
     }).join("");
 
@@ -413,6 +563,8 @@ async function boot() {
 
     setupDragAndDrop({ root, assignments, dayKeys, recipesById, selectedIds, renderAll });
   };
+
+  rerenderPlan = renderAll;
 
   renderAll();
 }
