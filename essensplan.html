@@ -27,7 +27,15 @@
       <p id="todayHeadline" class="mt-6 text-3xl font-semibold"></p>
       <div class="mt-5 grid gap-2">
         <select id="populationGroupSelect" class="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm"></select>
+        <div class="rounded-lg border border-gray-300 bg-white px-3 py-2">
+          <div class="flex items-center justify-between text-sm">
+            <label for="bodyWeightRange" class="text-gray-700">Körpergewicht</label>
+            <span id="bodyWeightValue" class="font-semibold text-gray-900">70 kg</span>
+          </div>
+          <input id="bodyWeightRange" type="range" min="0" max="200" step="1" value="70" class="mt-2 w-full" />
+        </div>
         <select id="sexSelect" class="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm"></select>
+        <select id="palEnergySelect" class="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm"></select>
         <div id="referenceNutrientMultiSelect" class="relative"></div>
       </div>
     </section>
