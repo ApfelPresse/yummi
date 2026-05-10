@@ -44,6 +44,8 @@ let allCategories = [];
 let categoryFilter = "alle";
 let searchQuery = "";
 const selectedRecipeIds = loadMealPlanSelectedRecipes();
+const MEAL_PLAN_DAY_ASSIGNMENTS_KEY = "meal_plan_day_assignments_v1";
+const MEAL_PLAN_TARGET_DAY_KEY = "meal_plan_target_day_v1";
 
 const selected = loadSelected();
 let ignoredSet = applyIgnoredFromLocal();
@@ -79,6 +81,35 @@ const APP_DATA_VERSION_KEY = "yummi_app_data_version";
 function setNutrientLoading(isLoading) {
   if (!elNutrientLoadingHint) return;
   elNutrientLoadingHint.classList.toggle("hidden", !isLoading);
+}
+
+function loadMealPlanDayAssignments() {
+  try {
+    const raw = localStorage.getItem(MEAL_PLAN_DAY_ASSIGNMENTS_KEY);
+    const parsed = raw ? JSON.parse(raw) : {};
+    return parsed && typeof parsed === "object" ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+function saveMealPlanDayAssignments(assignments) {
+  localStorage.setItem(MEAL_PLAN_DAY_ASSIGNMENTS_KEY, JSON.stringify(assignments || {}));
+}
+
+function assignRecipeToTargetDay(recipeId) {
+  const targetDay = localStorage.getItem(MEAL_PLAN_TARGET_DAY_KEY);
+  if (!targetDay) return;
+  const assignments = loadMealPlanDayAssignments();
+
+  for (const dayKey of Object.keys(assignments)) {
+    const list = Array.isArray(assignments[dayKey]) ? assignments[dayKey] : [];
+    assignments[dayKey] = list.filter((id) => id !== recipeId);
+  }
+
+  const current = Array.isArray(assignments[targetDay]) ? assignments[targetDay] : [];
+  assignments[targetDay] = [...current, recipeId];
+  saveMealPlanDayAssignments(assignments);
 }
 
 
@@ -469,6 +500,7 @@ function renderCard({ r, have, missing, score, total }) {
     if (isSelected) {
       selectedRecipeIds.add(r.id);
       saveMealPlanSelectedRecipes(selectedRecipeIds);
+      assignRecipeToTargetDay(r.id);
       div.classList.add("ring-2", "ring-blue-500", "ring-offset-2");
       planHint.classList.remove("hidden");
       selectButton.setAttribute("aria-label", "Rezeptauswahl aufheben");

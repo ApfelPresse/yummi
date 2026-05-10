@@ -10,7 +10,25 @@ const MEAL_PLAN_REFERENCE_SELECTIONS_KEY = "meal_plan_reference_selections_v1";
 const MEAL_PLAN_WEIGHT_KG_KEY = "meal_plan_weight_kg_v1";
 const MEAL_PLAN_SELECTED_PAL_KEY = "meal_plan_selected_pal_v1";
 const MEAL_PLAN_DAY_COLLAPSE_KEY = "meal_plan_day_collapse_v1";
+const MEAL_PLAN_DAY_NUTRITION_COLLAPSE_KEY = "meal_plan_day_nutrition_collapse_v1";
 const MEAL_PLAN_PORTION_OVERRIDES_KEY = "meal_plan_portion_overrides_v1";
+const MEAL_PLAN_WEEK_COLLAPSE_KEY = "meal_plan_week_collapse_v1";
+const CONTROL_BASE_CLASS = "w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-300";
+
+function getReferenceLabel(entry) {
+  return entry.label || `${entry.nutrient} - ${entry.referenceValue}${entry.unit ? ` ${entry.unit}` : ""}`;
+}
+
+function filterEntriesByContext(entries, populationGroup, sex) {
+  return entries.filter((entry) => (
+    (!populationGroup || entry.populationGroup === populationGroup)
+    && (!sex || entry.sex === sex)
+  ));
+}
+
+function getEnergyEntries(entries) {
+  return entries.filter((entry) => String(entry.nutrient || "").toLowerCase().includes("energie bei pal"));
+}
 
 function formatDateLabel(date, prefix) {
   const weekday = new Intl.DateTimeFormat("de-DE", { weekday: "long" }).format(date);
@@ -128,7 +146,7 @@ function renderPlanCardHtml(payload, selectedServings) {
         <div class="pt-1">
           <div class="mb-3">
             <label class="text-xs text-gray-600 block mb-1" for="servings-${escapeHtml(recipe.id)}">Portionen gegessen</label>
-            <select id="servings-${escapeHtml(recipe.id)}" class="w-full rounded-md border border-gray-300 bg-white px-2 py-1 text-sm js-serving-select" data-recipe-id="${escapeHtml(recipe.id)}">
+            <select id="servings-${escapeHtml(recipe.id)}" class="${CONTROL_BASE_CLASS} js-serving-select" data-recipe-id="${escapeHtml(recipe.id)}">
               ${options}
             </select>
             <p class="text-[11px] text-gray-500 mt-1">Rezeptbasis für ${hasBaseServings ? roundValue(baseServings) : "?"} Portionen</p>
@@ -193,14 +211,23 @@ function sumDayNutrition(recipeIds, nutritionByRecipeId) {
 }
 
 function renderDayNutritionSummary(dayNutrition) {
-  return renderDayNutritionSummaryWithReferences(dayNutrition, []);
+  return renderDayNutritionSummaryWithReferences(dayNutrition, [], null, "default-day");
 }
 
-function renderDayNutritionSummaryWithReferences(dayNutrition, selectedReferences, energyContext) {
+function renderDayNutritionSummaryWithReferences(dayNutrition, selectedReferences, energyContext, dayKey) {
+  const collapsedState = loadDayNutritionCollapseState();
+  const isCollapsed = !!collapsedState[dayKey];
   return `
-    <div class="px-4 py-3 border-b border-black/20 bg-white/60">
-      <div class="text-sm font-semibold text-gray-800 mb-1">Nährstoffsumme (Tag)</div>
-      ${renderGoalComparison(dayNutrition, selectedReferences, energyContext)}
+    <div class="px-4 py-4 border-b border-black/20 bg-stone-100">
+      <div class="rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
+        <button type="button" class="w-full px-4 py-3 text-sm font-semibold text-gray-900 bg-gray-50 border-b border-gray-200 flex items-center justify-between text-left js-day-nutrition-toggle" data-day-key="${escapeHtml(dayKey)}" aria-expanded="${isCollapsed ? "false" : "true"}">
+          <span>Nährstoffsumme (Tag)</span>
+          <span class="text-base leading-none text-gray-600">${isCollapsed ? "▾" : "▴"}</span>
+        </button>
+        <div class="px-4 py-3 ${isCollapsed ? "hidden" : ""}" data-day-nutrition-body="${escapeHtml(dayKey)}">
+          ${renderGoalComparison(dayNutrition, selectedReferences, energyContext)}
+        </div>
+      </div>
     </div>
   `;
 }
@@ -428,16 +455,22 @@ function renderGoalComparison(dayNutrition, selectedReferences, energyContext) {
 }
 
 function renderWeekNutritionSummary(weekNutrition) {
+  const isCollapsed = loadWeekCollapseState();
   return `
     <section class="px-4 py-4 border-b-2 border-black bg-stone-100">
-      <div class="bg-white/60 border border-black/20 rounded-xl p-3">
-        <p class="text-sm font-semibold text-gray-800 mb-2">Nährstoffsumme (Woche)</p>
-        <div class="grid grid-cols-2 gap-x-4 gap-y-1 text-sm text-gray-700">
-          <p>Protein: ${roundValue(weekNutrition.protein)} g</p>
-          <p>Kohlenhydrate: ${roundValue(weekNutrition.carbs)} g</p>
-          <p>Ballaststoffe: ${roundValue(weekNutrition.fibers)} g</p>
-          <p>Kalorien: ${roundValue(weekNutrition.kcal)} kcal</p>
-          <p>Fett: ${roundValue(weekNutrition.fat)} g</p>
+      <div class="rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
+        <button id="weekSummaryToggle" type="button" class="w-full px-4 py-3 text-sm font-semibold text-gray-900 bg-gray-50 border-b border-gray-200 flex items-center justify-between text-left" aria-expanded="${isCollapsed ? "false" : "true"}">
+          <span>Nährstoffsumme (Woche)</span>
+          <span id="weekSummaryChevron" class="text-base leading-none text-gray-600">${isCollapsed ? "▾" : "▴"}</span>
+        </button>
+        <div id="weekSummaryBody" class="px-4 py-3 ${isCollapsed ? "hidden" : ""}">
+          <div class="grid grid-cols-2 gap-x-4 gap-y-1 text-sm text-gray-700">
+            <p>Protein: ${roundValue(weekNutrition.protein)} g</p>
+            <p>Kohlenhydrate: ${roundValue(weekNutrition.carbs)} g</p>
+            <p>Ballaststoffe: ${roundValue(weekNutrition.fibers)} g</p>
+            <p>Kalorien: ${roundValue(weekNutrition.kcal)} kcal</p>
+            <p>Fett: ${roundValue(weekNutrition.fat)} g</p>
+          </div>
         </div>
       </div>
     </section>
@@ -451,7 +484,7 @@ function renderDaySection(title, dayKey, cardsHtml, daySummaryHtml) {
     <section class="border-t-2 border-black bg-stone-100">
       <button type="button" class="w-full px-4 py-5 border-b-2 border-black flex items-center justify-between text-left js-day-toggle" data-day-key="${escapeHtml(dayKey)}" aria-expanded="${isCollapsed ? "false" : "true"}">
         <h2 class="text-4xl font-semibold">${escapeHtml(title)}</h2>
-        <span class="text-lg text-gray-700">${isCollapsed ? "▾" : "▴"}</span>
+        <span class="text-base leading-none text-gray-600">${isCollapsed ? "▾" : "▴"}</span>
       </button>
       <div class="${isCollapsed ? "hidden" : ""}" data-day-body="${escapeHtml(dayKey)}">
         ${daySummaryHtml}
@@ -495,6 +528,29 @@ function loadDayCollapseState() {
 
 function saveDayCollapseState(state) {
   localStorage.setItem(MEAL_PLAN_DAY_COLLAPSE_KEY, JSON.stringify(state || {}));
+}
+
+function loadDayNutritionCollapseState() {
+  try {
+    const raw = localStorage.getItem(MEAL_PLAN_DAY_NUTRITION_COLLAPSE_KEY);
+    const parsed = raw ? JSON.parse(raw) : {};
+    return parsed && typeof parsed === "object" ? parsed : {};
+  } catch {
+    return {};
+  }
+}
+
+function saveDayNutritionCollapseState(state) {
+  localStorage.setItem(MEAL_PLAN_DAY_NUTRITION_COLLAPSE_KEY, JSON.stringify(state || {}));
+}
+
+function loadWeekCollapseState() {
+  return localStorage.getItem(MEAL_PLAN_WEEK_COLLAPSE_KEY) === "1";
+}
+
+function saveWeekCollapseState(isCollapsed) {
+  if (isCollapsed) localStorage.setItem(MEAL_PLAN_WEEK_COLLAPSE_KEY, "1");
+  else localStorage.removeItem(MEAL_PLAN_WEEK_COLLAPSE_KEY);
 }
 
 function loadReferenceSelections() {
@@ -575,16 +631,17 @@ function setupReferenceDropdowns(entries, onSelectionChange = () => {}) {
   }
 
   nutrientMultiSelect.innerHTML = `
-    <button id="referenceDropdownButton" type="button" class="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-left flex items-center justify-between">
+    <button id="referenceDropdownButton" type="button" class="w-full px-4 py-3 text-sm font-semibold text-gray-900 bg-gray-50 border-b border-gray-200 flex items-center justify-between text-left">
       <span id="referenceDropdownLabel">Referenzwerte auswählen</span>
-      <span class="text-gray-500">▾</span>
+      <span id="referenceDropdownChevron" class="text-base leading-none text-gray-600">▾</span>
     </button>
-    <div id="referenceDropdownPanel" class="hidden absolute z-20 mt-1 w-full max-h-64 overflow-y-auto rounded-lg border border-gray-300 bg-white shadow-lg"></div>
+    <div id="referenceDropdownPanel" class="hidden max-h-64 overflow-y-auto bg-white"></div>
   `;
 
   const dropdownButton = document.getElementById("referenceDropdownButton");
   const dropdownLabel = document.getElementById("referenceDropdownLabel");
   const dropdownPanel = document.getElementById("referenceDropdownPanel");
+  const dropdownChevron = document.getElementById("referenceDropdownChevron");
 
   const selectedKeys = new Set(loadReferenceSelections());
   let selectedReferenceEntries = [];
@@ -632,7 +689,7 @@ function setupReferenceDropdowns(entries, onSelectionChange = () => {}) {
   const refreshNutrients = () => {
     const pg = populationGroupSelect.value;
     const sex = sexSelect.value;
-    const filtered = entries.filter((entry) => (!pg || entry.populationGroup === pg) && (!sex || entry.sex === sex));
+    const filtered = filterEntriesByContext(entries, pg, sex);
 
     const filteredKeys = new Set(filtered.map(makeEntryKey));
     for (const key of Array.from(selectedKeys)) {
@@ -643,15 +700,15 @@ function setupReferenceDropdowns(entries, onSelectionChange = () => {}) {
       dropdownPanel.innerHTML = filtered.map((entry) => {
         const entryKey = makeEntryKey(entry);
         const checked = selectedKeys.has(entryKey) ? "checked" : "";
-        const line = entry.label || `${entry.nutrient} - ${entry.referenceValue}${entry.unit ? ` ${entry.unit}` : ""}`;
-        return `<label class="flex items-start gap-2 px-3 py-2 hover:bg-gray-50 border-b border-gray-100 last:border-b-0"><input type="checkbox" class="mt-0.5 js-reference-checkbox" data-reference-key="${escapeHtml(entryKey)}" ${checked} /><span class="text-sm text-gray-800">${escapeHtml(line)}</span></label>`;
+        const line = getReferenceLabel(entry);
+        return `<label class="flex items-start gap-2 px-3 py-2 hover:bg-gray-50 border-b border-gray-100 last:border-b-0 cursor-pointer"><input type="checkbox" class="mt-0.5 js-reference-checkbox" data-reference-key="${escapeHtml(entryKey)}" ${checked} /><span class="text-sm text-gray-800">${escapeHtml(line)}</span></label>`;
       }).join("") || '<div class="px-3 py-2 text-sm text-gray-500">Keine Referenzwerte gefunden</div>';
     }
 
     selectedReferenceEntries = filtered.filter((entry) => selectedKeys.has(makeEntryKey(entry)));
 
-    const energyEntries = filtered.filter((entry) => String(entry.nutrient || "").toLowerCase().includes("energie bei pal"));
-    const energyOptions = energyEntries.map((entry) => entry.label || `${entry.nutrient} - ${entry.referenceValue}${entry.unit ? ` ${entry.unit}` : ""}`);
+    const energyEntries = getEnergyEntries(filtered);
+    const energyOptions = energyEntries.map((entry) => getReferenceLabel(entry));
     fillSelect(palEnergySelect, energyOptions, "Energieziel (PAL) wählen");
 
     const storedPal = loadSelectedPalLabel();
@@ -663,7 +720,7 @@ function setupReferenceDropdowns(entries, onSelectionChange = () => {}) {
     }
 
     selectedEnergyEntry = energyEntries.find((entry) => {
-      const label = entry.label || `${entry.nutrient} - ${entry.referenceValue}${entry.unit ? ` ${entry.unit}` : ""}`;
+      const label = getReferenceLabel(entry);
       return label === palEnergySelect.value;
     }) || null;
 
@@ -676,10 +733,10 @@ function setupReferenceDropdowns(entries, onSelectionChange = () => {}) {
     saveSelectedPalLabel(palEnergySelect.value);
     const pg = populationGroupSelect.value;
     const sex = sexSelect.value;
-    const filtered = entries.filter((entry) => (!pg || entry.populationGroup === pg) && (!sex || entry.sex === sex));
-    const energyEntries = filtered.filter((entry) => String(entry.nutrient || "").toLowerCase().includes("energie bei pal"));
+    const filtered = filterEntriesByContext(entries, pg, sex);
+    const energyEntries = getEnergyEntries(filtered);
     selectedEnergyEntry = energyEntries.find((entry) => {
-      const label = entry.label || `${entry.nutrient} - ${entry.referenceValue}${entry.unit ? ` ${entry.unit}` : ""}`;
+      const label = getReferenceLabel(entry);
       return label === palEnergySelect.value;
     }) || null;
     onSelectionChange();
@@ -688,6 +745,9 @@ function setupReferenceDropdowns(entries, onSelectionChange = () => {}) {
   if (dropdownButton && dropdownPanel) {
     dropdownButton.addEventListener("click", () => {
       dropdownPanel.classList.toggle("hidden");
+      if (dropdownChevron) {
+        dropdownChevron.textContent = dropdownPanel.classList.contains("hidden") ? "▾" : "▴";
+      }
     });
 
     dropdownPanel.addEventListener("change", (event) => {
@@ -704,6 +764,7 @@ function setupReferenceDropdowns(entries, onSelectionChange = () => {}) {
     document.addEventListener("click", (event) => {
       if (!nutrientMultiSelect.contains(event.target)) {
         dropdownPanel.classList.add("hidden");
+        if (dropdownChevron) dropdownChevron.textContent = "▾";
       }
     });
   }
@@ -949,11 +1010,67 @@ function setupDayToggles(root) {
   });
 }
 
+function setupDayNutritionToggles(root) {
+  root.querySelectorAll(".js-day-nutrition-toggle").forEach((button) => {
+    button.addEventListener("click", () => {
+      const dayKey = button.dataset.dayKey;
+      if (!dayKey) return;
+      const body = root.querySelector(`[data-day-nutrition-body="${dayKey}"]`);
+      if (!body) return;
+
+      const state = loadDayNutritionCollapseState();
+      const collapsed = !body.classList.contains("hidden");
+      body.classList.toggle("hidden", collapsed);
+      state[dayKey] = collapsed;
+      saveDayNutritionCollapseState(state);
+
+      button.setAttribute("aria-expanded", collapsed ? "false" : "true");
+      const chevron = button.querySelector("span:last-child");
+      if (chevron) chevron.textContent = collapsed ? "▾" : "▴";
+    });
+  });
+}
+
+function setupPersonalSettingsToggle() {
+  const toggle = document.getElementById("personalSettingsToggle");
+  const body = document.getElementById("personalSettingsBody");
+  const chevron = document.getElementById("personalSettingsChevron");
+  if (!toggle || !body || !chevron) return;
+
+  const applyState = () => {
+    const isOpen = !body.classList.contains("hidden");
+    chevron.textContent = isOpen ? "▴" : "▾";
+    toggle.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  };
+
+  toggle.addEventListener("click", () => {
+    body.classList.toggle("hidden");
+    applyState();
+  });
+
+  applyState();
+}
+
+function setupWeekSummaryToggle(root) {
+  const toggle = root.querySelector("#weekSummaryToggle");
+  const body = root.querySelector("#weekSummaryBody");
+  const chevron = root.querySelector("#weekSummaryChevron");
+  if (!toggle || !body || !chevron) return;
+
+  toggle.addEventListener("click", () => {
+    const nextCollapsed = !body.classList.contains("hidden");
+    body.classList.toggle("hidden", nextCollapsed);
+    chevron.textContent = nextCollapsed ? "▾" : "▴";
+    toggle.setAttribute("aria-expanded", nextCollapsed ? "false" : "true");
+    saveWeekCollapseState(nextCollapsed);
+  });
+}
+
 async function boot() {
+  setupPersonalSettingsToggle();
   const selectedIds = loadMealPlanSelectedRecipes();
   const root = document.getElementById("planRoot");
   const emptyState = document.getElementById("emptyState");
-  const todayHeadline = document.getElementById("todayHeadline");
   const today = new Date();
   const days = [];
   for (let i = 0; i < 7; i += 1) {
@@ -986,12 +1103,12 @@ async function boot() {
     // Optionales Feature; bei Fehler bleibt die Seite nutzbar.
   }
 
-  todayHeadline.textContent = "Diese Woche";
-
   const renderEmptyWeek = () => {
     const zero = { protein: 0, carbs: 0, fibers: 0, kcal: 0, fat: 0, iron: 0 };
-    root.innerHTML = renderWeekNutritionSummary(zero)
-      + days.map((day) => renderDaySection(day.title, day.dayKey, "", renderDayNutritionSummaryWithReferences(zero, getSelectedReferences(), getSelectedEnergyContext()))).join("");
+    root.innerHTML = days.map((day) => renderDaySection(day.title, day.dayKey, "", renderDayNutritionSummaryWithReferences(zero, getSelectedReferences(), getSelectedEnergyContext(), day.dayKey))).join("")
+      + renderWeekNutritionSummary(zero);
+    setupWeekSummaryToggle(root);
+    setupDayNutritionToggles(root);
     setupDayToggles(root);
   };
 
@@ -1042,7 +1159,6 @@ async function boot() {
       weekTotals.fat += dayNutrition.fat;
     }
 
-    const weekSummaryHtml = renderWeekNutritionSummary(weekTotals);
     const daySectionsHtml = days.map((day) => {
       const dayRecipeIds = assignments[day.dayKey] || [];
       const cards = dayRecipeIds.map((id) => {
@@ -1054,12 +1170,15 @@ async function boot() {
         const scaledNutrition = scaleNutrition(payload.baseNutrition, factor);
         return renderPlanCardHtml({ ...payload, scaledNutrition }, selectedServings);
       }).join("");
-      const daySummary = renderDayNutritionSummaryWithReferences(dayNutritionByKey.get(day.dayKey), getSelectedReferences(), getSelectedEnergyContext());
+      const daySummary = renderDayNutritionSummaryWithReferences(dayNutritionByKey.get(day.dayKey), getSelectedReferences(), getSelectedEnergyContext(), day.dayKey);
       return renderDaySection(day.title, day.dayKey, cards, daySummary);
     }).join("");
+    const weekSummaryHtml = renderWeekNutritionSummary(weekTotals);
 
-    root.innerHTML = weekSummaryHtml + daySectionsHtml;
+    root.innerHTML = daySectionsHtml + weekSummaryHtml;
 
+    setupWeekSummaryToggle(root);
+    setupDayNutritionToggles(root);
     setupDayToggles(root);
     setupDragAndDrop({ root, assignments, dayKeys, recipesById, selectedIds, portionOverrides, renderAll });
   };
