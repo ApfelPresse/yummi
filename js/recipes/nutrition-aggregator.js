@@ -9,16 +9,16 @@
  * - Trackt Beiträge jeder Zutat für Detailansicht
  */
 
-import { loadIngredientDetails } from "../ingredients/ingredient-details.js";
+import { loadIngredientDetails } from "../ingredients/ingredient-details-store.js";
 import { normalizeIngredient } from "../core/shared.js";
 import {
-	MACRO_LABELS,
-	FAT_SOLUBLE_VITAMIN_LABELS,
-	WATER_SOLUBLE_VITAMIN_LABELS,
-	MINERAL_LABELS,
 	CARB_LABELS,
-	FIBER_LABELS
-} from "../ingredients/ingredient-details.js";
+	FAT_SOLUBLE_VITAMIN_LABELS,
+	FIBER_LABELS,
+	MACRO_LABELS,
+	MINERAL_LABELS,
+	WATER_SOLUBLE_VITAMIN_LABELS
+} from "../ingredients/nutrient-labels.js";
 
 // ─── Unit Conversions (zu Gramm/Milliliter) ───────────────────────────────
 const UNIT_TO_GRAMS = {

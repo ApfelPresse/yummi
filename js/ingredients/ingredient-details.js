@@ -1,222 +1,47 @@
 /**
- * Ingredient Details Module
+ * Ingredient Details Popup
  *
- * Lädt, speichert und zeigt detaillierte Nährstoffinformationen
- * für einzelne Zutaten aus dem Nextcloud-Ordner "ingredients_details/".
- *
- * Features:
- * - Offline-First Caching (IndexedDB)
- * - ETag-basierte Updates (nur bei Änderung laden)
- * - Stale-While-Revalidate Pattern
- *
- * Dateinamenschema: ingredients_details/<normalisierter-key>.json
+ * UI fuer detaillierte Naehrstoffinformationen einzelner Zutaten.
+ * Datenzugriff, Schema, Labels und GPT-Prompt leben in eigenen Modulen.
  */
 
-import { APP } from "../core/config.js";
-import { loadCreds, davBaseFolderUrl, get, put } from "../dav/webdav.js";
-import { 
-  getIngredientDetailsFromCache, 
-  saveIngredientDetailsToCache,
-	deleteIngredientDetailsFromCache
-} from "../storage/db.js";
+import { loadCreds } from "../dav/webdav.js";
+import {
+	AMINO_LABELS,
+	CARB_LABELS,
+	FAT_SOLUBLE_VITAMIN_LABELS,
+	FATTY_ACID_LABELS,
+	FIBER_LABELS,
+	MACRO_LABELS,
+	MINERAL_LABELS,
+	OTHER_NUTRIENT_LABELS,
+	SUGAR_ALCOHOL_LABELS,
+	WATER_SOLUBLE_VITAMIN_LABELS
+} from "./nutrient-labels.js";
+import { createEmptyDetails, buildFullTemplateFromCurrent, normalizeImportedData } from "./ingredient-schema.js";
+import { loadIngredientDetails, saveIngredientDetails } from "./ingredient-details-store.js";
+import { buildIngredientGptPromptWithInput } from "./ingredient-gpt.js";
 
-// ─── Schema ──────────────────────────────────────────────────────────────────
-
-export function createEmptyDetails(name = "") {
-	return {
-		name,
-
-		referenceAmount: 100,
-		unit: "g",
-		category: "",
-		notes: "",
-		source: "",
-		macros: {
-			kcal: null,
-			water: null,
-			protein: null,
-			fat: null,
-			carbs: null,
-			fiber: null,
-			alcohol: null,
-			sugarAlcohols: null
-		},
-		vitamins: {},
-		minerals: {},
-		carbohydrates: {},
-		fibers: {},
-		sugarAlcoholsDetail: {},
-		fattyAcids: {},
-		aminoAcids: {},
-		otherNutrients: {},
-		extra: {}
-	};
-}
-
-// ─── Label-Mappings ──────────────────────────────────────────────────────────
-
-export const MACRO_LABELS = {
-	kcal:          ["Kalorien (kcal)",   "kcal"],
-	water:         ["Wasser",            "g"],
-	protein:       ["Protein",           "g"],
-	fat:           ["Fett",              "g"],
-	carbs:         ["Kohlenhydrate",     "g"],
-	fiber:         ["Ballaststoffe",     "g"],
-	alcohol:       ["Alkohol (Ethanol)", "g"],
-	sugarAlcohols: ["Zuckeralkohole",    "g"]
-};
-
-export const FAT_SOLUBLE_VITAMIN_LABELS = {
-	vita:      ["Vitamin A, Retinol-Äquivalent (RE)", "µg"],
-	vitaa:     ["Vitamin A, Retinol-Aktivitäts-Äquivalent (RAE)", "µg"],
-	retol:     ["Retinol", "µg"],
-	cartb:     ["Beta-Carotin", "µg"],
-	carotpaxb: ["Carotinoide, außer Beta-Carotin", "µg"],
-	vitd:      ["Vitamin D", "µg"],
-	chocal:    ["Vitamin D3 (Cholecalciferol)", "µg"],
-	ergcal:    ["Vitamin D2 (Ergocalciferol)", "µg"],
-	vite:      ["Vitamin E (Alpha-Tocopherol)", "mg"],
-	tocpha:    ["Alpha-Tocopherol", "mg"],
-	tocphb:    ["Beta-Tocopherol", "mg"],
-	tocphg:    ["Gamma-Tocopherol", "mg"],
-	tocphd:    ["Delta-Tocopherol", "mg"],
-	toctra:    ["Alpha-Tocotrienol", "mg"],
-	vitk:      ["Vitamin K", "µg"],
-	vitk1:     ["Vitamin K1 (Phyllochinon)", "µg"],
-	vitk2:     ["Vitamin K2 (Menachinone)", "µg"]
-};
-
-export const WATER_SOLUBLE_VITAMIN_LABELS = {
-	thia:   ["Vitamin B1 (Thiamin)", "mg"],
-	ribf:   ["Vitamin B2 (Riboflavin)", "mg"],
-	niaeq:  ["Niacin-Äquivalent", "mg"],
-	nia:    ["Niacin", "mg"],
-	pantac: ["Pantothensäure", "mg"],
-	vitb6:  ["Vitamin B6", "µg"],
-	biot:   ["Biotin", "µg"],
-	fol:    ["Folat-Äquivalent", "µg"],
-	folfd:  ["Folat", "µg"],
-	folac:  ["Folsäure, synthetisch", "µg"],
-	vitb12: ["Vitamin B12 (Cobalamine)", "µg"],
-	vitc:   ["Vitamin C", "mg"]
-};
-
-export const MINERAL_LABELS = {
-	nacl: ["Salz (Natriumchlorid)", "g"],
-	na:   ["Natrium", "mg"],
-	cld:  ["Chlorid", "mg"],
-	k:    ["Kalium", "mg"],
-	ca:   ["Calcium", "mg"],
-	mg:   ["Magnesium", "mg"],
-	p:    ["Phosphor", "mg"],
-	s:    ["Schwefel", "mg"],
-	fe:   ["Eisen", "mg"],
-	zn:   ["Zink", "mg"],
-	id:   ["Iodid", "µg"],
-	cu:   ["Kupfer", "µg"],
-	mn:   ["Mangan", "µg"],
-	fd:   ["Fluorid", "µg"],
-	cr:   ["Chrom", "µg"],
-	mo:   ["Molybdän", "µg"]
-};
-
-export const CARB_LABELS = {
-	cho:    ["Kohlenhydrate, verfügbar", "g"],
-	mnsac:  ["Monosaccharide, gesamt", "g"],
-	glus:   ["Glucose", "g"],
-	frus:   ["Fructose", "g"],
-	gals:   ["Galactose", "g"],
-	disac:  ["Disaccharide, gesamt", "g"],
-	sucs:   ["Saccharose", "g"],
-	mals:   ["Maltose", "g"],
-	lacs:   ["Lactose", "g"],
-	sugar:  ["Zucker (Mono- und Disaccharide), gesamt", "g"],
-	olsac:  ["Oligosaccharide, verfügbar", "g"],
-	starch: ["Stärke (Stärke, Glykogen, Dextrine)", "g"]
-};
-
-export const FIBER_LABELS = {
-	fibt:    ["Ballaststoffe, gesamt", "g"],
-	fiblmw:  ["Ballaststoffe, niedermolekular", "g"],
-	fibhmw:  ["Ballaststoffe, hochmolekular", "g"],
-	fibins:  ["Ballaststoffe, wasserunlöslich", "g"],
-	fibsol:  ["Ballaststoffe, wasserlöslich", "g"],
-	fibhmws: ["Ballaststoffe, hochmolekular, wasserlöslich", "g"],
-	fibhmwi: ["Ballaststoffe, hochmolekular, wasserunlöslich", "g"]
-};
-
-export const SUGAR_ALCOHOL_LABELS = {
-	polyl: ["Zuckeralkohole, gesamt", "g"],
-	mantl: ["Mannit", "g"],
-	sortl: ["Sorbit", "g"],
-	xyltl: ["Xylit", "g"]
-};
-
-export const FATTY_ACID_LABELS = {
-	fasat:    ["Fettsäuren, gesättigt, gesamt", "g"],
-	f4_0:     ["Fettsäure C4:0 (Buttersäure)", "g"],
-	f6_0:     ["Fettsäure C6:0 (Capronsäure)", "g"],
-	f8_0:     ["Fettsäure C8:0 (Caprylsäure)", "g"],
-	f10_0:    ["Fettsäure C10:0 (Caprinsäure)", "g"],
-	f12_0:    ["Fettsäure C12:0 (Laurinsäure)", "g"],
-	f14_0:    ["Fettsäure C14:0 (Myristinsäure)", "g"],
-	f15_0:    ["Fettsäure C15:0 (Pentadecylsäure)", "g"],
-	f16_0:    ["Fettsäure C16:0 (Palmitinsäure)", "g"],
-	f17_0:    ["Fettsäure C17:0 (Margarinsäure)", "g"],
-	f18_0:    ["Fettsäure C18:0 (Stearinsäure)", "g"],
-	f20_0:    ["Fettsäure C20:0 (Arachinsäure)", "g"],
-	f22_0:    ["Fettsäure C22:0 (Behensäure)", "g"],
-	f24_0:    ["Fettsäure C24:0 (Lignocerinsäure)", "g"],
-	fams:     ["Fettsäure, einfach ungesättigt, gesamt", "g"],
-	f14_1cn5: ["Fettsäure C14:1 n-5 cis (Myristoleinsäure)", "g"],
-	f16_1cn7: ["Fettsäure C16:1 n-7 cis (Palmitoleinsäure)", "g"],
-	f18_1cn7: ["Fettsäure C18:1 n-7 cis (Vaccensäure)", "g"],
-	f18_1cn9: ["Fettsäure C18:1 n-9 cis (Ölsäure)", "g"],
-	f20_1cn9: ["Fettsäure C20:1 n-9 cis (Gondosäure)", "g"],
-	f22_1cn9: ["Fettsäure C22:1 n-9 cis (Erucasäure)", "g"],
-	fapu:     ["Fettsäuren, mehrfach ungesättigt, gesamt", "g"],
-	fapun3:   ["Fettsäuren, mehrfach ungesättigt n-3 (Omega-3), gesamt", "g"],
-	f18_3cn3: ["Fettsäure C18:3 n-3 all-cis (Alpha-Linolensäure)", "g"],
-	f18_4cn3: ["Fettsäure C18:4 n-3 all-cis (Stearidonsäure)", "g"],
-	f20_5cn3: ["Fettsäure C20:5 n-3 all-cis (Eicosapentaensäure)", "g"],
-	f22_5cn3: ["Fettsäure C22:5 n-3 all-cis (Docosapentaensäure)", "g"],
-	f22_6cn3: ["Fettsäure C22:6 n-3 all-cis (Docosahexaensäure)", "g"],
-	fapun6:   ["Fettsäuren, mehrfach ungesättigt n-6 (Omega-6), gesamt", "g"],
-	f18_2cn6: ["Fettsäure C18:2 n-6 cis, cis (Linolsäure)", "g"],
-	f18_2c9t11: ["Fettsäure C18:2 n-7 cis 9, trans 11 (konjugierte Linolsäure)", "g"],
-	f18_3cn6: ["Fettsäure C18:3 n-6 all-cis (Gamma-Linolensäure)", "g"],
-	f20_2cn6: ["Fettsäure C20:2 n-6 all-cis (Eicosadiensäure)", "g"],
-	f20_3cn6: ["Fettsäure C20:3 n-6 all-cis (Dihomogamma-Linolensäure)", "g"],
-	f20_4cn6: ["Fettsäure C20:4 n-6 all-cis (Arachidonsäure)", "g"],
-	fax:      ["Fettsäuren, sonstige", "g"]
-};
-
-export const AMINO_LABELS = {
-	aae9: ["Aminosäuren, unentbehrlich, gesamt", "g"],
-	ala:  ["Alanin", "g"],
-	arg:  ["Arginin", "g"],
-	asp:  ["Asparaginsäure, inklusive Asparagin", "g"],
-	cyste: ["Cystein", "g"],
-	glu:  ["Glutaminsäure, inklusive Glutamin", "g"],
-	gly:  ["Glycin", "g"],
-	his:  ["Histidin", "g"],
-	ile:  ["Isoleucin", "g"],
-	leu:  ["Leucin", "g"],
-	lys:  ["Lysin", "g"],
-	met:  ["Methionin", "g"],
-	phe:  ["Phenylalanin", "g"],
-	pro:  ["Prolin", "g"],
-	ser:  ["Serin", "g"],
-	thr:  ["Threonin", "g"],
-	trp:  ["Tryptophan", "g"],
-	tyr:  ["Tyrosin", "g"],
-	val:  ["Valin", "g"]
-};
-
-export const OTHER_NUTRIENT_LABELS = {
-	chorl: ["Cholesterin", "mg"],
-	nt:    ["Stickstoff, gesamt", "g"]
-};
+export {
+	AMINO_LABELS,
+	CARB_LABELS,
+	FAT_SOLUBLE_VITAMIN_LABELS,
+	FATTY_ACID_LABELS,
+	FIBER_LABELS,
+	MACRO_LABELS,
+	MINERAL_LABELS,
+	OTHER_NUTRIENT_LABELS,
+	SUGAR_ALCOHOL_LABELS,
+	WATER_SOLUBLE_VITAMIN_LABELS
+} from "./nutrient-labels.js";
+export { createEmptyDetails, buildFullEmptyTemplate, buildFullTemplateFromCurrent, normalizeImportedData } from "./ingredient-schema.js";
+export {
+	forceReloadIngredientDetails,
+	hasIngredientData,
+	invalidateIngredientDetailsCache,
+	loadIngredientDetails,
+	saveIngredientDetails
+} from "./ingredient-details-store.js";
 
 const UNIT_OPTIONS = ["g", "ml", "Stück", "EL", "TL", "Portion"];
 const CATEGORY_OPTIONS = [
@@ -224,190 +49,6 @@ const CATEGORY_OPTIONS = [
 	"Sojaprodukt", "Getreide", "Hülsenfrüchte", "Nüsse & Samen",
 	"Fett & Öl", "Süßungsmittel", "Gewürz", "Getränk", "Sonstiges"
 ];
-
-// ─── DAV helpers ─────────────────────────────────────────────────────────────
-
-function joinUrl(base, rel) {
-	return `${String(base).replace(/\/+$/, "")}/${String(rel).replace(/^\/+/, "")}`;
-}
-
-function getDetailsUrl(creds, key) {
-	const baseFolder = davBaseFolderUrl(creds);
-	return joinUrl(baseFolder, joinUrl(APP.INGREDIENT_DETAILS_SUBFOLDER, `${key}.json`));
-}
-
-async function ensureIngredientDetailsFolder(creds) {
-	const baseFolder = davBaseFolderUrl(creds);
-	const folderUrl = joinUrl(baseFolder, APP.INGREDIENT_DETAILS_SUBFOLDER);
-	const basic = "Basic " + btoa(`${creds.user}:${creds.pass}`);
-	const r = await fetch(folderUrl, {
-		method: "MKCOL",
-		headers: { "Authorization": basic }
-	});
-	const res = { status: r.status };
-
-	// 201: erstellt, 405/301: existiert bereits (serverabhängig)
-	if ([200, 201, 204, 301, 405].includes(res.status)) return;
-
-	if (res.status === 409) {
-		throw new Error("Ordner ingredients_details/ fehlt oder übergeordneter Pfad ist ungültig (HTTP 409)");
-	}
-
-	throw new Error(`Ordner ingredients_details/ konnte nicht angelegt werden (HTTP ${res.status})`);
-}
-
-export async function loadIngredientDetails(creds, key) {
-	// ─── OFFLINE-FIRST: Zuerst aus Cache laden ────────────────────────────
-	const cached = await getIngredientDetailsFromCache(key);
-	if (cached?.data) {
-		// Daten aus Cache vorhanden - sofort zurückgeben
-		// Parallel im Hintergrund auf Updates prüfen (Fire-and-Forget)
-		if (creds) {
-			checkAndUpdateIngredientDetailsInBackground(creds, key, cached.etag);
-		}
-		return cached.data;
-	}
-	
-	// ─── ONLINE: Cache leer, vom Server laden ──────────────────────────────
-	if (!creds) {
-		// Offline und kein Cache vorhanden
-		return null;
-	}
-	
-	try {
-		const url = getDetailsUrl(creds, key);
-		const res = await get(url, creds);
-		
-		if (res.status === 404) return null;
-		if (res.status !== 200) throw new Error(`Laden fehlgeschlagen (HTTP ${res.status})`);
-		
-		let data = null;
-		try { data = JSON.parse(res.text); } catch { return null; }
-		
-		// In Cache speichern mit ETag
-		const etag = res.etag || null;
-		await saveIngredientDetailsToCache(key, data, etag);
-		
-		return data;
-	} catch (err) {
-		console.warn(`Laden von Ingredient Details ${key} fehlgeschlagen:`, err);
-		return null;
-	}
-}
-
-/**
- * Überprüft im Hintergrund, ob es Updates gibt (Stale-While-Revalidate)
- * Diese Funktion aktualisiert den Cache, wenn sich der ETag geändert hat
- */
-async function checkAndUpdateIngredientDetailsInBackground(creds, key, cachedEtag) {
-	try {
-		const url = getDetailsUrl(creds, key);
-		// HEAD-Request würde schneller sein, aber nextcloud PUT/GET ist das Standard-Pattern
-		const res = await get(url, creds);
-		
-		if (res.status !== 200) return;
-		
-		const serverEtag = res.etag;
-		// Wenn ETag unterschiedlich, neuen Inhalt laden
-		if (serverEtag && serverEtag !== cachedEtag) {
-			try {
-				const data = JSON.parse(res.text);
-				await saveIngredientDetailsToCache(key, data, serverEtag);
-				console.log(`[Cache Update] Ingredient ${key} aktualisiert`);
-			} catch (e) {
-				console.warn(`Update parse fehlgeschlagen für ${key}`);
-			}
-		}
-	} catch (err) {
-		// Fehler beim Update ignorieren - Cache bleibt gültig
-		console.debug(`Background update fehlgeschlagen für ${key}:`, err.message);
-	}
-}
-
-export async function saveIngredientDetails(creds, key, data) {
-	await ensureIngredientDetailsFolder(creds);
-	const url = getDetailsUrl(creds, key);
-	const body = JSON.stringify(data, null, 2);
-	const res = await put(url, creds, body);
-	if (![200, 201, 204].includes(res.status)) {
-		throw new Error(`Speichern fehlgeschlagen (HTTP ${res.status})`);
-	}
-	
-	// Cache aktualisieren mit neuem ETag
-	const newEtag = res.etag || null;
-	await saveIngredientDetailsToCache(key, data, newEtag);
-	
-	// localStorage hint aktualisieren
-	const cacheKey = `nutrient_has_data_${key}`;
-	localStorage.setItem(cacheKey, JSON.stringify({
-		value: ingredientDetailsHasData(data),
-		timestamp: Date.now()
-	}));
-}
-
-// ─── Nutrient data existence check (cached) ──────────────────────────────────
-
-function sectionHasData(section) {
-	return Object.values(section || {}).some(value => value !== null && value !== undefined && value !== "");
-}
-
-function ingredientDetailsHasData(data) {
-	if (!data) return false;
-	return [
-		data.macros,
-		data.vitamins,
-		data.minerals,
-		data.carbohydrates,
-		data.fibers,
-		data.sugarAlcoholsDetail,
-		data.fattyAcids,
-		data.aminoAcids,
-		data.otherNutrients
-	].some(sectionHasData);
-}
-
-export async function hasIngredientData(creds, key) {
-	if (!creds) return false;
-	
-	// Cache prüfen (7 Tage TTL)
-	const cacheKey = `nutrient_has_data_${key}`;
-	const cached = localStorage.getItem(cacheKey);
-	if (cached) {
-		const { value, timestamp } = JSON.parse(cached);
-		const age = Date.now() - timestamp;
-		if (age < 7 * 24 * 60 * 60 * 1000) return value;
-	}
-	
-	// Server prüfen
-	try {
-		const data = await loadIngredientDetails(creds, key);
-		const hasData = ingredientDetailsHasData(data);
-		
-		// In Cache speichern
-		localStorage.setItem(cacheKey, JSON.stringify({
-			value: hasData,
-			timestamp: Date.now()
-		}));
-		
-		return hasData;
-	} catch (err) {
-		console.warn(`Überprüfung Nährstoffdaten für ${key} fehlgeschlagen:`, err);
-		return false;
-	}
-}
-
-// ─── Cache control helpers ──────────────────────────────────────────────────
-
-export async function invalidateIngredientDetailsCache(key) {
-	await deleteIngredientDetailsFromCache(key);
-	localStorage.removeItem(`nutrient_has_data_${key}`);
-}
-
-export async function forceReloadIngredientDetails(creds, key) {
-	if (!creds) return null;
-	await invalidateIngredientDetailsCache(key);
-	return loadIngredientDetails(creds, key);
-}
 
 // ─── Popup state ─────────────────────────────────────────────────────────────
 
@@ -875,83 +516,6 @@ function _collectPopupData(overlay, label) {
 	};
 }
 
-function _templateSection(labelMap, current = {}) {
-	const all = {};
-	for (const key of Object.keys(labelMap)) all[key] = null;
-	for (const [k, v] of Object.entries(current || {})) {
-		if (Object.prototype.hasOwnProperty.call(all, k)) all[k] = v;
-	}
-	return all;
-}
-
-function _buildFullTemplateFromCurrent(current, fallbackName) {
-	const c = current || {};
-	return {
-		name: c.name || fallbackName || "",
-
-		referenceAmount: c.referenceAmount ?? 100,
-		unit: c.unit ?? "g",
-		category: c.category ?? "",
-		notes: c.notes ?? "",
-		source: c.source ?? "",
-		macros: _templateSection(MACRO_LABELS, c.macros),
-		vitamins: _templateSection({ ...FAT_SOLUBLE_VITAMIN_LABELS, ...WATER_SOLUBLE_VITAMIN_LABELS }, c.vitamins),
-		minerals: _templateSection(MINERAL_LABELS, c.minerals),
-		carbohydrates: _templateSection(CARB_LABELS, c.carbohydrates),
-		fibers: _templateSection(FIBER_LABELS, c.fibers),
-		sugarAlcoholsDetail: _templateSection(SUGAR_ALCOHOL_LABELS, c.sugarAlcoholsDetail),
-		fattyAcids: _templateSection(FATTY_ACID_LABELS, c.fattyAcids),
-		aminoAcids: _templateSection(AMINO_LABELS, c.aminoAcids),
-		otherNutrients: _templateSection(OTHER_NUTRIENT_LABELS, c.otherNutrients),
-		extra: { ...(c.extra || {}) }
-	};
-}
-
-function _buildFullEmptyTemplate(fallbackName) {
-	return _buildFullTemplateFromCurrent(createEmptyDetails(fallbackName || ""), fallbackName || "");
-}
-
-function _buildIngredientGptPrompt(label, current) {
-	const template = _buildFullEmptyTemplate(label);
-	return [
-		`Parse nutrient data for "${label}" into this JSON schema.`,
-		"Return ONLY valid JSON. Keep all keys. Unknown values=null. Numbers only, no strings. Values per referenceAmount/unit, usually 100 g. Put source/notes if known.",
-		JSON.stringify(template)
-	].join("\n");
-}
-
-function _buildIngredientGptPromptWithInput(label, current, userInput) {
-	return [
-		_buildIngredientGptPrompt(label, current),
-		"SOURCE",
-		userInput || "(Der Nutzer liefert das Quellmaterial anschliessend, z.B. als Bild, URL oder Text.)",
-		"If source is URL/text/image, extract/package nutrition into schema. If values are per serving, convert to referenceAmount if possible."
-	].join("\n");
-}
-
-function _normalizeImportedData(imported, fallbackName) {
-	const base = createEmptyDetails(fallbackName || "");
-	if (!imported || typeof imported !== "object") return base;
-
-	const full = _buildFullTemplateFromCurrent(base, fallbackName || "");
-	const merged = _buildFullTemplateFromCurrent(imported, fallbackName || "");
-
-	return {
-		...full,
-		...merged,
-		macros: { ...full.macros, ...merged.macros },
-		vitamins: { ...full.vitamins, ...merged.vitamins },
-		minerals: { ...full.minerals, ...merged.minerals },
-		carbohydrates: { ...full.carbohydrates, ...merged.carbohydrates },
-		fibers: { ...full.fibers, ...merged.fibers },
-		sugarAlcoholsDetail: { ...full.sugarAlcoholsDetail, ...merged.sugarAlcoholsDetail },
-		fattyAcids: { ...full.fattyAcids, ...merged.fattyAcids },
-		aminoAcids: { ...full.aminoAcids, ...merged.aminoAcids },
-		otherNutrients: { ...full.otherNutrients, ...merged.otherNutrients },
-		extra: { ...(full.extra || {}), ...(imported.extra || {}) }
-	};
-}
-
 function _bindPopupEvents(overlay, label, key, data, creds) {
 	// ── Close ──
 	overlay.querySelector("#det-close")?.addEventListener("click", closePopup);
@@ -976,7 +540,7 @@ function _bindPopupEvents(overlay, label, key, data, creds) {
 
 	overlay.querySelector("#det-gpt-go")?.addEventListener("click", async () => {
 		const current = _collectPopupData(overlay, label);
-		const prompt = _buildIngredientGptPromptWithInput(label, current, gptInput?.value?.trim() || "");
+		const prompt = buildIngredientGptPromptWithInput(label, current, gptInput?.value?.trim() || "");
 		window.location.href = `https://chat.openai.com/?q=${encodeURIComponent(prompt)}&temporary-chat=true`;
 	});
 
@@ -1075,7 +639,7 @@ function _bindPopupEvents(overlay, label, key, data, creds) {
 	// ── Copy full JSON template (all possible fields) ──
 	overlay.querySelector("#det-copy-template")?.addEventListener("click", async () => {
 		const current = _collectPopupData(overlay, label);
-		const fullTemplate = _buildFullTemplateFromCurrent(current, label);
+		const fullTemplate = buildFullTemplateFromCurrent(current, label);
 		const pretty = JSON.stringify(fullTemplate, null, 2);
 		try {
 			await navigator.clipboard.writeText(pretty);
@@ -1117,7 +681,7 @@ function _bindPopupEvents(overlay, label, key, data, creds) {
 		}
 		try {
 			const parsed = JSON.parse(raw);
-			const normalized = _normalizeImportedData(parsed, label);
+			const normalized = normalizeImportedData(parsed, label);
 			_renderPopup(overlay, normalized.name || label, key, normalized, creds);
 		} catch (err) {
 			console.error("JSON-Import fehlgeschlagen:", err);
@@ -1141,7 +705,7 @@ function _bindPopupEvents(overlay, label, key, data, creds) {
 		const { template, importNote } = e.detail;
 		
 		// Normalisiere das BLS Template
-		const normalized = _normalizeImportedData(template, label);
+		const normalized = normalizeImportedData(template, label);
 		
 		// Füge die Import-Note hinzu
 		if (normalized.notes) {

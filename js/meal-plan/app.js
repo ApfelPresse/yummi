@@ -2,7 +2,7 @@ import { loadMealPlanSelectedRecipes, saveMealPlanSelectedRecipes } from "../sto
 import { getAllRecipesFromCache } from "../storage/db.js";
 import { escapeHtml, getRecipeImageUrl } from "../core/shared.js";
 import { aggregateRecipeNutrition } from "../recipes/nutrition-aggregator.js";
-import { MINERAL_LABELS } from "../ingredients/ingredient-details.js";
+import { MINERAL_LABELS } from "../ingredients/nutrient-labels.js";
 
 const MEAL_PLAN_DAY_ASSIGNMENTS_KEY = "meal_plan_day_assignments_v1";
 const DGE_REFERENCES_URL = "./data/dge-referenzwerte.json";

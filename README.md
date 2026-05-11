@@ -103,7 +103,13 @@ Hinweis: JSON unterstützt keine Kommentare. Daher wird die Vorlage mit `null`-W
 
 | Datei | Beschreibung |
 |---|---|
-| `js/ingredients/ingredient-details.js` | Komplettes Modul: Schema, DAV-Lade/Speicher-Logik, Popup-UI |
+| `js/ingredients/ingredient-details.js` | Popup-UI und kompatible Re-Exports |
+| `js/ingredients/ingredient-details-store.js` | DAV-Lade/Speicher-Logik und Cache-Helfer |
+| `js/ingredients/ingredient-schema.js` | JSON-Schema, Vorlagen und Import-Normalisierung |
+| `js/ingredients/nutrient-labels.js` | Nährstoff-Keys, Labels und Einheiten |
+| `js/ingredients/ingredient-gpt.js` | GPT-Prompt für Ingredient-JSON |
 | `js/core/config.js` | Neu: `INGREDIENT_DETAILS_SUBFOLDER` |
-| `js/recipes/app.js` | Import + `makeChip`-Integration |
+| `js/recipes/app.js` | Rezeptliste, Filter, Chips und Boot-Logik |
+| `js/recipes/cache-maintenance.js` | App-Version und manueller Daten-Cache-Reset |
+| `js/recipes/cleanup-tools.js` | Wartungs-Popup zum Umbenennen von Zutaten und Einheiten |
 | `index.html` | Neue Checkbox „Nährstoffdetails anzeigen" |
