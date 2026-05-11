@@ -1,6 +1,6 @@
 import { APP } from "../core/config.js";
-import { loadCreds, davBaseFolderUrl, propfind, parseMultiStatus, get } from "../dav/webdav.js";
-import { 
+import { loadCreds, davBaseFolderUrl, propfind, parseMultiStatus, get, ensureCollection } from "../dav/webdav.js";
+import {
   getAllRecipesFromCache, 
   saveRecipeToCache, 
   saveMetadata, 
@@ -120,6 +120,22 @@ async function loadAllRecipesInitial(creds, options = {}) {
   const baseFolder = davBaseFolderUrl(creds);
   const recipesFolderUrl = joinUrl(baseFolder, APP.RECIPES_SUBFOLDER);
 
+  // Stelle sicher, dass der Rezepte-Ordner existiert (falls nicht, versuche ihn anzulegen)
+  try {
+    const ensured = await ensureCollection(recipesFolderUrl, creds);
+    if (!ensured.ok) {
+      // Wenn wir den Ordner nicht anlegen konnten und PROPFIND weiterhin fehlschlägt,
+      // werfen wir einen klaren Fehler
+      const pfCheck = await propfind(recipesFolderUrl, creds, "0");
+      if (pfCheck.status !== 207 && pfCheck.status !== 200) {
+        throw new Error(`PROPFIND fehlgeschlagen (${pfCheck.status} ${pfCheck.statusText})`);
+      }
+    }
+  } catch (err) {
+    // Propagate mit Kontext
+    throw new Error(`Fehler beim Sicherstellen des Rezepte-Ordners: ${err?.message || err}`);
+  }
+
   const pf = await propfind(recipesFolderUrl, creds, "1");
   if (pf.status !== 207) {
     throw new Error(`PROPFIND fehlgeschlagen (${pf.status} ${pf.statusText})`);
@@ -212,6 +228,17 @@ async function loadAllRecipesInitial(creds, options = {}) {
 async function syncWithNextcloud(creds) {
   const baseFolder = davBaseFolderUrl(creds);
   const recipesFolderUrl = joinUrl(baseFolder, APP.RECIPES_SUBFOLDER);
+
+  // Stelle sicher, dass Ordner existiert bevor Sync versucht wird
+  try {
+    const ensured = await ensureCollection(recipesFolderUrl, creds);
+    if (!ensured.ok) {
+      console.warn("Konnte Rezepte-Ordner nicht sicherstellen:", ensured.error);
+      // Weitergehen, der folgende PROPFIND wird dann vermutlich fehlschlagen und wir behandeln das
+    }
+  } catch (err) {
+    console.warn("Fehler beim ensureCollection vor Sync:", err);
+  }
 
   const pf = await propfind(recipesFolderUrl, creds, "1");
   if (pf.status !== 207) {

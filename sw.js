@@ -1,4 +1,4 @@
-const APP_VERSION = "1.3.2";
+const APP_VERSION = "1.3.3";
 const CACHE = `yummi-${APP_VERSION}`;
 const ASSETS = [
   "./",

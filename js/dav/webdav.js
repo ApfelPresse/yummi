@@ -125,3 +125,56 @@ export function parseMultiStatus(xmlText) {
 
   return { error: null, items };
 }
+
+// Neue Hilfsfunktion: Stellt sicher, dass eine DAV-Collection existiert.
+// Wenn die Collection fehlt, versucht sie mit MKCOL zu erstellen.
+// Bei 409 (Conflict) wird rekursiv der Parent-Ordner erstellt.
+export async function ensureCollection(url, creds) {
+  try {
+    const pf = await propfind(url, creds, "0");
+    // Wenn existiert (207 Multi-Status oder 200 OK), nichts zu tun
+    if (pf.status === 207 || pf.status === 200) return { ok: true, created: false };
+
+    // Wenn 404, versuchen wir MKCOL
+    if (pf.status === 404) {
+      const mk = await mkcol(url, creds);
+      // MKCOL: 201 Created ist Erfolg. 405 Method Not Allowed kann auftreten wenn bereits existiert.
+      if (mk.status === 201 || mk.status === 405) return { ok: true, created: mk.status === 201 };
+
+      // 409 Conflict → Parent fehlt. Erstelle Parent rekursiv.
+      if (mk.status === 409) {
+        try {
+          const u = new URL(url);
+          // Entferne eventuell trailing slash und letzten Segment
+          let path = u.pathname.replace(/\/+$|^\/+/, "");
+          const segments = path.split('/').filter(Boolean);
+          if (segments.length <= 1) {
+            // Keine Parent mehr aufzubauen
+            return { ok: false, error: `MKCOL Conflict and cannot determine parent for ${url}` };
+          }
+          segments.pop();
+          u.pathname = '/' + segments.join('/') + '/';
+          const parentUrl = u.toString();
+
+          // Rekursiv Parent erstellen
+          const parentRes = await ensureCollection(parentUrl, creds);
+          if (!parentRes.ok) return { ok: false, error: `Failed to create parent ${parentUrl}` };
+
+          // Retry MKCOL für original URL
+          const mk2 = await mkcol(url, creds);
+          if (mk2.status === 201 || mk2.status === 405) return { ok: true, created: mk2.status === 201 };
+          return { ok: false, error: `MKCOL failed after creating parent: ${mk2.status} ${mk2.statusText}` };
+        } catch (err) {
+          return { ok: false, error: err.message };
+        }
+      }
+
+      return { ok: false, error: `MKCOL failed: ${mk.status} ${mk.statusText}` };
+    }
+
+    // Andere Fehler
+    return { ok: false, error: `PROPFIND failed: ${pf.status} ${pf.statusText}` };
+  } catch (err) {
+    return { ok: false, error: err.message };
+  }
+}

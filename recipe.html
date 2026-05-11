@@ -30,6 +30,7 @@
            href="#">
           Bearbeiten
         </a>
+        <button id="btnShareRecipe" class="px-3 py-1.5 rounded-lg bg-gray-200 hover:bg-gray-300 text-sm">Teilen</button>
         <button id="btnToggleMode"
           class="px-3 py-1.5 rounded-lg bg-gray-900 text-white hover:bg-gray-800 text-sm">
           Pantry bearbeiten
@@ -67,6 +68,7 @@
       escapeHtml,
       getUrlParam
     } from "./js/core/shared.js";
+    import { compressStringToBase64 } from "./js/utils/helpers.js";
     import { loadSelected, saveSelected } from "./js/storage/local.js";
     import { applyIgnoredFromLocal, syncIgnoredFromDav, getCredsOrThrow } from "./js/ignore/ignore.js";
     import { aggregateRecipeNutrition, renderNutritionSummary, setupNutritionCardListeners } from "./js/recipes/nutrition-aggregator.js";
@@ -238,8 +240,41 @@
 
     async function boot() {
       try {
-        if (!isAuthenticated()) {
-          throw new Error("Nicht authentifiziert. Bitte in index.html anmelden.");
+        // Versuche, das Rezept schon jetzt aus dem Cache zu laden, damit der Teilen-Button
+        // sofort funktioniert (auch wenn der Nutzer nicht eingeloggt ist).
+        const recipeId = getUrlParam("id");
+        let preloadedRecipe = null;
+        if (recipeId) {
+          try {
+            preloadedRecipe = await getRecipeFromCache(recipeId);
+          } catch (err) {
+            console.warn('Preload recipe failed:', err);
+            preloadedRecipe = null;
+          }
+        }
+
+        // Share-Button initialisieren (sofern wir das Rezept aus dem Cache haben)
+        const elEditLink = document.getElementById("editLink");
+        if (elEditLink && recipeId) elEditLink.href = `edit.html?id=${encodeURIComponent(recipeId)}`;
+        const btnShare = document.getElementById('btnShareRecipe');
+        if (btnShare) {
+          btnShare.addEventListener('click', async (e) => {
+            e.preventDefault();
+            try {
+              const recipeToShare = preloadedRecipe || (recipeId ? await getRecipeFromCache(recipeId) : null);
+              if (!recipeToShare) throw new Error('Rezept nicht im Cache vorhanden');
+              const token = await compressStringToBase64(JSON.stringify(recipeToShare));
+              const shareUrl = new URL(`edit.html?recipe=${encodeURIComponent(token)}`, window.location.href).toString();
+              await navigator.clipboard.writeText(shareUrl);
+              const orig = btnShare.textContent;
+              btnShare.textContent = '✅';
+              setTimeout(() => { btnShare.textContent = orig; }, 1500);
+            } catch (err) {
+              console.error('Share failed', err);
+              btnShare.textContent = '⚠';
+              setTimeout(() => { btnShare.textContent = 'Teilen'; }, 1500);
+            }
+          });
         }
 
         applyIgnoredFromLocal();
@@ -251,15 +286,12 @@
         }
 
         showLoading("Rezept wird geladen...");
-        
-        const recipeId = getUrlParam("id");
-        if (!recipeId) throw new Error("Keine Rezept-ID in URL");
 
-        const recipe = await getRecipeFromCache(recipeId);
+        // Falls wir das Rezept schon vorgeladen haben, nutzen wir es, ansonsten laden wir es jetzt.
+        const finalRecipeId = getUrlParam("id");
+        if (!finalRecipeId) throw new Error("Keine Rezept-ID in URL");
+        const recipe = preloadedRecipe || await getRecipeFromCache(finalRecipeId);
         if (!recipe) throw new Error("Rezept nicht gefunden");
-
-        const elEditLink = document.getElementById("editLink");
-        elEditLink.href = `edit.html?id=${encodeURIComponent(recipeId)}`;
 
         // Normalisieren falls nötig
         const sel = loadSelected();
@@ -289,3 +321,4 @@
   <script type="module" src="./js/core/sw-register.js"></script>
 </body>
 </html>
+

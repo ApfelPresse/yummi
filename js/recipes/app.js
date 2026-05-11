@@ -869,11 +869,31 @@ setupAuthUi();
     }
   }
 
+  // Wenn jemand extern signalisiert, dass ein frischer Reload gestartet wird,
+  // zeigen wir das Initial-Loading sofort (z. B. nach Credentials-Änderung oder Cache-Löschung)
+  window.addEventListener('startRecipeReload', () => {
+    if (initialLoadingTimer) {
+      window.clearTimeout(initialLoadingTimer);
+      initialLoadingTimer = null;
+    }
+    showInitialLoading("Lade Rezepte...");
+  });
+
   try {
-    initialLoadingTimer = window.setTimeout(() => {
+    // Wenn wir von einem Shared-Creds-Redirect kommen, zeigt sofort das Loading
+    const shouldStartReload = localStorage.getItem('yummi_start_recipe_reload') === '1';
+    if (shouldStartReload) {
+      try { localStorage.removeItem('yummi_start_recipe_reload'); } catch (e) {}
+      // Cancel Timer und sofort anzeigen
+      if (initialLoadingTimer) { window.clearTimeout(initialLoadingTimer); initialLoadingTimer = null; }
       showInitialLoading("Lade Rezepte...");
-    }, 350);
-    
+    } else {
+      initialLoadingTimer = window.setTimeout(() => {
+        showInitialLoading("Lade Rezepte...");
+      }, 350);
+    }
+
+
     // Progress-Updates während des Ladens
     window.addEventListener("recipeLoadProgress", (e) => {
       const { loaded, total, mode } = e.detail;

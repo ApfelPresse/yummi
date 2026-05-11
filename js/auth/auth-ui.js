@@ -1,5 +1,6 @@
 import { APP } from "../core/config.js";
 import { davBaseFolderUrl, loadCreds, propfind } from "../dav/webdav.js";
+import { showLoading } from "../core/shared.js";
 
 /* =========================
    Auth Overlay Steuerung
@@ -226,8 +227,41 @@ export function setupAuthUi() {
     } else {
       const shouldUseSharedCreds = !existingCreds || window.confirm("Du bist bereits mit anderen Zugangsdaten eingeloggt. Mit den Zugangsdaten aus dem Link überschreiben?");
       if (shouldUseSharedCreds) {
+        // Speichere die Credentials
         localStorage.setItem(APP.CREDS_KEY, JSON.stringify({ ...sharedCreds, remember: true }));
-        window.location.replace(cleanUrl);
+
+        // Sofort UI-Signal für Lade-Banner
+        try { window.dispatchEvent(new CustomEvent('startRecipeReload')); } catch (e) {}
+
+        // Persistentes Flag damit nach dem Redirect das Banner angezeigt wird
+        try { localStorage.setItem('yummi_start_recipe_reload', '1'); } catch (e) {}
+
+        // Asynchron: Leere lokalen Rezept-/Zutaten-Cache bevor wir weiterleiten,
+        // damit beim nächsten Laden ein frischer Initial-Load passiert.
+        (async () => {
+          try {
+            // Zeige Loading-Overlay direkt
+            try { showLoading("Daten werden übernommen – Cache wird geleert..."); } catch (e) {}
+
+            const { clearRecipeAndIngredientDataCache } = await import("../storage/db.js");
+            await clearRecipeAndIngredientDataCache();
+
+            // Entferne Nutrient-Existenz-Keys
+            for (let i = localStorage.length - 1; i >= 0; i--) {
+              const key = localStorage.key(i);
+              if (key?.startsWith("nutrient_has_data_")) localStorage.removeItem(key);
+            }
+
+            // Entferne App data version, damit beim nächsten Start ein Full-Reload erzwungen wird
+            localStorage.removeItem("yummi_app_data_version");
+          } catch (err) {
+            console.warn("Fehler beim Leeren des lokalen Daten-Caches:", err);
+          }
+
+          // Jetzt auf die saubere URL ohne creds weiterleiten
+          window.location.replace(cleanUrl);
+        })();
+
         return;
       }
     }
@@ -273,6 +307,10 @@ export function setupAuthUi() {
 
       if (btnAuth) btnAuth.textContent = "Logout";
       hideAuth();
+
+      // UI-Feedback: Banner anzeigen, damit sichtbar ist dass jetzt neu geladen wird
+      try { window.dispatchEvent(new CustomEvent('startRecipeReload')); } catch (e) {}
+
       location.reload();
     });
   }

@@ -36,6 +36,11 @@ export function createDataCacheTools({ setRecipes, refreshAfterReload }) {
 			clearIngredientExistenceCache();
 			localStorage.removeItem(APP_DATA_VERSION_KEY);
 
+			// Signal an die App: wir starten jetzt einen frischen Rezept-Reload (UI-Banner anzeigen)
+			try {
+				window.dispatchEvent(new CustomEvent('startRecipeReload'));
+			} catch (e) { /* ignore */ }
+
 			showLoading("Daten werden frisch geladen...");
 			const { forceReloadAllRecipesFromDav } = await import("./loader.js");
 			const recipes = await forceReloadAllRecipesFromDav();

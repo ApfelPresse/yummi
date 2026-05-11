@@ -241,6 +241,7 @@
     import { loadCreds, put, davBaseFolderUrl } from "./js/dav/webdav.js";
     import { APP } from "./js/core/config.js";
     import { getAllRecipesFromCache, saveRecipeToCache, saveMetadata, deleteRecipeFromCache, deleteMetadata, deleteImageFromCache, saveImageToCache } from "./js/storage/db.js";
+    import { decompressBase64ToString } from "./js/utils/helpers.js";
 
     // ===== State =====
     let model = {
@@ -764,6 +765,17 @@
 
         // PUT Rezept über webdav.js
         const recipeJson = JSON.stringify(model);
+
+        // Wenn keine Credentials vorhanden sind, lokal speichern und den Nutzer informieren
+        if (!creds) {
+          await saveRecipeToCache(model);
+          await saveMetadata(model.id + ".json", { etag: null, lastModified: new Date().toISOString() });
+          hideLoading();
+          showMsg(`✅ Rezept lokal gespeichert (kein Login). Melde dich an, um es zu Nextcloud zu syncen.`, false);
+          setTimeout(() => { window.location.href = `recipe.html?id=${encodeURIComponent(model.id)}`; }, 1500);
+          return;
+        }
+
         const response = await put(
           `${creds.baseUrl}/remote.php/dav/files/${creds.user}/${creds.folder}recipes/${model.id}.json`,
           creds,
@@ -843,6 +855,37 @@
     // ===== Boot =====
     async function boot() {
       try {
+        const recipeId = getUrlParam("id");
+        const newMode = getUrlParam("new") === "1";
+        const recipeToken = getUrlParam("recipe");
+
+        // Wenn ein geteiltes Rezept-TOKEN vorhanden ist, importiere es sofort
+        if (recipeToken) {
+          try {
+            const text = await decompressBase64ToString(recipeToken);
+            const obj = JSON.parse(text);
+            const normalized = normalizeImportedRecipe(obj);
+            if (!normalized.id || !normalized.title) throw new Error("Importiertes JSON benötigt mindestens id und title");
+
+            isNewMode = true;
+            model = normalized;
+            headerTitle.textContent = `Neues Rezept (Import)`;
+            btnDelete.classList.add("hidden");
+            backLink.href = "index.html";
+            // Load autocomplete from cache if possible
+            try { await loadIngredientAutocomplete(); } catch (e) { /* ignore */ }
+            // fill form and return early (no auth required to edit imported recipe)
+            fillFormFromModel();
+            renderIngredients();
+            renderSteps();
+            updateCounters();
+            return;
+          } catch (err) {
+            throw new Error("Import des Rezept-Tokens fehlgeschlagen: " + (err.message || err));
+          }
+        }
+
+        // Kein Rezept-Token: regulärer Pfad benötigt Auth
         if (!isAuthenticated()) {
           throw new Error("Nicht authentifiziert. Melde dich in index.html an.");
         }
@@ -851,56 +894,53 @@
         if (!creds) throw new Error("Keine Credentials gefunden");
         await loadIngredientAutocomplete();
 
-        const recipeId = getUrlParam("id");
-        const newMode = getUrlParam("new") === "1";
-
         if (newMode) {
-          // Neues Rezept
-          isNewMode = true;
-          model = {
-            id: "",
-            title: "",
-            category: "",
-            description: "",
-            meta: {
-              prepMin: null,
-              cookMin: null,
-              servings: null
-            },
-            ingredients: [],
-            steps: []
-          };
-          headerTitle.textContent = "Neues Rezept";
-          btnDelete.classList.add("hidden");
-          backLink.href = "index.html";
-        } else if (recipeId) {
-          // Existierendes Rezept bearbeiten
-          isNewMode = false;
-          const recipe = await getRecipeFromCache(recipeId);
-          if (!recipe) throw new Error(`Rezept #${recipeId} nicht gefunden`);
+           // Neues Rezept
+           isNewMode = true;
+           model = {
+             id: "",
+             title: "",
+             category: "",
+             description: "",
+             meta: {
+               prepMin: null,
+               cookMin: null,
+               servings: null
+             },
+             ingredients: [],
+             steps: []
+           };
+           headerTitle.textContent = "Neues Rezept";
+           btnDelete.classList.add("hidden");
+           backLink.href = "index.html";
+         } else if (recipeId) {
+           // Existierendes Rezept bearbeiten
+           isNewMode = false;
+           const recipe = await getRecipeFromCache(recipeId);
+           if (!recipe) throw new Error(`Rezept #${recipeId} nicht gefunden`);
 
-          model = { ...recipe };
-          model.meta = {
-            ...(recipe.meta && typeof recipe.meta === "object" ? recipe.meta : {}),
-            prepMin: toNumberOrNull(recipe.meta?.prepMin),
-            cookMin: toNumberOrNull(recipe.meta?.cookMin),
-            servings: toNumberOrNull(recipe.meta?.servings)
-          };
-          headerTitle.textContent = `Bearbeiten: ${model.title}`;
-          backLink.href = `recipe.html?id=${encodeURIComponent(recipeId)}`;
-        } else {
-          throw new Error("Weder ?id= noch ?new=1 in URL");
-        }
+           model = { ...recipe };
+           model.meta = {
+             ...(recipe.meta && typeof recipe.meta === "object" ? recipe.meta : {}),
+             prepMin: toNumberOrNull(recipe.meta?.prepMin),
+             cookMin: toNumberOrNull(recipe.meta?.cookMin),
+             servings: toNumberOrNull(recipe.meta?.servings)
+           };
+           headerTitle.textContent = `Bearbeiten: ${model.title}`;
+           backLink.href = `recipe.html?id=${encodeURIComponent(recipeId)}`;
+         } else {
+           throw new Error("Weder ?id= noch ?new=1 in URL");
+         }
 
         fillFormFromModel();
         renderIngredients();
         renderSteps();
         updateCounters();
-      } catch (err) {
-        showMsg(`❌ ${err.message}`, true);
-        console.error(err);
-      }
-    }
+       } catch (err) {
+         showMsg(`❌ ${err.message}`, true);
+         console.error(err);
+       }
+     }
 
     // ===== Event-Listener =====
     btnSave.addEventListener("click", saveToNextcloud);
