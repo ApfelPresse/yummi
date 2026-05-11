@@ -13,6 +13,12 @@ function ensureSlashEnd(path) {
   return path.endsWith("/") ? path : path + "/";
 }
 
+function joinUrl(base, rel) {
+  const b = String(base || "").replace(/\/+$/, "");
+  const r = String(rel || "").replace(/^\/+/, "");
+  return r ? `${b}/${r}` : `${b}/`;
+}
+
 export function loadCreds() {
   const raw = localStorage.getItem(APP.CREDS_KEY);
   if (!raw) return null;
@@ -23,7 +29,8 @@ export function loadCreds() {
       baseUrl: normalizeBaseUrl(c.baseUrl),
       user: String(c.user),
       pass: String(c.pass),
-      folder: ensureSlashEnd(String(c.folder))
+      folder: ensureSlashEnd(String(c.folder)),
+      provider: c.provider === "dav" ? "dav" : "nextcloud"
     };
   } catch {
     return null;
@@ -31,6 +38,10 @@ export function loadCreds() {
 }
 
 export function davBaseFolderUrl(creds) {
+  if (creds.provider === "dav") {
+    return joinUrl(creds.baseUrl, creds.folder);
+  }
+
   // creds.folder ist z.B. "RezeptApp/"
   const user = encodeURIComponent(creds.user);
   const segments = creds.folder.split("/").filter(Boolean).map(encodeURIComponent).join("/");

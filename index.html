@@ -34,6 +34,16 @@
       0% { transform: rotate(0deg); }
       100% { transform: rotate(360deg); }
     }
+
+    .app-header {
+      transition: transform 180ms ease, box-shadow 180ms ease;
+      will-change: transform;
+    }
+
+    .app-header.is-hidden {
+      transform: translateY(-100%);
+      box-shadow: none;
+    }
   </style>
 </head>
 
@@ -53,10 +63,27 @@
         </div>
 
         <div class="p-5 space-y-3">
+          <div>
+            <div class="text-sm font-medium text-gray-700 mb-2">Zugangstyp</div>
+            <div class="grid grid-cols-2 gap-2">
+              <button id="authProviderNextcloud" type="button"
+                class="rounded-lg border border-blue-600 bg-blue-50 px-3 py-2 text-sm font-medium text-blue-800">
+                Nextcloud
+              </button>
+              <button id="authProviderDav" type="button"
+                class="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700">
+                WebDAV
+              </button>
+            </div>
+          </div>
+
           <label class="block">
-            <div class="text-sm font-medium text-gray-700">Server-URL (Nextcloud oder Proxy)</div>
+            <div id="authBaseUrlLabel" class="text-sm font-medium text-gray-700">Server-URL (Nextcloud oder Proxy)</div>
             <input id="authBaseUrl" placeholder="https://…"
                    class="mt-1 w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm" />
+            <div id="authBaseUrlHint" class="text-xs text-gray-500 mt-1">
+              Nextcloud-Basis, z.B. https://cloud.example.de
+            </div>
           </label>
 
           <label class="block">
@@ -108,8 +135,40 @@
     </div>
   </div>
 
+  <div id="logoutOverlay" class="hidden fixed inset-0 z-50">
+    <div class="absolute inset-0 bg-black/40"></div>
+    <div class="relative min-h-full flex items-center justify-center p-4">
+      <div class="w-full max-w-lg bg-white rounded-2xl shadow-xl border border-gray-200 overflow-hidden">
+        <div class="px-5 py-4 border-b border-gray-200">
+          <div class="text-lg font-semibold">Zugangsdaten</div>
+          <div class="text-sm text-gray-600 mt-1">
+            Aktuelle Verbindung teilen oder wirklich ausloggen.
+          </div>
+        </div>
+        <div class="p-5 space-y-3">
+          <div id="logoutDetails" class="rounded-xl bg-gray-50 border border-gray-200 p-3 text-sm text-gray-700 whitespace-pre-wrap"></div>
+          <div class="flex flex-wrap gap-2">
+            <button id="authShareCredentials" type="button"
+              class="px-3 py-2 rounded-lg bg-blue-600 text-white hover:bg-blue-700 text-sm">
+              Credentials-Link teilen
+            </button>
+            <button id="authConfirmLogout" type="button"
+              class="px-3 py-2 rounded-lg bg-red-600 text-white hover:bg-red-700 text-sm">
+              Wirklich ausloggen
+            </button>
+            <button id="authCancelLogout" type="button"
+              class="px-3 py-2 rounded-lg bg-gray-200 hover:bg-gray-300 text-sm">
+              Abbrechen
+            </button>
+          </div>
+          <div id="logoutLog" class="text-xs text-gray-700 whitespace-pre-wrap"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Sticky App-Bar: nur Kategorie + Rezeptsuche (bleibt oben) -->
-  <header class="bg-white shadow-sm sticky top-0 z-20">
+  <header id="appHeader" class="app-header bg-white shadow-sm sticky top-0 z-20">
     <div class="max-w-6xl mx-auto px-4 py-3 flex items-center gap-2">
       <select id="categorySelect" class="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm">
         <option value="alle">Alle Kategorien</option>

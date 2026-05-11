@@ -55,6 +55,7 @@ function getIngredientDetailsModule() {
 // ===== DOM =====
 const elChips = document.getElementById("ingredientChips");
 const elRecipeList = document.getElementById("recipeList");
+const appHeader = document.getElementById("appHeader");
 const elSelectedCount = document.getElementById("selectedCount");
 const elTotalCount = document.getElementById("totalCount");
 const elCategorySelect = document.getElementById("categorySelect");
@@ -153,6 +154,35 @@ function observeRecipeImage(img) {
 function setNutrientLoading(isLoading) {
   if (!elNutrientLoadingHint) return;
   elNutrientLoadingHint.classList.toggle("hidden", !isLoading);
+}
+
+function setupAutoHideHeader() {
+  if (!appHeader) return;
+
+  let lastScrollY = window.scrollY;
+  let ticking = false;
+  const minDelta = 8;
+  const revealAtTop = 80;
+
+  const update = () => {
+    const currentY = window.scrollY;
+    const delta = currentY - lastScrollY;
+
+    if (currentY <= revealAtTop) {
+      appHeader.classList.remove("is-hidden");
+    } else if (Math.abs(delta) >= minDelta) {
+      appHeader.classList.toggle("is-hidden", delta > 0);
+    }
+
+    lastScrollY = currentY;
+    ticking = false;
+  };
+
+  window.addEventListener("scroll", () => {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(update);
+  }, { passive: true });
 }
 
 function loadMealPlanDayAssignments() {
@@ -815,6 +845,7 @@ document.getElementById("btnNewRecipe").onclick = () => {
   window.location.href = "edit.html?new=1";
 };
 
+setupAutoHideHeader();
 setupAuthUi();
 
 // ===== Boot =====
