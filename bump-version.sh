@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# bump-version.sh - Versionsnummer hochzählen und Cache invalidieren
+# bump-version.sh - Versionsnummer hochzählen und App-Dateien aktualisieren
 # Verwendung: ./bump-version.sh        (patch version, z.B. 1.0.0 -> 1.0.1)
 #            ./bump-version.sh minor   (minor version, z.B. 1.0.0 -> 1.1.0)
 #            ./bump-version.sh major   (major version, z.B. 1.0.0 -> 2.0.0)
@@ -60,7 +60,7 @@ echo "   - .version: $NEW_VERSION"
 echo "   - js/core/version.js: export const APP_VERSION = \"$NEW_VERSION\";"
 echo "   - sw.js: const APP_VERSION = \"$NEW_VERSION\";"
 echo ""
-echo "🚀 Service Worker Cache wird beim nächsten Reload invalidiert!"
+echo "🚀 App-Dateien werden beim nächsten Reload frisch geladen. Rezept-/Zutaten-Cache bleibt erhalten."
 
 git add -A
 git commit -m "Bump version to $NEW_VERSION"

@@ -240,6 +240,24 @@ export async function clearRecipeDataCache() {
 }
 
 /**
+ * Rezeptdaten und Zutaten-Details invalidieren.
+ * Bilder bleiben bewusst erhalten, weil sie groß sind und sich selten ändern.
+ */
+export async function clearRecipeAndIngredientDataCache() {
+  const db = await openDB();
+  return new Promise((resolve, reject) => {
+    const tx = db.transaction([STORE_RECIPES, STORE_METADATA, STORE_INGREDIENT_DETAILS], "readwrite");
+
+    tx.objectStore(STORE_RECIPES).clear();
+    tx.objectStore(STORE_METADATA).clear();
+    tx.objectStore(STORE_INGREDIENT_DETAILS).clear();
+
+    tx.oncomplete = () => resolve();
+    tx.onerror = () => reject(tx.error);
+  });
+}
+
+/**
  * Prüft, ob Cache leer ist
  */
 export async function isCacheEmpty() {

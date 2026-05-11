@@ -244,17 +244,29 @@
     <div class="mt-8 mb-2 text-center text-xs text-gray-500">
       Version: <span id="appVersion">?</span>
     </div>
+
+    <!-- Selten genutzte Wartung ganz unten auf der Seite -->
+    <details class="mt-4 mb-2 rounded-2xl border border-gray-200 bg-white shadow-sm">
+      <summary class="cursor-pointer select-none px-4 py-3 text-sm font-medium text-gray-700">
+        Wartung
+      </summary>
+      <div class="border-t border-gray-200 px-4 py-4 flex flex-wrap gap-2">
+        <button id="btnCleanup" type="button"
+          class="px-3 py-2 rounded-lg bg-gray-900 text-white hover:bg-gray-800 text-sm font-medium">
+          Ingredients umbenennen
+        </button>
+        <button id="btnClearDataCache" type="button"
+          class="px-3 py-2 rounded-lg bg-red-50 text-red-700 border border-red-200 hover:bg-red-100 text-sm font-medium">
+          Daten-Cache leeren
+        </button>
+      </div>
+    </details>
   </main>
 
   <button id="btnScrollToRecipes" type="button"
     class="fixed bottom-4 right-4 z-30 w-10 h-10 rounded-full bg-gray-900 text-white shadow-lg hover:bg-gray-800 flex items-center justify-center text-lg"
     aria-label="Zu den Rezepten scrollen">
     ↓
-  </button>
-
-  <button id="btnCleanup" type="button"
-    class="fixed bottom-4 left-4 z-30 px-3 py-2 rounded-full bg-white text-gray-800 border border-gray-300 shadow-lg hover:bg-gray-50 text-sm font-medium">
-    Cleanup
   </button>
 
   <!-- Loading Overlay -->

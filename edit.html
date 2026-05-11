@@ -17,14 +17,16 @@
     @media (max-width: 420px) { html { font-size: 14px; } }
     input[type="number"]::-webkit-outer-spin-button,
     input[type="number"]::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+    input, textarea, select { min-width: 0; }
+    .break-anywhere { overflow-wrap: anywhere; }
   </style>
 </head>
 
 <body class="bg-gray-100 text-gray-900">
   <header class="bg-white shadow-sm sticky top-0 z-20">
-    <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between gap-3">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-3">
       <a id="backLink" href="index.html" class="text-sm font-medium text-gray-700 hover:text-gray-900">← Zurück</a>
-      <div class="text-sm text-gray-600" id="headerTitle">Neues Rezept</div>
+      <div class="min-w-0 flex-1 text-center text-sm text-gray-600 truncate" id="headerTitle">Neues Rezept</div>
       <div class="flex items-center gap-2">
         <button id="btnSave"
           class="px-3 py-1.5 rounded-lg bg-blue-600 text-white hover:bg-blue-700 text-sm font-medium">
@@ -38,13 +40,13 @@
     </div>
   </header>
 
-  <main class="max-w-5xl mx-auto px-4 py-6">
+  <main class="max-w-5xl mx-auto px-4 py-6 overflow-x-hidden">
     <div id="errorBox" class="hidden mb-5 p-4 rounded-2xl bg-red-50 border border-red-200 text-sm text-red-800"></div>
     <div id="okBox" class="hidden mb-5 p-4 rounded-2xl bg-green-50 border border-green-200 text-sm text-green-800"></div>
 
     <div class="grid gap-6 lg:grid-cols-3">
       <!-- Editor -->
-      <section class="lg:col-span-2 bg-white rounded-2xl shadow-sm border border-gray-200">
+      <section class="min-w-0 lg:col-span-2 bg-white rounded-2xl shadow-sm border border-gray-200">
         <div class="p-5 border-b border-gray-200">
           <h1 class="text-lg font-semibold">Rezept-Editor</h1>
         </div>
@@ -102,6 +104,24 @@
                 class="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm" />
             </div>
 
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <div>
+                <label for="f_prepMin" class="block text-xs font-medium text-gray-700 mb-1">Vorbereitung (Min)</label>
+                <input id="f_prepMin" type="number" min="0" step="1" placeholder="0"
+                  class="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm" />
+              </div>
+              <div>
+                <label for="f_cookMin" class="block text-xs font-medium text-gray-700 mb-1">Kochzeit (Min)</label>
+                <input id="f_cookMin" type="number" min="0" step="1" placeholder="0"
+                  class="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm" />
+              </div>
+              <div>
+                <label for="f_servings" class="block text-xs font-medium text-gray-700 mb-1">Portionen</label>
+                <input id="f_servings" type="number" min="0" step="any" placeholder="z.B. 4"
+                  class="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm" />
+              </div>
+            </div>
+
             <div>
               <label for="f_description" class="block text-xs font-medium text-gray-700 mb-1">Beschreibung</label>
               <textarea id="f_description" rows="2" placeholder="Kurze Beschreibung..."
@@ -140,11 +160,11 @@
       </section>
 
       <!-- Preview / Vorschau -->
-      <section class="bg-white rounded-2xl shadow-sm border border-gray-200">
+      <section class="min-w-0 bg-white rounded-2xl shadow-sm border border-gray-200">
         <div class="p-5 border-b border-gray-200">
           <h2 class="text-lg font-semibold">Vorschau</h2>
         </div>
-        <div id="previewContent" class="p-5">
+        <div id="previewContent" class="min-w-0 p-5">
           <div class="text-sm text-gray-500 text-center py-8">Füllen Sie zuerst Titel aus...</div>
         </div>
       </section>
@@ -220,7 +240,7 @@
     } from "./js/core/shared.js";
     import { loadCreds, put, davBaseFolderUrl } from "./js/dav/webdav.js";
     import { APP } from "./js/core/config.js";
-    import { saveRecipeToCache, saveMetadata, deleteRecipeFromCache, deleteMetadata, deleteImageFromCache, saveImageToCache } from "./js/storage/db.js";
+    import { getAllRecipesFromCache, saveRecipeToCache, saveMetadata, deleteRecipeFromCache, deleteMetadata, deleteImageFromCache, saveImageToCache } from "./js/storage/db.js";
 
     // ===== State =====
     let model = {
@@ -228,16 +248,29 @@
       title: "",
       category: "",
       description: "",
+      meta: {
+        prepMin: null,
+        cookMin: null,
+        servings: null
+      },
       ingredients: [],
       steps: []
     };
     let isNewMode = true;
     let creds = null;
+    let ingredientAutocomplete = {
+      names: [],
+      units: [],
+      byName: new Map()
+    };
 
     // ===== DOM =====
     const f_id = document.getElementById("f_id");
     const f_title = document.getElementById("f_title");
     const f_category = document.getElementById("f_category");
+    const f_prepMin = document.getElementById("f_prepMin");
+    const f_cookMin = document.getElementById("f_cookMin");
+    const f_servings = document.getElementById("f_servings");
     const f_description = document.getElementById("f_description");
     const ingredientsList = document.getElementById("ingredientsList");
     const stepsList = document.getElementById("stepsList");
@@ -317,21 +350,26 @@
         for (const ing of items) {
           const qty = [ing.amount, ing.unit].filter(v => v !== null && v !== undefined && v !== "").join(" ");
           const ingText = `${qty ? qty + " " : ""}${escapeHtml(ing.name || "")}`.trim();
-          ingredientsHtml += `<li class="text-sm text-gray-700 flex justify-between"><span>${ingText}</span></li>`;
+          ingredientsHtml += `<li class="text-sm text-gray-700 break-anywhere">${ingText}</li>`;
         }
       }
 
       const stepsHtml = (model.steps || [])
         .map((s, i) => `
-          <li class="flex gap-3 items-start">
+          <li class="flex min-w-0 gap-3 items-start">
             <div class="w-6 h-6 rounded-full bg-gray-900 text-white flex items-center justify-center text-xs flex-shrink-0 font-medium">${i + 1}</div>
-            <div>
-              ${s.title ? `<div class="font-medium text-sm">${escapeHtml(s.title)}</div>` : ""}
-              <div class="text-sm text-gray-700">${escapeHtml(s.text || "")}</div>
+            <div class="min-w-0">
+              ${s.title ? `<div class="font-medium text-sm break-anywhere">${escapeHtml(s.title)}</div>` : ""}
+              <div class="text-sm text-gray-700 break-anywhere">${escapeHtml(s.text || "")}</div>
             </div>
           </li>
         `)
         .join("");
+      const meta = model.meta || {};
+      const prepMin = toNumberOrNull(meta.prepMin) ?? 0;
+      const cookMin = toNumberOrNull(meta.cookMin) ?? 0;
+      const totalMin = prepMin + cookMin;
+      const servings = toNumberOrNull(meta.servings);
 
       previewContent.innerHTML = `
         <div class="space-y-4">
@@ -339,9 +377,15 @@
             <img src="${imgSrc}" class="w-full h-40 object-cover rounded-lg" alt="${escapeHtml(model.title)}" />
           </div>
           <div>
-            <h3 class="text-xl font-semibold">${escapeHtml(model.title)}</h3>
-            ${model.description ? `<p class="text-sm text-gray-600 mt-1">${escapeHtml(model.description)}</p>` : ""}
-            ${model.category ? `<div class="text-xs text-gray-500 mt-2">📂 ${escapeHtml(model.category)}</div>` : ""}
+            <h3 class="text-xl font-semibold break-anywhere">${escapeHtml(model.title)}</h3>
+            ${model.description ? `<p class="text-sm text-gray-600 mt-1 break-anywhere">${escapeHtml(model.description)}</p>` : ""}
+            ${model.category ? `<div class="text-xs text-gray-500 mt-2 break-anywhere">📂 ${escapeHtml(model.category)}</div>` : ""}
+            <div class="mt-2 flex flex-wrap gap-2 text-xs text-gray-600">
+              <span class="px-2 py-1 rounded-full bg-gray-100 border border-gray-200">⏱️ ${totalMin} Min</span>
+              <span class="px-2 py-1 rounded-full bg-gray-100 border border-gray-200">Vorbereitung ${prepMin} Min</span>
+              <span class="px-2 py-1 rounded-full bg-gray-100 border border-gray-200">Kochzeit ${cookMin} Min</span>
+              <span class="px-2 py-1 rounded-full bg-gray-100 border border-gray-200">🍽️ ${servings || "—"} Portionen</span>
+            </div>
           </div>
 
           ${ingredientsHtml ? `
@@ -366,6 +410,12 @@
       model.title = (f_title.value || "").trim();
       model.category = (f_category.value || "").trim();
       model.description = (f_description.value || "").trim();
+      model.meta = {
+        ...(model.meta && typeof model.meta === "object" ? model.meta : {}),
+        prepMin: toNumberOrNull(f_prepMin.value),
+        cookMin: toNumberOrNull(f_cookMin.value),
+        servings: toNumberOrNull(f_servings.value)
+      };
     }
 
     function toNumberOrNull(value) {
@@ -378,12 +428,19 @@
       const safe = obj && typeof obj === "object" ? obj : {};
       const ingredients = Array.isArray(safe.ingredients) ? safe.ingredients : [];
       const steps = Array.isArray(safe.steps) ? safe.steps : [];
+      const meta = safe.meta && typeof safe.meta === "object" ? safe.meta : {};
 
       return {
         id: String(safe.id || "").trim(),
         title: String(safe.title || "").trim(),
         category: String(safe.category || "").trim(),
         description: String(safe.description || "").trim(),
+        meta: {
+          ...meta,
+          prepMin: toNumberOrNull(meta.prepMin),
+          cookMin: toNumberOrNull(meta.cookMin),
+          servings: toNumberOrNull(meta.servings)
+        },
         ingredients: ingredients
           .map((ing) => {
             if (!ing) return null;
@@ -490,6 +547,9 @@
       f_id.value = model.id || "";
       f_title.value = model.title || "";
       f_category.value = model.category || "";
+      f_prepMin.value = model.meta?.prepMin ?? "";
+      f_cookMin.value = model.meta?.cookMin ?? "";
+      f_servings.value = model.meta?.servings ?? "";
       f_description.value = model.description || "";
     }
 
@@ -500,6 +560,71 @@
       return null;
     }
 
+    function sortTextValues(values) {
+      return [...values].sort((a, b) => a.localeCompare(b, "de", { sensitivity: "base" }));
+    }
+
+    function normalizeAutocompleteKey(value) {
+      return String(value || "").trim().toLowerCase();
+    }
+
+    function addAutocompleteOption(datalist, value) {
+      if (!value) return;
+      const option = document.createElement("option");
+      option.value = value;
+      datalist.appendChild(option);
+    }
+
+    function renderAutocompleteDatalists() {
+      document.getElementById("ingredientNameOptions")?.remove();
+      document.getElementById("ingredientUnitOptions")?.remove();
+
+      const nameList = document.createElement("datalist");
+      nameList.id = "ingredientNameOptions";
+      ingredientAutocomplete.names.forEach((value) => addAutocompleteOption(nameList, value));
+
+      const unitList = document.createElement("datalist");
+      unitList.id = "ingredientUnitOptions";
+      ingredientAutocomplete.units.forEach((value) => addAutocompleteOption(unitList, value));
+
+      document.body.append(nameList, unitList);
+    }
+
+    async function loadIngredientAutocomplete() {
+      try {
+        const cachedRecipes = await getAllRecipesFromCache();
+        const names = new Set();
+        const units = new Set();
+        const byName = new Map();
+
+        for (const recipe of cachedRecipes) {
+          for (const ingredient of recipe.ingredients || []) {
+            const name = String(ingredient?.name || "").trim();
+            const unit = String(ingredient?.unit || "").trim();
+
+            if (name) names.add(name);
+            if (unit) units.add(unit);
+
+            const key = normalizeAutocompleteKey(name);
+            if (key) {
+              const entry = byName.get(key) || { units: new Set() };
+              if (unit) entry.units.add(unit);
+              byName.set(key, entry);
+            }
+          }
+        }
+
+        ingredientAutocomplete = {
+          names: sortTextValues(names),
+          units: sortTextValues(units),
+          byName
+        };
+        renderAutocompleteDatalists();
+      } catch (err) {
+        console.warn("Autocomplete-Daten konnten nicht geladen werden:", err);
+      }
+    }
+
     // ===== Zutaten-Editor =====
     function renderIngredients() {
       ingredientsList.innerHTML = "";
@@ -507,14 +632,17 @@
         const div = document.createElement("div");
         div.className = "bg-gray-50 border border-gray-200 rounded-lg p-3 space-y-2";
         div.innerHTML = `
-          <div class="flex items-end gap-2 text-sm">
-            <input class="ing-name flex-1 rounded border border-gray-300 px-2 py-1"
+          <div class="grid grid-cols-[minmax(0,1fr)_minmax(0,1fr)_auto] sm:grid-cols-[minmax(0,1fr)_5rem_4rem_auto] items-end gap-2 text-sm">
+            <input class="ing-name col-span-3 sm:col-span-1 w-full min-w-0 rounded border border-gray-300 px-2 py-1"
+              list="ingredientNameOptions" autocomplete="off"
               placeholder="Zutat" value="${escapeHtml(ing.name || '')}" data-idx="${idx}" />
-            <input class="ing-amount w-20 rounded border border-gray-300 px-2 py-1"
+            <input class="ing-amount w-full min-w-0 rounded border border-gray-300 px-2 py-1"
+              autocomplete="off"
               type="number" step="any" placeholder="Menge" value="${ing.amount || ''}" data-idx="${idx}" />
-            <input class="ing-unit w-16 rounded border border-gray-300 px-2 py-1"
+            <input class="ing-unit w-full min-w-0 rounded border border-gray-300 px-2 py-1"
+              list="ingredientUnitOptions" autocomplete="off"
               placeholder="g/ml" value="${escapeHtml(ing.unit || '')}" data-idx="${idx}" />
-            <button class="ing-del px-2 py-1 text-red-600 hover:text-red-800 text-xs" data-idx="${idx}">
+            <button class="ing-del shrink-0 px-2 py-1 text-red-600 hover:text-red-800 text-xs" data-idx="${idx}">
               ✕
             </button>
           </div>
@@ -526,7 +654,16 @@
       ingredientsList.querySelectorAll(".ing-name").forEach(el => {
         el.addEventListener("input", (e) => {
           const idx = Number(e.target.dataset.idx);
-          model.ingredients[idx].name = e.target.value.trim();
+          const name = e.target.value.trim();
+          model.ingredients[idx].name = name;
+
+          const unitInput = ingredientsList.querySelector(`.ing-unit[data-idx="${idx}"]`);
+          const entry = ingredientAutocomplete.byName.get(normalizeAutocompleteKey(name));
+          const matchingUnits = entry ? sortTextValues(entry.units) : [];
+          if (unitInput && !unitInput.value.trim() && matchingUnits.length === 1) {
+            unitInput.value = matchingUnits[0];
+            model.ingredients[idx].unit = matchingUnits[0];
+          }
         });
       });
 
@@ -712,6 +849,7 @@
 
         creds = loadCreds();
         if (!creds) throw new Error("Keine Credentials gefunden");
+        await loadIngredientAutocomplete();
 
         const recipeId = getUrlParam("id");
         const newMode = getUrlParam("new") === "1";
@@ -724,6 +862,11 @@
             title: "",
             category: "",
             description: "",
+            meta: {
+              prepMin: null,
+              cookMin: null,
+              servings: null
+            },
             ingredients: [],
             steps: []
           };
@@ -737,6 +880,12 @@
           if (!recipe) throw new Error(`Rezept #${recipeId} nicht gefunden`);
 
           model = { ...recipe };
+          model.meta = {
+            ...(recipe.meta && typeof recipe.meta === "object" ? recipe.meta : {}),
+            prepMin: toNumberOrNull(recipe.meta?.prepMin),
+            cookMin: toNumberOrNull(recipe.meta?.cookMin),
+            servings: toNumberOrNull(recipe.meta?.servings)
+          };
           headerTitle.textContent = `Bearbeiten: ${model.title}`;
           backLink.href = `recipe.html?id=${encodeURIComponent(recipeId)}`;
         } else {
@@ -829,6 +978,9 @@
     f_id.addEventListener("input", () => { readFormIntoModel(); });
     f_title.addEventListener("input", () => { readFormIntoModel(); updatePreview(); });
     f_category.addEventListener("input", () => { readFormIntoModel(); updatePreview(); });
+    f_prepMin.addEventListener("input", () => { readFormIntoModel(); updatePreview(); });
+    f_cookMin.addEventListener("input", () => { readFormIntoModel(); updatePreview(); });
+    f_servings.addEventListener("input", () => { readFormIntoModel(); updatePreview(); });
     f_description.addEventListener("input", () => { readFormIntoModel(); updatePreview(); });
 
     boot();

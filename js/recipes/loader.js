@@ -5,7 +5,6 @@ import {
   saveRecipeToCache, 
   saveMetadata, 
   getAllMetadata,
-  isCacheEmpty,
   saveImageToCache,
   clearRecipeDataCache,
   deleteRecipeFromCache,
@@ -82,11 +81,9 @@ export async function loadAllRecipesFromDav() {
   }
 
   // 1. Versuche aus Cache zu laden
-  const cacheEmpty = await isCacheEmpty();
-  
-  if (!cacheEmpty) {
-    // Cache vorhanden → sofort zurückgeben
-    const cachedRecipes = await getAllRecipesFromCache();
+  const cachedRecipes = await getAllRecipesFromCache();
+
+  if (cachedRecipes.length > 0) {
     console.log(`📦 ${cachedRecipes.length} Rezepte aus Cache geladen`);
     
     // Im Hintergrund: Sync starten (nicht blockieren)
@@ -104,7 +101,7 @@ export async function loadAllRecipesFromDav() {
 
 /**
  * Lädt alle Rezepte bewusst frisch von Nextcloud und aktualisiert den Cache.
- * Wird nur bei App-Versionswechsel genutzt.
+ * Wird nur für manuelle Daten-Cache-Aktualisierung genutzt.
  */
 export async function forceReloadAllRecipesFromDav() {
   const creds = loadCreds();
@@ -112,7 +109,7 @@ export async function forceReloadAllRecipesFromDav() {
     throw new Error("Keine Nextcloud-Credentials gefunden (localStorage). Bitte zuerst einloggen.");
   }
 
-  console.log("📥 App-Version geändert, lade alle Rezepte frisch von Nextcloud...");
+  console.log("📥 Lade alle Rezepte manuell frisch von Nextcloud...");
   return await loadAllRecipesInitial(creds, { resetRecipeCache: true });
 }
 

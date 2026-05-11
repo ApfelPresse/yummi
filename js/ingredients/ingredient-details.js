@@ -737,6 +737,10 @@ function _renderPopup(overlay, label, key, data, creds) {
 				<div class="px-5 pt-4 border-t border-gray-200 shrink-0 space-y-3"
 					style="padding-bottom: calc(1rem + env(safe-area-inset-bottom, 0px));">
 					<div class="flex gap-2">
+						<button id="det-gpt" type="button"
+							class="flex-1 rounded-xl border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50">
+							GPT
+						</button>
 						<button id="det-copy-template" type="button"
 							class="flex-1 rounded-xl border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50">
 							JSON Vorlage kopieren
@@ -749,6 +753,21 @@ function _renderPopup(overlay, label, key, data, creds) {
 							class="flex-1 rounded-xl border border-green-300 bg-green-50 px-3 py-2 text-sm font-medium text-green-700 hover:bg-green-100">
 							📊 Template
 						</button>
+					</div>
+					<div id="det-gpt-panel" class="hidden rounded-xl border border-gray-200 bg-gray-50 p-3 space-y-2">
+						<label for="det-gpt-input" class="text-xs text-gray-600">Quelle, URL, Packungstext oder Hinweis zum Bild</label>
+						<textarea id="det-gpt-input" rows="5" placeholder="z.B. URL mit Nährwerten, Text von der Packung, oder: Ich hänge ein Foto der Nährwerttabelle an."
+							class="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm"></textarea>
+						<div class="flex gap-2">
+							<button id="det-gpt-cancel" type="button"
+								class="flex-1 rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm text-gray-700 hover:bg-gray-50">
+								Abbrechen
+							</button>
+							<button id="det-gpt-go" type="button"
+								class="flex-1 rounded-lg bg-gray-900 px-3 py-2 text-sm text-white hover:bg-gray-800">
+								Zu ChatGPT
+							</button>
+						</div>
 					</div>
 					<div id="det-import-panel" class="hidden rounded-xl border border-gray-200 bg-gray-50 p-3 space-y-2">
 						<label for="det-import-text" class="text-xs text-gray-600">JSON hier einfügen</label>
@@ -888,6 +907,28 @@ function _buildFullTemplateFromCurrent(current, fallbackName) {
 	};
 }
 
+function _buildFullEmptyTemplate(fallbackName) {
+	return _buildFullTemplateFromCurrent(createEmptyDetails(fallbackName || ""), fallbackName || "");
+}
+
+function _buildIngredientGptPrompt(label, current) {
+	const template = _buildFullEmptyTemplate(label);
+	return [
+		`Parse nutrient data for "${label}" into this JSON schema.`,
+		"Return ONLY valid JSON. Keep all keys. Unknown values=null. Numbers only, no strings. Values per referenceAmount/unit, usually 100 g. Put source/notes if known.",
+		JSON.stringify(template)
+	].join("\n");
+}
+
+function _buildIngredientGptPromptWithInput(label, current, userInput) {
+	return [
+		_buildIngredientGptPrompt(label, current),
+		"SOURCE",
+		userInput || "(Der Nutzer liefert das Quellmaterial anschliessend, z.B. als Bild, URL oder Text.)",
+		"If source is URL/text/image, extract/package nutrition into schema. If values are per serving, convert to referenceAmount if possible."
+	].join("\n");
+}
+
 function _normalizeImportedData(imported, fallbackName) {
 	const base = createEmptyDetails(fallbackName || "");
 	if (!imported || typeof imported !== "object") return base;
@@ -917,6 +958,26 @@ function _bindPopupEvents(overlay, label, key, data, creds) {
 	overlay.querySelector("#det-cancel")?.addEventListener("click", closePopup);
 	overlay.querySelector("#det-backdrop")?.addEventListener("click", (e) => {
 		if (e.target === overlay.querySelector("#det-backdrop")) closePopup();
+	});
+
+	const gptPanel = overlay.querySelector("#det-gpt-panel");
+	const gptInput = overlay.querySelector("#det-gpt-input");
+	overlay.querySelector("#det-gpt")?.addEventListener("click", () => {
+		if (!gptPanel) return;
+		gptPanel.classList.remove("hidden");
+		gptInput?.focus();
+	});
+
+	overlay.querySelector("#det-gpt-cancel")?.addEventListener("click", () => {
+		if (!gptPanel) return;
+		gptPanel.classList.add("hidden");
+		if (gptInput) gptInput.value = "";
+	});
+
+	overlay.querySelector("#det-gpt-go")?.addEventListener("click", async () => {
+		const current = _collectPopupData(overlay, label);
+		const prompt = _buildIngredientGptPromptWithInput(label, current, gptInput?.value?.trim() || "");
+		window.location.href = `https://chat.openai.com/?q=${encodeURIComponent(prompt)}&temporary-chat=true`;
 	});
 
 	// ── Collapsibles ──
