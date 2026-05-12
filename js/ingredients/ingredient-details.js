@@ -405,7 +405,7 @@ function _renderPopup(overlay, label, key, data, creds) {
 								Abbrechen
 							</button>
 							<button id="det-gpt-go" type="button"
-								class="flex-1 rounded-lg bg-gray-900 px-3 py-2 text-sm text-white hover:bg-gray-800">
+							class="flex-1 rounded-lg bg-brand-ink px-3 py-2 text-sm text-white hover:bg-brand-ink-hover">
 								Zu ChatGPT
 							</button>
 						</div>
@@ -420,7 +420,7 @@ function _renderPopup(overlay, label, key, data, creds) {
 								Abbrechen
 							</button>
 							<button id="det-import-apply" type="button"
-								class="flex-1 rounded-lg bg-blue-600 px-3 py-2 text-sm text-white hover:bg-blue-700">
+							class="flex-1 rounded-lg bg-brand-primary px-3 py-2 text-sm text-white hover:bg-brand-primary-hover">
 								Übernehmen
 							</button>
 						</div>
@@ -431,7 +431,7 @@ function _renderPopup(overlay, label, key, data, creds) {
 							Abbrechen
 						</button>
 						<button id="det-save" type="button"
-							class="flex-1 rounded-xl bg-blue-600 px-4 py-3 text-sm font-medium text-white hover:bg-blue-700">
+						class="flex-1 rounded-xl bg-brand-primary px-4 py-3 text-sm font-medium text-white hover:bg-brand-primary-hover">
 							Speichern
 						</button>
 					</div>

@@ -375,7 +375,7 @@ export function renderNutrientBreakdownModal(category, nutrient, aggregated) {
 				</div>
 				
 				<!-- Close Button -->
-				<button onclick="document.getElementById('nutrientBreakdownModal')?.remove()" class="w-full mt-4 px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-900 rounded-lg font-medium transition">
+				<button onclick="document.getElementById('nutrientBreakdownModal')?.remove()" class="w-full mt-4 px-4 py-2 bg-surface-muted hover:bg-gray-200 text-gray-900 rounded-lg font-medium transition">
 					Schließen
 				</button>
 			</div>

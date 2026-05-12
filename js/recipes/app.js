@@ -220,7 +220,7 @@ function chipClass(isOn) {
   return [
     "px-3 py-1.5 rounded-full text-sm border transition",
     isOn
-      ? "bg-blue-600 border-blue-600 text-white hover:bg-blue-700"
+      ? "bg-brand-primary border-brand-primary text-white hover:bg-brand-primary-hover"
       : "bg-white border-gray-300 text-gray-800 hover:bg-gray-50"
   ].join(" ");
 }
@@ -581,7 +581,7 @@ function renderCard({ r, have, missing, score, total }) {
         </span>
       </div>
       <div class="absolute top-3 right-3">
-        <span class="text-xs font-semibold px-2 py-1 rounded-full ${percent === 100 ? "bg-green-600 text-white" : "bg-gray-900 text-white"}">
+        <span class="text-xs font-semibold px-2 py-1 rounded-full ${percent === 100 ? "bg-green-600 text-white" : "bg-brand-ink text-white"}">
           ${percent}% Match
         </span>
       </div>
@@ -606,11 +606,11 @@ function renderCard({ r, have, missing, score, total }) {
       <div class="text-sm">
         ${missing.length === 0
           ? `<div class="text-green-700 font-medium">✔ Es fehlt nichts</div>`
-          : `<div class="text-red-700"><span class="font-medium">Fehlt:</span> ${missingPreview}${missingMore}</div>`
+          : `<div class="text-semantic-danger"><span class="font-medium">Fehlt:</span> ${missingPreview}${missingMore}</div>`
         }
       </div>
 
-      <div class="hidden js-plan-hint text-xs font-medium px-2 py-1 rounded-lg bg-blue-50 text-blue-800 border border-blue-200 w-fit">
+      <div class="hidden js-plan-hint text-xs font-semibold px-2 py-1 rounded-lg bg-brand-accent-soft text-brand-accent-strong border border-brand-accent w-fit">
         Rezept zum Essensplan hinzugefügt
       </div>
     </div>
@@ -624,7 +624,7 @@ function renderCard({ r, have, missing, score, total }) {
       selectedRecipeIds.add(r.id);
       saveMealPlanSelectedRecipes(selectedRecipeIds);
       assignRecipeToTargetDay(r.id);
-      div.classList.add("ring-2", "ring-blue-500", "ring-offset-2");
+      div.classList.add("ring-2", "ring-status-info", "ring-offset-2");
       planHint.classList.remove("hidden");
       selectButton.setAttribute("aria-label", "Rezeptauswahl aufheben");
       return;
@@ -632,7 +632,7 @@ function renderCard({ r, have, missing, score, total }) {
 
     selectedRecipeIds.delete(r.id);
     saveMealPlanSelectedRecipes(selectedRecipeIds);
-    div.classList.remove("ring-2", "ring-blue-500", "ring-offset-2");
+    div.classList.remove("ring-2", "ring-status-info", "ring-offset-2");
     planHint.classList.add("hidden");
     selectButton.setAttribute("aria-label", "Rezept auswählen");
   };

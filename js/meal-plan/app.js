@@ -139,7 +139,7 @@ function renderPlanCardHtml(payload, selectedServings) {
           </div>
           <div class="p-4">
             <h3 class="text-lg font-semibold leading-snug line-clamp-2">${escapeHtml(recipe.title || "Ohne Titel")}</h3>
-            <a href="recipe.html?id=${encodeURIComponent(recipe.id)}" class="inline-flex mt-3 px-3 py-1.5 rounded-lg bg-gray-900 text-white hover:bg-gray-800 text-sm">zum Rezept</a>
+            <a href="recipe.html?id=${encodeURIComponent(recipe.id)}" class="inline-flex mt-3 px-3 py-1.5 rounded-lg bg-brand-ink text-white hover:bg-brand-ink-hover text-sm">zum Rezept</a>
           </div>
         </div>
 
@@ -159,7 +159,7 @@ function renderPlanCardHtml(payload, selectedServings) {
             <p><span class="font-medium text-gray-900">Kalorien:</span> ${roundValue(scaledNutrition.kcal)} kcal</p>
             <p><span class="font-medium text-gray-900">Fett:</span> ${roundValue(scaledNutrition.fat)} g</p>
           </div>
-          <button type="button" class="mt-3 text-xs font-medium text-red-700 hover:text-red-800 js-remove-from-plan" data-recipe-id="${escapeHtml(recipe.id)}">
+          <button type="button" class="mt-3 text-xs font-medium text-semantic-danger hover:text-semantic-danger-strong js-remove-from-plan" data-recipe-id="${escapeHtml(recipe.id)}">
             Aus Essensplan entfernen
           </button>
         </div>
@@ -218,7 +218,7 @@ function renderDayNutritionSummaryWithReferences(dayNutrition, selectedReference
   const collapsedState = loadDayNutritionCollapseState();
   const isCollapsed = !!collapsedState[dayKey];
   return `
-    <div class="px-4 py-4 border-b border-black/20 bg-stone-100">
+    <div class="px-4 py-4 border-b border-black/20 bg-surface-page">
       <div class="rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
         <button type="button" class="w-full px-4 py-3 text-sm font-semibold text-gray-900 bg-gray-50 border-b border-gray-200 flex items-center justify-between text-left js-day-nutrition-toggle" data-day-key="${escapeHtml(dayKey)}" aria-expanded="${isCollapsed ? "false" : "true"}">
           <span>Nährstoffsumme (Tag)</span>
@@ -307,10 +307,10 @@ function renderTargetBar(actual, target, showHundredLabel = false) {
   return `
     <div class="relative h-5">
       ${showHundredLabel ? `<div class="absolute -top-4 -translate-x-1/2 text-xs text-gray-700" style="left:${SOLL_MARK_PERCENT}%">100%</div>` : ""}
-      <div class="absolute top-1/2 -translate-y-1/2 h-2 w-px bg-gray-900 z-10" style="left:${SOLL_MARK_PERCENT}%"></div>
+      <div class="absolute top-1/2 -translate-y-1/2 h-2 w-px bg-status-info z-10" style="left:${SOLL_MARK_PERCENT}%"></div>
       <div class="absolute top-1/2 left-0 right-0 -translate-y-1/2 h-2 rounded-full bg-gray-200 overflow-hidden">
-        <div class="absolute inset-y-0 left-0 bg-emerald-500 rounded-full" style="width:${basePercent}%;"></div>
-        ${overflowPercent > 0 ? `<div class="absolute inset-y-0 bg-amber-500" style="left:${SOLL_MARK_PERCENT}%; width:${overflowPercent}%;"></div>` : ""}
+        <div class="absolute inset-y-0 left-0 bg-control-slider rounded-full" style="width:${basePercent}%;"></div>
+        ${overflowPercent > 0 ? `<div class="absolute inset-y-0 bg-status-info" style="left:${SOLL_MARK_PERCENT}%; width:${overflowPercent}%;"></div>` : ""}
       </div>
     </div>
   `;
@@ -328,7 +328,7 @@ function renderDiffState(actual, target, unit) {
     return `<span class="text-xs font-medium text-emerald-700">Im Ziel (${roundValue(pct)}%)</span>`;
   }
   if (delta < 0) {
-    return `<span class="text-xs font-medium text-red-700">-${deltaAbs} (${roundValue(pct)}%)</span>`;
+    return `<span class="text-xs font-medium text-semantic-danger">-${deltaAbs} (${roundValue(pct)}%)</span>`;
   }
   return `<span class="text-xs font-medium text-amber-700">+${deltaAbs} (${roundValue(pct)}%)</span>`;
 }
@@ -457,7 +457,7 @@ function renderGoalComparison(dayNutrition, selectedReferences, energyContext) {
 function renderWeekNutritionSummary(weekNutrition) {
   const isCollapsed = loadWeekCollapseState();
   return `
-    <section class="px-4 py-4 border-b-2 border-black bg-stone-100">
+    <section class="px-4 py-4 border-b-2 border-black bg-surface-page">
       <div class="rounded-2xl border border-gray-200 bg-white shadow-sm overflow-hidden">
         <button id="weekSummaryToggle" type="button" class="w-full px-4 py-3 text-sm font-semibold text-gray-900 bg-gray-50 border-b border-gray-200 flex items-center justify-between text-left" aria-expanded="${isCollapsed ? "false" : "true"}">
           <span>Nährstoffsumme (Woche)</span>
@@ -481,7 +481,7 @@ function renderDaySection(title, dayKey, cardsHtml, daySummaryHtml) {
   const collapseState = loadDayCollapseState();
   const isCollapsed = !!collapseState[dayKey];
   return `
-    <section class="border-t-2 border-black bg-stone-100">
+    <section class="border-t-2 border-black bg-surface-page">
       <button type="button" class="w-full px-4 py-5 border-b-2 border-black flex items-center justify-between text-left js-day-toggle" data-day-key="${escapeHtml(dayKey)}" aria-expanded="${isCollapsed ? "false" : "true"}">
         <h2 class="text-4xl font-semibold">${escapeHtml(title)}</h2>
         <span class="text-base leading-none text-gray-600">${isCollapsed ? "▾" : "▴"}</span>
@@ -845,9 +845,9 @@ function setupDragAndDrop({ root, assignments, dayKeys, recipesById, selectedIds
   let touchStartY = 0;
 
   const clearZoneHighlights = () => {
-    root.querySelectorAll(".meal-dropzone").forEach((zone) => {
-      zone.classList.remove("bg-blue-50");
-    });
+      root.querySelectorAll(".meal-dropzone").forEach((zone) => {
+        zone.classList.remove("bg-status-info-soft");
+      });
   };
 
   const moveRecipeToDay = (recipeId, targetDayKey) => {
@@ -907,7 +907,7 @@ function setupDragAndDrop({ root, assignments, dayKeys, recipesById, selectedIds
       clearZoneHighlights();
       const el = document.elementFromPoint(touch.clientX, touch.clientY);
       const zone = el?.closest?.(".meal-dropzone");
-      if (zone) zone.classList.add("bg-blue-50");
+      if (zone) zone.classList.add("bg-status-info-soft");
     }, { passive: false });
 
     card.addEventListener("touchend", (e) => {
@@ -942,16 +942,16 @@ function setupDragAndDrop({ root, assignments, dayKeys, recipesById, selectedIds
   root.querySelectorAll(".meal-dropzone").forEach((zone) => {
     zone.addEventListener("dragover", (e) => {
       e.preventDefault();
-      zone.classList.add("bg-blue-50");
+      zone.classList.add("bg-status-info-soft");
     });
 
     zone.addEventListener("dragleave", () => {
-      zone.classList.remove("bg-blue-50");
+      zone.classList.remove("bg-status-info-soft");
     });
 
     zone.addEventListener("drop", (e) => {
       e.preventDefault();
-      zone.classList.remove("bg-blue-50");
+      zone.classList.remove("bg-status-info-soft");
       const recipeId = draggedRecipeId || e.dataTransfer?.getData("text/plain");
       const targetDayKey = zone.dataset.dayKey;
       moveRecipeToDay(recipeId, targetDayKey);
@@ -1190,5 +1190,5 @@ async function boot() {
 
 boot().catch((err) => {
   const root = document.getElementById("planRoot");
-  root.innerHTML = `<div class="px-4 py-8 text-red-700">Fehler beim Laden des Essensplans: ${escapeHtml(err?.message || "Unbekannter Fehler")}</div>`;
+  root.innerHTML = `<div class="px-4 py-8 text-semantic-danger">Fehler beim Laden des Essensplans: ${escapeHtml(err?.message || "Unbekannter Fehler")}</div>`;
 });

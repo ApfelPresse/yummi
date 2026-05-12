@@ -12,6 +12,7 @@
   <link rel="icon" href="./favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" href="./logo.png" />
   <link rel="apple-touch-icon" href="./logo.png" />
+  <script src="./js/core/tailwind-theme.js"></script>
   <script src="./js/tialwind_3.4.17.js"></script>
   <style>
     @media (max-width: 420px) {
@@ -20,7 +21,7 @@
   </style>
 </head>
 
-<body class="bg-gray-100 text-gray-900">
+<body class="bg-surface-page text-gray-900">
   <header class="bg-white shadow-sm sticky top-0 z-20">
     <div class="max-w-5xl mx-auto px-4 py-4 flex items-center justify-between">
       <a href="index.html" class="text-sm font-medium text-gray-700 hover:text-gray-900">← Zurück</a>
@@ -32,7 +33,7 @@
         </a>
         <button id="btnShareRecipe" class="px-3 py-1.5 rounded-lg bg-gray-200 hover:bg-gray-300 text-sm">Teilen</button>
         <button id="btnToggleMode"
-          class="px-3 py-1.5 rounded-lg bg-gray-900 text-white hover:bg-gray-800 text-sm">
+          class="px-3 py-1.5 rounded-lg bg-brand-ink text-white hover:bg-brand-ink-hover text-sm">
           Pantry bearbeiten
         </button>
       </div>
@@ -40,7 +41,7 @@
   </header>
 
   <main class="max-w-5xl mx-auto px-4 py-6">
-    <div id="errorBox" class="hidden mb-5 p-4 rounded-2xl bg-red-50 border border-red-200 text-sm text-red-800"></div>
+    <div id="errorBox" class="hidden mb-5 p-4 rounded-2xl bg-red-50 border border-red-200 text-sm text-semantic-danger-strong"></div>
     <div id="content"></div>
   </main>
 
@@ -117,7 +118,7 @@
                 <ol class="space-y-3">
                   ${(recipe.steps || []).map((s,i)=>`
                     <li class="flex gap-3 items-start">
-                      <div class="w-7 h-7 rounded-full bg-gray-900 text-white flex items-center justify-center text-xs" style="min-width: 30px;">${i+1}</div>
+                      <div class="w-7 h-7 rounded-full bg-brand-ink text-white flex items-center justify-center text-xs" style="min-width: 30px;">${i+1}</div>
                       <div>
                         ${s.title ? `<div class="font-medium">${escapeHtml(s.title)}</div>` : ""}
                         <div class="text-gray-700">${escapeHtml(s.text || "")}</div>
@@ -321,4 +322,3 @@
   <script type="module" src="./js/core/sw-register.js"></script>
 </body>
 </html>
-

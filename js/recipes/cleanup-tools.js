@@ -224,7 +224,7 @@ export function createRecipeCleanupTools(options) {
               <span class="block truncate">
                 ${escapeHtml(item.label)}
                 ${item.hasInconsistentVariants ? `<span class="ml-1 text-xs font-medium text-amber-700">Varianten</span>` : ""}
-                ${item.hasAllCapsVariant ? `<span class="ml-1 text-xs font-medium text-red-700">GROSS</span>` : ""}
+                ${item.hasAllCapsVariant ? `<span class="ml-1 text-xs font-medium text-semantic-danger">GROSS</span>` : ""}
               </span>
               ${item.variants.length > 1 ? `<span class="block truncate text-xs text-gray-500">${escapeHtml(item.variants.join(", "))}</span>` : ""}
             </span>
@@ -582,7 +582,7 @@ export function createRecipeCleanupTools(options) {
                 </div>
   
                 <button id="cleanup-rename-apply" type="button" disabled
-                  class="w-full rounded-xl bg-blue-600 px-4 py-3 text-sm font-medium text-white hover:bg-blue-700 opacity-50 cursor-not-allowed">
+                  class="w-full rounded-xl bg-brand-primary px-4 py-3 text-sm font-medium text-white hover:bg-brand-primary-hover opacity-50 cursor-not-allowed">
                   In allen Rezepten umbenennen
                 </button>
               </div>
@@ -619,7 +619,7 @@ export function createRecipeCleanupTools(options) {
                 </div>
   
                 <button id="cleanup-unit-apply" type="button" disabled
-                  class="w-full rounded-xl bg-blue-600 px-4 py-3 text-sm font-medium text-white hover:bg-blue-700 opacity-50 cursor-not-allowed">
+                  class="w-full rounded-xl bg-brand-primary px-4 py-3 text-sm font-medium text-white hover:bg-brand-primary-hover opacity-50 cursor-not-allowed">
                   In allen Rezepten umbenennen
                 </button>
               </div>
